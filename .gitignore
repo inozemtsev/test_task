@@ -71,7 +71,6 @@ logs/
 *.log.*
 
 # Database
-*.db
 *.sqlite
 *.sqlite3
 
