@@ -1,0 +1,849 @@
+# Financial Fact-Find Transcript
+# Persona: Steven and Karen Lewis
+# Type: Semi-Retired Professional
+# Generated: 2025-11-17 20:35:08
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:03]  
+Hi Steven, hi Karen, thanks for taking the time today. To make sure I’ve got it right, is it okay if I call you Steve and Karen?
+
+CLIENT1 (Steven): [00:00:11]  
+Yeah, Steve is good.
+
+CLIENT2 (Karen): [00:00:13]  
+Karen’s fine, thank you.
+
+ADVISOR: [00:00:17]  
+Great. And you’re the Lewis family, living out in Brookfield Heights just outside Columbus, right?
+
+CLIENT1 (Steven): [00:00:24]  
+Yeah, that’s us. The split‑level by the park.
+
+CLIENT2 (Karen): [00:00:27]  
+We’ve been in that house for… twenty‑seven years? Something like that.
+
+ADVISOR: [00:00:32]  
+Perfect. Before we dive into numbers, I like to get a sense of health and how long we might be planning for. Steve, how would you describe your health at the moment?
+
+CLIENT1 (Steven): [00:00:42]  
+Um… pretty decent. I’m sixty‑three now. Knee’s a bit dodgy from football back in the day, and I’m on blood pressure and cholesterol tablets, but I walk the dog every day, try to get on the bike when the weather’s not awful.
+
+ADVISOR: [00:00:56]  
+Any major issues—heart problems, diabetes, anything like that?
+
+CLIENT1 (Steven): [00:01:00]  
+No, nothing like that. Just the usual “keep an eye on it” stuff.
+
+ADVISOR: [00:01:04]  
+Got it. And Karen, how about you?
+
+CLIENT2 (Karen): [00:01:07]  
+I’m sixty‑eight. I had a hip replacement nearly three years ago—that slowed me down for a while—but it’s fine now. I do Pilates once a week. I’ve got type two diabetes, but it’s controlled, diet plus a little pill.
+
+ADVISOR: [00:01:20]  
+Okay, so a few things to manage but you’re both active. And your mom’s still going strong, Karen, is that right?
+
+CLIENT2 (Karen): [00:01:27]  
+She’s eighty‑nine and still arguing with everyone, yes.
+
+ADVISOR: [00:01:31]  
+That’s helpful. I’ll be thinking in terms of a twenty‑plus‑year retirement for both of you.  
+
+Let’s talk about where you are with work. You described yourselves as semi‑retired. Steve, what are you doing at the moment?
+
+CLIENT1 (Steven): [00:01:44]  
+So I cut down last year. I’m with the City of Riverton, Public Works, doing project management. I was full‑time, now I do three days a week—about twenty‑four hours.
+
+ADVISOR: [00:01:55]  
+And roughly what does that bring in before tax over a year?
+
+CLIENT1 (Steven): [00:02:00]  
+It works out to, I think, thirty‑six, thirty‑seven thousand a year. Somewhere in there.
+
+ADVISOR: [00:02:06]  
+And that’s W‑2 salary, regular paycheck, they’re withholding federal and state tax?
+
+CLIENT1 (Steven): [00:02:11]  
+Yeah, all that’s coming out of it.
+
+CLIENT2 (Karen): [00:02:14]  
+I checked one of his stubs, it’s all there.
+
+ADVISOR: [00:02:18]  
+Good. Karen, how about you—are you working at all?
+
+CLIENT2 (Karen): [00:02:22]  
+A tiny bit. I’m mostly retired. I do a couple of mornings a week at Brighton Community Library—children’s programs, check‑in, that sort of thing.
+
+ADVISOR: [00:02:31]  
+Nice. And what does that add up to over a year?
+
+CLIENT2 (Karen): [00:02:35]  
+Maybe six or seven hundred a month when it’s busy, less in the summer. So I’d say seven, maybe eight thousand a year before tax.
+
+ADVISOR: [00:02:44]  
+Okay, so more of a “keep busy and have a bit of extra” job than a financial necessity?
+
+CLIENT2 (Karen): [00:02:49]  
+Exactly. If the plan worked without it, I’d happily cut back.
+
+ADVISOR: [00:02:54]  
+When you look ahead, Steve, if money were no object, when would you *like* to stop work altogether?
+
+CLIENT1 (Steven): [00:03:01]  
+We’ve gone back and forth on that. In my head, I don’t see me doing this into my seventies. I kinda told my boss “maybe two more years.” So, end of twenty‑twenty‑six, early twenty‑twenty‑seven? I’d be sixty‑five, sixty‑six.
+
+ADVISOR: [00:03:14]  
+So broadly that sixty‑five to sixty‑six window.
+
+CLIENT1 (Steven): [00:03:17]  
+Yeah, that’s what I’m picturing.
+
+ADVISOR: [00:03:19]  
+And Karen, how does that fit with your picture?
+
+CLIENT2 (Karen): [00:03:22]  
+That’s what we’ve talked about. I’m already mostly retired. I can see me keeping the little library job a bit longer, maybe until seventy or seventy‑one, if my health’s okay. But I’d like him to be able to stop then and us to do more travelling.
+
+ADVISOR: [00:03:36]  
+Let’s come back to the travel in a second. Before that, just so I understand the baseline numbers you’re trying to hit: when you imagine a comfortable, full‑retirement lifestyle—no work needed—how much annual income do you feel you’d want coming in before tax?
+
+CLIENT2 (Karen): [00:03:51]  
+We did scribble some numbers. We thought if we had somewhere between forty and forty‑five thousand a year for normal living, we’d be okay.
+
+CLIENT1 (Steven): [00:03:59]  
+Yeah, that’s bills, running the car, eating out sometimes. Not lavish, but comfortable.
+
+CLIENT2 (Karen): [00:04:04]  
+Travel on top, though.
+
+ADVISOR: [00:04:06]  
+Right, so vacations are mentally a separate pot.
+
+CLIENT1 (Steven): [00:04:09]  
+Yeah. For the first ten years or so after I stop, we’d like to do more long‑haul while we still can. We were thinking another five, six thousand a year on average for trips. Not every single year, but roughly.
+
+ADVISOR: [00:04:21]  
+So some extra, front‑loaded spending in the early retirement years. Once you’re into your eighties, maybe less flying.
+
+CLIENT2 (Karen): [00:04:27]  
+Exactly. I can’t see us flying to New Zealand at eighty‑five.
+
+ADVISOR: [00:04:32]  
+Okay, I’ll keep that “active years” phase in mind.  
+
+Let’s switch gears and talk about what’s coming in *now*, so we can see how far you are from that picture. Steve, aside from your Riverton salary, you mentioned you’ve already started one of your pensions?
+
+CLIENT1 (Steven): [00:04:45]  
+Yeah, I’ve got a defined benefit pension from my old employer, Harrison Manufacturing. I was there nearly thirty years. That started last spring when I turned sixty‑two.
+
+ADVISOR: [00:04:55]  
+Roughly how much is that paying you each month before tax?
+
+CLIENT1 (Steven): [00:05:00]  
+It’s around fourteen hundred, fourteen fifty a month. It creeps up a little with cost‑of‑living.
+
+ADVISOR: [00:05:06]  
+And they’re withholding federal tax from that?
+
+CLIENT1 (Steven): [00:05:09]  
+Federal, yes. I’m not sure about state. I’d have to look at the letter.
+
+ADVISOR: [00:05:14]  
+That’s okay—we’ll treat it as taxable pension income for planning. Did you take a lump sum when you started that pension?
+
+CLIENT1 (Steven): [00:05:20]  
+I did. I took the maximum they let me—about fifty‑five thousand—moved it into our savings.
+
+CLIENT2 (Karen): [00:05:26]  
+That’s part of what ended up in the high‑yield savings.
+
+ADVISOR: [00:05:30]  
+Got it. And Social Security for you, Steve—have you started that yet?
+
+CLIENT1 (Steven): [00:05:34]  
+No, I’m holding off. I logged into the Social Security website and if I take it at sixty‑six and a half, it said something like twenty‑six hundred a month. Don’t quote me exactly, but around that.
+
+ADVISOR: [00:05:46]  
+And you’re sixty‑three now, so you’re thinking around 2027 for that?
+
+CLIENT1 (Steven): [00:05:50]  
+Yeah, that lines up with when I’d like to stop at the city.
+
+ADVISOR: [00:05:54]  
+Okay. Karen, let’s go through your side. You’ve got your school pension and Social Security in payment, correct?
+
+CLIENT2 (Karen): [00:06:00]  
+Yes. The big one is my counselor’s pension from North Valley School District. That started when I turned sixty‑five, so June twenty‑twenty‑one.
+
+ADVISOR: [00:06:09]  
+And what’s that paying now, roughly?
+
+CLIENT2 (Karen): [00:06:12]  
+It’s just under two thousand a month—nineteen‑something. It goes up a bit each July with their COLA.
+
+ADVISOR: [00:06:19]  
+Then Social Security on top?
+
+CLIENT2 (Karen): [00:06:22]  
+Yes, I took Social Security at sixty‑six. That’s around nineteen, maybe nineteen‑fifty a month now. We set it so they take ten percent tax.
+
+ADVISOR: [00:06:31]  
+Good. And those two—pension plus Social Security—go straight into your joint account?
+
+CLIENT2 (Karen): [00:06:35]  
+Yes, all into the joint.
+
+ADVISOR: [00:06:38]  
+Are either of you drawing a regular income from retirement accounts yet, like IRAs or 403(b)s?
+
+CLIENT1 (Steven): [00:06:44]  
+Not regularly. We pulled from my old 401(k)—now a rollover IRA—once last year. About ten thousand, right before Christmas.
+
+CLIENT2 (Karen): [00:06:52]  
+We don’t want to rely on that every month. We use it for bigger things.
+
+ADVISOR: [00:06:57]  
+Okay, occasional withdrawals, not a fixed stream. That’s helpful.  
+
+I want to flip to the other side of the equation now—what’s going *out* each month. That tells us how much income you really need. Starting with the basics: housing costs, utilities, that sort of thing. You said the mortgage is gone now?
+
+CLIENT1 (Steven): [00:07:13]  
+Yeah, paid that off two years ago. We actually did a little “burn the mortgage” thing in the backyard.
+
+CLIENT2 (Karen): [00:07:18]  
+Roasted marshmallows over it.
+
+ADVISOR: [00:07:21]  
+Love it. So no mortgage. What do the remaining house‑running costs look like—property tax spread over the year, utilities, internet, insurance?
+
+CLIENT1 (Steven): [00:07:30]  
+Um… I’d say probably between thirteen and fifteen hundred a month, all‑in? I’d have to check the bank, but that’s the ballpark.
+
+CLIENT2 (Karen): [00:07:38]  
+Yeah, property tax works out to just over three hundred a month if you average it, gas and electric are about two hundred‑plus at the moment, then water, trash, internet, cell phones, homeowners insurance… It’s definitely over twelve hundred.
+
+ADVISOR: [00:07:52]  
+Okay, let’s say roughly $1,300–$1,500 for essential house bills. Food and groceries next—what do you spend there in a typical month?
+
+CLIENT2 (Karen): [00:08:00]  
+Groceries have gone mad. We’re probably at six to seven hundred a month now. A bit more when the grandkids are over a lot.
+
+CLIENT1 (Steven): [00:08:08]  
+Yeah, about six hundred on average. One big shop at the start of the month, then top‑ups.
+
+ADVISOR: [00:08:14]  
+Would you put food firmly in the “must have” bucket? You might tweak it, but it’s essential?
+
+CLIENT2 (Karen): [00:08:19]  
+Yeah. We could trim a little, but we’re not eating caviar.
+
+CLIENT1 (Steven): [00:08:23]  
+We don’t eat out loads, maybe once a week if that, so most of that is just normal groceries.
+
+ADVISOR: [00:08:29]  
+Other regular essentials—insurance, medical, that kind of thing—anything big there?
+
+CLIENT2 (Karen): [00:08:34]  
+We’ve got Medicare plus a supplement each, and a small dental plan. That’s, what, a couple hundred a month all together?
+
+CLIENT1 (Steven): [00:08:41]  
+Yeah, around there.
+
+ADVISOR: [00:08:43]  
+We’ll line those up in detail later. Let’s talk about some of the *other* spending—vacations, hobbies, helping family. You said travel is a big one for you?
+
+CLIENT1 (Steven): [00:08:52]  
+Yeah, that’s the fun bit. We usually do one bigger trip a year—last year was Portugal for two weeks—and then a few long weekends.
+
+CLIENT2 (Karen): [00:08:59]  
+And some little mid‑week breaks now that he’s not full‑time.
+
+CLIENT1 (Steven): [00:09:03]  
+Money‑wise, the big trip is maybe three to four thousand, then the weekends might be another fifteen hundred, two grand across the year.
+
+ADVISOR: [00:09:12]  
+So maybe $4,500–$6,000 a year on travel. If markets had a bad year, is that something you’d be comfortable trimming, or is travel almost “essential” to your ideal retirement?
+
+CLIENT1 (Steven): [00:09:23]  
+I’d say we could cut back. Do something smaller, stay with friends, maybe skip a year.
+
+CLIENT2 (Karen): [00:09:28]  
+Yeah, I’d call it discretionary, but it’s high on the list. We’re not big spenders on gadgets. That’s our thing.
+
+ADVISOR: [00:09:35]  
+Understood. You’ve mentioned grandkids a few times. Are you helping financially there?
+
+CLIENT2 (Karen): [00:09:40]  
+We are. Our daughter works three days a week and we help with daycare for their little one.
+
+CLIENT1 (Steven): [00:09:45]  
+We pay for one of her days at daycare.
+
+ADVISOR: [00:09:48]  
+What does that run you per month?
+
+CLIENT2 (Karen): [00:09:52]  
+Let me think… it’s around sixty‑something dollars a day. We cover one day a week, so four or five days a month—about two‑sixty a month, I think.
+
+CLIENT1 (Steven): [00:10:01]  
+Yeah, the standing order is $260. It creeps up every year.
+
+ADVISOR: [00:10:06]  
+And how long do you expect to do that?
+
+CLIENT2 (Karen): [00:10:09]  
+Probably until she gets the free preschool hours, so another two, maybe three years. She just turned two.
+
+CLIENT1 (Steven): [00:10:16]  
+Once she’s in school, that’ll drop off.
+
+ADVISOR: [00:10:19]  
+Would you treat that as a high‑priority commitment for now, or something you’d scale back if money got tight?
+
+CLIENT2 (Karen): [00:10:24]  
+We’d really hate to cut that. She relies on it so she can work.
+
+CLIENT1 (Steven): [00:10:28]  
+Yeah, to me that’s non‑negotiable, at least while I’m still doing my three days. If I fully retire and things were tight, we might have to revisit it, but we’d try hard to keep it going.
+
+ADVISOR: [00:10:39]  
+So, in your minds, priorities are: housing costs and utilities, food, the daycare support for the next few years, then travel and other leisure which you’d flex more?
+
+CLIENT1 (Steven): [00:10:48]  
+That sounds about right.
+
+CLIENT2 (Karen): [00:10:50]  
+Mm‑hmm, yes.
+
+ADVISOR: [00:10:54]  
+Any memberships or subscriptions I should know about—gym, golf, streaming services?
+
+CLIENT1 (Steven): [00:10:59]  
+I’ve got a golf membership, about seventy‑something a month. That’s one I’d drop or go pay‑as‑you‑go if we needed to cut back.
+
+CLIENT2 (Karen): [00:11:06]  
+And we’ve got Netflix and Prime and that, but that’s under fifty dollars a month together.
+
+ADVISOR: [00:11:11]  
+Okay, so those are lower‑priority discretionary items.  
+
+Let’s zoom out a bit and talk about what you *own*. We’ve already mentioned the house. Can you walk me through it—value, any loans, all that?
+
+CLIENT1 (Steven): [00:11:22]  
+Sure. It’s a four‑bedroom split‑level in Brookfield Heights. No mortgage now—we paid it off two years ago, right before I went to three days a week.
+
+CLIENT2 (Karen): [00:11:31]  
+We did the little “burn the mortgage” ceremony.
+
+ADVISOR: [00:11:34]  
+Big milestone. Any sense of what it would sell for today?
+
+CLIENT1 (Steven): [00:11:38]  
+I checked Zillow a couple months ago. It showed mid‑ to high‑three hundreds. Maybe three‑eighty, three‑ninety.
+
+CLIENT2 (Karen): [00:11:45]  
+Our neighbor’s went for just over four, but their kitchen is nicer than ours. So I’d say a little under that.
+
+ADVISOR: [00:11:51]  
+Okay, say upper $300s, no mortgage. Any other real estate—vacation place, rental, land?
+
+CLIENT1 (Steven): [00:11:58]  
+Yeah, there’s the cabin. I always forget to mention that till my brother reminds me.
+
+CLIENT2 (Karen): [00:12:02]  
+The little place up by the lake.
+
+ADVISOR: [00:12:04]  
+Tell me about the cabin.
+
+CLIENT1 (Steven): [00:12:07]  
+It’s a small A‑frame on Lake Marston in northern Wisconsin. My parents bought it years ago. When Dad passed, it went to us three kids, so I’ve got a one‑third share. No mortgage on it.
+
+ADVISOR: [00:12:18]  
+And what’s the whole property roughly worth now?
+
+CLIENT1 (Steven): [00:12:22]  
+We had it appraised in twenty‑nineteen when Mom moved to assisted living—it was about one‑eighty then. Prices have gone up, so maybe two‑twenty, two‑thirty now?
+
+CLIENT2 (Karen): [00:12:32]  
+Yeah, somewhere in the low twos. We haven’t had it appraised again.
+
+ADVISOR: [00:12:36]  
+Do you rent it out at all?
+
+CLIENT1 (Steven): [00:12:39]  
+Mostly family, but my brother puts it on Airbnb a couple weeks in August. We get a little check—maybe a couple thousand a year split three ways.
+
+CLIENT2 (Karen): [00:12:47]  
+It tends to cover the property taxes and the dock fee. We don’t really see it as income.
+
+ADVISOR: [00:12:53]  
+Makes sense. Long‑term, do you picture keeping that into your eighties, or might you sell it?
+
+CLIENT1 (Steven): [00:12:58]  
+We’ve talked about it. I love it up there now—I can take my laptop and “work from cabin.” But realistically, when the drive is harder, maybe ten years from now, I could see us selling our share or the whole thing.
+
+CLIENT2 (Karen): [00:13:10]  
+And the kids aren’t lake people. They come up once and then complain about mosquitoes, so I don’t think they’ll want it forever.
+
+ADVISOR: [00:13:17]  
+Okay, so potential asset to sell later if needed.  
+
+Let’s move to cash and near‑cash. What do you usually keep in the bank—checking, savings, money market?
+
+CLIENT2 (Karen): [00:13:25]  
+In the credit union, we usually keep around ten to fifteen thousand in checking. That’s bills and a little cushion.
+
+CLIENT1 (Steven): [00:13:32]  
+Then we’ve got a high‑yield savings online with Marcus. That’s where the bigger cash is.
+
+ADVISOR: [00:13:38]  
+Roughly how much is in that Marcus account?
+
+CLIENT1 (Steven): [00:13:41]  
+Last time I looked it was low fifties. Maybe fifty‑two, fifty‑three thousand. Part of that is money from my mom’s estate we haven’t decided what to do with.
+
+CLIENT2 (Karen): [00:13:51]  
+Yeah, the inheritance came through last summer, and we just parked it there. We didn’t want to rush into the market right while he was cutting back his hours.
+
+ADVISOR: [00:14:00]  
+Is that inheritance earmarked for anything—travel, roof, bathroom remodel—or just a general buffer?
+
+CLIENT1 (Steven): [00:14:06]  
+Kind of all of the above. We know we’ll need a new roof in, what, five years?
+
+CLIENT2 (Karen): [00:14:10]  
+The roofer said five to seven years. And my knees are iffy, so we’re thinking of making the bathroom more accessible at some point. So we’re hesitant to lock that money up too long.
+
+ADVISOR: [00:14:20]  
+Any CDs or similar short‑term stuff?
+
+CLIENT1 (Steven): [00:14:23]  
+Yeah, we’ve got a little CD ladder at the credit union. Three CDs—six, twelve, and eighteen months. Each is around eight or nine thousand.
+
+CLIENT2 (Karen): [00:14:32]  
+The first one comes due in March. Then September, then next March.
+
+ADVISOR: [00:14:38]  
+And the plan there—maybe roll them, or let them come back to cash if you slow down work?
+
+CLIENT1 (Steven): [00:14:42]  
+Exactly. If I really slow the consulting part of my life, we might let them come back to cash.
+
+ADVISOR: [00:14:48]  
+Great. Outside of the bank and CDs, do you have any regular investment or brokerage accounts in non‑retirement money?
+
+CLIENT2 (Karen): [00:14:54]  
+We’ve got one joint brokerage at Schwab. It used to be TD Ameritrade, then it switched.
+
+CLIENT1 (Steven): [00:14:59]  
+There’s not a ton in there. Maybe seventy to eighty thousand. Mostly index funds. We haven’t really touched it, because between my part‑time pay and my pension and her Social Security and pension, the monthly stuff is covered.
+
+ADVISOR: [00:15:11]  
+So that brokerage is more a later‑retirement bucket—medical costs, extra travel later on.
+
+CLIENT1 (Steven): [00:15:16]  
+Exactly. Once I’m not consulting at all.
+
+CLIENT2 (Karen): [00:15:19]  
+Or if we have big medical bills Medicare doesn’t cover.
+
+ADVISOR: [00:15:23]  
+Any individual stocks outside Schwab, like old company shares?
+
+CLIENT2 (Karen): [00:15:27]  
+We do have his old company stock from years ago—remember, the phone company shares?
+
+CLIENT1 (Steven): [00:15:31]  
+Oh right. I’ve got some legacy shares of MidState Telecom in a DRIP account—dividends reinvested—separate from Schwab. Current value is maybe fifteen, sixteen thousand.
+
+ADVISOR: [00:15:41]  
+Would you be open to consolidating that later or do you like it where it is?
+
+CLIENT1 (Steven): [00:15:45]  
+I’m open to consolidating. It’s mostly inertia. I’ve had that login since dial‑up internet.
+
+CLIENT2 (Karen): [00:15:50]  
+If it simplifies things for when we’re in our seventies and eighties, I’m all for it.
+
+ADVISOR: [00:15:55]  
+Good to know.  
+
+Now, retirement accounts. Steve, you mentioned an IRA from an old 401(k). Where’s that held?
+
+CLIENT1 (Steven): [00:16:02]  
+That’s with Vanguard. I rolled my old 401(k) into a traditional IRA last spring.
+
+ADVISOR: [00:16:07]  
+Ballpark value on that now?
+
+CLIENT1 (Steven): [00:16:10]  
+Last I checked, maybe two‑sixty, give or take ten either way.
+
+ADVISOR: [00:16:14]  
+And how is it invested—roughly?
+
+CLIENT1 (Steven): [00:16:17]  
+Mostly index funds. Total U.S. stock, total international, and a bond fund. I upped the bonds a bit when I dropped to three days—maybe thirty percent bonds now.
+
+ADVISOR: [00:16:26]  
+Are you adding to that IRA still, or just letting it grow?
+
+CLIENT1 (Steven): [00:16:30]  
+Just letting it grow. I put new contributions into the city plan instead.
+
+ADVISOR: [00:16:34]  
+That’s the RiverRock plan you mentioned?
+
+CLIENT1 (Steven): [00:16:37]  
+Yeah, RiverRock Pensions—City of Riverton’s 457 plan. It’s called “RiverRock Flexible Retirement Account.”
+
+ADVISOR: [00:16:43]  
+And what’s the value there roughly?
+
+CLIENT1 (Steven): [00:16:46]  
+App on my phone says eighty‑seven thousand and a bit. I put in four percent of my salary, they match three, so it creeps up.
+
+ADVISOR: [00:16:54]  
+Any withdrawals from RiverRock yet?
+
+CLIENT1 (Steven): [00:16:56]  
+No, we’ve left that one alone.
+
+ADVISOR: [00:16:58]  
+In your head, when might you start drawing from it?
+
+CLIENT1 (Steven): [00:17:01]  
+Maybe sixty‑five. Though, with prices the way they are, we’ve talked about nudging that forward.
+
+CLIENT2 (Karen): [00:17:06]  
+Yeah, that’s one of our questions—whether it makes sense to start a small income from it now.
+
+ADVISOR: [00:17:11]  
+We’ll look at that against your tax brackets—because you’ve got salary plus the Harrison pension already.  
+
+Any tiny old pensions floating around, Steve? Sometimes there’s a little orphan account.
+
+CLIENT1 (Steven): [00:17:21]  
+Yeah, a tiny one from my first employer. I think it’s with OakBridge Retirement. Last time I looked it was maybe two, two‑and‑a‑half thousand. We keep talking about just rolling it into RiverRock.
+
+ADVISOR: [00:17:31]  
+Okay, good to note.  
+
+Karen, how about you—any retirement accounts besides your school pension and Social Security?
+
+CLIENT2 (Karen): [00:17:37]  
+I’ve got a 403(b) with TIAA from the school district. I left it there when I retired.
+
+ADVISOR: [00:17:42]  
+Roughly how big is that?
+
+CLIENT2 (Karen): [00:17:44]  
+I think it’s around one‑fifty. Somewhere between one‑forty and one‑sixty the last time we looked.
+
+ADVISOR: [00:17:49]  
+Are you drawing anything from that yet?
+
+CLIENT2 (Karen): [00:17:52]  
+No, we’re leaving it invested. My pension and Social Security, plus his bits, cover the basics.
+
+ADVISOR: [00:17:58]  
+Great. Do either of you have a Health Savings Account?
+
+CLIENT1 (Steven): [00:18:02]  
+Oh, right, the HSA. I’ve still got an old one from when I had the high‑deductible plan before Medicare. There’s maybe twelve thousand in it.
+
+CLIENT2 (Karen): [00:18:10]  
+We haven’t used it much. We’ve been paying for glasses and things out of pocket and saving the HSA for later.
+
+ADVISOR: [00:18:16]  
+Okay, so that’s a little pot earmarked for future medical costs.  
+
+Before we go deeper into strategy, I want to check if there are any loans or debts besides the day‑to‑day credit card that we should factor in. You said the mortgage is gone. Any car loans, personal loans?
+
+CLIENT1 (Steven): [00:18:31]  
+Yeah, the car’s on finance. Just a regular auto loan—about two‑twenty a month. There’s, I think, two years left on it.
+
+CLIENT2 (Karen): [00:18:38]  
+And we did a furniture deal when we redid the living room—interest‑free, about seventy dollars a month. That’s got a year or so left.
+
+ADVISOR: [00:18:46]  
+Credit cards—you carry a balance or pay in full?
+
+CLIENT2 (Karen): [00:18:49]  
+We try to clear them. Sometimes a few hundred rolls over after Christmas or birthdays, but not big balances now.
+
+CLIENT1 (Steven): [00:18:55]  
+Nothing like when the kids were at home.
+
+ADVISOR: [00:18:58]  
+Okay, so no big high‑interest debt.  
+
+I’m going to pivot briefly to something less numbers‑based: how you feel about investment risk. When markets wobble, like they did a couple of years ago, how did you react seeing your accounts move up and down?
+
+CLIENT2 (Karen): [00:19:11]  
+I hate it. I don’t even look. I just ask him, “Are we okay?”
+
+CLIENT1 (Steven): [00:19:16]  
+I probably check too often. But having my pension and her pension and Social Security coming in made it easier. We didn’t have to sell at the bottom—we just paused pulling from the IRA and Schwab for a bit.
+
+ADVISOR: [00:19:26]  
+On a scale from very cautious to very adventurous, where would each of you put yourselves?
+
+CLIENT1 (Steven): [00:19:31]  
+Somewhere in the middle, maybe slightly cautious. I don’t want to be all in cash, but I don’t want to lie awake at night either.
+
+CLIENT2 (Karen): [00:19:37]  
+I’m more cautious than he is. If it were just me, we’d have it all in CDs.
+
+CLIENT1 (Steven): [00:19:41]  
+Which is why we compromise.
+
+ADVISOR: [00:19:44]  
+That’s really useful. After this I’ll send you a short risk questionnaire so we can put some numbers around that and match your investments appropriately.
+
+CLIENT2 (Karen): [00:19:51]  
+Okay.
+
+ADVISOR: [00:19:54]  
+I also want to touch on estate planning while we’re on the big‑picture stuff. Do you have wills in place?
+
+CLIENT2 (Karen): [00:20:00]  
+We do, but they’re ancient.
+
+CLIENT1 (Steven): [00:20:02]  
+Yeah, we did them when the kids were little. Must be fifteen, sixteen years ago.
+
+CLIENT2 (Karen): [00:20:07]  
+The guardians are my sister and her husband and they’ve moved to Canada, so it’s all out of date.
+
+ADVISOR: [00:20:12]  
+So wills exist but need a refresh—grown children, more in pensions and investments, guardians no longer relevant.
+
+CLIENT1 (Steven): [00:20:18]  
+Exactly. It’s on the to‑do list.
+
+ADVISOR: [00:20:20]  
+Alright, we’ll treat that as a parallel project—get the finances lined up and then a lawyer can make sure the paperwork matches your wishes.  
+
+Coming back to income planning: once Steve stops at the city, that paycheck disappears. That’s the bit that’s worrying you, right?
+
+CLIENT2 (Karen): [00:20:34]  
+Yeah. Right now, with his salary plus the pensions, we’re fine. It’s once that thirty‑odd thousand goes away that I get nervous.
+
+CLIENT1 (Steven): [00:20:42]  
+We know some of that gap will be covered when my Social Security kicks in, but there’s still a period in between.
+
+ADVISOR: [00:20:47]  
+Let’s sketch that period. Suppose you stop at the end of 2026 and delay Social Security until mid‑2027 or even later. Your guaranteed income at that point would be: Harrison pension (about $17k a year), Karen’s school pension (about $24k), Karen’s Social Security (around $23k), plus maybe a bit from her library job if she keeps that. So you’re somewhere in the low‑to‑mid‑60s before tax even without your city salary or your Social Security. Does that sound about right?
+
+CLIENT1 (Steven): [00:21:10]  
+Yeah, that sounds like what we worked out roughly.
+
+CLIENT2 (Karen): [00:21:13]  
+We just don’t know how the tax works, and what’s “safe” to pull from the IRAs without running out.
+
+ADVISOR: [00:21:19]  
+Exactly—and that’s where the projections come in. We’ll map out: pension and Social Security income, then how much we can sustainably draw from the IRA, your TIAA 403(b), RiverRock, and even the brokerage, to fund the extra travel for those first ten years.  
+
+Speaking of withdrawals, you mentioned you used about $10,000 from the IRA last year. What was that for?
+
+CLIENT1 (Steven): [00:21:37]  
+Partly Christmas, partly we redid part of the kitchen floor.
+
+CLIENT2 (Karen): [00:21:40]  
+And a trip to Colorado to see friends.
+
+ADVISOR: [00:21:43]  
+Do you see yourselves needing that kind of extra ten grand a year going forward, or was last year unusual?
+
+CLIENT1 (Steven): [00:21:49]  
+It might be every other year, something like that.
+
+CLIENT2 (Karen): [00:21:52]  
+Once he’s fully retired and we’re doing more trips, it probably will be more regular.
+
+ADVISOR: [00:21:57]  
+Okay. And you haven’t touched Karen’s TIAA or your RiverRock yet, so those are still growing in the background.
+
+CLIENT2 (Karen): [00:22:02]  
+Right. We liked the idea of leaving at least one pot for “later‑later.”
+
+CLIENT1 (Steven): [00:22:06]  
+Now we’re wondering if we should use some of that earlier and delay my Social Security longer.
+
+ADVISOR: [00:22:11]  
+That could absolutely be an option—using your own savings and pensions to let Social Security grow. We’ll run “what‑if” scenarios on that.  
+
+Out of curiosity, when you think about the longer term—say one of you needs care in your eighties—how important is it that you *protect* the house for the kids versus being willing to spend everything down?
+
+CLIENT2 (Karen): [00:22:28]  
+We’d like to leave something, but we’re not obsessed with leaving a huge inheritance.
+
+CLIENT1 (Steven): [00:22:33]  
+Yeah, we say to the kids, “If there’s something left, great, but we’re not living on beans so you can get a bigger house.”
+
+CLIENT2 (Karen): [00:22:39]  
+We’d like care to be covered if we need it, though. That’s the main thing.
+
+ADVISOR: [00:22:43]  
+That helps—so you’re open to using assets like the cabin or even downsizing the house one day if it made sense.
+
+CLIENT1 (Steven): [00:22:49]  
+We’re open to downsizing later, yeah. Not yet—we still like the garden, and we’re doing a lot of babysitting.
+
+CLIENT2 (Karen): [00:22:55]  
+Maybe in five, seven years we’d think about it.
+
+ADVISOR: [00:22:58]  
+Okay. That gives us a lot of flexibility in the plan.  
+
+Let me check something else: do you have any life insurance still in place?
+
+CLIENT1 (Steven): [00:23:06]  
+Just a small policy through the city, like fifty thousand, that goes away when I leave. We had bigger ones when the kids were small; those lapsed.
+
+CLIENT2 (Karen): [00:23:14]  
+We haven’t taken out anything new.
+
+ADVISOR: [00:23:16]  
+Given your ages and that the mortgage is gone, it may not be essential, but I’ll run through that as well.  
+
+Coming back to the here‑and‑now cash flow: if you add up the essential stuff we talked about—house bills, food, insurance, daycare help—what do you think your “must cover” monthly spending is?
+
+CLIENT1 (Steven): [00:23:33]  
+Uh, house was thirteen to fifteen hundred, groceries six to seven hundred, insurances and gas and that maybe another six or seven hundred?
+
+CLIENT2 (Karen): [00:23:42]  
+Plus the daycare two‑sixty, and the car loan and furniture, nearly three hundred.
+
+CLIENT1 (Steven): [00:23:47]  
+So maybe three to thirty‑five hundred a month as absolute basics?
+
+ADVISOR: [00:23:51]  
+So around forty to forty‑two thousand a year for essentials, which matches nicely with that forty to forty‑five target you mentioned. Then travel, gifts, extras go on top.
+
+CLIENT2 (Karen): [00:24:01]  
+Yeah, that sounds about right.
+
+ADVISOR: [00:24:04]  
+Good. That means your guaranteed income—your two pensions and Karen’s Social Security—already comes close to covering most or all of the essentials even without Steve’s salary, which is a strong position.  
+
+Let’s talk about one technical piece you mentioned: tax and when to start drawing from RiverRock or your TIAA. What’s your biggest worry there—running out, or paying more tax than you need to?
+
+CLIENT1 (Steven): [00:24:21]  
+Both. I don’t want to bump myself into a higher tax bracket just to have the cash sitting in the bank.
+
+CLIENT2 (Karen): [00:24:26]  
+And we don’t want to get to seventy‑five and find we’ve left too much until the required minimum distributions kick in.
+
+ADVISOR: [00:24:32]  
+Exactly. We’ll look carefully at the years between full retirement and when Required Minimum Distributions start. That can be a sweet spot to draw some money out at relatively low tax.  
+
+By the way, on that HSA—do you have it invested or is it sitting in cash?
+
+CLIENT1 (Steven): [00:24:45]  
+It’s half and half. A bit in a mutual fund, a bit in cash.
+
+ADVISOR: [00:24:49]  
+Okay. We’ll check the investment options there too, since HSAs can be really powerful long‑term medical buckets.  
+
+Before we start modelling scenarios, are there any big upcoming expenses we haven’t talked about? You mentioned the roof and a possible bathroom remodel.
+
+CLIENT2 (Karen): [00:25:02]  
+Those are the big ones. Maybe a car in a few years when his current one goes back.
+
+CLIENT1 (Steven): [00:25:07]  
+Yeah, when this auto loan ends I’m not planning to buy it out. We’ll either lease something small or buy a used one.
+
+ADVISOR: [00:25:13]  
+Any thoughts on helping the kids with college for the grandkids, or big gifts like that?
+
+CLIENT2 (Karen): [00:25:17]  
+We throw a bit in for birthdays and we help with daycare, but we haven’t promised college tuition or anything.
+
+CLIENT1 (Steven): [00:25:22]  
+If things go well and there’s extra, we might help later.
+
+ADVISOR: [00:25:26]  
+Alright.  
+
+Let me circle back to your travel plans for the “active” retirement years. You said five to six thousand a year on average. Any bucket‑list trips you’ve got in mind in the first few years?
+
+CLIENT2 (Karen): [00:25:37]  
+New Zealand is the big one. And maybe Japan.
+
+CLIENT1 (Steven): [00:25:40]  
+And a long road trip out west—national parks, that kind of thing.
+
+ADVISOR: [00:25:44]  
+Would you be okay if, in a bad market year, we had a rule like “we still do something, but we cap the trip budget,” so you’re not pulling heavily from investments at the worst time?
+
+CLIENT1 (Steven): [00:25:53]  
+Yeah, that makes sense.
+
+CLIENT2 (Karen): [00:25:55]  
+We could do a cheaper trip, or stay closer to home.
+
+ADVISOR: [00:25:58]  
+Perfect. Building in that flexibility really helps the plan.  
+
+Is there anything about the cabin you worry about—family disagreements, what happens if one sibling wants to sell and others don’t?
+
+CLIENT1 (Steven): [00:26:08]  
+We’ve had a few family discussions. My brother’s more attached than my sister. I could see us agreeing in ten years to sell it and split it three ways.
+
+CLIENT2 (Karen): [00:26:16]  
+It’s lovely, but I don’t see us maintaining it into our eighties.
+
+ADVISOR: [00:26:21]  
+Okay. I’ll treat the cabin as a lifestyle asset now, with a possible sale later that could boost your retirement pot if needed.  
+
+One last area I want to touch on today is how you make decisions together. When you two disagree—like on whether to start RiverRock income now—how do you normally resolve it?
+
+CLIENT1 (Steven): [00:26:36]  
+We talk it to death.
+
+CLIENT2 (Karen): [00:26:38]  
+He does spreadsheets, I say how it makes me feel, and then we find a middle ground.
+
+CLIENT1 (Steven): [00:26:43]  
+Yeah, usually we find a compromise—like, we might start a *small* withdrawal instead of all‑or‑nothing.
+
+ADVISOR: [00:26:48]  
+That’s really helpful. My role will be to show you the numbers and the trade‑offs, and then you can decide where that middle ground is for you.  
+
+Before we move into that detailed modelling next time, is there anything we *haven’t* talked about—any small business interests, side hustles, inheritance you expect, anything like that?
+
+CLIENT1 (Steven): [00:27:04]  
+No business. It’s just me and a laptop for the consulting. No trucks or equipment.
+
+CLIENT2 (Karen): [00:27:09]  
+We don’t expect big inheritances. My mom doesn’t have much beyond her little condo.
+
+ADVISOR: [00:27:13]  
+Okay. And no rental properties now other than the cabin share.
+
+CLIENT1 (Steven): [00:27:17]  
+Right.
+
+ADVISOR: [00:27:20]  
+Alright. What I’ll do after this call is send over a secure link so you can upload recent statements—for the Vanguard IRA, RiverRock, TIAA, Schwab, the Marcus account, and the CD ladder. I’ll include the risk questionnaire as well. Once I’ve got those, I’ll build a year‑by‑year picture of your income and spending, including when Steve stops at the city, when Social Security starts, and how we might phase in withdrawals from the different pots.
+
+CLIENT2 (Karen): [00:27:43]  
+Okay. We’ve got most of that in a folder. It’ll be good to see it laid out.
+
+CLIENT1 (Steven): [00:27:48]  
+Yeah, I’m curious how it looks when someone else runs the numbers instead of my back‑of‑the‑envelope.
+
+ADVISOR: [00:27:53]  
+We’ll stress‑test your envelope. In the meantime, if you think of any other questions—especially around when to start Social Security or how much to budget for those big trips—just jot them down and we’ll pick them up on the next call.
+
+CLIENT2 (Karen): [00:28:04]  
+We will, thanks.
+
+CLIENT1 (Steven): [00:28:06]  
+Yeah, thanks.

@@ -1,0 +1,725 @@
+# Financial Fact-Find Transcript
+# Persona: Andrew Harris
+# Type: Single Young Professional
+# Generated: 2025-11-17 20:36:31
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:01]  
+Alright, Andrew, before we get into the detail, I just need to check I’ve got your basics right for the record. Can you confirm your full name?
+
+CLIENT: [00:00:07]  
+Yeah, it’s Andrew Harris.
+
+ADVISOR: [00:00:10]  
+Thanks. Do you tend to go by Andrew, or do people call you something else day‑to‑day?
+
+CLIENT: [00:00:15]  
+Mostly Andy, to be honest. But anything official is Andrew.
+
+ADVISOR: [00:00:20]  
+Got it — Andrew on the forms, Andy in real life. And your date of birth?
+
+CLIENT: [00:00:24]  
+Twenty‑second of April, nineteen ninety‑five.
+
+ADVISOR: [00:00:29]  
+22/04/95, perfect. Relationship‑wise, are you single at the moment? Any partner or children who rely on you financially?
+
+CLIENT: [00:00:37]  
+Yeah, just me. Single, no kids. I share a flat with a mate, but it’s split straight down the middle, so no one depends on me.
+
+ADVISOR: [00:00:47]  
+Okay. Where are you living at the moment?
+
+CLIENT: [00:00:50]  
+Bethnal Green. Two‑bed flat, we rent it.
+
+ADVISOR: [00:00:54]  
+Nice part of town. Before we get into money, I need to touch on health, because it feeds into things like insurance and later retirement. How would you describe your general health?
+
+CLIENT: [00:01:03]  
+Pretty good, I think. I cycle to work some days, go to the gym… not as often as I plan, but once or twice a week. No major issues.
+
+ADVISOR: [00:01:13]  
+Any long‑term conditions, regular medication, anything a doctor keeps a close eye on?
+
+CLIENT: [00:01:18]  
+No. I had mild asthma as a kid, but it kind of went away. I don’t use an inhaler now or anything.
+
+ADVISOR: [00:01:24]  
+And smoking or vaping — do you use anything at the moment? Even socially?
+
+CLIENT: [00:01:29]  
+No. I used to social‑smoke at uni, but I stopped about four years ago and haven’t touched it since.
+
+ADVISOR: [00:01:36]  
+Alright, so we’ll treat you as a non‑smoker. Slightly morbid one: have you made a will?
+
+CLIENT: [00:01:42]  
+No, no will. I’ve thought about it a couple of times when reading about inheritance stuff, but I’ve never done anything.
+
+ADVISOR: [00:01:50]  
+You’re not alone there, especially without a house or kids yet. When we talk about buying, I’ll flag what’s sensible.  
+
+Right, let’s talk about work. Who’s your current employer?
+
+CLIENT: [00:02:00]  
+I’m at a company called BluePeak Analytics. It’s a data consultancy in the City.
+
+ADVISOR: [00:02:06]  
+And your role?
+
+CLIENT: [00:02:08]  
+Data analyst. I do dashboards, reporting, bits of modelling, mainly for retail clients.
+
+ADVISOR: [00:02:15]  
+Full‑time permanent contract?
+
+CLIENT: [00:02:17]  
+Yeah, full‑time perm.
+
+ADVISOR: [00:02:20]  
+How long have you been there now?
+
+CLIENT: [00:02:22]  
+It’ll be three years in September. I joined mid‑2022… sorry, mid‑2021. Feels like longer.
+
+ADVISOR: [00:02:31]  
+Time flies. Roughly what salary are you on at the moment?
+
+CLIENT: [00:02:35]  
+Base is high‑fifties, just under sixty. And then some years we get a bonus. Mine’s been like three to five grand, depending on how projects go.
+
+ADVISOR: [00:02:46]  
+Okay. Has that moved much in the last couple of years?
+
+CLIENT: [00:02:50]  
+Yeah, I started on low‑fifties. I got a raise last year, and they’re talking about another review next spring. If that happens I might nudge over sixty.
+
+ADVISOR: [00:03:00]  
+Good to hear. Apart from BluePeak, do you have any other sources of income? Freelance work, side jobs, rental income, anything like that?
+
+CLIENT: [00:03:07]  
+I do a bit of freelance dashboard stuff for a friend’s marketing agency. It’s pretty ad‑hoc. Last year I made maybe two, two‑and‑a‑half grand. Some months it’s nothing, then I’ll do a project and get a few hundred.
+
+ADVISOR: [00:03:20]  
+Paid as self‑employed under your own name?
+
+CLIENT: [00:03:23]  
+Yeah, they just pay into my bank and I stick it on my tax return.
+
+ADVISOR: [00:03:27]  
+And that side income — do you treat it as spending money, or does it go towards a particular goal?
+
+CLIENT: [00:03:32]  
+I try to throw it straight into the house savings. That’s the rule I set myself.
+
+ADVISOR: [00:03:37]  
+Nice. On your main salary, do you have a feel for roughly what actually hits your bank each month after tax, NI, pension, student loan and so on?
+
+CLIENT: [00:03:45]  
+Uh, yeah. I’m paid monthly. After everything comes off it’s usually around three, three‑one, somewhere there.
+
+ADVISOR: [00:03:53]  
+Okay, that gives me a sense of what you’ve got to play with each month. We’ll tighten it up when you send me a payslip.  
+
+Before we dive into bills and spending, what are the big things you’re trying to achieve over the next few years? Top three, say.
+
+CLIENT: [00:04:05]  
+Number one is buying a place. I’d like my own flat, probably still East London. Then… just generally getting rid of the student loan at some point, and making sure I’m not completely neglecting retirement. But house is definitely top.
+
+ADVISOR: [00:04:20]  
+On the house, what sort of rough deposit figure is in your head?
+
+CLIENT: [00:04:24]  
+Looking at Rightmove too much… I’m thinking I’ll need forty to fifty grand as a deposit to get something decent.
+
+ADVISOR: [00:04:32]  
+And timing‑wise?
+
+CLIENT: [00:04:34]  
+Ideally in the next three to four years. I don’t want to be renting forever.
+
+ADVISOR: [00:04:40]  
+Okay. Let’s park the house for a second and get a feel for your day‑to‑day. Then we’ll loop back and see what’s realistic.  
+
+Can we talk through your regular monthly outgoings? Let’s start with the basics to keep a roof over your head.
+
+CLIENT: [00:04:52]  
+Yeah, sure.
+
+ADVISOR: [00:04:54]  
+What’s your share of the rent at the moment?
+
+CLIENT: [00:04:57]  
+It just went up. My half is about one thousand five‑sixty‑ish a month. I think it’s £1,565 exactly.
+
+ADVISOR: [00:05:07]  
+And council tax on top of that?
+
+CLIENT: [00:05:09]  
+Yeah, about £130 a month.
+
+ADVISOR: [00:05:13]  
+Gas and electric?
+
+CLIENT: [00:05:15]  
+Combined maybe ninety a month on average, more in winter.
+
+ADVISOR: [00:05:20]  
+Water, broadband, contents insurance?
+
+CLIENT: [00:05:23]  
+Water’s quarterly — around a hundred every three months, so thirty‑odd a month. Broadband’s £27. Contents insurance is cheap, like eight or nine quid a month.
+
+ADVISOR: [00:05:36]  
+Any service charges or building fees you pay directly?
+
+CLIENT: [00:05:39]  
+No, that’s all on the landlord.
+
+ADVISOR: [00:05:42]  
+Okay. Transport next. How do you usually get to work?
+
+CLIENT: [00:05:45]  
+Tube and bus. I don’t have a car here.
+
+ADVISOR: [00:05:48]  
+Roughly what do you spend on travel in a month?
+
+CLIENT: [00:05:51]  
+I top up my Oyster, like, £120 to £140 a month, depending how often I’m in the office. Hybrid working. Then maybe thirty to fifty on Ubers if I’m out late.
+
+ADVISOR: [00:06:02]  
+No car, so no car insurance, fuel or anything like that?
+
+CLIENT: [00:06:05]  
+Nope, nothing.
+
+ADVISOR: [00:06:07]  
+Food — starting with groceries. Ballpark monthly spend?
+
+CLIENT: [00:06:11]  
+Um… I should probably check my Monzo. I’d guess £300 to £400 a month on supermarket stuff. Some months more if I do a big shop.
+
+ADVISOR: [00:06:21]  
+And eating out? Takeaways, restaurants, coffees?
+
+CLIENT: [00:06:25]  
+That’s where I’m worst. Maybe another two hundred a month on average. Some weeks I’m good and cook, other weeks it’s Deliveroo three times.
+
+ADVISOR: [00:06:34]  
+Would you class eating out as something you *could* cut back on if you really wanted to hit the deposit harder?
+
+CLIENT: [00:06:40]  
+Yeah, definitely. I just… don’t always do it. But it’s not essential.
+
+ADVISOR: [00:06:46]  
+Mobile phone — how much?
+
+CLIENT: [00:06:48]  
+£35 a month for handset and data.
+
+ADVISOR: [00:06:51]  
+Subscriptions? Netflix, Spotify, Amazon Prime, anything like that?
+
+CLIENT: [00:06:55]  
+Yeah, all of the above. Netflix is about £15, Spotify’s a tenner now I’m not a student, Prime is about £9. So thirty‑something total.
+
+ADVISOR: [00:07:04]  
+Gym?
+
+CLIENT: [00:07:06]  
+£49. I actually use it, so I’d like to keep that.
+
+ADVISOR: [00:07:11]  
+So gym is high priority, but you’d sacrifice Netflix before that?
+
+CLIENT: [00:07:14]  
+Yeah, for sure.
+
+ADVISOR: [00:07:17]  
+Student loan next. How much is going out roughly each month?
+
+CLIENT: [00:07:21]  
+On my payslip it’s around two‑twenty, I think. It used to be about 120 when I was on a lower salary, but it’s gone up. It just comes off before I see it.
+
+ADVISOR: [00:07:31]  
+And the outstanding balance — do you have a rough figure?
+
+CLIENT: [00:07:35]  
+Last time I checked it was mid‑twenties, like £23–24k. It moves with interest so I don’t obsess over it.
+
+ADVISOR: [00:07:42]  
+Alright. Any other debts? Credit cards, buy‑now‑pay‑later, anything like that?
+
+CLIENT: [00:07:47]  
+I’ve got a credit card. I use it for points and travel stuff. Most months I clear it, but there’s usually a few hundred rolling over. At the moment I think it’s like eight or nine hundred outstanding.
+
+ADVISOR: [00:07:59]  
+Is that on a promo rate or standard interest?
+
+CLIENT: [00:08:02]  
+Standard. Around 20‑something percent, I think. I know, I know, I should clear it.
+
+ADVISOR: [00:08:07]  
+We’ll look at that. Any car finance, personal loans, overdraft?
+
+CLIENT: [00:08:11]  
+No, just the student loan and that credit card.
+
+ADVISOR: [00:08:15]  
+Professional fees? Union, professional body membership?
+
+CLIENT: [00:08:19]  
+Yeah, my professional membership is about eighty‑odd a year. So, what, seven quid a month if you spread it out. I need it for chartered status.
+
+ADVISOR: [00:08:27]  
+Holidays — do you set aside a budget or just go when you can?
+
+CLIENT: [00:08:31]  
+I don’t really budget properly. I try to do one decent trip a year and a couple of weekends away. All in, maybe £1,500 to £2,000 a year. Some months nothing, then one month I’ll drop £800 on flights.
+
+ADVISOR: [00:08:44]  
+If you needed to boost the house savings, would holidays be one of the first things you’d cut?
+
+CLIENT: [00:08:49]  
+Yeah. I like to travel, but it’s definitely a “want”, not a “need”.
+
+ADVISOR: [00:08:55]  
+Clothes, gadgets, hobbies?
+
+CLIENT: [00:08:58]  
+Clothes probably fifty to a hundred a month on average. Some months zero, some months I buy trainers. Gadgets are more like one‑off hits. I bought a laptop last year for about £900. I play guitar and a bit of gaming, but I’m not constantly buying gear.
+
+ADVISOR: [00:09:13]  
+If you add up the absolute essentials — rent, council tax, utilities, basic groceries, your travel, student loan, minimum card payment, your professional fee — what do you think that roughly comes to?
+
+CLIENT: [00:09:24]  
+I did this a few weeks ago. I think about two grand to maybe £2,200 for things I can’t really change.
+
+ADVISOR: [00:09:31]  
+And then another four to five hundred, give or take, on the more flexible bits like eating out, holidays, clothes, subscriptions?
+
+CLIENT: [00:09:38]  
+Yeah, that sounds about right for a normal month. If I’m trying to save, I can trim that.
+
+ADVISOR: [00:09:45]  
+Okay. On that basis, how much are you actually managing to save each month at the moment?
+
+CLIENT: [00:09:49]  
+Usually between seven and nine hundred. Some months closer to seven if I travel, some months I manage nearer nine.
+
+ADVISOR: [00:09:58]  
+And that saving — how are you splitting it between the house deposit and longer‑term investing?
+
+CLIENT: [00:10:03]  
+Roughly £400–500 straight into a savings account for the deposit. Then £200–300 into an investment app for long‑term, like retirement or “future me”.
+
+ADVISOR: [00:10:14]  
+Okay. Let’s talk about where that money actually lives. Starting with your current account — who do you bank with for day‑to‑day?
+
+CLIENT: [00:10:20]  
+Metroline Bank for my main current account. I also use Monzo for day‑to‑day spending, but salary goes into Metroline.
+
+ADVISOR: [00:10:27]  
+Roughly what balance do you keep in Metroline most of the time?
+
+CLIENT: [00:10:31]  
+One to two grand. Just enough so rent and bills don’t bounce. I try not to let it go below a thousand.
+
+ADVISOR: [00:10:37]  
+And the deposit savings — that’s in a separate account?
+
+CLIENT: [00:10:41]  
+Yeah, I’ve got an online high‑yield account, Aurora. They let you set “pots”. I’ve got one called “Emergency” and one called “House”.
+
+ADVISOR: [00:10:50]  
+Nice. What’s in the emergency pot at the moment?
+
+CLIENT: [00:10:54]  
+Last week it was around eight and a half grand. So eight to nine‑ish.
+
+ADVISOR: [00:11:00]  
+And the house pot?
+
+CLIENT: [00:11:02]  
+Smaller. I only started it this year. About four and a half, I think. I’d have to log in for the exact number.
+
+ADVISOR: [00:11:09]  
+Are you adding to those pots each month?
+
+CLIENT: [00:11:12]  
+Yeah. Emergency I’m doing about £100–£150 a month. The house one is £300–£350 automatically after payday. If I get any freelance money, that goes into house as well.
+
+ADVISOR: [00:11:23]  
+If you keep that going and nothing dramatic happens, where do you think the house pot might be in, say, a year?
+
+CLIENT: [00:11:29]  
+Hopefully like ten to twelve grand by next autumn.
+
+ADVISOR: [00:11:33]  
+Okay. You mentioned an investment app as well — what are you using there?
+
+CLIENT: [00:11:37]  
+It’s a Stocks & Shares ISA on an app — a global index fund thing. I started it last year.
+
+ADVISOR: [00:11:42]  
+Roughly how much is in that ISA now?
+
+CLIENT: [00:11:45]  
+About five to five‑and‑a‑half grand.
+
+ADVISOR: [00:11:49]  
+And are you putting in that £200–£300 a month?
+
+CLIENT: [00:11:52]  
+Yeah, that goes in by direct debit. I might bump it up when the house stuff is sorted, but for now it’s ticking over.
+
+ADVISOR: [00:11:58]  
+How do you feel when that ISA goes up and down? Are you checking every day, or relatively relaxed?
+
+CLIENT: [00:12:03]  
+I used to check it loads, but I’m trying to be chilled. I’m okay with ups and downs as long as over ten years it’s growing. I just don’t want my house deposit in anything that can crash. That I want boring and safe.
+
+ADVISOR: [00:12:15]  
+Makes sense. Any other investments outside the ISA and your pensions? For example a general investment account, trading apps, that sort of thing?
+
+CLIENT: [00:12:22]  
+Yeah, I’ve got a tiny general account with, uh, I think it’s with Fidelity through the app. Just a total market index fund. There’s like £1,500–2,000 in there. I haven’t added to it recently.
+
+ADVISOR: [00:12:33]  
+Crypto?
+
+CLIENT: [00:12:35]  
+Yeah… a little. I bought some Bitcoin and Ethereum in 2021, at a pretty dumb time. It’s on Coinbase. Right now it’s worth about eight or nine hundred quid. It was more, then way less, now kind of in the middle.
+
+ADVISOR: [00:12:47]  
+Okay. We’ll treat that as higher‑risk, small part of the picture.  
+
+Do you own any property at the moment? Your own home, buy‑to‑let, or any land?
+
+CLIENT: [00:12:55]  
+Just the weird one. I rent my flat, but I own a fraction of some farmland in Kansas that my grandparents left to the grandkids.
+
+ADVISOR: [00:13:03]  
+Interesting. Do you know roughly where in Kansas?
+
+CLIENT: [00:13:06]  
+Outside Hutchinson, like twenty minutes outside the town. It’s just fields. My mum handles the paperwork.
+
+ADVISOR: [00:13:12]  
+And your share — do you know what fraction you own?
+
+CLIENT: [00:13:15]  
+An eighth, I think. There are loads of cousins.
+
+ADVISOR: [00:13:18]  
+Have you seen any valuation for the whole farm?
+
+CLIENT: [00:13:21]  
+We got a letter last year from the property manager. I vaguely remember it saying the whole thing was worth around two‑fifty, maybe two‑seventy thousand dollars. So my bit would be thirty‑ish, if my maths isn’t terrible.
+
+ADVISOR: [00:13:32]  
+Okay, so “tens of thousands” for your share. Do you get any income from it? Rent from a farmer?
+
+CLIENT: [00:13:38]  
+Yeah, there’s a guy who farms it. We get a cheque once a year. Mine’s usually three to five hundred dollars. I just convert it and stick it in savings.
+
+ADVISOR: [00:13:47]  
+Alright. Any other assets — classic car, expensive instruments, anything you’d want counted?
+
+CLIENT: [00:13:52]  
+Not really. I’ve got a decent gaming PC and a guitar, but if I sold everything it’d be maybe two grand. I don’t think of it as an investment.
+
+ADVISOR: [00:14:00]  
+Do you hold any shares or options in your employer?
+
+CLIENT: [00:14:03]  
+Yeah, BluePeak does RSUs. I got my first grant this year. It’s like 120 shares over four years, and a quarter has vested so far.
+
+ADVISOR: [00:14:12]  
+So roughly 30 shares vested?
+
+CLIENT: [00:14:14]  
+Yeah, about that. The stock’s been trading around forty to fifty dollars a share, so I guess that’s like £1,500–£2,000 for the bit I actually own.
+
+ADVISOR: [00:14:23]  
+Where do those sit — a platform like Morgan Stanley Shareworks?
+
+CLIENT: [00:14:27]  
+Exactly, Morgan Stanley Shareworks. They just appear there. I haven’t sold any yet.
+
+ADVISOR: [00:14:32]  
+Okay. That’s a helpful picture of what you *own*.  
+
+Let’s circle back to pensions, because that’s your other big long‑term pot. You mentioned BluePeak auto‑enrolled you. Which provider is that with?
+
+CLIENT: [00:14:41]  
+Aviva. The app says “Aviva Workplace Pension”.
+
+ADVISOR: [00:14:45]  
+Does it give a scheme name, like “BluePeak Analytics Workplace Pension”?
+
+CLIENT: [00:14:49]  
+Yeah, it says “BluePeak Analytics Workplace Pension Scheme” on the overview.
+
+ADVISOR: [00:14:54]  
+Perfect. Roughly how long have you been paying into that?
+
+CLIENT: [00:14:57]  
+Since I joined, so about three years.
+
+ADVISOR: [00:15:00]  
+And the current value, last time you looked?
+
+CLIENT: [00:15:03]  
+Early May it was about £14,500.
+
+ADVISOR: [00:15:07]  
+Contribution‑wise, what percentage are you and BluePeak putting in?
+
+CLIENT: [00:15:11]  
+I do five percent and they match five. That’s the standard for my grade.
+
+ADVISOR: [00:15:16]  
+Do you know what fund you’re in within Aviva?
+
+CLIENT: [00:15:19]  
+The default — “Aviva Mixed Investment (40–85% Shares)”. I never changed it.
+
+ADVISOR: [00:15:24]  
+Okay. Any old workplace pensions from previous jobs?
+
+CLIENT: [00:15:28]  
+Yeah, my old place, Harper & Cole Marketing, had one with Nest.
+
+ADVISOR: [00:15:32]  
+Do you remember the value?
+
+CLIENT: [00:15:34]  
+I’ve got a statement from January — it said £4,260.
+
+ADVISOR: [00:15:38]  
+And you’re not contributing to that anymore, just the Aviva one?
+
+CLIENT: [00:15:41]  
+Yeah, it stopped when I left Harper & Cole.
+
+ADVISOR: [00:15:44]  
+You also mentioned a Moneybox personal pension?
+
+CLIENT: [00:15:47]  
+Yeah, I opened one a while ago. It says “Moneybox Personal Pension – administered by Gaudi”. I only paid into it for about eight months and paused it when I got serious about the house deposit.
+
+ADVISOR: [00:15:57]  
+Current value?
+
+CLIENT: [00:15:59]  
+About £2,100 last time I looked.
+
+ADVISOR: [00:16:02]  
+So, in round numbers, about £14.5k Aviva, £4.3k Nest, £2.1k Moneybox — roughly £21k across pensions.
+
+CLIENT: [00:16:10]  
+Yeah, that sounds about right.
+
+ADVISOR: [00:16:13]  
+How do you feel about the five percent you’re putting into Aviva at the moment? Too much, too little, about right?
+
+CLIENT: [00:16:18]  
+I’d like to do more, honestly. But with rent and trying to put six, seven hundred a month aside for the deposit, five percent feels like what I can manage. I don’t want to turn it off.
+
+ADVISOR: [00:16:28]  
+No, we definitely don’t want to turn it off. When do you *imagine* you’d like to stop working full‑time?
+
+CLIENT: [00:16:34]  
+It feels miles away. I sort of assume late sixties. I’d love the option to ease off around sixty, maybe work less, but if I had to pick a number I’d say sixty‑seven.
+
+ADVISOR: [00:16:44]  
+Okay, so we’re planning broadly for late sixties, but with the aim of choices from around sixty. That gives you several decades of contributions and investment growth.  
+
+Have you ever thought about consolidating Nest and Moneybox into Aviva, or are you happy leaving them separate for now?
+
+CLIENT: [00:16:58]  
+I’ve thought about it but never done anything. I’m a bit worried about messing it up or getting hit with fees.
+
+ADVISOR: [00:17:05]  
+Totally normal. They’re all standard defined contribution pots — no guaranteed annuity rates or anything — so it usually comes down to charges and fund choice. We can run the numbers for you.  
+
+Just stepping back for a moment: you’ve got the house deposit goal, some investments, some pensions, and a bit of crypto. How comfortable do you feel with investment risk overall?
+
+CLIENT: [00:17:22]  
+For long‑term stuff like pensions and the ISA, I’m okay with a fair bit of risk. I’m not day‑trading or anything, but I know it’ll go up and down. For the house money, I want low risk. I’d rather be a bit slower than lose ten grand in a crash.
+
+ADVISOR: [00:17:35]  
+That’s a sensible distinction. I’ll send you a short risk questionnaire after this just to put a formal label on it, but I’d say you’re open to risk for long‑term, cautious for short‑term.  
+
+Let’s go back to borrowing for a second. You said no mortgage yet, but you’ve done some homework?
+
+CLIENT: [00:17:48]  
+Yeah, I did one of those “agreement in principle” things online. I think it was with Nationwide. They said I could probably borrow between about £280k and £300k, depending on deposit and stuff.
+
+ADVISOR: [00:17:58]  
+And that was on the basis it would be your own home, not a buy‑to‑let?
+
+CLIENT: [00:18:02]  
+Yeah, just my own place. One‑bed, maybe a small two‑bed if I get lucky. Definitely somewhere for me to live.
+
+ADVISOR: [00:18:09]  
+When you imagine owning, what sort of monthly cost feels comfortable, including the mortgage plus council tax, utilities and so on? Use your current rent as a reference.
+
+CLIENT: [00:18:17]  
+So right now my share of rent is about £1,565. All in with bills and the student loan I’m probably at £1,400–£1,500. If I bought, I could stretch a bit — I’d be okay around £1,600–£1,700 total. In my head, maybe around a thousand to eleven hundred of that being the mortgage. Any more and I’d feel like I can’t save or do pensions.
+
+ADVISOR: [00:18:38]  
+Okay, that’s helpful. How big a deposit are you aiming to have by the time you actually buy?
+
+CLIENT: [00:18:43]  
+At the moment I’ve got around eighteen, maybe nineteen grand saved if you include the ISA. I’m trying to push that up into the £35–40k range over the next couple of years.
+
+ADVISOR: [00:18:54]  
+So you’re a fair way along already, given you really only started pushing it in the last year or so.
+
+CLIENT: [00:18:59]  
+Yeah, once I got my last raise I stopped pretending and actually started saving properly.
+
+ADVISOR: [00:19:04]  
+Are there any big changes you see coming in the next year which might affect the plan? Rent rises, job changes, moving area?
+
+CLIENT: [00:19:10]  
+My landlord hinted the rent might go up at renewal again, maybe fifty or a hundred quid. I *might* move closer to work if I find somewhere cheaper, but nothing decided. No big life changes like kids planned.
+
+ADVISOR: [00:19:21]  
+Okay. On the protection side, if something happened to your income — say you were off work long‑term — how would things look? Do you know what sick pay you get?
+
+CLIENT: [00:19:29]  
+I think BluePeak does three months full pay, then three months half pay, then it drops to statutory. I’d have to double‑check the handbook.
+
+ADVISOR: [00:19:37]  
+And beyond that, would you have anyone who could support you financially — parents, family — or would it be mostly on you and your savings?
+
+CLIENT: [00:19:44]  
+Mostly me. My parents would help if they could, but I wouldn’t want to rely on them.
+
+ADVISOR: [00:19:49]  
+Do you have any personal insurance — life cover, critical illness, income protection?
+
+CLIENT: [00:19:54]  
+No. I think there’s some death‑in‑service through work — like two or three times salary — but nothing I’ve set up myself.
+
+ADVISOR: [00:20:01]  
+Okay. We’ll come back to that, because with the rent and the future mortgage, protecting your income can be important. For today I mostly wanted the fact‑find.  
+
+Just to check I’ve not missed anything: any dependants overseas, or anyone you’re sending regular money to?
+
+CLIENT: [00:20:13]  
+No, none.
+
+ADVISOR: [00:20:16]  
+Alright. Let me dip back into your student loan and the credit card for a moment. You said credit card is about £800–900 at the minute. Are you aiming to clear that in the next month or two?
+
+CLIENT: [00:20:24]  
+Yeah, that’s the plan. I usually knock it back down after a big month. It crept up with booking flights and buying some bits for the flat.
+
+ADVISOR: [00:20:32]  
+If we had to choose between paying that off faster and putting a bit more into the house deposit, which feels more important to you?
+
+CLIENT: [00:20:38]  
+Honestly, get rid of the card, then focus everything on the deposit. The interest on the card annoys me.
+
+ADVISOR: [00:20:44]  
+Fair enough. On the student loan, are you treating that as just another tax, or do you want to pay it off early at some point?
+
+CLIENT: [00:20:50]  
+More like a tax. I don’t really plan to overpay it. If I’m still paying it when I’m, like, forty‑five I might look at clearing it, but for now I’d rather save.
+
+ADVISOR: [00:20:59]  
+Got it.  
+
+You mentioned earlier you don’t want to neglect retirement. When you think about “future Andy”, what does a good retirement look like to you? Staying in London, moving somewhere cheaper, lots of travel?
+
+CLIENT: [00:21:09]  
+I can’t really picture it, but I’d like the option to work part‑time in my sixties, not be forced to graft full‑time until I drop. I like London now, but I might move somewhere cheaper later. Definitely travel more.
+
+ADVISOR: [00:21:21]  
+And do you see yourself staying in this sort of career path — data analytics — for the long term?
+
+CLIENT: [00:21:25]  
+I think so. Maybe move into more senior roles, or management eventually. I don’t see myself changing industry completely.
+
+ADVISOR: [00:21:32]  
+Okay. The reason I ask is your earning potential over the next ten to twenty years matters for how aggressive we can be with pensions. If you’re likely to be on higher income later, we might accept slightly lower pension contributions now while you get the house done, then crank them up later.
+
+CLIENT: [00:21:45]  
+Yeah, that makes sense. I kind of see the next five years as “get the flat sorted”, and then I can dial up pensions more.
+
+ADVISOR: [00:21:52]  
+That’s a common pattern.  
+
+Switching gears again, we’ve talked about your assets in the UK and the Kansas land. Does anyone else have financial claims on those — ex‑partners, family loans, anything like that?
+
+CLIENT: [00:22:01]  
+No. The land is split between the cousins properly, and everything else is just mine.
+
+ADVISOR: [00:22:07]  
+And you’ve not acted as guarantor on anyone else’s debts?
+
+CLIENT: [00:22:10]  
+Nope.
+
+ADVISOR: [00:22:13]  
+Okay. On the admin side, for the accounts and pensions we’ve mentioned — Aurora, Metroline, Monzo, Aviva, Nest, Moneybox, the ISA, Fidelity, Coinbase, Shareworks — I don’t need account numbers now, but I *will* need statements or screenshots. Are you happy to email those over?
+
+CLIENT: [00:22:28]  
+Yeah, that’s fine. I can pull them from the apps tonight.
+
+ADVISOR: [00:22:31]  
+Great. Is your mobile number ending in 342 still the best one for you?
+
+CLIENT: [00:22:35]  
+Yeah, same number since uni.
+
+ADVISOR: [00:22:38]  
+And email — still the Gmail address you used to book this?
+
+CLIENT: [00:22:41]  
+Yep.
+
+ADVISOR: [00:22:44]  
+What I’ll do after this is send you a link to a short risk questionnaire and a document request — things like your latest payslip, bank statements showing your regular outgoings, and the pension statements.  
+
+Before we round off the fact‑finding, is there *anything* money‑related that’s been on your mind that we haven’t touched on yet?
+
+CLIENT: [00:22:58]  
+Um… I guess two things. One is just, am I doing the right mix — like, not putting too much into long term versus the house. And the other is whether I should be investing any of the house money, like some friends do, or just keep it all in cash.
+
+ADVISOR: [00:23:10]  
+Okay, that’s really useful to know. We’ll properly crunch those once I’ve got your numbers in front of me. For now, all I need is the factual side, which we’ve pretty much covered.  
+
+Anything else — protection, wills, that kind of thing — that you particularly want to explore later?
+
+CLIENT: [00:23:23]  
+Yeah, I’d like to understand what kind of insurance makes sense when I get a mortgage. I don’t want to overpay for stuff I don’t need, but I also don’t want to be screwed if I get ill.
+
+ADVISOR: [00:23:33]  
+Understood. We can definitely build that into the plan once we’ve modelled the mortgage and your budget.  
+
+In terms of next steps, once you’ve sent through the documents and done the questionnaire, I’ll put together some options around:  
+– how fast you can realistically get to that £35–40k deposit,  
+– what that means for your monthly mortgage budget,  
+– and how to balance that with pensions and clearing that credit card.  
+
+CLIENT: [00:23:52]  
+Sounds good.
+
+ADVISOR: [00:23:54]  
+Alright, I’ll let you get on with your evening. Keep an eye out for my email and text, and just shout if anything we talked about today jogs another question.
+
+CLIENT: [00:24:01]  
+Will do. Thanks — this has actually made it feel a bit more structured in my head.
+
+ADVISOR: [00:24:06]  
+Glad to hear it. Speak soon, Andy.

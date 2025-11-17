@@ -43,6 +43,11 @@ export default function ExperimentDetail({
               <CardTitle>{experiment.name}</CardTitle>
               <div className="flex items-center gap-2 mt-2">
                 <Badge variant="secondary">{experiment.model}</Badge>
+                {experiment.enable_two_pass && (
+                  <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200 dark:bg-blue-950/20 dark:text-blue-400 dark:border-blue-800">
+                    Two-Pass Extraction
+                  </Badge>
+                )}
                 <span className="text-sm text-muted-foreground">
                   Created {new Date(experiment.created_at).toLocaleDateString()}
                 </span>

@@ -132,6 +132,8 @@ async def update_experiment(
             )
     if experiment_data.model is not None:
         experiment.model = experiment_data.model
+    if experiment_data.enable_two_pass is not None:
+        experiment.enable_two_pass = experiment_data.enable_two_pass
 
     await db.commit()
     await db.refresh(experiment)
@@ -175,6 +177,7 @@ async def get_leaderboard(experiment_id: int, db: AsyncSession = Depends(get_db)
             Evaluation.experiment_id,
             Experiment.name.label("experiment_name"),
             Evaluation.completed_at,
+            Evaluation.schema_stability,
             func.avg(EvaluationResult.final_score).label("avg_score"),
             func.count(EvaluationResult.id).label("num_transcripts"),
         )
@@ -199,9 +202,10 @@ async def get_leaderboard(experiment_id: int, db: AsyncSession = Depends(get_db)
             "num_transcripts": row.num_transcripts,
             "evaluation_id": row.evaluation_id,
             "completed_at": row.completed_at,
+            "schema_stability": row.schema_stability,
         }
 
-        # Fetch detailed results to aggregate metrics and schema stability
+        # Fetch detailed results to aggregate metrics
         from models import CharacteristicVote
         results_query = await db.execute(
             select(EvaluationResult)
@@ -212,16 +216,6 @@ async def get_leaderboard(experiment_id: int, db: AsyncSession = Depends(get_db)
             .where(EvaluationResult.evaluation_id == row.evaluation_id)
         )
         results_list = results_query.scalars().all()
-
-        # Calculate avg schema stability
-        overlaps = [
-            r.schema_overlap_percentage
-            for r in results_list
-            if r.schema_overlap_percentage is not None
-        ]
-        entry["avg_schema_overlap"] = (
-            sum(overlaps) / len(overlaps) if overlaps else None
-        )
 
         # Aggregate metrics across all characteristic votes
         all_metrics = defaultdict(list)

@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import { Checkbox } from "@/components/ui/checkbox";
 import {
   Select,
   SelectContent,
@@ -50,6 +51,7 @@ export default function ExperimentForm({
   const [prompt, setPrompt] = useState("");
   const [schemaJson, setSchemaJson] = useState(DEFAULT_SCHEMA);
   const [model, setModel] = useState("");
+  const [enableTwoPass, setEnableTwoPass] = useState(false);
 
   const createMutation = useMutation({
     mutationFn: experimentsAPI.create,
@@ -58,6 +60,7 @@ export default function ExperimentForm({
       setPrompt("");
       setSchemaJson(DEFAULT_SCHEMA);
       setModel("");
+      setEnableTwoPass(false);
       onSuccess();
     },
   });
@@ -65,7 +68,13 @@ export default function ExperimentForm({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (name && prompt && schemaJson && model) {
-      createMutation.mutate({ name, prompt, schema_json: schemaJson, model });
+      createMutation.mutate({
+        name,
+        prompt,
+        schema_json: schemaJson,
+        model,
+        enable_two_pass: enableTwoPass
+      });
     }
   };
 
@@ -96,6 +105,26 @@ export default function ExperimentForm({
             ))}
           </SelectContent>
         </Select>
+      </div>
+
+      <div className="flex items-center space-x-2 p-4 border rounded-lg bg-muted/30">
+        <Checkbox
+          id="enable-two-pass"
+          checked={enableTwoPass}
+          onCheckedChange={(checked) => setEnableTwoPass(checked as boolean)}
+        />
+        <div className="space-y-1">
+          <Label
+            htmlFor="enable-two-pass"
+            className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
+          >
+            Enable Two-Pass Extraction
+          </Label>
+          <p className="text-xs text-muted-foreground">
+            First pass extracts data, then a review step identifies missing/hallucinated items,
+            and a second pass produces refined output. Helps improve extraction quality.
+          </p>
+        </div>
       </div>
 
       <div className="space-y-2">

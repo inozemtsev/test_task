@@ -1,0 +1,583 @@
+# Financial Fact-Find Transcript
+# Persona: Karen Rodriguez
+# Type: Widowed Individual
+# Generated: 2025-11-17 20:54:46
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:03] Hi Karen, can you hear me okay now?  
+
+CLIENT: [00:00:06] Yes, I can. The line sounds good.  
+
+ADVISOR: [00:00:09] Perfect. I’m going to start with a few basics for my notes—almost like ID questions—if that’s alright.  
+
+CLIENT: [00:00:15] Mm‑hmm, that’s fine. Go ahead.  
+
+ADVISOR: [00:00:18] Full legal name as it appears on your driver’s license or passport?  
+
+CLIENT: [00:00:23] It’s Karen Elena… sorry—Karen Elena Rodriguez. R‑o‑d‑r‑i‑g‑u‑e‑z, with a “z” at the end.  
+
+ADVISOR: [00:00:32] Got it. And day to day, what do you like to be called?  
+
+CLIENT: [00:00:36] Just Karen. No one uses the middle name unless I’m in trouble.  
+
+ADVISOR: [00:00:40] I’ll stick with Karen then. Date of birth?  
+
+CLIENT: [00:00:43] April third, nineteen fifty‑two.  
+
+ADVISOR: [00:00:47] 04/03/1952. And your current marital status?  
+
+CLIENT: [00:00:52] Widowed. My husband, Miguel, passed away in 2019.  
+
+ADVISOR: [00:00:58] I’m sorry.  
+
+CLIENT: [00:01:00] Thank you. It’s been a few years, but… you know.  
+
+ADVISOR: [00:01:06] I understand. I’ll be mindful of that as we go. Let me ask a bit about health, because it feeds into how long we plan for. How would you describe your general health right now?  
+
+CLIENT: [00:01:15] Pretty good, actually. For seventy‑three I think I’m doing alright. I walk with a group three mornings a week. I’ve got some arthritis in my knees, but nothing serious.  
+
+ADVISOR: [00:01:26] Any major conditions your doctors are watching? Heart, diabetes, that sort of thing?  
+
+CLIENT: [00:01:31] No diabetes. My blood pressure’s a little high but it’s controlled with a low‑dose pill. My cardiologist is happy with it.  
+
+ADVISOR: [00:01:39] Do you smoke or use any tobacco now?  
+
+CLIENT: [00:01:42] No. I quit in my forties. I used to have a few cigarettes when I was stressed at work, but I stopped cold turkey.  
+
+ADVISOR: [00:01:50] Ex‑smoker, nothing current. That’s helpful.  
+
+
+ADVISOR: [00:02:02] I’d love to get a quick bit of background on your work life, because that usually ties into pensions and old retirement plans. What kind of work did you do before you retired?  
+
+CLIENT: [00:02:11] I was a middle school art teacher. I taught for the Pine Hills School District, in Cedar Grove, Arizona, most of my career.  
+
+ADVISOR: [00:02:19] Pine Hills in Cedar Grove—how long were you there?  
+
+CLIENT: [00:02:23] About twenty‑five years. Before that I taught in another district and I did a stint at a medical clinic, but the main chunk is Pine Hills.  
+
+ADVISOR: [00:02:32] When did you actually stop full‑time work?  
+
+CLIENT: [00:02:36] I’d planned to stop at sixty‑seven. But then Miguel got sick, and I stayed one more year for the insurance. So I finished the school year when I was sixty‑eight, in 2020.  
+
+ADVISOR: [00:02:48] And since then, any part‑time work or tutoring?  
+
+CLIENT: [00:02:52] No paid work. I volunteer at the library, but I’m fully retired.  
+
+
+ADVISOR: [00:03:03] Tell me a bit about your family—your children and where they are. That often drives decisions about where to live.  
+
+CLIENT: [00:03:10] I have two kids. My son, Daniel, is in Fort Collins, Colorado. He’s single, travels a lot for work. My daughter, Sofia, is outside Phoenix, in a suburb there. She’s the one with the grandkids.  
+
+ADVISOR: [00:03:23] And you’re currently in… I have Las Cruces, New Mexico here. Is that right?  
+
+CLIENT: [00:03:28] Yes. Las Cruces, on the east side, near the old high school. I’ve been in this house… gosh, over thirty years now.  
+
+ADVISOR: [00:03:37] Understood. You mentioned on your form that moving closer to the kids is on your mind. Between Fort Collins and the Phoenix area, is there one you’re leaning toward?  
+
+CLIENT: [00:03:45] Probably Phoenix. Sofia has the grandkids, and I help with the little one’s daycare. Daniel’s still single and always on a plane somewhere.  
+
+ADVISOR: [00:03:55] When do you imagine that move might happen?  
+
+CLIENT: [00:03:59] I’m thinking in the next two to three years. I don’t want to rush, but I also don’t want to wait until my knees get worse and moving is harder.  
+
+ADVISOR: [00:04:08] That makes sense. We’ll keep that timeline in mind as we talk about your house and your savings.  
+
+
+ADVISOR: [00:04:18] Let’s start with where you live now. Do you own your home in Las Cruces or are you renting?  
+
+CLIENT: [00:04:23] I own it. It’s my house. Small one‑story, three bedrooms, stucco. Nothing fancy.  
+
+ADVISOR: [00:04:31] Is there still a mortgage on it, or is it paid off?  
+
+CLIENT: [00:04:35] No mortgage. My husband and I paid it off around 2008. It’s been free and clear for a while.  
+
+ADVISOR: [00:04:44] Nice. Any sense of what that home might be worth today? Ballpark is fine.  
+
+CLIENT: [00:04:49] I looked on Zillow. It said maybe three hundred to three‑fifty, something like that. I don’t know how accurate that is.  
+
+ADVISOR: [00:04:58] That’s perfect for planning. And you’re up to date on property taxes and insurance?  
+
+CLIENT: [00:05:03] Yes. Property tax is a little over two thousand a year now. I pay it every fall. And homeowner’s is through State Farm.  
+
+ADVISOR: [00:05:13] When you think about moving closer to Sofia or Daniel, is the idea to sell this house, or keep it and maybe rent it out?  
+
+CLIENT: [00:05:19] I don’t want to be a landlord. So I’d like to sell it when I move. Use that money towards a place near one of them.  
+
+ADVISOR: [00:05:28] Got it. Besides your Las Cruces home, do you own any other real estate?  
+
+CLIENT: [00:05:33] I do. There’s a little condo in Flagstaff. That was my sister’s. I inherited half when she passed.  
+
+ADVISOR: [00:05:41] Half a condo in Flagstaff—who owns the other half?  
+
+CLIENT: [00:05:45] My niece. It’s a two‑bedroom condo near the university. Right now a grad student rents it.  
+
+ADVISOR: [00:05:52] Is there a mortgage on that condo, or is it also paid off?  
+
+CLIENT: [00:05:56] It’s paid off. My sister was very proud of that. My niece and I just split the HOA and the taxes.  
+
+ADVISOR: [00:06:04] Rough idea what the whole condo is worth?  
+
+CLIENT: [00:06:08] The realtor said maybe two hundred, two‑twenty. So my half would be around a hundred or so.  
+
+ADVISOR: [00:06:15] And how does the rent work—does your niece collect and send you your share?  
+
+CLIENT: [00:06:20] Yes. She collects it and wires me my half every few months. Total rent is six or seven hundred a month, so I see about three hundred‑ish. It helps with my property taxes and medicine.  
+
+
+ADVISOR: [00:06:34] Let’s talk a bit about your income sources now—what actually hits your bank each month. I’ll circle back later to how it lines up with your spending.  
+
+CLIENT: [00:06:42] Okay.  
+
+ADVISOR: [00:06:45] Starting with Social Security—are you getting a benefit based on your own record, or a survivor benefit on Miguel’s?  
+
+CLIENT: [00:06:52] It’s on Miguel’s. They switched me over after he passed. I still call it “my Social Security,” but it’s really his record.  
+
+ADVISOR: [00:07:00] Got it. Roughly how much lands in your account each month from Social Security after they take out Medicare?  
+
+CLIENT: [00:07:07] It’s right around two thousand. Two thousand and some change, after Medicare Part B.  
+
+ADVISOR: [00:07:14] And before Medicare comes out, do you remember the gross amount, or do you mostly look at the net?  
+
+CLIENT: [00:07:20] I mostly look at what lands in checking. I want to say before they take anything it’s closer to twenty‑three hundred? Something like that.  
+
+ADVISOR: [00:07:28] And that comes in once a month on a set day?  
+
+CLIENT: [00:07:31] Yes, second Wednesday of the month, like clockwork.  
+
+ADVISOR: [00:07:36] Besides Social Security, you have a teacher’s pension as well, right?  
+
+CLIENT: [00:07:40] Yes. From the Arizona teachers’ retirement system through Pine Hills.  
+
+ADVISOR: [00:07:45] About how much do they pay you each month right now?  
+
+CLIENT: [00:07:49] Before taxes it’s just under two thousand. After they take the taxes out, I see around sixteen hundred, maybe a little more.  
+
+ADVISOR: [00:07:57] And that’s for your lifetime?  
+
+CLIENT: [00:08:00] Yes, lifetime. When Miguel was alive there was an option for him to get some if I went first, but now it’s just me.  
+
+ADVISOR: [00:08:06] Any other pensions? Something from Miguel’s work?  
+
+CLIENT: [00:08:10] Yes. Miguel worked for Desert Southwest Electric, the power company. I get a survivor pension from them.  
+
+ADVISOR: [00:08:17] How much is that one, roughly?  
+
+CLIENT: [00:08:20] It’s not huge. Around four hundred, four‑fifty a month. I think that’s after they take taxes.  
+
+ADVISOR: [00:08:27] And that’s also lifetime for you.  
+
+CLIENT: [00:08:30] Yes, they said it’s for as long as I live.  
+
+ADVISOR: [00:08:34] Are there any annuities—insurance company pensions—in your name?  
+
+CLIENT: [00:08:38] There is a small one. From when I was in my thirties. With Crescent Life. It’s called something like “Secure Income Annuity.”  
+
+ADVISOR: [00:08:47] How much does that pay each month?  
+
+CLIENT: [00:08:50] About three hundred and twenty, three thirty. It’s tiny compared to the others, but it’s steady.  
+
+ADVISOR: [00:08:57] Does that one also pay for life?  
+
+CLIENT: [00:08:59] Yes, lifetime. When I turned sixty‑five they gave me a choice—a lump sum, around forty‑something thousand, or that small income for life. Miguel said, “Take the income so you’ll always have something coming in.”  
+
+ADVISOR: [00:09:11] Okay. And then you mentioned when we first spoke there’s an IRA from Miguel’s old job at Fidelity. Are you taking money from that regularly?  
+
+CLIENT: [00:09:19] Yes. They told me I had to start taking a “required” amount. The RMD. We set it up as a monthly payment.  
+
+ADVISOR: [00:09:26] Approximately how much per month is coming out of that IRA right now?  
+
+CLIENT: [00:09:30] Last year it was around six hundred. This year it’s closer to, I think, six‑eighty, six‑ninety a month.  
+
+ADVISOR: [00:09:38] And that goes straight to your checking as well?  
+
+CLIENT: [00:09:41] Yes, into my U.S. Bank checking.  
+
+ADVISOR: [00:09:44] Do you ever take extra from that IRA on top of the monthly amount—for things like home repairs or gifts—or mostly just the scheduled RMD?  
+
+CLIENT: [00:09:51] Mostly just the scheduled one. When I put a new roof on, I did take an extra chunk. But that’s not every year.  
+
+ADVISOR: [00:09:59] Any other retirement accounts, like a 401(k) from the medical clinic you mentioned?  
+
+CLIENT: [00:10:03] Oh—yes, I always forget that one. Before teaching full‑time, I worked at a medical clinic and had a 401(k). We rolled it over years ago into an IRA at HarborPoint Investments.  
+
+ADVISOR: [00:10:13] HarborPoint Rollover IRA?  
+
+CLIENT: [00:10:16] That’s it. The statement says “HarborPoint Rollover IRA – Balanced Portfolio.”  
+
+ADVISOR: [00:10:20] Roughly how much is in that one now?  
+
+CLIENT: [00:10:24] Last time I looked—it was late last year—it was around eighty‑something thousand. Maybe eighty‑four, eighty‑five.  
+
+ADVISOR: [00:10:31] And are you taking required distributions from that one yet?  
+
+CLIENT: [00:10:35] Yes, just the RMD. They took about four thousand‑something last year. Once a year, they send it to my checking. I don’t touch the rest.  
+
+ADVISOR: [00:10:44] So, putting all that together: Social Security survivor benefit, teacher pension, survivor pension from Desert Southwest, small Crescent Life annuity, monthly RMD from Miguel’s IRA at Fidelity, and an annual RMD from the HarborPoint IRA. Any other regular income—work, rental, anything we’ve missed?  
+
+CLIENT: [00:10:59] Just my share of the Flagstaff condo rent. That’s a few hundred every few months. And a little CD interest here and there. No work income. My working days are done.  
+
+
+ADVISOR: [00:11:13] On a typical month, with all those pieces coming in, do you feel like everything is covered? Do you usually have some left to save, or does it pretty much all get used?  
+
+CLIENT: [00:11:21] Most months I have a little left—maybe two, three hundred—unless something big hits, like the dentist or the air conditioner. Then I use savings or I ask Fidelity to send extra.  
+
+ADVISOR: [00:11:31] That’s helpful. I’ll come back to your spending in a bit. Before that, can we go through your savings and investments—the pots you’re drawing on and the ones you think of more as “for the kids”?  
+
+CLIENT: [00:11:41] Sure. I brought a little list, but I don’t have every detail.  
+
+
+ADVISOR: [00:11:49] Let’s start with cash. Outside of the month‑to‑month checking, what cash‑type accounts do you have? Savings, money markets, CDs?  
+
+CLIENT: [00:11:56] I have a checking and a savings at U.S. Bank here in town, and then a money market and a CD at a credit union. And there’s the inheritance money from my sister that’s kind of just… sitting.  
+
+ADVISOR: [00:12:07] Roughly how much do you keep in checking and savings together, on average?  
+
+CLIENT: [00:12:12] Checking is just for bills, maybe one or two thousand, depending on when the pension hits. Savings is… I think around twenty‑five thousand, somewhere in the twenties.  
+
+ADVISOR: [00:12:22] And the credit union—what’s there?  
+
+CLIENT: [00:12:25] That’s where most of my sister’s inheritance is. It’s around ninety to a hundred thousand. Part of that is in a twelve‑month CD—about forty, forty‑five thousand—that doesn’t mature until March of 2026. The rest is in the regular money market.  
+
+ADVISOR: [00:12:41] Is that money “earmarked” in your mind—like mainly for the move and future care—or is it more “this is for the kids later”?  
+
+CLIENT: [00:12:48] Both. I want to keep a good chunk for Daniel and Sofia when I’m gone, but I also know I might need it if I end up in assisted living or something. I don’t want to be a burden.  
+
+ADVISOR: [00:12:58] Understood. Any other bank or online savings accounts—like those high‑yield savings you open on the internet?  
+
+CLIENT: [00:13:04] No, I thought about it when rates went up, but I just left it at the credit union. I know where to go if I need it.  
+
+
+ADVISOR: [00:13:13] Let’s move to investments. You mentioned Miguel’s IRA at Fidelity and the HarborPoint IRA. Is there also a regular, non‑retirement investment account?  
+
+CLIENT: [00:13:20] There is a small one at Edward Jones. My husband bought some utility stocks ages ago. I think it’s maybe forty, forty‑five thousand now. I mostly let it sit.  
+
+ADVISOR: [00:13:30] Is that in your name only now?  
+
+CLIENT: [00:13:33] Yes, they changed it after he died.  
+
+ADVISOR: [00:13:36] Any other investment‑type accounts we haven’t mentioned? Old annuities, TIAA, anything like that?  
+
+CLIENT: [00:13:41] Um… I had something tiny with TIAA from when I did a short stint at the community college. I’m pretty sure we moved that into the HarborPoint IRA a while back. If there’s anything left separate, it’s very small.  
+
+ADVISOR: [00:13:52] Okay. On life insurance, do you have any policies on your life that are still in force?  
+
+CLIENT: [00:13:57] Miguel’s policy paid out when he died. I used some to pay off the car and fix the roof. I do have a small policy on me through the teachers’ association, but it’s just term, no cash value, maybe ten thousand.  
+
+
+ADVISOR: [00:14:11] I want to make sure we capture how all of this is set up from an estate standpoint. Starting with the retirement accounts—the Fidelity IRA and the HarborPoint IRA—do you know who’s listed as beneficiaries?  
+
+CLIENT: [00:14:21] On the Fidelity IRA, yes, both kids are listed. We did that when they rolled it after he passed. On the HarborPoint one, I *think* we changed it from Miguel to the kids, but I’m not a hundred percent.  
+
+ADVISOR: [00:14:33] Okay, we’ll want to confirm the HarborPoint form. How about the Edward Jones account?  
+
+CLIENT: [00:14:38] That one has something they called “transfer on death.” Daniel and Sofia, fifty–fifty.  
+
+ADVISOR: [00:14:44] Good. And the bank and credit union accounts—the checking, savings, money market, and CD—do those have “POD” or “payable‑on‑death” designations?  
+
+CLIENT: [00:14:52] The lady at the branch talked about POD forms, but I don’t remember if we actually finished them. I don’t think the credit union ones have anything on them.  
+
+ADVISOR: [00:15:01] Alright, that’s something we can put on your to‑do list—usually just a simple form. What about the Flagstaff condo—how is the ownership written on the deed?  
+
+CLIENT: [00:15:09] It has my name and my niece’s name, each fifty percent. I don’t know the exact wording, but that’s the idea.  
+
+ADVISOR: [00:15:15] And your home in Las Cruces is in your name only now?  
+
+CLIENT: [00:15:19] Yes. We took Miguel’s name off after he passed. It’s just me on the deed.  
+
+
+ADVISOR: [00:15:29] Let’s zoom out for a second. When you think about the next five to ten years, what are the big things you’d like your money to do for you?  
+
+CLIENT: [00:15:36] The main thing is to be able to move closer to my kids, probably Sofia near Phoenix. I’d like to travel a bit while I still feel good—Spain was on our list before Miguel got sick. And I want to keep helping with my granddaughter’s daycare until she starts school. And then, of course, I want to leave something for the kids when I’m gone.  
+
+ADVISOR: [00:15:56] In terms of monthly spending, roughly what do you feel you need coming in after tax for your lifestyle—now and after the move?  
+
+CLIENT: [00:16:03] Right now I spend maybe three and a half to four thousand a month. That covers everything. If I move to Phoenix, I’m guessing it might be closer to four to five, with higher housing costs if I rent or have an HOA.  
+
+ADVISOR: [00:16:16] So you’d like to be confident we can support, say, four to five thousand a month after tax, plus some extra in the early years for travel.  
+
+CLIENT: [00:16:23] Yes, that sounds right. I know I might live a long time—my mom lived to ninety‑one—so it has to last.  
+
+
+ADVISOR: [00:16:34] I’d like to dig a bit more into your day‑to‑day expenses so I can see how they line up with the income you’re getting. Is that okay?  
+
+CLIENT: [00:16:40] Mm‑hmm, yes, that’s fine.  
+
+ADVISOR: [00:16:43] Let’s start with the basics. Roughly what does it cost to *run* the household each month—things like property tax spread out, utilities, home insurance?  
+
+CLIENT: [00:16:52] Um… I don’t have it all in front of me. The house is paid off, so no mortgage. Property tax is around two thousand a year, maybe a little over. Then gas and electric, water, trash, that sort of thing.  
+
+ADVISOR: [00:17:05] If you think about an average month, all‑in for housing—taxes spread out, utilities, home insurance—what would you guess?  
+
+CLIENT: [00:17:13] Maybe… thirteen to fifteen hundred a month? Some months are higher with the heat.  
+
+ADVISOR: [00:17:20] Okay, so essential housing costs in that ballpark. Home insurance is billed annually, right?  
+
+CLIENT: [00:17:25] Yes. Last time it was around nine hundred and something. It went up a bit.  
+
+ADVISOR: [00:17:31] Outside of housing, what other regular bills do you see every month? Phone, internet, groceries, subscriptions?  
+
+CLIENT: [00:17:38] Groceries are the big one. I cook at home mostly. I’d say five, six hundred. More if the kids visit—they eat a lot. My cell phone and internet together are about a hundred and twenty. I still have a landline too, but I keep meaning to cancel that.  
+
+ADVISOR: [00:17:53] Medical costs—your Medicare supplement, drug plan, and out‑of‑pocket—what do those run?  
+
+CLIENT: [00:17:59] My Medigap premium is just under three hundred a month. The prescription plan is another, I think, sixty or seventy. And I usually spend another hundred, hundred‑fifty on co‑pays and vitamins and things, depending on appointments.  
+
+ADVISOR: [00:18:14] So health care is a big non‑negotiable.  
+
+CLIENT: [00:18:17] Yes. I don’t skimp on that.  
+
+ADVISOR: [00:18:20] Do you still drive regularly?  
+
+CLIENT: [00:18:23] I do. I have a little Toyota. The insurance is about eight hundred a year, and gas maybe a hundred a month, sometimes less. I don’t go very far except to the store and church.  
+
+ADVISOR: [00:18:34] If we add up the essentials—housing, groceries, utilities, health, car—would it be fair to say your “must‑have” spending is somewhere a little over three thousand a month?  
+
+CLIENT: [00:18:43] That sounds right. On an average month that’s about it. Some months something breaks and then, you know, there goes the extra.  
+
+
+ADVISOR: [00:18:55] Let’s talk about the more flexible expenses—the “nice‑to‑have” side. Where do you like to spend when things are comfortable?  
+
+CLIENT: [00:19:02] Travel, definitely. Daniel’s in Colorado and Sofia’s outside Phoenix, so I fly to see them. I try to visit each of them at least once a year. Sometimes more if there’s a birthday.  
+
+ADVISOR: [00:19:12] When you add up plane tickets, maybe a hotel, eating out, what do you think you spend on travel in a year?  
+
+CLIENT: [00:19:19] I’d guess five to six thousand? The airfare alone can be six, seven hundred a trip, and then you’ve got Ubers and meals. And every couple of years I do something just for me—I went on a little river cruise in Europe with a friend three years ago. That was a splurge.  
+
+ADVISOR: [00:19:35] Apart from travel, what else falls into that “enjoyment” category—dining out, church, hobbies, gifts?  
+
+CLIENT: [00:19:41] I give to my church every month, about two hundred. I don’t really think of that as optional, but I suppose it is. I eat out maybe once a week with friends—maybe another hundred a month. And I knit. Yarn is cheaper than golf.  
+
+ADVISOR: [00:19:55] Do you help your children or grandchildren financially on a regular basis?  
+
+CLIENT: [00:19:59] I do, yes. My daughter works full‑time and my youngest granddaughter is in daycare. I pay part of that.  
+
+ADVISOR: [00:20:06] Roughly how much are you contributing there?  
+
+CLIENT: [00:20:09] The daycare bill is close to twelve hundred a month. I pay about a third. Sometimes a bit more if they’re stretched. So maybe four hundred on average. Some months I pay five hundred, some months I don’t pay at all if my daughter says she’s okay.  
+
+ADVISOR: [00:20:24] And you’d like to continue that?  
+
+CLIENT: [00:20:26] Very much. I told her I’d help until the baby starts kindergarten. She’s three now, so maybe two more years. It feels like part of my legacy—helping while I’m here, not just leaving money when I’m gone.  
+
+ADVISOR: [00:20:39] That’s lovely. If we put things into three buckets—things you absolutely can’t cut, things you’d rather not cut, and things you could trim if you had to—how would you classify them?  
+
+CLIENT: [00:20:48] Well, can’t cut is the basics: taxes, lights, water, groceries, my health insurance. That’s non‑negotiable. Daycare for my granddaughter is in “rather not cut” for the next couple of years. Travel and eating out, I value those, but if the market went crazy or something happened with my health, that would be the first to shrink. Fewer trips, cheaper tickets.  
+
+ADVISOR: [00:21:11] If you look at everything together—essentials, daycare help, travel, church, outings—what would you guess your total monthly spending averages out to?  
+
+CLIENT: [00:21:19] Hm. I’ve never sat down and added it all up. I’d guess maybe four thousand? Some months closer to five if there’s a trip or a big insurance bill. But then there are quieter months.  
+
+ADVISOR: [00:21:31] A range is fine—that gives me enough to work with.  
+
+
+ADVISOR: [00:21:40] I want to touch a bit on taxes, since you have multiple taxable income sources. Do you have a sense of what federal bracket you’re in?  
+
+CLIENT: [00:21:46] My accountant told me I’m in the middle federal bracket. I think she said twenty‑two percent federal, and then New Mexico takes another four or five percent.  
+
+ADVISOR: [00:21:55] Okay, so not the top bracket, but enough that the IRA distributions and pensions matter.  
+
+CLIENT: [00:21:59] Oh yes, I always owe a little in April.  
+
+
+ADVISOR: [00:22:08] You mentioned wanting to help your kids and grandkids now and also leave something later. When you think about your estate, which assets are you most concerned about passing smoothly—your house, the condo share, the investment accounts, or the cash?  
+
+CLIENT: [00:22:19] The house and the condo, mostly. I don’t want them fighting over property. And I keep hearing about putting the house in a trust so they don’t have to go through, uh, pro… pro‑bate? I’m not sure what I should do.  
+
+ADVISOR: [00:22:31] We can definitely look at that. Do you currently have a will?  
+
+CLIENT: [00:22:35] I do, but it’s old. The original was from 2014 and left everything to Miguel first. After he died, the attorney did a, um—what did he call it—  
+
+ADVISOR: [00:22:44] A codicil?  
+
+CLIENT: [00:22:46] Yes, a codicil. He added the kids as equal beneficiaries. But it’s very simple. It doesn’t mention the house address or the IRA details or anything like that.  
+
+ADVISOR: [00:22:56] Any kind of trust set up?  
+
+CLIENT: [00:22:59] No trust. People have told me maybe I should put the house or investments into a trust, but I haven’t done that.  
+
+ADVISOR: [00:23:05] And powers of attorney—financial, medical—do you have those?  
+
+CLIENT: [00:23:09] I signed a health care form at the hospital when Miguel was in treatment, but I don’t remember if that’s the same as a proper directive. I do have something giving Daniel authority if I can’t make decisions, but it’s all in a folder.  
+
+ADVISOR: [00:23:21] Okay, we’ll review what you have. For now I’ll note: basic will, likely due for an update; some health care paperwork we should look at; no trust yet.  
+
+CLIENT: [00:23:29] Yes, that sounds right.  
+
+
+ADVISOR: [00:23:38] I also want to understand how you feel about investing risk. When markets go up and down—like in 2020—how do you tend to feel?  
+
+CLIENT: [00:23:45] Nervous, honestly, when they swing a lot. During COVID I watched things drop and it made my stomach hurt. But I also know leaving everything in the bank isn’t smart, so I guess I’m somewhere in the middle. I can handle some ups and downs, just not, you know, casino levels.  
+
+ADVISOR: [00:24:01] So you want your money to grow, but with a smoother ride.  
+
+CLIENT: [00:24:04] Exactly. I need it to last, but I also need to sleep at night.  
+
+ADVISOR: [00:24:08] That’s very clear, thank you. I’ll send you a short risk questionnaire after our call, just to put a number around that.  
+
+CLIENT: [00:24:15] Okay.  
+
+
+ADVISOR: [00:24:23] Let’s loop back to your move, because it touches housing, savings, and estate planning all at once. When you picture yourself near Sofia in the Phoenix area, what kind of housing do you imagine? Renting, buying a condo, moving in with her?  
+
+CLIENT: [00:24:35] Not moving in. We love each other, but I like my own space. I picture a small condo or townhouse near her. One story, or at least a bedroom on the ground floor.  
+
+ADVISOR: [00:24:46] Have you looked at any listings to get a sense of prices and monthly costs there?  
+
+CLIENT: [00:24:50] A little bit online. The condos near her are not cheap. Property taxes might be lower than here, but there’s usually an HOA fee—one place I saw had a three hundred a month association fee.  
+
+ADVISOR: [00:25:01] And utilities would be similar, maybe a bit less if it’s smaller.  
+
+CLIENT: [00:25:05] Yes. Maybe I’d save on heating and lawn care, but then there’s the fee. I don’t have exact numbers yet. I’m just browsing.  
+
+ADVISOR: [00:25:13] For the move itself, how do you *think* you’d like to pay for it? Sell the Las Cruces house and use those proceeds plus some savings?  
+
+CLIENT: [00:25:21] That’s what I was thinking. Sell this house, use that money for the new place and the movers. I was hoping to use the house money and the bank money, and leave the IRAs mostly alone except for the required amounts.  
+
+ADVISOR: [00:25:33] Would you consider renting for a year or two there first, before buying, or do you really prefer to own again right away?  
+
+CLIENT: [00:25:40] I’ve thought about renting first, just to make sure I like the neighborhood. I’m open to that. I just don’t want to be bouncing around every year.  
+
+
+ADVISOR: [00:25:52] When you think about those different pots of money you have, which do you mentally label as “for me to spend” and which feel more like “legacy for the kids”?  
+
+CLIENT: [00:26:00] The pensions and Social Security and that little annuity, that’s for me, obviously. The IRAs and the condo—I see those as half‑and‑half: there if I need them, but ideally going to the kids. The inheritance from my sister, I sort of feel like that should pass on, because it came from her. But I also know I might need it for care. The Edward Jones account feels like “kids money” in my head, unless things get really bad.  
+
+ADVISOR: [00:26:24] That’s very helpful. It tells me you’re not trying to die with the biggest number possible, but you are conscious of leaving something behind.  
+
+CLIENT: [00:26:31] Right. I don’t need to leave millions. I just don’t want them to have to, you know, scramble or clean up a mess.  
+
+
+ADVISOR: [00:26:41] On that note—after you pass, some of your income sources stop and some continue through as assets. Have you thought about which are which?  
+
+CLIENT: [00:26:48] A little. I know my teacher pension and the Desert Southwest one stop when I’m gone. Same with the Social Security, I think. The annuity too. The IRAs and the house and the condo, those they can inherit.  
+
+ADVISOR: [00:27:01] That’s exactly right. The pensions and annuity are wonderful for security *while* you’re alive, but they’re not really part of the inheritance. The IRAs, the Edward Jones account, the condo, your house, and your bank cash are what Daniel and Sofia will actually receive.  
+
+CLIENT: [00:27:16] That’s why I don’t want to waste those. But I also don’t want to sit in a dark house not turning on the heat just to leave them more.  
+
+ADVISOR: [00:27:24] Of course. We’re aiming for a balance.  
+
+
+ADVISOR: [00:27:32] Let me ask a couple of practical questions about your day‑to‑day banking. Your main checking account is at U.S. Bank, and that’s where your pensions and Social Security go?  
+
+CLIENT: [00:27:39] Yes. Social Security goes in the second Wednesday, teacher pension around the first, Miguel’s power company pension the middle of the month, and the IRA payments from Fidelity and the HarborPoint RMD when it comes.  
+
+ADVISOR: [00:27:51] Is your property tax and insurance paid directly from that account, or do you pay by check?  
+
+CLIENT: [00:27:56] I pay those by check when the bill comes. I like to see it.  
+
+ADVISOR: [00:28:00] Any debts at this point—car loans, credit cards you carry a balance on, medical debt?  
+
+CLIENT: [00:28:05] My car is paid off. I use a credit card, but I pay it off every month. I don’t like carrying balances. I saw my parents struggle with that.  
+
+ADVISOR: [00:28:14] So no long‑term debt at all.  
+
+CLIENT: [00:28:16] No. Just the regular bills.  
+
+
+ADVISOR: [00:28:24] I want to confirm your best contact information so I can send you a few things after we’re done—risk questionnaire, and a checklist of documents. What’s the cell number you prefer?  
+
+CLIENT: [00:28:32] It’s 602‑555‑9… hang on… 9624.  
+
+ADVISOR: [00:28:38] 602‑555‑9624?  
+
+CLIENT: [00:28:41] Yes, that’s it.  
+
+ADVISOR: [00:28:43] And that’s a cell, not a landline.  
+
+CLIENT: [00:28:45] Yes, cell. You can call or text.  
+
+
+ADVISOR: [00:28:54] Let me circle back to one thing on the investments. On the Fidelity IRA and the HarborPoint IRA, you said the kids are beneficiaries, or at least you think so on HarborPoint. On the bank accounts, we’ll likely want to add POD designations. On the Flagstaff condo, have you and your niece talked about what happens when one of you dies?  
+
+CLIENT: [00:29:10] Not really. We just kind of… avoided that. We talked about maybe selling it when her youngest finishes college, but that’s as far as we got.  
+
+ADVISOR: [00:29:19] Would you *want* your half to go to Daniel and Sofia, or to that niece, or split somehow?  
+
+CLIENT: [00:29:25] I’d like my half to go to Daniel and Sofia. My niece is doing fine and she has her own kids.  
+
+ADVISOR: [00:29:32] Okay, we’ll make sure your will and maybe the way the deed is titled reflect that.  
+
+
+ADVISOR: [00:29:40] Earlier you mentioned being nervous watching the markets back in 2020. How are you invested inside the Fidelity and HarborPoint IRAs right now—do you have a sense?  
+
+CLIENT: [00:29:48] At Fidelity, it’s mostly in balanced funds. The lady there said “60/40,” I think. At HarborPoint, the statement says “Balanced Portfolio” too. I told both of them I don’t like big swings.  
+
+ADVISOR: [00:29:59] And the Edward Jones account with utility stocks—do you pay much attention to those, or is that more of a “set it and forget it”?  
+
+CLIENT: [00:30:06] I mostly let it sit. They send statements. I glance to make sure it hasn’t gone to zero, but that’s about it.  
+
+ADVISOR: [00:30:12] Do you take any income from the Edward Jones account, or are dividends just reinvested?  
+
+CLIENT: [00:30:17] Reinvested. I don’t spend that money.  
+
+
+ADVISOR: [00:30:26] When you imagine selling the Las Cruces house, do you have a sense of how much of those sale proceeds you’d want to keep very safe—cash, CDs—and how much you’d be open to investing for some growth?  
+
+CLIENT: [00:30:35] I was thinking I’d keep a good amount in, you know, high‑yield savings or CDs for emergencies and the move. And maybe put some into something a little bit… growth‑y? Not too risky, just enough that it stays ahead of prices. I don’t know what that looks like in numbers.  
+
+ADVISOR: [00:30:49] That’s fine. Once we’re closer to an actual sale price, we’ll match amounts to your comfort level.  
+
+CLIENT: [00:30:54] Okay.  
+
+
+ADVISOR: [00:31:02] Let’s talk about one more practical thing: long‑term care or assisted living. You mentioned not wanting to be a burden. Have you thought about whether you’d prefer to stay at home with help, move to some kind of independent living community, or are you just hoping it won’t come up?  
+
+CLIENT: [00:31:15] I’d like to stay at home as long as I can, with some help maybe. If that’s not possible, then I’d want to be somewhere near one of the kids, not alone in a facility in a town where I don’t know anyone. I don’t have long‑term care insurance, so I know that money would have to come from my savings and the house.  
+
+ADVISOR: [00:31:31] Okay. That’s part of why keeping some of that inheritance and your house equity flexible is important.  
+
+CLIENT: [00:31:37] Yes, exactly.  
+
+
+ADVISOR: [00:31:45] On the legal documents side, you mentioned your will and the health‑care form. Have you named anyone as a financial power of attorney if you were alive but unable to manage money?  
+
+CLIENT: [00:31:53] I believe Daniel is on something like that. We did it when Miguel got sick. The lawyer said, “Since Daniel is more numbers‑minded, let’s put him on the finances.” Sofia is named on some health stuff.  
+
+ADVISOR: [00:32:05] That division makes sense—one kid for the money, one for medical. We’ll just want to confirm the documents are up to date and still match what you want, especially if you move states.  
+
+CLIENT: [00:32:14] Right.  
+
+
+ADVISOR: [00:32:22] If you think about the next couple of years before the move—are there any big expenses you see coming up besides travel and the daycare support? Things like major home repairs, a new car, big medical procedures?  
+
+CLIENT: [00:32:32] The roof is new, the air conditioner is only a few years old. The big thing is probably a car, but I’m hoping my Toyota will last a few more years. Maybe some dental work—I had one crown done and they said a couple more are coming.  
+
+ADVISOR: [00:32:45] And you’d likely pay for those from savings or by bumping up the IRA withdrawals for that year?  
+
+CLIENT: [00:32:50] Yes. That’s what I did with the roof and teeth last time. I don’t like doing it, but I also don’t want to put big things on a credit card.  
+
+
+ADVISOR: [00:33:00] Is there anything about your finances that worries you the most when you lie awake at night?  
+
+CLIENT: [00:33:05] Outliving my money, I suppose. Becoming a burden on the kids. And the thought of them having to deal with a mess when I’m gone—probate, or not being able to find accounts. I have everything in a shoebox and a red binder, but I don’t know how easy it’ll be for them.  
+
+ADVISOR: [00:33:20] We can definitely make it easier for them. Part of our work will be organizing things—making sure beneficiaries are set, adding PODs on the bank accounts, maybe using a simple trust for the house.  
+
+CLIENT: [00:33:30] That would make me feel better.  
+
+
+ADVISOR: [00:33:38] Is there anything you *haven’t* told me yet—any small account, old savings bond, or property—that we should at least note, even if it’s tiny?  
+
+CLIENT: [00:33:45] If there is, it would be something like an old savings bond in a drawer, like you said. Nothing big. Everything I know about is the house, the Flagstaff condo, the bank money, the IRAs, and the Edward Jones account.  
+
+ADVISOR: [00:33:57] That’s already a good, clear picture.  
+
+
+ADVISOR: [00:34:06] For our next meeting, would you be able to gather a few specific documents for me? Things like your latest Social Security letter; the teacher pension statement; the Desert Southwest pension statement; the annuity statement from Crescent Life; your most recent Fidelity and HarborPoint IRA statements; the Edward Jones statement; and any paperwork on the house and the Flagstaff condo.  
+
+CLIENT: [00:34:24] Yes, I have them in a folder. I’ll bring the whole stack so you can see everything.  
+
+ADVISOR: [00:34:29] Perfect. I’ll also send you that risk questionnaire and a short estate‑planning checklist so we can make sure Daniel and Sofia are protected the way you want.  
+
+CLIENT: [00:34:37] Okay.  
+
+ADVISOR: [00:34:40] Before we wrap up, is there anything else on your mind—anything I haven’t asked about that you were hoping we’d cover today?  
+
+CLIENT: [00:34:47] No, I think we touched on the big things—the move, the daycare, the house, making it easy for the kids. I just want to make sure I’m not missing something obvious.  
+
+ADVISOR: [00:34:57] We’ll go through everything in detail once I’ve seen the statements and documents. For today, I’ve got what I need to start putting some thoughts together.  
+
+CLIENT: [00:35:05] Alright. Thank you.

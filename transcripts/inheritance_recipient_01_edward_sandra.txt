@@ -1,0 +1,615 @@
+# Financial Fact-Find Transcript
+# Persona: Edward and Sandra Lewis
+# Type: Recent Inheritance Recipient
+# Generated: 2025-11-17 19:48:07
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:02] Hi, is that Edward and Sandra on the line?  
+
+CLIENT1: [00:00:05] Yes, yeah, hi, it’s Edward.  
+
+CLIENT2: [00:00:08] And Sandra, hello.  
+
+ADVISOR: [00:00:12] Nice to meet you both. I’ll mostly be gathering information today, especially around the inheritance and your retirement plans.  
+Just to get the basics right, how do you spell your surname — is it Lewis, L‑E‑W‑I‑S?  
+
+CLIENT1: [00:00:21] That’s right, Lewis, like the shop.  
+
+CLIENT2: [00:00:24] Yeah, not “Louis” with an O. It gets written wrong a lot.  
+
+ADVISOR: [00:00:29] Got it, L‑E‑W‑I‑S. And you’re married to each other, just so I’m clear on the records?  
+
+CLIENT2: [00:00:34] Yes, married.  
+
+CLIENT1: [00:00:35] Coming up to, what, twelve years now?  
+
+CLIENT2: [00:00:38] Thirteen in October, actually.  
+
+ADVISOR: [00:00:41] Thirteen, okay. I’ll take Sandra as CLIENT2 in my notes and Edward as CLIENT1. Do you ever go by Ed or Eddie?  
+
+CLIENT1: [00:00:48] Everyone calls me Eddie, but Edward’s fine on the paperwork.  
+
+ADVISOR: [00:00:52] Perfect. Edward, can I grab your date of birth?  
+
+CLIENT1: [00:00:55] Sure, it’s the 4th of May, nineteen seventy‑nine.  
+
+ADVISOR: [00:01:00] 05/04/79, thanks. And Sandra?  
+
+CLIENT2: [00:01:03] Mine is 18th September, um, nineteen… eighty‑three.  
+
+ADVISOR: [00:01:08] 09/18/83, perfect.  
+While we’re on personal stuff, how’s your health generally, Edward? Any ongoing conditions I should know about?  
+
+CLIENT1: [00:01:15] Uh, pretty good, I’d say. I’m a bit overweight, like most IT people, and I get some lower‑back pain if I sit too long. No major illnesses.  
+
+ADVISOR: [00:01:25] Any diagnoses like diabetes, heart issues?  
+
+CLIENT1: [00:01:29] No. Blood pressure’s a bit on the high side but it’s controlled with tablets.  
+
+ADVISOR: [00:01:35] Okay, mild blood‑pressure medication. Do you smoke?  
+
+CLIENT1: [00:01:39] No, never smoked.  
+
+ADVISOR: [00:01:42] Great. Sandra, how about you?  
+
+CLIENT2: [00:01:46] Um, generally fine. I’ve got asthma, like the mild, exercise‑induced kind. Inhaler in my bag, that’s about it.  
+
+ADVISOR: [00:01:54] Managed with an inhaler, okay. Any surgeries or anything serious recently?  
+
+CLIENT2: [00:01:59] Just a C‑section with our youngest, but that was eight years ago now.  
+
+ADVISOR: [00:02:03] And you smoke at all?  
+
+CLIENT2: [00:02:05] No. I used to in my twenties, but I quit, uh, probably fifteen years ago.  
+
+ADVISOR: [00:02:11] I’ll mark you both as non‑smokers now, ex‑smoker for you.  
+Have you got wills in place at the moment, especially with the inheritance coming in?  
+
+CLIENT1: [00:02:18] We do, but they’re old.  
+
+CLIENT2: [00:02:20] Yeah, we did simple wills when our eldest was born. Very basic. No mention of this money or the cabin.  
+
+ADVISOR: [00:02:27] Okay, so simple wills, probably due for a refresh with the bigger estate. We’ll circle back to that.  
+
+[short pause / keyboard sounds]  
+
+ADVISOR: [00:02:36] Before we dig into the inheritance, let’s get a quick picture of where you are now. Can we start with where you live — do you own your home or are you renting?  
+
+CLIENT1: [00:02:44] Uh, yeah, we own. This is Edward. We’ve got a house on the east side of Columbus.  
+
+ADVISOR: [00:02:51] And what kind of property is that?  
+
+CLIENT2: [00:02:53] It’s a single‑family, two‑story, kind of older colonial. Three bedrooms, one and a half bath. It’s in Reynoldsburg, just off Broad Street.  
+
+ADVISOR: [00:03:04] Got it. Do you have a rough idea what that place would sell for today? Ballpark is fine.  
+
+CLIENT1: [00:03:11] Uh, we’re not totally sure. Zillow jumps around, but last time I looked it said somewhere like three eighty to maybe just over four hundred. So, low four hundreds at the very top.  
+
+ADVISOR: [00:03:24] That’s helpful. And is there still a mortgage on it, or is it paid off?  
+
+CLIENT2: [00:03:29] No, we definitely still have a mortgage. We bought in 2016.  
+
+ADVISOR: [00:03:34] Do you remember roughly how much is left and what the monthly payment is?  
+
+CLIENT1: [00:03:40] I want to say the payoff is around two ten… two twenty? Somewhere in that range. The payment with taxes and insurance is about fourteen hundred a month. Maybe a hair under.  
+
+ADVISOR: [00:03:52] And the interest rate?  
+
+CLIENT2: [00:03:54] I think it’s three point seven five, thirty‑year fixed. We’re about, what, eight years in?  
+
+CLIENT1: [00:04:00] Yeah, around that. They told us if we just did the minimum it would run to, like, 2046.  
+
+ADVISOR: [00:04:08] Okay, ~22 years left. With the inheritance, are you thinking at all about paying that down faster, or would you rather keep the mortgage and invest the money?  
+
+CLIENT2: [00:04:16] We’ve gone back and forth. Part of me really likes the idea of going into our fifties with no house payment, ’cause we do want to retire early. But also everyone keeps saying, “Don’t rush to pay off a cheap mortgage.” So we’re not sure.  
+
+CLIENT1: [00:04:29] My gut reaction when the money came in was, “Just pay the house off.” I’ve calmed down a bit since.  
+
+ADVISOR: [00:04:36] Totally normal reaction. We’ll look at both options.  
+Let me switch over to your work situation, because that ties into retirement. Edward, where are you working at the moment?  
+
+CLIENT1: [00:04:45] I work for Lakeview Technologies. It’s an IT firm — we do managed services for mid‑sized companies. I’m a project manager there.  
+
+ADVISOR: [00:04:53] Full‑time?  
+
+CLIENT1: [00:04:55] Yeah, full‑time. More than full‑time sometimes. Lots of overtime if I let them.  
+
+ADVISOR: [00:05:00] Roughly what do you earn there each year, before tax?  
+
+CLIENT1: [00:05:04] Uh, after my last raise, I’m at around ninety‑one thousand. There’s usually a bonus, maybe eight or nine thousand if the company does well.  
+
+ADVISOR: [00:05:14] Okay, just over ninety base plus a variable bonus. Paid twice a month?  
+
+CLIENT1: [00:05:18] Yeah, fifteenth and thirtieth, roughly.  
+
+ADVISOR: [00:05:21] Sandra, what about you?  
+
+CLIENT2: [00:05:23] I work for Maple Grove Elementary in the Brookside district. I’m a school counselor there.  
+
+ADVISOR: [00:05:29] And is that full‑time?  
+
+CLIENT2: [00:05:31] Technically it’s like point‑eight. I work during the school year, nine, ten months, and they spread the pay over twelve.  
+
+ADVISOR: [00:05:39] What does that come to per year?  
+
+CLIENT2: [00:05:41] Somewhere in the low forties. Maybe forty‑two? My take‑home’s about thirty‑four hundred a month.  
+
+CLIENT1: [00:05:48] Yeah, that’s what we used in our budget.  
+
+ADVISOR: [00:05:51] Any extra work on the side?  
+
+CLIENT2: [00:05:53] I do some private tutoring in the summers. Not a ton. Maybe two or three thousand over the whole summer.  
+
+ADVISOR: [00:06:00] And I think you mentioned a stipend?  
+
+CLIENT2: [00:06:02] Oh yeah, I get a small stipend for heading the wellness committee — five, six hundred a year. It just shows up in one paycheck.  
+
+ADVISOR: [00:06:09] Okay. So combined household income — your salary, Sandra’s, plus bonuses and tutoring — you’re roughly in the low‑to‑mid hundred‑thirties per year?  
+
+CLIENT1: [00:06:18] Yeah, we’ve said around one‑thirty, one‑thirty‑five depending on my bonus and whether she tutors much.  
+
+ADVISOR: [00:06:25] How secure do you feel those incomes are over, say, the next five years?  
+
+CLIENT1: [00:06:29] Mine’s reasonably secure. Tech is always a bit up and down, but our company’s been growing. I don’t feel like I’m on the chopping block.  
+
+CLIENT2: [00:06:37] And schools always need counselors. Unless there’s some huge budget cut, I feel pretty safe.  
+
+ADVISOR: [00:06:43] That’s good. Now, big picture — when, in an ideal world, would you each like to be able to step back from full‑time work?  
+
+CLIENT1: [00:06:51] Honestly? I’d love to be done by fifty.  
+
+CLIENT2: [00:06:54] He keeps saying fifty.  
+
+CLIENT1: [00:06:56] I just don’t want to still be doing late‑night releases in my sixties.  
+
+ADVISOR: [00:07:00] You’re forty‑five now, so that’s roughly ten years.  
+
+CLIENT1: [00:07:03] Nine, ten years, yeah.  
+
+ADVISOR: [00:07:05] And you, Sandra?  
+
+CLIENT2: [00:07:07] I’m a bit more cautious. I was thinking mid‑fifties, like fifty‑five, fifty‑six. Maybe three days a week before then.  
+
+CLIENT1: [00:07:15] We argued about this last night.  
+
+CLIENT2: [00:07:17] Yeah, I don’t want to stop too early and then be worrying all the time.  
+
+ADVISOR: [00:07:21] That difference is actually useful. We can look at you, Edward, stepping back earlier, and Sandra possibly carrying on part‑time if that fits.  
+In terms of income in retirement — forget the inheritance for a second — what would you need each year after tax to feel comfortable?  
+
+CLIENT1: [00:07:34] We did a rough budget. I think we said somewhere around forty to forty‑five thousand a year after tax would feel okay.  
+
+CLIENT2: [00:07:42] Yeah, not luxury, but being able to go on one nice holiday, run a car, do kids’ stuff.  
+
+ADVISOR: [00:07:48] Does that include helping the kids with college or house deposits, or are those more like separate, one‑off things?  
+
+CLIENT2: [00:07:54] We were thinking of that as separate. Maybe using some of the inheritance.  
+
+CLIENT1: [00:07:58] Yeah, like one‑off gifts rather than built into the yearly budget.  
+
+ADVISOR: [00:08:03] Okay, that helps. We’ll come back to that.  
+Let’s actually talk about the inheritance now. Roughly how much did you receive, and where is it sitting?  
+
+CLIENT1: [00:08:12] So, um, between the life insurance and her investment accounts, it was just under five hundred thousand total. That’s Sandra’s mom. But that was split between Sandra and her brother and sister. Our portion is, like, mid three hundreds.  
+
+CLIENT2: [00:08:24] Yeah, we’ve actually received around three sixty, three seventy so far. There’s still a piece tied up in selling her house.  
+
+ADVISOR: [00:08:32] And that three‑sixty‑ish you’ve got already — mostly cash right now, or already invested?  
+
+CLIENT2: [00:08:38] Mostly cash. We were scared to do anything rash. So about, um, two‑twenty is in a high‑yield savings at our credit union. Then we put a hundred thousand into a one‑year CD at, I think, five percent that comes due next March. The rest is in a brokerage account that just rolled over from my mom’s account — some mutual funds and a bit of cash.  
+
+ADVISOR: [00:08:58] Do you recall roughly how much is in that brokerage now?  
+
+CLIENT1: [00:09:01] Last time I logged in it was like sixty‑something thousand. Markets have been up and down, so somewhere in the low sixties.  
+
+ADVISOR: [00:09:09] And the chunk still to come from the house sale — any idea of amount and timing?  
+
+CLIENT2: [00:09:14] The realtor listed it for two twenty‑five. After fees and splitting three ways, our share should be maybe seventy to eighty thousand. If everything goes smoothly, closing would be July or August.  
+
+ADVISOR: [00:09:26] Okay. Once that last chunk comes in, are you thinking of treating it the same way — parking in savings — or is that when you’d want to start being more intentional with it?  
+
+CLIENT1: [00:09:35] I think by then we’d want a plan in place. We’ve talked about using some to max out both our Roth IRAs each year and then just putting the rest into a regular investment account. We just don’t know how much to keep as “safe” cash.  
+
+CLIENT2: [00:09:47] And how much, if any, to throw at the mortgage.  
+
+ADVISOR: [00:09:50] Right. Before we decide what to do with it, I need a feel for what you own already and what’s going out the door.  
+Let’s stay with what you own for a moment. Besides your primary home, do you own any other property?  
+
+CLIENT1: [00:10:00] Yeah, there’s the cabin.  
+
+CLIENT2: [00:10:02] Oh right, yeah, the cabin.  
+
+ADVISOR: [00:10:05] Tell me about the cabin.  
+
+CLIENT2: [00:10:07] So my mom had a little A‑frame cabin down near Hocking Hills, in Rockbridge. When she passed, it went to me and my brother and my sister. So we each own a third now.  
+
+ADVISOR: [00:10:17] Okay, one‑third share in a cabin. Any mortgage on that?  
+
+CLIENT1: [00:10:20] No, that one’s free and clear. She’d paid it off ages ago. We just pay property taxes and stuff.  
+
+ADVISOR: [00:10:25] Do you have a guess at what the whole cabin might be worth if you sold it?  
+
+CLIENT2: [00:10:29] My brother talked to a realtor down there. They thought maybe around two hundred to two twenty for the whole thing.  
+
+CLIENT1: [00:10:35] So our third is, I don’t know, call it sixty to seventy thousand if we ever sold.  
+
+ADVISOR: [00:10:40] Do you rent it out at all, like Airbnb, or is it just family?  
+
+CLIENT2: [00:10:43] A bit of both. In summer and fall we do short‑term rentals on weekends. Last year, I think after expenses, our share was maybe three to four thousand. It’s not huge, but it helps pay the taxes and maintenance.  
+
+ADVISOR: [00:10:56] That’s useful — asset plus a small income stream. Are you emotionally attached to keeping it, or would you consider selling your share at some point?  
+
+CLIENT2: [00:11:04] I’m attached. It’s where we went with Mom.  
+
+CLIENT1: [00:11:07] Yeah, I don’t see us selling it anytime soon. Maybe way down the road.  
+
+ADVISOR: [00:11:12] Understood. So we’ll treat it as a long‑term hold for now.  
+Outside of property, what retirement‑type accounts do you each have — 401(k), 403(b), IRAs?  
+
+CLIENT2: [00:11:21] I have a 403(b) through the school district. The last statement was around one ninety… maybe one ninety‑five. They match four percent.  
+
+CLIENT1: [00:11:29] And I’ve got a 401(k) at Lakeview. Mine’s smaller, maybe one fifteen, one twenty. Plus a Roth IRA I started years ago that’s just over forty thousand now.  
+
+ADVISOR: [00:11:40] Great. Are you both still contributing regularly?  
+
+CLIENT2: [00:11:43] Yeah, I do eight percent, so I get the full match and a bit more.  
+
+CLIENT1: [00:11:47] I bumped mine to ten percent this year. Partly because of the inheritance, we felt like we could afford it.  
+
+ADVISOR: [00:11:53] Any other retirement accounts knocking around? Old 401(k)s or IRAs?  
+
+CLIENT1: [00:11:57] I’ve got a Vanguard rollover IRA from my old job at the hospital. That’s from a 401(k) I had there. Last time I checked it was somewhere between ninety and a hundred‑ten thousand.  
+
+ADVISOR: [00:12:07] Are you adding to that, or just letting it grow?  
+
+CLIENT1: [00:12:10] We set up an automatic four hundred a month from our joint account. Sometimes we top it up at year‑end if there’s extra.  
+
+CLIENT2: [00:12:16] We skipped the extra last year with everything going on, but usually we try to.  
+
+ADVISOR: [00:12:21] And Sandra, any IRA in your name?  
+
+CLIENT2: [00:12:24] Yeah, I’ve got a Roth IRA at Charles Schwab. Mid‑five figures — we think around forty‑five thousand. We were doing about five hundred a month into it at the start of the year, then paused while the inheritance stuff was going on.  
+
+ADVISOR: [00:12:36] Okay. Any health savings accounts?  
+
+CLIENT2: [00:12:39] I do have an HSA with Fidelity. There’s around eighteen, nineteen thousand in there, mostly invested in an index fund.  
+
+ADVISOR: [00:12:46] Edward, anything like company stock or other investments?  
+
+CLIENT1: [00:12:49] I have a little employee stock purchase thing — ESPP — through work. It’s not huge, maybe eight or nine thousand in company stock.  
+
+ADVISOR: [00:12:56] And any joint, taxable investment accounts?  
+
+CLIENT1: [00:12:59] Yeah, we opened a joint brokerage at Betterment a while ago — one of those robo‑advisors. It’s around forty or fifty thousand. We were doing two‑fifty a month into it, but we stopped last fall to build cash before the inheritance.  
+
+ADVISOR: [00:13:12] Okay, that gives me a good sense of the retirement and investment side. We’ll tighten the numbers later.  
+How about more everyday assets — cash outside the inheritance, cars, anything else?  
+
+CLIENT2: [00:13:21] Our “normal” emergency fund, before everything with Mom, was like fifteen thousand between checking and a regular savings at our credit union. Right now it’s all mixed in with the inheritance money, so it’s hard to separate, but we’d be comfortable with around that amount, maybe twenty, as a cushion.  
+
+CLIENT1: [00:13:35] Cars are both paid off. We have a 2017 Subaru Outback, probably worth twelve, thirteen thousand. And a 2022 Honda CR‑V that might still be mid‑twenties.  
+
+ADVISOR: [00:13:45] Any other assets — collectibles, side businesses?  
+
+CLIENT2: [00:13:48] I sell handmade stuff on Etsy, but it’s tiny. I might have three or four thousand in supplies and inventory. I don’t really think of it as an “asset,” more just a hobby that pays for itself.  
+
+CLIENT1: [00:13:57] No boats, no crypto, no secret gold bars in the backyard. That’s pretty much it.  
+
+ADVISOR: [00:14:02] Alright. We’ll uncover more if anything pops into your heads later.  
+Let’s flip to what’s going out each month. To figure out how this inheritance can help you retire early, I need a feel for your monthly spending. What would you say you spend on the house and other regular, fairly fixed bills?  
+
+CLIENT1: [00:14:16] Um… so mortgage, property tax, all the gas, electric, that stuff? I think, all in, for the two of us and the kids, it’s somewhere between three and a half and four thousand a month on “boring bills.”  
+
+ADVISOR: [00:14:27] Let’s break that down. For housing — mortgage, taxes and insurance in that payment, utilities like gas, electricity, water, broadband — roughly how much of that total is the “roof over your head” piece?  
+
+CLIENT2: [00:14:38] Okay. So the mortgage is about fourteen hundred with taxes and insurance. Gas and electric together are maybe one eighty, two hundred depending on the time of year. Water’s like forty‑odd. Internet and TV, maybe sixty or seventy. So… what’s that, roughly eighteen hundred? Just on the house and keeping the lights on.  
+
+ADVISOR: [00:14:56] So call it high teens per month for housing and core utilities — things you can’t easily switch off.  
+
+CLIENT1: [00:15:02] Yeah, those are the ones we can’t really dodge. Even if we retired tomorrow, we’d still have that chunk.  
+
+ADVISOR: [00:15:08] Got it. Let’s talk kids next, because that’s a big one for a lot of families. What do you spend on childcare — daycare, after‑school programs, camps?  
+
+CLIENT1: [00:15:16] Childcare’s a big one. Our youngest, Noah, is in daycare four days a week. Full days, eight till five.  
+
+CLIENT2: [00:15:23] He just turned three, so we get some state‑funded hours, but the bill is still, I think last month it was about eight hundred and fifty? Sometimes closer to nine hundred if there’s an extra day. And our daughter, Lily, she’s in second grade but does the after‑school program three afternoons a week — that’s like twelve dollars a session, so maybe one‑fifty a month. Plus summer camps, which are kind of painful.  
+
+ADVISOR: [00:15:44] So on a normal month, not counting summer, you’re somewhere around a thousand dollars on childcare?  
+
+CLIENT2: [00:15:49] Yeah, around that. In the summer it shoots up because we both work, so camp was nearly six hundred over August for the two of them.  
+
+CLIENT1: [00:15:57] That’s the one thing we can’t really cut, to be honest. At least not while we’re both working.  
+
+ADVISOR: [00:16:02] Understood. How many more years of heavy daycare bills, do you think?  
+
+CLIENT2: [00:16:06] Well, Noah starts kindergarten not this fall but next, so just over a year and a bit of full‑on daycare. Then he’ll probably do the same after‑school program as Lily, so that’ll be cheaper, but we’ll still have some costs till they’re, I dunno, ten, eleven.  
+
+ADVISOR: [00:16:18] Okay, so roughly another eighteen months of the bigger daycare costs, then it steps down to after‑school and summer.  
+
+CLIENT1: [00:16:24] Yeah. Once daycare’s done, I keep saying, “We’ll feel rich,” because that’s basically another mortgage payment freed up.  
+
+ADVISOR: [00:16:31] It does make a big difference when that line disappears. We’ll build that into the timeline.  
+Outside of housing and childcare, what would you say are your next biggest regular expenses?  
+
+CLIENT1: [00:16:41] Groceries, probably. We’ve been saying six hundred, but with prices and takeout it’s probably more like seven or eight hundred. We do one big shop at the weekend and then top‑ups, and there’s Deliveroo and DoorDash that sneak in.  
+
+CLIENT2: [00:16:53] Yeah, and then car stuff — fuel, insurance, maintenance. Fuel used to be like eighty a month each, now it’s more like one‑twenty. Car insurance we pay annually, but it works out about sixty‑ish a month if you average it.  
+
+ADVISOR: [00:17:06] And all the little “other” things — phones, streaming, kids’ activities?  
+
+CLIENT2: [00:17:10] I did a list the other day. All the little direct debits — Spotify, kids’ dance classes, my gym, phones. They all add up. I think when I added it all, all the “other stuff,” it was maybe seven or eight hundred a month. It’s not all essential, but some would be hard to give up.  
+
+ADVISOR: [00:17:24] That’s really useful. Let’s pull out travel separately, because that often changes once people retire. How much do you think you’re spending on vacations and weekends away at the moment in a typical year?  
+
+CLIENT2: [00:17:33] We normally do one proper trip and then a couple of shorter breaks. Last year we did a week in Florida — with flights, accommodation, spending money, maybe three, three and a half thousand. Then we did a cabin weekend and a few nights at Center Parcs‑ish — so maybe another two grand. So maybe five, five and a bit in total.  
+
+CLIENT1: [00:17:52] This year we were talking about doing something a bit bigger because of the inheritance, like maybe the States with the kids—  
+
+CLIENT2: [00:17:57] We already live in the States.  
+
+CLIENT1: [00:17:59] Sorry, I meant West Coast. [laughs] But we’re also trying to be sensible, so we haven’t booked.  
+
+ADVISOR: [00:18:05] Right, so travel is important but flexible. In retirement, would you want more travel than now, less, or about the same?  
+
+CLIENT2: [00:18:10] More, ideally. That’s kind of the dream — some bigger trips when we’re not tied to school schedules. But I wouldn’t put it in the same bucket as paying the gas bill. If we had to, we could cut back.  
+
+CLIENT1: [00:18:20] Yeah. I just don’t want to spend the next fifteen years never going anywhere nice just to retire two years early. So it’s a balance.  
+
+ADVISOR: [00:18:27] That’s exactly the trade‑off we’ll model. When I run the numbers, I’ll treat core bills — housing, utilities, food, basic transport, childcare while it lasts — as “must‑cover,” and then travel and eating out as flexible.  
+On the food and takeout side, if we needed to free up some cash to invest more of the inheritance, is that an area you could trim?  
+
+CLIENT2: [00:18:44] I think we could cut back a bit. Like, we don’t need two takeaways a week. One nice one, and I actually like cooking when I have time.  
+
+CLIENT1: [00:18:52] Yeah, I’d rather protect the kids’ activities than my Friday night curry.  
+
+ADVISOR: [00:18:57] That’s very clear priorities — kids and housing high, travel and takeout more flexible.  
+Let me jump back to retirement accounts for a moment, because that ties into how we use the inheritance. Have either of you looked at your Social Security estimates online?  
+
+CLIENT1: [00:19:08] I did once on the “my Social Security” site. I don’t remember the exact numbers.  
+
+CLIENT2: [00:19:12] Same. I set it up, but I haven’t checked in a few years.  
+
+ADVISOR: [00:19:16] Do you remember the ballpark for your full retirement benefit at sixty‑seven, Edward?  
+
+CLIENT1: [00:19:20] I think it was something like maybe twenty‑six hundred a month. Could be off.  
+
+CLIENT2: [00:19:25] That sounds about right. Mine was lower. I want to say around two thousand if I work to sixty‑seven.  
+
+ADVISOR: [00:19:31] Okay, roughly mid‑two‑thousands for Edward, around two thousand for Sandra at full retirement age. We’ll verify, but that gives us a starting point. And Sandra, through the school, you’re also in the state teachers’ retirement system, right?  
+
+CLIENT2: [00:19:42] Yeah, STRS or whatever the acronym is.  
+
+ADVISOR: [00:19:45] Have you seen an estimate of what that might pay?  
+
+CLIENT2: [00:19:48] I got a statement in the mail. It said if I stay on track and retire at sixty‑two, I’d get around maybe eighteen hundred a month. But that was based on my current salary.  
+
+ADVISOR: [00:19:57] That pension will be taxable when you receive it, like Social Security can be, but it’s a nice base layer later on.  
+When you picture early retirement — say mid‑fifties — your paychecks will have stopped, but those pensions and Social Security won’t be in full swing yet. That’s where the inheritance and your 401(k)/403(b)/IRAs come in to fill the gap.  
+
+CLIENT1: [00:20:13] Yeah, that’s what we’re trying to figure out. Like, can we actually cover that gap or will we have to live on way less?  
+
+CLIENT2: [00:20:19] And whether we should shove a lot of this inheritance into pensions and Roths now or keep more outside for those early years.  
+
+ADVISOR: [00:20:26] Exactly. There are contribution limits, but you’ve got room. One common approach is:  
+– keep a solid emergency fund,  
+– use some inheritance each year to max Roth IRAs and maybe boost 401(k)/403(b) contributions,  
+– and then put the rest into a taxable investment account you can tap in your fifties.  
+
+CLIENT1: [00:20:41] That’s kind of what we were thinking — just not sure about the proportions.  
+
+ADVISOR: [00:20:45] We’ll put numbers on it.  
+Before we get too deep into strategy, I want to check your comfort with investment ups and downs. I’m going to text you both a link after this call to a short risk questionnaire — you can fill that out on your phones. It asks how you feel if investments fall twenty percent, that sort of thing.  
+
+CLIENT2: [00:20:59] Okay.  
+
+CLIENT1: [00:21:01] Yeah, that’s fine.  
+
+ADVISOR: [00:21:03] For now, just in your own words: when markets drop, do you tend to panic and want to sell, or are you more “ride it out”?  
+
+CLIENT1: [00:21:10] I’m more “ride it out.” I didn’t look too often in 2020. I know it went down, but we just left it.  
+
+CLIENT2: [00:21:17] I’m a bit more nervous. I hate logging in and seeing red. But we’ve never actually sold when it crashed. I just… complain.  
+
+CLIENT1: [00:21:24] Yeah, she complains at me.  
+
+ADVISOR: [00:21:27] [laughs] That’s pretty typical — slightly different risk tolerances. We’ll find a middle ground that lets you sleep at night.  
+Let me swing back to the mortgage for a minute, because that’s a big lever. You mentioned part of you wants it gone before your fifties. How important is being debt‑free when you retire early?  
+
+CLIENT1: [00:21:41] For me, very. I don’t really want to hit fifty‑five and still be paying the bank every month.  
+
+CLIENT2: [00:21:46] Same, but I also don’t want all the inheritance locked up in the house. We were thinking maybe not a full payoff, but at least knocking it down.  
+
+ADVISOR: [00:21:54] Have you talked about any specific number?  
+
+CLIENT2: [00:21:56] Not really. We tossed around maybe half of the inheritance toward “debts” and half toward investing, but that was literally us over coffee.  
+
+CLIENT1: [00:22:03] I keep thinking maybe we should take it from, say, two‑ten down to under a hundred. Then the payment would drop a lot, and we’d still have plenty invested.  
+
+ADVISOR: [00:22:11] Reducing the balance could indeed free up a chunk of cash flow every month, which you could then redirect into retirement accounts. One thing to consider is your rate: at three point seven five percent, that’s relatively cheap long‑term money. Over twenty‑plus years, a diversified portfolio might earn more than that after tax, but the emotional benefit of not having a mortgage is real.  
+
+CLIENT1: [00:22:28] Yeah, my brain understands the math, my stomach likes “no mortgage.”  
+
+CLIENT2: [00:22:32] Same.  
+
+ADVISOR: [00:22:34] What we can do is run side‑by‑side projections: one where you pay the mortgage off completely, one where you do a partial pay‑down, and one where you just keep it and invest instead. Then you can see the trade‑offs.  
+
+CLIENT2: [00:22:44] That would be really helpful. I’m very visual with that stuff.  
+
+CLIENT1: [00:22:47] Yeah, we’ve been kind of guessing.  
+
+ADVISOR: [00:22:50] Okay. I’ll also check whether your lender has any prepayment penalties, just so we don’t trigger fees if you do decide to pay it down.  
+
+CLIENT1: [00:22:57] I vaguely remember something about being able to pay extra each year without a fee, but I’m not sure how much.  
+
+ADVISOR: [00:23:02] That’s pretty common — we’ll confirm.  
+Let’s talk a bit more about how the inheritance is invested right now. You mentioned the inherited brokerage account with mutual funds. Do you know what it’s actually invested in?  
+
+CLIENT2: [00:23:13] Um… I know there are some American Funds mutual funds and something with “balanced” in the name. We didn’t change it when it came over; it just stayed how Mom had it.  
+
+CLIENT1: [00:23:22] There’s also a bit of cash in there, maybe five, six thousand.  
+
+ADVISOR: [00:23:26] And the high‑yield savings — which bank is that with?  
+
+CLIENT1: [00:23:29] Our credit union has a high‑yield account. And we also opened a Marcus Online Savings — we moved a chunk there a few weeks after the estate settled, so it wasn’t all in checking.  
+
+ADVISOR: [00:23:39] Roughly how much is in Marcus versus the credit union?  
+
+CLIENT1: [00:23:42] Uh, maybe two‑thirds of the cash in Marcus, one‑third at the credit union. So low six figures at Marcus.  
+
+ADVISOR: [00:23:50] Okay. And then the hundred‑thousand CD at five percent that matures next March. If you had to guess, out of the total inheritance plus your existing cash, how much would you want to keep as “really safe” — say, cash and CDs — over the long term?  
+
+CLIENT2: [00:24:04] I’d like at least a year of expenses somewhere safe.  
+
+CLIENT1: [00:24:07] Yeah, I was thinking around fifty, sixty thousand in boring cash.  
+
+ADVISOR: [00:24:11] That’s roughly a year and a bit of your current spending, so that lines up. Anything above that is a candidate for longer‑term investing, with the understanding it’ll go up and down in value.  
+
+CLIENT1: [00:24:21] That makes sense.  
+
+ADVISOR: [00:24:23] While we’re on accounts — any old, small things you might have forgotten? For example, a tiny IRA at a local bank, savings bonds, that sort of thing?  
+
+CLIENT1: [00:24:30] Oh, yeah. I do have a tiny traditional IRA at our old bank, Prairie State Bank. Maybe five thousand in it? My uncle set it up when I first started working. I kind of forgot about it.  
+
+CLIENT2: [00:24:40] Oh right, that one.  
+
+ADVISOR: [00:24:42] Okay, a small IRA at Prairie State. We can look at consolidating that into your Vanguard IRA later to simplify.  
+Do either of you have any old retirement accounts still sitting with prior employers’ providers, separate from the Vanguard rollover?  
+
+CLIENT1: [00:24:52] I think the Vanguard rollover is the only one from my side.  
+
+CLIENT2: [00:24:55] I have an old little 403(b) from a previous school district. It’s, I don’t know, maybe twenty‑ish thousand? I’d have to dig out the statement.  
+
+ADVISOR: [00:25:02] No problem — just good to know they exist. We’ll track down providers and values later.  
+
+[short pause]  
+
+ADVISOR: [00:25:08] Let me check on your existing wills again. Do they name guardians for the kids and name each other as primary beneficiary?  
+
+CLIENT2: [00:25:14] Yeah, they’re very basic — everything to each other, and if we both die, it goes to the kids with my sister as guardian.  
+
+CLIENT1: [00:25:20] No mention of the cabin, no mention of this money.  
+
+ADVISOR: [00:25:23] Given the size of the inheritance and the cabin share, I’d definitely encourage you to have an estate attorney refresh those. We’d also want to make sure the beneficiaries on all these accounts match your wishes — 401(k), 403(b), IRAs, HSA, the inherited account.  
+
+CLIENT2: [00:25:35] Yeah, we haven’t touched beneficiaries since before Noah was born.  
+
+CLIENT1: [00:25:39] Oops.  
+
+ADVISOR: [00:25:41] You’re not alone. We’ll put that on the to‑do list.  
+Coming back to goals for the inheritance — you’ve mentioned: early retirement, potentially paying the mortgage down, maybe helping the kids with college, and some travel. Are there any other big uses you’ve talked about?  
+
+CLIENT2: [00:25:56] Maybe some home upgrades? The kitchen is very… 90s. But that’s not top of the list.  
+
+CLIENT1: [00:26:01] Yeah, we talked about maybe twenty or thirty grand over time into the house — kitchen, maybe finishing the basement.  
+
+ADVISOR: [00:26:07] And college for Lily and Noah — any rough idea what you’d like to do there? Fully fund, help a bit, or “they’re on their own”?  
+
+CLIENT2: [00:26:14] We’d like to help, but not necessarily pay 100%. Maybe cover, I don’t know, two years each somewhere like a state school, and they can work or borrow for the rest.  
+
+CLIENT1: [00:26:23] Yeah, we’re not trying to fund Harvard, but we don’t want them drowning in loans either.  
+
+ADVISOR: [00:26:28] Have you started any 529 college savings plans yet?  
+
+CLIENT2: [00:26:31] No. That’s another thing we kept saying we’d do “later.”  
+
+CLIENT1: [00:26:34] We figured the inheritance might be a good chance to start those.  
+
+ADVISOR: [00:26:38] Great, that’s something we can definitely build into the plan.  
+I want to circle back to your pensions and retirement accounts for a moment, especially with the idea of using some inheritance to top them up. Under current rules, you can each contribute up to the IRS limits to your IRAs each year, and you can increase your 401(k)/403(b) contributions too. Have you thought about using the inheritance to, say, max your Roths every year?  
+
+CLIENT1: [00:26:58] Yeah, that was one of the ideas — just set it up so we always max the IRAs and don’t have to worry about it coming from our normal cash flow.  
+
+CLIENT2: [00:27:05] We weren’t sure if we should open a Roth for him at Schwab or at Vanguard, since he already has the IRA there.  
+
+ADVISOR: [00:27:10] Either is fine; the main thing is consistency and low costs. We can simplify so you each have one main provider for retirement accounts if you like. We’ll also need to make sure your income doesn’t push you over Roth contribution limits — you’re close but probably okay.  
+
+CLIENT1: [00:27:22] Another thing I wondered — could we use some of the inheritance to boost my 401(k) contribution to, like, twenty percent for a few years and just live off the inheritance more?  
+
+ADVISOR: [00:27:30] Yes, that’s a common strategy — using the inheritance to subsidize your living expenses while you stuff as much as possible into tax‑advantaged accounts. We just have to watch the balance: we don’t want everything locked up until fifty‑nine and a half, because you’re hoping to step back earlier.  
+
+CLIENT2: [00:27:43] Right, we don’t want to be “asset rich, cash poor” between fifty‑two and fifty‑seven.  
+
+ADVISOR: [00:27:47] Exactly. So we’ll likely do a mix: some extra into 401(k)/403(b)/Roths, some into a taxable investment account that can bridge the years before pensions and Social Security.  
+
+CLIENT1: [00:27:56] That sounds reasonable.  
+
+ADVISOR: [00:27:59] On your 401(k) and 403(b), do you have a sense of how they’re invested — mostly stocks, mixed, conservative?  
+
+CLIENT2: [00:28:05] Mine’s in one of those target‑date funds. I picked, I think, 2045. So it’s mostly stocks still, some bonds.  
+
+CLIENT1: [00:28:11] Mine’s similar at work — target‑date fund. The Vanguard IRA I moved into a total stock market index, an international index, and a smaller piece in bonds. Maybe eighty percent stocks, twenty percent bonds.  
+
+ADVISOR: [00:28:22] Okay, so overall you’re investing fairly growth‑oriented, which fits your time horizon.  
+Let me ask something more hypothetical: heading into your fifties, would either of you consider going part‑time rather than a hard stop, if the numbers said “you’re almost there but not quite”?  
+
+CLIENT2: [00:28:35] I’d love to go three days a week in my fifties. I just don’t know what that would do to my pension.  
+
+ADVISOR: [00:28:40] It would probably reduce the final pension a bit since it’s based on service and salary, but we can model that — sometimes the trade‑off in lifestyle is worth a slightly smaller pension.  
+
+CLIENT1: [00:28:49] I think I’m more “work full‑time then stop.” Maybe do some consulting, but I don’t really want to drag it out forever.  
+
+ADVISOR: [00:28:55] Consulting income could be really flexible — work a few months some years, none others — which can stretch your investments. We’ll keep that on the table but not assume it.  
+
+CLIENT2: [00:29:03] I like having options.  
+
+ADVISOR: [00:29:05] Me too.  
+We’ve covered a lot of ground. Before we start plugging all this into my software after the call, is there anything major you think I haven’t asked about yet — big debts, personal loans, student loans?  
+
+CLIENT1: [00:29:17] No student loans. We paid those off a few years ago. No car loans. We use the credit cards but pay them off every month.  
+
+CLIENT2: [00:29:24] The only thing is we do sometimes carry a little balance at Christmas, but we pay it off quickly. Nothing like, you know, ten grand hanging out there.  
+
+ADVISOR: [00:29:32] Okay, so the mortgage is really the only significant debt. That’s good.  
+Anything health‑wise that might affect your ability or desire to work long‑term that we haven’t touched on?  
+
+CLIENT1: [00:29:41] Not really. I mean, I don’t want to be chained to a desk forever, but that’s more psychological than physical.  
+
+CLIENT2: [00:29:46] My asthma’s well‑managed. I get tired, but that’s partly the job, partly kids.  
+
+ADVISOR: [00:29:51] Understood.  
+What I’ll do after this call is:  
+– put all the numbers we have into my planning tool,  
+– make some reasonable assumptions around things like college help and home upgrades,  
+– and then we’ll test a few scenarios: more mortgage pay‑down versus more investing, different retirement ages, and so on.  
+
+CLIENT2: [00:30:06] Okay.  
+
+CLIENT1: [00:30:08] Sounds good.  
+
+ADVISOR: [00:30:10] To help me refine the expenses side, would you be comfortable emailing over a couple of recent bank or credit‑card statements — maybe one from your joint account and one from your main card? It just lets me check that, say, the grocery number isn’t wildly off.  
+
+CLIENT2: [00:30:21] Yeah, I’ve got them downloaded already. I can send them over after this.  
+
+CLIENT1: [00:30:24] And I’ll check the daycare invoice too, because I think the state hours change again in April, so that might bring it down a bit.  
+
+ADVISOR: [00:30:31] Perfect. Also, if you can dig out:  
+– your latest 401(k) and 403(b) statements,  
+– the Vanguard IRA, Schwab Roth, Betterment, and HSA statements,  
+– and anything recent from STRS and the inherited brokerage,  
+that’ll let me be precise.  
+
+CLIENT2: [00:30:44] Okay, we’ve got a folder on the computer with most of that.  
+
+CLIENT1: [00:30:47] I might have to reset a couple of passwords.  
+
+ADVISOR: [00:30:50] That’s part of the process. And then I’ll text you both that risk questionnaire link right after we hang up. That, plus the statements, will give us everything we need to start designing how this inheritance can get you as close as possible to “Eddie at fifty, Sandra mid‑fifties,” without feeling like you’ve deprived yourselves or taken on more risk than you’re comfortable with.  
+
+CLIENT2: [00:31:08] Okay.  
+
+CLIENT1: [00:31:09] Yeah, that’s exactly what we’re hoping for.  
+
+ADVISOR: [00:31:12] Alright. Unless there’s anything else on your mind right now, I’ll let you go and start working through the numbers once I’ve got those documents.  
+
+CLIENT2: [00:31:19] I think that’s everything from us for today.  
+
+CLIENT1: [00:31:22] Yeah, I can’t think of anything else.  
+
+ADVISOR: [00:31:24] Great. I appreciate you walking through all of that. I’ll look out for your email, and we’ll talk again once I’ve had a chance to crunch the numbers.  
+
+CLIENT2: [00:31:31] Sounds good. Thank you.  
+
+CLIENT1: [00:31:32] Yeah, thanks a lot.  
+
+ADVISOR: [00:31:34] You’re welcome. Talk soon.

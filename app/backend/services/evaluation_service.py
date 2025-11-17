@@ -9,7 +9,7 @@ from models import (
     Judge,
     Characteristic,
 )
-from services.llm_service import extract_structured_data, evaluate_characteristic, calculate_schema_overlap
+from services.llm_service import extract_structured_data, evaluate_characteristic, calculate_schema_stability, review_extraction, extract_with_review
 from datetime import datetime
 import asyncio
 
@@ -78,13 +78,16 @@ async def run_evaluation(evaluation_id: int, db: AsyncSession, transcript_ids: l
         evaluation.status = "running"
         await db.commit()
 
+        # Collect all extracted data for stability calculation
+        all_extracted_data = []
+
         # Process each transcript
         for idx, transcript in enumerate(transcripts):
             progress.current_transcript = idx + 1
             progress.current_status = f"Processing {transcript.name}"
 
             try:
-                # Step 1: Extract structured data
+                # Step 1: Extract structured data (first pass)
                 extracted_data = await extract_structured_data(
                     experiment.prompt,
                     transcript.content,
@@ -92,18 +95,49 @@ async def run_evaluation(evaluation_id: int, db: AsyncSession, transcript_ids: l
                     experiment.model,
                 )
 
-                # Step 1.5: Calculate schema stability
-                schema_overlap = calculate_schema_overlap(
-                    extracted_data,
-                    experiment.schema_json
-                )
+                # Two-pass extraction flow
+                initial_extraction = None
+                review_data = None
+                final_extraction = None
 
-                # Create evaluation result
+                if experiment.enable_two_pass:
+                    # Step 1.5: Review initial extraction
+                    initial_extraction = extracted_data
+                    progress.update_status(f"Reviewing extraction for {transcript.filename}...")
+
+                    review_data = await review_extraction(
+                        transcript.content,
+                        initial_extraction,
+                        experiment.schema_json,
+                        experiment.model
+                    )
+
+                    # Step 1.75: Second pass with review feedback
+                    progress.update_status(f"Refining extraction for {transcript.filename}...")
+
+                    final_extraction = await extract_with_review(
+                        experiment.prompt,
+                        transcript.content,
+                        experiment.schema_json,
+                        initial_extraction,
+                        review_data,
+                        experiment.model
+                    )
+
+                    # Use final extraction for evaluation
+                    extracted_data = final_extraction
+
+                # Collect extracted data for stability calculation
+                all_extracted_data.append(extracted_data)
+
+                # Create evaluation result with two-pass artifacts
                 eval_result = EvaluationResult(
                     evaluation_id=evaluation_id,
                     transcript_id=transcript.id,
                     extracted_data=extracted_data,
-                    schema_overlap_percentage=schema_overlap,
+                    initial_extraction=initial_extraction,
+                    review_data=review_data,
+                    final_extraction=final_extraction,
                 )
                 db.add(eval_result)
                 await db.flush()
@@ -140,6 +174,13 @@ async def run_evaluation(evaluation_id: int, db: AsyncSession, transcript_ids: l
                 print(f"Error evaluating transcript {transcript.name}: {e}")
                 # Continue with next transcript
                 continue
+
+        # Calculate schema stability across all transcripts
+        if all_extracted_data:
+            schema_stability = calculate_schema_stability(all_extracted_data)
+            evaluation.schema_stability = schema_stability
+        else:
+            evaluation.schema_stability = 0.0
 
         # Mark evaluation as completed
         evaluation.status = "completed"

@@ -20,7 +20,7 @@ interface LeaderboardEntry {
   num_transcripts: number;
   evaluation_id: number;
   completed_at: string;
-  avg_schema_overlap?: number;
+  schema_stability?: number;
   avg_metrics?: Record<string, any>;
   characteristic_results?: Record<string, any>;
 }
@@ -110,10 +110,10 @@ export default function Leaderboard({
 
               <div className="flex items-center gap-3">
                 {/* Schema Stability */}
-                {entry.avg_schema_overlap !== null && entry.avg_schema_overlap !== undefined && (
+                {entry.schema_stability !== null && entry.schema_stability !== undefined && (
                   <div className="text-right">
                     <div className="text-lg font-semibold text-blue-600">
-                      {(entry.avg_schema_overlap * 100).toFixed(1)}%
+                      {(entry.schema_stability * 100).toFixed(1)}%
                     </div>
                     <div className="text-xs text-muted-foreground">schema stability</div>
                   </div>

@@ -12,7 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { CheckCircle2, XCircle, FileText, Brain } from "lucide-react";
+import { CheckCircle2, XCircle, FileText, Brain, AlertTriangle, Info } from "lucide-react";
 
 interface EvaluationResultsViewerProps {
   evaluationId: number;
@@ -64,8 +64,18 @@ export default function EvaluationResultsViewer({
             {evaluation.status}
           </Badge>
         </div>
-        <div className="text-sm text-muted-foreground">
-          {evaluation.results?.length || 0} transcript(s) evaluated
+        <div className="flex items-center gap-4 mt-2">
+          <span className="text-sm text-muted-foreground">
+            {evaluation.results?.length || 0} transcript(s) evaluated
+          </span>
+          {evaluation.schema_stability !== null && evaluation.schema_stability !== undefined && (
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-muted-foreground">Schema Stability:</span>
+              <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200 dark:bg-blue-950/20 dark:text-blue-400 dark:border-blue-800">
+                {(evaluation.schema_stability * 100).toFixed(1)}%
+              </Badge>
+            </div>
+          )}
         </div>
       </CardHeader>
       <CardContent>
@@ -79,16 +89,9 @@ export default function EvaluationResultsViewer({
                       <FileText className="h-4 w-4" />
                       <span className="font-medium">{result.transcript_name}</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <Badge variant={result.final_score >= 0.7 ? "default" : "destructive"}>
-                        {(result.final_score * 100).toFixed(0)}% pass
-                      </Badge>
-                      {result.schema_overlap_percentage !== null && result.schema_overlap_percentage !== undefined && (
-                        <Badge variant="outline">
-                          {(result.schema_overlap_percentage * 100).toFixed(0)}% stability
-                        </Badge>
-                      )}
-                    </div>
+                    <Badge variant={result.final_score >= 0.7 ? "default" : "destructive"}>
+                      {(result.final_score * 100).toFixed(0)}% pass
+                    </Badge>
                   </div>
                 </AccordionTrigger>
                 <AccordionContent>
@@ -106,18 +109,103 @@ export default function EvaluationResultsViewer({
                       </ScrollArea>
                     </div>
 
-                    {/* Schema Stability Section */}
-                    {result.schema_overlap_percentage !== null && result.schema_overlap_percentage !== undefined && (
+                    {/* Review Findings Section (Two-Pass Mode) */}
+                    {result.review_data && (
                       <div>
-                        <h4 className="text-sm font-medium mb-2">Schema Stability</h4>
-                        <div className="flex items-center gap-3 p-3 border rounded-lg">
-                          <Progress
-                            value={result.schema_overlap_percentage * 100}
-                            className="flex-1"
-                          />
-                          <span className="text-sm font-medium min-w-[3rem] text-right">
-                            {(result.schema_overlap_percentage * 100).toFixed(1)}%
-                          </span>
+                        <h4 className="text-sm font-medium mb-2 flex items-center gap-2">
+                          <Info className="h-4 w-4" />
+                          Review Findings (Two-Pass Extraction)
+                        </h4>
+                        <div className="space-y-3 border rounded-lg p-4">
+                          {/* Summary */}
+                          {result.review_data.summary && (
+                            <div className="pb-2 border-b">
+                              <p className="text-sm text-muted-foreground">{result.review_data.summary}</p>
+                            </div>
+                          )}
+
+                          {/* Missing Items */}
+                          {result.review_data.missing_items && result.review_data.missing_items.length > 0 && (
+                            <div>
+                              <h5 className="text-sm font-medium text-amber-600 mb-2 flex items-center gap-1">
+                                <AlertTriangle className="h-3 w-3" />
+                                Missing Items ({result.review_data.missing_items.length})
+                              </h5>
+                              <div className="space-y-2">
+                                {result.review_data.missing_items.map((item: any, idx: number) => (
+                                  <div key={idx} className="text-xs bg-amber-50 dark:bg-amber-950/20 p-2 rounded border border-amber-200 dark:border-amber-800">
+                                    <div className="font-medium text-amber-700 dark:text-amber-400">
+                                      {item.category}: {item.description}
+                                    </div>
+                                    {item.evidence && (
+                                      <div className="text-muted-foreground mt-1 italic">
+                                        &quot;{item.evidence}&quot;
+                                      </div>
+                                    )}
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+
+                          {/* Hallucinated Items */}
+                          {result.review_data.hallucinated_items && result.review_data.hallucinated_items.length > 0 && (
+                            <div>
+                              <h5 className="text-sm font-medium text-red-600 mb-2 flex items-center gap-1">
+                                <XCircle className="h-3 w-3" />
+                                Hallucinated Items ({result.review_data.hallucinated_items.length})
+                              </h5>
+                              <div className="space-y-2">
+                                {result.review_data.hallucinated_items.map((item: any, idx: number) => (
+                                  <div key={idx} className="text-xs bg-red-50 dark:bg-red-950/20 p-2 rounded border border-red-200 dark:border-red-800">
+                                    <div className="font-medium text-red-700 dark:text-red-400">
+                                      {item.field_path}
+                                    </div>
+                                    {item.extracted_value && (
+                                      <div className="text-muted-foreground mt-1">
+                                        Value: {JSON.stringify(item.extracted_value)}
+                                      </div>
+                                    )}
+                                    <div className="text-muted-foreground mt-1">
+                                      {item.reasoning}
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+
+                          {/* Other Issues */}
+                          {result.review_data.issues && result.review_data.issues.length > 0 && (
+                            <div>
+                              <h5 className="text-sm font-medium text-blue-600 mb-2 flex items-center gap-1">
+                                <Info className="h-3 w-3" />
+                                Other Issues ({result.review_data.issues.length})
+                              </h5>
+                              <div className="space-y-2">
+                                {result.review_data.issues.map((issue: any, idx: number) => (
+                                  <div key={idx} className="text-xs bg-blue-50 dark:bg-blue-950/20 p-2 rounded border border-blue-200 dark:border-blue-800">
+                                    <div className="font-medium text-blue-700 dark:text-blue-400">
+                                      {issue.type}: {issue.field_path}
+                                    </div>
+                                    <div className="text-muted-foreground mt-1">
+                                      {issue.description}
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+
+                          {/* Show if no issues found */}
+                          {(!result.review_data.missing_items || result.review_data.missing_items.length === 0) &&
+                           (!result.review_data.hallucinated_items || result.review_data.hallucinated_items.length === 0) &&
+                           (!result.review_data.issues || result.review_data.issues.length === 0) && (
+                            <div className="text-sm text-muted-foreground flex items-center gap-2">
+                              <CheckCircle2 className="h-4 w-4 text-green-600" />
+                              No issues identified in review
+                            </div>
+                          )}
                         </div>
                       </div>
                     )}

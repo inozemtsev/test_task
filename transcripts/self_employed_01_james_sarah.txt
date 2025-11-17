@@ -1,0 +1,614 @@
+# Financial Fact-Find Transcript
+# Persona: James and Sarah Thompson
+# Type: Self-Employed Business Owner
+# Generated: 2025-11-17 20:24:12
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:03] Thanks for jumping on today, James and Sarah. Before we get into the numbers, I need to grab a few basics for my file. Can I take your full legal names as they appear on official documents?  
+
+CLIENT1: [00:00:12] Yeah, sure. It’s James Michael Thompson. T‑H‑O‑M‑P‑S‑O‑N.  
+
+CLIENT2: [00:00:21] And I’m Sarah Louise Thompson. Same last name.  
+
+ADVISOR: [00:00:28] Perfect. And you’re married to each other—how long now?  
+
+CLIENT2: [00:00:34] Yeah, married… it’ll be twelve years this summer.  
+
+CLIENT1: [00:00:39] We had the very hot August wedding.  
+
+ADVISOR: [00:00:44] Got it. And dates of birth—James, then Sarah?  
+
+CLIENT1: [00:00:49] Mine’s August seventeenth, nineteen eighty‑two. So forty‑two.  
+
+CLIENT2: [00:00:56] I’m January fifth, nineteen eighty‑three. Also forty‑two.  
+
+ADVISOR: [00:01:03] Thanks. While we’re on the personal side, how’s your general health? Any ongoing conditions, regular medications, that kind of thing?  
+
+CLIENT1: [00:01:11] Pretty good overall. I had a minor knee surgery a couple of years back from football, that’s fine now. No regular meds. Mostly just stress from the shop.  
+
+CLIENT2: [00:01:21] I’m okay too. Bit of back ache if I’m on my feet all day, but nothing major. We don’t smoke. I quit in my twenties and James never started.  
+
+ADVISOR: [00:01:31] Good to know. And do you two have wills in place at the moment?  
+
+CLIENT1: [00:01:37] Yeah, we did simple mirror wills about five or six years ago with a local attorney downtown. Everything goes to each other first, then to the kids if something happened to both of us.  
+
+CLIENT2: [00:01:48] We probably need to update the guardians bit, but they exist, yeah.  
+
+ADVISOR: [00:01:53] That’s helpful. We can circle back to whether they still fit, especially with the kids. Speaking of which—how many children and what ages?  
+
+CLIENT2: [00:02:02] We’ve got two. Lily is eight, and Max is four.  
+
+CLIENT1: [00:02:07] So we’re firmly in the “school plus daycare” phase.  
+
+ADVISOR: [00:02:12] Understood. I’ll come back to childcare when we talk about spending. Let’s talk about work and the business next. Who would you put down as your employer on a form?  
+
+CLIENT1: [00:02:21] That would be our own company. Thompson Home & Gift, LLC.  
+
+CLIENT2: [00:02:26] We’ve got a store in downtown Dayton, on Pine Street, and we sell home décor, plants, gifts… kind of a home and garden boutique.  
+
+ADVISOR: [00:02:35] Sounds nice. Are you both full‑time there?  
+
+CLIENT1: [00:02:40] Yeah, we’re both co‑owners and directors. We each take a salary from the business and then some profit distributions, depending on how the year went.  
+
+ADVISOR: [00:02:49] Okay, so self‑employed business owners. Roughly how has the business been doing, profit‑wise, before you pay yourselves?  
+
+CLIENT1: [00:02:57] It bounces around. In a decent year, maybe one‑twenty to one‑forty thousand before tax.  
+
+CLIENT2: [00:03:04] Last year was more like ninety to a hundred because of roadworks by the shop—it really hurt foot traffic for a while.  
+
+ADVISOR: [00:03:12] That variability is pretty typical for retailers. And you’ve got some income outside the shop as well, right?  
+
+CLIENT2: [00:03:18] Yeah. I do freelance design under “Sarah Thompson Studio.” Some years it’s ten thousand total, some years fifteen. Very up and down.  
+
+ADVISOR: [00:03:27] All self‑employed there too, I assume—no tax withheld, you just do quarterly estimates?  
+
+CLIENT2: [00:03:32] In theory quarterly. In practice… [laughs] sometimes it’s one big catch‑up payment when our accountant reminds us.  
+
+ADVISOR: [00:03:40] I hear that a lot. James, what about your pay from Thompson Home & Gift—how have you structured it?  
+
+CLIENT1: [00:03:47] We finally got “grown‑up” about it last year. I’m on payroll now at about five to six thousand a month before tax, depending on the season. Over a year it’s usually sixty to seventy thousand.  
+
+ADVISOR: [00:03:58] And then distributions on top in good years?  
+
+CLIENT1: [00:04:02] Yeah. Usually after the holidays, once we see how we did. In a good year we might take thirty to forty thousand out as distributions, but sometimes we leave more in for inventory or expansion.  
+
+ADVISOR: [00:04:13] And Sarah, your salary from the shop?  
+
+CLIENT2: [00:04:17] From the store I take a smaller salary—maybe two to three thousand a month, and I’ll skip or reduce it if we’ve had a huge stock order. I think it worked out to just under twenty‑five thousand last year.  
+
+ADVISOR: [00:04:28] Okay. Any other sources of income besides the businesses—like rental property or investments?  
+
+CLIENT1: [00:04:34] Yeah, we rent out the condo we used to live in before we bought the house.  
+
+ADVISOR: [00:04:39] Got it. Is that in your personal names?  
+
+CLIENT1: [00:04:43] Yeah, just “James and Sarah Thompson” on the deed.  
+
+ADVISOR: [00:04:47] And what do you clear from that each month, roughly?  
+
+CLIENT1: [00:04:51] The tenants pay eighteen hundred. After the condo’s mortgage, HOA and the odd repair, we usually clear four to five hundred in a normal month.  
+
+CLIENT2: [00:05:00] It shows up on that rental schedule page on our tax return. Our accountant handles that bit.  
+
+ADVISOR: [00:05:06] Perfect. No pensions or Social Security yet obviously—everything’s earned or rental/investment income at this stage.  
+
+CLIENT2: [00:05:13] Right, just the shop, my design work, and the condo.  
+
+ADVISOR: [00:05:18] I had a look at the risk questionnaire you filled out before today. You both came out in that middle‑to‑growth range—comfortable with some ups and downs, but not wild roller‑coaster stuff. Does that sound right in your own words?  
+
+CLIENT2: [00:05:30] Yeah, that feels right. We don’t want to just sit in cash, but if our investments dropped by, like, a third overnight I would definitely freak out.  
+
+CLIENT1: [00:05:38] I’m a bit more relaxed than Sarah, but yeah, we’re not gamblers.  
+
+ADVISOR: [00:05:43] That’s helpful context for how we position your investments and any expansion plans. Let’s talk about what you’d like life to look like long‑term. In an ideal world, when would you *like* to start stepping back from the business—not when you think you’ll *have* to, but your preference?  
+
+CLIENT1: [00:05:56] If everything lined up nicely, I’d like to start easing off around fifty‑eight. Maybe just work a couple of days a week. Fully out by sixty would be the dream.  
+
+ADVISOR: [00:06:05] And for you, Sarah?  
+
+CLIENT2: [00:06:08] I always said more like sixty‑two because I actually enjoy the shop. But after the last Christmas rush, I was like, “Nope, I’m done at sixty.” So somewhere in the late‑fifties to early‑sixties range, probably around sixty for both of us.  
+
+ADVISOR: [00:06:21] When you picture that phase, what sort of yearly income—after tax—would feel comfortable for you two?  
+
+CLIENT1: [00:06:28] I think if we had between fifty and sixty thousand a year coming in between us, we’d feel okay. Enough to run the house, do a bit of travel, maybe help the kids a little.  
+
+CLIENT2: [00:06:37] Yeah, we won’t need what we take now. By then, no daycare, hopefully no mortgage. But we don’t want to be scraping by.  
+
+ADVISOR: [00:06:45] And you’re expecting that to come partly from selling or handing over the business and partly from retirement accounts and investments?  
+
+CLIENT1: [00:06:52] That’s the idea. Either sell the shop or have a manager running it so we can draw an income. We haven’t really mapped the numbers, we just kind of vaguely hope it works.  
+
+CLIENT2: [00:07:02] My fear is we won’t find a buyer if we don’t keep customers happy, which is why I obsess about them.  
+
+ADVISOR: [00:07:08] Let’s talk about those customers for a minute, because the strength of the business matters for the retirement plan. Who are your typical clients?  
+
+CLIENT2: [00:07:16] Mostly local families. People in their thirties up to their sixties doing up their homes and gardens, buying candles, plants, that kind of thing. We also get a few small landscaping firms who buy pots in bulk.  
+
+CLIENT1: [00:07:27] Saturdays are packed with young couples and kids in strollers. Weekdays it’s more retirees who come in for a chat and a plant.  
+
+ADVISOR: [00:07:35] Do you have a lot of repeat customers?  
+
+CLIENT1: [00:07:38] Yeah, good repeat business. Around three to three‑and‑a‑half thousand on our email list, and maybe forty percent buy a few times a year.  
+
+CLIENT2: [00:07:46] And there’s a core group—maybe a hundred people—who are in almost every month. They’re the ones I worry about losing if we change things too much.  
+
+ADVISOR: [00:07:55] And sales are quite seasonal, I’m guessing?  
+
+CLIENT2: [00:07:58] Very. March to June is crazy with spring planting. It slows down late summer, then picks up again before Christmas with decorations.  
+
+CLIENT1: [00:08:07] January and February are grim. That’s when we basically live off the better months and the savings.  
+
+ADVISOR: [00:08:13] That seasonality is important when we look at how much you can commit to things like retirement or college savings. Let’s actually talk about what’s going out of the household each month so I can see how tight or loose things are.  
+
+CLIENT1: [00:08:24] Sure. We kinda know roughly, but not down to the penny.  
+
+CLIENT2: [00:08:29] I have a spreadsheet somewhere, but “rough” is more realistic for today.  
+
+ADVISOR: [00:08:35] Rough is perfect. Let’s start with housing. You own your home in Maple Grove, right?  
+
+CLIENT1: [00:08:40] Yeah, just outside Dayton. Three‑bedroom house.  
+
+ADVISOR: [00:08:44] What’s the mortgage payment running you now, including taxes and insurance?  
+
+CLIENT1: [00:08:49] It’s about fifteen hundred a month, all‑in with escrow.  
+
+CLIENT2: [00:08:53] Yeah, the last one was fifteen‑something. It moves a bit when taxes adjust, but around that.  
+
+ADVISOR: [00:09:00] And roughly what do you think the house is worth if you put it on the market today?  
+
+CLIENT2: [00:09:05] Zillow had it around three eighty, maybe nudging four hundred.  
+
+CLIENT1: [00:09:10] Our realtor friend said “mid‑to‑high three hundreds” was realistic.  
+
+ADVISOR: [00:09:15] Okay. Do you know roughly what you still owe on the mortgage?  
+
+CLIENT2: [00:09:19] Around two hundred, maybe two‑ten.  
+
+CLIENT1: [00:09:22] Yeah, right around two‑ten outstanding.  
+
+ADVISOR: [00:09:27] So there’s a decent chunk of equity in there. And property taxes on that place—ballpark per year?  
+
+CLIENT2: [00:09:34] I think about four and a half, maybe five thousand a year. They seem to creep up every year.  
+
+ADVISOR: [00:09:41] Sounds about right for the area. Utilities—electric, gas, water, internet, phones—what do those run on average?  
+
+CLIENT2: [00:09:49] Power is maybe one‑fifty in summer, more in winter. Gas can be like two‑fifty in January and eighty in July. Water and garbage together are around ninety a month.  
+
+CLIENT1: [00:10:00] Internet and TV package is about a hundred and ten. Our family cell plan is maybe one‑forty; my phone is mostly a business expense but it’s on the same bill.  
+
+ADVISOR: [00:10:10] Okay, so housing and utilities probably in the two‑thousand range total, give or take. I’ll treat those as non‑negotiable. Let’s talk childcare next—that’s usually a big one with kids your ages.  
+
+CLIENT2: [00:10:21] Yeah… [laughs nervously]  
+
+ADVISOR: [00:10:24] Lily’s eight and Max is four. What are you paying for care right now?  
+
+CLIENT1: [00:10:29] Max is in daycare near the shop—full days, four days a week.  
+
+CLIENT2: [00:10:33] After the tax credit, it ends up about nine hundred a month for him.  
+
+ADVISOR: [00:10:38] And for Lily, any after‑school or clubs you pay regularly?  
+
+CLIENT2: [00:10:42] She goes to the after‑school program three days a week. That’s around two‑thirty a month.  
+
+CLIENT1: [00:10:48] Plus we do a summer camp for both kids. Not every month, but July and August get expensive.  
+
+ADVISOR: [00:10:55] If you averaged camps in, would you say childcare’s around twelve to thirteen hundred a month over the year?  
+
+CLIENT1: [00:11:02] Yeah, that sounds about right.  
+
+CLIENT2: [00:11:04] Some months it’s less, but then summer… yeah.  
+
+ADVISOR: [00:11:09] And Max starts kindergarten in a couple of years?  
+
+CLIENT2: [00:11:12] Fall twenty‑twenty‑seven, if I’m counting right.  
+
+CLIENT1: [00:11:16] After that it should just be the after‑school stuff, like Lily now.  
+
+ADVISOR: [00:11:20] Would you say childcare is a must‑have so you can both run the business?  
+
+CLIENT2: [00:11:25] Definitely. If we didn’t have care, one of us would have to step back from the store.  
+
+CLIENT1: [00:11:29] It’s painful but it’s non‑negotiable for now.  
+
+ADVISOR: [00:11:34] Got it. Outside of housing and childcare, what do groceries and eating out look like?  
+
+CLIENT2: [00:11:40] Groceries are probably around a thousand a month. Eleven hundred if we’re being honest.  
+
+CLIENT1: [00:11:46] If we don’t eat out much, maybe nine hundred. But we’re tired a lot so there’s DoorDash.  
+
+CLIENT2: [00:11:52] Yeah, I’d say two hundred a month on takeout on top of groceries.  
+
+ADVISOR: [00:11:58] Cars next—what do you drive and what are the costs?  
+
+CLIENT1: [00:12:02] I’ve got a truck that’s technically the business vehicle. The shop pays that and most of the gas.  
+
+CLIENT2: [00:12:08] My SUV still has a loan. That’s three‑seventy a month. Insurance for both cars from the household is about one‑forty. Gas is… I don’t even know anymore with prices.  
+
+CLIENT1: [00:12:18] Probably two hundred, two‑fifty personally, and the rest is business.  
+
+ADVISOR: [00:12:24] And then the “other” category—kids’ activities, subscriptions, gym or yoga, that sort of thing?  
+
+CLIENT2: [00:12:29] The kids have stuff. Lily does dance and soccer, Max has swimming. Together maybe one‑eighty a month during the school year.  
+
+CLIENT1: [00:12:37] We’ve got Netflix, Spotify, the usual suspects. Sixty or seventy bucks total.  
+
+CLIENT2: [00:12:42] And my yoga membership is eighty‑nine a month. I’d call that semi‑essential for my sanity.  
+
+ADVISOR: [00:12:50] If the business hit a rough patch, what would you cut first—travel, kids’ activities, or things like subscriptions and yoga?  
+
+CLIENT1: [00:12:57] Travel, for sure.  
+
+CLIENT2: [00:12:59] Yeah, travel first. We wouldn’t pull the kids out of activities unless it was really bad. I’d probably keep yoga and cancel some streaming stuff.  
+
+ADVISOR: [00:13:08] Speaking of travel, what do vacations usually cost you in a year?  
+
+CLIENT2: [00:13:12] We try to do one proper family trip. Last year we flew to San Diego to see my sister—maybe four, four‑and‑a‑half thousand all‑in.  
+
+CLIENT1: [00:13:20] Then we’ll do a couple of long weekends, like a cabin in the mountains. Those are five or six hundred each.  
+
+ADVISOR: [00:13:26] And that’s something you’re willing to dial up or down depending on how the shop’s doing?  
+
+CLIENT1: [00:13:30] Yeah. If the holidays are strong, we say, “Okay, bigger trip.” If not, it’s camping.  
+
+CLIENT2: [00:13:35] We definitely adjust that one.  
+
+ADVISOR: [00:13:39] That gives me a good sense of what’s fixed versus flexible. I want to switch gears now to what you *own*—assets. Let’s start with real estate. You mentioned the house in Maple Grove and the rental condo. Any other properties?  
+
+CLIENT1: [00:13:50] The shop space itself. Thompson Home & Gift actually owns the unit we’re in on Pine Street.  
+
+ADVISOR: [00:13:56] And that’s owned through the LLC, not in your personal names?  
+
+CLIENT1: [00:14:00] Yeah, through the LLC. It’s a condo‑style unit in a little strip center downtown.  
+
+CLIENT2: [00:14:05] Across from the old post office.  
+
+ADVISOR: [00:14:08] Do you have a rough idea what that commercial unit is worth now?  
+
+CLIENT1: [00:14:12] We bought it for about two‑eighty in twenty‑eighteen. Our realtor friend said maybe it’s worth four to four‑fifty now.  
+
+ADVISOR: [00:14:20] And there’s a commercial mortgage on it?  
+
+CLIENT1: [00:14:23] Yeah. Balance is around one‑sixty, one‑seventy, somewhere in there.  
+
+CLIENT2: [00:14:28] Last statement I saw was one‑sixty‑something.  
+
+ADVISOR: [00:14:32] Okay. Any other property—like land, a cabin, anything like that?  
+
+CLIENT2: [00:14:36] I do have half of a cabin.  
+
+ADVISOR: [00:14:40] Half a cabin—tell me about that.  
+
+CLIENT2: [00:14:43] My sister and I inherited a little lake cabin in Michigan, near Benzonia, when my mom passed two years ago. Tiny, two bedrooms, pretty old.  
+
+CLIENT1: [00:14:53] We rent it on Airbnb a few weekends in the summer. Nothing big, but it helps with upkeep.  
+
+ADVISOR: [00:14:58] Do you know what it was appraised at?  
+
+CLIENT2: [00:15:01] When Mom passed, it appraised around one‑eighty for the whole place. So my half is about ninety thousand. No mortgage on it—my parents had paid it off.  
+
+ADVISOR: [00:15:12] Great. On the rental condo, do you have a sense of its value and what’s left on that mortgage?  
+
+CLIENT1: [00:15:18] We haven’t checked recently, but condos in that building are selling around two‑fifty. We still owe just under one‑fifty on it, I think.  
+
+ADVISOR: [00:15:26] That’s helpful. Okay, let’s look at the cash side—personal first, then business. Outside of the shop, what sort of cash do you keep in checking and savings?  
+
+CLIENT1: [00:15:35] Our joint checking—at Wells Fargo—usually sits at five to eight grand. It just cycles with bills.  
+
+CLIENT2: [00:15:42] And we’ve got a high‑yield savings with Ally. That’s our emergency fund.  
+
+ADVISOR: [00:15:47] Roughly how much is in that Ally account right now?  
+
+CLIENT2: [00:15:51] I checked last week. It was around twenty‑seven thousand. We try to keep it between twenty‑five and thirty.  
+
+CLIENT1: [00:15:57] That’s our “sleep at night” money and what we lean on during slow months.  
+
+ADVISOR: [00:16:03] Any other personal savings accounts?  
+
+CLIENT2: [00:16:06] I’ve got a tiny one at the local credit union. Maybe a thousand bucks. It’s kind of forgotten money.  
+
+CLIENT1: [00:16:12] I just use the joint accounts.  
+
+ADVISOR: [00:16:16] And you mentioned a CD somewhere as well?  
+
+CLIENT2: [00:16:19] Oh, right. I have a five‑year CD at the credit union—about four thousand. That was some money my grandma left me. It matures next summer.  
+
+ADVISOR: [00:16:28] Any plans for that when it comes due?  
+
+CLIENT2: [00:16:31] Not really. We’ve talked about maybe using it toward a second store, or putting it into my Roth. No firm plan.  
+
+ADVISOR: [00:16:38] Alright. On the business side, what do the cash balances look like?  
+
+CLIENT1: [00:16:43] The operating account for the store at any point might be five to twenty thousand. Right now it’s about twelve.  
+
+CLIENT2: [00:16:50] We also keep a separate savings at First National for expansion—our “second location” fund.  
+
+ADVISOR: [00:16:56] That’s the potential second shop you mentioned on the pre‑call form?  
+
+CLIENT1: [00:17:00] Yeah.  
+
+ADVISOR: [00:17:02] How much is in that expansion fund now?  
+
+CLIENT2: [00:17:05] Around sixty‑five thousand. We’re hoping to get it to about eighty by next spring.  
+
+ADVISOR: [00:17:11] And is that split between a savings account and a CD?  
+
+CLIENT1: [00:17:15] Yeah, about half is just in savings, and we put thirty thousand into a one‑year CD that matures in March next year.  
+
+ADVISOR: [00:17:23] Any other business reserves?  
+
+CLIENT2: [00:17:25] We keep a tax pot in a separate savings at Chase for sales tax and income tax—usually fifteen to twenty thousand. But in our heads that’s already the government’s money.  
+
+ADVISOR: [00:17:34] Makes sense. Let’s talk investments outside of retirement accounts. Do you have any non‑retirement brokerage accounts?  
+
+CLIENT1: [00:17:41] Yeah, we’ve got a joint brokerage at Charles Schwab.  
+
+CLIENT2: [00:17:45] And a smaller joint account with Betterment, which we originally set up as a “future expansion” pot.  
+
+ADVISOR: [00:17:51] Let’s take Schwab first. Roughly how much is in that joint brokerage?  
+
+CLIENT1: [00:17:56] Last time I logged in it was about a hundred and ten thousand. It moves between a hundred and a hundred‑twenty.  
+
+ADVISOR: [00:18:03] What are you mostly invested in there?  
+
+CLIENT1: [00:18:06] Mostly index funds—an S&P 500 fund, a total market fund, and a bit of international.  
+
+CLIENT2: [00:18:11] Plus two random stocks James bought during COVID that we try not to talk about.  
+
+CLIENT1: [00:18:16] Yeah, those are not stellar.  
+
+ADVISOR: [00:18:19] And the Betterment account—ballpark value and purpose there?  
+
+CLIENT2: [00:18:23] I think it’s in the low twenties—maybe twenty‑three thousand last I checked.  
+
+CLIENT1: [00:18:28] We’ve got it set to pull two hundred a month from our checking, but we pause it in tight months. It’s set to “moderate risk” in their app.  
+
+ADVISOR: [00:18:37] Okay. Are you treating that as expansion money or more long‑term savings at this point?  
+
+CLIENT1: [00:18:42] Kind of both. If we go ahead with a second store, we’d probably tap it. If not, we’ll just leave it as long‑term.  
+
+ADVISOR: [00:18:48] Got it. Let’s move to retirement‑type accounts—IRAs, SEPs, old 401(k)s. James, what do you have in place?  
+
+CLIENT1: [00:18:55] My main one now is a SEP‑IRA at Fidelity that we set up once the shop started doing okay. And I’ve got a Roth IRA at Vanguard from my twenties, plus an old 401(k) still sitting with Principal from a previous job.  
+
+ADVISOR: [00:19:08] Let’s take them one by one. The SEP at Fidelity—approximate balance and contribution pattern?  
+
+CLIENT1: [00:19:15] I think it’s around one‑thirty, one‑forty thousand. Contributions are lumpy. In a decent year, somewhere in the five to seven grand range goes in; we tend to do a chunk near year‑end once we see profits.  
+
+ADVISOR: [00:19:28] And how is it invested?  
+
+CLIENT1: [00:19:30] Mostly in a couple of broad index funds—similar to our Schwab account. I think there’s a target‑date fund in there too, one of the 2045 ones.  
+
+ADVISOR: [00:19:38] The Roth at Vanguard—rough value and whether you’re still adding to it?  
+
+CLIENT1: [00:19:43] That one’s maybe thirty to thirty‑five thousand. We kind of ignore it—I haven’t contributed in a while, just let it sit invested.  
+
+ADVISOR: [00:19:51] And the old 401(k) with Principal?  
+
+CLIENT1: [00:19:54] Last statement I remember was twelve or thirteen thousand. I left that job about nine years ago and just never rolled it over.  
+
+ADVISOR: [00:20:03] Okay. Sarah, what do you have for retirement accounts?  
+
+CLIENT2: [00:20:06] I’ve got a SEP‑IRA as well at Fidelity, from the business. That’s around ninety thousand. Then an IRA at Fidelity where we rolled my old 401(k) from a retail job—that’s about sixty to sixty‑five thousand. And I’ve got a Roth IRA at Schwab from before we opened the shop, probably twenty‑eight or twenty‑nine thousand.  
+
+ADVISOR: [00:20:25] Are you contributing regularly to the Roth?  
+
+CLIENT2: [00:20:28] Not regularly anymore. I used to auto‑draft a couple hundred a month when I had a paycheck job. Since the shop, it’s been sporadic—maybe fifteen hundred or two thousand last year.  
+
+ADVISOR: [00:20:38] And to your SEP at Fidelity—similar pattern to James’s, more ad‑hoc based on profits?  
+
+CLIENT2: [00:20:43] Yeah. We usually prioritize James’s SEP first, then if there’s more room we top mine up a bit.  
+
+CLIENT1: [00:20:49] We kind of do it backwards now—end of the year, whatever’s left, we ask the accountant, “How much can we stick into the SEPs?”  
+
+ADVISOR: [00:20:56] That’s very common. Between all the retirement accounts—your SEPs, both Roths, and Sarah’s rollover IRA—you’ve actually built up a meaningful base already.  
+
+CLIENT2: [00:21:05] We always feel behind, so that’s nice to hear.  
+
+ADVISOR: [00:21:09] We’ll run the numbers, but you’re not starting from zero. Any pensions from old employers or anything overseas?  
+
+CLIENT1: [00:21:15] No pensions. Just that old 401(k) I mentioned.  
+
+CLIENT2: [00:21:18] I used to have a 403(b) at a nonprofit, but we rolled that into the Roth at Schwab a few years back.  
+
+ADVISOR: [00:21:24] Alright. Any other notable assets—vehicles beyond daily drivers, valuable collections, business equipment?  
+
+CLIENT1: [00:21:30] The business owns all the fixtures, shelving, POS system. If we bought it all new, maybe eighty grand. Used, probably half.  
+
+CLIENT2: [00:21:38] We have a delivery van in the business name, owned outright. It’s a 2019 Transit—maybe worth twenty thousand.  
+
+ADVISOR: [00:21:45] And personally, just the two family SUVs, one with a loan and one paid off?  
+
+CLIENT1: [00:21:49] Yeah, that’s it. No boat or anything fun.  
+
+CLIENT2: [00:21:52] My grandma did leave me some jewelry. I don’t know if that matters.  
+
+ADVISOR: [00:21:56] It can. Do you have a sense of value?  
+
+CLIENT2: [00:21:59] We had it appraised. The set’s worth maybe twelve thousand total. We keep it in a safe deposit box.  
+
+ADVISOR: [00:22:06] Good to know, at least for the bigger picture and for your estate planning.  
+
+CLIENT1: [00:22:10] So in terms of retirement, are we way behind for, like, trying to be mostly done by sixty?  
+
+ADVISOR: [00:22:16] You’re not as far behind as you think, but there’s work to do—especially because you’re relying partly on the business. With what you’ve got in retirement accounts plus the condo, the cabin share, and the business property, you’ve built a decent foundation in your early forties. The questions are: how quickly do you want to grow that, and how much risk do you want to take with things like a second location.  
+
+CLIENT2: [00:22:36] The second location is the thing we go round in circles on.  
+
+ADVISOR: [00:22:40] Let’s talk that through while we’re on assets and cash. You’ve got about sixty‑five thousand in the expansion fund and a joint Betterment account around twenty‑three thousand that you might also use. On your current thinking, when would you open a second store?  
+
+CLIENT1: [00:22:53] We keep saying “in two years.” It’s been “two years” for the last two years.  
+
+CLIENT2: [00:22:59] There’s a new housing development in Oakridge we’ve been eyeing. Some days I’m excited, other days I’m terrified.  
+
+ADVISOR: [00:23:06] If you did open it in, say, two to three years, you’d want that expansion fund to stay pretty safe—savings, CDs, maybe very conservative investments—because you can’t afford for it to drop 30% right before you need it.  
+
+CLIENT1: [00:23:18] Yeah, that’s why we did the CD.  
+
+ADVISOR: [00:23:21] On the other hand, if you decide, “Actually, no second location, we’d rather have a simpler life,” some of that expansion money could be re‑deployed into retirement accounts or a longer‑term portfolio.  
+
+CLIENT2: [00:23:31] That’s actually something we wanted to ask.  
+
+CLIENT1: [00:23:34] Yeah—if we bail on the second store idea, can we basically just funnel that sixty‑five, eighty thousand into retirement? Would that help us catch up?  
+
+ADVISOR: [00:23:43] It would definitely help. Putting a chunk into your SEPs or Roths would both grow it tax‑advantaged and reduce your current taxable income. The trade‑off is making sure you keep enough in cash so the business can survive slow months and surprises—like the boiler breaking or a big sidewalk project outside the shop.  
+
+CLIENT2: [00:23:58] We really felt that roadworks thing.  
+
+ADVISOR: [00:24:02] Exactly. So we’d probably look at a scenario where you keep, say, six months of personal expenses plus a business buffer in cash, and anything above that has a job—either expansion or retirement savings.  
+
+CLIENT1: [00:24:13] That makes sense.  
+
+CLIENT2: [00:24:16] I think I’d sleep better knowing “this much is definitely retirement” instead of everything being this vague “future” bucket.  
+
+ADVISOR: [00:24:23] We can carve it into clearer buckets in the plan. Before we do that, I want to make sure I’ve got a full picture of your debts besides the mortgages and the one car loan. Any credit cards carrying balances, personal loans, or business loans beyond the commercial mortgage on the shop?  
+
+CLIENT1: [00:24:37] No personal loans. We use a couple of credit cards for points, but pay them off each month.  
+
+CLIENT2: [00:24:42] The only real household debt is the house mortgage, the condo mortgage, and my car loan.  
+
+ADVISOR: [00:24:47] And in the business, just the commercial mortgage on the Pine Street unit? No line of credit currently drawn?  
+
+CLIENT1: [00:24:53] We have a small line of credit with the bank that we can dip into for inventory, but it’s at zero right now. We paid it off after last Christmas.  
+
+ADVISOR: [00:25:01] Okay, great. No red flags there. Switching back to your goals for a moment: when you imagine retirement, how much of your spending do you want covered by relatively secure sources—like investment income and maybe rental income—versus being tied to the fortunes of the store?  
+
+CLIENT1: [00:25:14] I’d love it if pensions and investments covered at least half to two‑thirds of what we need. Then whatever we get from the shop is extra.  
+
+CLIENT2: [00:25:21] Yeah, I don’t really want to rely on the shop totally when we’re older. Christmas already wipes us out every year. I don’t want to be worrying about holiday foot traffic when I’m sixty‑five.  
+
+ADVISOR: [00:25:31] That tells me pensions/IRAs and your brokerage accounts need to play a pretty big role. Have you ever thought about setting up college savings for Lily and Max, like 529 plans?  
+
+CLIENT1: [00:25:40] We’ve talked about it. The kids are eight and four, so we feel a bit behind already. We just haven’t actually opened anything yet.  
+
+CLIENT2: [00:25:47] Every year we say, “We’ll open 529s at the end of the year,” and then Christmas happens and… we don’t.  
+
+ADVISOR: [00:25:53] That’s very common. We can look at what’s realistic given daycare and everything else. Even a smaller regular amount for college can add up over ten years.  
+
+CLIENT1: [00:26:01] I’d like to do *something* so they’re not buried in loans.  
+
+ADVISOR: [00:26:05] We’ll build that into the plan as a goal alongside your retirement and any expansion. On the investment side, given your risk comfort, I’d see your SEPs and Roths staying mostly in diversified stock index funds for now, with some bonds creeping in as you get closer to your late fifties. How do you feel when I say “your accounts might drop 20% in a bad year, but over ten or fifteen years they should grow nicely”?  
+
+CLIENT2: [00:26:25] Twenty percent I can deal with. Thirty‑plus and I start checking balances obsessively.  
+
+CLIENT1: [00:26:30] As long as we have enough in cash that we’re not forced to sell at the bottom, I’m okay with that.  
+
+ADVISOR: [00:26:36] That’s the key—matching risk to time horizon. Money for Max’s daycare or next year’s inventory stays very safe. Money for your sixties can ride out more volatility.  
+
+CLIENT2: [00:26:45] That makes sense when you say it like that.  
+
+ADVISOR: [00:26:49] Let me ask a slightly different kind of question. Are there any big life events you see on the horizon in the next five years—moving house, having another child, helping a parent, anything like that?  
+
+CLIENT1: [00:26:59] No more kids. [laughs] We’re done.  
+
+CLIENT2: [00:27:02] Yeah, factory’s closed.  
+
+CLIENT1: [00:27:05] The only big thing we talk about is the second store. Maybe upgrading Sarah’s car once this one’s paid off in a few years.  
+
+CLIENT2: [00:27:12] And possibly helping my sister a bit with the cabin upkeep if she hits a rough patch, but that’s not set.  
+
+ADVISOR: [00:27:18] Okay. On the protection side—if something happened to one of you, the other is very dependent on the shop income. Do you currently have any life insurance in place?  
+
+CLIENT1: [00:27:27] I’ve got a term policy for five hundred thousand through an online provider. Ten‑year level term.  
+
+CLIENT2: [00:27:32] Mine’s smaller—two hundred fifty thousand, same company. We got them when Lily was born and haven’t revisited since Max came along.  
+
+ADVISOR: [00:27:40] Those are good to have. We might want to review whether the amounts and remaining term still match your needs, given the mortgage balances, the business, and the kids’ ages.  
+
+CLIENT2: [00:27:48] Yeah, I’ve wondered about whether it’s enough if one of us couldn’t run the shop.  
+
+ADVISOR: [00:27:53] We’ll run some “what if” numbers on that. On the disability side—if either of you couldn’t work for a long time—do you have any coverage?  
+
+CLIENT1: [00:28:01] Nothing beyond whatever comes with our health insurance. We’ve never really looked at disability specifically.  
+
+ADVISOR: [00:28:06] Okay, that’s another area we can explore; for self‑employed people, it can be important.  
+
+CLIENT2: [00:28:11] Feels like everything hinges on us being able to stand behind that counter.  
+
+ADVISOR: [00:28:16] Exactly. We don’t have to solve it today, but I wanted it on the radar.  
+
+CLIENT1: [00:28:20] Can I ask something slightly tactical about the SEPs?  
+
+ADVISOR: [00:28:23] Of course.  
+
+CLIENT1: [00:28:25] Our accountant keeps talking about a “sweet spot” of how much salary versus distributions I should take from the business. Does that affect how much we *can* put into the SEPs?  
+
+ADVISOR: [00:28:33] It does. For SEPs, the maximum contribution is based on your net self‑employment income—so the way you split salary and distributions, and the overall profit, affects that calculation. There’s a balance between paying enough salary for reasonable payroll taxes and keeping distributions from pushing you into a higher bracket.  
+
+CLIENT2: [00:28:47] That’s what he keeps saying and we just nod.  
+
+ADVISOR: [00:28:50] When I do the planning work, I’ll coordinate with your accountant or at least mirror the logic they’re using so we’re all on the same page. We might also look at whether a Solo 401(k) would give you more flexibility than the SEPs, but that’s a “Phase 2” conversation.  
+
+CLIENT1: [00:29:02] Okay, good to know there are options.  
+
+CLIENT2: [00:29:06] And what about Roth income limits? We weren’t sure if we even qualify in good years.  
+
+ADVISOR: [00:29:11] That depends on your total adjusted gross income. Some years you might be under the limit and able to contribute directly to Roth; other years we’d look at backdoor Roth contributions instead. I’ll run numbers based on your last couple of tax returns.  
+
+CLIENT2: [00:29:22] Okay, I’m glad you know how that works because I definitely don’t.  
+
+ADVISOR: [00:29:27] That’s what I’m here for.  
+
+CLIENT1: [00:29:30] One more sort of big‑picture question. If we *don’t* expand, and we instead shove that sixty‑five thousand into retirement over the next few years, is that more likely to get us to, say, retiring at sixty than trying to grow via a second store?  
+
+ADVISOR: [00:29:43] Broadly, yes—redirecting that money into diversified retirement accounts is the safer, more predictable route to retiring earlier. A second store could let you earn more and maybe hire managers so you step back sooner—but it also introduces risk: loans, extra fixed costs, and your time.  
+
+CLIENT2: [00:29:57] So it could move retirement earlier or push it later if it flops.  
+
+ADVISOR: [00:30:01] Exactly. In the plan I can show you two scenarios:  
+
+- “Consolidate and invest”: no second location, build retirement and college savings steadily.  
+- “Grow then exit”: invest in a second site and assume it improves profits by X after a few years, then see what that does for your ability to sell or step back.  
+
+CLIENT1: [00:30:16] That would be really helpful. We argue about it a lot without numbers.  
+
+CLIENT2: [00:30:20] Yeah, it’s usually at midnight when we’re exhausted.  
+
+ADVISOR: [00:30:24] Midnight decision‑making is rarely the best. [laughs] I’d rather you look at it with clear scenarios.  
+
+CLIENT1: [00:30:29] Agreed.  
+
+ADVISOR: [00:30:32] On a very practical level, between the shop, the kids, and existing contributions, how much do you *feel* you could comfortably set aside per month if we re‑jigged things—ignoring the expansion fund for a moment?  
+
+CLIENT2: [00:30:43] I think a few hundred a month consistently would be doable. Like, three to four hundred, plus whatever we still do at year‑end if the shop did well.  
+
+CLIENT1: [00:30:52] Yeah, for example, if we trimmed back travel a bit in an average year and tightened up DoorDash, we could free up maybe three hundred without feeling it too badly.  
+
+ADVISOR: [00:31:01] That’s exactly the sort of trade‑off I’m looking for. We might tie something like Sarah’s Roth contributions or college savings to that “fixed monthly” amount, and keep the SEPs more flexible and tied to year‑end bonuses from the business.  
+
+CLIENT2: [00:31:12] I like the idea of at least one thing being automatic so we don’t just skip it.  
+
+ADVISOR: [00:31:17] That fits what you said earlier—maybe make your contribution more of a fixed base, Sarah, and use James’s SEP as the “dial up or down” one.  
+
+CLIENT1: [00:31:24] Yeah, that actually sounds like a good system.  
+
+ADVISOR: [00:31:28] Okay. I know we’ve covered a lot—business income, household expenses, properties, investments, retirement accounts, and some long‑term goals. Is there anything big you were hoping we’d talk about today that we haven’t touched yet?  
+
+CLIENT2: [00:31:40] I was a little worried you’d say, “You’re doomed, you’ll be working until eighty,” so I’m relieved you didn’t. [laughs]  
+
+CLIENT1: [00:31:46] Yeah, same. I guess my only other question is about the cabin. Does it make sense to keep renting it out on Airbnb, or is that more hassle than it’s worth from a financial planning point of view?  
+
+ADVISOR: [00:31:55] That’s partly a numbers question and partly a lifestyle question. If it’s covering its own costs and a bit more, and you enjoy using it as a family, it can be a nice hybrid asset. If it’s a constant headache and you rarely go, selling your share and redirecting that ninety thousand into investments or debt reduction could accelerate your goals.  
+
+CLIENT2: [00:32:11] We do use it a couple of times a year with the kids. I’d be sad to sell it, honestly.  
+
+CLIENT1: [00:32:16] Yeah, it’s kind of our cheap vacation option.  
+
+ADVISOR: [00:32:19] Then my default would be: keep it for now, track what it actually costs or makes over the next year, and revisit. It’s not stopping you from retiring at sixty, but it’s worth monitoring.  
+
+CLIENT2: [00:32:28] That sounds fair.  
+
+ADVISOR: [00:32:32] Alright. The next step on my side will be to take everything you’ve shared—your incomes, spending, assets, debts, and goals—and build a few scenarios: with and without expansion, different contribution levels, and some protection changes. I’ll also check the Roth income limits and coordinate with your accountant on the best way to structure your pay and SEP contributions.  
+
+CLIENT1: [00:32:48] Okay.  
+
+CLIENT2: [00:32:50] Yeah, that all sounds good.  
+
+ADVISOR: [00:32:54] I’ll send you a list of documents I’ll need—recent statements for the mortgages and the main investment and retirement accounts, plus last year’s tax return. You can upload them through the secure portal. After I’ve crunched the numbers, we’ll set up a follow‑up to walk through the plan together and talk about the expansion versus “invest more and simplify” decision.  
+
+CLIENT1: [00:33:09] Great, we can pull all that.  
+
+CLIENT2: [00:33:12] Yeah, we’ll dig out the logins and statements.  
+
+ADVISOR: [00:33:16] Perfect. Let’s pause here for today and pick this up once I’ve modeled those options.

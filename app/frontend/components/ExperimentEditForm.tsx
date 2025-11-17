@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import { Checkbox } from "@/components/ui/checkbox";
 import {
   Select,
   SelectContent,
@@ -32,6 +33,7 @@ export default function ExperimentEditForm({
   const [prompt, setPrompt] = useState(experiment.prompt);
   const [schemaJson, setSchemaJson] = useState(experiment.schema_json);
   const [model, setModel] = useState(experiment.model);
+  const [enableTwoPass, setEnableTwoPass] = useState(experiment.enable_two_pass || false);
 
   const updateMutation = useMutation({
     mutationFn: (data: any) => experimentsAPI.update(experiment.id, data),
@@ -45,6 +47,7 @@ export default function ExperimentEditForm({
       prompt,
       schema_json: schemaJson,
       model,
+      enable_two_pass: enableTwoPass,
     });
   };
 
@@ -74,6 +77,26 @@ export default function ExperimentEditForm({
             ))}
           </SelectContent>
         </Select>
+      </div>
+
+      <div className="flex items-center space-x-2 p-4 border rounded-lg bg-muted/30">
+        <Checkbox
+          id="edit-enable-two-pass"
+          checked={enableTwoPass}
+          onCheckedChange={(checked) => setEnableTwoPass(checked as boolean)}
+        />
+        <div className="space-y-1">
+          <Label
+            htmlFor="edit-enable-two-pass"
+            className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
+          >
+            Enable Two-Pass Extraction
+          </Label>
+          <p className="text-xs text-muted-foreground">
+            First pass extracts data, then a review step identifies missing/hallucinated items,
+            and a second pass produces refined output. Helps improve extraction quality.
+          </p>
+        </div>
       </div>
 
       <div className="space-y-2">

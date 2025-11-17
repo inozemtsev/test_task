@@ -52,6 +52,7 @@ class Experiment(Base):
     prompt = Column(Text, nullable=False)
     schema_json = Column(Text, nullable=False)
     model = Column(String(100), nullable=False)
+    enable_two_pass = Column(Boolean, default=False, nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
@@ -67,6 +68,7 @@ class Evaluation(Base):
     status = Column(String(50), default="pending")  # pending, running, completed, failed
     started_at = Column(DateTime, default=datetime.utcnow)
     completed_at = Column(DateTime, nullable=True)
+    schema_stability = Column(Float, nullable=True)  # Field consistency across transcripts
 
     experiment = relationship("Experiment", back_populates="evaluations")
     judge = relationship("Judge", back_populates="evaluations")
@@ -80,6 +82,9 @@ class EvaluationResult(Base):
     evaluation_id = Column(Integer, ForeignKey("evaluations.id", ondelete="CASCADE"), nullable=False)
     transcript_id = Column(Integer, ForeignKey("transcripts.id", ondelete="CASCADE"), nullable=False)
     extracted_data = Column(JSON, nullable=True)
+    initial_extraction = Column(JSON, nullable=True)  # First pass extraction (two-pass mode)
+    review_data = Column(JSON, nullable=True)  # Review findings (two-pass mode)
+    final_extraction = Column(JSON, nullable=True)  # Second pass extraction (two-pass mode)
     final_score = Column(Float, nullable=True)
     schema_overlap_percentage = Column(Float, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)

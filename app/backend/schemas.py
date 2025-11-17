@@ -74,6 +74,7 @@ class ExperimentBase(BaseModel):
     prompt: str
     schema_json: str = Field(alias="schema_json")
     model: str
+    enable_two_pass: bool = False
 
     class Config:
         populate_by_name = True
@@ -88,6 +89,7 @@ class ExperimentUpdate(BaseModel):
     prompt: Optional[str] = None
     schema_json: Optional[str] = Field(None, alias="schema_json")
     model: Optional[str] = None
+    enable_two_pass: Optional[bool] = None
 
     class Config:
         populate_by_name = True
@@ -127,8 +129,10 @@ class EvaluationResultResponse(BaseModel):
     transcript_id: int
     transcript_name: str
     extracted_data: Any
+    initial_extraction: Optional[Any] = None  # First pass (two-pass mode)
+    review_data: Optional[dict[str, Any]] = None  # Review findings (two-pass mode)
+    final_extraction: Optional[Any] = None  # Second pass (two-pass mode)
     final_score: Optional[float]
-    schema_overlap_percentage: Optional[float] = None
     characteristic_votes: list[CharacteristicVoteResponse] = []
 
     class Config:
@@ -142,6 +146,7 @@ class EvaluationResponse(BaseModel):
     status: str
     started_at: datetime
     completed_at: Optional[datetime]
+    schema_stability: Optional[float] = None
     results: list[EvaluationResultResponse] = []
 
     class Config:
@@ -155,7 +160,7 @@ class LeaderboardEntry(BaseModel):
     num_transcripts: int
     evaluation_id: int
     completed_at: datetime
-    avg_schema_overlap: Optional[float] = None
+    schema_stability: Optional[float] = None  # Field consistency across transcripts
     avg_metrics: Optional[dict[str, Any]] = None  # Can be float or {numerator, denominator}
     characteristic_results: Optional[dict[str, Any]] = None  # Per-characteristic aggregated results
 

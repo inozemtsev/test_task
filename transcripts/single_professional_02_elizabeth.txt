@@ -1,0 +1,413 @@
+# Financial Fact-Find Transcript
+# Persona: Elizabeth Johnson
+# Type: Single Young Professional
+# Generated: 2025-11-17 20:45:15
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:02] Before we get into the numbers, I just need to confirm a couple of basics for my notes. Can you say your full name for me, please?  
+
+CLIENT: [00:00:09] Yeah, it’s Elizabeth Johnson. Most people call me Liz, but Elizabeth Johnson is fine for the forms.  
+
+ADVISOR: [00:00:18] Thanks, Liz. And your date of birth? Just month, day, year.  
+
+CLIENT: [00:00:25] April 14th, 1996. So I’m twenty‑eight now, turning twenty‑nine this April.  
+
+ADVISOR: [00:00:33] Got it. Relationship status—single, married, living with a partner?  
+
+CLIENT: [00:00:40] I’m single. No kids. Just me at home.  
+
+ADVISOR: [00:00:47] And home right now is where?  
+
+CLIENT: [00:00:52] Downtown Denver. I bought a little one‑bedroom condo there last fall.  
+
+ADVISOR: [00:01:00] Nice, congrats. You live there on your own?  
+
+CLIENT: [00:01:04] Yeah, just me and my plants. I keep joking I’ll end up as the plant lady.  
+
+ADVISOR: [00:01:12] Could be worse. Let me ask quickly about health, because it feeds into things like insurance and retirement. How would you describe your general health?  
+
+CLIENT: [00:01:21] Overall pretty good. I work out a few times a week. I had mild asthma as a kid, but it hasn’t bothered me in years. No regular meds. Just seasonal allergies, so I do over‑the‑counter stuff in the spring.  
+
+ADVISOR: [00:01:35] Any smoking or vaping?  
+
+CLIENT: [00:01:38] No, non‑smoker. Never smoked. I drink a bit socially—couple glasses of wine on the weekend—but nothing wild.  
+
+ADVISOR: [00:01:47] Perfect. No long‑term conditions like diabetes, high blood pressure?  
+
+CLIENT: [00:01:52] Nope. My doctor said my blood pressure is actually on the low side, in a good way.  
+
+ADVISOR: [00:02:00] Great. Let’s pivot to work, because that’s usually the engine for most of the planning. Where are you working now, and what’s your role?  
+
+CLIENT: [00:02:08] I work for BluePeak Analytics—Denver office. I was a product marketing manager, and then I got promoted to senior product manager in November.  
+
+ADVISOR: [00:02:20] Congrats on the promotion. Full‑time W‑2 job?  
+
+CLIENT: [00:02:24] Yeah, full‑time. Forty, forty‑five hours a week depending on launches.  
+
+ADVISOR: [00:02:31] And what’s your base salary now, roughly, after the promotion?  
+
+CLIENT: [00:02:37] It’s in the mid‑nineties. Ninety‑five is the exact number.  
+
+ADVISOR: [00:02:43] Any bonus on top of that?  
+
+CLIENT: [00:02:46] There is. Target’s ten percent of base, so if everything goes amazingly it’d be like nine to ten grand before taxes. Last year I got around six because we missed a couple targets. First bonus in the new role will be next February.  
+
+ADVISOR: [00:03:01] Got it. And how often do you get paid?  
+
+CLIENT: [00:03:04] Twice a month, on the fifteenth and the last day. Direct deposit.  
+
+ADVISOR: [00:03:10] Do you know roughly what hits your checking each paycheck after taxes, benefits, 401(k), all that?  
+
+CLIENT: [00:03:17] It’s usually around twenty‑three, twenty‑four hundred a paycheck. It wiggles a bit if I change my 401(k).  
+
+ADVISOR: [00:03:27] Any side income—freelance, consulting, anything like that?  
+
+CLIENT: [00:03:31] A little. I do some freelance design and writing when I have energy. Some years it’s like five grand; this year will probably be more like two or three. Totally up and down.  
+
+ADVISOR: [00:03:44] And that’s 1099 income, no tax withheld?  
+
+CLIENT: [00:03:47] Yeah. I try to put like thirty percent aside in a separate savings account so I’m not surprised at tax time. Learned that the hard way.  
+
+ADVISOR: [00:03:56] Most people do. When you think long‑term, way out in the future, what age pops into your head where you’d like work to be optional?  
+
+CLIENT: [00:04:06] Um… my parents are aiming for late sixties. I’d like to be done earlier. Maybe sixty? I could see myself doing consulting or part‑time stuff, but I’d like not to need a paycheck at sixty.  
+
+ADVISOR: [00:04:20] Okay, sixty as the “work optional” target. We’ll build around that. Before we go deep into retirement, I want to get a picture of what you already have in place. You mentioned the condo—can we talk a bit more about that?  
+
+CLIENT: [00:04:31] Sure.  
+
+ADVISOR: [00:04:34] Do you remember roughly what you paid for it?  
+
+CLIENT: [00:04:37] It was three eighty‑something. The contract price was three eighty‑five, plus closing costs and all that fun stuff.  
+
+ADVISOR: [00:04:47] And you’ve got a mortgage on it?  
+
+CLIENT: [00:04:50] Yeah. Thirty‑year fixed, about five and a half percent. I want to say 5.6, but it’s in that range.  
+
+ADVISOR: [00:04:58] Do you know how much you still owe, ballpark?  
+
+CLIENT: [00:05:02] Last statement was around three ten, three twelve. I put about seventy thousand down—mostly savings and then a small gift from my parents.  
+
+ADVISOR: [00:05:13] Any idea what the place is worth now? Have you peeked at Redfin or Zillow?  
+
+CLIENT: [00:05:18] Oh, constantly. It usually shows high three hundreds—three ninety‑something. Sometimes it pops just over four hundred. So I’d say just under four hundred is realistic.  
+
+ADVISOR: [00:05:31] That’s helpful. What’s the monthly payment on the mortgage itself, roughly, for principal and interest?  
+
+CLIENT: [00:05:38] The mortgage part is about seventeen‑something. When you add HOA, taxes, insurance—it’s escrowed—it’s closer to twenty‑two, twenty‑three hundred a month.  
+
+ADVISOR: [00:05:51] And that’s on auto‑pay from your checking?  
+
+CLIENT: [00:05:54] Yeah, it comes out on the first. I try not to think about it too much.  
+
+ADVISOR: [00:06:00] Any other property—vacation place, land, share in a family cabin?  
+
+CLIENT: [00:06:04] Nope. My parents have a house in New Mexico, but that’s theirs.  
+
+ADVISOR: [00:06:11] Okay, so just the Denver condo. Let’s zoom out to your other assets—cash first. What does checking and savings look like right now?  
+
+CLIENT: [00:06:19] I keep around two to three thousand in my checking at FirstBank. It floats depending on when the mortgage and card payments hit.  
+
+CLIENT: [00:06:29] Then I have a high‑yield savings at Ally. That’s around fifteen thousand.  
+
+ADVISOR: [00:06:36] And how do you mentally bucket that Ally money? Is that mostly emergency fund, or is some of it for travel and “future Liz” purchases?  
+
+CLIENT: [00:06:44] I’d say ten is true emergency fund. The other five is, like, new couch, vacations, maybe fixing the closet doors.  
+
+ADVISOR: [00:06:54] Any other cash‑type accounts? Credit union, CDs?  
+
+CLIENT: [00:06:58] I’ve got about two grand sitting in a credit union account up in Fort Collins from college. And I opened a one‑year CD at Ally—five thousand at like four and a half percent. That matures next March.  
+
+ADVISOR: [00:07:10] When that CD comes due, do you have a plan for it?  
+
+CLIENT: [00:07:14] Not really. I kind of did it because the rate looked good. I might roll it, or I might use it for condo stuff—built‑ins, maybe—depending what life looks like then.  
+
+ADVISOR: [00:07:24] Good, we can decide closer to the time. Outside of cash, let’s talk investments. You mentioned a 401(k) through BluePeak. Roughly what’s the balance there?  
+
+CLIENT: [00:07:34] Last time I logged in—maybe two weeks ago—it was mid‑forties. Like forty‑four, forty‑five thousand.  
+
+ADVISOR: [00:07:41] And how much are you contributing?  
+
+CLIENT: [00:07:44] Eight percent of my salary. They match four if I do at least that, so I just set it to eight.  
+
+ADVISOR: [00:07:52] Nice. Do you know how it’s invested?  
+
+CLIENT: [00:07:55] Pretty boring. It’s in one of those target‑date funds, 2065 or something like that. I picked the one closest to when I’d retire and left it.  
+
+ADVISOR: [00:08:04] Perfectly reasonable. Any retirement money from old jobs?  
+
+CLIENT: [00:08:09] Yeah. My first job was at a nonprofit in Boulder. They had a 403(b). That one’s small—like eight or nine thousand. I haven’t rolled it over yet because I keep forgetting the login.  
+
+ADVISOR: [00:08:21] Happens all the time. Any other old plans?  
+
+CLIENT: [00:08:25] I had a 401(k) at my last company before BluePeak—Northbridge Digital Media in Chicago. When I left, I rolled that into a rollover IRA at Vanguard. That’s around, I think, twelve or thirteen thousand now.  
+
+ADVISOR: [00:08:39] Okay, so: current 401(k) at BluePeak, old 403(b) from the nonprofit, and a rollover IRA at Vanguard from Northbridge. On top of that, do you have a personal IRA—Roth or traditional?  
+
+CLIENT: [00:08:50] Yeah, I opened a Roth IRA at Vanguard a couple years ago. I’ve been putting in like three to four grand a year when I can. I think it’s around nine thousand. It’s in a total market index fund—VTSAX or whatever it’s called.  
+
+ADVISOR: [00:09:04] And are you contributing to that Roth on a regular monthly basis, or more lump sums?  
+
+CLIENT: [00:09:10] I set up a two hundred‑dollar monthly transfer this year. Before that it was more random—whenever I had extra.  
+
+ADVISOR: [00:09:18] Outside retirement, any brokerage or trading accounts? Robinhood, Fidelity, that kind of thing?  
+
+CLIENT: [00:09:23] Yeah, I have a Robinhood account. That’s my “fun money” investing. About six thousand in there—six and a half on a good day. Mostly big tech stocks and one S&P 500 ETF.  
+
+ADVISOR: [00:09:36] Crypto at all?  
+
+CLIENT: [00:09:38] [laughs] A tiny bit. One Ethereum and some random bits of Bitcoin. Maybe a thousand bucks total now. It was more… before crypto did what crypto does.  
+
+ADVISOR: [00:09:49] Understood. Any health‑related accounts, like an HSA?  
+
+CLIENT: [00:09:54] Yeah, I’m on a high‑deductible plan through work, so I have an HSA with Fidelity. There’s about two thousand in it. I try to pay doctors out of pocket when I can and invest most of the HSA in an S&P index fund.  
+
+ADVISOR: [00:10:08] Great habit. Outside of accounts, any other assets—car, side‑business equipment, that kind of thing?  
+
+CLIENT: [00:10:14] I have a 2016 Toyota Corolla, paid off. I think it’s worth maybe ten or eleven thousand. No side business gear or anything.  
+
+ADVISOR: [00:10:24] And you mentioned you got RSUs with the promotion?  
+
+CLIENT: [00:10:28] Yeah. When I got promoted to senior PM, they gave me a grant that was like twenty‑something thousand at the time. It vests over four years. One chunk vested in September, so I think I have around five grand of actual shares that are mine; the rest is still unvested.  
+
+ADVISOR: [00:10:44] Have you sold any of the vested shares yet or just held them?  
+
+CLIENT: [00:10:48] I’ve just let them sit. I keep meaning to ask if I should sell some so I’m not super tied to my employer.  
+
+ADVISOR: [00:10:55] We’ll definitely circle back to that when we talk about risk and taxes. Before we move to debts, I want to get a feel for what you’re aiming for in the next few years. Over the next, say, three to five years, what are the big things you’d like money to help you do—now that you’ve got the condo?  
+
+CLIENT: [00:11:11] Um, top of the list is building my emergency fund up to a solid six months, especially with the mortgage. I’d like to do some upgrades in the condo—closet, maybe a nicer kitchen eventually. And then I’ve always thought about taking like six months to a year off around forty to travel or maybe do a coding bootcamp, so I don’t want to completely ignore that.  
+
+ADVISOR: [00:11:32] So emergency fund, home improvements, and a future sabbatical about twelve years out. Anything about kids or a bigger place in your head yet, or is that still abstract?  
+
+CLIENT: [00:11:41] Kids are “future Liz” for sure. Maybe mid‑thirties if it happens. I could see wanting a bigger place in, like, five to seven years. Maybe keep this condo as a rental if it makes sense.  
+
+ADVISOR: [00:11:53] Okay. We’ll keep that as a “nice‑to‑have” scenario. Let’s flip over to the liability side. Apart from the mortgage, what other debt do you have?  
+
+CLIENT: [00:12:02] Just student loans. No car loan, since the Corolla’s paid off. And I put most spending on my credit card for points, but I pay it off every month.  
+
+ADVISOR: [00:12:11] Tell me a bit about the student loans—how much is left and what the monthly payment looks like.  
+
+CLIENT: [00:12:16] They’re federal from undergrad. I’m down to around eighteen thousand total. One’s a bit over three percent interest, and one’s just under five. My combined payment is like two hundred, maybe two‑twenty a month.  
+
+ADVISOR: [00:12:30] And you’re on the standard ten‑year repayment schedule?  
+
+CLIENT: [00:12:34] Yeah, pretty sure. I think I’ve got about seven years left if I just keep paying the minimum. I throw an extra fifty at it if I have a good month.  
+
+ADVISOR: [00:12:44] Emotionally, which bugs you more—the mortgage or the student loans?  
+
+CLIENT: [00:12:49] The student loans annoy me more because they’ve been hanging around forever. The mortgage is scarier in terms of the number and, you know, the bank technically owning my place, but I know that’s kind of normal.  
+
+ADVISOR: [00:13:01] Does anyone else co‑own the condo or sit on the mortgage with you?  
+
+CLIENT: [00:13:05] Nope, it’s just me on the title and the mortgage. My parents helped a bit with the down payment as a gift, but they’re not on anything.  
+
+ADVISOR: [00:13:14] Any other loans—furniture, “buy now pay later,” that sort of thing?  
+
+CLIENT: [00:13:18] I do have one of those zero‑interest furniture plans from when I moved in. It’s like a hundred twenty a month, and I think I’ve got about a year left on it.  
+
+ADVISOR: [00:13:28] Okay, so that drops off in about a year and frees up some cash flow. If you look at mortgage plus student loans plus that furniture payment, how does the monthly debt load feel against your new income?  
+
+CLIENT: [00:13:39] It’s… manageable now. Before the promotion it felt tight. Now, after 401(k) and everything, I usually have a few hundred left to play with. I definitely notice the mortgage, but I don’t feel like I’m drowning.  
+
+ADVISOR: [00:13:52] That’s good. I want to get more specific on your monthly spending so we can see what’s truly fixed and what’s flexible. Rough numbers are fine. Starting with housing, you said about twenty‑two to twenty‑three hundred all‑in for the condo?  
+
+CLIENT: [00:14:06] Yeah, that’s mortgage, HOA, taxes, insurance—everything.  
+
+ADVISOR: [00:14:11] How about utilities—electric, maybe gas, and internet?  
+
+CLIENT: [00:14:15] Electric bounces between sixty and a hundred depending on the season. I don’t have separate gas; it’s rolled into building stuff through the HOA. Internet is like seventy‑five now—it used to be cheaper, but it crept up.  
+
+ADVISOR: [00:14:29] Do you have separate condo insurance, or is that all in escrow?  
+
+CLIENT: [00:14:33] There’s the building master policy in HOA, and then I have a little condo policy that’s, I think, twenty‑five bucks a month. That comes straight from my checking.  
+
+ADVISOR: [00:14:42] Cell phone?  
+
+CLIENT: [00:14:44] Verizon. Around ninety, ninety‑five with taxes.  
+
+ADVISOR: [00:14:49] Streaming and subscriptions?  
+
+CLIENT: [00:14:52] Netflix, HBO, Spotify… that’s like forty‑five, fifty total. And then I have a meditation app that’s ten a month. So maybe fifty‑five, sixty all in.  
+
+ADVISOR: [00:15:04] Gym or fitness?  
+
+CLIENT: [00:15:07] I go to a cheap gym—that’s thirty‑five a month—and then I buy yoga class packs occasionally. If I average it out, yoga’s like fifty a month. If I had to, I’d keep the gym and cut back on yoga.  
+
+ADVISOR: [00:15:20] Food—groceries first.  
+
+CLIENT: [00:15:23] My budgeting app says around three fifty to four hundred a month for groceries. Some months a bit higher if I do a stock‑up run.  
+
+ADVISOR: [00:15:32] And eating out—restaurants, takeout, coffee?  
+
+CLIENT: [00:15:36] That’s the ugly one. [laughs] I’d say three hundred on a normal month, but if I’m going out a lot it can hit five.  
+
+ADVISOR: [00:15:46] Transportation: you’ve got the Corolla, so no subway passes. What are you spending on gas and insurance and so on?  
+
+CLIENT: [00:15:53] Gas is like eighty to a hundred a month. Insurance is about a hundred and ten. Then maybe fifty to a hundred on Ubers if I’m out late or if it’s snowing and I don’t want to drive.  
+
+ADVISOR: [00:16:05] Any parking costs downtown?  
+
+CLIENT: [00:16:07] My building has a spot included, so thankfully no extra.  
+
+ADVISOR: [00:16:11] Medical out of pocket—co‑pays, prescriptions?  
+
+CLIENT: [00:16:14] Health insurance comes out of my paycheck. Out of pocket I probably average, I don’t know, twenty or thirty a month—co‑pays, allergy meds. Some months zero, some months more if I have an appointment.  
+
+ADVISOR: [00:16:26] Pets? Kids? Anyone you’re supporting financially?  
+
+CLIENT: [00:16:30] No kids. I do have a very spoiled cat—he’s new since I bought the condo. [laughs] Food, litter, vet stuff probably average thirty, forty bucks a month spread out. I don’t regularly send money to family or anything.  
+
+ADVISOR: [00:16:43] Travel—how often are you taking trips in a typical year?  
+
+CLIENT: [00:16:47] I try to do one bigger trip—like Europe or somewhere on my bucket list—and then two or three long weekends to visit friends, go hiking, that sort of thing.  
+
+ADVISOR: [00:16:57] If you add flights, hotels, spending money, what do you think that totals over a year?  
+
+CLIENT: [00:17:02] The big trip last year was about fifteen hundred dollars. The smaller ones together were maybe another fifteen hundred. So, two to three grand a year, if I’m being honest.  
+
+ADVISOR: [00:17:14] Is travel something you’d want to protect in the budget, or is that a flexible line if we need to free up savings?  
+
+CLIENT: [00:17:19] I love traveling, but yeah, I could dial it back. Maybe not zero, but fewer or cheaper trips if it meant hitting my goals.  
+
+ADVISOR: [00:17:28] How about the “everything else” bucket—clothes, Amazon, gifts?  
+
+CLIENT: [00:17:33] [laughs] Amazon is dangerous. Clothes, maybe fifty to a hundred a month on average—some months nothing, then I buy a coat and it spikes. Gifts maybe fifty a month averaged out. Random Amazon stuff I’d guess around a hundred a month—kitchen things, books, all the little stuff.  
+
+ADVISOR: [00:17:51] Are those areas you feel like you could cut back on if we pointed at them?  
+
+CLIENT: [00:17:54] Definitely. That’s the most flexible. Rent and my 401(k) feel non‑negotiable; Amazon is pure impulse.  
+
+ADVISOR: [00:18:03] Speaking of 401(k), how do you think about that eight percent going in—more like a fixed bill you don’t want to touch, or something you’d reduce if money got tight?  
+
+CLIENT: [00:18:11] I think of it as fixed. I really don’t want to mess with it unless, like, I lost my job or something.  
+
+ADVISOR: [00:18:18] If you step back and look at your month—after your fixed bills, 401(k), student loans—how much do you feel is truly leftover that could go towards extra savings, debt payoff, or investing?  
+
+CLIENT: [00:18:28] On a typical month, maybe four to six hundred? Depends on how social I am and if anything unexpected happens with the car or the cat.  
+
+ADVISOR: [00:18:39] That gives us something to play with. Before we decide where it should go, I want to understand how you feel about investment ups and downs. Let’s say the market drops twenty percent in a year and your retirement accounts drop by a similar amount on paper. What do you think you’d do?  
+
+CLIENT: [00:18:54] I’d probably panic internally. [laughs] But I don’t think I’d pull everything out. Like last year, my accounts dipped and I just… tried not to look. I know I’ve got thirty‑plus years, so I’m okay with some risk. Maybe a seven out of ten on a risk scale? I want growth, but I don’t want the absolute craziest ride.  
+
+ADVISOR: [00:19:11] That’s helpful. On the tax side, do you have a sense of your federal bracket from your last return?  
+
+CLIENT: [00:19:16] I think I was in the twenty‑two percent federal bracket. With the raise I might creep toward the next one, but I’m still under six figures. And Colorado takes, what, four‑ish percent? So I’m not in a super high bracket or anything.  
+
+ADVISOR: [00:19:30] Do you usually get a refund or owe at tax time?  
+
+CLIENT: [00:19:33] Before I did freelance I usually got a small refund, like a thousand. Last year I owed a bit because I didn’t set enough aside from freelance. This year I adjusted my W‑4 and I’m trying to be more disciplined, so I’m hoping to land close to break‑even.  
+
+ADVISOR: [00:19:47] Makes sense. Coming back to benefits for a moment: through BluePeak, what do you have for health insurance, life, disability?  
+
+CLIENT: [00:19:54] Health is a high‑deductible plan with the HSA. My share of the premium comes out of my paycheck—maybe two hundred a month? I have basic life insurance, one times my salary automatically. I could buy more, but I haven’t. There’s disability insurance too, but I’ve never really dug into how it works.  
+
+ADVISOR: [00:20:12] And estate planning—any will or powers of attorney yet?  
+
+CLIENT: [00:20:16] No will. I kind of figured I don’t own that much yet, even though I know the condo is a big thing. I did fill out beneficiary forms on my 401(k) and HSA—that’s my mom right now. I should probably do the Roth and stuff too.  
+
+ADVISOR: [00:20:28] We’ll add beneficiaries and a basic will to the “later” list. I want to loop back to savings goals. You said you’d like six months of expenses in cash. Right now you’ve got about ten thousand earmarked as emergency fund. If you lost your job tomorrow, how many months would that realistically cover?  
+
+CLIENT: [00:20:44] Probably three months, maybe a hair more, if I cut way back. The mortgage makes it add up fast.  
+
+ADVISOR: [00:20:51] So six months might be closer to twenty, twenty‑two thousand.  
+
+CLIENT: [00:20:55] Yeah, that sounds right. Which feels like a lot, but I also like the idea of that safety net.  
+
+ADVISOR: [00:21:02] You also mentioned wanting to do more with the condo and maybe that future sabbatical. How are you thinking of splitting that extra four to six hundred a month between emergency fund, debt, and investing?  
+
+CLIENT: [00:21:12] That’s where I’m stuck. Part of me wants to slam the student loans and just get rid of them. Part of me thinks I should put extra into investments while I’m young. And then the anxious part of me is like “cash, cash, cash” because of the mortgage.  
+
+ADVISOR: [00:21:25] If you had to rank them emotionally right now—emergency fund, paying off student loans, investing more—which order would you put them in?  
+
+CLIENT: [00:21:33] Today? Probably emergency fund first, then investing, then student loans. Even though the loans annoy me, the rate isn’t awful, so I feel like maybe they can be last. Ask me again after a bad day and I’ll say “kill the loans.” [laughs]  
+
+ADVISOR: [00:21:47] It’s normal for that to flip‑flop. While we’re talking about future money coming in, is there anything on the horizon besides your bonus—inheritance, large gifts, anything like that?  
+
+CLIENT: [00:21:57] Yeah, actually. My grandmother passed away last year, and my mom said I’ll probably get something when everything settles. She estimated maybe twenty to thirty thousand, but nothing’s finalized. It could be less.  
+
+ADVISOR: [00:22:09] Do you have a rough plan in your head for that if and when it comes?  
+
+CLIENT: [00:22:13] I’ve thought about splitting it—put a chunk toward the emergency fund and some into investments. Maybe earmark some for future house stuff if I end up wanting a bigger place. I’d love to do a bigger Roth IRA contribution with it too.  
+
+ADVISOR: [00:22:26] Would that be in your existing Roth at Vanguard, or would you open something new?  
+
+CLIENT: [00:22:31] I’d probably just beef up the Vanguard Roth I already have, or at least max it for a year or two.  
+
+ADVISOR: [00:22:38] Okay. Let’s talk about the mortgage vs investing question for a minute, since you mentioned thinking about throwing extra at it. Do you know if your mortgage has any penalties for extra payments?  
+
+CLIENT: [00:22:48] I think I can overpay up to some percentage each year with no penalty. I vaguely remember them saying ten percent or something at closing, but I’d have to dig up the documents.  
+
+ADVISOR: [00:22:57] Right now, you’re just doing the scheduled payment, no regular extra?  
+
+CLIENT: [00:23:01] Yeah, just the standard. I bumped my 401(k) instead when I got the promotion because of the match. I’ve thrown an extra hundred or two at the mortgage once or twice when I had a good month, but nothing consistent.  
+
+ADVISOR: [00:23:12] If you had to choose between a guaranteed 5.5 percent “return” by paying the mortgage down faster and putting extra into, say, your Roth IRA where long‑term stock returns can be higher but not guaranteed, which way do you lean?  
+
+CLIENT: [00:23:24] Intellectually I know the Roth is probably better long‑term, but psychologically the idea of handing less money to the bank feels good. So I’m kind of fifty‑fifty.  
+
+ADVISOR: [00:23:35] That’s where we can run some projections and maybe split the difference. On your retirement accounts, I want to make sure I’ve got the landscape right: BluePeak 401(k) around forty‑five thousand in a 2065 target fund, an old 403(b) around eight or nine, a Vanguard rollover IRA around twelve to thirteen, and a Vanguard Roth IRA around nine. Plus your HSA at two thousand and the Robinhood account around six. Does that sound right?  
+
+CLIENT: [00:23:57] Yeah, that’s everything retirement‑ish and investment‑ish.  
+
+ADVISOR: [00:24:02] And you haven’t ever cashed out an old retirement account or taken a hardship withdrawal?  
+
+CLIENT: [00:24:06] No, I’ve just left them alone. When I left Northbridge I rolled the 401(k) instead of cashing it out, which was mostly because my dad nagged me, but I’m glad I did.  
+
+ADVISOR: [00:24:16] Good nagging. Have you designated beneficiaries on the Roth and the rollover IRA yet, or just on the 401(k)?  
+
+CLIENT: [00:24:22] I’m honestly not sure. I know I did it for the 401(k) and HSA because HR made me. I don’t remember doing anything for Vanguard.  
+
+ADVISOR: [00:24:29] We’ll put that on your follow‑up list—to log in and add beneficiaries there.  
+
+CLIENT: [00:24:34] Okay.  
+
+ADVISOR: [00:24:37] One last thing I want to understand is how you’d feel about taking a real break later—like the six‑month to one‑year sabbatical at forty you mentioned. When you picture that, do you imagine no income at all for that period, or some freelance/part‑time?  
+
+CLIENT: [00:24:50] I’d like the option to not earn anything, just to see what that feels like. Realistically I’d probably do some freelance here and there, but I wouldn’t want to rely on it to pay rent.  
+
+ADVISOR: [00:25:01] So the ideal is to have a separate “sabbatical fund” by age forty that could cover, say, a year of your basic expenses.  
+
+CLIENT: [00:25:07] Yeah, that would be amazing. I don’t want it to completely derail retirement or the house stuff though.  
+
+ADVISOR: [00:25:13] Makes sense. Looking ahead to your career, do you expect your income to grow steadily from here?  
+
+CLIENT: [00:25:18] I hope so. My manager said if I keep doing well I could be close to six figures in a couple years. That’s kind of the goal—hit six figures, then see what’s next.  
+
+ADVISOR: [00:25:28] And on the freelance side, you said you’re trying not to burn out. Do you see that as something you’ll keep at a low level, or phase out as salary rises?  
+
+CLIENT: [00:25:36] Probably keep it low. Right now I’m thinking one or two small clients, maybe two hundred a month on average. It’s nice to have the extra cash, but I don’t want to be working every evening.  
+
+ADVISOR: [00:25:47] Totally fair. Last topic I want to touch on today is protection—life and disability—because with the mortgage in your name, if something happened to your ability to work, cash flow gets tight quickly. You mentioned basic employer life and some disability coverage. If you couldn’t work for six months or a year, how much of your lifestyle could you cut back and live just on emergency savings plus whatever disability might pay?  
+
+CLIENT: [00:26:06] I mean, I could cut way back—no travel, no eating out, stop extra debt payments. But without income, the mortgage is the thing that freaks me out. I don’t actually know what the disability would pay, which I know is bad.  
+
+ADVISOR: [00:26:18] Okay. Part of my homework will be to look at your benefits summary so we can see exactly what’s there and whether a small private policy or some extra life insurance makes sense.  
+
+CLIENT: [00:26:26] Yeah, that would be good. I feel like I only half‑understood the benefits packet when I onboarded.  
+
+ADVISOR: [00:26:32] That’s most people. Before we stop for today, is there anything we haven’t talked about yet that’s on your mind—something you’re worried about or a specific question you came in with?  
+
+CLIENT: [00:26:41] I think the biggest ones are: am I saving “enough” for retirement for my age, and how should I split extra money between the mortgage, student loans, and just investing more? Oh, and what to do with my company stock so I don’t end up totally tied to BluePeak.  
+
+ADVISOR: [00:26:55] Those are all good questions. We’ve got a solid picture of your situation now—income, spending, assets, debts, and goals. I’ll run some numbers on retirement projections at your current savings rate, and some scenarios for where that extra four to six hundred a month could go—plus ideas for how to handle the RSUs and the possible inheritance.  
+
+CLIENT: [00:27:11] Okay.  
+
+ADVISOR: [00:27:14] After I crunch through everything, we’ll sit down again and go through a concrete plan: how much to put toward the emergency fund, how aggressively to pay down the student loans, what to do with the CD and the RSUs, and whether tweaking your 401(k) and Roth contributions makes sense.  
+
+CLIENT: [00:27:27] That sounds really helpful. I feel like I’ve been just… guessing.  
+
+ADVISOR: [00:27:32] You’ve actually made a lot of good decisions already—buying the condo at a reasonable price, using the 401(k) match, starting a Roth early. Now it’s about organizing it and putting some intention behind the next steps.  
+
+CLIENT: [00:27:42] Yeah, that’s what I need—like, a roadmap instead of vibes.  
+
+ADVISOR: [00:27:47] We can definitely do that. Between now and our next meeting, if you can gather your latest mortgage statement, a recent pay stub, and screenshots or statements for your 401(k), Vanguard accounts, HSA, and Ally savings, that’ll let me be very precise.  
+
+CLIENT: [00:27:59] Okay, I can do that. I’ll have to dig through my email for some logins, but I’ll get them to you.  
+
+ADVISOR: [00:28:05] Perfect. Once I’ve had a chance to review and model everything, we’ll book a follow‑up and go through your options in detail.  
+
+CLIENT: [00:28:10] Great. Thank you.
