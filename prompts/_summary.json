@@ -1,0 +1,641 @@
+{
+  "total_prompts": 714,
+  "total_personas": 102,
+  "instances_per_type": 6,
+  "parts": [
+    "clients[]",
+    "assets[]",
+    "pensions[]",
+    "incomes[]",
+    "expenses[]",
+    "loans_and_mortgages[]",
+    "savings_and_investments[]"
+  ],
+  "file_structure": "Each persona has a directory containing 7 prompt files",
+  "example_structure": {
+    "persona_directory": "prompts/{persona_id}/",
+    "files_in_directory": [
+      "clients.txt",
+      "assets.txt",
+      "pensions.txt",
+      "incomes.txt",
+      "expenses.txt",
+      "loans-and-mortgages.txt",
+      "savings-and-investments.txt"
+    ]
+  },
+  "personas": [
+    {
+      "id": "young_couple_01_john_patricia",
+      "name": "Young Professional Couple: John and Patricia Garcia",
+      "type": "young_couple",
+      "client_names": "John and Patricia Garcia"
+    },
+    {
+      "id": "young_couple_02_daniel_barbara",
+      "name": "Young Professional Couple: Daniel and Barbara Williams",
+      "type": "young_couple",
+      "client_names": "Daniel and Barbara Williams"
+    },
+    {
+      "id": "young_couple_03_paul_mary",
+      "name": "Young Professional Couple: Paul and Mary Thomas",
+      "type": "young_couple",
+      "client_names": "Paul and Mary Thomas"
+    },
+    {
+      "id": "young_couple_04_kevin_margaret",
+      "name": "Young Professional Couple: Kevin and Margaret Brown",
+      "type": "young_couple",
+      "client_names": "Kevin and Margaret Brown"
+    },
+    {
+      "id": "young_couple_05_george_betty",
+      "name": "Young Professional Couple: George and Betty Moore",
+      "type": "young_couple",
+      "client_names": "George and Betty Moore"
+    },
+    {
+      "id": "young_couple_06_andrew_emily",
+      "name": "Young Professional Couple: Andrew and Emily Wilson",
+      "type": "young_couple",
+      "client_names": "Andrew and Emily Wilson"
+    },
+    {
+      "id": "single_professional_01_andrew",
+      "name": "Single Young Professional: Andrew Harris",
+      "type": "single_professional",
+      "client_names": "Andrew Harris"
+    },
+    {
+      "id": "single_professional_02_elizabeth",
+      "name": "Single Young Professional: Elizabeth Johnson",
+      "type": "single_professional",
+      "client_names": "Elizabeth Johnson"
+    },
+    {
+      "id": "single_professional_03_andrew",
+      "name": "Single Young Professional: Andrew Thomas",
+      "type": "single_professional",
+      "client_names": "Andrew Thomas"
+    },
+    {
+      "id": "single_professional_04_margaret",
+      "name": "Single Young Professional: Margaret Williams",
+      "type": "single_professional",
+      "client_names": "Margaret Williams"
+    },
+    {
+      "id": "single_professional_05_linda",
+      "name": "Single Young Professional: Linda Garcia",
+      "type": "single_professional",
+      "client_names": "Linda Garcia"
+    },
+    {
+      "id": "single_professional_06_david",
+      "name": "Single Young Professional: David Harris",
+      "type": "single_professional",
+      "client_names": "David Harris"
+    },
+    {
+      "id": "cohabiting_couple_01_david",
+      "name": "Cohabiting Couple: David Taylor",
+      "type": "cohabiting_couple",
+      "client_names": "David Taylor"
+    },
+    {
+      "id": "cohabiting_couple_02_dorothy",
+      "name": "Cohabiting Couple: Dorothy Lewis",
+      "type": "cohabiting_couple",
+      "client_names": "Dorothy Lewis"
+    },
+    {
+      "id": "cohabiting_couple_03_james",
+      "name": "Cohabiting Couple: James Robinson",
+      "type": "cohabiting_couple",
+      "client_names": "James Robinson"
+    },
+    {
+      "id": "cohabiting_couple_04_susan",
+      "name": "Cohabiting Couple: Susan Johnson",
+      "type": "cohabiting_couple",
+      "client_names": "Susan Johnson"
+    },
+    {
+      "id": "cohabiting_couple_05_emily",
+      "name": "Cohabiting Couple: Emily Anderson",
+      "type": "cohabiting_couple",
+      "client_names": "Emily Anderson"
+    },
+    {
+      "id": "cohabiting_couple_06_sarah",
+      "name": "Cohabiting Couple: Sarah Clark",
+      "type": "cohabiting_couple",
+      "client_names": "Sarah Clark"
+    },
+    {
+      "id": "mid_career_01_edward_emily",
+      "name": "Mid-Career Couple: Edward and Emily Garcia",
+      "type": "mid_career",
+      "client_names": "Edward and Emily Garcia"
+    },
+    {
+      "id": "mid_career_02_william_mary",
+      "name": "Mid-Career Couple: William and Mary Jones",
+      "type": "mid_career",
+      "client_names": "William and Mary Jones"
+    },
+    {
+      "id": "mid_career_03_steven_sarah",
+      "name": "Mid-Career Couple: Steven and Sarah Smith",
+      "type": "mid_career",
+      "client_names": "Steven and Sarah Smith"
+    },
+    {
+      "id": "mid_career_04_richard_jessica",
+      "name": "Mid-Career Couple: Richard and Jessica Anderson",
+      "type": "mid_career",
+      "client_names": "Richard and Jessica Anderson"
+    },
+    {
+      "id": "mid_career_05_charles_margaret",
+      "name": "Mid-Career Couple: Charles and Margaret Johnson",
+      "type": "mid_career",
+      "client_names": "Charles and Margaret Johnson"
+    },
+    {
+      "id": "mid_career_06_william_betty",
+      "name": "Mid-Career Couple: William and Betty Garcia",
+      "type": "mid_career",
+      "client_names": "William and Betty Garcia"
+    },
+    {
+      "id": "pre_retirement_01_mark_lisa",
+      "name": "Pre-Retirement Couple: Mark and Lisa Martin",
+      "type": "pre_retirement",
+      "client_names": "Mark and Lisa Martin"
+    },
+    {
+      "id": "pre_retirement_02_david_elizabeth",
+      "name": "Pre-Retirement Couple: David and Elizabeth Williams",
+      "type": "pre_retirement",
+      "client_names": "David and Elizabeth Williams"
+    },
+    {
+      "id": "pre_retirement_03_michael_sarah",
+      "name": "Pre-Retirement Couple: Michael and Sarah Rodriguez",
+      "type": "pre_retirement",
+      "client_names": "Michael and Sarah Rodriguez"
+    },
+    {
+      "id": "pre_retirement_04_richard_lisa",
+      "name": "Pre-Retirement Couple: Richard and Lisa White",
+      "type": "pre_retirement",
+      "client_names": "Richard and Lisa White"
+    },
+    {
+      "id": "pre_retirement_05_richard_elizabeth",
+      "name": "Pre-Retirement Couple: Richard and Elizabeth Lewis",
+      "type": "pre_retirement",
+      "client_names": "Richard and Elizabeth Lewis"
+    },
+    {
+      "id": "pre_retirement_06_john_sarah",
+      "name": "Pre-Retirement Couple: John and Sarah Brown",
+      "type": "pre_retirement",
+      "client_names": "John and Sarah Brown"
+    },
+    {
+      "id": "early_retiree_01_kevin_lisa",
+      "name": "Early Retirement Seeker: Kevin and Lisa Lewis",
+      "type": "early_retiree",
+      "client_names": "Kevin and Lisa Lewis"
+    },
+    {
+      "id": "early_retiree_02_john_ashley",
+      "name": "Early Retirement Seeker: John and Ashley White",
+      "type": "early_retiree",
+      "client_names": "John and Ashley White"
+    },
+    {
+      "id": "early_retiree_03_thomas_barbara",
+      "name": "Early Retirement Seeker: Thomas and Barbara Thompson",
+      "type": "early_retiree",
+      "client_names": "Thomas and Barbara Thompson"
+    },
+    {
+      "id": "early_retiree_04_steven_sandra",
+      "name": "Early Retirement Seeker: Steven and Sandra Thomas",
+      "type": "early_retiree",
+      "client_names": "Steven and Sandra Thomas"
+    },
+    {
+      "id": "early_retiree_05_john_mary",
+      "name": "Early Retirement Seeker: John and Mary Davis",
+      "type": "early_retiree",
+      "client_names": "John and Mary Davis"
+    },
+    {
+      "id": "early_retiree_06_john_jennifer",
+      "name": "Early Retirement Seeker: John and Jennifer Robinson",
+      "type": "early_retiree",
+      "client_names": "John and Jennifer Robinson"
+    },
+    {
+      "id": "recently_retired_01_paul_emily",
+      "name": "Recently Retired Couple: Paul and Emily Harris",
+      "type": "recently_retired",
+      "client_names": "Paul and Emily Harris"
+    },
+    {
+      "id": "recently_retired_02_david_dorothy",
+      "name": "Recently Retired Couple: David and Dorothy Thomas",
+      "type": "recently_retired",
+      "client_names": "David and Dorothy Thomas"
+    },
+    {
+      "id": "recently_retired_03_daniel_dorothy",
+      "name": "Recently Retired Couple: Daniel and Dorothy Thompson",
+      "type": "recently_retired",
+      "client_names": "Daniel and Dorothy Thompson"
+    },
+    {
+      "id": "recently_retired_04_john_susan",
+      "name": "Recently Retired Couple: John and Susan Thompson",
+      "type": "recently_retired",
+      "client_names": "John and Susan Thompson"
+    },
+    {
+      "id": "recently_retired_05_kevin_susan",
+      "name": "Recently Retired Couple: Kevin and Susan Wilson",
+      "type": "recently_retired",
+      "client_names": "Kevin and Susan Wilson"
+    },
+    {
+      "id": "recently_retired_06_william_jennifer",
+      "name": "Recently Retired Couple: William and Jennifer Johnson",
+      "type": "recently_retired",
+      "client_names": "William and Jennifer Johnson"
+    },
+    {
+      "id": "empty_nesters_01_michael_jennifer",
+      "name": "Empty Nest Couple: Michael and Jennifer Jackson",
+      "type": "empty_nesters",
+      "client_names": "Michael and Jennifer Jackson"
+    },
+    {
+      "id": "empty_nesters_02_edward_elizabeth",
+      "name": "Empty Nest Couple: Edward and Elizabeth Moore",
+      "type": "empty_nesters",
+      "client_names": "Edward and Elizabeth Moore"
+    },
+    {
+      "id": "empty_nesters_03_paul_jessica",
+      "name": "Empty Nest Couple: Paul and Jessica Smith",
+      "type": "empty_nesters",
+      "client_names": "Paul and Jessica Smith"
+    },
+    {
+      "id": "empty_nesters_04_daniel_dorothy",
+      "name": "Empty Nest Couple: Daniel and Dorothy Jones",
+      "type": "empty_nesters",
+      "client_names": "Daniel and Dorothy Jones"
+    },
+    {
+      "id": "empty_nesters_05_richard_emily",
+      "name": "Empty Nest Couple: Richard and Emily Martin",
+      "type": "empty_nesters",
+      "client_names": "Richard and Emily Martin"
+    },
+    {
+      "id": "empty_nesters_06_john_jessica",
+      "name": "Empty Nest Couple: John and Jessica Smith",
+      "type": "empty_nesters",
+      "client_names": "John and Jessica Smith"
+    },
+    {
+      "id": "self_employed_01_james_sarah",
+      "name": "Self-Employed Business Owner: James and Sarah Thompson",
+      "type": "self_employed",
+      "client_names": "James and Sarah Thompson"
+    },
+    {
+      "id": "self_employed_02_kevin_ashley",
+      "name": "Self-Employed Business Owner: Kevin and Ashley Martinez",
+      "type": "self_employed",
+      "client_names": "Kevin and Ashley Martinez"
+    },
+    {
+      "id": "self_employed_03_mark_barbara",
+      "name": "Self-Employed Business Owner: Mark and Barbara Clark",
+      "type": "self_employed",
+      "client_names": "Mark and Barbara Clark"
+    },
+    {
+      "id": "self_employed_04_george_emily",
+      "name": "Self-Employed Business Owner: George and Emily Rodriguez",
+      "type": "self_employed",
+      "client_names": "George and Emily Rodriguez"
+    },
+    {
+      "id": "self_employed_05_steven_ashley",
+      "name": "Self-Employed Business Owner: Steven and Ashley Martin",
+      "type": "self_employed",
+      "client_names": "Steven and Ashley Martin"
+    },
+    {
+      "id": "self_employed_06_thomas_karen",
+      "name": "Self-Employed Business Owner: Thomas and Karen Wilson",
+      "type": "self_employed",
+      "client_names": "Thomas and Karen Wilson"
+    },
+    {
+      "id": "blended_family_01_james_karen",
+      "name": "Blended Family: James and Karen Johnson",
+      "type": "blended_family",
+      "client_names": "James and Karen Johnson"
+    },
+    {
+      "id": "blended_family_02_mark_barbara",
+      "name": "Blended Family: Mark and Barbara Jones",
+      "type": "blended_family",
+      "client_names": "Mark and Barbara Jones"
+    },
+    {
+      "id": "blended_family_03_james_barbara",
+      "name": "Blended Family: James and Barbara Moore",
+      "type": "blended_family",
+      "client_names": "James and Barbara Moore"
+    },
+    {
+      "id": "blended_family_04_brian_jessica",
+      "name": "Blended Family: Brian and Jessica Anderson",
+      "type": "blended_family",
+      "client_names": "Brian and Jessica Anderson"
+    },
+    {
+      "id": "blended_family_05_david_betty",
+      "name": "Blended Family: David and Betty Harris",
+      "type": "blended_family",
+      "client_names": "David and Betty Harris"
+    },
+    {
+      "id": "blended_family_06_richard_barbara",
+      "name": "Blended Family: Richard and Barbara Jones",
+      "type": "blended_family",
+      "client_names": "Richard and Barbara Jones"
+    },
+    {
+      "id": "career_changer_01_david_barbara",
+      "name": "Career Transition Individual: David and Barbara Clark",
+      "type": "career_changer",
+      "client_names": "David and Barbara Clark"
+    },
+    {
+      "id": "career_changer_02_richard_margaret",
+      "name": "Career Transition Individual: Richard and Margaret Lee",
+      "type": "career_changer",
+      "client_names": "Richard and Margaret Lee"
+    },
+    {
+      "id": "career_changer_03_kevin_karen",
+      "name": "Career Transition Individual: Kevin and Karen Anderson",
+      "type": "career_changer",
+      "client_names": "Kevin and Karen Anderson"
+    },
+    {
+      "id": "career_changer_04_james_dorothy",
+      "name": "Career Transition Individual: James and Dorothy Smith",
+      "type": "career_changer",
+      "client_names": "James and Dorothy Smith"
+    },
+    {
+      "id": "career_changer_05_andrew_nancy",
+      "name": "Career Transition Individual: Andrew and Nancy Martinez",
+      "type": "career_changer",
+      "client_names": "Andrew and Nancy Martinez"
+    },
+    {
+      "id": "career_changer_06_daniel_nancy",
+      "name": "Career Transition Individual: Daniel and Nancy Johnson",
+      "type": "career_changer",
+      "client_names": "Daniel and Nancy Johnson"
+    },
+    {
+      "id": "divorced_single_01_andrew",
+      "name": "Divorced Single Parent: Andrew Johnson",
+      "type": "divorced_single",
+      "client_names": "Andrew Johnson"
+    },
+    {
+      "id": "divorced_single_02_daniel",
+      "name": "Divorced Single Parent: Daniel Thompson",
+      "type": "divorced_single",
+      "client_names": "Daniel Thompson"
+    },
+    {
+      "id": "divorced_single_03_patricia",
+      "name": "Divorced Single Parent: Patricia Smith",
+      "type": "divorced_single",
+      "client_names": "Patricia Smith"
+    },
+    {
+      "id": "divorced_single_04_jessica",
+      "name": "Divorced Single Parent: Jessica Thompson",
+      "type": "divorced_single",
+      "client_names": "Jessica Thompson"
+    },
+    {
+      "id": "divorced_single_05_betty",
+      "name": "Divorced Single Parent: Betty Davis",
+      "type": "divorced_single",
+      "client_names": "Betty Davis"
+    },
+    {
+      "id": "divorced_single_06_andrew",
+      "name": "Divorced Single Parent: Andrew Robinson",
+      "type": "divorced_single",
+      "client_names": "Andrew Robinson"
+    },
+    {
+      "id": "inheritance_recipient_01_edward_sandra",
+      "name": "Recent Inheritance Recipient: Edward and Sandra Lewis",
+      "type": "inheritance_recipient",
+      "client_names": "Edward and Sandra Lewis"
+    },
+    {
+      "id": "inheritance_recipient_02_william_patricia",
+      "name": "Recent Inheritance Recipient: William and Patricia Davis",
+      "type": "inheritance_recipient",
+      "client_names": "William and Patricia Davis"
+    },
+    {
+      "id": "inheritance_recipient_03_charles_jennifer",
+      "name": "Recent Inheritance Recipient: Charles and Jennifer Lewis",
+      "type": "inheritance_recipient",
+      "client_names": "Charles and Jennifer Lewis"
+    },
+    {
+      "id": "inheritance_recipient_04_kevin_barbara",
+      "name": "Recent Inheritance Recipient: Kevin and Barbara Davis",
+      "type": "inheritance_recipient",
+      "client_names": "Kevin and Barbara Davis"
+    },
+    {
+      "id": "inheritance_recipient_05_daniel_karen",
+      "name": "Recent Inheritance Recipient: Daniel and Karen Robinson",
+      "type": "inheritance_recipient",
+      "client_names": "Daniel and Karen Robinson"
+    },
+    {
+      "id": "inheritance_recipient_06_brian_mary",
+      "name": "Recent Inheritance Recipient: Brian and Mary Rodriguez",
+      "type": "inheritance_recipient",
+      "client_names": "Brian and Mary Rodriguez"
+    },
+    {
+      "id": "high_earner_01_andrew_mary",
+      "name": "High-Earning Professionals: Andrew and Mary Martin",
+      "type": "high_earner",
+      "client_names": "Andrew and Mary Martin"
+    },
+    {
+      "id": "high_earner_02_robert_betty",
+      "name": "High-Earning Professionals: Robert and Betty Martinez",
+      "type": "high_earner",
+      "client_names": "Robert and Betty Martinez"
+    },
+    {
+      "id": "high_earner_03_george_karen",
+      "name": "High-Earning Professionals: George and Karen Johnson",
+      "type": "high_earner",
+      "client_names": "George and Karen Johnson"
+    },
+    {
+      "id": "high_earner_04_andrew_dorothy",
+      "name": "High-Earning Professionals: Andrew and Dorothy Taylor",
+      "type": "high_earner",
+      "client_names": "Andrew and Dorothy Taylor"
+    },
+    {
+      "id": "high_earner_05_mark_barbara",
+      "name": "High-Earning Professionals: Mark and Barbara Wilson",
+      "type": "high_earner",
+      "client_names": "Mark and Barbara Wilson"
+    },
+    {
+      "id": "high_earner_06_thomas_lisa",
+      "name": "High-Earning Professionals: Thomas and Lisa White",
+      "type": "high_earner",
+      "client_names": "Thomas and Lisa White"
+    },
+    {
+      "id": "semi_retired_01_steven_karen",
+      "name": "Semi-Retired Professional: Steven and Karen Lewis",
+      "type": "semi_retired",
+      "client_names": "Steven and Karen Lewis"
+    },
+    {
+      "id": "semi_retired_02_robert_jennifer",
+      "name": "Semi-Retired Professional: Robert and Jennifer Garcia",
+      "type": "semi_retired",
+      "client_names": "Robert and Jennifer Garcia"
+    },
+    {
+      "id": "semi_retired_03_mark_sandra",
+      "name": "Semi-Retired Professional: Mark and Sandra Smith",
+      "type": "semi_retired",
+      "client_names": "Mark and Sandra Smith"
+    },
+    {
+      "id": "semi_retired_04_steven_karen",
+      "name": "Semi-Retired Professional: Steven and Karen Clark",
+      "type": "semi_retired",
+      "client_names": "Steven and Karen Clark"
+    },
+    {
+      "id": "semi_retired_05_richard_sandra",
+      "name": "Semi-Retired Professional: Richard and Sandra Wilson",
+      "type": "semi_retired",
+      "client_names": "Richard and Sandra Wilson"
+    },
+    {
+      "id": "semi_retired_06_david_linda",
+      "name": "Semi-Retired Professional: David and Linda Anderson",
+      "type": "semi_retired",
+      "client_names": "David and Linda Anderson"
+    },
+    {
+      "id": "widowed_01_karen",
+      "name": "Widowed Individual: Karen Rodriguez",
+      "type": "widowed",
+      "client_names": "Karen Rodriguez"
+    },
+    {
+      "id": "widowed_02_betty",
+      "name": "Widowed Individual: Betty Wilson",
+      "type": "widowed",
+      "client_names": "Betty Wilson"
+    },
+    {
+      "id": "widowed_03_jessica",
+      "name": "Widowed Individual: Jessica Lee",
+      "type": "widowed",
+      "client_names": "Jessica Lee"
+    },
+    {
+      "id": "widowed_04_steven",
+      "name": "Widowed Individual: Steven Martinez",
+      "type": "widowed",
+      "client_names": "Steven Martinez"
+    },
+    {
+      "id": "widowed_05_daniel",
+      "name": "Widowed Individual: Daniel Wilson",
+      "type": "widowed",
+      "client_names": "Daniel Wilson"
+    },
+    {
+      "id": "widowed_06_charles",
+      "name": "Widowed Individual: Charles Thompson",
+      "type": "widowed",
+      "client_names": "Charles Thompson"
+    },
+    {
+      "id": "first_time_buyer_01_george_karen",
+      "name": "First-Time Homebuyer: George and Karen Thomas",
+      "type": "first_time_buyer",
+      "client_names": "George and Karen Thomas"
+    },
+    {
+      "id": "first_time_buyer_02_daniel_nancy",
+      "name": "First-Time Homebuyer: Daniel and Nancy Johnson",
+      "type": "first_time_buyer",
+      "client_names": "Daniel and Nancy Johnson"
+    },
+    {
+      "id": "first_time_buyer_03_richard_sandra",
+      "name": "First-Time Homebuyer: Richard and Sandra Robinson",
+      "type": "first_time_buyer",
+      "client_names": "Richard and Sandra Robinson"
+    },
+    {
+      "id": "first_time_buyer_04_brian_elizabeth",
+      "name": "First-Time Homebuyer: Brian and Elizabeth Martin",
+      "type": "first_time_buyer",
+      "client_names": "Brian and Elizabeth Martin"
+    },
+    {
+      "id": "first_time_buyer_05_andrew_elizabeth",
+      "name": "First-Time Homebuyer: Andrew and Elizabeth Brown",
+      "type": "first_time_buyer",
+      "client_names": "Andrew and Elizabeth Brown"
+    },
+    {
+      "id": "first_time_buyer_06_charles_linda",
+      "name": "First-Time Homebuyer: Charles and Linda Clark",
+      "type": "first_time_buyer",
+      "client_names": "Charles and Linda Clark"
+    }
+  ]
+}

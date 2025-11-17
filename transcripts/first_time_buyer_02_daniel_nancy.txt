@@ -1,0 +1,609 @@
+# Financial Fact-Find Transcript
+# Persona: Daniel and Nancy Johnson
+# Type: First-Time Homebuyer
+# Generated: 2025-11-17 19:32:47
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:02] Okay, so just moving on to your own details now. Can I check your full names, please, just as they’ll appear on the mortgage?  
+
+CLIENT1: [00:00:07] Yeah, sure. It’s Daniel Johnson.  
+
+CLIENT2: [00:00:11] And I’m Nancy Johnson.  
+
+ADVISOR: [00:00:15] Perfect. And you’re married, is that right?  
+
+CLIENT2: [00:00:18] Yeah, we got married last autumn. So, yeah, married.  
+
+ADVISOR: [00:00:22] Nice. And are you both happy to be known as Daniel and Nancy, or do you shorten them at all?  
+
+CLIENT1: [00:00:27] Just Dan, usually.  
+
+CLIENT2: [00:00:29] Yeah, and I’m just Nancy.  
+
+ADVISOR: [00:00:32] Great, Dan and Nancy. I also need your dates of birth for the application. Dan, can I start with you?  
+
+CLIENT1: [00:00:37] Yeah. It’s the 3rd of May, nineteen ninety‑four.  
+
+ADVISOR: [00:00:42] And Nancy?  
+
+CLIENT2: [00:00:44] Seventeenth of September, ninety‑five.  
+
+ADVISOR: [00:00:48] Lovely, thanks. Let’s talk about work. Dan, what do you do at the moment?  
+
+CLIENT1: [00:00:53] I’m a software engineer. I work for a company called Codewave Technologies, they’re in the business park on the north side of Leeds.  
+
+ADVISOR: [00:01:01] Full‑time, permanent?  
+
+CLIENT1: [00:01:04] Yeah, full‑time Monday to Friday, office hours, permanent contract. Been there just over four years.  
+
+ADVISOR: [00:01:11] And roughly what sort of income are you on before tax, just a ballpark?  
+
+CLIENT1: [00:01:15] The contract says forty‑nine two, so just under fifty. With the odd bit of overtime it ends up low fifties some years.  
+
+ADVISOR: [00:01:23] Okay, that’s perfect. Are you paid monthly?  
+
+CLIENT1: [00:01:26] Yeah, last working day of the month.  
+
+ADVISOR: [00:01:29] Do you get any regular bonus on top?  
+
+CLIENT1: [00:01:32] There’s a bonus, but it’s not guaranteed. Last couple of years it’s been two to three grand before tax, paid around March.  
+
+ADVISOR: [00:01:40] Okay, we’ll treat that as nice‑to‑have rather than something to rely on. Nancy, what about you?  
+
+CLIENT2: [00:01:45] I’m a primary school teacher. I work for Oakfield Academy Trust, at Maple Lane Primary in town.  
+
+ADVISOR: [00:01:52] Also full‑time and permanent?  
+
+CLIENT2: [00:01:54] Yeah, full‑time, permanent. I started there in September, my probation’s finished now.  
+
+ADVISOR: [00:02:00] Roughly what do you earn before tax?  
+
+CLIENT2: [00:02:03] I’m on the main pay scale. It’s around thirty‑one thousand, thirty‑one something. I’d have to check the letter for the exact number.  
+
+ADVISOR: [00:02:10] That’s fine. And you’re paid monthly as well?  
+
+CLIENT2: [00:02:13] Yeah, on the twenty‑fifth.  
+
+ADVISOR: [00:02:16] Do you do any extra paid bits with the school? After‑school clubs, tutoring?  
+
+CLIENT2: [00:02:20] I do a bit of one‑to‑one tutoring after school through the council catch‑up scheme, maybe two evenings a week in term time. It’s like one to two hundred a month before tax, it varies.  
+
+ADVISOR: [00:02:31] And that’s through payroll as well?  
+
+CLIENT2: [00:02:33] Yeah, it shows as a separate line on my payslip.  
+
+ADVISOR: [00:02:36] Any other income at all?  
+
+CLIENT2: [00:02:38] I sometimes do a Saturday shift in a little coffee shop near us. Once or twice a month, maybe eighty to a hundred pounds when I do it. That’s PAYE as well.  
+
+ADVISOR: [00:02:47] Okay. Dan, anything outside your main job?  
+
+CLIENT1: [00:02:50] Just the odd website for friends of friends. Nothing big. Last year I did two small jobs, maybe twelve hundred total, declared on self‑assessment. This year’ll probably be less or none, work’s busy.  
+
+ADVISOR: [00:03:01] Got it. In terms of take‑home, do you have a sense what actually lands in your bank each month between you?  
+
+CLIENT1: [00:03:06] Mine’s about two thousand seven hundred on a normal month. Jumps if there’s overtime or the bonus, but mid‑twos usually.  
+
+CLIENT2: [00:03:13] And mine’s about one nine‑something, just under two thousand. So together we’re a bit over four and a half, maybe four‑six.  
+
+ADVISOR: [00:03:21] That’s really helpful. While we’re on employers, do either of you get benefits through work? Things like life cover, sick pay, pension?  
+
+CLIENT1: [00:03:28] Yeah, Codewave do a pension. I’m in that. They also have some life insurance, I think two times my salary if I died while employed. And we’ve got decent sick pay for a few months, then it tails off.  
+
+ADVISOR: [00:03:38] And pension‑wise with them, what are you paying in?  
+
+CLIENT1: [00:03:41] I’m doing five percent now. They put in four. It’s salary sacrifice, comes off before tax. I used to do eight percent but I dropped it to five when we started really pushing for the house deposit.  
+
+ADVISOR: [00:03:51] Okay, that’s useful. Nancy, what about you?  
+
+CLIENT2: [00:03:54] I’ve got the Teachers’ Pension Scheme with the school now. I think I pay just under eight percent, seven point something, and they put in a lot more, like twenty percent or something ridiculous. And there’s death‑in‑service, but I couldn’t tell you exactly how many times salary.  
+
+ADVISOR: [00:04:07] That all sounds right for teachers. Any older pensions from previous jobs for either of you?  
+
+CLIENT1: [00:04:12] I’ve got a little Nest pension from an old call centre job. Last time I looked it was three and a bit thousand, but that was ages ago.  
+
+CLIENT2: [00:04:19] I’ve got a tiny one with Legal & General from when I worked part‑time at Tesco at uni. Last statement was just over three thousand as well.  
+
+ADVISOR: [00:04:26] Okay, I’ll capture those as small defined‑contribution pots. We’ll come back to pensions properly later.  
+
+ADVISOR: [00:04:31] On the health side, any major health issues either of you are dealing with?  
+
+CLIENT1: [00:04:35] No, nothing major. Touch wood. Just the odd back ache if I sit too long.  
+
+CLIENT2: [00:04:39] Same here. I get migraines sometimes but they’re managed. No hospital stuff or time off long‑term.  
+
+ADVISOR: [00:04:44] Have either of you ever had to take more than three months off work?  
+
+CLIENT1: [00:04:47] No, longest was a week with flu.  
+
+CLIENT2: [00:04:49] Yeah, just normal bugs.  
+
+ADVISOR: [00:04:52] And either of you smoke or vape with nicotine?  
+
+CLIENT1: [00:04:55] No, never smoked.  
+
+CLIENT2: [00:04:57] I used to socially at uni, but nothing for years now.  
+
+ADVISOR: [00:05:01] I’ll mark you both as non‑smokers, which helps with protection costs if we look at life or income protection. Have you done wills yet?  
+
+CLIENT1: [00:05:08] No, we keep saying we should.  
+
+CLIENT2: [00:05:10] Yeah, we’ve not got round to it at all.  
+
+ADVISOR: [00:05:13] Once there’s a property and a little one in the mix, it’s definitely worth doing simple wills, just so things go where you’d want if something happened. I can point you to a solicitor later if you like.  
+
+CLIENT2: [00:05:22] Yeah, that would be helpful actually.  
+
+ADVISOR: [00:05:25] Let’s talk about what you’re aiming for with the house. When would you ideally like to be in your first home?  
+
+CLIENT1: [00:05:30] We were thinking maybe early next year. So within twelve months, if that’s doable.  
+
+CLIENT2: [00:05:35] Our tenancy here in Headingley runs till next March, so we kind of had that in mind as a rough deadline.  
+
+ADVISOR: [00:05:41] Okay, so roughly within a year, tied to the tenancy. And you’re looking to buy around Leeds as well?  
+
+CLIENT2: [00:05:46] Yeah, we’ve been looking at new‑builds around Pudsey and Bramley, that side of town.  
+
+CLIENT1: [00:05:51] Mostly three‑bed starter homes. The ones we like are mid‑two hundreds.  
+
+ADVISOR: [00:05:55] When you say mid‑two hundreds, do you mean in the two‑forty to two‑seventy sort of range?  
+
+CLIENT1: [00:06:00] Yeah, that kind of thing. There was one at two fifty‑five that we really liked, but it went before we even got a viewing.  
+
+CLIENT2: [00:06:06] So, yeah, two‑fifty, two‑sixty, maybe two‑seventy at a push.  
+
+ADVISOR: [00:06:10] And this will be your first mortgage, no other properties anywhere?  
+
+CLIENT1: [00:06:13] No, never owned. Always rented.  
+
+CLIENT2: [00:06:15] Same. Lived with parents, then rented this flat. That’s it.  
+
+ADVISOR: [00:06:19] Good, that keeps you as first‑time buyers. How much do you think you’ve got put aside towards the deposit at the moment, just in rough terms?  
+
+CLIENT2: [00:06:25] We always say about eighteen, twenty thousand when people ask.  
+
+CLIENT1: [00:06:29] Yeah, something in that ballpark, though I don’t know if we’re under‑counting when you add all the different pots.  
+
+ADVISOR: [00:06:34] Okay, we’ll dig into the detail in a bit and see what it really adds up to. On the mortgage itself, have you thought at all about what sort of monthly payment feels comfortable?  
+
+CLIENT1: [00:06:42] We pay just over a grand in rent now, about one thousand and forty. So we figured we could stretch a bit. Maybe fifteen, sixteen hundred a month on the mortgage if we had to. I wouldn’t want two grand though.  
+
+CLIENT2: [00:06:54] Yeah, in my head I don’t really want the mortgage bit to be more than, like, one‑four, one‑five. I’d start stressing if it was closer to two thousand just on the loan.  
+
+ADVISOR: [00:07:04] So around fourteen to fifteen hundred is your comfort zone, maybe up to sixteen at a push, and anything near eighteen hundred plus would feel tight.  
+
+CLIENT1: [00:07:11] Yeah, that’s about it.  
+
+CLIENT2: [00:07:13] I’d rather keep it closer to one‑four if we can, so we’ve got breathing room for nursery, car stuff, that sort of thing.  
+
+ADVISOR: [00:07:20] And you’re thinking standard repayment mortgage, where you’re paying off the interest and the capital, not interest‑only?  
+
+CLIENT1: [00:07:25] Yeah, we want to actually pay it off. The idea of owing the whole amount and then having to find a lump sum freaks me out.  
+
+CLIENT2: [00:07:31] Same, we just assumed it’d be the normal one where you’re slowly paying it down.  
+
+ADVISOR: [00:07:35] Good. Have you thought about how long a term? Some people go twenty‑five years, some thirty or even thirty‑five.  
+
+CLIENT1: [00:07:41] We were thinking about thirty years? I’m thirty this year, so that takes me to just before sixty. That sounded okay.  
+
+CLIENT2: [00:07:47] I’m twenty‑nine, so yeah, around that. We’re not fixed on it, but thirtyish.  
+
+ADVISOR: [00:07:53] We can look at a range. Longer term means lower monthly payments but more interest over the life of the mortgage, shorter is the opposite.  
+
+ADVISOR: [00:08:00] On the rate type, any preference for fixed versus variable?  
+
+CLIENT1: [00:08:04] I’ve read a bit online, but it’s confusing. I was thinking maybe a five‑year fix to start, just so we know what we’re paying.  
+
+CLIENT2: [00:08:10] Yeah, I’d feel better if it’s fixed at the start. I don’t like the idea of it bouncing up and down every month.  
+
+ADVISOR: [00:08:16] That’s very common, especially for first‑time buyers. Just so we’re clear: because the mortgage is secured on the property, if payments are missed continuously, the lender can repossess the house. That’s why we’re spending time on affordability.  
+
+CLIENT1: [00:08:27] Yeah, that’s the scary bit.  
+
+CLIENT2: [00:08:29] But it makes sense.  
+
+ADVISOR: [00:08:32] We’ll also look at protection alongside it — life cover, maybe income protection — so that if one of you couldn’t work, you’ve got something in place to help keep the roof over your heads.  
+
+CLIENT1: [00:08:40] Yeah, we definitely want to look at that.  
+
+CLIENT2: [00:08:42] I don’t want to be worrying every month that if one of us gets ill we lose the house.  
+
+ADVISOR: [00:08:47] Okay. Before we dive into your savings in detail, I’d like to run through your regular monthly spending so we know what’s already committed. Is that alright?  
+
+CLIENT2: [00:08:54] Yeah, that’s fine.  
+
+CLIENT1: [00:08:55] Go for it.  
+
+ADVISOR: [00:08:58] Let’s start with housing now. You’re renting at the moment — how much is the rent?  
+
+CLIENT2: [00:09:03] It’s just under eleven hundred. One thousand and forty, I think. We round it to eleven hundred in our heads.  
+
+CLIENT1: [00:09:09] Yeah, that sounds right.  
+
+ADVISOR: [00:09:12] And council tax?  
+
+CLIENT1: [00:09:14] About one‑thirty a month. It just went up from one‑twenty‑something.  
+
+ADVISOR: [00:09:18] Gas and electric?  
+
+CLIENT2: [00:09:20] Together, in winter it’s like one‑twenty, one‑thirty. In summer eighty, ninety. We budget a hundred to keep it simple.  
+
+ADVISOR: [00:09:27] Water?  
+
+CLIENT1: [00:09:28] Around thirty‑five.  
+
+ADVISOR: [00:09:30] Broadband and TV bits?  
+
+CLIENT1: [00:09:33] Internet’s twenty‑five. Netflix is about a tenner.  
+
+CLIENT2: [00:09:36] And that’s it really, we don’t have Sky.  
+
+ADVISOR: [00:09:39] Okay, so rent plus council tax, energy, water, broadband, Netflix — that’s your essential housing‑type costs. Roughly, if you add those up, what do you think that totals each month?  
+
+CLIENT1: [00:09:48] Uh, eleven hundred plus one‑thirty, plus a hundred, plus thirty‑five, plus thirty‑five with internet and Netflix… so maybe around fourteen hundred, fourteen‑fifty?  
+
+CLIENT2: [00:09:58] Yeah, somewhere between fourteen and fifteen hundred.  
+
+ADVISOR: [00:10:02] Outside housing, let’s talk other essentials: food, transport, childcare. Groceries first — what do you usually spend?  
+
+CLIENT2: [00:10:09] We do one big shop every week, usually seventy to ninety depending if we’re stocking up on nappies and stuff.  
+
+CLIENT1: [00:10:15] Then little top‑ups, maybe another forty, fifty across the month.  
+
+ADVISOR: [00:10:20] So around three hundred a month on food and household bits.  
+
+CLIENT2: [00:10:23] Yeah, roughly.  
+
+ADVISOR: [00:10:26] Transport to work?  
+
+CLIENT1: [00:10:28] I get the train into town. Monthly pass is about two sixty now — they changed it in April.  
+
+CLIENT2: [00:10:34] I drive to school. Petrol is anywhere from sixty to a hundred, depending how much I’m in. Car insurance spread monthly is twenty‑eight‑ish.  
+
+ADVISOR: [00:10:42] You mentioned on the questionnaire you’ve got a little one as well.  
+
+CLIENT2: [00:10:45] Yeah, our daughter Mia. She’s two and a half.  
+
+CLIENT1: [00:10:48] She’s at nursery three days a week.  
+
+ADVISOR: [00:10:51] What do the childcare costs look like after the free hours and tax‑free childcare?  
+
+CLIENT2: [00:10:55] She gets the fifteen free hours now she’s over two, and we use the tax‑free childcare thing where they top up what we pay in. The direct debit is usually between six hundred and six‑fifty a month, depending if we add extra sessions.  
+
+ADVISOR: [00:11:07] And you’d expect roughly similar costs for at least the next year or two?  
+
+CLIENT1: [00:11:11] Yeah, we just assume about the same to be safe. She’ll get more free hours at three, but we haven’t factored that in.  
+
+ADVISOR: [00:11:16] I’ll mark childcare as very high priority — one of the last things you’d cut if money got tight.  
+
+CLIENT2: [00:11:21] Definitely. We wouldn’t pull her out of nursery.  
+
+ADVISOR: [00:11:24] Moving to the “other” category — subscriptions, gym, eating out, holidays. What have you got there?  
+
+CLIENT1: [00:11:29] Subscriptions: Netflix we said. We’ve got Spotify, that’s about fourteen. Amazon Prime, nine a month or so.  
+
+CLIENT2: [00:11:36] I’ve got a gym membership, thirty‑five a month. I don’t always go — that would be one of the first things to go if we needed to cut back.  
+
+ADVISOR: [00:11:43] Eating out and takeaways?  
+
+CLIENT1: [00:11:45] It varies. Some months we barely go out, other months a couple of takeaways and maybe a meal out.  
+
+ADVISOR: [00:11:51] If you had to put a range on it?  
+
+CLIENT1: [00:11:53] Maybe seventy to a hundred a month?  
+
+CLIENT2: [00:11:57] Yeah, around that. We are trying to cut back because of the deposit saving.  
+
+ADVISOR: [00:12:01] And holidays — any pattern there?  
+
+CLIENT2: [00:12:04] Usually one week away somewhere in Europe and a couple of UK weekends. Not a fixed budget though.  
+
+CLIENT1: [00:12:09] I’d guess a thousand, twelve hundred a year on travel, but it’s a bit of a guess.  
+
+ADVISOR: [00:12:14] I’ll class that as flexible while you’re trying to buy. You also both pay into workplace pensions — Dan at five percent, Nancy at about eight. Would you see those as things you’d want to keep going if at all possible?  
+
+CLIENT1: [00:12:24] I’d rather not cut them any more. My dad keeps telling me not to mess with my pension.  
+
+CLIENT2: [00:12:28] Same. Maybe if we were absolutely desperate, but it’s not the first place we’d look.  
+
+ADVISOR: [00:12:33] Just to sense‑check: if you add up all the essentials — rent, bills, food, transport, nursery — where do you think you land each month?  
+
+CLIENT2: [00:12:40] Housing we said fourteen‑something, food three hundred, transport three‑fifty between us, nursery six hundred‑plus.  
+
+CLIENT1: [00:12:47] So that’s what, around two‑eight?  
+
+CLIENT2: [00:12:50] Yeah, somewhere between two thousand eight hundred and three thousand on the stuff we can’t really skip.  
+
+ADVISOR: [00:12:55] That’s really useful. Then on top you’ve got the “other” spending and your savings, which can flex a bit if needed when you take on the mortgage.  
+
+CLIENT1: [00:13:02] Yeah, we know we’ll have to be a bit stricter once we’ve moved.  
+
+CLIENT2: [00:13:05] We’re okay tightening the belt on the fun stuff, just not the basics or nursery.  
+
+ADVISOR: [00:13:10] Makes sense. Let’s move into what you’ve already got saved and invested, especially for the deposit. Is that okay?  
+
+CLIENT1: [00:13:15] Yeah, sure.  
+
+CLIENT2: [00:13:17] Yeah, go for it.  
+
+ADVISOR: [00:13:20] So, main pot first. Do you have a joint savings account that you see as the “house fund”?  
+
+CLIENT1: [00:13:24] Yeah. That’s with Barclays. It’s just their everyday saver thing.  
+
+CLIENT2: [00:13:29] We literally called it “house money” on the app.  
+
+ADVISOR: [00:13:32] Roughly how much is sitting in that joint account just now?  
+
+CLIENT1: [00:13:36] Last time I checked it was around thirteen, maybe fourteen thousand. Somewhere in that range.  
+
+CLIENT2: [00:13:42] Yeah, I looked this morning and it said thirteen three‑something. So, yeah, about thirteen and a bit.  
+
+ADVISOR: [00:13:48] Is that pretty much all earmarked for the deposit, or is some of it emergency buffer?  
+
+CLIENT2: [00:13:53] Mostly deposit. We keep a bit of day‑to‑day buffer in our current accounts for the washing machine dying or whatever. But in our heads it’s all “house money”.  
+
+CLIENT1: [00:14:01] Yeah, we’ve kind of mentally ring‑fenced it.  
+
+ADVISOR: [00:14:04] Any other savings in your own names? ISAs, Premium Bonds, that kind of thing?  
+
+CLIENT2: [00:14:08] I’ve got a Lifetime ISA. With AJ Bell. The investment one, not cash.  
+
+ADVISOR: [00:14:13] Investment Lifetime ISA, okay. Rough idea how much is in there now?  
+
+CLIENT2: [00:14:17] I think it’s just under seven. It was six eight‑something when I checked, but it moves a bit with the markets.  
+
+CLIENT1: [00:14:23] It goes up and down. She keeps showing me when it dips.  
+
+CLIENT2: [00:14:27] Yeah, which I know I shouldn’t.  
+
+ADVISOR: [00:14:30] That’s normal. And you’re adding to that LISA each month?  
+
+CLIENT2: [00:14:33] Yeah, two hundred and fifty a month. So close to the four grand a year limit, but not quite.  
+
+ADVISOR: [00:14:39] And that’s definitely for your first home, not earmarked for retirement?  
+
+CLIENT2: [00:14:42] First home. That was the whole reason I opened it.  
+
+ADVISOR: [00:14:45] Dan, anything in your own name?  
+
+CLIENT1: [00:14:47] Yeah, I’ve still got a Help to Buy ISA with NatWest. I opened it ages ago, before they closed them.  
+
+ADVISOR: [00:14:53] Rough balance on that one?  
+
+CLIENT1: [00:14:55] It was about four six last time I checked. So mid‑four thousands, maybe nudging five now ’cause I put in a couple of hundred recently.  
+
+ADVISOR: [00:15:03] Are you still contributing regularly, or has that tailed off?  
+
+CLIENT1: [00:15:06] I usually put in about a hundred a month. Sometimes one‑fifty if we’ve had a quiet month.  
+
+ADVISOR: [00:15:12] Okay. Just so you’re aware, you can’t use the government bonus from a Help to Buy ISA and a Lifetime ISA on the same property, but you can each use your own product. We can talk through the best combination for you closer to the time.  
+
+CLIENT2: [00:15:23] Yeah, that’s what confused us. We read two different things online.  
+
+CLIENT1: [00:15:26] We ended up focusing more on her LISA once we realised there were rules, but we weren’t sure if we’d done the right thing.  
+
+ADVISOR: [00:15:32] We’ll run the maths later. For now I’ll just note them both. Any older savings — cash ISAs, regular savers?  
+
+CLIENT1: [00:15:38] I’ve got a really old cash ISA with Santander. It only has, I don’t know, maybe a grand in it? I kind of forgot about it.  
+
+ADVISOR: [00:15:44] Would you be happy using that for the deposit?  
+
+CLIENT1: [00:15:46] Yeah, I’d be okay using it. We haven’t labelled it, it’s just sat there.  
+
+ADVISOR: [00:15:50] Nancy, any other cash accounts?  
+
+CLIENT2: [00:15:52] Just my Monzo current account. I’ve got a “rainy day” pot in there that’s about two thousand at the moment. In my head that’s more emergency money, but if we were a tiny bit short we might dip into part of it.  
+
+ADVISOR: [00:16:03] Okay, so we’ll treat most of that as emergency, maybe some as backup deposit if needed. Outside cash, any other investments?  
+
+CLIENT1: [00:16:10] I’ve got a small stocks and shares ISA with Vanguard — I think the emails say “Vanguard Investor”.  
+
+ADVISOR: [00:16:16] Do you know roughly how much is in there?  
+
+CLIENT1: [00:16:18] About three, maybe three and a half thousand. It’s in one of their LifeStrategy funds, the eighty percent shares one. I put in fifty a month.  
+
+CLIENT2: [00:16:26] That one’s more like long‑term in our heads, not specifically for the house.  
+
+ADVISOR: [00:16:30] Dan, would you be willing to use it for the deposit if you were, say, three grand short on your dream place?  
+
+CLIENT1: [00:16:35] Yeah, if it was the difference between getting a place or not, I’d cash it in.  
+
+CLIENT2: [00:16:39] We’ve talked about maybe moving it to cash when we’re close to buying, just in case the market drops.  
+
+ADVISOR: [00:16:44] That’s something we can plan for, especially as your timescale is only twelve to eighteen months. Any share schemes through work?  
+
+CLIENT1: [00:16:50] I do have a save‑as‑you‑earn scheme at Codewave. I put fifty a month into it. Been doing it for about a year and a half.  
+
+ADVISOR: [00:16:57] So just under a grand in there?  
+
+CLIENT1: [00:16:59] Yeah, roughly. It matures next November, and then I can either buy shares at a discount or just take the cash. We’ve kind of classed it as bonus money.  
+
+ADVISOR: [00:17:07] Could end up as a little top‑up to the deposit if timings line up. Any Premium Bonds?  
+
+CLIENT2: [00:17:12] My nan bought me some when I was a kid.  
+
+ADVISOR: [00:17:14] Do you know how much?  
+
+CLIENT2: [00:17:16] I want to say five hundred pounds? It might be two‑fifty. I’ve never won anything so I don’t really look.  
+
+ADVISOR: [00:17:21] Okay, we’ll just say a few hundred in Premium Bonds.  
+
+CLIENT1: [00:17:24] I don’t have any of those.  
+
+ADVISOR: [00:17:27] What about credit union savings or similar?  
+
+CLIENT2: [00:17:29] Oh yeah, I’ve got a little local credit union thing through work. It comes straight out of my pay. I think it’s about eight hundred in there.  
+
+ADVISOR: [00:17:36] Happy to throw most of that into the deposit when the time comes?  
+
+CLIENT2: [00:17:39] Yeah, I think so. We’d maybe leave a tiny bit, but most of it, yeah.  
+
+ADVISOR: [00:17:43] And Dan, any other small pots?  
+
+CLIENT1: [00:17:45] I’ve got a basic saver attached to my Lloyds current account, about a thousand in there, for car bits like tyres.  
+
+ADVISOR: [00:17:51] Would you want to keep that separate for emergencies or see it as part of the deposit?  
+
+CLIENT1: [00:17:55] Ideally keep some of it for the car, but again, if we were really close we’d probably raid it.  
+
+ADVISOR: [00:18:00] Okay. Just cars generally: do you own them outright or on finance?  
+
+CLIENT1: [00:18:04] My car is on a PCP deal. I definitely don’t own that.  
+
+CLIENT2: [00:18:07] Mine’s a little Toyota, about ten years old. I own it outright. It’s maybe worth two grand, if that.  
+
+ADVISOR: [00:18:13] What’s the monthly payment on the PCP, Dan?  
+
+CLIENT1: [00:18:16] Two hundred and thirty a month. There’s about two years left on it.  
+
+ADVISOR: [00:18:20] I’ll capture that as a commitment for the affordability. I wouldn’t expect you to sell your car for the deposit.  
+
+CLIENT2: [00:18:25] Thank you.  
+
+ADVISOR: [00:18:28] Let me just pull this together. You’ve got around thirteen thousand joint with Barclays, about seven in Nancy’s Lifetime ISA, four‑to‑five in Dan’s Help to Buy ISA, roughly a thousand in your old cash ISA, three‑ish in the Vanguard ISA, a few hundred in Premium Bonds, eight hundred in the credit union, about a thousand in Dan’s personal saver, plus the SAYE scheme sitting under a grand. Does that sound broadly right?  
+
+CLIENT1: [00:18:50] Yeah, when you list it like that it sounds like more than we thought.  
+
+CLIENT2: [00:18:53] I think when we say “eighteen to twenty” we forget some of the weird little pots.  
+
+ADVISOR: [00:18:57] Exactly. Once we include the ones you’d actually be prepared to use, you’re probably already into the low‑twenties. And you’re still adding each month. How much would you say you’re adding overall?  
+
+CLIENT2: [00:19:06] Two‑fifty into my Lifetime ISA.  
+
+CLIENT1: [00:19:09] About a hundred into my Help to Buy ISA.  
+
+CLIENT2: [00:19:12] We aim for five hundred into the joint savings. Doesn’t always quite happen if the car or something hits, but that’s the target.  
+
+CLIENT1: [00:19:18] Plus fifty into the Vanguard and fifty into the SAYE, but those just kind of tick away in the background.  
+
+ADVISOR: [00:19:24] So in a good month, eight to nine hundred going into some form of savings or investments.  
+
+CLIENT2: [00:19:28] Yeah, eight‑ish on average feels about right.  
+
+ADVISOR: [00:19:31] If you kept that up for a year, that’s comfortably over ten thousand extra saved, plus the government bonus on the Lifetime ISA and, depending what we do, possibly the Help to Buy ISA.  
+
+CLIENT1: [00:19:40] And the Help to Buy bonus doesn’t show in the balance yet, does it?  
+
+ADVISOR: [00:19:43] Correct. The Lifetime ISA bonus gets paid in regularly, but the Help to Buy ISA bonus only appears at completion. So that’s future money.  
+
+CLIENT2: [00:19:50] That’s quite nice to know that’s coming on top.  
+
+ADVISOR: [00:19:52] Any expected gifts from family towards the deposit? Parents, grandparents?  
+
+CLIENT2: [00:19:56] My mum has said she might be able to give us a bit when we actually find somewhere.  
+
+CLIENT1: [00:20:00] Yeah, she said “a few thousand” on the phone, but we don’t want to rely on it.  
+
+ADVISOR: [00:20:04] I’ll note it as a possible gift of a few thousand from your mum, but we’ll plan based on your own savings.  
+
+CLIENT2: [00:20:08] That’s probably safest.  
+
+ADVISOR: [00:20:11] Thinking about pensions again briefly — Dan, can you remember the name of your Aviva scheme?  
+
+CLIENT1: [00:20:15] Yeah, hang on. [pause] Okay, I’ve got an email: it says “Aviva – Codewave Technologies Group Personal Pension Plan”.  
+
+ADVISOR: [00:20:22] Perfect. And roughly what’s the pot value on that one now?  
+
+CLIENT1: [00:20:26] Last statement in July said about twenty‑three and a half thousand. I checked the app last week and it was just over twenty‑four.  
+
+ADVISOR: [00:20:33] And the Nest one from the old job was around three‑and‑a‑bit thousand when you last saw it.  
+
+CLIENT1: [00:20:37] Yeah, something like that.  
+
+ADVISOR: [00:20:40] Nancy, have you ever logged into the Teachers’ Pension portal?  
+
+CLIENT2: [00:20:43] I did once. It gave a projection of like seven or eight thousand a year pension if I carried on the same till state pension age. I didn’t totally understand it.  
+
+ADVISOR: [00:20:51] That’s fine, that gives me a feel. And the Legal & General Tesco pension was around three thousand on the last letter?  
+
+CLIENT2: [00:20:56] Yeah, just over three thousand.  
+
+ADVISOR: [00:20:59] Just to check your mindset: you both see pensions as strictly long‑term, not something you plan to use for the property?  
+
+CLIENT1: [00:21:04] Yeah, we’re not touching pensions.  
+
+CLIENT2: [00:21:06] Definitely not. That’s future‑us money. The house is, like, next‑few‑years us.  
+
+ADVISOR: [00:21:11] And in terms of retirement age, what do you each have in mind at the moment?  
+
+CLIENT1: [00:21:14] I always sort of thought late sixties. Maybe sixty‑seven, depending what the state pension age is.  
+
+CLIENT2: [00:21:18] Same. I can’t see myself teaching into my seventies, so mid to late sixties seems realistic.  
+
+ADVISOR: [00:21:23] We’ll use sixty‑seven as a working assumption. That also lines up with a thirty‑year mortgage if you take it now.  
+
+CLIENT1: [00:21:29] Yeah, that makes sense.  
+
+ADVISOR: [00:21:32] On the investment side, you’ve got Nancy’s Lifetime ISA invested and Dan’s Vanguard ISA. How do you both feel about seeing those values go up and down?  
+
+CLIENT1: [00:21:39] I’m okay with a bit of movement. I know the stock market goes up and down. As long as we’re not gambling the house deposit last minute.  
+
+CLIENT2: [00:21:45] I’m probably more cautious. I don’t like seeing big drops. But I get that for pensions it’s long term. The Lifetime ISA dipping makes me more nervous because it’s more immediate.  
+
+ADVISOR: [00:21:53] That’s really helpful. For the house money, because your timescale is under five years, we’d keep things lower risk and probably de‑risk a bit as you get closer to buying — especially the Lifetime ISA and Dan’s Vanguard pot if that becomes part of the deposit. For pensions you can afford a bit more volatility. I’ll send you a short risk questionnaire after the call to firm that up.  
+
+CLIENT2: [00:22:08] Okay, that sounds good.  
+
+CLIENT1: [00:22:10] Yeah, happy to fill that in.  
+
+ADVISOR: [00:22:13] Just circling back to income — we’ve talked about where you are now. Any expected changes over the next two or three years? Things like maternity leave, going part‑time, further study?  
+
+CLIENT2: [00:22:21] Um, we’re not trying for another baby yet, but maybe in a couple of years. I’d go on maternity leave then and might come back part‑time for a bit. No dates or anything planned though.  
+
+CLIENT1: [00:22:30] We wanted to get the house sorted first. By then my salary should have crept up a bit with the annual reviews, so hopefully that balances things out.  
+
+ADVISOR: [00:22:36] Are either of you on a fixed‑term contract or aware of any redundancy risk?  
+
+CLIENT1: [00:22:40] No, mine’s permanent. They’ve just won a big long‑term contract so it feels pretty secure.  
+
+CLIENT2: [00:22:44] And schools always need teachers. Oakfield’s been recruiting, not cutting.  
+
+ADVISOR: [00:22:48] Good. Everything we’ve talked about — apart from Dan’s freelance websites — is taxed under PAYE, yes?  
+
+CLIENT1: [00:22:53] Yeah, Codewave is PAYE. Freelance goes on my tax return.  
+
+CLIENT2: [00:22:57] School, tutoring, café — all go through payroll. Nothing cash‑in‑hand.  
+
+ADVISOR: [00:23:01] Great. So, putting all this together, you’re currently renting at about a thousand a month, essentials total around three thousand, you’re saving eight to nine hundred monthly, you’ve got low‑twenties already in various pots and aiming for, what, mid‑thirties to forty by the time you buy?  
+
+CLIENT2: [00:23:15] Yeah, we’ve been saying we’d like to have around forty thousand. That feels like a ten percent deposit plus fees for the kind of places we’re looking at.  
+
+CLIENT1: [00:23:21] Somewhere in the thirty‑five to forty range. We’d feel better if we weren’t scraping the barrel for solicitors’ fees and furniture.  
+
+ADVISOR: [00:23:27] On that, do you have any unsecured debts we haven’t mentioned? Personal loans, credit cards, store cards?  
+
+CLIENT1: [00:23:32] No loans apart from the PCP. We’ve got a credit card we use for points but we clear it every month.  
+
+CLIENT2: [00:23:37] Same, just the student loans but they come out of our pay automatically.  
+
+ADVISOR: [00:23:41] Okay, student loans we treat slightly differently, but I’ll note them. For the mortgage amount, just to sense‑check: if you ended up borrowing somewhere around, say, two‑hundred‑and‑thirty to two‑hundred‑and‑forty thousand over thirty years, and we could keep you around that one‑five a month mark on a five‑year fix, does that feel in the right ballpark?  
+
+CLIENT1: [00:23:57] Yeah, that sounds about right. I’d have to see the exact figures, but it’s pretty much what I’ve been playing with on the online calculators.  
+
+CLIENT2: [00:24:03] As long as it doesn’t creep up towards two thousand just on the mortgage, that’s the main thing.  
+
+ADVISOR: [00:24:08] We’ll keep that in mind. We’ll also factor in the impact of the Lifetime ISA bonus and decide whether to keep using the Help to Buy ISA bonus or switch focus entirely to the LISA. And we’ll build in protection so that if, say, Dan couldn’t work for six months, the mortgage or nursery doesn’t instantly become unaffordable.  
+
+CLIENT1: [00:24:22] Yeah, I’d be really interested in income protection. My work sick pay is decent but not forever.  
+
+CLIENT2: [00:24:27] And I’d want life cover that at least clears the mortgage and covers Mia a bit if something happened to one of us.  
+
+ADVISOR: [00:24:33] We can definitely look at both. Income protection that replaces part of your salary if you’re too ill to work, and life insurance so that if one of you died, the other isn’t left with a big mortgage and nursery costs on one income.  
+
+CLIENT2: [00:24:44] That would make me sleep better, to be honest.  
+
+ADVISOR: [00:24:47] Okay. What I’ll do after this call is: send you that risk questionnaire, ask you to email over your last three payslips each, plus current statements for your Lifetime ISA, Help to Buy ISA and joint savings. I’ll then run some affordability calculations based on a property in that mid‑two hundreds range and different deposit scenarios, and we can talk through whether to prioritise the Lifetime ISA bonus or the Help to Buy one.  
+
+CLIENT1: [00:25:05] Sounds good.  
+
+CLIENT2: [00:25:07] Yeah, that’s really helpful.  
+
+ADVISOR: [00:25:10] And between now and when you buy, just carry on with what you’re doing: keep the joint savings, Lifetime ISA and Help to Buy contributions going, and try to avoid taking on any new loans or big commitments. If anything changes — jobs, income, plans for another baby — just drop me an email and we’ll tweak things.  
+
+CLIENT1: [00:25:23] Will do.  
+
+CLIENT2: [00:25:25] Thank you. This has actually made it feel a bit more real but less scary.  
+
+ADVISOR: [00:25:30] You’re in a good position — steady incomes, good savings habits, and a clear idea of what feels affordable. Once I’ve crunched the numbers we’ll have a clearer picture, but you’re definitely on the right track.

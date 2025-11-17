@@ -1,0 +1,239 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Advisory Fact Find Session: Assets",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "clients": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/Client" }
+      },
+      "assets": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/AssetItem" }
+      }
+    },
+    "definitions": {
+      "Client": {
+        "type": "object",
+        "required": ["client_id", "role_in_case"],
+        "additionalProperties": false,
+        "properties": {
+          "client_id": {
+            "type": "string",
+            "description": "Internal ID (e.g. 'client_1')"
+          },
+          "role_in_case": {
+            "type": "string",
+            "description": "primary | partner | etc."
+          }
+        }
+      },
+      "ScalarFact": {
+        "type": "object",
+        "description": "Constant value with type and citation",
+        "required": ["type", "value", "citation"],
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "string | number | date | currency | boolean | etc."
+          },
+          "value": {},
+          "citation": {
+            "type": "string",
+            "description": "Where this value is supported in transcript/recording"
+          },
+          "call_time": {
+            "type": "string",
+            "description": "Optional position in the call (HH:MM:SS)",
+            "pattern": "^[0-9]{2}:[0-9]{2}:[0-9]{2}$"
+          },
+          "recorded_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Optional absolute timestamp (ISO 8601)"
+          }
+        }
+      },
+      "SnapshotValue": {
+        "type": "object",
+        "description": "A single property value with citation and timing information",
+        "required": ["property", "type", "value", "citation"],
+        "additionalProperties": false,
+        "properties": {
+          "property": {
+            "type": "string",
+            "description": "Name of the property being captured"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["string", "number", "currency", "date", "boolean"],
+            "description": "Data type of the value"
+          },
+          "value": {
+            "description": "The actual value - type depends on the 'type' field"
+          },
+          "citation": {
+            "type": "string",
+            "description": "Where this value is supported in transcript/recording"
+          },
+          "call_time": {
+            "type": "string",
+            "description": "Position within the call (HH:MM:SS), e.g. '00:05:23'",
+            "pattern": "^[0-9]{2}:[0-9]{2}:[0-9]{2}$"
+          },
+          "recorded_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Optional absolute timestamp (ISO 8601)"
+          },
+          "is_estimate": {
+            "type": "boolean",
+            "description": "Whether this is an estimated vs exact value (for currency/number types)"
+          },
+          "value_as_of_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date when this value was stated (for current_value, etc.)"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "type": { "const": "string" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": { "type": "string" }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": { "const": "number" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": { "type": "number" }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": { "const": "currency" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": { "type": "number" }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": { "const": "date" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": { 
+                  "type": "string",
+                  "format": "date"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": { "const": "boolean" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": { "type": "boolean" }
+              }
+            }
+          }
+        ]
+      },
+      "AssetTypeSnapshot": {
+        "allOf": [
+          { "$ref": "#/definitions/SnapshotValue" },
+          {
+            "if": {
+              "properties": {
+                "property": { "const": "asset_type" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "type": "string",
+                  "enum": ["property", "cash", "investment_account", "pension", "business", "other"]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "AssetItem": {
+        "type": "object",
+        "description": "Asset such as property, investment account, etc.",
+        "required": ["asset_id", "owner_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "asset_id": { "type": "string" },
+          "owner_ids": {
+            "type": "array",
+            "description": "List of client_ids or 'joint'",
+            "items": { "type": "string" }
+          },
+          "static": {
+            "type": "object",
+            "description": "Properties that do not typically change during the call",
+            "additionalProperties": false,
+            "properties": {
+              "description": { "$ref": "#/definitions/ScalarFact" },
+              "asset_type": {
+                "allOf": [
+                  { "$ref": "#/definitions/ScalarFact" },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "enum": [
+                          "property",
+                          "cash",
+                          "investment_account",
+                          "pension",
+                          "business",
+                          "other"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "account_number": { "$ref": "#/definitions/ScalarFact" },
+              "location": { "$ref": "#/definitions/ScalarFact" }
+            }
+          },
+          "timeline": {
+            "type": "array",
+            "description": "Time-varying or clarified properties for this asset (e.g. current_value, currency)",
+            "items": { "$ref": "#/definitions/AssetTypeSnapshot" }
+          }
+        }
+      }
+    }
+  }
+  

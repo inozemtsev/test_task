@@ -1,0 +1,661 @@
+# Financial Fact-Find Transcript Generation Task
+
+You are generating a realistic segment of a financial advisor's fact-find conversation with a client.
+The conversation should be natural, professional, and include specific factual information with proper timestamp citations.
+
+## Client Case: First-Time Homebuyer: George and Karen Thomas
+
+**Client Names:** George and Karen Thomas
+
+**Description:** A couple or individual in their late 20s to mid-30s preparing to buy their first home. They are saving for a deposit, both employed, and need advice on mortgages, protection, and managing finances as homeowners. They are using Help to Buy or first-time buyer schemes
+
+**Profile:**
+- Age: 35 and 34
+- Marital status: married
+- Employment: both employed
+- Life stage: first home purchase
+
+## Focus Area: Clients
+
+Generate a conversation segment discussing the client's clients.
+Include natural dialogue between the advisor and client(s), with specific details and values.
+
+## Attributes to Cover
+
+Include discussion of the following attributes where relevant:
+
+### clients > employment_details > desired_retirement_age
+**Example values:**
+  1. `65`
+     Citation: "CLIENT1: [00:08:35] "So that will be 11 months from. So we retired December 31, 2025." Both 65 then."
+  2. `65`
+     Citation: "CLIENT1: [00:09:01-00:09:07] plan to retire end of 2025 when both 65."
+
+### clients > employment_details > desired_retirement_age > citation
+**Example values:**
+  1. `CLIENT1: [00:08:35] "So that will be 11 months from. So we retired December 31, 2025." Both 65 then.`
+     Citation: "CLIENT1: [00:08:35] "So that will be 11 months from. So we retired December 31, 2025." Both 65 then."
+  2. `CLIENT1: [00:09:01-00:09:07] plan to retire end of 2025 when both 65.`
+     Citation: "CLIENT1: [00:09:01-00:09:07] plan to retire end of 2025 when both 65."
+
+### clients > employment_details > desired_retirement_age > type
+**Example values:**
+  1. `number`
+     Citation: "CLIENT1: [00:08:35] "So that will be 11 months from. So we retired December 31, 2025." Both 65 then."
+  2. `number`
+     Citation: "CLIENT1: [00:09:01-00:09:07] plan to retire end of 2025 when both 65."
+
+### clients > employment_details > desired_retirement_age > value
+**Example values:**
+  1. `65`
+     Citation: "CLIENT1: [00:08:35] "So that will be 11 months from. So we retired December 31, 2025." Both 65 then."
+  2. `65`
+     Citation: "CLIENT1: [00:09:01-00:09:07] plan to retire end of 2025 when both 65."
+
+### clients > employment_details > employer
+**Example values:**
+  1. `Kroger (St Peter’s)`
+     Citation: "CLIENT2: [00:05:11] and [00:56:46] discussion of working at Kroger St Peter’s."
+  2. `Sunrise Assisted Living, Mapleton, NC`
+     Citation: "CLIENT: “at Sunrise Assisted Living over in Mapleton, NC.”"
+  3. `Insurance brokerage in Waynesboro (name not specified)`
+     Citation: "Same line as occupation"
+
+### clients > employment_details > employer > citation
+**Example values:**
+  1. `CLIENT2: [00:05:11] and [00:56:46] discussion of working at Kroger St Peter’s.`
+     Citation: "CLIENT2: [00:05:11] and [00:56:46] discussion of working at Kroger St Peter’s."
+  2. `CLIENT: “at Sunrise Assisted Living over in Mapleton, NC.”`
+     Citation: "CLIENT: “at Sunrise Assisted Living over in Mapleton, NC.”"
+  3. `Same line as occupation`
+     Citation: "Same line as occupation"
+
+### clients > employment_details > employer > type
+**Example values:**
+  1. `string`
+     Citation: "CLIENT2: [00:05:11] and [00:56:46] discussion of working at Kroger St Peter’s."
+  2. `string`
+     Citation: "CLIENT: “at Sunrise Assisted Living over in Mapleton, NC.”"
+  3. `string`
+     Citation: "Same line as occupation"
+
+### clients > employment_details > employer > value
+**Example values:**
+  1. `Kroger (St Peter’s)`
+     Citation: "CLIENT2: [00:05:11] and [00:56:46] discussion of working at Kroger St Peter’s."
+  2. `Sunrise Assisted Living, Mapleton, NC`
+     Citation: "CLIENT: “at Sunrise Assisted Living over in Mapleton, NC.”"
+  3. `Insurance brokerage in Waynesboro (name not specified)`
+     Citation: "Same line as occupation"
+
+### clients > employment_details > employment_status
+**Example values:**
+  1. `employed`
+     Citation: "CLIENT1: [00:05:02] "I’m a logistics manager.""
+  2. `employed`
+     Citation: "CLIENT2: [00:05:11] Works as Customer Service Associate part time."
+  3. `employed`
+     Citation: "CLIENT: “commercial finance director at Sunrise Assisted Living”"
+
+### clients > employment_details > employment_status > citation
+**Example values:**
+  1. `CLIENT1: [00:05:02] "I’m a logistics manager."`
+     Citation: "CLIENT1: [00:05:02] "I’m a logistics manager.""
+  2. `CLIENT2: [00:05:11] Works as Customer Service Associate part time.`
+     Citation: "CLIENT2: [00:05:11] Works as Customer Service Associate part time."
+  3. `CLIENT: “commercial finance director at Sunrise Assisted Living”`
+     Citation: "CLIENT: “commercial finance director at Sunrise Assisted Living”"
+
+### clients > employment_details > employment_status > type
+**Example values:**
+  1. `string`
+     Citation: "CLIENT1: [00:05:02] "I’m a logistics manager.""
+  2. `string`
+     Citation: "CLIENT2: [00:05:11] Works as Customer Service Associate part time."
+  3. `string`
+     Citation: "CLIENT: “commercial finance director at Sunrise Assisted Living”"
+
+### clients > employment_details > employment_status > value
+**Example values:**
+  1. `employed`
+     Citation: "CLIENT1: [00:05:02] "I’m a logistics manager.""
+  2. `employed`
+     Citation: "CLIENT2: [00:05:11] Works as Customer Service Associate part time."
+  3. `employed`
+     Citation: "CLIENT: “commercial finance director at Sunrise Assisted Living”"
+
+### clients > employment_details > highest_rate_of_tax_paid
+**Example values:**
+  1. `basic_rate_or_below`
+     Citation: "ADVISOR & CLIENT2 discuss Jennifer being under tax bracket; Jerome on $43k likely basic rate. CLIENT..."
+  2. `below_tax_threshold`
+     Citation: "CLIENT2: [00:05:29] income 10-11k and ADVISOR: [00:05:32] "you’re under the tax bracket"."
+  3. `high federal & state brackets; close to loss-of-benefits threshold at $150,000 AGI`
+     Citation: "CLIENT & ADVISOR discussion of $150,000 threshold and high-earner position"
+
+### clients > employment_details > highest_rate_of_tax_paid > citation
+**Example values:**
+  1. `ADVISOR & CLIENT2 discuss Jennifer being under tax bracket; Jerome on $43k likely basic rate. CLIENT1: [00:05:07] "43."`
+     Citation: "ADVISOR & CLIENT2 discuss Jennifer being under tax bracket; Jerome on $43k likely basic rate. CLIENT..."
+  2. `CLIENT2: [00:05:29] income 10-11k and ADVISOR: [00:05:32] "you’re under the tax bracket".`
+     Citation: "CLIENT2: [00:05:29] income 10-11k and ADVISOR: [00:05:32] "you’re under the tax bracket"."
+  3. `CLIENT & ADVISOR discussion of $150,000 threshold and high-earner position`
+     Citation: "CLIENT & ADVISOR discussion of $150,000 threshold and high-earner position"
+
+### clients > employment_details > highest_rate_of_tax_paid > type
+**Example values:**
+  1. `string`
+     Citation: "ADVISOR & CLIENT2 discuss Jennifer being under tax bracket; Jerome on $43k likely basic rate. CLIENT..."
+  2. `string`
+     Citation: "CLIENT2: [00:05:29] income 10-11k and ADVISOR: [00:05:32] "you’re under the tax bracket"."
+  3. `string`
+     Citation: "CLIENT & ADVISOR discussion of $150,000 threshold and high-earner position"
+
+### clients > employment_details > highest_rate_of_tax_paid > value
+**Example values:**
+  1. `basic_rate_or_below`
+     Citation: "ADVISOR & CLIENT2 discuss Jennifer being under tax bracket; Jerome on $43k likely basic rate. CLIENT..."
+  2. `below_tax_threshold`
+     Citation: "CLIENT2: [00:05:29] income 10-11k and ADVISOR: [00:05:32] "you’re under the tax bracket"."
+  3. `high federal & state brackets; close to loss-of-benefits threshold at $150,000 AGI`
+     Citation: "CLIENT & ADVISOR discussion of $150,000 threshold and high-earner position"
+
+### clients > employment_details > occupation
+**Example values:**
+  1. `Logistics manager`
+     Citation: "CLIENT1: [00:05:02]"
+  2. `Customer Service Associate`
+     Citation: "CLIENT2: [00:05:11]"
+  3. `Commercial Finance Director`
+     Citation: "CLIENT: job description"
+
+### clients > employment_details > occupation > citation
+**Example values:**
+  1. `CLIENT1: [00:05:02]`
+     Citation: "CLIENT1: [00:05:02]"
+  2. `CLIENT2: [00:05:11]`
+     Citation: "CLIENT2: [00:05:11]"
+  3. `CLIENT: job description`
+     Citation: "CLIENT: job description"
+
+### clients > employment_details > occupation > type
+**Example values:**
+  1. `string`
+     Citation: "CLIENT1: [00:05:02]"
+  2. `string`
+     Citation: "CLIENT2: [00:05:11]"
+  3. `string`
+     Citation: "CLIENT: job description"
+
+### clients > employment_details > occupation > value
+**Example values:**
+  1. `Logistics manager`
+     Citation: "CLIENT1: [00:05:02]"
+  2. `Customer Service Associate`
+     Citation: "CLIENT2: [00:05:11]"
+  3. `Commercial Finance Director`
+     Citation: "CLIENT: job description"
+
+### clients > health_details > current_state_of_health
+**Example values:**
+  1. `good`
+     Citation: "Implied by active travel plans and no health issues mentioned; not explicitly discussed."
+  2. `good`
+     Citation: "Active work and travel; no issues disclosed."
+  3. `not_discussed`
+     Citation: "No direct discussion of Samuel’s own health; only children’s colds mentioned"
+
+### clients > health_details > current_state_of_health > citation
+**Example values:**
+  1. `Implied by active travel plans and no health issues mentioned; not explicitly discussed.`
+     Citation: "Implied by active travel plans and no health issues mentioned; not explicitly discussed."
+  2. `Active work and travel; no issues disclosed.`
+     Citation: "Active work and travel; no issues disclosed."
+  3. `No direct discussion of Samuel’s own health; only children’s colds mentioned`
+     Citation: "No direct discussion of Samuel’s own health; only children’s colds mentioned"
+
+### clients > health_details > current_state_of_health > type
+**Example values:**
+  1. `string`
+     Citation: "Implied by active travel plans and no health issues mentioned; not explicitly discussed."
+  2. `string`
+     Citation: "Active work and travel; no issues disclosed."
+  3. `string`
+     Citation: "No direct discussion of Samuel’s own health; only children’s colds mentioned"
+
+### clients > health_details > current_state_of_health > value
+**Example values:**
+  1. `good`
+     Citation: "Implied by active travel plans and no health issues mentioned; not explicitly discussed."
+  2. `good`
+     Citation: "Active work and travel; no issues disclosed."
+  3. `not_discussed`
+     Citation: "No direct discussion of Samuel’s own health; only children’s colds mentioned"
+
+### clients > health_details > has_will
+**Example values:**
+  1. `None`
+     Citation: "Wills not discussed."
+  2. `False`
+     Citation: "CLIENT: “No I haven’t. No.” (re will)"
+
+### clients > health_details > has_will > citation
+**Example values:**
+  1. `Wills not discussed.`
+     Citation: "Wills not discussed."
+  2. `CLIENT: “No I haven’t. No.” (re will)`
+     Citation: "CLIENT: “No I haven’t. No.” (re will)"
+
+### clients > health_details > has_will > type
+**Example values:**
+  1. `boolean`
+     Citation: "Wills not discussed."
+  2. `boolean`
+     Citation: "CLIENT: “No I haven’t. No.” (re will)"
+
+### clients > health_details > has_will > value
+**Example values:**
+  1. `None`
+     Citation: "Wills not discussed."
+  2. `False`
+     Citation: "CLIENT: “No I haven’t. No.” (re will)"
+
+### clients > health_details > smoker_status
+**Example values:**
+  1. `not_discussed`
+     Citation: "Smoking not discussed."
+  2. `not_discussed`
+     Citation: "Smoking status not mentioned"
+  3. `not_discussed`
+     Citation: "Not mentioned"
+
+### clients > health_details > smoker_status > citation
+**Example values:**
+  1. `Smoking not discussed.`
+     Citation: "Smoking not discussed."
+  2. `Smoking status not mentioned`
+     Citation: "Smoking status not mentioned"
+  3. `Not mentioned`
+     Citation: "Not mentioned"
+
+### clients > health_details > smoker_status > type
+**Example values:**
+  1. `string`
+     Citation: "Smoking not discussed."
+  2. `string`
+     Citation: "Smoking status not mentioned"
+  3. `string`
+     Citation: "Not mentioned"
+
+### clients > health_details > smoker_status > value
+**Example values:**
+  1. `not_discussed`
+     Citation: "Smoking not discussed."
+  2. `not_discussed`
+     Citation: "Smoking status not mentioned"
+  3. `not_discussed`
+     Citation: "Not mentioned"
+
+### clients > health_details > will_information
+**Example values:**
+  1. `No existing will; advisor strongly recommends setting up a will and possibly a trust for children’s protection.`
+     Citation: "ADVISOR & CLIENT discussion of will and children’s protection"
+
+### clients > health_details > will_information > citation
+**Example values:**
+  1. `ADVISOR & CLIENT discussion of will and children’s protection`
+     Citation: "ADVISOR & CLIENT discussion of will and children’s protection"
+
+### clients > health_details > will_information > type
+**Example values:**
+  1. `string`
+     Citation: "ADVISOR & CLIENT discussion of will and children’s protection"
+
+### clients > health_details > will_information > value
+**Example values:**
+  1. `No existing will; advisor strongly recommends setting up a will and possibly a trust for children’s protection.`
+     Citation: "ADVISOR & CLIENT discussion of will and children’s protection"
+
+### clients > objectives_timeline
+**Example values:**
+  1. `{'amount': 36000, 'currency': 'USD', 'per': 'year'}`
+     Citation: "CLIENT1: [01:22:54] "my target" is ~12k SS + 12k private for himself and 12k SS for Jennifer = 36k h..."
+  2. `2025-12-31`
+     Citation: "CLIENT1: [00:08:35] "So that will be 11 months from. So we retired December 31, 2025.""
+  3. `leaning_systematic_withdrawals_then_review_annuity`
+     Citation: "CLIENT1: [01:24:22] Describes plan to use systematic withdrawals until Social Security then review a..."
+
+### clients > objectives_timeline > citation
+**Example values:**
+  1. `CLIENT1: [01:22:54] "my target" is ~12k SS + 12k private for himself and 12k SS for Jennifer = 36k household.`
+     Citation: "CLIENT1: [01:22:54] "my target" is ~12k SS + 12k private for himself and 12k SS for Jennifer = 36k h..."
+  2. `CLIENT1: [00:08:35] "So that will be 11 months from. So we retired December 31, 2025."`
+     Citation: "CLIENT1: [00:08:35] "So that will be 11 months from. So we retired December 31, 2025.""
+  3. `CLIENT1: [01:24:22] Describes plan to use systematic withdrawals until Social Security then review annuity; also [01:13:42-01:14:49] preferences re annuity vs SW.`
+     Citation: "CLIENT1: [01:24:22] Describes plan to use systematic withdrawals until Social Security then review a..."
+
+### clients > objectives_timeline > type
+**Example values:**
+  1. `currency`
+     Citation: "CLIENT1: [01:22:54] "my target" is ~12k SS + 12k private for himself and 12k SS for Jennifer = 36k h..."
+  2. `string`
+     Citation: "CLIENT1: [00:08:35] "So that will be 11 months from. So we retired December 31, 2025.""
+  3. `string`
+     Citation: "CLIENT1: [01:24:22] Describes plan to use systematic withdrawals until Social Security then review a..."
+
+### clients > objectives_timeline > value
+**Example values:**
+  1. `{'amount': 36000, 'currency': 'USD', 'per': 'year'}`
+     Citation: "CLIENT1: [01:22:54] "my target" is ~12k SS + 12k private for himself and 12k SS for Jennifer = 36k h..."
+  2. `2025-12-31`
+     Citation: "CLIENT1: [00:08:35] "So that will be 11 months from. So we retired December 31, 2025.""
+  3. `leaning_systematic_withdrawals_then_review_annuity`
+     Citation: "CLIENT1: [01:24:22] Describes plan to use systematic withdrawals until Social Security then review a..."
+
+### clients > personal_details > date_of_birth
+**Example values:**
+  1. `1959-11`
+     Citation: "CLIENT1: [00:09:14] "I’ll be 65 in November next year. This year." (session date Jan 2025 implies DO..."
+  2. `1960-07`
+     Citation: "CLIENT1: [00:09:14] "Jennifer will be 65th in July. Yes." (relative to 2025)"
+  3. `1993-01-08`
+     Citation: "CLIENT: “January 8th, 1993.”"
+
+### clients > personal_details > date_of_birth > citation
+**Example values:**
+  1. `CLIENT1: [00:09:14] "I’ll be 65 in November next year. This year." (session date Jan 2025 implies DOB ~Nov 1959)`
+     Citation: "CLIENT1: [00:09:14] "I’ll be 65 in November next year. This year." (session date Jan 2025 implies DO..."
+  2. `CLIENT1: [00:09:14] "Jennifer will be 65th in July. Yes." (relative to 2025)`
+     Citation: "CLIENT1: [00:09:14] "Jennifer will be 65th in July. Yes." (relative to 2025)"
+  3. `CLIENT: “January 8th, 1993.”`
+     Citation: "CLIENT: “January 8th, 1993.”"
+
+### clients > personal_details > date_of_birth > type
+**Example values:**
+  1. `string`
+     Citation: "CLIENT1: [00:09:14] "I’ll be 65 in November next year. This year." (session date Jan 2025 implies DO..."
+  2. `string`
+     Citation: "CLIENT1: [00:09:14] "Jennifer will be 65th in July. Yes." (relative to 2025)"
+  3. `date`
+     Citation: "CLIENT: “January 8th, 1993.”"
+
+### clients > personal_details > date_of_birth > value
+**Example values:**
+  1. `1959-11`
+     Citation: "CLIENT1: [00:09:14] "I’ll be 65 in November next year. This year." (session date Jan 2025 implies DO..."
+  2. `1960-07`
+     Citation: "CLIENT1: [00:09:14] "Jennifer will be 65th in July. Yes." (relative to 2025)"
+  3. `1993-01-08`
+     Citation: "CLIENT: “January 8th, 1993.”"
+
+### clients > personal_details > first_name
+**Example values:**
+  1. `Jerome`
+     Citation: "CLIENT1: [00:00:09] Workplace one, which is only ten years old."
+  2. `Jennifer`
+     Citation: "participants block; ADVISOR and CLIENT1 refer to Jennifer throughout."
+  3. `Samuel`
+     Citation: "CLIENT: Samuel Smith introduction"
+
+### clients > personal_details > first_name > citation
+**Example values:**
+  1. `CLIENT1: [00:00:09] Workplace one, which is only ten years old.`
+     Citation: "CLIENT1: [00:00:09] Workplace one, which is only ten years old."
+  2. `participants block; ADVISOR and CLIENT1 refer to Jennifer throughout.`
+     Citation: "participants block; ADVISOR and CLIENT1 refer to Jennifer throughout."
+  3. `CLIENT: Samuel Smith introduction`
+     Citation: "CLIENT: Samuel Smith introduction"
+
+### clients > personal_details > first_name > type
+**Example values:**
+  1. `string`
+     Citation: "CLIENT1: [00:00:09] Workplace one, which is only ten years old."
+  2. `string`
+     Citation: "participants block; ADVISOR and CLIENT1 refer to Jennifer throughout."
+  3. `string`
+     Citation: "CLIENT: Samuel Smith introduction"
+
+### clients > personal_details > first_name > value
+**Example values:**
+  1. `Jerome`
+     Citation: "CLIENT1: [00:00:09] Workplace one, which is only ten years old."
+  2. `Jennifer`
+     Citation: "participants block; ADVISOR and CLIENT1 refer to Jennifer throughout."
+  3. `Samuel`
+     Citation: "CLIENT: Samuel Smith introduction"
+
+### clients > personal_details > known_as
+**Example values:**
+  1. `Jerome`
+     Citation: "CLIENT1 referred to as Jerome throughout."
+  2. `Jennifer`
+     Citation: "Used throughout transcript."
+  3. `Samuel`
+     Citation: "Throughout transcript, advisor addresses client as Samuel"
+
+### clients > personal_details > known_as > citation
+**Example values:**
+  1. `CLIENT1 referred to as Jerome throughout.`
+     Citation: "CLIENT1 referred to as Jerome throughout."
+  2. `Used throughout transcript.`
+     Citation: "Used throughout transcript."
+  3. `Throughout transcript, advisor addresses client as Samuel`
+     Citation: "Throughout transcript, advisor addresses client as Samuel"
+
+### clients > personal_details > known_as > type
+**Example values:**
+  1. `string`
+     Citation: "CLIENT1 referred to as Jerome throughout."
+  2. `string`
+     Citation: "Used throughout transcript."
+  3. `string`
+     Citation: "Throughout transcript, advisor addresses client as Samuel"
+
+### clients > personal_details > known_as > value
+**Example values:**
+  1. `Jerome`
+     Citation: "CLIENT1 referred to as Jerome throughout."
+  2. `Jennifer`
+     Citation: "Used throughout transcript."
+  3. `Samuel`
+     Citation: "Throughout transcript, advisor addresses client as Samuel"
+
+### clients > personal_details > last_name
+**Example values:**
+  1. `Wantsome`
+     Citation: "participants block in prompt"
+  2. `Wantsome`
+     Citation: "participants block"
+  3. `Smith`
+     Citation: "Metadata block: participants list"
+
+### clients > personal_details > last_name > citation
+**Example values:**
+  1. `participants block in prompt`
+     Citation: "participants block in prompt"
+  2. `participants block`
+     Citation: "participants block"
+  3. `Metadata block: participants list`
+     Citation: "Metadata block: participants list"
+
+### clients > personal_details > last_name > type
+**Example values:**
+  1. `string`
+     Citation: "participants block in prompt"
+  2. `string`
+     Citation: "participants block"
+  3. `string`
+     Citation: "Metadata block: participants list"
+
+### clients > personal_details > last_name > value
+**Example values:**
+  1. `Wantsome`
+     Citation: "participants block in prompt"
+  2. `Wantsome`
+     Citation: "participants block"
+  3. `Smith`
+     Citation: "Metadata block: participants list"
+
+### clients > personal_details > marital_status
+**Example values:**
+  1. `married`
+     Citation: "Conversation throughout refers to Jerome and Jennifer as a couple."
+  2. `married`
+     Citation: "Couple context throughout."
+  3. `engaged`
+     Citation: "CLIENT: “we are engaged… been about five years.”"
+
+### clients > personal_details > marital_status > citation
+**Example values:**
+  1. `Conversation throughout refers to Jerome and Jennifer as a couple.`
+     Citation: "Conversation throughout refers to Jerome and Jennifer as a couple."
+  2. `Couple context throughout.`
+     Citation: "Couple context throughout."
+  3. `CLIENT: “we are engaged… been about five years.”`
+     Citation: "CLIENT: “we are engaged… been about five years.”"
+
+### clients > personal_details > marital_status > type
+**Example values:**
+  1. `string`
+     Citation: "Conversation throughout refers to Jerome and Jennifer as a couple."
+  2. `string`
+     Citation: "Couple context throughout."
+  3. `string`
+     Citation: "CLIENT: “we are engaged… been about five years.”"
+
+### clients > personal_details > marital_status > value
+**Example values:**
+  1. `married`
+     Citation: "Conversation throughout refers to Jerome and Jennifer as a couple."
+  2. `married`
+     Citation: "Couple context throughout."
+  3. `engaged`
+     Citation: "CLIENT: “we are engaged… been about five years.”"
+
+### clients > personal_details > mobile_phone
+**Example values:**
+  1. `None`
+     Citation: "Not discussed"
+  2. `On file with advisor (used for PIN and WhatsApp contact)`
+     Citation: "ADVISOR: “I’ll put your number because you’re going to get a pin”"
+
+### clients > personal_details > mobile_phone > citation
+**Example values:**
+  1. `Not discussed`
+     Citation: "Not discussed"
+  2. `ADVISOR: “I’ll put your number because you’re going to get a pin”`
+     Citation: "ADVISOR: “I’ll put your number because you’re going to get a pin”"
+
+### clients > personal_details > mobile_phone > type
+**Example values:**
+  1. `string`
+     Citation: "Not discussed"
+  2. `string`
+     Citation: "ADVISOR: “I’ll put your number because you’re going to get a pin”"
+
+### clients > personal_details > mobile_phone > value
+**Example values:**
+  1. `None`
+     Citation: "Not discussed"
+  2. `On file with advisor (used for PIN and WhatsApp contact)`
+     Citation: "ADVISOR: “I’ll put your number because you’re going to get a pin”"
+
+### clients > risk_profile_timeline
+**Example values:**
+  1. `balanced`
+     Citation: "ADVISOR: [01:01:56] "you are what we call a three out of five is greater than moderate.""
+  2. `moderately_adventurous`
+     Citation: "ADVISOR: “So you are moderately adventurous.”"
+  3. `to_be_determined`
+     Citation: "ADVISOR intends to send risk questionnaire link to Megan"
+
+### clients > risk_profile_timeline > citation
+**Example values:**
+  1. `ADVISOR: [01:01:56] "you are what we call a three out of five is greater than moderate."`
+     Citation: "ADVISOR: [01:01:56] "you are what we call a three out of five is greater than moderate.""
+  2. `ADVISOR: “So you are moderately adventurous.”`
+     Citation: "ADVISOR: “So you are moderately adventurous.”"
+  3. `ADVISOR intends to send risk questionnaire link to Megan`
+     Citation: "ADVISOR intends to send risk questionnaire link to Megan"
+
+### clients > risk_profile_timeline > type
+**Example values:**
+  1. `string`
+     Citation: "ADVISOR: [01:01:56] "you are what we call a three out of five is greater than moderate.""
+  2. `string`
+     Citation: "ADVISOR: “So you are moderately adventurous.”"
+  3. `string`
+     Citation: "ADVISOR intends to send risk questionnaire link to Megan"
+
+### clients > risk_profile_timeline > value
+**Example values:**
+  1. `balanced`
+     Citation: "ADVISOR: [01:01:56] "you are what we call a three out of five is greater than moderate.""
+  2. `moderately_adventurous`
+     Citation: "ADVISOR: “So you are moderately adventurous.”"
+  3. `to_be_determined`
+     Citation: "ADVISOR intends to send risk questionnaire link to Megan"
+
+
+## Few-Shot Citation Examples
+
+Below are examples of how to format citations with timestamps:
+
+1. **[00:00:00]** current_state_of_health: `not_discussed`
+   > No direct discussion of Megan’s health
+
+2. **[00:00:00]** citation: `No direct discussion of Megan’s health`
+   > No direct discussion of Megan’s health
+
+3. **[00:00:00]** type: `string`
+   > No direct discussion of Megan’s health
+
+4. **[00:00:00]** value: `not_discussed`
+   > No direct discussion of Megan’s health
+
+5. **[00:00:00]** smoker_status: `not_discussed`
+   > Smoking status not mentioned
+
+6. **[00:00:00]** smoker_status: `not_discussed`
+   > Not mentioned
+
+7. **[00:00:00]** citation: `Smoking status not mentioned`
+   > Smoking status not mentioned
+
+8. **[00:00:00]** citation: `Not mentioned`
+   > Not mentioned
+
+9. **[00:00:00]** type: `string`
+   > Smoking status not mentioned
+
+10. **[00:00:00]** type: `string`
+   > Not mentioned
+
+
+## Output Requirements
+
+1. DON'T USE THE SAME LOCATIONS AND VALUES AS IN THE EXAMPLES. USE DIFFERENT VALUES AND LOCATIONS.
+1. **Format:** Natural conversational dialogue with speaker labels (ADVISOR:, CLIENT:, CLIENT1:, CLIENT2:)
+2. **Timestamps:** Include timestamps in format [HH:MM:SS] at natural conversation points
+3. **Detail:** Include specific numbers, dates, and factual information
+4. **Natural flow:** The conversation should feel realistic with natural transitions
+5. **Length:** Generate 3-5 minutes of conversation (approximately 500-1000 words)
+
+## Timeline Guidance
+
+The conversation should follow a natural progression. Here's a timeline of topics:
+
+**Around 0-5 minutes:**
+  Topics: current state of health, citation, type
+
+**Around 0-5 minutes:**
+  Topics: citation, objectives timeline[], type
+
+**Around 0-5 minutes:**
+  Topics: citation, objectives timeline[], type
+
+**Around 0-5 minutes:**
+  Topics: citation, employer, type
+
+**Around 0-5 minutes:**
+  Topics: last name, citation, type

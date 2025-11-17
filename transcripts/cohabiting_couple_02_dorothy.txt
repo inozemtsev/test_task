@@ -1,0 +1,523 @@
+# Financial Fact-Find Transcript
+# Persona: Dorothy Lewis
+# Type: Cohabiting Couple
+# Generated: 2025-11-17 19:00:20
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:02] Hi Dorothy, can you hear me okay?  
+
+CLIENT: [00:00:05] Yeah, I can hear you fine.  
+
+ADVISOR: [00:00:08] Brilliant. Thanks for making the time. I’ll just run through some basics about you first, and then we’ll get into the money side if that’s alright. What’s your full name as it appears on official documents?  
+
+CLIENT: [00:00:17] It’s Dorothy Anne Lewis.  
+
+ADVISOR: [00:00:21] Lewis, L‑E‑W‑I‑S?  
+
+CLIENT: [00:00:24] Yep, that’s right.  
+
+ADVISOR: [00:00:27] And what do people usually call you—Dorothy, Dot, something else?  
+
+CLIENT: [00:00:31] Mostly Dorothy. My mum calls me Dot, but, um, work and everything it’s Dorothy.  
+
+ADVISOR: [00:00:37] Great. And your date of birth please, Dorothy?  
+
+CLIENT: [00:00:40] It’s the 28th of March, 1994.  
+
+ADVISOR: [00:00:46] So you’re 31 now, yeah?  
+
+CLIENT: [00:00:48] Yeah, 31. Sadly.  
+
+ADVISOR: [00:00:52] Still very young in retirement‑planning terms. And relationship status—are you single, married, living with a partner?  
+
+CLIENT: [00:00:59] Living with my partner. We’re not married yet, we’re engaged.  
+
+ADVISOR: [00:01:03] Congratulations. How long have you been living together?  
+
+CLIENT: [00:01:07] Just over four years now. We moved in right before lockdown, which was… interesting timing.  
+
+ADVISOR: [00:01:15] I bet. What’s your partner’s name?  
+
+CLIENT: [00:01:18] His name’s Ryan Carter.  
+
+ADVISOR: [00:01:21] And you’re still using Lewis as your surname for now?  
+
+CLIENT: [00:01:24] Yeah, just Lewis. We’ll sort all that out when we actually get round to the wedding.  
+
+ADVISOR: [00:01:30] Any children?  
+
+CLIENT: [00:01:32] Yeah, we’ve got one little boy, Noah. He’s two and a bit.  
+
+ADVISOR: [00:01:37] Lovely. Before we get into money, I’m going to ask a bit about health, because it feeds into things like life and income protection. Day to day, how would you describe your health?  
+
+CLIENT: [00:01:47] Um, generally good. I get all the nursery bugs Noah brings home, but nothing major.  
+
+ADVISOR: [00:01:53] Any ongoing conditions, regular medication?  
+
+CLIENT: [00:01:57] I’ve got mild asthma. Just an inhaler if I get a chest infection or if I’m running in the cold.  
+
+ADVISOR: [00:02:04] Anything like diabetes, high blood pressure, heart issues?  
+
+CLIENT: [00:02:08] No, none of that.  
+
+ADVISOR: [00:02:11] Do you smoke or vape?  
+
+CLIENT: [00:02:13] No, never smoked. Ryan vapes sometimes, but I don’t.  
+
+ADVISOR: [00:02:18] And in terms of exercise?  
+
+CLIENT: [00:02:21] I do a Pilates class once a week and we walk a lot with the pram. I’m not a gym person, but I’m not completely inactive.  
+
+ADVISOR: [00:02:29] That all sounds fine. Have you or Ryan put a will in place yet?  
+
+CLIENT: [00:02:34] No. We keep saying we should, especially after Noah, but we haven’t done it.  
+
+ADVISOR: [00:02:39] Nothing drafted with a solicitor or done online?  
+
+CLIENT: [00:02:42] No, just lots of “if anything happened” chats, but nothing official.  
+
+ADVISOR: [00:02:48] Okay, that’s really important with you being cohabiting rather than married, so we’ll come back to it. Can we switch over to where you’re living now—do you own or rent?  
+
+CLIENT: [00:02:57] We own. Well, I own technically. It’s a two‑bed flat in Bristol, in Bishopston, just off Gloucester Road.  
+
+ADVISOR: [00:03:06] Nice area. And that’s home for you, Ryan, and Noah?  
+
+CLIENT: [00:03:10] Yeah, that’s where we all live. My name’s on the mortgage and the deeds, but Ryan pays half the mortgage every month.  
+
+ADVISOR: [00:03:17] Got it. Rough idea what the flat would sell for today? Just ballpark.  
+
+CLIENT: [00:03:23] We checked on Zoopla a couple of months ago. It said between like 260 and 280, so I usually say around 270.  
+
+ADVISOR: [00:03:33] Mid‑two hundreds then. And mortgage‑wise, do you know roughly how much is still outstanding?  
+
+CLIENT: [00:03:39] Uh, not exactly. I think about 170, 170‑something. It was 185 when we fixed it, and we’ve paid it down a bit.  
+
+ADVISOR: [00:03:48] That’s fine, a range is enough. And it’s a repayment mortgage, not interest‑only?  
+
+CLIENT: [00:03:53] Yeah, repayment. It’s with Santander, on a five‑year fix. We’ve got, like, another two years left on the fix.  
+
+ADVISOR: [00:04:01] Do you know roughly what the monthly payment is?  
+
+CLIENT: [00:04:04] It’s about… I think it was £1,050 on the last statement. Just over a thousand, anyway.  
+
+ADVISOR: [00:04:11] And just to be clear, the mortgage and legal title are solely in your name at the moment?  
+
+CLIENT: [00:04:16] Yeah, just me. We always said once we get married we’d add him, but it’s been one of those “we’ll do it later” jobs.  
+
+ADVISOR: [00:04:24] Sure. If you imagine the next few years, is the idea to stay in that flat, or are you thinking of moving?  
+
+CLIENT: [00:04:31] We’d like a house with a garden eventually. Maybe just outside Bristol where it’s a bit cheaper—Keynsham or Nailsea sort of direction. Probably in, I don’t know, three to five years, depending how fast we can sort a deposit and what the market’s doing.  
+
+ADVISOR: [00:04:44] And the wedding fits into that same time frame?  
+
+CLIENT: [00:04:47] Yeah, that’s the tricky bit. We’re thinking wedding in about two years, and then move a couple of years after if we can.  
+
+ADVISOR: [00:04:55] Alright. Before we dive into savings and mortgages in detail, can I just take your work details? Where are you working at the moment?  
+
+CLIENT: [00:05:02] I’m a senior marketing analyst for a software company called Northpoint Systems. They’re based in Leeds but I mostly work from home down here.  
+
+ADVISOR: [00:05:11] Full‑time role?  
+
+CLIENT: [00:05:13] Yeah, full‑time, Monday to Friday.  
+
+ADVISOR: [00:05:16] How long have you been with Northpoint?  
+
+CLIENT: [00:05:19] Nearly six years. I started there as an intern and kind of worked my way up.  
+
+ADVISOR: [00:05:24] And roughly what’s your salary now, before tax?  
+
+CLIENT: [00:05:28] Around the mid‑forties. I think my contract says 46? Something like that.  
+
+ADVISOR: [00:05:34] Do they pay you monthly?  
+
+CLIENT: [00:05:36] Yeah, last working day of the month.  
+
+ADVISOR: [00:05:39] Do you know roughly what lands in your bank after tax, NI, pension, that kind of thing?  
+
+CLIENT: [00:05:44] It’s about £2,800 a month, give or take a few quid.  
+
+ADVISOR: [00:05:50] And that’s standard PAYE employment. Does Northpoint provide a workplace pension?  
+
+CLIENT: [00:05:55] Yeah, I’m auto‑enrolled. I think I pay five percent and they put in… I want to say eight? They’re pretty generous. I left it on the default HR set.  
+
+ADVISOR: [00:06:04] Okay. And Ryan—what does he do?  
+
+CLIENT: [00:06:07] He’s an electrician. He works for a firm called BrightWire Electrical.  
+
+ADVISOR: [00:06:11] Is he employed by them or self‑employed through them?  
+
+CLIENT: [00:06:14] Employed, on the books. He gets holiday pay and all that.  
+
+ADVISOR: [00:06:18] Do you have a sense of his income, just roughly?  
+
+CLIENT: [00:06:22] Low thirties, I think. It depends on overtime. Some months it’s like 31, 32, others it’s a bit more.  
+
+ADVISOR: [00:06:30] And he’s in a pension as well through BrightWire?  
+
+CLIENT: [00:06:33] Yeah, he’s auto‑enrolled too. I think he puts in three percent and they put in maybe five, but I’m not 100% sure.  
+
+ADVISOR: [00:06:40] That’s fine, we can confirm later. Do you get any bonuses at Northpoint?  
+
+CLIENT: [00:06:44] There’s a bonus scheme. It’s not guaranteed, but last year I got just under two grand. The year before was about a grand. Just depends how the company does.  
+
+ADVISOR: [00:06:53] And you’re both basic‑rate taxpayers at the moment—no one over £50,000?  
+
+CLIENT: [00:06:57] Yeah, definitely under.  
+
+ADVISOR: [00:07:00] Do you receive Child Benefit for Noah?  
+
+CLIENT: [00:07:03] Yeah, we do. It’s about, I think, just under £90 every four weeks. That goes into our joint account.  
+
+ADVISOR: [00:07:10] Good. Because you’re both under £50k there’s no High Income Child Benefit charge to worry about. Any other income—rental, maintenance, side jobs?  
+
+CLIENT: [00:07:19] I don’t. Ryan does the odd weekend job for friends—like wiring someone’s kitchen. It’s not loads. Maybe five or six hundred a year, tops.  
+
+ADVISOR: [00:07:28] Okay, tiny bit of casual self‑employed stuff for him. Helpful to know. I’ll come back to pensions later in more detail. Can we look at what you own at the moment—property, savings, that sort of thing?  
+
+CLIENT: [00:07:38] Yeah, sure. We don’t have loads, but go for it.  
+
+ADVISOR: [00:07:42] So we’ve got the Bristol flat as your main home. Apart from that, do you have any other property interests?  
+
+CLIENT: [00:07:48] Yeah, I always forget this. My sisters and I own my parents’ old cottage in North Wales. It’s near Pwllheli, in a village called Llithfaen.  
+
+ADVISOR: [00:07:58] Lovely part of the world. How is that owned between you?  
+
+CLIENT: [00:08:02] One‑third each. Mum and Dad paid it off years ago and then signed it over to us, so it’s mortgage‑free.  
+
+ADVISOR: [00:08:10] Any idea what it’s worth now?  
+
+CLIENT: [00:08:13] An estate agent said maybe £240 to £260 if we sold it. So my share would be, I guess, around £80k-ish. We’re not planning to sell it though, it’s sentimental.  
+
+ADVISOR: [00:08:24] Do you get any income from it?  
+
+CLIENT: [00:08:26] A bit. We Airbnb it sometimes. Most of the money just covers cleaning, council tax, that sort of thing. Last year I think I got around £600 out of it.  
+
+ADVISOR: [00:08:35] Okay, modest rental income. On the Bristol flat: roughly how does that £1,050 mortgage feel at the moment in terms of affordability?  
+
+CLIENT: [00:08:42] It’s okay while we’re both working. If one of us was off long‑term it would be tight. That’s part of why I wanted advice—like if I went on maternity again or if one of us got ill.  
+
+ADVISOR: [00:08:52] Makes sense. Do you have any other loans in your name—car finance, personal loans, anything like that?  
+
+CLIENT: [00:08:59] I’ve got a car on PCP, that’s about £190 a month. There’s about 18 months left on it. No big personal loans. I use a credit card for points but I clear it every month. And then the student loan comes out of my payslip.  
+
+ADVISOR: [00:09:12] And Ryan—any borrowings on his side?  
+
+CLIENT: [00:09:15] He’s got his own car on finance, I think about £250 a month, and a credit card with maybe two grand on it. Nothing crazy. No other mortgages.  
+
+ADVISOR: [00:09:25] Okay. I’ll come back to those when we talk about protection. Sticking with assets for a second—what cash or savings do you have, either in your name or joint?  
+
+CLIENT: [00:09:33] So I’ve got an inheritance from my nan. She passed away last year. It was £25,000 originally. We used some when Noah was born, so I’ve got around £18 or £19k left.  
+
+ADVISOR: [00:09:46] Where is that held at the moment?  
+
+CLIENT: [00:09:49] It’s split. About £10k is in a one‑year fixed saver with Yorkshire Building Society, locked until next April. The rest, like £8–9k, is in a high‑interest online saver—the Chase app one.  
+
+ADVISOR: [00:10:00] And are you adding to that easy‑access pot regularly, or is it more just sitting there?  
+
+CLIENT: [00:10:05] Bit of both. We try to add £200 a month, but some months it’s less. That’s our house deposit slash wedding fund, but we keep dipping into it for nursery fees and car stuff.  
+
+ADVISOR: [00:10:16] Any other savings?  
+
+CLIENT: [00:10:18] We’ve got a joint account with Nationwide. We keep about £4–5k in there as a buffer. It’s like emergency money and “boiler broke” money. It moves around a lot.  
+
+ADVISOR: [00:10:27] And that’s in both your names, unlike the inheritance which is just in yours?  
+
+CLIENT: [00:10:31] Exactly, yeah. Nan was very clear it was “for Dorothy”, so we’ve kept it separate.  
+
+ADVISOR: [00:10:37] Do you have any ISAs or investments?  
+
+CLIENT: [00:10:40] I’ve got a Cash ISA I opened years ago with Halifax. There’s not much in it now, maybe £2,000. I stopped paying in when the rates were rubbish. No proper stocks or anything. I’m a bit scared of the markets.  
+
+ADVISOR: [00:10:52] Okay. Any little things like Premium Bonds, or one of those round‑up apps?  
+
+CLIENT: [00:10:56] Oh, yeah, I do have, like, a tiny Moneybox thing. It rounds up change into an ISA, I think. There’s only, like, £600 in it, so I don’t really think of it as proper investing.  
+
+ADVISOR: [00:11:06] Still counts. And you mentioned at the start that Northpoint has a share scheme?  
+
+CLIENT: [00:11:10] Yeah, a Save‑As‑You‑Earn thing. They take £50 a month from my pay. Last time I checked the shares were worth about £3 to £3.5k. It’s locked in for another year and a bit.  
+
+ADVISOR: [00:11:22] Good to know. Just to check—Ryan doesn’t have any property in his own name, right?  
+
+CLIENT: [00:11:26] No, he was renting before we moved in together. He’s just got his work pension and his little Robinhood‑style thing—well, not Robinhood, but Trading 212 or whatever it is.  
+
+ADVISOR: [00:11:35] Any idea how much he has in that?  
+
+CLIENT: [00:11:38] He said it’s around £10k. All in individual stocks which stresses me out.  
+
+ADVISOR: [00:11:45] Okay. We’ll mainly focus on your side today, but it’s useful context. On your Welsh cottage share and the Bristol flat—if something happened to you tomorrow, do you know who would inherit those, given you’re not married and there’s no will?  
+
+CLIENT: [00:11:58] Not really. I think it would go to my parents or my sisters before Ryan? Which is what freaks me out. I want Ryan and Noah to be looked after, not arguing with my family.  
+
+ADVISOR: [00:12:09] You’re right to be thinking about it. Intestacy rules aren’t kind to unmarried partners. We’ll definitely pick up wills and also look at life cover for the mortgage a bit later.  
+
+CLIENT: [00:12:18] Yeah, that’s one of the big reasons I booked this, to be honest.  
+
+ADVISOR: [00:12:22] Before we go deeper into retirement and protection, can we talk a bit about your regular spending—what it costs to run the household? Just rough figures are fine.  
+
+CLIENT: [00:12:30] Yeah, that’s fine. I’ve got some numbers in my head, some I’ll have to guess.  
+
+ADVISOR: [00:12:34] No problem. Let’s start with housing. We said your mortgage is about £1,050 a month. On top of that you’ve got council tax, utilities, that sort of thing. What’s council tax roughly?  
+
+CLIENT: [00:12:45] Council tax is about… I think it’s £170 a month. We’re Band C, I’m pretty sure.  
+
+ADVISOR: [00:12:51] And gas and electric?  
+
+CLIENT: [00:12:53] They’re combined. It used to be around £80, but now it’s more like £110 in winter and maybe £90 in summer. I tend to budget about £100 a month.  
+
+ADVISOR: [00:13:04] Water?  
+
+CLIENT: [00:13:05] Water’s on a direct debit, about £33 or £35 a month.  
+
+ADVISOR: [00:13:09] Do you have buildings and contents insurance on the flat?  
+
+CLIENT: [00:13:12] Yeah, buildings and contents together is about £42 a month. We switched last year and it came down a bit.  
+
+ADVISOR: [00:13:18] Are all of those—mortgage, council tax, utilities, insurance—paid from the joint account?  
+
+CLIENT: [00:13:23] Yeah. We both get paid into our own accounts, then we transfer into the joint and all the house stuff comes out of that.  
+
+ADVISOR: [00:13:29] Okay. Noah—does he go to nursery at the moment?  
+
+CLIENT: [00:13:33] Yeah, he does three days a week. My mum has him one day, and I have him one day when I compress my hours.  
+
+ADVISOR: [00:13:40] Roughly what do the nursery fees look like each month?  
+
+CLIENT: [00:13:44] Painful. [laughs] It’s about £720 a month at the moment. That’s after the little bit of government help we get.  
+
+ADVISOR: [00:13:51] And you’re using the Tax‑Free Childcare scheme?  
+
+CLIENT: [00:13:54] Yeah. We put money into that and the government tops up 20%. It helps, but it’s still a lot.  
+
+ADVISOR: [00:14:01] How long do you expect nursery costs to stay at that sort of level?  
+
+CLIENT: [00:14:05] He’ll go to school in about two and a half years, so I’d say another couple of years where it’s pretty high, then it should drop when it’s just breakfast and after‑school club.  
+
+ADVISOR: [00:14:15] And you’d see those childcare costs as non‑negotiable, I assume?  
+
+CLIENT: [00:14:18] Definitely. We might cut other stuff, but not that. He loves it there and I need to work.  
+
+ADVISOR: [00:14:23] How about transport—car costs, commuting?  
+
+CLIENT: [00:14:27] We’ve got one car, technically mine but we both use it. The PCP is £190 a month. Insurance is about £50. Petrol is maybe £120 a month on average, more if we’re up to Wales. I mostly work from home, so I only go into the office once a fortnight and that’s just a train ticket.  
+
+ADVISOR: [00:14:44] Roughly how much is the train when you do go in?  
+
+CLIENT: [00:14:47] Return to Leeds is about £60, but that’s only every couple of weeks, so it averages out.  
+
+ADVISOR: [00:14:52] Food shopping—what do you spend on groceries and household bits?  
+
+CLIENT: [00:14:56] Groceries are, um, more than I’d like. We do a big Tesco shop and then top‑ups. I’d say between £450 and £500 a month, including nappies, cleaning stuff, all of that.  
+
+ADVISOR: [00:15:07] And everyday discretionary spending—takeaways, meals out, coffees?  
+
+CLIENT: [00:15:12] We probably do a takeaway once a week, thirty‑odd pounds, so maybe £120–£140 a month. Eating out, maybe twice a month, another £100-ish. So somewhere around £250 a month altogether, but it fluctuates.  
+
+ADVISOR: [00:15:26] Any subscriptions or memberships?  
+
+CLIENT: [00:15:29] We’ve got Netflix and Disney+, that’s about £22 between them. Spotify family is £17. Amazon Prime, another nine. Ryan’s got a gym membership for £35, and I pay for a yoga app which is like £9 a month. So around £90–£100 in total.  
+
+ADVISOR: [00:15:44] And do you treat any regular savings as monthly outgoings, like putting money aside for Christmas or the wedding?  
+
+CLIENT: [00:15:49] Yeah, actually. We’ve got Monzo “pots”. We put about £300 a month in there. Roughly £100 is meant for the wedding, £100 for car/house repairs, and the rest for Christmas and birthdays. It doesn’t always go exactly like that, but that’s the idea.  
+
+ADVISOR: [00:16:01] When you look at everything—mortgage, bills, nursery, food, car, then the fun stuff—do you feel like there’s much left at the end of a typical month?  
+
+CLIENT: [00:16:10] Honestly, not a lot. On a good month maybe £200–£300 that kind of just sits in the account or gets swept into a pot. With nursery being so high it doesn’t feel like we’ve got loads of wriggle room unless we cut back on holidays and takeaways.  
+
+ADVISOR: [00:16:23] Do you usually manage a holiday each year?  
+
+CLIENT: [00:16:26] Yeah, we try. Last year we did a week in Portugal, that was about £2.5k all in. This year we’re thinking of a cheaper UK break, maybe £1.5k. If one of us lost our job, that would be the first thing to go.  
+
+ADVISOR: [00:16:37] Completely understandable. I’ll switch gears a bit and talk about pensions now. Is that okay?  
+
+CLIENT: [00:16:42] Yeah, that’s one of the things I’m most worried about.  
+
+ADVISOR: [00:16:45] How many different pensions do you think you’ve got at the moment? Current job, old jobs, anything you set up yourself.  
+
+CLIENT: [00:16:51] So I’ve got the work one with Northpoint. Then there’s one from when I worked at a big clothing store in my twenties. And I set up a personal pension on an app during lockdown but stopped paying into it. So three, I think.  
+
+ADVISOR: [00:17:03] Let’s start with the current work one. Do you know who the provider is?  
+
+CLIENT: [00:17:07] Yeah, I checked my emails earlier. It’s a SilverOak Workplace Pension—SilverOak Retirement Services or something like that.  
+
+ADVISOR: [00:17:13] SilverOak, got it. Do you know roughly how much is in that pot now?  
+
+CLIENT: [00:17:18] The last statement I opened, back in February or March, said about £24 or £25k. Definitely over twenty, not as high as thirty.  
+
+ADVISOR: [00:17:27] And you’ve been paying into it for about four years?  
+
+CLIENT: [00:17:30] Yeah, pretty much since I started at Northpoint. They auto‑enrolled me and I’ve stayed in.  
+
+ADVISOR: [00:17:34] You mentioned you pay around 5% from your salary and Northpoint pays 8%. Have you increased your contributions over time?  
+
+CLIENT: [00:17:41] Yeah, I bumped mine up from 3% to 5% after a pay rise last year.  
+
+ADVISOR: [00:17:46] The older pension from the clothing store—do you remember the provider?  
+
+CLIENT: [00:17:50] I think it was called GreenHarbour Pension Scheme, something like that. Just the standard auto‑enrolment one.  
+
+ADVISOR: [00:17:56] Any idea what that pot is worth now?  
+
+CLIENT: [00:17:59] Last time I checked, which was a couple of years ago, it was just under £5k. When I left that job it was about £3k, so it’s grown a bit just sitting there.  
+
+ADVISOR: [00:18:07] And you’re not paying into that anymore, it’s just invested.  
+
+CLIENT: [00:18:10] Yeah, exactly.  
+
+ADVISOR: [00:18:12] On that GreenHarbour scheme, do you know who you nominated to receive it if you died before retirement?  
+
+CLIENT: [00:18:17] No idea. Probably my mum. I was still living at home then, we didn’t even know Ryan existed.  
+
+ADVISOR: [00:18:23] For the SilverOak plan, have you put Ryan down as the beneficiary?  
+
+CLIENT: [00:18:27] I have, yeah. HR sent a link and I filled it in properly. It says “expression of wish” to him, and my sister as backup.  
+
+ADVISOR: [00:18:34] Perfect. That’s really useful, especially as you’re not married yet. And the personal pension you set up during lockdown—what’s that one?  
+
+CLIENT: [00:18:40] It’s with PebbleNest. It’s called a “PebbleNest Flexible Personal Pension” in the app.  
+
+ADVISOR: [00:18:46] Are you still contributing to that?  
+
+CLIENT: [00:18:49] No, I paused it. I was putting £100 a month in for just over a year, but when we moved in and had the mortgage and then Noah, I stopped. I think there’s only about £3.5k in there.  
+
+ADVISOR: [00:18:59] And you haven’t moved that anywhere else; it’s just sitting invested?  
+
+CLIENT: [00:19:02] Yeah, I just ignore the emails, to be honest.  
+
+ADVISOR: [00:19:06] Do you know what fund you’re in with SilverOak?  
+
+CLIENT: [00:19:09] It says “SilverOak Lifetime Path 2045” on my statement. I’ve never changed it.  
+
+ADVISOR: [00:19:14] Okay, that’s a target‑date fund that gradually reduces risk as you get nearer that date. And Ryan’s pension—any sense of what he’s got built up?  
+
+CLIENT: [00:19:22] I think his is with RiverStone Life or something. He’s been with BrightWire longer than I’ve been at Northpoint, so his pot is bigger, maybe £40–50k? I’d have to ask him for the exact amount.  
+
+ADVISOR: [00:19:32] Helpful context. Have either of you checked what your employer would pay out if you died while employed—death‑in‑service cover?  
+
+CLIENT: [00:19:38] Mine’s three times salary, I think. I remember seeing that somewhere. I don’t know about his, but I imagine it’s something similar.  
+
+ADVISOR: [00:19:45] That can play quite a big role with the mortgage, especially while Noah is so young. We’ll fold that into the protection piece. In terms of when you’d like to retire, what age do you have in mind?  
+
+CLIENT: [00:19:54] I always say I don’t want to be working till I’m nearly 70. I’d like to step back around 60 if that’s realistic. Maybe 61 or 62, but in my head it’s 60.  
+
+ADVISOR: [00:20:02] Any thoughts about going part‑time before that?  
+
+CLIENT: [00:20:05] Yeah, I’d love to drop to four days a week when I’m about 45. Spend more time with Noah—and maybe a second kid if we go there.  
+
+ADVISOR: [00:20:14] We’ll build those into the plan. When we’re talking pensions and investments generally, how do you feel about risk? For example, do you remember what happened to your pension balance during Covid?  
+
+CLIENT: [00:20:23] Yeah, I logged in and it had dropped and I panicked a bit. I didn’t change anything, I just kind of stopped looking for a while.  
+
+ADVISOR: [00:20:30] If I said to you that over the next 20–30 years your investments might go down by, say, 20% for a year or two but then recover, would that feel tolerable or would it keep you up at night?  
+
+CLIENT: [00:20:39] I wouldn’t love it, but if I knew it was long‑term and I wasn’t about to retire, I think I could handle it. I don’t want it in super risky stuff, but I don’t want it all just sitting in cash either.  
+
+ADVISOR: [00:20:49] So somewhere in the middle, maybe slightly on the braver side?  
+
+CLIENT: [00:20:52] Yeah, that sounds like me.  
+
+ADVISOR: [00:20:55] I’ll send you a proper risk questionnaire after this so we can put a number on it, but your gut feel is useful. Coming back to shorter‑term goals, you mentioned wedding and moving home. What sort of budget are you thinking for the wedding?  
+
+CLIENT: [00:21:06] We’ve said we don’t want to go mad, but it adds up. Maybe around £15–20k depending on venue and how many people we invite.  
+
+ADVISOR: [00:21:13] And timing?  
+
+CLIENT: [00:21:15] Maybe in about two years—spring or summer 2027 is the rough idea.  
+
+ADVISOR: [00:21:20] And the house move—we know you want a garden and probably somewhere just outside Bristol. Any sense of price range and deposit?  
+
+CLIENT: [00:21:27] We haven’t pinned it down, but the places we’ve looked at online are like £350–400k. We’ve talked about wanting at least a 10% deposit, ideally more. So we’d use some equity from the flat plus savings and my inheritance.  
+
+ADVISOR: [00:21:39] Right now, how are you mentally dividing that inheritance money? Is it mainly house, mainly wedding, bit of both?  
+
+CLIENT: [00:21:45] It changes day to day. Some days I’m like, “Let’s throw £10k at the mortgage,” then other days I’m, “No, we need it for the wedding,” and then I think maybe we should top up pensions with it. So it’s a bit undecided.  
+
+ADVISOR: [00:21:57] That’s very normal. Just on the mortgage for a moment—have you talked between you about what would happen if one of you died, or couldn’t work long‑term?  
+
+CLIENT: [00:22:06] Not properly. We’ve said “we need life insurance” about a hundred times and then never actually sorted it. I know if something happened to him I couldn’t cover everything on just my salary for that long. And if something happened to me, the flat isn’t even in his name.  
+
+ADVISOR: [00:22:19] On your current numbers, if your three‑times‑salary death‑in‑service paid out, that would be around, say, £135–140k. If that went to Ryan, it would clear most of the mortgage, but not quite all. Does that feel in the right ballpark of what you’d want, or would you prefer the mortgage cleared completely?  
+
+CLIENT: [00:22:35] I’d want it cleared, ideally. I don’t want him worrying about paying a mortgage on top of looking after Noah.  
+
+ADVISOR: [00:22:41] Okay, so we’re probably looking at some level of extra life cover on top of the work benefit, for both of you. Have you got any policies already—life insurance, critical illness, income protection?  
+
+CLIENT: [00:22:50] No, nothing. Just the work death‑in‑service.  
+
+ADVISOR: [00:22:53] Alright. I’ll need to know roughly what needs covering if either income stopped. We’ve got your main outgoings. If, say, you were off long‑term sick, would Northpoint pay more than statutory sick pay?  
+
+CLIENT: [00:23:04] They do something like six months on full pay and then it drops, but I’d have to check the policy. It’s more generous than just statutory, but not forever.  
+
+ADVISOR: [00:23:12] And Ryan’s employer, do you know?  
+
+CLIENT: [00:23:14] I think he gets a couple of months on full pay, then it drops as well. I don’t think he’s ever actually looked properly.  
+
+ADVISOR: [00:23:20] Okay. That’s something we can get details on afterwards. I’m going to hop back to savings for a second, because how you structure those links to weddings, house, and emergencies. We’ve got: nan’s inheritance in YBS and Chase; £4–5k buffer in the joint Nationwide; about £2k in the Halifax ISA; £600 or so in Moneybox; £3–3.5k in the sharesave. Any other pots?  
+
+CLIENT: [00:23:40] That’s pretty much it. The Monzo pots I mentioned, but that’s just bits of money inside the main account.  
+
+ADVISOR: [00:23:45] Roughly how much is sitting across the Monzo pots right now?  
+
+CLIENT: [00:23:48] Er… maybe £1,200? Around that. It goes up and down as we raid it for MOTs and birthday presents.  
+
+ADVISOR: [00:23:55] Okay. On the inheritance in the fixed account—you said it’s locked until next April on around 4‑something percent. When it matures, what’s your instinct—keep it set aside in cash, invest some, pay down the mortgage, or is that still open?  
+
+CLIENT: [00:24:07] Still open. Part of me thinks, “Interest rates are good, keep it in cash,” and part of me knows we need to make it work harder for long‑term stuff. I don’t think I’d tie all of it up, not with the wedding coming.  
+
+ADVISOR: [00:24:17] And as for investing for long‑term, you’re comfortable with a bit of volatility in pensions, but less so with money you might need in two to five years?  
+
+CLIENT: [00:24:24] Exactly. Wedding money I want super safe. House deposit money I’d be okay investing a portion of, as long as we’re not, like, gambling with all of it.  
+
+ADVISOR: [00:24:33] That’s a sensible way of thinking about it. On the house deposit side, if you fast‑forward three years—Noah at school, nursery costs lower, car finance possibly finished—do you see more capacity to save or overpay the mortgage then?  
+
+CLIENT: [00:24:44] Yeah, definitely. Once nursery drops and the cars are paid for, I’d quite like to either overpay the mortgage or bump pensions up a bit. I just don’t see much spare at the moment.  
+
+ADVISOR: [00:24:52] On that note, when does your PCP end again?  
+
+CLIENT: [00:24:55] About 18 months. So, what, end of next year-ish.  
+
+ADVISOR: [00:24:59] When that finishes, would you be looking to change the car and take another finance deal, or keep it and run it for a while?  
+
+CLIENT: [00:25:04] Ideally keep it for at least a couple of years and not have a payment. We’ll see how it’s behaving by then.  
+
+ADVISOR: [00:25:09] Okay. That frees up £190 a month in the future that we can earmark for mortgage overpayments or retirement savings. Coming back to wills for a moment—you don’t have one, and everything, including the flat, is in your sole name. How important is it to you that Ryan is able to stay in the flat with Noah if you died?  
+
+CLIENT: [00:25:23] Very. I’d want him to be able to stay there at least until he wanted to move, not be forced to sell or have to deal with my family trying to claim it.  
+
+ADVISOR: [00:25:31] And you’d probably want your share of the Welsh cottage to end up with your sisters or with Ryan or a mix?  
+
+CLIENT: [00:25:37] I haven’t really thought that through. It’s sentimental for my sisters, but I’d also want anything that can help Noah to help him. So maybe them and Noah.  
+
+ADVISOR: [00:25:45] That’s the kind of thing a will can spell out. We’ll need to line that up alongside the pension nominations and the life cover so everything points in the same direction.  
+
+CLIENT: [00:25:53] Yeah, I keep putting it off because it feels a bit morbid, but I know we need to do it.  
+
+ADVISOR: [00:25:58] Most people do. While we’re talking about worst‑case scenarios, if you were off work long‑term due to illness, how long do you think you could manage as a household on your emergency savings and Ryan’s income alone?  
+
+CLIENT: [00:26:08] Um… not that long. If it was just his salary and the Child Benefit, we could cover basics for a bit, but not mortgage, nursery, and everything nicely. Maybe three months with the savings we’ve got before we’d be really stressing.  
+
+ADVISOR: [00:26:19] So around three months’ buffer. That’s helpful to know. Would you say protecting the mortgage and basic bills is higher priority for you than, say, protecting the ability to keep saving for the wedding?  
+
+CLIENT: [00:26:28] Yeah, definitely. I’d rather trim the wedding than lose the flat.  
+
+ADVISOR: [00:26:33] Okay. I’ll build some recommendations around life cover and, if budget allows, some income protection or critical illness, then you can decide what feels affordable. We’ll also look at using the work benefits you’ve already got.  
+
+CLIENT: [00:26:42] Yeah, I’d like to see what that would roughly cost us.  
+
+ADVISOR: [00:26:46] We’ve covered a lot of ground. Is there anything we haven’t touched on yet that’s worrying you—maybe helping Noah with uni later, or supporting parents, anything like that?  
+
+CLIENT: [00:26:55] I’d like to be able to help Noah with uni or a deposit one day, but that feels miles away. The main things in my head are: not leaving Ryan and Noah stuck if something happens to me, being able to afford the wedding without wiping out all the savings, and not being totally behind on pensions.  
+
+ADVISOR: [00:27:09] That lines up with what we’ve talked about—wills and protection, short‑term savings and the wedding, and then long‑term retirement. I’ll send you a summary of what I’ve captured along with that risk questionnaire and a secure link so you can upload any recent pension and savings statements. Then we can start putting some numbers and options together.  
+
+CLIENT: [00:27:23] Okay, that sounds good. I’ll dig out the paperwork and send it over.  
+
+ADVISOR: [00:27:27] Perfect. And if you can also check Ryan’s pension and sick pay details when you get a chance, that will help with planning cover around both incomes.  
+
+CLIENT: [00:27:33] Yeah, I’ll nag him this weekend.  
+
+ADVISOR: [00:27:36] Great. I’ll leave it there for today then, Dorothy. Thanks for being so open with all the information.  
+
+CLIENT: [00:27:40] No problem. Thank you—this has actually made me feel a bit calmer about it all.

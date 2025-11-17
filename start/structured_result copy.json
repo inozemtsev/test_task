@@ -1,0 +1,849 @@
+{
+  "session_metadata": {
+    "fact_find_date": "2025-01-27",
+    "advisor_name": "Kaytee Parker",
+    "raw_transcript_reference": "call-transcript-2025-01-27-jennifer-jerome-wantsome"
+  },
+  "clients": [
+    {
+      "client_id": "client_jerome",
+      "role_in_case": "primary",
+      "personal_details": {
+        "first_name": {
+          "type": "string",
+          "value": "Jerome",
+          "citation": "CLIENT1: [00:05:02] I’m a logistics manager."
+        },
+        "last_name": {
+          "type": "string",
+          "value": "Wantsome",
+          "citation": "System preamble participants list."
+        },
+        "marital_status": {
+          "type": "string",
+          "value": "Married",
+          "citation": "ADVISOR: [00:00:01] We are with Jennifer and Jerome.",
+          "call_time": "00:00:01"
+        },
+        "date_of_birth": {
+          "type": "string",
+          "value": "1960",
+          "citation": "CLIENT1: [00:09:22] Jennifer will be 65 in July. Yes. And I’ll be 65 in November next year. This year.",
+          "call_time": "00:09:22"
+        },
+        "mobile_phone": {
+          "type": "string",
+          "value": null,
+          "citation": "Not stated in transcript."
+        },
+        "email": {
+          "type": "string",
+          "value": null,
+          "citation": "Not stated in transcript."
+        }
+      },
+      "employment_details": {
+        "employment_status": {
+          "type": "string",
+          "value": "Employed",
+          "citation": "CLIENT1: [00:05:02] I’m a logistics manager."
+        },
+        "occupation": {
+          "type": "string",
+          "value": "Logistics manager",
+          "citation": "CLIENT1: [00:05:02] I’m a logistics manager."
+        },
+        "desired_retirement_age": {
+          "type": "string",
+          "value": "65 (retiring Dec 31, 2025)",
+          "citation": "CLIENT1: [00:09:01] So we retired December 31, 2025.",
+          "call_time": "00:09:01"
+        },
+        "highest_rate_of_tax_paid": {
+          "type": "string",
+          "value": "Basic rate (US context, below higher brackets)",
+          "citation": "ADVISOR: [00:05:32] Okay. So you’re under the tax bracket, which is cool.",
+          "call_time": "00:05:32"
+        }
+      },
+      "health_details": {
+        "current_state_of_health": {
+          "type": "string",
+          "value": null,
+          "citation": "Not discussed explicitly in transcript."
+        },
+        "smoker_status": {
+          "type": "string",
+          "value": null,
+          "citation": "Not discussed explicitly in transcript."
+        },
+        "has_will": {
+          "type": "string",
+          "value": null,
+          "citation": "Not discussed explicitly in transcript."
+        }
+      },
+      "risk_profile_timeline": [
+        {
+          "call_time": "01:01:35",
+          "values": [
+            {
+              "type": "string",
+              "value": "Moderate (3 out of 5 internal scale)",
+              "citation": "ADVISOR: [01:01:56] So you are what we call a three out of five is greater than moderate."
+            }
+          ]
+        }
+      ],
+      "objectives_timeline": [
+        {
+          "call_time": "00:03:50",
+          "values": [
+            {
+              "type": "string",
+              "value": "Generate $10k–$12k per year income from pensions/IRAs/annuity with 50% continuing to Jennifer on death.",
+              "citation": "CLIENT1: [00:03:50] if out of these three things I could achieve, say, 10 to 12 thousands a year income. Yeah with a 50% payment to Jennifer if I died."
+            }
+          ]
+        },
+        {
+          "call_time": "00:06:15",
+          "values": [
+            {
+              "type": "string",
+              "value": "Target household income in retirement $24k/year from own Social Security and IRA; with Jennifer’s IRA total $36k/year.",
+              "citation": "CLIENT1: [00:06:15] if I, if I could have. 24 thousands income, 12 from my Social Security benefit and 12 from my IRA. I’ll be happy. ... CLIENT1: [00:06:42] My well well, Jennifer, I have an IRA as well, so that would be okay. 36. 36."
+            }
+          ]
+        },
+        {
+          "call_time": "01:22:54",
+          "values": [
+            {
+              "type": "string",
+              "value": "Priority is approximately $12k/year private income for Jerome (in addition to ~$12k Social Security), $12k Social Security for Jennifer, total ~$36k household; willing to risk exhausting private funds by mid-80s to enjoy spending earlier years.",
+              "citation": "CLIENT1: [01:22:54] When it comes. Yeah. July 27. I would like my Social Security benefit approximately 12 K. ... CLIENT1: [01:23:06] Not good. ... CLIENT1: [01:31:09] How I can get as close to that figure as possible. Yes. And then if I run out of money, then I’m 85. If I live that long."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_id": "client_jennifer",
+      "role_in_case": "partner",
+      "personal_details": {
+        "first_name": {
+          "type": "string",
+          "value": "Jennifer",
+          "citation": "System preamble participants list; ADVISOR: [00:05:09] And you, Jennifer?"
+        },
+        "last_name": {
+          "type": "string",
+          "value": "Wantsome",
+          "citation": "System preamble participants list."
+        },
+        "marital_status": {
+          "type": "string",
+          "value": "Married",
+          "citation": "ADVISOR: [00:00:01] We are with Jennifer and Jerome."
+        },
+        "date_of_birth": {
+          "type": "string",
+          "value": "1960",
+          "citation": "CLIENT1: [00:09:14] No. Jennifer will be 65th in July. Yes. And I’ll be 65 in November next year. This year."
+        },
+        "email": {
+          "type": "string",
+          "value": null,
+          "citation": "Not stated in transcript."
+        },
+        "mobile_phone": {
+          "type": "string",
+          "value": null,
+          "citation": "Not stated in transcript."
+        }
+      },
+      "employment_details": {
+        "employment_status": {
+          "type": "string",
+          "value": "Employed part time",
+          "citation": "CLIENT2: [00:05:11] Customer Service Associate for Kroger. ... ADVISOR: [00:05:18] Part time."
+        },
+        "occupation": {
+          "type": "string",
+          "value": "Customer Service Associate",
+          "citation": "CLIENT2: [00:05:11] Customer Service Associate for Kroger."
+        },
+        "employer": {
+          "type": "string",
+          "value": "Kroger (St Peter’s store)",
+          "citation": "CLIENT2: [00:56:46] No, no. Saint Peter’s. That’s a nice big one."
+        },
+        "desired_retirement_age": {
+          "type": "string",
+          "value": "65 (retiring Dec 31, 2025 alongside Jerome)",
+          "citation": "CLIENT1: [00:09:01] So we retired December 31, 2025.",
+          "call_time": "00:09:01"
+        }
+      },
+      "health_details": {
+        "current_state_of_health": {
+          "type": "string",
+          "value": null,
+          "citation": "No explicit health description in transcript."
+        }
+      },
+      "risk_profile_timeline": [
+        {
+          "call_time": "01:01:35",
+          "values": [
+            {
+              "type": "string",
+              "value": "Aligned with Jerome’s moderate risk profile for joint planning.",
+              "citation": "Implied throughout joint planning; no separate risk questionnaire discussed for Jennifer."
+            }
+          ]
+        }
+      ],
+      "objectives_timeline": [
+        {
+          "call_time": "00:06:42",
+          "values": [
+            {
+              "type": "string",
+              "value": "Have own IRA/401(k) contribute toward total target of $36k/year retirement income as couple.",
+              "citation": "CLIENT1: [00:06:42] My well well, Jennifer, I have an IRA as well, so that would be okay. 36. 36."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset_home_primary",
+      "owner_ids": [
+        "client_jerome",
+        "client_jennifer"
+      ],
+      "static": {
+        "description": {
+          "type": "string",
+          "value": "Primary residence (three-bedroom house) with no mortgage; potential future downsizing option.",
+          "citation": "CLIENT1: [00:05:54] Do you have a mortgage? CLIENT1: [00:05:55] No. ... CLIENT1: [01:33:36] And we bought a big house here. ... CLIENT1: [01:33:48] It’s an option [to downsize]."
+        }
+      }
+    },
+    {
+      "asset_id": "asset_condo_sarasota",
+      "owner_ids": [
+        "client_jerome",
+        "client_jennifer"
+      ],
+      "static": {
+        "description": {
+          "type": "string",
+          "value": "50% share in a vacation condo in Sarasota, Florida (Gulf Gate), no mortgage.",
+          "citation": "CLIENT1: [00:05:57] We also have 50% share in a vacation condo in Sarasota, Florida. ... CLIENT2: [00:06:12] Yeah. Yeah. There’s no mortgage on it. ... CLIENT1: [01:00:54] which is in Sarasota, Florida, in Gulf Gate."
+        },
+        "asset_type": {
+          "type": "string",
+          "value": "Vacation property (condominium)",
+          "citation": "CLIENT1: [00:05:57] vacation condo in Sarasota, Florida."
+        },
+        "location": {
+          "type": "string",
+          "value": "Sarasota, Florida, USA (Gulf Gate area)",
+          "citation": "CLIENT1: [01:00:54] which is in Sarasota, Florida, in Gulf Gate."
+        }
+      }
+    }
+  ],
+  "incomes": [
+    {
+      "income_id": "income_jerome_salary",
+      "owner_ids": [
+        "client_jerome"
+      ],
+      "static": {
+        "source_name": {
+          "type": "string",
+          "value": "Employment income",
+          "citation": "CLIENT1: [00:05:02] I’m a logistics manager."
+        },
+        "income_type": {
+          "type": "string",
+          "value": "Salary",
+          "citation": "CLIENT1 employment context throughout."
+        },
+        "taxable": {
+          "type": "boolean",
+          "value": true,
+          "citation": "Employment income in US is taxable by default; not contradicted in transcript."
+        }
+      },
+      "timeline": [
+        {
+          "call_time": "00:05:07",
+          "values": [
+            {
+              "type": "currency",
+              "value": {
+                "amount": 43000,
+                "currency": "USD",
+                "frequency": "yearly"
+              },
+              "citation": "CLIENT1: [00:05:07] 43. Okay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "income_id": "income_jennifer_salary",
+      "owner_ids": [
+        "client_jennifer"
+      ],
+      "static": {
+        "source_name": {
+          "type": "string",
+          "value": "Kroger employment income",
+          "citation": "CLIENT2: [00:05:11] Customer Service Associate for Kroger."
+        },
+        "income_type": {
+          "type": "string",
+          "value": "Part-time wages",
+          "citation": "CLIENT2: [00:05:18] Part time."
+        },
+        "employer_or_payer": {
+          "type": "string",
+          "value": "Kroger (St Peter’s)",
+          "citation": "CLIENT2: [00:56:46] No, no. Saint Peter’s. That’s a nice big one."
+        },
+        "taxable": {
+          "type": "boolean",
+          "value": true,
+          "citation": "Employment income generally taxable; advisor notes below tax bracket but not tax-free."
+        }
+      },
+      "timeline": [
+        {
+          "call_time": "00:05:22",
+          "values": [
+            {
+              "type": "currency",
+              "value": {
+                "amount": 11000,
+                "currency": "USD",
+                "frequency": "yearly",
+                "range": "10000-11000"
+              },
+              "citation": "CLIENT2: [00:05:22] Roughly between six. What are we working at? That? Sorry. 11 thousand. ... CLIENT2: [00:05:29] Between 10 and 11 thousand a year."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "income_id": "income_ss_jerome_future",
+      "owner_ids": [
+        "client_jerome"
+      ],
+      "static": {
+        "source_name": {
+          "type": "string",
+          "value": "Social Security (future)",
+          "citation": "CLIENT1: [00:06:36] 24 thousands income, 12 from my Social Security benefit and 12 from my IRA."
+        },
+        "income_type": {
+          "type": "string",
+          "value": "State retirement benefit (future)",
+          "citation": "CLIENT1: [00:09:36] I’ll have about 18 months because I can’t claim mine until July 27th."
+        },
+        "taxable": {
+          "type": "string",
+          "value": "Partially taxable depending on total income; not quantified here.",
+          "citation": "US rules implied; not detailed in transcript."
+        }
+      },
+      "timeline": [
+        {
+          "call_time": "00:06:36",
+          "values": [
+            {
+              "type": "currency",
+              "value": {
+                "amount": 12000,
+                "currency": "USD",
+                "frequency": "yearly",
+                "status": "projected"
+              },
+              "citation": "CLIENT1: [00:06:36] 24 thousands income, 12 from my Social Security benefit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "income_id": "income_ss_jennifer_future",
+      "owner_ids": [
+        "client_jennifer"
+      ],
+      "static": {
+        "source_name": {
+          "type": "string",
+          "value": "Social Security (future)",
+          "citation": "CLIENT1: [00:06:42] Jennifer, I have an IRA as well, so that would be okay. 36. 36. (implying similar Social Security amount)."
+        },
+        "income_type": {
+          "type": "string",
+          "value": "State retirement benefit (future)",
+          "citation": "CLIENT1: [00:09:24] Jennifer will have 11 months to be self‑sufficient before she can claim her Social Security benefit."
+        },
+        "taxable": {
+          "type": "string",
+          "value": "Partially taxable depending on total income; not quantified here.",
+          "citation": "US rules implied; not detailed in transcript."
+        }
+      },
+      "timeline": [
+        {
+          "call_time": "00:06:42",
+          "values": [
+            {
+              "type": "currency",
+              "value": {
+                "amount": 12000,
+                "currency": "USD",
+                "frequency": "yearly",
+                "status": "projected"
+              },
+              "citation": "CLIENT1: [00:06:42] Jennifer, I have an IRA as well, so that would be okay. 36. 36."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "expenses": [
+    {
+      "expense_id": "expense_core_household",
+      "owner_ids": [
+        "client_jerome",
+        "client_jennifer"
+      ],
+      "static": {
+        "category": {
+          "type": "string",
+          "value": "Essential household bills",
+          "citation": "CLIENT1: [00:07:31] Like exactly. CLIENT1: [00:07:32] Property taxes, water & sewer bill, electricity."
+        },
+        "description": {
+          "type": "string",
+          "value": "Unavoidable core expenses (property taxes, utilities, etc.), excluding discretionary spend and vacations.",
+          "citation": "CLIENT1: [00:07:24] So what I mean by what I mean by the 8000, I mean expenses that I can’t avoid. ... property taxes, water & sewer bill, electricity."
+        },
+        "priority": {
+          "type": "string",
+          "value": "Essential",
+          "citation": "CLIENT1 description of unavoidable expenses [00:07:24]."
+        }
+      },
+      "timeline": [
+        {
+          "call_time": "00:06:54",
+          "values": [
+            {
+              "type": "currency",
+              "value": {
+                "amount": 8000,
+                "currency": "USD",
+                "frequency": "yearly"
+              },
+              "citation": "CLIENT1: [00:06:54] What do my household expenses? About 8000 per year."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expense_id": "expense_vacations_travel",
+      "owner_ids": [
+        "client_jerome",
+        "client_jennifer"
+      ],
+      "static": {
+        "category": {
+          "type": "string",
+          "value": "Travel and vacations",
+          "citation": "CLIENT1: [00:06:05] So vacations are more or less covered ... CLIENT1: [00:11:43] we also like to go other places now and again."
+        },
+        "description": {
+          "type": "string",
+          "value": "Travel to Sarasota condo plus other trips (e.g., Denver, Santa Fe, Phoenix, Tampa); discretionary, not costed as fixed budget item.",
+          "citation": "CLIENT1 travel discussion [00:11:46]-[00:12:46]."
+        },
+        "priority": {
+          "type": "string",
+          "value": "Discretionary / lifestyle",
+          "citation": "CLIENT1 contrasts core expenses with discretionary [00:07:24]."
+        }
+      },
+      "timeline": [
+        {
+          "call_time": "00:11:43",
+          "values": [
+            {
+              "type": "string",
+              "value": "Amount not quantified; funded from overall retirement income targets ($24k–$36k/year).",
+              "citation": "CLIENT1: [00:11:43] we also like to go other places now and again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expense_id": "expense_home_improvements",
+      "owner_ids": [
+        "client_jerome",
+        "client_jennifer"
+      ],
+      "static": {
+        "category": {
+          "type": "string",
+          "value": "One-off capital expenditure",
+          "citation": "CLIENT1: [00:11:10] then after that we want a little bit of work done in the garden, perhaps 5000. Yeah. And 1 or 2 small jobs on the house. Maybe a new bathroom. Another 5000 or something."
+        },
+        "description": {
+          "type": "string",
+          "value": "Planned garden works (~$5k) and house jobs including new bathroom (~$5k).",
+          "citation": "CLIENT1: [00:11:10] ... perhaps 5000 ... maybe a new bathroom. Another 5000 or something."
+        },
+        "priority": {
+          "type": "string",
+          "value": "Medium (desired but deferrable)",
+          "citation": "Implied as “bigger expenditure things that we want to do” [00:10:09]."
+        }
+      },
+      "timeline": [
+        {
+          "call_time": "00:11:10",
+          "values": [
+            {
+              "type": "currency",
+              "value": {
+                "amount": 10000,
+                "currency": "USD",
+                "frequency": "one-off",
+                "status": "planned"
+              },
+              "citation": "CLIENT1: [00:11:10] ... perhaps 5000 ... maybe a new bathroom. Another 5000 or something."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expense_id": "expense_car_purchase",
+      "owner_ids": [
+        "client_jerome",
+        "client_jennifer"
+      ],
+      "static": {
+        "category": {
+          "type": "string",
+          "value": "Vehicle purchase",
+          "citation": "CLIENT1: [00:10:27] So my car is old . We’re going to. So we’re going to buy a reasonable car that we share."
+        },
+        "description": {
+          "type": "string",
+          "value": "Purchase of a newer shared car as Jerome’s current car is old; Jennifer’s car to be kept at Sarasota.",
+          "citation": "CLIENT1: [00:10:27] So my car is old . We’re going to. So we’re going to buy a reasonable car that we share. ... CLIENT1: [00:10:54] So we don’t have to rent."
+        },
+        "priority": {
+          "type": "string",
+          "value": "High (near-term retirement preparation)",
+          "citation": "Placed among “1 or 2 major ... bigger expenditure things that we want to do” [00:10:09]."
+        }
+      },
+      "timeline": [
+        {
+          "call_time": "00:10:27",
+          "values": [
+            {
+              "type": "currency",
+              "value": {
+                "amount": 30000,
+                "currency": "USD",
+                "frequency": "one-off",
+                "status": "illustrative advisor estimate"
+              },
+              "citation": "ADVISOR: [00:27:18] You said 10 K here. You’re going to buy a new car—probably 20‑30 K—I don’t know what car you want, but it goes quick. CLIENT1: [00:27:18] 16. Yeah."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pensions": [
+    {
+      "pension_id": "pension_prudential_annuity",
+      "owner_ids": [
+        "client_jerome"
+      ],
+      "static": {
+        "scheme_name": {
+          "type": "string",
+          "value": "Prudential annuity (guaranteed annuity account)",
+          "citation": "ADVISOR: [00:00:01] Okay, so Prudential annuity. This annuity."
+        },
+        "scheme_type": {
+          "type": "string",
+          "value": "Deferred annuity within retirement account",
+          "citation": "ADVISOR: [00:15:02] So the okay, three, 3000. ... guaranteed annuity account."
+        },
+        "provider": {
+          "type": "string",
+          "value": "Prudential",
+          "citation": "ADVISOR: [00:00:01] Prudential annuity."
+        }
+      },
+      "timeline": [
+        {
+          "call_time": "00:15:55",
+          "values": [
+            {
+              "type": "string",
+              "value": "Forecast annuity income has fluctuated: earlier quote ~ $3,000/year plus lump sum ~$9,000; more recent quote ~ $2,600/year and lower lump sum (~$7,000), with current fund value around $59,000 (down from $71,000).",
+              "citation": "CLIENT1: [00:41:09] So in January 23 ... 9000 plus. Three grand? Three grand. ... CLIENT1: [00:41:32] And April 24. ... So that’s a lump sum of seven. So that’s dropped 2000. ... CLIENT1: [00:42:15] And now and now it’s 59,000 and not 61 and not 71."
+            }
+          ]
+        },
+        {
+          "call_time": "00:16:22",
+          "values": [
+            {
+              "type": "string",
+              "value": "Client has deferred taking the annuity by at least one additional year to avoid immediate taxation, but is now reconsidering due to deterioration in terms.",
+              "citation": "CLIENT1: [00:16:19] Yeah I deferred it for a year. ... CLIENT1: [00:16:27] I didn’t want it want it now because no tax on it. ... later concern at [00:40:32]-[00:42:15]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pension_id": "pension_vanguard_401k",
+      "owner_ids": [
+        "client_jerome"
+      ],
+      "static": {
+        "scheme_name": {
+          "type": "string",
+          "value": "Workplace Vanguard 401(k)",
+          "citation": "ADVISOR: [00:00:01] workplace Vanguard four oh one kay."
+        },
+        "scheme_type": {
+          "type": "string",
+          "value": "Employer-sponsored 401(k)",
+          "citation": "ADVISOR: [00:00:01] workplace Vanguard four oh one kay."
+        },
+        "provider": {
+          "type": "string",
+          "value": "Vanguard",
+          "citation": "ADVISOR: [00:00:01] workplace Vanguard four oh one kay."
+        }
+      },
+      "timeline": [
+        {
+          "call_time": "00:00:17",
+          "values": [
+            {
+              "type": "currency",
+              "value": {
+                "amount": 33000,
+                "currency": "USD",
+                "status": "approximate current value"
+              },
+              "citation": "CLIENT1: [00:00:17] And that the valuation on that today is 33 thousand."
+            }
+          ]
+        },
+        {
+          "call_time": "00:18:10",
+          "values": [
+            {
+              "type": "string",
+              "value": "Jerome contributes 5% of salary; employer contributes 3%. He previously directed salary increases (~$4,000/year) into this plan but recently redirected back to cash.",
+              "citation": "CLIENT1: [00:18:10] That one. I was paying 4000 a year, but I just asked for it back. ... But I still pay 5% and my employer pays three."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pension_id": "pension_fidelity_ira",
+      "owner_ids": [
+        "client_jerome"
+      ],
+      "static": {
+        "scheme_name": {
+          "type": "string",
+          "value": "Fidelity IRA (former 401(k) rolled over)",
+          "citation": "ADVISOR: [00:00:47] Which is Fidelity IRA. ... CLIENT1: [00:00:57] That was with summit and oak financial got me to change it to Fidelity IRA. About a year ago."
+        },
+        "scheme_type": {
+          "type": "string",
+          "value": "Traditional IRA",
+          "citation": "ADVISOR: [00:00:47] Fidelity IRA."
+        },
+        "provider": {
+          "type": "string",
+          "value": "Fidelity",
+          "citation": "ADVISOR: [00:00:47] Fidelity IRA."
+        }
+      },
+      "timeline": [
+        {
+          "call_time": "00:00:49",
+          "values": [
+            {
+              "type": "string",
+              "value": "Main retirement pot; current value not stated explicitly but later approximated as part of ~250k total across accounts.",
+              "citation": "CLIENT1: [00:00:49] The main one. ... ADVISOR: [00:24:52] you’ve got a pot of almost—Well, I did include that one just for now ... you’ve got 250 K there."
+            }
+          ]
+        },
+        {
+          "call_time": "00:17:26",
+          "values": [
+            {
+              "type": "currency",
+              "value": {
+                "amount": 1567.6,
+                "currency": "USD",
+                "status": "unclear (possibly periodic contribution or interim value)"
+              },
+              "citation": "CLIENT1: [00:17:18] 1567,60"
+            }
+          ]
+        },
+        {
+          "call_time": "00:18:10",
+          "values": [
+            {
+              "type": "currency",
+              "value": {
+                "amount": 300,
+                "currency": "USD",
+                "frequency": "monthly",
+                "role": "ongoing contribution"
+              },
+              "citation": "CLIENT1: [00:18:10] And the Fidelity IRA one. I pay $300 a month into."
+            }
+          ]
+        },
+        {
+          "call_time": "01:09:06",
+          "values": [
+            {
+              "type": "string",
+              "value": "Currently invested in a diversified accumulation portfolio with multiple funds across geographies (including Asia, Japan, Pacific, emerging markets, gilts, cash, trackers); advisor to obtain full fund breakdown via transfer-authorization form.",
+              "citation": "ADVISOR: [01:09:06] Can I see this asset allocation? ... ADVISOR: [01:10:06] So you are in retirement portfolio? Pre‑retirement ... big list of fund ... surprised how much you’ve got exposure to Asia ... emerging markets ... lot of tracker ... I’m going to get the answer really quickly from Fidelity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pension_id": "pension_jennifer_401k_small",
+      "owner_ids": [
+        "client_jennifer"
+      ],
+      "static": {
+        "scheme_name": {
+          "type": "string",
+          "value": "Company 401(k) (Jennifer)",
+          "citation": "CLIENT1: [00:08:17] She’s got. Well, she will have $10000 in a company four oh one kay."
+        },
+        "scheme_type": {
+          "type": "string",
+          "value": "401(k)",
+          "citation": "CLIENT1: [00:08:17] company four oh one kay."
+        }
+      },
+      "timeline": [
+        {
+          "call_time": "00:08:17",
+          "values": [
+            {
+              "type": "currency",
+              "value": {
+                "amount": 10000,
+                "currency": "USD",
+                "status": "projected value when accessible"
+              },
+              "citation": "CLIENT1: [00:08:17] She’s got. Well, she will have $10000 in a company four oh one kay."
+            },
+            {
+              "type": "string",
+              "value": "Plan is to withdraw full balance in first tax year after retirement, pay tax then reclaim (as Jennifer will be under tax threshold), using funds to cover 11-month gap before her Social Security starts.",
+              "citation": "CLIENT1: [00:08:35] ... which we we intend just to take and pay the tax on in the first. ... Pay the tax. Claim it back. Because she’s not in the in the tax bracket And live on that. Jennifer’s going to live on that for the time between when we actually finish work and when she gets her Social Security benefit."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "savings_and_investments": [
+    {
+      "savings_investment_id": "invest_jennifer_inheritance_cd",
+      "owner_ids": [
+        "client_jennifer"
+      ],
+      "static": {
+        "product_name": {
+          "type": "string",
+          "value": "Locked inheritance deposit (to July)",
+          "citation": "CLIENT1: [00:13:13] At the moment? Jennifer’s got some inheritance money, which is locked away until July."
+        },
+        "product_type": {
+          "type": "string",
+          "value": "Time-deposit / fixed-term savings",
+          "citation": "CLIENT1: [00:13:13] ... locked away until July. Yes. It’s been locked away for two years."
+        }
+      },
+      "timeline": [
+        {
+          "call_time": "00:13:31",
+          "values": [
+            {
+              "type": "currency",
+              "value": {
+                "amount": 32000,
+                "currency": "USD",
+                "status": "current approx. balance"
+              },
+              "citation": "CLIENT1: [00:13:31] It’ll be 32."
+            },
+            {
+              "type": "currency",
+              "value": {
+                "amount": 33000,
+                "currency": "USD",
+                "status": "projected July balance"
+              },
+              "citation": "CLIENT2: [00:13:33] It’ll be about 33 by the time July."
+            },
+            {
+              "type": "string",
+              "value": "Planned allocation on maturity: some into Roth IRA, some into high-yield savings.",
+              "citation": "CLIENT1: [00:13:13] ... we will put some of that into a Roth IRA and some probably into a. Yeah. High‑yield savings account."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loans_and_mortgages": [],
+  "protection_policies": []
+}

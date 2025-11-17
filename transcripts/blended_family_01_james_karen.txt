@@ -1,0 +1,926 @@
+# Financial Fact-Find Transcript
+# Persona: James and Karen Johnson
+# Type: Blended Family
+# Generated: 2025-11-17 15:05:00
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+[00:00:02] ADVISOR:  
+Alright, um, James, Karen, thanks for hanging in there while I got the system up. I just want to run through a few basics about you both first, then we can dive into houses, kids, pensions, all the fun stuff. Does that sound okay?
+
+[00:00:13] CLIENT1:  
+Yeah, that’s fine.  
+
+[00:00:15] CLIENT2:  
+Mm‑hm, go ahead.
+
+[00:00:18] ADVISOR:  
+Great. Full names first. I’ve got James… is it James Andrew Johnson?
+
+[00:00:23] CLIENT1:  
+Yep, James Andrew Johnson.
+
+[00:00:26] ADVISOR:  
+And Karen?
+
+[00:00:28] CLIENT2:  
+Karen Louise Johnson. Used to be Miller, but Johnson now.
+
+[00:00:34] ADVISOR:  
+Perfect. And you’re happy with James and Karen, no special nicknames?
+
+[00:00:37] CLIENT1:  
+James is fine.
+
+[00:00:39] CLIENT2:  
+Karen’s good, yeah.
+
+[00:00:42] ADVISOR:  
+Dates of birth, James?
+
+[00:00:44] CLIENT1:  
+Third of March, nineteen eighty‑three.
+
+[00:00:47] ADVISOR:  
+03/03/83. And Karen?
+
+[00:00:50] CLIENT2:  
+Twenty‑first of September, eighty‑four.
+
+[00:00:54] ADVISOR:  
+Great. And you’re married—how long have you been together now?
+
+[00:01:00] CLIENT2:  
+We got married in, uh, late 2020. So just over three years.
+
+[00:01:04] CLIENT1:  
+Yeah, August 2020. Middle of lockdown chaos.
+
+[00:01:09] ADVISOR:  
+Right in the thick of it. And this is a blended family for you both. Can you just remind me how many children between you?
+
+[00:01:16] CLIENT1:  
+So I’ve got two boys from my first marriage.  
+
+[00:01:19] CLIENT2:  
+I’ve got two girls from my first marriage.  
+
+[00:01:22] CLIENT1:  
+And then we’ve got Leo together, he’s three.
+
+[00:01:26] ADVISOR:  
+So five in total—two boys, two girls, and Leo as the youngest.  
+
+[00:01:30] CLIENT2:  
+Yeah. Full house.
+
+[00:01:33] ADVISOR:  
+Good to know. I also need to ask a little bit about health because it affects things like insurance and pensions. James, how would you describe your general health?
+
+[00:01:41] CLIENT1:  
+Pretty good, I’d say. I go to the gym a couple of times a week. Blood pressure’s fine. Just the occasional stiff back.
+
+[00:01:47] ADVISOR:  
+Any ongoing conditions? Major diagnoses?
+
+[00:01:51] CLIENT1:  
+No, nothing serious. I had a knee thing last year from football, but that’s fine now.
+
+[00:01:56] ADVISOR:  
+And you’re an ex‑smoker, is that right?
+
+[00:01:58] CLIENT1:  
+Yeah, quit about six, seven years ago.
+
+[00:02:01] ADVISOR:  
+And alcohol—moderate?
+
+[00:02:03] CLIENT1:  
+Couple of beers at the weekend.
+
+[00:02:06] ADVISOR:  
+Karen, how about you?
+
+[00:02:09] CLIENT2:  
+Generally alright. I get migraines maybe once a month, I’ve got tablets for that. No big illnesses. Never smoked.  
+
+[00:02:16] ADVISOR:  
+And the odd glass of wine when the kids are elsewhere?
+
+[00:02:19] CLIENT2:  
+Exactly. When they’re all at their dads, that’s my “glass of wine and Netflix” window.
+
+[00:02:25] ADVISOR:  
+Makes sense. One thing linked to health and to the kids is wills. Do you both currently have wills in place?
+
+[00:02:32] CLIENT2:  
+I’ve got an old one from before we were together. It still has my ex‑husband in it, which is… not ideal.
+
+[00:02:38] CLIENT1:  
+And mine’s from when I bought my first flat. It leaves everything to my sister. So completely out of date.
+
+[00:02:45] ADVISOR:  
+Okay, so something exists, but nothing that reflects the remarriage and the five children.
+
+[00:02:50] CLIENT2:  
+Yeah, that’s one of the reasons we wanted to talk. We don’t want it to be a mess if something happens.
+
+[00:02:56] ADVISOR:  
+Understood. We’ll weave the wills and guardianship in as we go, especially when we talk about the house and pensions.  
+
+Before we get lost in details, when you think long‑term, what are the big priorities? Is it mainly retirement, or more about making sure the children are treated fairly if something happens?
+
+[00:03:10] CLIENT1:  
+Both, really. We want to retire without eating beans on toast every night, but also, with it being a blended family, we don’t want anyone feeling left out.
+
+[00:03:19] CLIENT2:  
+Yeah, it’s the fairness thing. Like, a lot of the deposit for this house came from James’s old place when his boys were little, and some of my money is from my grandma and my side of the family. We want that to be reflected somehow.
+
+[00:03:32] ADVISOR:  
+That’s really helpful. Let’s talk about the house then, because that’s often the biggest piece in the puzzle. Just a rough picture. What’s your main home and who owns it?
+
+[00:03:41] CLIENT2:  
+So we’re in a four‑bed detached in a cul‑de‑sac just outside Reading. That’s our main home.
+
+[00:03:48] CLIENT1:  
+Both of us are on the mortgage and the deeds.
+
+[00:03:51] ADVISOR:  
+Any idea what it would sell for today?
+
+[00:03:54] CLIENT2:  
+The last one on our street went for about five‑eighty. Ours is a bit nicer—we’ve done the kitchen—so somewhere high five hundreds, maybe six hundred.
+
+[00:04:04] ADVISOR:  
+And what’s left on the mortgage roughly?
+
+[00:04:07] CLIENT1:  
+Around three‑twenty, three‑thirty. We’ve not made a massive dent yet.
+
+[00:04:12] ADVISOR:  
+Repayment mortgage?
+
+[00:04:14] CLIENT2:  
+Yeah. We wanted it actually going down, not interest‑only.
+
+[00:04:18] ADVISOR:  
+Monthly payment?
+
+[00:04:20] CLIENT1:  
+Contractual’s about fifteen‑hundred and something, and we’ve set a little overpayment so it ends up just under sixteen hundred.
+
+[00:04:27] CLIENT2:  
+Comes out on the first of the month. It’s the one that makes me wince on the banking app.
+
+[00:04:32] ADVISOR:  
+And you fixed the rate?
+
+[00:04:34] CLIENT1:  
+Yeah, five‑year fix we did spring 2022. It’s three‑point‑something. Three‑point‑four, I think.
+
+[00:04:41] CLIENT2:  
+We felt very clever when rates shot up afterwards.
+
+[00:04:45] ADVISOR:  
+Nice bit of timing. How long left on the term until it’s fully repaid, roughly?
+
+[00:04:50] CLIENT1:  
+About twenty‑three years. It’ll take us into our early sixties if we don’t change it.
+
+[00:04:55] ADVISOR:  
+Okay. And you mentioned the deposit came mainly from your old house, James?
+
+[00:05:00] CLIENT1:  
+Yeah. When I sold my old place in Kettering after the divorce, I walked away with around ninety grand after fees. That basically went straight into the deposit on this place.
+
+[00:05:11] ADVISOR:  
+And that’s why you were saying you’d like your two boys to still get some of that value down the line?
+
+[00:05:16] CLIENT1:  
+Exactly. It kind of feels like money from *their* childhood home, so I don’t want them to end up with nothing if everything just goes to, you know, “the new family”.
+
+[00:05:26] CLIENT2:  
+We want it to be fair to all of them, not “his two get the flat, my two get my inheritance, Leo gets whatever’s left.” But at the moment it does feel a bit like that.
+
+[00:05:36] ADVISOR:  
+We’ll keep that in mind when we lay things out. Are you on any other properties now, James?
+
+[00:05:42] CLIENT1:  
+Yeah, there’s my old place from before. Well, technically from the first marriage. It’s a two‑bed flat down in Croydon we rent out.
+
+[00:05:50] CLIENT2:  
+That’s still in James’s and his ex‑wife’s names.
+
+[00:05:54] ADVISOR:  
+Okay, so jointly owned with your ex. Is there still a mortgage on that one?
+
+[00:05:58] CLIENT1:  
+Yeah. That one’s on an interest‑only buy‑to‑let deal. Outstanding is around one‑seventy, one‑eighty.
+
+[00:06:06] ADVISOR:  
+Monthly payment?
+
+[00:06:08] CLIENT1:  
+About six hundred and something. Six‑ten, six‑twenty once the bits they bundle in are added.
+
+[00:06:14] CLIENT2:  
+We get about eight‑fifty a month rent. By the time you’ve taken letting fees and bits there’s not loads left.
+
+[00:06:21] CLIENT1:  
+Yeah, on a good month there’s a couple of hundred surplus. Some months we end up topping it up instead—boiler goes, service charge, whatever.
+
+[00:06:29] ADVISOR:  
+So it more or less washes its face. In the divorce, what’s the agreement on that flat?
+
+[00:06:34] CLIENT1:  
+Decree says my ex has fifty‑five percent and I’ve got forty‑five. We keep it until our younger son finishes school, then we sell and split whatever’s left.
+
+[00:06:44] ADVISOR:  
+And in your head, that’s more for your two boys than for you and Karen?
+
+[00:06:48] CLIENT1:  
+Yeah. I’d like it to end up as uni money or house deposits for them, really.
+
+[00:06:54] CLIENT2:  
+Which is why I’m not mad keen on selling it just to pay off our mortgage, even though on paper it would make life easier.
+
+[00:07:00] ADVISOR:  
+Understood. Karen, what about you—any property tied to your previous marriage?
+
+[00:07:06] CLIENT2:  
+Yeah. My ex and our two girls are still in the old family house on the north side of Manchester. Under the divorce, he kept living there with them, but I kept a chunk of the equity.
+
+[00:07:15] ADVISOR:  
+Do you remember roughly what share?
+
+[00:07:18] CLIENT2:  
+Thirty percent, I think. The agreement is, either when he sells or when our younger one turns twenty‑two, he has to buy me out based on an appraisal then.
+
+[00:07:28] ADVISOR:  
+Any idea what that house is worth now?
+
+[00:07:31] CLIENT2:  
+Probably three ten, three twenty. The mortgage is tiny now, forty or fifty thousand. I’m not on that mortgage, just the deed for my bit.
+
+[00:07:38] ADVISOR:  
+Okay, so that’s a future lump sum for you. Anything else property‑wise?
+
+[00:07:43] CLIENT2:  
+My parents have a little cabin up in the Lake District. They did a deed transfer a couple of years ago—kept sixty percent themselves, and my brother and I each have twenty.
+
+[00:07:52] ADVISOR:  
+Family place, but technically an asset.
+
+[00:07:55] CLIENT2:  
+Yeah. Whole thing’s maybe one eighty, two hundred thousand. No mortgage, it’s been paid off forever. They pay the taxes and insurance. Eventually it’ll come to us, but there’s nothing formal beyond their will.
+
+[00:08:07] ADVISOR:  
+Alright. So you’ve both got bits and pieces that will likely become cash for you—and indirectly for the children—later on.  
+
+Before we go deeper into money, can we talk about work? That ties into pensions and how easy it is to keep all these plates spinning. James, what do you do at the moment?
+
+[00:08:21] CLIENT1:  
+I’m a project manager in IT for Northbridge Utilities, in the city centre.
+
+[00:08:26] ADVISOR:  
+Full‑time, hybrid?
+
+[00:08:28] CLIENT1:  
+Yeah, full‑time, and I’m at home a couple of days a week.
+
+[00:08:31] ADVISOR:  
+Salary band, roughly?
+
+[00:08:33] CLIENT1:  
+Base is mid‑sixties, before bonus. Some years I get a few grand, some years nothing.
+
+[00:08:39] ADVISOR:  
+So mostly in the basic band, dipping into higher‑rate when the bonus is good.
+
+[00:08:43] CLIENT1:  
+Yeah, payroll said I tipped into higher rate a bit last year.
+
+[00:08:47] ADVISOR:  
+Do you do anything on the side? Freelance, consulting?
+
+[00:08:50] CLIENT1:  
+Bits and pieces of freelance project work, but not regular. Couple of grand in a good year.
+
+[00:08:55] ADVISOR:  
+And you’ve got the Croydon flat rental, although that largely gets soaked up?
+
+[00:08:59] CLIENT1:  
+Pretty much. Whatever’s left tends to stay in the letting account or go towards the boys.
+
+[00:09:04] ADVISOR:  
+Karen, what about you?
+
+[00:09:07] CLIENT2:  
+I’m a senior teaching assistant at Brookfield Primary. Mostly classroom support and a bit of pastoral stuff.
+
+[00:09:13] ADVISOR:  
+Hours?
+
+[00:09:14] CLIENT2:  
+About twenty‑five hours a week in term‑time, so effectively part‑time over the year.
+
+[00:09:19] ADVISOR:  
+Salary?
+
+[00:09:21] CLIENT2:  
+After the last pay rise it’s just under twenty‑two thousand.
+
+[00:09:25] ADVISOR:  
+And you’ve got a side hustle, I think?
+
+[00:09:27] CLIENT2:  
+Yeah, I do wedding photography on the side. Mostly summers.
+
+[00:09:32] ADVISOR:  
+How much does that bring in, roughly, after your costs?
+
+[00:09:36] CLIENT2:  
+Depends on the year. Last year was good—maybe five or six grand profit. Year before was more like three.
+
+[00:09:43] CLIENT1:  
+And a lot of Saturdays disappearing.
+
+[00:09:45] CLIENT2:  
+True.
+
+[00:09:48] ADVISOR:  
+Okay. Maintenance-wise, how much is going out and coming in for the older children? That has a big impact on your monthly picture.
+
+[00:09:55] CLIENT1:  
+I pay child maintenance for my two boys. It’s nine hundred a month in total. Court‑ordered.
+
+[00:10:02] CLIENT2:  
+And I pay my ex about two hundred and fifty a month for the girls. They live with him most of the time.
+
+[00:10:09] ADVISOR:  
+So those are very much non‑negotiable outgoings.
+
+[00:10:12] CLIENT1:  
+Yeah, we budget around those. Wouldn’t dream of touching them.
+
+[00:10:16] ADVISOR:  
+Right. Let’s park incomes for a second and look at what’s going out each month. Just broad buckets: home, kids, and “everything else”.  
+
+On the home side—mortgage on this house, council tax, utilities—what roughly leaves the account?
+
+[00:10:30] CLIENT2:  
+Mortgage we said is about sixteen hundred with the overpayment.  
+
+[00:10:33] CLIENT1:  
+Council tax, if you average it, is maybe two hundred and fifty a month. Gas, electric, water, internet, I’d say another five, six hundred?
+
+[00:10:42] CLIENT2:  
+So all in, probably around two and a half grand a month just to keep the house running.
+
+[00:10:48] ADVISOR:  
+And the Croydon flat—does that cost you anything most months, or is it roughly neutral?
+
+[00:10:53] CLIENT1:  
+On average we probably top it up two, three hundred a month if you include service charge, insurance, repairs. Some months it pays for itself; some months something breaks.
+
+[00:11:02] CLIENT2:  
+Yeah, “something breaks” seems to be its hobby.
+
+[00:11:06] ADVISOR:  
+Okay. Kids next. You mentioned Leo is three—what are you paying for childcare?
+
+[00:11:12] CLIENT1:  
+He’s in nursery four days a week.
+
+[00:11:14] CLIENT2:  
+The gross fee is just under a thousand a month now, with the price rises. After the government free hours and the tax‑free childcare thing, we pay around seven hundred, seven‑fifty.
+
+[00:11:25] ADVISOR:  
+And how long do you expect that level of nursery cost?
+
+[00:11:29] CLIENT1:  
+Another couple of years. He’ll start school when he’s five, so then it’ll just be breakfast club and after‑school club.
+
+[00:11:36] CLIENT2:  
+Which I think is more like three, four hundred a month, but we’ll see.
+
+[00:11:41] ADVISOR:  
+And on top of childcare and maintenance, any regular clubs or extras?
+
+[00:11:46] CLIENT2:  
+My eldest does dance, that’s about fifty a month when she’s with us. Leo’s swimming lessons are maybe forty. Then there’s all the one‑off stuff—school trips, back‑to‑school uniforms.
+
+[00:11:56] CLIENT1:  
+September is always painful.
+
+[00:11:59] ADVISOR:  
+Yeah, every parent says that. Then the third bucket is lifestyle—holidays, eating out, subscriptions, that sort of thing. How would you describe your spending there?
+
+[00:12:08] CLIENT1:  
+Travel’s probably the biggest. We try to do one proper holiday a year with all the kids, then a couple of long weekends.
+
+[00:12:15] CLIENT2:  
+Last year we did Portugal—villa, flights, car hire. That was around four, four and a half thousand all‑in.
+
+[00:12:23] CLIENT1:  
+But it’s not fixed. Some years it’s Center Parcs and visiting family.
+
+[00:12:28] ADVISOR:  
+Would you say holidays are “nice to have” or essential for your sanity?
+
+[00:12:33] CLIENT2:  
+Technically “nice to have”, emotionally “essential”.
+
+[00:12:37] CLIENT1:  
+We *could* cut them if we had to, but we’d be grumpy.
+
+[00:12:41] ADVISOR:  
+And eating out, takeaways, days out?
+
+[00:12:44] CLIENT1:  
+In an average month… maybe six, seven hundred? Some months a lot less, some months we look at the app and go, “Wow, okay”.
+
+[00:12:53] CLIENT2:  
+Yeah, there was one month it was over a grand on “entertainment”. That was a bit of a shock.
+
+[00:13:00] ADVISOR:  
+That’s useful. The reason I ask is, when we later talk about putting more into pensions or college savings, it’s usually that lifestyle bucket that moves, not mortgages or maintenance.  
+
+Speaking of college‑type stuff—uni savings—have you started anything formal for the kids?
+
+[00:13:14] CLIENT2:  
+For my two girls I’ve got a Junior ISA with the state plan, well, the standard stocks and shares one. There’s maybe nine or ten thousand between them.
+
+[00:13:22] ADVISOR:  
+In your name as the owner, with them as beneficiaries?
+
+[00:13:25] CLIENT2:  
+Yeah, I’m the registered contact. Their dad puts in about fifty quid a month that goes straight into it.
+
+[00:13:31] ADVISOR:  
+And for James’s boys?
+
+[00:13:33] CLIENT1:  
+My ex set up Junior ISAs for them. I’m not on the paperwork; I just send maintenance and she puts some of it in. I don’t see the actual balances.
+
+[00:13:41] ADVISOR:  
+And Leo?
+
+[00:13:43] CLIENT2:  
+We haven’t done anything separate for him yet. We keep talking about it and then nursery fees eat the money.
+
+[00:13:49] CLIENT1:  
+We were going to set up a hundred a month for him, but then we thought, “Is that fair on the older four if we don’t top theirs up too?”
+
+[00:13:56] CLIENT2:  
+Yeah, it got complicated, so we kind of did nothing, which I know isn’t ideal.
+
+[00:14:01] ADVISOR:  
+It’s very common with blended families. We’ll look at a way of spreading contributions fairly.  
+
+Let’s switch to the money that’s already sitting in cash and investments. What have you got in current accounts and savings at the moment?
+
+[00:14:12] CLIENT1:  
+Joint current account usually sits around four to five grand, depending on bills.
+
+[00:14:16] CLIENT2:  
+And we’ve got an online savings together with Marcus—our main emergency fund. That’s around eighteen thousand at the moment. It floats between twelve and eighteen depending on what the Croydon flat’s doing.
+
+[00:14:27] CLIENT1:  
+I’ve got a little credit union savings in my name only, about six, six and a half. It was my buffer before we got married and I kept it.
+
+[00:14:35] ADVISOR:  
+Okay. Any other pots?
+
+[00:14:38] CLIENT1:  
+We started one of those robo‑investing accounts last year, in both our names. We put in about three‑fifty a month when we can. Balance is around seven grand now.
+
+[00:14:46] CLIENT2:  
+I’ve also got a separate savings for my girls, at a different bank. Last time I checked there was ten to twelve thousand in there. I only dip into that for their school stuff, braces, that kind of thing.
+
+[00:14:56] CLIENT2:  
+And my grandma passed two years ago. I got just under twenty‑two thousand from her. That’s in a money‑market account in my name. It’s earning a bit of interest, but I mentally earmark most of that for my daughters as well.
+
+[00:15:08] ADVISOR:  
+Understood. Any investment accounts outside pensions, like share portfolios?
+
+[00:15:13] CLIENT1:  
+We’ve got a general investment account with, um, Charles Schwab. Joint names. Opened it a few years ago.
+
+[00:15:20] ADVISOR:  
+What sort of balance is in there?
+
+[00:15:22] CLIENT1:  
+Low twenties. Maybe twenty to twenty‑five thousand.
+
+[00:15:26] CLIENT2:  
+Some of that we think of as the “rental reserve” for the Croydon flat—about eight grand we try to keep aside for repairs and voids.
+
+[00:15:34] ADVISOR:  
+And how is that invested?
+
+[00:15:36] CLIENT1:  
+Mostly an S&P 500 ETF. The rental reserve bit is in a short‑term bond fund so it’s not just cash, although—
+
+[00:15:42] CLIENT2:  
+—which I keep saying should just *be* cash, because I panic when it drops.
+
+[00:15:47] ADVISOR:  
+Fair enough. We can look at different risk levels for different pots later.  
+
+Karen, you mentioned work gives you company shares?
+
+[00:15:54] CLIENT2:  
+Yeah, RSUs—restricted stock units. Some have already vested, maybe fifteen thousand pounds’ worth at the current price. And there are more that vest over the next three years—on paper another thirty grand or so.
+
+[00:16:05] ADVISOR:  
+All in your sole name?
+
+[00:16:07] CLIENT2:  
+Yeah. Same with the inheritance account and the girls’ savings.
+
+[00:16:11] ADVISOR:  
+And in your minds, those are mainly for your daughters?
+
+[00:16:14] CLIENT2:  
+Yeah. That’s how I think of it.
+
+[00:16:16] CLIENT1:  
+And my boys have more of a claim on the Croydon flat and maybe a slice of this house. That’s kind of how we’ve talked about it.
+
+[00:16:23] ADVISOR:  
+So you’ve each got “your side” pots plus shared assets, but you want the overall outcome to feel fair across all five children rather than totally segmented.
+
+[00:16:31] CLIENT2:  
+Exactly.
+
+[00:16:33] CLIENT1:  
+Yeah, we don’t want it to feel like two separate families under one roof.
+
+[00:16:38] ADVISOR:  
+That ties nicely into pensions, because they’re often one of the biggest assets and the death benefits don’t go through the will. Can we talk through what you both have there?  
+
+James, your main workplace pension at Northbridge—who’s the provider?
+
+[00:16:48] CLIENT1:  
+On my payslip it says “Fidelity Workplace Pension”. The app calls it “Fidelity Employer Plan” or something similar.
+
+[00:16:55] ADVISOR:  
+Rough pot value?
+
+[00:16:57] CLIENT1:  
+Last time I checked, in March, it was just over sixty‑five thousand. It was low fifties the year before.
+
+[00:17:04] ADVISOR:  
+And contributions?
+
+[00:17:06] CLIENT1:  
+I do seven percent, employer puts in five. I upped mine a couple of years back once the maintenance stuff settled.
+
+[00:17:13] ADVISOR:  
+Okay. Any older pensions?
+
+[00:17:15] CLIENT1:  
+Yeah, one with Aviva from a previous employer. Haven’t paid into it for about six years. It was about twenty‑nine thousand on the last paper statement, and just over thirty when I glanced online recently.
+
+[00:17:26] ADVISOR:  
+Defined contribution as well?
+
+[00:17:28] CLIENT1:  
+Yeah, just a pot that goes up and down.
+
+[00:17:31] ADVISOR:  
+Any tiny ones from your early working life?
+
+[00:17:34] CLIENT1:  
+There’s a very small one with The People’s Pension from when auto‑enrolment started. I only paid in for about a year. It was two or three grand last time I saw it. Haven’t logged in for ages.
+
+[00:17:43] ADVISOR:  
+We’ll try to track that down. Karen, your main workplace pension?
+
+[00:17:48] CLIENT2:  
+Mine’s with Scottish Widows, called a “Group Pension Plan”. That’s from the school.
+
+[00:17:53] ADVISOR:  
+Pot size?
+
+[00:17:55] CLIENT2:  
+I checked in July. About forty‑one thousand. The year before it was twenty‑something, but I increased my contributions.
+
+[00:18:02] ADVISOR:  
+What are you paying in now?
+
+[00:18:04] CLIENT2:  
+Six percent from me, four from the employer. It used to be three and three.
+
+[00:18:09] CLIENT1:  
+After I had a bit of a nag.
+
+[00:18:11] CLIENT2:  
+Yeah, yeah.
+
+[00:18:13] ADVISOR:  
+Any other pensions?
+
+[00:18:15] CLIENT2:  
+There’s a small NEST one from when I worked admin at an NHS trust. That’s just under ten thousand. I stopped paying in when I left in 2020.
+
+[00:18:23] ADVISOR:  
+And you mentioned on the questionnaire a council job?
+
+[00:18:26] CLIENT2:  
+Yeah, did three years at the council in my twenties. That’s the Local Government Pension Scheme—a little defined benefit one.
+
+[00:18:32] ADVISOR:  
+Do you remember the figures from the last statement?
+
+[00:18:35] CLIENT2:  
+If I take it at sixty‑seven it said about one thousand eight hundred a year income and a lump sum of around five and a half thousand. It was in a table; that’s the bit I remember.
+
+[00:18:44] ADVISOR:  
+Great. Now, crucial question with all of these: beneficiaries. On your Fidelity pension, James, who’s listed at the moment?
+
+[00:18:51] CLIENT1:  
+I’m pretty sure it still has my ex‑wife on it. I never got around to changing it.
+
+[00:18:56] CLIENT2:  
+I’ve told him off about that.
+
+[00:18:58] CLIENT1:  
+I know, I know.
+
+[00:19:00] ADVISOR:  
+And on the Aviva one?
+
+[00:19:02] CLIENT1:  
+Same—ex‑wife.
+
+[00:19:05] ADVISOR:  
+Okay. If something happened to you tomorrow—horrible thought—how *would* you want those pots split, given you’ve got your two boys and Leo with Karen?
+
+[00:19:14] CLIENT1:  
+I’d want Karen to be okay first, so maybe half to Karen, and the other half split between the three kids?
+
+[00:19:20] CLIENT2:  
+We’d talked about maybe skewing one pension more to me and Leo, and the other more to your older boys.
+
+[00:19:26] CLIENT1:  
+Yeah, that’s true. So, say, Fidelity: fifty percent to Karen, twenty‑five to Leo, and the other twenty‑five split between my two boys. And then Aviva maybe mostly for the older two.
+
+[00:19:37] ADVISOR:  
+That kind of structure is workable; we’ll just need to be specific on the nomination forms.  
+
+Karen, who’s on your Scottish Widows nomination right now?
+
+[00:19:45] CLIENT2:  
+My mum is listed first—set it up when I was single. I *think* James is on there as a secondary, but the kids definitely aren’t named.
+
+[00:19:52] ADVISOR:  
+How would you prefer it to look?
+
+[00:19:55] CLIENT2:  
+I’d want James to have enough to keep the house going if I’m not here, but I don’t want my girls—or Leo—left out. Maybe… forty percent to James, and sixty split between the three kids? My two girls and Leo.
+
+[00:20:07] CLIENT1:  
+I’m fine with that. As long as the kids are looked after.
+
+[00:20:10] CLIENT2:  
+I might change my mind once we see all the numbers on a page, but that’s the rough idea.
+
+[00:20:15] ADVISOR:  
+That’s absolutely fine. On the NEST and the council pension, have you done any death benefit nominations?
+
+[00:20:19] CLIENT2:  
+Nest I did online years ago—I think I put my eldest on that one. The council one I don’t remember doing anything, so it probably defaults to “next of kin”.
+
+[00:20:27] ADVISOR:  
+Okay. Once we get copies of all the latest statements, I’ll mark up where the nomination forms are and we’ll align them with what you’ve just described.
+
+[00:20:35] CLIENT1:  
+Yeah, at the moment it’s all a bit of a mess.
+
+[00:20:38] CLIENT2:  
+We want the pensions and the wills to tell the same story, basically.
+
+[00:20:43] ADVISOR:  
+Exactly. While we’re on retirement, when *would* you like to stop working, if money allowed?
+
+[00:20:49] CLIENT1:  
+I’ve always thought early sixties. Maybe sixty‑two, sixty‑three.
+
+[00:20:53] CLIENT2:  
+I was thinking late fifties originally, but with uni fees and everything, sixty feels more realistic.
+
+[00:20:59] ADVISOR:  
+So James aiming for around sixty‑two, Karen around sixty. And in terms of income in retirement, in today’s money, what would feel comfortable?
+
+[00:21:07] CLIENT1:  
+We’ve talked about it a bit. Somewhere around fifty to sixty thousand between us, I reckon, so we can travel a bit and still help the kids if they need it.
+
+[00:21:15] CLIENT2:  
+Yeah, basics covered plus a couple of nice holidays and not having to count every penny.
+
+[00:21:20] ADVISOR:  
+Okay, that gives me something to work backwards from. We’ll factor in state pension cautiously and see what the gaps look like.  
+
+How do you both feel about investment risk, by the way? You’ve got pensions in “balanced” funds and a Schwab account in the S&P index—are you sleeping okay with the ups and downs?
+
+[00:21:33] CLIENT1:  
+I’m okay with it. I check them now and then but I know they’ll bounce around.
+
+[00:21:37] CLIENT2:  
+I’m more nervous. The retirement stuff I mostly ignore, but the Schwab one and the rental pot—when I see them drop, I get twitchy.
+
+[00:21:44] ADVISOR:  
+What I’ll do after this call is send you both a short risk questionnaire by text. Is your mobile still ending 7‑9‑8, James?
+
+[00:21:51] CLIENT1:  
+Yeah, that’s the one.
+
+[00:21:53] ADVISOR:  
+Karen, yours ends 4‑3‑2?
+
+[00:21:55] CLIENT2:  
+Yep.
+
+[00:21:57] ADVISOR:  
+That’ll help us pitch the investment side at a level you’re comfortable with, especially once Leo’s nursery costs free up and you’ve got spare cash to invest.
+
+[00:22:05] CLIENT1:  
+Yeah, we’ve kind of said once nursery ends we’d shove that money straight into pensions.
+
+[00:22:10] CLIENT2:  
+It’s like a little countdown—two more years of really tight months.
+
+[00:22:14] ADVISOR:  
+Speaking of tight months, apart from the mortgages and maintenance, what other debts or loans do you have?
+
+[00:22:19] CLIENT2:  
+We’ve got the car on finance. Standard HP, not secured on the house. That’s about four hundred a month and ends in three years.
+
+[00:22:26] CLIENT1:  
+No credit card balances, we clear those.
+
+[00:22:29] ADVISOR:  
+So in terms of committed debt payments each month we’ve got: main mortgage around sixteen hundred, Croydon flat about six hundred but mostly covered by rent, car around four hundred. Plus the nursery and maintenance. Does that feel manageable on your current incomes?
+
+[00:22:43] CLIENT1:  
+Most of the time, yeah. The squeeze is when you get school trips, car insurance, all in the same month.
+
+[00:22:49] CLIENT2:  
+And when gas and electric shot up, that was a bit hairy. We’ve switched providers, got a smart meter, all that.
+
+[00:22:56] ADVISOR:  
+When does your fixed rate on the main mortgage end?
+
+[00:22:59] CLIENT1:  
+Next October.
+
+[00:23:01] CLIENT2:  
+We’re a bit worried because everyone’s saying rates might not go back down to what we had.
+
+[00:23:06] ADVISOR:  
+Okay, so that’s a planning point as well—making sure you’ve got some breathing room before that hits.  
+
+Coming back to the blended family side for a moment, apart from pensions, have you updated beneficiaries on the other accounts? Savings, ISAs, that sort of thing?
+
+[00:23:18] CLIENT1:  
+Probably not. The joint accounts are just joint, obviously. My old stuff—I think my ex’s name is still floating around on some things.
+
+[00:23:25] CLIENT2:  
+I changed my life insurance at work to James, but I don’t think I touched the pension nomination or the Junior ISAs.
+
+[00:23:31] ADVISOR:  
+Alright. Non‑pension accounts normally pass under the will or via joint ownership, so once we redo the wills that will pick up a lot of it. But for things like the Junior ISAs and the company shares we’ll just want to check who actually owns them and how you’d want them used.
+
+[00:23:42] CLIENT2:  
+Yeah, with the RSUs especially. I’m not sure if I should leave them to the girls directly or to James to manage for all three kids.
+
+[00:23:49] ADVISOR:  
+We can talk through pros and cons. Sometimes it’s simpler to leave them to the surviving spouse with a clear instruction in the will; sometimes you ring‑fence specific bits for older children.  
+
+Can I ask about protection—life cover, sickness cover—very briefly? I don’t need all the policy numbers right now, just whether anything exists.
+
+[00:24:03] CLIENT1:  
+We’ve both got some life insurance that we did when we bought this house. Level term, I think, twenty‑five years.
+
+[00:24:09] CLIENT2:  
+Mine is about two hundred thousand, James’s is about three hundred. And we’ve got whatever’s through work.
+
+[00:24:15] ADVISOR:  
+Okay, that’s useful. We’ll line that up with the mortgage and the kids when we do the wills piece.  
+
+I realise we’ve been going quite heavy—do you need a quick break, or are you okay to keep going?
+
+[00:24:23] CLIENT2:  
+I’m alright to keep going.
+
+[00:24:25] CLIENT1:  
+Yeah, I’m fine.
+
+[00:24:28] ADVISOR:  
+Alright. Let’s circle back to the children, because that’s clearly central for you. Day to day, do all five spend time in this house?
+
+[00:24:35] CLIENT2:  
+Not all at once very often, but yeah. My girls are here every other weekend and some holidays. James’s boys are here alternate weekends and some of the school holidays. Leo’s obviously here full‑time.
+
+[00:24:45] ADVISOR:  
+And emotionally, you see yourselves as one unit?
+
+[00:24:48] CLIENT1:  
+Yeah. The older ones sometimes talk in “my dad’s house” and “mum’s house” terms, but we try to make this feel like theirs as well.
+
+[00:24:55] CLIENT2:  
+Which is why, with the wills, we don’t want it written as “everything to each other, then everything to Leo”. That just feels wrong.
+
+[00:25:02] ADVISOR:  
+Got it. For example, if you both died in, say, a car crash together, would you want the equity in this house divided five ways between the children, or different shares?
+
+[00:25:11] CLIENT1:  
+We… haven’t really decided. We’ve floated doing something like: a bit extra for Leo because he’s younger and will need it longer, but not massively skewed.
+
+[00:25:20] CLIENT2:  
+And we keep coming back to the fact that my girls will likely get that buy‑out from the Manchester house eventually, and James’s boys will get something from the Croydon flat. So maybe on this house we keep it more equal.
+
+[00:25:32] ADVISOR:  
+It might help when we meet next time to draw out a simple “who gets what if” chart with you so you can see the whole picture—this house, Croydon, your share of the Manchester place, the cabin, pensions, savings. Then you can decide where things want to even up and where they’re allowed to be different.
+
+[00:25:45] CLIENT2:  
+Yeah, I think we need to see it visually.
+
+[00:25:49] CLIENT1:  
+Otherwise our brains just go “this is too hard” and we go back to watching telly.
+
+[00:25:54] ADVISOR:  
+Totally understandable.  
+
+Let me just check one more area on income before we wrap for today: do either of you expect big changes in earnings in the next couple of years? Promotions, changing hours?
+
+[00:26:04] CLIENT1:  
+My manager’s talked about a promotion to project director. If it happens, salary could jump into the mid‑seventies, maybe a bit higher. Nothing guaranteed yet.
+
+[00:26:12] ADVISOR:  
+Okay, so potential upside but nothing we should bank on.
+
+[00:26:15] CLIENT1:  
+Yeah.
+
+[00:26:17] ADVISOR:  
+Karen?
+
+[00:26:18] CLIENT2:  
+I keep talking about going full‑time once Leo is in school. Then I look at how shattered I am already and think maybe not.
+
+[00:26:25] CLIENT1:  
+We go back and forth on it.
+
+[00:26:27] CLIENT2:  
+If I did go full‑time, I think my salary would be mid‑twenties instead of low‑twenties, plus more going into the pension.
+
+[00:26:34] ADVISOR:  
+So that’s another lever we can play with in the plan—either more income now or more time at home, but slightly tighter finances.
+
+[00:26:41] CLIENT2:  
+Yeah.
+
+[00:26:44] ADVISOR:  
+Last couple of factual things from me for today.  
+
+One is: apart from the pensions, have either of you got any very small old investments—say, a forgotten ISA from years ago—or benefits like a tiny occupational pension already in payment?
+
+[00:26:54] CLIENT2:  
+I’ve got a little pension from a nonprofit I worked at; I can’t touch it until sixty‑two or something. It sends a statement but I’ve sort of ignored it because it’s small.
+
+[00:27:02] ADVISOR:  
+Okay, if you can dig that out, that would be useful.  
+
+Second: for the Croydon flat, do you have any firm plan yet for how you’ll clear that interest‑only mortgage when the term ends? Is it “sell the flat”, “use pension lump sum”, “downsize this house”, or just “we’ll see”?
+
+[00:27:15] CLIENT1:  
+Honestly, it’s “we’ll see” at the moment. We’ve talked about using some of my pension lump sum or selling it when the boys are older.
+
+[00:27:22] CLIENT2:  
+We’ve never had anyone help us join the dots with that and the wills and the kids, which is why we’re here.
+
+[00:27:28] ADVISOR:  
+That makes sense. That flat, plus your pensions, plus this house and your other bits of equity, are all the levers we’ve got to pull to get you to your retirement goals *and* treat the kids the way you want.  
+
+I don’t want to overload you with more numbers today. From my side, the next steps are: I’ll send you a list of documents to upload—mortgage statements for this house and the Croydon flat, your latest pension and investment statements, and copies of the old wills. I’ll also send the risk questionnaires to your phones.  
+
+In the meantime, if you think of anything you forgot to mention—maybe an old account or policy—just jot it down and we’ll pick it up next time.
+
+[00:27:59] CLIENT1:  
+Yeah, we’ll have a dig through the drawer of doom tonight.
+
+[00:28:02] CLIENT2:  
+I’ve already got a pile starting on the kitchen table.
+
+[00:28:06] ADVISOR:  
+Perfect. Let’s leave it there for today then. We’ll use what you’ve shared to start putting some options together, and next time we can get into the “what ifs” and the actual structure of the wills and beneficiaries.  
+
+[00:28:16] CLIENT2:  
+Okay, sounds good.
+
+[00:28:18] CLIENT1:  
+Yeah, thank you.

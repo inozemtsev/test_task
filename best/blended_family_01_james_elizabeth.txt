@@ -1,0 +1,309 @@
+# Financial Fact-Find Transcript
+# Persona: James and Elizabeth Williams
+# Type: Blended Family
+# Generated: 2025-11-16 20:16:22
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:02] Thanks for setting aside time today, James and Elizabeth. Before we dive in, can you confirm how you like to be addressed and your birthdays so I’ve got the file clean?
+
+CLIENT1: [00:00:11] Sure—James Williams, but James is fine. June 14, 1977.
+
+CLIENT2: [00:00:17] Elizabeth Williams—most folks call me Liz or Elizabeth. March 22, 1985.
+
+ADVISOR: [00:00:25] Perfect—James and Elizabeth. And marital status: married, blended family?
+
+CLIENT2: [00:00:30] Yes—married, blended family.
+
+ADVISOR: [00:00:33] Great. I’ll text a secure e-sign link after this—okay to use the mobiles ending in 4421 for James and 0938 for Elizabeth?
+
+CLIENT1: [00:00:40] Yes, that’s fine.
+
+CLIENT2: [00:00:41] Works for me.
+
+ADVISOR: [00:00:44] Quick health/lifestyle check for protection planning—good health, non-smokers?
+
+CLIENT1: [00:00:49] Good health, non-smoker.
+
+CLIENT2: [00:00:51] Same here.
+
+ADVISOR: [00:00:54] Excellent. Let’s start with the roof over your heads. Tell me about the primary residence—where is it, value, and the mortgage?
+
+CLIENT2: [00:01:02] We’re in Westerville, Ohio—just north of Columbus, walkable to uptown. Four beds, about 2,400 square feet. Zillow has it around $620,000.
+
+CLIENT1: [00:01:15] We bought it together in 2021—titled joint tenants with right of survivorship. Mortgage balance is about $348,000 at 3.25% fixed, 30-year. Payment’s roughly $2,680 a month with escrow.
+
+ADVISOR: [00:01:31] Got it—primary residence, JTWROS, estimated equity in the low $270s today. Taxes and insurance on that?
+
+CLIENT2: [00:01:38] Property taxes about $7,200 a year, homeowners insurance roughly $1,250. No HOA.
+
+ADVISOR: [00:01:44] Perfect. Any plans to upsize or downsize soon?
+
+CLIENT1: [00:01:49] Not in the next three years. The kids—my daughter, Mia, and Elizabeth’s son, Caleb—are here part-time, so we need the space. Maybe revisit after Mia graduates.
+
+ADVISOR: [00:01:59] Makes sense. While we’re on homes, what other property is in the mix—rental or vacation?
+
+CLIENT1: [00:02:06] I have a townhome in Raleigh—near Brier Creek. It’s a rental now, in my name only. Value about $310,000. No mortgage—I paid it off last year.
+
+ADVISOR: [00:02:18] Congrats on paying it off. What’s the rent and your carrying costs?
+
+CLIENT1: [00:02:22] Rent is $1,950 per month. HOA $285/month, property taxes around $3,100 a year, insurance roughly $1,500 a year. It nets decently—we set aside for repairs.
+
+ADVISOR: [00:02:34] Good budgeting. Have you considered retitling—LLC for liability or a trust for estate planning?
+
+CLIENT1: [00:02:40] I’ve thought about an LLC. Haven’t set anything up yet.
+
+CLIENT2: [00:02:43] And we’ve talked about a revocable trust eventually, so things are clean between the kids and us.
+
+ADVISOR: [00:02:50] Great—we’ll coordinate with your estate attorney on both. Any other real estate?
+
+CLIENT2: [00:02:55] I have a 50% share of a condo in Sarasota—Gulf Gate area. My sister owns the other 50%. No mortgage. We rent it short-term most of the year and use it a couple weeks.
+
+ADVISOR: [00:03:07] Understood—condo share with your sister. HOA and any assessments I should note?
+
+CLIENT2: [00:03:12] HOA is $420 a month. There’s a likely roof assessment next spring—about $6,000 total, so $3,000 for my half. Net rental income after cleaning and management is around $9,000 a year for my share.
+
+ADVISOR: [00:03:25] Helpful. Let me park real estate there for a second and jump to cash and near-cash so we can see liquidity. What do you keep in checking and savings?
+
+CLIENT1: [00:03:33] Joint checking averages about $9,800. Emergency fund is at Ally—about $24,500 right now. We also keep a “sinking fund” for taxes/repairs—around $6,400.
+
+CLIENT2: [00:03:46] I also have inheritance money in a fixed CD—locked until July 15th. Balance is $31,200 now; it should be roughly $33,000 at maturity at 4.9%.
+
+ADVISOR: [00:03:58] Good timeline. Have you earmarked how that $33k will be used?
+
+CLIENT2: [00:04:03] We’d probably keep $10–12k for the emergency fund since maintenance can be lumpy, and put the rest toward the kids’ 529s and maybe some into our brokerage. And I’d like to fund a Roth if limits allow.
+
+ADVISOR: [00:04:16] Nice. We’ll check MAGI against Roth limits—if you’re close we can look at backdoor options. Let’s connect that to income quickly. James, remind me of your role and comp?
+
+CLIENT1: [00:04:27] I’m a Senior Project Manager at TriCounty Utilities. Base is $118,000. Bonus varies—last year about $12,000.
+
+ADVISOR: [00:04:37] Thanks. Elizabeth?
+
+CLIENT2: [00:04:39] I’m a Practice Administrator at Riverside Pediatric Clinic here in the Columbus area. Four days a week—0.8 FTE. $56,000 last year including a small $2,000 bonus.
+
+ADVISOR: [00:04:49] Perfect. Any child support or maintenance payments to factor into cash flow?
+
+CLIENT1: [00:04:55] I pay $900 a month in child support for Mia. That runs until June 2029.
+
+CLIENT2: [00:05:01] I receive $350 a month for Caleb—scheduled through August 2032.
+
+ADVISOR: [00:05:07] Got it—$900 outflow to 2029 and $350 inflow to 2032. From a tax lens, your CPA said you landed around a 24% federal bracket last year—sound right? And for state, Ohio’s around 3% depending on brackets.
+
+CLIENT1: [00:05:21] That matches what we heard—AGI roughly $152,000 including the rental and my bonus.
+
+ADVISOR: [00:05:27] Great. That helps when deciding pre-tax vs. Roth allocations. While we’re there, quick snapshot of retirement accounts and beneficiaries?
+
+CLIENT1: [00:05:36] My 401(k) is around $286,000. Beneficiary is Elizabeth primary, Mia contingent.
+
+CLIENT2: [00:05:43] My 403(b) is about $142,000, and I have a small state teacher’s pension vested—12 years. Beneficiaries are James primary, Caleb contingent.
+
+ADVISOR: [00:05:53] Perfect. Risk tolerance—would you both say “balanced”?
+
+CLIENT1: [00:05:57] Balanced—comfortable with some volatility but not big drawdowns.
+
+CLIENT2: [00:06:01] Same.
+
+ADVISOR: [00:06:04] Good. What ages are you targeting for retirement and do you have a starting income figure in mind?
+
+CLIENT1: [00:06:10] I’m penciling in 65.
+
+CLIENT2: [00:06:12] I’d like 62–63, but I can run to 65 if we need to. We’ve talked about $80,000 gross in today’s dollars as a starting point.
+
+ADVISOR: [00:06:22] Excellent—65 for James, 62–63 for Elizabeth, target $80k gross. Back to investments outside retirement—do you have a taxable brokerage?
+
+CLIENT1: [00:06:31] Yes—joint taxable at Vanguard, about $58,000. Mostly VTI, some VXUS, and a bit of BND. We auto-invest $500 a month.
+
+ADVISOR: [00:06:43] Great. Any other investment buckets I should capture—IRAs, I-bonds?
+
+CLIENT1: [00:06:48] I have a Fidelity IRA—rolled over from an old 401(k)—about $128,000. I contribute $300 a month. Allocation’s roughly 45% S&P 500 index, 25% international/emerging, 15% aggregate bonds, and a little mid-cap and cash.
+
+CLIENT2: [00:07:03] We also each bought I-bonds in 2022—$10,000 each. Just letting those ride.
+
+ADVISOR: [00:07:09] Nice diversification. With the RALEIGH rental, do you keep a separate reserve?
+
+CLIENT2: [00:07:14] We do—part of that $6,400 sinking fund is earmarked for repairs. If something big hits, we pause the IRA or brokerage auto-invest for a month.
+
+ADVISOR: [00:07:23] Smart. Now, on education, do you each have 529 plans?
+
+CLIENT1: [00:07:28] I do for Mia—Ohio 529, balance about $27,000. I contribute $150 a month. Her mom adds $100 when she can. I’m the owner.
+
+CLIENT2: [00:07:37] I have one for Caleb—balance $18,700. I put in $100 a month. His dad contributes sporadically, maybe $500 a year. I’m the owner.
+
+ADVISOR: [00:07:46] Great. Owning your respective child’s 529 keeps control clear with exes in the picture. Side note: Ohio’s 529 has a state deduction benefit—when the CD matures in July, we can time contributions to capture that.
+
+CLIENT2: [00:07:58] Good point—I’d like to maximize that without overcommitting.
+
+ADVISOR: [00:08:03] We’ll map it out. Circling back to spending briefly—do you keep a specific travel budget, especially with Sarasota in the mix?
+
+CLIENT1: [00:08:10] Ad hoc. Some years it’s $4,000; last year closer to $6,500 with flights.
+
+CLIENT2: [00:08:16] We visit my sister near Sarasota pretty often—sometimes we stay at the condo, which helps.
+
+ADVISOR: [00:08:21] I’ll mark travel as discretionary so we don’t overfit the budget. Any notable vehicles or loans?
+
+CLIENT2: [00:08:27] Cars: 2019 Honda Pilot, paid off—KBB around $19,000. And a 2022 Toyota Camry with about $11,200 left on the loan; car’s worth about $21,000.
+
+ADVISOR: [00:08:36] Thanks. Quick beneficiary/titling check: Westerville home JTWROS; Raleigh rental in James’s name; Sarasota condo 50% in Elizabeth’s name with her sister, correct?
+
+CLIENT1: [00:08:45] Correct—Raleigh is just me.
+
+CLIENT2: [00:08:48] And yes, condo is split 50/50—we each get our own 1099 from the rental platform.
+
+ADVISOR: [00:08:54] Perfect. On estate planning—do you have wills or a revocable trust since your marriage?
+
+CLIENT2: [00:09:00] Not yet. We’ve talked about it but haven’t done it.
+
+CLIENT1: [00:09:03] Agreed—we know we need to.
+
+ADVISOR: [00:09:06] Given the blended family, a will and likely a revocable trust will be important—especially to protect each child’s share while keeping the home secure for the survivor. We’ll also add TOD/POD designations and review life insurance. For the Raleigh rental, we can explore an LLC or just enhanced umbrella coverage—pros and cons to each.
+
+CLIENT2: [00:09:23] Sounds right. I want “ours” to stay simple and what’s for the kids clearly marked.
+
+ADVISOR: [00:09:29] Exactly. We can structure the trust so the survivor has use of the home, with staged distributions to Mia and Caleb over time. I’ll introduce an estate attorney.
+
+CLIENT1: [00:09:38] Appreciate that.
+
+ADVISOR: [00:09:41] On retirement funding strategy with your tax bracket: James, it might make sense to increase your pre-tax 401(k) to 10–12% this year to keep AGI in check, while Elizabeth possibly maintains some Roth exposure for tax diversification. Then in your early 60s, we can evaluate partial Roth conversions in lower-income years before Social Security.
+
+CLIENT2: [00:09:58] I like smoothing taxes versus getting hit later.
+
+CLIENT1: [00:10:01] Same. If rental cash flow stays steady, we could nudge my contribution up.
+
+ADVISOR: [00:10:06] Great. Speaking of cash flow—any near-term big expenses aside from the condo roof assessment?
+
+CLIENT2: [00:10:12] That’s the big one. We’ll earmark part of the July CD for it just in case.
+
+ADVISOR: [00:10:17] Good plan. For the July CD proceeds, I’ll propose: 1) top up emergency by that $10–12k, 2) maximize Ohio 529 contributions to capture state tax benefits, 3) fund Elizabeth’s Roth (subject to MAGI), and 4) the remainder to your Vanguard taxable.
+
+CLIENT1: [00:10:31] That sequencing sounds right.
+
+ADVISOR: [00:10:34] Quick pivot—Social Security statements. Have you checked them lately?
+
+CLIENT1: [00:10:38] I looked a while back—ballpark $2,200+ at 67. I should pull a fresh one.
+
+CLIENT2: [00:10:43] Mine’s out of date. I’ll check SSA.gov.
+
+ADVISOR: [00:10:46] Perfect. That helps refine your retirement income model alongside the teacher pension and your accounts. On the rental, any intention to sell in the next few years?
+
+CLIENT1: [00:10:55] Hold for now. It helps smooth out months when I’m paying support and the kids are here more.
+
+CLIENT2: [00:11:01] And we’ll hold the condo at least through the roof assessment. If costs balloon, we’ll revisit.
+
+ADVISOR: [00:11:07] Understood. While we’re here, do you have umbrella liability coverage?
+
+CLIENT1: [00:11:12] We do—$1 million umbrella.
+
+ADVISOR: [00:11:15] Good. If we keep the rental in your name versus an LLC, we might bump that to $2 million—often only a small premium increase.
+
+CLIENT2: [00:11:22] Okay, worth pricing.
+
+ADVISOR: [00:11:25] Coming back to your investments—are you comfortable with the current allocation in the joint taxable (VTI/VXUS/BND) and your Fidelity IRA mix, given a balanced risk profile?
+
+CLIENT1: [00:11:34] Yes—moderate volatility is fine. We don’t want to be forced sellers if a repair hits.
+
+CLIENT2: [00:11:39] The separate sinking fund helps us avoid touching the brokerage.
+
+ADVISOR: [00:11:43] Exactly. Rebalancing once or twice a year should keep risk in line. For the 529s, we’ll confirm age-based options and contribution timing around the CD maturity.
+
+CLIENT2: [00:11:52] Great.
+
+ADVISOR: [00:11:55] Any employer benefit changes anticipated this year—health plan, HSA/FSA updates?
+
+CLIENT1: [00:12:00] No changes expected—TriCounty covers about 75% of family premiums.
+
+CLIENT2: [00:12:05] I’ll stay at 0.8 FTE through the next school year so I don’t lose benefits.
+
+ADVISOR: [00:12:10] Noted. On monthly flows: beyond the $500 auto-invest to taxable and $300 to the IRA, do you automate savings to Ally?
+
+CLIENT2: [00:12:17] We move small amounts to the emergency and sinking fund monthly—nothing rigid. If sports or school trips pile up, we pause.
+
+ADVISOR: [00:12:24] That flexibility is perfect with variable kid costs. Any other notable assets—collectibles, jewelry?
+
+CLIENT2: [00:12:29] Just a few pieces of family jewelry—maybe $2,000 total. Nothing big.
+
+ADVISOR: [00:12:33] Okay. Let me recap the key picture and you tell me what I missed:
+- Primary home in Westerville at ~$620k, JTWROS; mortgage ~$348k at 3.25%, payment ~$2,680 incl. escrow; taxes ~$7,200/yr; insurance ~$1,250/yr.
+- James’s Raleigh townhome rental, paid off, value ~$310k; rent $1,950/mo; HOA $285/mo; taxes ~$3,100/yr; insurance ~$1,500/yr.
+- Elizabeth’s 50% Sarasota condo with sister; HOA $420/mo; likely $3,000 roof assessment for your half; net ~$9,000/yr to you.
+- Cash: checking ~$9,800; Ally EF ~$24,500; sinking ~$6,400; CD maturing mid-July to ~$33k at 4.9%.
+- Investments: Vanguard taxable ~$58k (VTI/VXUS/BND) with $500/mo auto-invest; Fidelity IRA for James ~$128k with $300/mo; I-bonds $10k each.
+- Retirement: James 401(k) ~$286k (Elizabeth primary, Mia contingent); Elizabeth 403(b) ~$142k plus small vested state teacher pension (James primary, Caleb contingent).
+- 529s: Mia ~$27k (James owner, $150/mo; her mom adds when able); Caleb ~$18.7k (Elizabeth owner, $100/mo; dad ~ $500/yr).
+- Income: James $118k base + variable bonus; Elizabeth ~$56k at 0.8 FTE; AGI around $152k; 24% federal, Ohio state low single digits.
+- Support: $900/mo outflow for James to 6/2029; $350/mo inflow to 8/2032 for Elizabeth.
+- Goals: Retire 65 (James), 62–63 (Elizabeth), target $80k gross; balanced risk; estate plan to-do: wills, revocable trust, TOD/POD; consider LLC vs. umbrella for the rental.
+
+Did I capture that right?
+
+CLIENT1: [00:13:43] That’s spot on.
+
+CLIENT2: [00:13:45] Yes—especially the July CD plan and the estate pieces.
+
+ADVISOR: [00:13:49] Great. A couple of fine-tunes: James, if we push your 401(k) toward 10–12% pre-tax, we’ll likely keep AGI in the 24% bracket comfortably. Elizabeth, given your 0.8 FTE and the CD, we can fund a Roth this year if MAGI cooperates—or do a backdoor if needed. Then in your 60s, we’ll consider partial Roth conversions before Social Security.
+
+CLIENT2: [00:14:07] Sounds good.
+
+ADVISOR: [00:14:10] On the rental, I’ll outline two paths: 1) keep it in your name with an increased umbrella, or 2) place it in a single-member LLC and price the insurance/administration trade-offs. For the Sarasota roof, we’ll earmark CD dollars and keep an eye on the final assessment.
+
+CLIENT1: [00:14:22] Appreciate the side-by-side on the LLC versus umbrella.
+
+ADVISOR: [00:14:26] One other quick check—beneficiary designations on the 401(k), 403(b), IRAs, and even on the 529s. We’ll confirm and document those to match your estate plan once drafted.
+
+CLIENT2: [00:14:35] Please—consistency there will make me sleep better.
+
+ADVISOR: [00:14:39] Absolutely. Any interest in modest extra principal payments on the primary mortgage once James’s support ends, or are you comfortable carrying the 3.25%?
+
+CLIENT1: [00:14:47] We’re comfortable carrying it, but once support ends we could throw an extra $200 a month at it.
+
+CLIENT2: [00:14:52] Agreed—low rate makes it fine to keep.
+
+ADVISOR: [00:14:55] Great. For travel, I’ll leave it as discretionary with a $4k–$6.5k range so we can flex year to year. And we’ll make sure the Vanguard taxable stays tax-efficient—harvesting losses if markets dip and being mindful of distributions.
+
+CLIENT1: [00:15:07] That works.
+
+ADVISOR: [00:15:10] Any looming employer plan deadlines—bonus timing, open enrollment windows—that could affect contributions?
+
+CLIENT1: [00:15:15] My bonus usually pays in March.
+
+CLIENT2: [00:15:17] No big changes on my side.
+
+ADVISOR: [00:15:20] Perfect. We can time contribution increases with the bonus and the CD maturity. I’ll also include a note on Ohio’s 529 deduction caps so we’re not leaving anything on the table.
+
+CLIENT2: [00:15:28] Great.
+
+ADVISOR: [00:15:31] Quick pause—anything we haven’t covered that’s top of mind? Insurance reviews, college planning specifics, or debt questions?
+
+CLIENT1: [00:15:38] One question: with the extra from the CD, is it better to add more to 529s or increase my 401(k) this year?
+
+ADVISOR: [00:15:45] Good question. I’ll model the after-tax impact. Given your bracket, increasing pre-tax 401(k) likely edges out 529s on immediate tax savings, but Ohio’s 529 deduction still helps—and time-in-market for college savings matters. We’ll likely split: max the state benefit for each 529, then push the rest to pre-tax 401(k) and Roth for Elizabeth if eligible.
+
+CLIENT2: [00:16:04] A split sounds sensible.
+
+ADVISOR: [00:16:07] Great. I’ll run scenarios and bring a simple “good-better-best” set of choices. Also, with your balanced risk profile, I’ll make sure both the taxable and IRA allocations align with a 60/40-ish range, tuning international to preference.
+
+CLIENT1: [00:16:18] Thanks—no strong views on international as long as it’s not extreme.
+
+ADVISOR: [00:16:22] Noted. We’ll keep a modest global tilt. Lastly, we’ll make an estate attorney intro and draft a titling checklist so the trust, beneficiary designations, and account titles line up—especially for the blended family priorities.
+
+CLIENT2: [00:16:34] Perfect.
+
+ADVISOR: [00:16:37] Next steps from me:
+- Summarize assets and send a draft net worth statement with titling notes and the July CD timeline highlighted.
+- Model contribution mix (401(k)/Roth/529/taxable) with your bracket and Ohio state benefits in mind.
+- Outline LLC vs. umbrella for the Raleigh rental and connect you with an estate attorney.
+- Confirm beneficiary designations across all accounts and add TOD/POD on the bank accounts.
+
+Sound good?
+
+CLIENT1: [00:16:58] Yes—that’s exactly what we were hoping to figure out.
+
+CLIENT2: [00:17:01] Thank you. Please send the secure link and the will/trust referral.
+
+ADVISOR: [00:17:05] Will do. I’ll also add a Social Security reminder so you can each pull updated statements before our projection meeting.
+
+CLIENT1: [00:17:10] Great—no other questions from me.
+
+CLIENT2: [00:17:13] Same here.
+
+ADVISOR: [00:17:16] Excellent. I’ll have the summary and action plan to you within two business days. Talk soon.

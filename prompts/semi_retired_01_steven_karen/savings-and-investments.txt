@@ -1,0 +1,247 @@
+# Financial Fact-Find Transcript Generation Task
+
+You are generating a realistic segment of a financial advisor's fact-find conversation with a client.
+The conversation should be natural, professional, and include specific factual information with proper timestamp citations.
+
+## Client Case: Semi-Retired Professional: Steven and Karen Lewis
+
+**Client Names:** Steven and Karen Lewis
+
+**Description:** An individual in their early 60s who has partially retired but still works part-time or freelance. They have pension income starting, some employment income, investments, and are transitioning gradually to full retirement. They reduced hours to 3 days per week and drawing some pension
+
+**Profile:**
+- Age: 63 and 68
+- Marital status: married
+- Employment: semi-retired
+- Life stage: gradual retirement
+
+## Focus Area: Savings And Investments
+
+Generate a conversation segment discussing the client's savings and investments.
+Include natural dialogue between the advisor and client(s), with specific details and values.
+
+## Attributes to Cover
+
+Include discussion of the following attributes where relevant:
+
+### savings_and_investments > static > account_number
+**Example values:**
+  1. `None`
+     Citation: "Not disclosed in transcript; advisor later collects it [00:46:01-00:46:12]."
+
+### savings_and_investments > static > account_number > citation
+**Example values:**
+  1. `Not disclosed in transcript; advisor later collects it [00:46:01-00:46:12].`
+     Citation: "Not disclosed in transcript; advisor later collects it [00:46:01-00:46:12]."
+
+### savings_and_investments > static > account_number > type
+**Example values:**
+  1. `string`
+     Citation: "Not disclosed in transcript; advisor later collects it [00:46:01-00:46:12]."
+
+### savings_and_investments > static > account_number > value
+**Example values:**
+  1. `None`
+     Citation: "Not disclosed in transcript; advisor later collects it [00:46:01-00:46:12]."
+
+### savings_and_investments > static > product_name
+**Example values:**
+  1. `Fidelity IRA (main retirement account)`
+     Citation: "ADVISOR/CLIENT1: [00:00:47-00:00:52]."
+  2. `Planned Roth IRA funded from inheritance`
+     Citation: "CLIENT1: [00:13:13-00:13:29]."
+  3. `Planned high‑yield savings account`
+     Citation: "CLIENT1: [00:13:13-00:13:29]."
+
+### savings_and_investments > static > product_name > citation
+**Example values:**
+  1. `ADVISOR/CLIENT1: [00:00:47-00:00:52].`
+     Citation: "ADVISOR/CLIENT1: [00:00:47-00:00:52]."
+  2. `CLIENT1: [00:13:13-00:13:29].`
+     Citation: "CLIENT1: [00:13:13-00:13:29]."
+  3. `CLIENT: “it’s with Ally Bank High‑Yield Savings.”`
+     Citation: "CLIENT: “it’s with Ally Bank High‑Yield Savings.”"
+
+### savings_and_investments > static > product_name > type
+**Example values:**
+  1. `string`
+     Citation: "ADVISOR/CLIENT1: [00:00:47-00:00:52]."
+  2. `string`
+     Citation: "CLIENT1: [00:13:13-00:13:29]."
+  3. `string`
+     Citation: "CLIENT: “it’s with Ally Bank High‑Yield Savings.”"
+
+### savings_and_investments > static > product_name > value
+**Example values:**
+  1. `Fidelity IRA (main retirement account)`
+     Citation: "ADVISOR/CLIENT1: [00:00:47-00:00:52]."
+  2. `Planned Roth IRA funded from inheritance`
+     Citation: "CLIENT1: [00:13:13-00:13:29]."
+  3. `Planned high‑yield savings account`
+     Citation: "CLIENT1: [00:13:13-00:13:29]."
+
+### savings_and_investments > static > product_type
+**Example values:**
+  1. `IRA`
+     Citation: "Described as Fidelity IRA; rollover from old 401k."
+  2. `IRA`
+     Citation: "Roth IRA clearly stated."
+  3. `deposit_account`
+     Citation: "Described as high‑yield savings."
+
+### savings_and_investments > static > product_type > citation
+**Example values:**
+  1. `Described as Fidelity IRA; rollover from old 401k.`
+     Citation: "Described as Fidelity IRA; rollover from old 401k."
+  2. `Roth IRA clearly stated.`
+     Citation: "Roth IRA clearly stated."
+  3. `Described as high‑yield savings.`
+     Citation: "Described as high‑yield savings."
+
+### savings_and_investments > static > product_type > type
+**Example values:**
+  1. `string`
+     Citation: "Described as Fidelity IRA; rollover from old 401k."
+  2. `string`
+     Citation: "Roth IRA clearly stated."
+  3. `string`
+     Citation: "Described as high‑yield savings."
+
+### savings_and_investments > static > product_type > value
+**Example values:**
+  1. `IRA`
+     Citation: "Described as Fidelity IRA; rollover from old 401k."
+  2. `IRA`
+     Citation: "Roth IRA clearly stated."
+  3. `deposit_account`
+     Citation: "Described as high‑yield savings."
+
+### savings_and_investments > static > provider
+**Example values:**
+  1. `Fidelity`
+     Citation: "ADVISOR: [00:00:47]."
+  2. `Not decided`
+     Citation: "Provider not specified."
+  3. `Not decided`
+     Citation: "Not specified."
+
+### savings_and_investments > static > provider > citation
+**Example values:**
+  1. `ADVISOR: [00:00:47].`
+     Citation: "ADVISOR: [00:00:47]."
+  2. `Provider not specified.`
+     Citation: "Provider not specified."
+  3. `Not specified.`
+     Citation: "Not specified."
+
+### savings_and_investments > static > provider > type
+**Example values:**
+  1. `string`
+     Citation: "ADVISOR: [00:00:47]."
+  2. `string`
+     Citation: "Provider not specified."
+  3. `string`
+     Citation: "Not specified."
+
+### savings_and_investments > static > provider > value
+**Example values:**
+  1. `Fidelity`
+     Citation: "ADVISOR: [00:00:47]."
+  2. `Not decided`
+     Citation: "Provider not specified."
+  3. `Not decided`
+     Citation: "Not specified."
+
+### savings_and_investments > timeline
+**Example values:**
+  1. `Rolled over from old 401(k) via Summit and Oak Financial about a year ago`
+     Citation: "CLIENT1: [00:00:57-00:01:03]."
+  2. `{'amount': 300, 'currency': 'USD'}`
+     Citation: "CLIENT1: [00:18:10-00:18:14] "Fidelity IRA one. I pay $300 a month into.""
+  3. `Pre‑retirement accumulation portfolio diversified across multiple Fidelity funds incl. trackers, Asia, Japan, Pacific, EM, gilts, cash`
+     Citation: "Late‑session review: [01:09:01-01:11:16] ADVISOR describes asset allocation from onscreen."
+
+### savings_and_investments > timeline > citation
+**Example values:**
+  1. `CLIENT1: [00:00:57-00:01:03].`
+     Citation: "CLIENT1: [00:00:57-00:01:03]."
+  2. `CLIENT1: [00:18:10-00:18:14] "Fidelity IRA one. I pay $300 a month into."`
+     Citation: "CLIENT1: [00:18:10-00:18:14] "Fidelity IRA one. I pay $300 a month into.""
+  3. `Late‑session review: [01:09:01-01:11:16] ADVISOR describes asset allocation from onscreen.`
+     Citation: "Late‑session review: [01:09:01-01:11:16] ADVISOR describes asset allocation from onscreen."
+
+### savings_and_investments > timeline > type
+**Example values:**
+  1. `string`
+     Citation: "CLIENT1: [00:00:57-00:01:03]."
+  2. `currency`
+     Citation: "CLIENT1: [00:18:10-00:18:14] "Fidelity IRA one. I pay $300 a month into.""
+  3. `string`
+     Citation: "Late‑session review: [01:09:01-01:11:16] ADVISOR describes asset allocation from onscreen."
+
+### savings_and_investments > timeline > value
+**Example values:**
+  1. `Rolled over from old 401(k) via Summit and Oak Financial about a year ago`
+     Citation: "CLIENT1: [00:00:57-00:01:03]."
+  2. `{'amount': 300, 'currency': 'USD'}`
+     Citation: "CLIENT1: [00:18:10-00:18:14] "Fidelity IRA one. I pay $300 a month into.""
+  3. `Pre‑retirement accumulation portfolio diversified across multiple Fidelity funds incl. trackers, Asia, Japan, Pacific, EM, gilts, cash`
+     Citation: "Late‑session review: [01:09:01-01:11:16] ADVISOR describes asset allocation from onscreen."
+
+
+## Few-Shot Citation Examples
+
+Below are examples of how to format citations with timestamps:
+
+1. **[00:01:03]** timeline[]: `Rolled over from old 401(k) via Summit and Oak Financial about a year ago`
+   > CLIENT1: [00:00:57-00:01:03].
+
+2. **[00:01:03]** citation: `CLIENT1: [00:00:57-00:01:03].`
+   > CLIENT1: [00:00:57-00:01:03].
+
+3. **[00:01:03]** type: `string`
+   > CLIENT1: [00:00:57-00:01:03].
+
+4. **[00:01:03]** value: `Rolled over from old 401(k) via Summit and Oak Financial about a year ago`
+   > CLIENT1: [00:00:57-00:01:03].
+
+5. **[00:07:25]** product_name: `Aggregate savings and investments (Sam + Megan, including brokerage and cash)`
+   > CLIENT: “total savings wise I would say about $156,000 at the moment.”
+
+6. **[00:07:25]** citation: `CLIENT: “total savings wise I would say about $156,000 at the moment.”`
+   > CLIENT: “total savings wise I would say about $156,000 at the moment.”
+
+7. **[00:07:25]** type: `string`
+   > CLIENT: “total savings wise I would say about $156,000 at the moment.”
+
+8. **[00:07:25]** value: `Aggregate savings and investments (Sam + Megan, including brokerage and cash)`
+   > CLIENT: “total savings wise I would say about $156,000 at the moment.”
+
+9. **[00:07:25]** product_type: `aggregate_portfolio_summary`
+   > Represents total rather than specific product
+
+10. **[00:07:25]** citation: `Represents total rather than specific product`
+   > Represents total rather than specific product
+
+
+## Output Requirements
+
+1. DON'T USE THE SAME LOCATIONS AND VALUES AS IN THE EXAMPLES. USE DIFFERENT VALUES AND LOCATIONS.
+1. **Format:** Natural conversational dialogue with speaker labels (ADVISOR:, CLIENT:, CLIENT1:, CLIENT2:)
+2. **Timestamps:** Include timestamps in format [HH:MM:SS] at natural conversation points
+3. **Detail:** Include specific numbers, dates, and factual information
+4. **Natural flow:** The conversation should feel realistic with natural transitions
+5. **Length:** Generate 3-5 minutes of conversation (approximately 500-1000 words)
+
+## Timeline Guidance
+
+The conversation should follow a natural progression. Here's a timeline of topics:
+
+**Around 0-5 minutes:**
+  Topics: citation, type, timeline[]
+
+**Around 0-5 minutes:**
+  Topics: citation, product name, type
+
+**Around 0-5 minutes:**
+  Topics: citation, type, timeline[]

@@ -1,0 +1,764 @@
+{
+  "session_metadata": {
+    "fact_find_date": "2024-11-29",
+    "advisor_name": "Juliet Simpson",
+    "advisor_company": "ACME Wealth Strategies",
+    "location": "Asheville / Hendersonville, NC area",
+    "raw_transcript_reference": "session_2024-11-29_samuel-smith"
+  },
+  "clients": [
+    {
+      "client_id": "client_1",
+      "role_in_case": "primary",
+      "personal_details": {
+        "first_name": {
+          "type": "string",
+          "value": "Samuel",
+          "citation": "CLIENT: Samuel Smith introduction",
+          "call_time": "00:00:51"
+        },
+        "last_name": {
+          "type": "string",
+          "value": "Smith",
+          "citation": "Metadata block: participants list",
+          "call_time": "00:00:00"
+        },
+        "known_as": {
+          "type": "string",
+          "value": "Samuel",
+          "citation": "Throughout transcript, advisor addresses client as Samuel",
+          "call_time": "00:00:51"
+        },
+        "date_of_birth": {
+          "type": "date",
+          "value": "1993-01-08",
+          "citation": "CLIENT: “January 8th, 1993.”",
+          "call_time": "00:12:25"
+        },
+        "marital_status": {
+          "type": "string",
+          "value": "engaged",
+          "citation": "CLIENT: “we are engaged… been about five years.”",
+          "call_time": "00:32:24"
+        },
+        "mobile_phone": {
+          "type": "string",
+          "value": "On file with advisor (used for PIN and WhatsApp contact)",
+          "citation": "ADVISOR: “I’ll put your number because you’re going to get a pin”",
+          "call_time": "00:31:52"
+        }
+      },
+      "employment_details": {
+        "employment_status": {
+          "type": "string",
+          "value": "employed",
+          "citation": "CLIENT: “commercial finance director at Sunrise Assisted Living”",
+          "call_time": "00:00:54"
+        },
+        "occupation": {
+          "type": "string",
+          "value": "Commercial Finance Director",
+          "citation": "CLIENT: job description",
+          "call_time": "00:00:54"
+        },
+        "employer": {
+          "type": "string",
+          "value": "Sunrise Assisted Living, Mapleton, NC",
+          "citation": "CLIENT: “at Sunrise Assisted Living over in Mapleton, NC.”",
+          "call_time": "00:00:54"
+        },
+        "highest_rate_of_tax_paid": {
+          "type": "string",
+          "value": "high federal & state brackets; close to loss-of-benefits threshold at $150,000 AGI",
+          "citation": "CLIENT & ADVISOR discussion of $150,000 threshold and high-earner position",
+          "call_time": "00:02:36"
+        }
+      },
+      "health_details": {
+        "current_state_of_health": {
+          "type": "string",
+          "value": "not_discussed",
+          "citation": "No direct discussion of Samuel’s own health; only children’s colds mentioned",
+          "call_time": "00:01:31"
+        },
+        "smoker_status": {
+          "type": "string",
+          "value": "not_discussed",
+          "citation": "Smoking status not mentioned",
+          "call_time": "00:00:00"
+        },
+        "has_will": {
+          "type": "boolean",
+          "value": false,
+          "citation": "CLIENT: “No I haven’t. No.” (re will)",
+          "call_time": "00:32:04"
+        },
+        "will_information": {
+          "type": "string",
+          "value": "No existing will; advisor strongly recommends setting up a will and possibly a trust for children’s protection.",
+          "citation": "ADVISOR & CLIENT discussion of will and children’s protection",
+          "call_time": "00:32:04"
+        }
+      },
+      "risk_profile_timeline": [
+        {
+          "property": "attitude_to_risk",
+          "type": "string",
+          "value": "moderately_adventurous",
+          "citation": "ADVISOR: “So you are moderately adventurous.”",
+          "call_time": "00:27:17"
+        }
+      ],
+      "objectives_timeline": [
+        {
+          "property": "primary_objective",
+          "type": "string",
+          "value": "Optimize use of high income to maximize tax-advantaged retirement savings while keeping taxable income under $150,000 to preserve childcare/government benefits.",
+          "citation": "CLIENT explains desire to keep income below $150k and squirrel money into 401(k)s",
+          "call_time": "00:10:15"
+        },
+        {
+          "property": "secondary_objective",
+          "type": "string",
+          "value": "Decide how to allocate additional savings between workplace 401(k), potential Traditional IRA, and taxable investments, given current provider limitations.",
+          "citation": "CLIENT: wants advice on putting more into employer pension vs better fund / Traditional IRA",
+          "call_time": "00:04:04"
+        },
+        {
+          "property": "tertiary_objective",
+          "type": "string",
+          "value": "Develop an investment strategy for significant cash savings moving from high-yield savings into investments while maintaining adequate emergency fund.",
+          "citation": "CLIENT & ADVISOR: discussion of $130k cash, 5% HYSA, and starting to invest more",
+          "call_time": "00:09:02"
+        },
+        {
+          "property": "estate_planning_objective",
+          "type": "string",
+          "value": "Understand and implement appropriate estate planning (will, possibly marriage, and protection for children) given current engaged but unmarried status.",
+          "citation": "Discussion about not being married, absence of will, and advisor’s recommendation",
+          "call_time": "00:32:04"
+        }
+      ]
+    },
+    {
+      "client_id": "client_2",
+      "role_in_case": "partner",
+      "personal_details": {
+        "first_name": {
+          "type": "string",
+          "value": "Megan",
+          "citation": "CLIENT: “Megan.” when asked partner’s name",
+          "call_time": "00:27:05"
+        },
+        "last_name": {
+          "type": "string",
+          "value": "Thompson",
+          "citation": "CLIENT: “Thompson. T h o m p - son.”",
+          "call_time": "00:31:29"
+        },
+        "known_as": {
+          "type": "string",
+          "value": "Megan",
+          "citation": "ADVISOR and CLIENT refer to partner as Megan",
+          "call_time": "00:27:05"
+        },
+        "date_of_birth": {
+          "type": "date",
+          "value": "1987-07-02",
+          "citation": "CLIENT: “July 2nd, 1987.”",
+          "call_time": "00:31:36"
+        },
+        "marital_status": {
+          "type": "string",
+          "value": "cohabiting",
+          "citation": "CLIENT: “we are engaged… not married… been about five years.”",
+          "call_time": "00:32:24"
+        }
+      },
+      "employment_details": {
+        "employment_status": {
+          "type": "string",
+          "value": "employed",
+          "citation": "CLIENT: “My partner works full-time as well.”",
+          "call_time": "00:02:15"
+        },
+        "occupation": {
+          "type": "string",
+          "value": "Insurance Broker",
+          "citation": "CLIENT: “She works insurance broker in Waynesboro.”",
+          "call_time": "00:26:53"
+        },
+        "employer": {
+          "type": "string",
+          "value": "Insurance brokerage in Waynesboro (name not specified)",
+          "citation": "Same line as occupation",
+          "call_time": "00:26:53"
+        }
+      },
+      "health_details": {
+        "current_state_of_health": {
+          "type": "string",
+          "value": "not_discussed",
+          "citation": "No direct discussion of Megan’s health",
+          "call_time": "00:00:00"
+        },
+        "smoker_status": {
+          "type": "string",
+          "value": "not_discussed",
+          "citation": "Not mentioned",
+          "call_time": "00:00:00"
+        }
+      },
+      "risk_profile_timeline": [
+        {
+          "property": "attitude_to_risk",
+          "type": "string",
+          "value": "to_be_determined",
+          "citation": "ADVISOR intends to send risk questionnaire link to Megan",
+          "call_time": "00:28:13"
+        }
+      ],
+      "objectives_timeline": [
+        {
+          "property": "shared_objectives",
+          "type": "string",
+          "value": "Align joint retirement saving, investment strategy, and estate planning for both partners and their children, including use of both tax allowances and potential 529 plans.",
+          "citation": "ADVISOR: will send risk questionnaire for Megan; discuss using both allowances and 529s",
+          "call_time": "00:28:13"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset_home_mortgage_property",
+      "owner_ids": [
+        "client_1",
+        "client_2"
+      ],
+      "static": {
+        "description": {
+          "type": "string",
+          "value": "Primary residence with associated mortgage; location not explicitly stated but within commuting distance of Asheville/Mapleton/Waynesboro area.",
+          "citation": "CLIENT & ADVISOR discuss mortgage size and general living context",
+          "call_time": "00:05:02"
+        },
+        "asset_type": {
+          "type": "string",
+          "value": "property",
+          "citation": "CLIENT: mentions “house” and mortgage; advisor refers to mortgage as good debt",
+          "call_time": "00:05:02"
+        }
+      },
+      "timeline": [
+        {
+          "property": "approximate_monthly_mortgage_cost",
+          "type": "currency",
+          "value": 3000,
+          "citation": "CLIENT: “Probably about $3,000 a month. More for the mortgage.”",
+          "call_time": "00:05:02",
+          "currency": "USD"
+        }
+      ]
+    }
+  ],
+  "incomes": [
+    {
+      "income_id": "income_client1_salary",
+      "owner_ids": [
+        "client_1"
+      ],
+      "static": {
+        "source_name": {
+          "type": "string",
+          "value": "Base salary plus car allowance from Sunrise Assisted Living",
+          "citation": "CLIENT: “current salary—car allowance—about $165 000.”",
+          "call_time": "00:02:45"
+        },
+        "income_type": {
+          "type": "string",
+          "value": "salary",
+          "citation": "Same line; regular employment income",
+          "call_time": "00:02:45"
+        },
+        "employer_or_payer": {
+          "type": "string",
+          "value": "Sunrise Assisted Living",
+          "citation": "CLIENT job description",
+          "call_time": "00:00:54"
+        },
+        "taxable": {
+          "type": "boolean",
+          "value": true,
+          "citation": "Employment income, discussed in context of taxable threshold $150k",
+          "call_time": "00:02:36"
+        }
+      },
+      "timeline": [
+        {
+          "property": "gross_annual_amount",
+          "type": "currency",
+          "value": 165000,
+          "citation": "CLIENT: “current salary—car allowance—about $165 000.”",
+          "call_time": "00:02:45",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "income_id": "income_client1_bonus",
+      "owner_ids": [
+        "client_1"
+      ],
+      "static": {
+        "source_name": {
+          "type": "string",
+          "value": "Annual performance bonus from Sunrise Assisted Living",
+          "citation": "CLIENT: “And then a bonus as well.”",
+          "call_time": "00:02:50"
+        },
+        "income_type": {
+          "type": "string",
+          "value": "bonus",
+          "citation": "Bonus explicitly mentioned",
+          "call_time": "00:02:50"
+        },
+        "employer_or_payer": {
+          "type": "string",
+          "value": "Sunrise Assisted Living",
+          "citation": "Same employment context",
+          "call_time": "00:00:54"
+        },
+        "taxable": {
+          "type": "boolean",
+          "value": true,
+          "citation": "CLIENT uses bonus to manage under $150k threshold",
+          "call_time": "00:10:15"
+        }
+      },
+      "timeline": [
+        {
+          "property": "expected_annual_bonus_current_year",
+          "type": "currency",
+          "value": 20000,
+          "citation": "CLIENT: “this year it’ll be about $20 K because I’ve only been there for half of the year”",
+          "call_time": "00:02:52",
+          "currency": "USD"
+        },
+        {
+          "property": "typical_annual_bonus_full_year",
+          "type": "currency",
+          "value": 39000,
+          "citation": "CLIENT: “on average about $39 000 a year. That’s most of the time.”",
+          "call_time": "00:03:00",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "income_id": "income_client2_salary",
+      "owner_ids": [
+        "client_2"
+      ],
+      "static": {
+        "source_name": {
+          "type": "string",
+          "value": "Salary from insurance broker role",
+          "citation": "CLIENT: “She works insurance broker in Waynesboro.”",
+          "call_time": "00:26:53"
+        },
+        "income_type": {
+          "type": "string",
+          "value": "salary",
+          "citation": "Full-time work indicated",
+          "call_time": "00:02:15"
+        },
+        "employer_or_payer": {
+          "type": "string",
+          "value": "Insurance brokerage in Waynesboro",
+          "citation": "CLIENT description",
+          "call_time": "00:26:53"
+        },
+        "taxable": {
+          "type": "boolean",
+          "value": true,
+          "citation": "Employment income",
+          "call_time": "00:02:15"
+        }
+      },
+      "timeline": [
+        {
+          "property": "gross_annual_amount",
+          "type": "currency",
+          "value": 78000,
+          "citation": "CLIENT: “She’s on about $78 000 a year.”",
+          "call_time": "00:03:34",
+          "currency": "USD"
+        }
+      ]
+    }
+  ],
+  "expenses": [
+    {
+      "expense_id": "expense_childcare",
+      "owner_ids": [
+        "client_1",
+        "client_2"
+      ],
+      "static": {
+        "category": {
+          "type": "string",
+          "value": "childcare",
+          "citation": "CLIENT: childcare fees discussion",
+          "call_time": "00:03:07"
+        },
+        "description": {
+          "type": "string",
+          "value": "Day-care / childcare costs for two young children including after government support.",
+          "citation": "CLIENT & ADVISOR refer to daycare and childcare fees, government help, free hours",
+          "call_time": "00:03:07"
+        },
+        "priority": {
+          "type": "string",
+          "value": "high priority, unavoidable in short term (approx. 2.5 more years) until children enter school.",
+          "citation": "ADVISOR: estimates remaining years of day-care; positions 401(k) contributions vs childcare costs",
+          "call_time": "00:10:43"
+        }
+      },
+      "timeline": [
+        {
+          "property": "approximate_monthly_amount",
+          "type": "currency",
+          "value": 2000,
+          "citation": "CLIENT: “Kids childcare is about $2,000 a month.”",
+          "call_time": "00:05:08",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "expense_id": "expense_household_core",
+      "owner_ids": [
+        "client_1",
+        "client_2"
+      ],
+      "static": {
+        "category": {
+          "type": "string",
+          "value": "housing",
+          "citation": "CLIENT mentions total expenses including house and mortgage",
+          "call_time": "00:05:02"
+        },
+        "description": {
+          "type": "string",
+          "value": "Total core household expenses including housing, mortgage, childcare, and other regular outgoings.",
+          "citation": "CLIENT: totals house, mortgage, kids’ childcare, and other expenses",
+          "call_time": "00:05:02"
+        },
+        "priority": {
+          "type": "string",
+          "value": "essential",
+          "citation": "These are core living expenses",
+          "call_time": "00:05:02"
+        }
+      },
+      "timeline": [
+        {
+          "property": "approximate_total_monthly_expenses",
+          "type": "currency",
+          "value": 6500,
+          "citation": "CLIENT: “So I think you’d probably say about $6,500 a [month].”",
+          "call_time": "00:05:13",
+          "currency": "USD"
+        },
+        {
+          "property": "approximate_monthly_mortgage_component",
+          "type": "currency",
+          "value": 3000,
+          "citation": "CLIENT: “Probably about $3,000 a month. More for the mortgage.”",
+          "call_time": "00:05:02",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "expense_id": "expense_other_debts",
+      "owner_ids": [
+        "client_1",
+        "client_2"
+      ],
+      "static": {
+        "category": {
+          "type": "string",
+          "value": "other",
+          "citation": "General question on debts",
+          "call_time": "00:09:52"
+        },
+        "description": {
+          "type": "string",
+          "value": "No other debts reported apart from mortgage; no personal loans, credit cards, etc. noted.",
+          "citation": "CLIENT: “No. Other than—” ADVISOR: “Mortgage?” CLIENT agrees",
+          "call_time": "00:09:54"
+        },
+        "priority": {
+          "type": "string",
+          "value": "not_applicable",
+          "citation": "No expenses here; represents absence of non-mortgage debt",
+          "call_time": "00:09:54"
+        }
+      },
+      "timeline": []
+    }
+  ],
+  "pensions": [
+    {
+      "pension_id": "pension_brightpath_401k",
+      "owner_ids": [
+        "client_1"
+      ],
+      "static": {
+        "scheme_name": {
+          "type": "string",
+          "value": "BrightPath Workplace 401(k)",
+          "citation": "CLIENT: “so it’s BrightPath Workplace 401(k) at the moment”",
+          "call_time": "00:03:51"
+        },
+        "scheme_type": {
+          "type": "string",
+          "value": "employer_sponsored_401k",
+          "citation": "Described as workplace 401(k) with employer matching",
+          "call_time": "00:03:51"
+        },
+        "provider": {
+          "type": "string",
+          "value": "BrightPath",
+          "citation": "Scheme name",
+          "call_time": "00:03:51"
+        }
+      },
+      "timeline": [
+        {
+          "property": "current_fund_value",
+          "type": "currency",
+          "value": 500,
+          "citation": "CLIENT: “probably a $500 in BrightPath Workplace 401(k)”",
+          "call_time": "00:07:08",
+          "currency": "USD"
+        },
+        {
+          "property": "employee_contribution_rate",
+          "type": "string",
+          "value": "3% of salary (minimum to obtain employer match).",
+          "citation": "CLIENT: “I’m probably putting the bare minimum into about 3 percent of that to obviously match the employer’s contributions.”",
+          "call_time": "00:03:45"
+        },
+        {
+          "property": "employer_match_rate",
+          "type": "string",
+          "value": "3% employer contribution.",
+          "citation": "CLIENT later: “So they do 3%. Yeah.”",
+          "call_time": "00:18:25"
+        },
+        {
+          "property": "contribution_type",
+          "type": "string",
+          "value": "normal automatic enrollment; company exploring pre-tax 401(k) deferral option for execs and possibly senior leadership.",
+          "citation": "CLIENT & ADVISOR: discussion of automatic enrollment and exploring pre-tax deferral",
+          "call_time": "00:06:40"
+        }
+      ]
+    },
+    {
+      "pension_id": "pension_vanguard_solo_401k",
+      "owner_ids": [
+        "client_1"
+      ],
+      "static": {
+        "scheme_name": {
+          "type": "string",
+          "value": "Vanguard Solo 401(k)",
+          "citation": "CLIENT: “that was with Vanguard Solo 401(k).”",
+          "call_time": "00:06:12"
+        },
+        "scheme_type": {
+          "type": "string",
+          "value": "solo_401k / previous employer plan for managers",
+          "citation": "CLIENT: used at prior employer J & R Apparel for managers",
+          "call_time": "00:06:12"
+        },
+        "provider": {
+          "type": "string",
+          "value": "Vanguard",
+          "citation": "Scheme name",
+          "call_time": "00:06:12"
+        }
+      },
+      "timeline": [
+        {
+          "property": "current_fund_value",
+          "type": "currency",
+          "value": 61000,
+          "citation": "CLIENT: “So it’s $61,000 in there now actually 61.”",
+          "call_time": "00:14:06",
+          "currency": "USD"
+        },
+        {
+          "property": "approx_previous_value_earlier_in_conversation",
+          "type": "currency",
+          "value": 58500,
+          "citation": "CLIENT: “Vanguard Solo 401(k) would be close to about $58,500 in there”",
+          "call_time": "00:07:08",
+          "currency": "USD"
+        }
+      ]
+    }
+  ],
+  "savings_and_investments": [
+    {
+      "savings_investment_id": "savings_hysa_ally",
+      "owner_ids": [
+        "client_1",
+        "client_2"
+      ],
+      "static": {
+        "product_name": {
+          "type": "string",
+          "value": "Ally Bank High-Yield Savings Account",
+          "citation": "CLIENT: “it’s with Ally Bank High‑Yield Savings.”",
+          "call_time": "00:08:54"
+        },
+        "product_type": {
+          "type": "string",
+          "value": "high_yield_savings_account",
+          "citation": "Described as high-yield savings",
+          "call_time": "00:08:54"
+        },
+        "provider": {
+          "type": "string",
+          "value": "Ally Bank",
+          "citation": "Same line",
+          "call_time": "00:08:54"
+        }
+      },
+      "timeline": [
+        {
+          "property": "current_balance_estimate",
+          "type": "currency",
+          "value": 130000,
+          "citation": "CLIENT: “I’ve probably got about $130,000 of it just sat in high‑yield savings accounts”",
+          "call_time": "00:09:06",
+          "currency": "USD"
+        },
+        {
+          "property": "recent_interest_rate",
+          "type": "string",
+          "value": "around 5% recently, but rates now coming down.",
+          "citation": "CLIENT: “because at the moment it’s getting about 5%. It was getting about 5% interest… saving rates are coming down”",
+          "call_time": "00:09:06"
+        }
+      ]
+    },
+    {
+      "savings_investment_id": "investment_taxable_fund",
+      "owner_ids": [
+        "client_1",
+        "client_2"
+      ],
+      "static": {
+        "product_name": {
+          "type": "string",
+          "value": "General investment fund / brokerage account (provider not specified)",
+          "citation": "CLIENT: “moved about $26,000 of it into just a normal investment fund.”",
+          "call_time": "00:09:16"
+        },
+        "product_type": {
+          "type": "string",
+          "value": "taxable_investment_account",
+          "citation": "Referred to as normal investment fund outside HYSA",
+          "call_time": "00:09:16"
+        }
+      },
+      "timeline": [
+        {
+          "property": "current_invested_amount",
+          "type": "currency",
+          "value": 26000,
+          "citation": "CLIENT: “moved about $26,000 of it into just a normal investment fund.”",
+          "call_time": "00:09:16",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "savings_investment_id": "savings_general_total",
+      "owner_ids": [
+        "client_1",
+        "client_2"
+      ],
+      "static": {
+        "product_name": {
+          "type": "string",
+          "value": "Aggregate savings and investments (Sam + Megan, including brokerage and cash)",
+          "citation": "CLIENT: “total savings wise I would say about $156,000 at the moment.”",
+          "call_time": "00:07:25"
+        },
+        "product_type": {
+          "type": "string",
+          "value": "aggregate_portfolio_summary",
+          "citation": "Represents total rather than specific product",
+          "call_time": "00:07:25"
+        }
+      },
+      "timeline": [
+        {
+          "property": "total_savings_and_investments_value",
+          "type": "currency",
+          "value": 156000,
+          "citation": "CLIENT: “total savings wise I would say about $156,000 at the moment.”",
+          "call_time": "00:07:25",
+          "currency": "USD"
+        }
+      ]
+    }
+  ],
+  "loans_and_mortgages": [
+    {
+      "loan_id": "loan_primary_mortgage",
+      "owner_ids": [
+        "client_1",
+        "client_2"
+      ],
+      "static": {
+        "loan_type": {
+          "type": "string",
+          "value": "mortgage",
+          "citation": "ADVISOR: “Mortgage? … that’s a good debt to have.”",
+          "call_time": "00:09:56"
+        },
+        "lender": {
+          "type": "string",
+          "value": "not_discussed",
+          "citation": "Lender not specified in transcript",
+          "call_time": "00:00:00"
+        },
+        "secured_against_asset_id": {
+          "type": "string",
+          "value": "asset_home_mortgage_property",
+          "citation": "Mortgage linked to primary residence asset",
+          "call_time": "00:05:02"
+        }
+      },
+      "timeline": [
+        {
+          "property": "approximate_monthly_payment",
+          "type": "currency",
+          "value": 3000,
+          "citation": "CLIENT: “Probably about $3,000 a month. More for the mortgage.”",
+          "call_time": "00:05:02",
+          "currency": "USD"
+        }
+      ]
+    }
+  ],
+  "protection_policies": []
+}

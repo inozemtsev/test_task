@@ -1,0 +1,892 @@
+# Financial Fact-Find Transcript
+# Persona: Mark and Barbara Jones
+# Type: Blended Family
+# Generated: 2025-11-17 18:19:28
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:02]  
+Can you both hear me okay?
+
+CLIENT1: [00:00:05]  
+Yeah, loud and clear. This is Mark.
+
+CLIENT2: [00:00:08]  
+And Barb here, hi.
+
+ADVISOR: [00:00:11]  
+Great. Thanks for taking the time. I know evenings are precious with kids.  
+
+Just to get the basics straight on my side: it’s Mark and Barbara Jones, is that right?
+
+CLIENT1: [00:00:19]  
+Yeah, Mark Jones.
+
+CLIENT2: [00:00:21]  
+And Barbara Jones, but everyone calls me Barb.
+
+ADVISOR: [00:00:24]  
+Perfect. I’ll use Mark and Barb then.  
+
+Mark, can I grab your date of birth?
+
+CLIENT1: [00:00:29]  
+June 14th, 1984.
+
+ADVISOR: [00:00:32]  
+So about forty now.
+
+CLIENT1: [00:00:34]  
+Yeah, turned forty last summer.
+
+ADVISOR: [00:00:36]  
+And Barb?
+
+CLIENT2: [00:00:38]  
+Second of November, 1975.
+
+ADVISOR: [00:00:41]  
+So forty‑nine.
+
+CLIENT2: [00:00:43]  
+Unfortunately, yeah. Closing in on fifty.
+
+ADVISOR: [00:00:47]  
+And relationship‑wise, you’re married to each other, second time round for both?
+
+CLIENT1: [00:00:52]  
+Yeah. We got married October 2022.
+
+CLIENT2: [00:00:55]  
+Second go for both of us.
+
+ADVISOR: [00:00:58]  
+Got it.  
+
+Let’s talk about the kids quickly so I’ve got the family picture right. How many children between you, and roughly what ages?
+
+CLIENT2: [00:01:05]  
+Three. I’ve got my daughter, Ava, she’s sixteen.
+
+CLIENT1: [00:01:10]  
+I’ve got my son, Liam, he’s twelve. And then we’ve got our little guy together, Ben, he just turned three.
+
+ADVISOR: [00:01:17]  
+Okay, so Ava sixteen, Liam twelve, and Ben three. Proper blended family.  
+
+Health‑wise, anything major I should be aware of? Things that might affect planning or insurance — serious conditions, ongoing treatments?
+
+CLIENT1: [00:01:27]  
+I’ve got slightly high blood pressure, but it’s controlled with tablets. No surgeries or anything.
+
+ADVISOR: [00:01:32]  
+Monitored and stable. Barb?
+
+CLIENT2: [00:01:35]  
+I had a slipped disc about seven years ago. They did a small op, and it’s fine now as long as I don’t go trying to lift sofas by myself.
+
+ADVISOR: [00:01:42]  
+Any regular medication for that?
+
+CLIENT2: [00:01:44]  
+Just painkillers now and again if I overdo it.
+
+ADVISOR: [00:01:47]  
+And do either of you smoke at the moment?
+
+CLIENT1: [00:01:50]  
+No. I used to, but I quit when Ben was born. So three‑ish years ago.
+
+CLIENT2: [00:01:54]  
+Never smoked. Can’t stand the smell.
+
+ADVISOR: [00:01:57]  
+Good to know.  
+
+You mentioned on the questionnaire that one of the big drivers for doing this now is the blended family and the wills. What have you got in place at the moment?
+
+CLIENT2: [00:02:05]  
+Mine’s really old. It still has my ex‑husband’s last name on it.
+
+CLIENT1: [00:02:09]  
+And mine still leaves everything to my ex, Lisa, and doesn’t mention Barb or the kids properly. We just never got around to changing them after the divorces.
+
+ADVISOR: [00:02:17]  
+So older wills, neither reflects this marriage or all three kids together.
+
+CLIENT2: [00:02:20]  
+Exactly. We don’t want it to end up “his kids” and “her kids” if something happens.
+
+CLIENT1: [00:02:25]  
+Yeah, we’ve talked about some kind of trust, splitting stuff three ways, but no clue how to actually set that up.
+
+ADVISOR: [00:02:31]  
+That’s a really common situation. We’ll come back to the how later. For now I just want to understand what you’ve got and what you want to protect.  
+
+Before we dive into money, can I grab a best contact number? Mark, what’s your cell?
+
+CLIENT1: [00:02:42]  
+Uh, hang on… [pause] okay, 513‑555‑8237.
+
+ADVISOR: [00:02:48]  
+And Barb, should I mainly go through Mark or do you want your number on file as well?
+
+CLIENT2: [00:02:52]  
+You can put mine, but Mark’s usually better. I’m in and out of treatment rooms all day. Mine’s 513‑555‑1942.
+
+ADVISOR: [00:03:00]  
+Got it.  
+
+Let’s zoom out for a second. Big picture, what are you hoping life looks like, money‑wise? When would you like work to slow down, mortgage gone, that kind of thing?
+
+CLIENT2: [00:03:09]  
+We’ve said I’d love to step back by sixty. My back doesn’t love all the running around the office and the surgery.
+
+ADVISOR: [00:03:15]  
+So aiming for sixty for you, Barb. Mark?
+
+CLIENT1: [00:03:18]  
+I can probably keep going a bit longer. Maybe early sixties for me too — sixty‑two, sixty‑three. I can’t see myself doing warehouse stuff till seventy.
+
+ADVISOR: [00:03:26]  
+Would you want to stop completely then, or taper down?
+
+CLIENT1: [00:03:29]  
+Probably drop to three days or do some kind of consulting first, then fully stop a couple years later.
+
+ADVISOR: [00:03:35]  
+And income in retirement — do you have a feel for what you’d want coming in each year in today’s dollars?
+
+CLIENT1: [00:03:40]  
+We tossed around sixty to seventy thousand joint before tax. Enough that we’re not counting every dollar but we’re not on cruises every month either.
+
+CLIENT2: [00:03:46]  
+Pay the bills, still take a couple of trips, and be able to help the kids a bit.
+
+CLIENT1: [00:03:50]  
+And we’d really like the mortgage gone by then. On this house at least.
+
+ADVISOR: [00:03:54]  
+Okay, so retire early‑to‑mid sixties, mortgage‑free, about sixty to seventy thousand a year in today’s terms, and make sure things are fair between the three kids if something happens along the way. That’s the headline.  
+
+With that in mind, can we talk about what you own — your assets — and then we’ll come back to income and spending? Let’s start with the home you’re living in now.
+
+CLIENT1: [00:04:11]  
+Sure.
+
+ADVISOR: [00:04:12]  
+Where is it and what sort of place is it?
+
+CLIENT2: [00:04:15]  
+We’re in a brick house in Loveland, just outside Cincinnati. Three bedrooms, finished basement.
+
+CLIENT1: [00:04:20]  
+Bought it end of 2018.
+
+ADVISOR: [00:04:23]  
+Primary residence, both of you and the kids there when they’re with you?
+
+CLIENT1: [00:04:26]  
+Yeah, that’s home base. Kids are there part of the week, Ben full‑time obviously.
+
+ADVISOR: [00:04:31]  
+Any idea what it would sell for today?
+
+CLIENT2: [00:04:34]  
+Zillow keeps pinging me. It says low four hundreds, like four‑twenty, four‑thirty?
+
+CLIENT1: [00:04:39]  
+Yeah, somewhere between four and four‑fifty. We haven’t had it appraised since we refinanced during COVID.
+
+ADVISOR: [00:04:45]  
+Okay, I’ll pencil in low‑to‑mid four hundreds. And there’s a mortgage on it?
+
+CLIENT1: [00:04:49]  
+Yeah. Balance is just under three hundred, I think — maybe two‑eighty, two‑ninety.
+
+CLIENT2: [00:04:54]  
+Last time I looked it was two‑eighty‑something. Payment’s around nineteen hundred a month with taxes and insurance.
+
+ADVISOR: [00:05:00]  
+Nineteen hundred all‑in, okay. And that’s a standard thirty‑year mortgage from when you refinanced?
+
+CLIENT1: [00:05:05]  
+Yeah, we refi’d into a thirty. So probably twenty‑four, twenty‑five years left.
+
+ADVISOR: [00:05:10]  
+Fixed rate?
+
+CLIENT2: [00:05:12]  
+Yeah, fixed. Two‑point‑something. We locked it during COVID when rates were crazy low.
+
+ADVISOR: [00:05:17]  
+Nice timing. And the title on the Loveland house is in both your names, joint?
+
+CLIENT2: [00:05:21]  
+Yeah, joint.
+
+CLIENT1: [00:05:22]  
+We used equity from the house I had before for the down payment, but this one’s in both names.
+
+ADVISOR: [00:05:27]  
+Any other properties — rentals, a place from before the marriage, a cabin, land?
+
+CLIENT2: [00:05:31]  
+Yeah, I still have my old townhouse in Kettering, from my first marriage.
+
+ADVISOR: [00:05:35]  
+Kettering near Dayton?
+
+CLIENT2: [00:05:37]  
+Yeah, just outside Dayton.
+
+ADVISOR: [00:05:39]  
+Is that rented out?
+
+CLIENT2: [00:05:41]  
+It is. I’ve got a couple in there; they’ve been there two years. Pay fourteen hundred a month.
+
+CLIENT1: [00:05:46]  
+That one’s kind of her thing. I don’t mess with it.
+
+ADVISOR: [00:05:49]  
+Is there a mortgage on the townhouse?
+
+CLIENT2: [00:05:51]  
+No mortgage anymore. I finished paying that off three years ago, right before COVID.
+
+CLIENT1: [00:05:56]  
+We definitely rang the bell on that one.
+
+CLIENT2: [00:05:59]  
+Yeah, so it’s free and clear.
+
+ADVISOR: [00:06:01]  
+Nice. So mortgage‑free rental in Kettering, in your name only?
+
+CLIENT2: [00:06:05]  
+Yep, just my name. In the divorce papers it was like, “that’s for Barb and her daughter”.
+
+ADVISOR: [00:06:10]  
+Any sense of value on that place?
+
+CLIENT2: [00:06:12]  
+Realtor who helped with the tenants said between two‑twenty and two‑fifty. It’s nothing fancy.
+
+ADVISOR: [00:06:18]  
+And out of that fourteen hundred rent, once you’ve allowed for HOA, taxes, insurance, a bit for repairs, what do you feel like you actually keep on an average month?
+
+CLIENT2: [00:06:26]  
+There’s a condo fee that’s two hundred‑something, and insurance and tax. So if nothing breaks, we probably keep seven, eight hundred? But I also use some of it for Ava’s school stuff.
+
+CLIENT1: [00:06:37]  
+Yeah, we kind of treat it as almost break‑even after you account for setting some aside.
+
+ADVISOR: [00:06:41]  
+Makes sense. And Mark, you mentioned a cabin?
+
+CLIENT1: [00:06:44]  
+Yeah, my brother and I have a little place up near Angola, Indiana. It’s on one of the smaller lakes. We use it in the summer.
+
+ADVISOR: [00:06:51]  
+How’s that owned?
+
+CLIENT1: [00:06:53]  
+Fifty‑fifty, both of us on the deed. No mortgage. My parents helped us buy it years ago.
+
+ADVISOR: [00:06:59]  
+Rough value, just so I know the scale?
+
+CLIENT1: [00:07:01]  
+We’ve got it insured for around one‑sixty, one‑seventy. So my half would be eighty, ninety grand if we sold it.
+
+ADVISOR: [00:07:07]  
+And running costs?
+
+CLIENT1: [00:07:09]  
+Taxes are about two grand a year total. We split that, plus utilities. It just auto‑drafts from a little joint checking my brother and I keep.
+
+ADVISOR: [00:07:17]  
+Good. From an estate‑planning point of view, have you two talked about who you’d want the Kettering townhouse and the lake cabin to go to eventually?
+
+CLIENT2: [00:07:24]  
+Yeah, kind of. The idea was townhouse is for my daughter, Ava. The cabin is for Mark’s boys — Liam and Ben.
+
+CLIENT1: [00:07:31]  
+And then the house we live in, we’ve talked about splitting that three ways so it’s fair. We just don’t know how to actually do it.
+
+ADVISOR: [00:07:38]  
+Okay, that really helps. Those are the sorts of things we can make more concrete with wills and maybe beneficiary designations.  
+
+Let’s park the estate pieces for a bit and talk about money coming in and going out, because that’s what will drive your retirement and how quickly you can be mortgage‑free.
+
+---
+
+ADVISOR: [00:07:51]  
+Mark, what do you do at the moment?
+
+CLIENT1: [00:07:53]  
+I’m an operations manager for a distribution company, Northline Distribution. Big warehouse just outside town.
+
+ADVISOR: [00:08:00]  
+Full‑time, permanent?
+
+CLIENT1: [00:08:02]  
+Yeah, full‑time. More than full‑time if you ask Barb.
+
+CLIENT2: [00:08:05]  
+He’s never home.
+
+ADVISOR: [00:08:07]  
+Roughly what’s the salary band?
+
+CLIENT1: [00:08:09]  
+Base is low eighties. Some years there’s a bonus.
+
+ADVISOR: [00:08:13]  
+How big are the bonuses typically?
+
+CLIENT1: [00:08:15]  
+All over. Some years nothing, some years two or three grand.
+
+CLIENT2: [00:08:18]  
+We tend to use it for things like the kids’ school trips or putting a bit extra in savings. We don’t rely on it.
+
+ADVISOR: [00:08:23]  
+Okay, I’ll treat it as nice‑to‑have, not core. After tax, 401(k), insurance, what actually lands in your account each month?
+
+CLIENT1: [00:08:30]  
+Um, around four thousand, give or take, depending on overtime.
+
+ADVISOR: [00:08:35]  
+And Barb, what about you?
+
+CLIENT2: [00:08:37]  
+I’m the practice manager at Rivergate Dental here in town. Four days a week, mostly school hours.
+
+ADVISOR: [00:08:42]  
+Annual income roughly?
+
+CLIENT2: [00:08:44]  
+Mid‑twenties. Twenty‑sixish, I think. I’m nowhere near Mark’s bracket.
+
+ADVISOR: [00:08:48]  
+And net per month?
+
+CLIENT2: [00:08:50]  
+Between sixteen and eighteen hundred, depending on if I pick up an extra half‑day.
+
+ADVISOR: [00:08:55]  
+Both of you have retirement plans through work?
+
+CLIENT1: [00:08:57]  
+Yeah, 401(k) at Northline.
+
+CLIENT2: [00:08:59]  
+I’ve got a 403(b) through the hospital system that owns the practice.
+
+ADVISOR: [00:09:03]  
+We’ll dig into those in a minute. Apart from salaries, any other regular income? Rental income from the townhouse, child support, that sort of thing?
+
+CLIENT2: [00:09:10]  
+There’s the rent from my townhouse, like we said. Fourteen hundred in.
+
+CLIENT1: [00:09:13]  
+And Barb gets a bit of child support from Ava’s dad.
+
+CLIENT2: [00:09:16]  
+Yeah, he pays three‑fifty a month. Sometimes late, but it shows up.
+
+ADVISOR: [00:09:20]  
+And Mark, anything coming in for Liam from his mom?
+
+CLIENT1: [00:09:23]  
+No, it’s the other way. I pay her.
+
+ADVISOR: [00:09:25]  
+Okay, let’s flip to outgoings then. Mark, what are you paying out related to your previous relationship?
+
+CLIENT1: [00:09:31]  
+Part of the divorce is I pay a slice of her mortgage instead of straight child support. That’s six hundred a month toward the house. And then I send her two hundred a month for Liam’s extras. So eight hundred all‑in.
+
+CLIENT2: [00:09:41]  
+Yeah, we treat that like a fixed bill, same as our mortgage.
+
+ADVISOR: [00:09:45]  
+Got it. So between your salaries, Barb’s child support in, the rental, and Mark’s support out, we’ve got a picture of income.  
+
+I’d like to understand your monthly spending — not perfectly, just ranges. Let’s start with the must‑pay stuff: housing, utilities, childcare, groceries.  
+
+You mentioned the home mortgage is about nineteen hundred including taxes and insurance. On top of that, what do you think you’re spending on utilities — gas, electric, water, internet?
+
+CLIENT2: [00:10:07]  
+Electric’s like one‑eighty in winter, maybe two‑fifty in summer. Gas around seventy. Water and sewer together about sixty. Internet and TV bundle is ninety‑something. So call it four to five hundred a month for utilities.
+
+CLIENT1: [00:10:19]  
+Yeah, four to five hundred sounds right.
+
+ADVISOR: [00:10:22]  
+So mortgage around nineteen hundred, utilities four to five hundred. Then the six hundred toward your ex’s mortgage and the two hundred extras on top of that — that’s eight hundred. Those are your big fixed pieces.  
+
+Groceries?
+
+CLIENT2: [00:10:33]  
+Groceries are seven to eight hundred a month. More when all three kids are here and Mark does a Costco run.
+
+CLIENT1: [00:10:39]  
+Costco kills us.
+
+ADVISOR: [00:10:41]  
+And childcare for Ben — is he in daycare full‑time?
+
+CLIENT2: [00:10:44]  
+Yeah. He’s three, so full‑time daycare Monday to Friday. It’s about fourteen‑fifty a month after the small tax credit.
+
+CLIENT1: [00:10:51]  
+It used to be closer to sixteen hundred before we switched centers. Now it’s mid‑fourteen hundreds. It’s basically another mortgage payment.
+
+ADVISOR: [00:10:57]  
+And that’ll be the case until he hits kindergarten?
+
+CLIENT2: [00:10:59]  
+He’ll start kindergarten when he’s five. So two more years, maybe two and a bit, then probably some after‑school care but not full‑time daycare.
+
+ADVISOR: [00:11:07]  
+So a big but temporary cost. When daycare drops off, any thoughts on what you’d want to do with that freed‑up money?
+
+CLIENT1: [00:11:13]  
+We keep saying once daycare’s gone we’ll breathe again.
+
+CLIENT2: [00:11:16]  
+I’d like some breathing room first, but I know we’re a bit behind on retirement.
+
+CLIENT1: [00:11:20]  
+Yeah, I’d be happy to put at least half of it into retirement — bump my 401(k), maybe more into her Roth. And maybe a bit toward college savings.
+
+ADVISOR: [00:11:27]  
+That’s useful to know. For the older two, any regular activity costs? Sports, dance, music?
+
+CLIENT1: [00:11:33]  
+Liam does soccer. It’s like three hundred a season, twice a year. Plus band fees maybe one‑fifty a year. If you average it out, maybe forty bucks a month.
+
+CLIENT2: [00:11:41]  
+Ava’s dance classes are sixty‑five a month. Plus whatever random school trips pop up.
+
+ADVISOR: [00:11:46]  
+So kids’ activities maybe a hundred‑plus a month on average.  
+
+What about more flexible stuff — eating out, streaming services, vacations?
+
+CLIENT2: [00:11:54]  
+We probably order in once a week and go out maybe twice a month.
+
+CLIENT1: [00:11:58]  
+Takeout’s forty to fifty a shot, family dinner out maybe eighty, ninety. So two hundred, maybe two‑fifty a month on eating out.
+
+CLIENT2: [00:12:05]  
+Streaming we’ve got a couple — Netflix, Disney, Spotify. Maybe sixty a month total? Gym is another seventy for the two of us.
+
+ADVISOR: [00:12:12]  
+And vacations?
+
+CLIENT1: [00:12:14]  
+We do one proper week away in the summer with all three kids. Last year we rented a cabin up near Lake Michigan. That was around three grand all‑in.
+
+CLIENT2: [00:12:22]  
+We drive, don’t usually fly. Then we go down to Mark’s parents in North Carolina a couple of times a year. Those are just gas and maybe a hotel, a few hundred each time.
+
+ADVISOR: [00:12:31]  
+If you spread it over the year, would three to four hundred a month for travel sound about right?
+
+CLIENT2: [00:12:35]  
+Yeah, that sounds about right.
+
+CLIENT1: [00:12:37]  
+And that’s one of the first things we’d cut if things got tight, along with eating out.
+
+ADVISOR: [00:12:41]  
+Okay, so we’ve got a good sense of essentials versus things you could trim if needed.  
+
+Let’s shift back to what you’ve built up — cash and investments — because that’s the fuel for your goals. We’ll start with day‑to‑day cash and then move to retirement accounts.
+
+---
+
+ADVISOR: [00:12:54]  
+What do you keep in checking and savings for day‑to‑day and emergencies?
+
+CLIENT1: [00:12:57]  
+Joint checking at Fifth Third usually sits around five or six grand. It floats with bills.
+
+CLIENT2: [00:13:02]  
+And we’ve got a joint savings at Fifth Third. That’s our local “emergency” bucket. I think it’s around seventeen, eighteen thousand.
+
+ADVISOR: [00:13:09]  
+Any online savings — Ally, Marcus, anything like that?
+
+CLIENT1: [00:13:12]  
+Yeah, we’ve got a Marcus high‑yield savings, joint. That’s where we try to park a bit more. Balance there is fifteen to twenty grand, depending on when the car breaks.
+
+ADVISOR: [00:13:20]  
+So combined, maybe low‑thirties in joint savings between Fifth Third and Marcus.
+
+CLIENT2: [00:13:24]  
+Yeah, three, four months of expenses if we stretch it.
+
+ADVISOR: [00:13:27]  
+Any separate savings either of you keep from before you got married?
+
+CLIENT2: [00:13:30]  
+I’ve got two. One is the credit union account from when my aunt passed.
+
+ADVISOR: [00:13:34]  
+Tell me about that one.
+
+CLIENT2: [00:13:36]  
+When she died, I got around thirty‑five thousand. It’s at Dayton Teachers Credit Union in a CD. Balance now is high twenties, low thirties — I pulled a bit for a car repair. The CD’s locked in until next March.
+
+ADVISOR: [00:13:47]  
+In your name only?
+
+CLIENT2: [00:13:49]  
+Yeah, just mine. We’ve talked about maybe using some of it for Roth IRA contributions, or maybe a chunk toward the mortgage, but haven’t decided.
+
+ADVISOR: [00:13:56]  
+And the other account?
+
+CLIENT2: [00:13:58]  
+Old savings at RiverBank from when I was married before. That one’s just in my name. I think there’s around fifteen thousand. In my head that’s “Ava’s money” — college, first car, that kind of thing.
+
+CLIENT1: [00:14:09]  
+Yeah, we sort of mentally earmark that as her daughter’s pot.
+
+ADVISOR: [00:14:12]  
+Mark, anything similar for your side?
+
+CLIENT1: [00:14:14]  
+I’ve got a small savings at Chase. Maybe five to seven grand. I dip into it for Liam’s stuff — soccer, band, that kind of thing.
+
+ADVISOR: [00:14:21]  
+Any other non‑retirement investments? Robinhood, joint brokerage, anything like that?
+
+CLIENT1: [00:14:25]  
+I’ve got a little Robinhood account from before we met. Three to four thousand, depending on the day. Bit of Microsoft, an index ETF, and a couple of, uh, mistakes.
+
+CLIENT2: [00:14:34]  
+And we opened a joint brokerage at Schwab last year.
+
+ADVISOR: [00:14:37]  
+What’s the joint account for, in your mind?
+
+CLIENT2: [00:14:40]  
+Kind of our “house projects and maybe early retirement” pot.
+
+CLIENT1: [00:14:43]  
+We put in about fifteen grand to start and then tossed in some of my bonus. I think it’s around twenty‑five, twenty‑seven thousand now.
+
+ADVISOR: [00:14:50]  
+And what’s it invested in?
+
+CLIENT1: [00:14:52]  
+Mostly index ETFs. One that tracks the whole U.S. market, one international, and then a short‑term bond ETF because Barb wanted something “safe”.
+
+CLIENT2: [00:14:59]  
+I got nervous when I saw it move so much at first. I keep asking him to check it, then I don’t actually want to know.
+
+ADVISOR: [00:15:05]  
+Totally normal.  
+
+Any college savings set up officially — 529s?
+
+CLIENT2: [00:15:09]  
+I’ve got one for Ava. Opened it when she was little. I think it’s around eleven or twelve thousand. It goes up and down.
+
+CLIENT1: [00:15:15]  
+For my boys, the 529s are technically at my ex‑wife’s address. She set them up. I know there’s money there, but I don’t know exact numbers. I’d guess maybe ten thousand for Liam and seven or eight for Ben.
+
+ADVISOR: [00:15:24]  
+So one 529 you own for Ava, around low teens, and two for Liam and Ben that exist but we don’t have exact figures yet.
+
+CLIENT2: [00:15:30]  
+Yeah, I can get a screenshot of mine.
+
+CLIENT1: [00:15:32]  
+And I can ask my ex. Might take a bit.
+
+ADVISOR: [00:15:35]  
+That’s fine; we’ll plug those in later. What I’m hearing is: some accounts are clearly “ours” — joint savings, Schwab, retirement plans — and some you mentally earmark for particular kids. That matters for the estate plan.  
+
+Let’s talk about the retirement side more fully now.
+
+---
+
+ADVISOR: [00:15:48]  
+Mark, roughly how many different retirement arrangements do you have?
+
+CLIENT1: [00:15:51]  
+Three, I think. There’s my current 401(k) at Northline, an old 401(k) I rolled into a Vanguard IRA, and then an older pension from when I was at an energy company, NorthGrid.
+
+ADVISOR: [00:16:00]  
+Okay, let’s take them one at a time. Current 401(k) — with Empower?
+
+CLIENT1: [00:16:04]  
+Yeah, Empower.
+
+ADVISOR: [00:16:05]  
+Rough balance?
+
+CLIENT1: [00:16:07]  
+Last time I checked it was around one‑fifty, one‑sixty thousand.
+
+ADVISOR: [00:16:11]  
+How much are you contributing?
+
+CLIENT1: [00:16:13]  
+Eight percent from my paycheck. They put in four percent.
+
+ADVISOR: [00:16:16]  
+And investment‑wise, have you picked funds or just left it in the default?
+
+CLIENT1: [00:16:20]  
+Mostly default — a target‑date 2045 fund, and then I added a bit of an S&P 500 fund. I haven’t messed with it a lot.
+
+ADVISOR: [00:16:26]  
+The Vanguard IRA — that’s from a previous employer’s 401(k)?
+
+CLIENT1: [00:16:30]  
+Yeah, my job before Northline. We moved the old 401(k) into a Vanguard IRA in 2021.
+
+CLIENT2: [00:16:35]  
+Right before we got married.
+
+CLIENT1: [00:16:37]  
+Balance is somewhere mid‑seventies — seventy‑five, seventy‑eight thousand.
+
+ADVISOR: [00:16:41]  
+And that’s also in a Vanguard target‑date fund?
+
+CLIENT1: [00:16:43]  
+Yeah, one of their “Target Retirement” funds. I just picked the one near sixty‑five.
+
+ADVISOR: [00:16:47]  
+And then the NorthGrid pension — that’s a bit different?
+
+CLIENT1: [00:16:50]  
+Yeah, they always called it a final salary pension. The statements don’t show a pot, just “your pension at retirement”. I was there fifteen years, left about eleven years ago.
+
+ADVISOR: [00:16:58]  
+Do you remember what the last statement said you might get at their normal retirement age?
+
+CLIENT1: [00:17:02]  
+From memory, about eight thousand two hundred a year at sixty‑five. If I waited to sixty‑seven it was a bit higher. There was also an option with a lump sum, like low twenties, twenty‑two, twenty‑three thousand.
+
+ADVISOR: [00:17:11]  
+And who’s listed as beneficiary on that NorthGrid pension if you died before taking it?
+
+CLIENT1: [00:17:15]  
+Pretty sure it still shows Lisa, my ex‑wife, as first. And then my two boys as secondary. I don’t think I updated it after the divorce.
+
+CLIENT2: [00:17:22]  
+Which is one of the things freaking me out.
+
+ADVISOR: [00:17:24]  
+Understandable. That’s on the list to fix.  
+
+Barb, on your side — you mentioned a 403(b) through the hospital and a Roth?
+
+CLIENT2: [00:17:31]  
+Yeah. The 403(b) is with TIAA. I think the balance is around seventy‑ish, maybe seventy‑five thousand now.
+
+ADVISOR: [00:17:37]  
+Contribution level?
+
+CLIENT2: [00:17:39]  
+I’m just doing the minimum to get the match right now — three percent from me, three from them. We dropped it a bit when Ben started daycare.
+
+ADVISOR: [00:17:45]  
+And you’ve got a Roth IRA at Schwab as well?
+
+CLIENT2: [00:17:48]  
+Yeah, opened that about two years ago. We’ve got two‑fifty a month auto‑drafting into it. Balance is maybe eight to ten thousand.
+
+ADVISOR: [00:17:56]  
+Invested in one of their balanced or moderate growth funds?
+
+CLIENT2: [00:17:59]  
+Yeah, “Schwab something Moderate Growth”. I clicked the middle‑risk option.
+
+ADVISOR: [00:18:03]  
+Any older retirement accounts from past jobs, like a small 401(k) or IRA you’ve lost track of?
+
+CLIENT2: [00:18:07]  
+I have a tiny old 401(k) from my retail days with like five grand in it. I think it’s with Fidelity. I haven’t touched it.
+
+ADVISOR: [00:18:13]  
+We’ll track that down.  
+
+On these retirement accounts, have you updated the beneficiary forms since you two got married?
+
+CLIENT2: [00:18:19]  
+I changed the TIAA one. That has Mark as primary and then the kids listed after. I don’t think I ever changed the old little 401(k).
+
+CLIENT1: [00:18:26]  
+My Empower 401(k) has Barb as primary, kids as contingent. The Vanguard and NorthGrid ones, I don’t think I’ve touched since before.
+
+ADVISOR: [00:18:32]  
+Okay, so we’ve got some clean‑up to do.  
+
+Let me ask about your appetite for investment risk, because how we use these accounts to hit that sixty‑to‑seventy‑thousand target will depend on that. Have either of you done a risk questionnaire before?
+
+CLIENT1: [00:18:44]  
+Not properly. I’ve just ticked boxes on the pension website.
+
+CLIENT2: [00:18:47]  
+I just leave mine on whatever it defaulted to.
+
+ADVISOR: [00:18:50]  
+How do you generally feel if markets drop for a bit? Say your 401(k) value fell for a year or two on paper.
+
+CLIENT1: [00:18:55]  
+I don’t like it, but I know it happens. I’m okay if it balances out over ten years or so.
+
+CLIENT2: [00:18:59]  
+I get twitchy when I see red numbers. I’m more cautious.
+
+ADVISOR: [00:19:03]  
+So Mark a bit more growth‑minded, Barb a bit more careful.
+
+CLIENT1: [00:19:06]  
+That’s fair.
+
+CLIENT2: [00:19:07]  
+Yeah, somewhere in the middle between us is probably right.
+
+ADVISOR: [00:19:10]  
+I’ll send you both a short risk questionnaire after this. It’ll give us a score for each of you and help land on a mix that feels comfortable.  
+
+Now, looping back for a moment — with everything you’ve told me about income, spending, and savings, do you have any personal loans or credit cards that are hanging around from house projects or anything like that?
+
+CLIENT1: [00:19:25]  
+Yeah, I’ve got a personal loan from when we did the kitchen last year. About eight grand left. We pay two hundred a month on that.
+
+CLIENT2: [00:19:31]  
+And we had the windows done on a “buy now, pay later” thing. That’s about fifty a month now and finishes this year.
+
+ADVISOR: [00:19:37]  
+Any balances on credit cards you’re not clearing each month?
+
+CLIENT2: [00:19:40]  
+We carry maybe a couple hundred sometimes, but we usually clear it when Mark’s bonus comes or when we get the tax refund.
+
+CLIENT1: [00:19:45]  
+Yeah, nothing huge. We hate paying interest.
+
+ADVISOR: [00:19:48]  
+Good. With the mortgage, daycare, Mark’s support, and those loans, do you feel you’re coping okay month‑to‑month, or does it feel stretched?
+
+CLIENT1: [00:19:55]  
+Most months we’re okay. School holidays and when something big hits, like the car or the rental, that’s when it feels tight.
+
+CLIENT2: [00:20:01]  
+Yeah, and if the townhouse was empty, that would be rough. We’ve been lucky the last couple of years.
+
+ADVISOR: [00:20:06]  
+And is part of the reason you’ve kept the townhouse that you’d like it as something you can pass on to Ava, rather than just selling it and paying down your own mortgage?
+
+CLIENT2: [00:20:13]  
+Yeah, that’s a big part of it. I kind of liked the idea that one day Ava gets the townhouse, and Mark’s boys get the cabin, and then we split the main house three ways somehow.
+
+CLIENT1: [00:20:22]  
+Which is why we’ve not rushed to sell it and throw everything at this mortgage, even though that might look simpler on paper.
+
+ADVISOR: [00:20:27]  
+Completely understandable. That’s the tension in blended families — the “spread it fairly” versus “simplify and de‑stress our own lives”.  
+
+On that point, how open are you to using some of the “for the kids” pots — like Barb’s inheritance CD or RiverBank savings — to help you get more secure for retirement, if the numbers showed that made a big difference?
+
+CLIENT2: [00:20:44]  
+I’m… mixed. I like knowing there’s something that’s just for Ava. But I also don’t want to be eighty‑five and broke.
+
+CLIENT1: [00:20:51]  
+Yeah, we’ve talked about maybe using part of her aunt’s money and part of the townhouse value for us, and still ring‑fencing something for Ava.
+
+ADVISOR: [00:20:58]  
+There’s often a balance to strike. We can model different scenarios — “keep everything for the kids”, “use some now, leave some later” — and see what that does to your retirement age and that sixty‑to‑seventy‑thousand goal.
+
+---
+
+ADVISOR: [00:21:10]  
+I want to swing back briefly to your wills, because we’ve now talked through properties, kids, and retirement pots.  
+
+Right now, if something happened to you, Mark, that NorthGrid pension might still send a survivor benefit to your ex, Lisa, and your old will might route assets in a way that doesn’t match what you’ve just described.
+
+CLIENT1: [00:21:24]  
+Yeah, that freaks me out a bit, to be honest.
+
+CLIENT2: [00:21:27]  
+Same with mine — I think my old will still mentions my ex and doesn’t say anything about Mark or his boys.
+
+ADVISOR: [00:21:32]  
+What I’m hearing is you’d like:  
+– Townhouse broadly earmarked for Ava  
+– Cabin broadly earmarked for Liam and Ben  
+– Main home split three ways between all three kids  
+– Retirement accounts and life insurance mainly for each other first, then the kids.
+
+CLIENT1: [00:21:46]  
+Yeah, that’s about it.
+
+CLIENT2: [00:21:48]  
+And we don’t want the kids fighting over “who got what house”.
+
+ADVISOR: [00:21:52]  
+Exactly. That’s where a coordinated will and beneficiary strategy can really help — and possibly trusts so things don’t just dump into their laps at eighteen.  
+
+Before we get there, I just want to check we haven’t missed any big pieces:  
+
+Any life insurance through work or privately?
+
+CLIENT1: [00:22:04]  
+Through work I’ve got two times salary, I think. Nothing private.
+
+CLIENT2: [00:22:08]  
+I’ve only got the basic one times salary through the practice. No separate policy.
+
+ADVISOR: [00:22:13]  
+Okay, that’s another area we’ll want to look at given the three kids and the mortgage.  
+
+Let me quickly recap *data* — not conclusions — so I know what I need statements for: Loveland house, Kettering townhouse, Indiana cabin, joint cash at Fifth Third and Marcus, Barb’s CD and RiverBank account, Mark’s Chase savings and Robinhood, Schwab joint broker, Ava’s 529, the boys’ 529s, Mark’s 401(k), Vanguard IRA and NorthGrid pension, Barb’s 403(b), Roth and the small old 401(k). Does that sound like the full list?
+
+CLIENT1: [00:22:41]  
+Yeah, that sounds like all the financial stuff.
+
+CLIENT2: [00:22:43]  
+I think so. It sounds like a lot when you say it like that.
+
+ADVISOR: [00:22:47]  
+You’ve actually built more than most people your age, especially with three kids and daycare and a rental in the mix. The challenge now is knitting it together so it lines up with your goals and the “three kids, three ways” idea.  
+
+Next steps from my side will be: I’ll send you a secure link where you can upload recent statements for all these accounts, plus that risk questionnaire for each of you. Then we’ll start mapping out options — things like:  
+– What if you redirect half the daycare cost into retirement once Ben starts school?  
+– What if you sell the townhouse at different ages versus keeping it for Ava?  
+– How to update your wills and beneficiaries so the pension and property pieces land where you want them to.
+
+CLIENT1: [00:23:18]  
+Okay, yeah. That all makes sense.
+
+CLIENT2: [00:23:20]  
+Yeah, it feels good to at least have it all out of our heads and in one place.
+
+ADVISOR: [00:23:24]  
+I know we’ve covered a lot. Is there anything we haven’t talked about that’s nagging at you tonight — any “one more thing” on your mind?
+
+CLIENT2: [00:23:30]  
+I guess just… making sure it doesn’t end up where Ava feels like she got less because the townhouse is cheaper than whatever the boys get.
+
+CLIENT1: [00:23:36]  
+And me worrying that we’re not saving enough for retirement with daycare and everything. Like, are we way off?
+
+ADVISOR: [00:23:42]  
+Those are exactly the kinds of questions the planning will answer. Once I’ve got your actual numbers, we’ll be able to say, “If you do X and Y, you’re on track for retiring at sixty‑two with Z income,” and we can tweak from there.  
+
+Let’s get those statements and questionnaires sorted first, and then we’ll schedule a follow‑up to go through the projections together.

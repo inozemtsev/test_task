@@ -1,0 +1,769 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Advisory Fact Find Session",
+    "type": "object",
+    "required": ["session_metadata", "clients"],
+    "additionalProperties": false,
+    "properties": {
+      "session_metadata": { "$ref": "#/definitions/SessionMetadata" },
+      "clients": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/Client" }
+      },
+      "assets": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/AssetItem" }
+      },
+      "incomes": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/IncomeItem" }
+      },
+      "expenses": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/ExpenseItem" }
+      },
+      "pensions": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/PensionItem" }
+      },
+      "savings_and_investments": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/SavingsInvestmentItem" }
+      },
+      "loans_and_mortgages": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/LoanMortgageItem" }
+      },
+      "protection_policies": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/ProtectionPolicyItem" }
+      }
+    },
+    "definitions": {
+      "SessionMetadata": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "session_id": { "type": "string" },
+          "fact_find_date": { "type": "string", "format": "date" },
+          "advisor_name": { "type": "string" },
+          "advisor_company": { "type": "string" },
+          "location": { "type": "string" },
+          "raw_transcript_reference": {
+            "type": "string",
+            "description": "ID/path/URL of transcript or call recording"
+          }
+        },
+        "required": ["fact_find_date"]
+      },
+      "ScalarFact": {
+        "type": "object",
+        "description": "Constant value with type and citation",
+        "required": ["type", "value", "citation"],
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "string | number | date | currency | boolean | etc."
+          },
+          "value": {},
+          "citation": {
+            "type": "string",
+            "description": "Where this value is supported in transcript/recording"
+          },
+          "call_time": {
+            "type": "string",
+            "description": "Optional position in the call (HH:MM:SS)",
+            "pattern": "^[0-9]{2}:[0-9]{2}:[0-9]{2}$"
+          },
+          "recorded_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Optional absolute timestamp (ISO 8601)"
+          }
+        }
+      },
+      "SnapshotValue": {
+        "type": "object",
+        "description": "A single property value with citation and timing information",
+        "required": ["property", "type", "value", "citation"],
+        "additionalProperties": false,
+        "properties": {
+          "property": {
+            "type": "string",
+            "description": "Name of the property being captured"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["string", "number", "currency", "date", "boolean"],
+            "description": "Data type of the value"
+          },
+          "value": {
+            "description": "The actual value - type depends on the 'type' field"
+          },
+          "citation": {
+            "type": "string",
+            "description": "Where this value is supported in transcript/recording"
+          },
+          "call_time": {
+            "type": "string",
+            "description": "Position within the call (HH:MM:SS), e.g. '00:05:23'",
+            "pattern": "^[0-9]{2}:[0-9]{2}:[0-9]{2}$"
+          },
+          "recorded_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Optional absolute timestamp (ISO 8601)"
+          },
+          "is_estimate": {
+            "type": "boolean",
+            "description": "Whether this is an estimated vs exact value (for currency/number types)"
+          },
+          "value_as_of_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date when this value was stated (for current_value, etc.)"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "type": { "const": "string" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": { "type": "string" }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": { "const": "number" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": { "type": "number" }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": { "const": "currency" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": { "type": "number" }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": { "const": "date" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": { 
+                  "type": "string",
+                  "format": "date"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": { "const": "boolean" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": { "type": "boolean" }
+              }
+            }
+          }
+        ]
+      },
+      "AssetTypeSnapshot": {
+        "allOf": [
+          { "$ref": "#/definitions/SnapshotValue" },
+          {
+            "if": {
+              "properties": {
+                "property": { "const": "asset_type" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "type": "string",
+                  "enum": ["property", "cash", "investment_account", "pension", "business", "other"]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "IncomeTypeSnapshot": {
+        "allOf": [
+          { "$ref": "#/definitions/SnapshotValue" },
+          {
+            "if": {
+              "properties": {
+                "property": { "const": "income_type" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "type": "string",
+                  "enum": ["salary", "bonus", "rental", "pension", "benefits", "dividends", "interest", "other"]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "ExpenseCategorySnapshot": {
+        "allOf": [
+          { "$ref": "#/definitions/SnapshotValue" },
+          {
+            "if": {
+              "properties": {
+                "property": { "const": "category" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "type": "string",
+                  "enum": ["housing", "loan_repayment", "motoring", "personal", "professional", "childcare", "insurance", "miscellaneous", "other"]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "LoanTypeSnapshot": {
+        "allOf": [
+          { "$ref": "#/definitions/SnapshotValue" },
+          {
+            "if": {
+              "properties": {
+                "property": { "const": "loan_type" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "type": "string",
+                  "enum": ["mortgage", "personal_loan", "credit_card", "overdraft", "car_finance", "student_loan", "other"]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "PolicyTypeSnapshot": {
+        "allOf": [
+          { "$ref": "#/definitions/SnapshotValue" },
+          {
+            "if": {
+              "properties": {
+                "property": { "const": "policy_type" }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "type": "string",
+                  "enum": ["life", "critical_illness", "income_protection", "mortgage_protection", "health", "other"]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "Client": {
+        "type": "object",
+        "required": ["client_id", "personal_details"],
+        "additionalProperties": false,
+        "properties": {
+          "client_id": {
+            "type": "string",
+            "description": "Internal ID (e.g. 'client_1')"
+          },
+          "role_in_case": {
+            "type": "string",
+            "description": "primary | partner | etc."
+          },
+          "personal_details": {
+            "type": "object",
+            "description": "Mostly constant fields",
+            "additionalProperties": false,
+            "properties": {
+              "title": { "$ref": "#/definitions/ScalarFact" },
+              "first_name": { "$ref": "#/definitions/ScalarFact" },
+              "middle_names": { "$ref": "#/definitions/ScalarFact" },
+              "last_name": { "$ref": "#/definitions/ScalarFact" },
+              "known_as": { "$ref": "#/definitions/ScalarFact" },
+              "date_of_birth": { "$ref": "#/definitions/ScalarFact" },
+              "place_of_birth": { "$ref": "#/definitions/ScalarFact" },
+              "nationality": { "$ref": "#/definitions/ScalarFact" },
+              "marital_status": {
+                "allOf": [
+                  { "$ref": "#/definitions/ScalarFact" },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "enum": [
+                          "single",
+                          "married",
+                          "civil_partnership",
+                          "divorced",
+                          "widowed",
+                          "separated",
+                          "cohabiting",
+                          "other"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "email": { "$ref": "#/definitions/ScalarFact" },
+              "mobile_phone": { "$ref": "#/definitions/ScalarFact" }
+            }
+          },
+          "employment_details": {
+            "type": "object",
+            "description": "Employment details",
+            "additionalProperties": false,
+            "properties": {
+              "employment_status": {
+                "allOf": [
+                  { "$ref": "#/definitions/ScalarFact" },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "enum": [
+                          "employed",
+                          "self_employed",
+                          "company_director",
+                          "unemployed",
+                          "retired",
+                          "student",
+                          "homemaker",
+                          "other"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "occupation": { "$ref": "#/definitions/ScalarFact" },
+              "employer": { "$ref": "#/definitions/ScalarFact" },
+              "desired_retirement_age": { "$ref": "#/definitions/ScalarFact" },
+              "highest_rate_of_tax_paid": { "$ref": "#/definitions/ScalarFact" }
+            }
+          },
+          "health_details": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "current_state_of_health": {
+                "allOf": [
+                  { "$ref": "#/definitions/ScalarFact" },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "enum": ["excellent", "good", "fair", "poor", "not_discussed"]
+                      }
+                    }
+                  }
+                ]
+              },
+              "state_of_health_explanation": { "$ref": "#/definitions/ScalarFact" },
+              "smoker_status": {
+                "allOf": [
+                  { "$ref": "#/definitions/ScalarFact" },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "enum": ["smoker", "non_smoker", "former_smoker", "not_discussed"]
+                      }
+                    }
+                  }
+                ]
+              },
+              "smoker_details": { "$ref": "#/definitions/ScalarFact" },
+              "long_term_care_needed": { "$ref": "#/definitions/ScalarFact" },
+              "long_term_care_explanation": { "$ref": "#/definitions/ScalarFact" },
+              "has_will": { "$ref": "#/definitions/ScalarFact" },
+              "will_information": { "$ref": "#/definitions/ScalarFact" },
+              "power_of_attorney": { "$ref": "#/definitions/ScalarFact" },
+              "power_of_attorney_details": { "$ref": "#/definitions/ScalarFact" }
+            }
+          },
+          "risk_profile_timeline": {
+            "type": "array",
+            "description": "Risk tolerance / capacity statements that can change during the call",
+            "items": { 
+              "allOf": [
+                { "$ref": "#/definitions/SnapshotValue" },
+                  {
+                    "type": "object",
+                    "properties": {
+                    "property": { "const": "risk_profile" },
+                      "value": {
+                        "type": "string",
+                        "enum": [
+                          "very_cautious",
+                          "cautious",
+                          "balanced",
+                          "moderately_adventurous",
+                          "adventurous",
+                          "very_adventurous"
+                        ]
+                      }
+                    }
+                  }
+                ]
+            }
+          },
+          "objectives_timeline": {
+            "type": "array",
+            "description": "Client objectives and how they evolve/clarify over the call",
+            "items": { "$ref": "#/definitions/SnapshotValue" }
+          }
+        }
+      },
+      "AssetItem": {
+        "type": "object",
+        "description": "Asset such as property, investment account, etc.",
+        "required": ["asset_id", "owner_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "asset_id": { "type": "string" },
+          "owner_ids": {
+            "type": "array",
+            "description": "List of client_ids or 'joint'",
+            "items": { "type": "string" }
+          },
+          "static": {
+            "type": "object",
+            "description": "Properties that do not typically change during the call",
+            "additionalProperties": false,
+            "properties": {
+              "description": { "$ref": "#/definitions/ScalarFact" },
+              "asset_type": {
+                "allOf": [
+                  { "$ref": "#/definitions/ScalarFact" },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "enum": [
+                          "property",
+                          "cash",
+                          "investment_account",
+                          "pension",
+                          "business",
+                          "other"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "account_number": { "$ref": "#/definitions/ScalarFact" },
+              "location": { "$ref": "#/definitions/ScalarFact" }
+            }
+          },
+          "timeline": {
+            "type": "array",
+            "description": "Time-varying or clarified properties for this asset (e.g. current_value, currency)",
+            "items": { "$ref": "#/definitions/AssetTypeSnapshot" }
+          }
+        }
+      },
+      "IncomeItem": {
+        "type": "object",
+        "description": "Income source (salary, pension income, rental, etc.)",
+        "required": ["income_id", "owner_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "income_id": { "type": "string" },
+          "owner_ids": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "client_ids or 'joint'"
+          },
+          "static": {
+            "type": "object",
+            "description": "Stable descriptors of the income source",
+            "additionalProperties": false,
+            "properties": {
+              "source_name": { "$ref": "#/definitions/ScalarFact" },
+              "income_type": {
+                "allOf": [
+                  { "$ref": "#/definitions/ScalarFact" },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "enum": [
+                          "salary",
+                          "bonus",
+                          "rental",
+                          "pension",
+                          "benefits",
+                          "dividends",
+                          "interest",
+                          "other"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "employer_or_payer": { "$ref": "#/definitions/ScalarFact" },
+              "taxable": { "$ref": "#/definitions/ScalarFact" }
+            }
+          },
+          "timeline": {
+            "type": "array",
+            "description": "Amounts, frequencies, etc. as discussed/clarified over the call",
+            "items": { "$ref": "#/definitions/IncomeTypeSnapshot" }
+          }
+        }
+      },
+      "ExpenseItem": {
+        "type": "object",
+        "description": "Single expense (loan repayment, utilities, childcare, etc.)",
+        "required": ["expense_id"],
+        "additionalProperties": false,
+        "properties": {
+          "expense_id": { "type": "string" },
+          "owner_ids": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Optional; who mainly pays this expense"
+          },
+          "static": {
+            "type": "object",
+            "description": "Stable descriptors of the expense",
+            "additionalProperties": false,
+            "properties": {
+              "category": {
+                "allOf": [
+                  { "$ref": "#/definitions/ScalarFact" },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "enum": [
+                          "housing",
+                          "loan_repayment",
+                          "motoring",
+                          "personal",
+                          "professional",
+                          "childcare",
+                          "insurance",
+                          "miscellaneous",
+                          "other"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "description": { "$ref": "#/definitions/ScalarFact" },
+              "priority": { "$ref": "#/definitions/ScalarFact" }
+            }
+          },
+          "timeline": {
+            "type": "array",
+            "description": "Amounts, frequencies, etc. as they change/clarify",
+            "items": { "$ref": "#/definitions/ExpenseCategorySnapshot" }
+          }
+        }
+      },
+      "PensionItem": {
+        "type": "object",
+        "description": "Pension scheme or policy",
+        "required": ["pension_id", "owner_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "pension_id": { "type": "string" },
+          "owner_ids": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "static": {
+            "type": "object",
+            "description": "Scheme details that usually do not change within a call",
+            "additionalProperties": false,
+            "properties": {
+              "scheme_name": { "$ref": "#/definitions/ScalarFact" },
+              "scheme_type": { "$ref": "#/definitions/ScalarFact" },
+              "provider": { "$ref": "#/definitions/ScalarFact" },
+              "policy_number": { "$ref": "#/definitions/ScalarFact" }
+            }
+          },
+          "timeline": {
+            "type": "array",
+            "description": "Fund value, contributions, benefits, etc. as discussed",
+            "items": { "$ref": "#/definitions/SnapshotValue" }
+          }
+        }
+      },
+      "SavingsInvestmentItem": {
+        "type": "object",
+        "description": "Savings or investment product (ISA, fund, deposit account, etc.)",
+        "required": ["savings_investment_id", "owner_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "savings_investment_id": { "type": "string" },
+          "owner_ids": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "static": {
+            "type": "object",
+            "description": "Product details that usually remain constant",
+            "additionalProperties": false,
+            "properties": {
+              "product_name": { "$ref": "#/definitions/ScalarFact" },
+              "product_type": { "$ref": "#/definitions/ScalarFact" },
+              "provider": { "$ref": "#/definitions/ScalarFact" },
+              "account_number": { "$ref": "#/definitions/ScalarFact" }
+            }
+          },
+          "timeline": {
+            "type": "array",
+            "description": "Balance, regular contributions, interest rate, etc.",
+            "items": { "$ref": "#/definitions/SnapshotValue" }
+          }
+        }
+      },
+      "LoanMortgageItem": {
+        "type": "object",
+        "description": "Loan or mortgage",
+        "required": ["loan_id", "owner_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "loan_id": { "type": "string" },
+          "owner_ids": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "static": {
+            "type": "object",
+            "description": "Loan details that usually do not change within a call",
+            "additionalProperties": false,
+            "properties": {
+              "loan_type": {
+                "allOf": [
+                  { "$ref": "#/definitions/ScalarFact" },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "enum": [
+                          "mortgage",
+                          "personal_loan",
+                          "credit_card",
+                          "overdraft",
+                          "car_finance",
+                          "student_loan",
+                          "other"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "lender": { "$ref": "#/definitions/ScalarFact" },
+              "secured_against_asset_id": { "$ref": "#/definitions/ScalarFact" }
+            }
+          },
+          "timeline": {
+            "type": "array",
+            "description": "Outstanding balance, monthly payment, rate, term, etc.",
+            "items": { "$ref": "#/definitions/LoanTypeSnapshot" }
+          }
+        }
+      },
+      "ProtectionPolicyItem": {
+        "type": "object",
+        "description": "Life / critical illness / income protection, etc.",
+        "required": ["policy_id", "owner_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "policy_id": { "type": "string" },
+          "owner_ids": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Policyholder client_ids"
+          },
+          "static": {
+            "type": "object",
+            "description": "Policy details that usually remain constant",
+            "additionalProperties": false,
+            "properties": {
+              "policy_type": {
+                "allOf": [
+                  { "$ref": "#/definitions/ScalarFact" },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "enum": [
+                          "life",
+                          "critical_illness",
+                          "income_protection",
+                          "mortgage_protection",
+                          "health",
+                          "other"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "insurer": { "$ref": "#/definitions/ScalarFact" },
+              "policy_number": { "$ref": "#/definitions/ScalarFact" },
+              "lives_assured_ids": { "$ref": "#/definitions/ScalarFact" }
+            }
+          },
+          "timeline": {
+            "type": "array",
+            "description": "Sum assured, premium, term end, trust status, etc.",
+            "items": { "$ref": "#/definitions/PolicyTypeSnapshot" }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,216 @@
+# Financial Fact-Find Transcript Generation Task
+
+You are generating a realistic segment of a financial advisor's fact-find conversation with a client.
+The conversation should be natural, professional, and include specific factual information with proper timestamp citations.
+
+## Client Case: Cohabiting Couple: Dorothy Lewis
+
+**Client Names:** Dorothy Lewis
+
+**Description:** An unmarried couple living together in their 30s. They are both employed, may have children, and need advice on financial planning without being married, including property ownership and protection. They are planning to marry in the future but need interim planning
+
+**Profile:**
+- Age: 31
+- Marital status: cohabiting
+- Employment: both employed
+- Life stage: committed relationship
+
+## Focus Area: Assets
+
+Generate a conversation segment discussing the client's assets.
+Include natural dialogue between the advisor and client(s), with specific details and values.
+
+## Attributes to Cover
+
+Include discussion of the following attributes where relevant:
+
+### assets > static > asset_type
+**Example values:**
+  1. `property`
+     Citation: "Implied primary home with property taxes etc [00:07:31]."
+  2. `property`
+     Citation: "Described as condo share."
+  3. `cash`
+     Citation: "Referred to as inheritance money to be moved to Roth IRA and HYSA."
+
+### assets > static > asset_type > citation
+**Example values:**
+  1. `Implied primary home with property taxes etc [00:07:31].`
+     Citation: "Implied primary home with property taxes etc [00:07:31]."
+  2. `Described as condo share.`
+     Citation: "Described as condo share."
+  3. `Referred to as inheritance money to be moved to Roth IRA and HYSA.`
+     Citation: "Referred to as inheritance money to be moved to Roth IRA and HYSA."
+
+### assets > static > asset_type > type
+**Example values:**
+  1. `string`
+     Citation: "Implied primary home with property taxes etc [00:07:31]."
+  2. `string`
+     Citation: "Described as condo share."
+  3. `string`
+     Citation: "Referred to as inheritance money to be moved to Roth IRA and HYSA."
+
+### assets > static > asset_type > value
+**Example values:**
+  1. `property`
+     Citation: "Implied primary home with property taxes etc [00:07:31]."
+  2. `property`
+     Citation: "Described as condo share."
+  3. `cash`
+     Citation: "Referred to as inheritance money to be moved to Roth IRA and HYSA."
+
+### assets > static > description
+**Example values:**
+  1. `Mortgage‑free primary residence (3‑bed house)`
+     Citation: "CLIENT1/ADVISOR: [00:05:54-00:05:57] no mortgage; [01:33:34-01:33:48] describe 3‑bed house and poten..."
+  2. `50% share in vacation condo in Sarasota, Florida (38‑unit complex in Gulf Gate)`
+     Citation: "CLIENT1: [00:05:57-00:06:05]; CLIENT2: [00:59:02-00:59:36]."
+  3. `Jennifer’s inherited money currently locked in fixed account until July 2025`
+     Citation: "CLIENT1: [00:13:13-00:13:29]."
+
+### assets > static > description > citation
+**Example values:**
+  1. `CLIENT1/ADVISOR: [00:05:54-00:05:57] no mortgage; [01:33:34-01:33:48] describe 3‑bed house and potential to downsize.`
+     Citation: "CLIENT1/ADVISOR: [00:05:54-00:05:57] no mortgage; [01:33:34-01:33:48] describe 3‑bed house and poten..."
+  2. `CLIENT1: [00:05:57-00:06:05]; CLIENT2: [00:59:02-00:59:36].`
+     Citation: "CLIENT1: [00:05:57-00:06:05]; CLIENT2: [00:59:02-00:59:36]."
+  3. `CLIENT1: [00:13:13-00:13:29].`
+     Citation: "CLIENT1: [00:13:13-00:13:29]."
+
+### assets > static > description > type
+**Example values:**
+  1. `string`
+     Citation: "CLIENT1/ADVISOR: [00:05:54-00:05:57] no mortgage; [01:33:34-01:33:48] describe 3‑bed house and poten..."
+  2. `string`
+     Citation: "CLIENT1: [00:05:57-00:06:05]; CLIENT2: [00:59:02-00:59:36]."
+  3. `string`
+     Citation: "CLIENT1: [00:13:13-00:13:29]."
+
+### assets > static > description > value
+**Example values:**
+  1. `Mortgage‑free primary residence (3‑bed house)`
+     Citation: "CLIENT1/ADVISOR: [00:05:54-00:05:57] no mortgage; [01:33:34-01:33:48] describe 3‑bed house and poten..."
+  2. `50% share in vacation condo in Sarasota, Florida (38‑unit complex in Gulf Gate)`
+     Citation: "CLIENT1: [00:05:57-00:06:05]; CLIENT2: [00:59:02-00:59:36]."
+  3. `Jennifer’s inherited money currently locked in fixed account until July 2025`
+     Citation: "CLIENT1: [00:13:13-00:13:29]."
+
+### assets > static > location
+**Example values:**
+  1. `Not specified (U.S., near Madison / St Peter’s Kroger)`
+     Citation: "CLIENT2: [00:47:58-00:48:23] local references; exact city not stated."
+  2. `Gulf Gate area, Sarasota, Florida, USA`
+     Citation: "CLIENT1: [00:12:46-00:12:56]; CLIENT2: [00:59:02-00:59:36]."
+
+### assets > static > location > citation
+**Example values:**
+  1. `CLIENT2: [00:47:58-00:48:23] local references; exact city not stated.`
+     Citation: "CLIENT2: [00:47:58-00:48:23] local references; exact city not stated."
+  2. `CLIENT1: [00:12:46-00:12:56]; CLIENT2: [00:59:02-00:59:36].`
+     Citation: "CLIENT1: [00:12:46-00:12:56]; CLIENT2: [00:59:02-00:59:36]."
+
+### assets > static > location > type
+**Example values:**
+  1. `string`
+     Citation: "CLIENT2: [00:47:58-00:48:23] local references; exact city not stated."
+  2. `string`
+     Citation: "CLIENT1: [00:12:46-00:12:56]; CLIENT2: [00:59:02-00:59:36]."
+
+### assets > static > location > value
+**Example values:**
+  1. `Not specified (U.S., near Madison / St Peter’s Kroger)`
+     Citation: "CLIENT2: [00:47:58-00:48:23] local references; exact city not stated."
+  2. `Gulf Gate area, Sarasota, Florida, USA`
+     Citation: "CLIENT1: [00:12:46-00:12:56]; CLIENT2: [00:59:02-00:59:36]."
+
+### assets > timeline
+**Example values:**
+  1. `mortgage_free`
+     Citation: "CLIENT1: [00:05:54-00:05:57] "Do you have a mortgage?" "No.""
+  2. `mortgage_free`
+     Citation: "CLIENT1/2: [00:06:05-00:06:15] "There’s no mortgage on it.""
+  3. `{'amount': 33000, 'currency': 'USD'}`
+     Citation: "CLIENT1 & CLIENT2: [00:13:31-00:13:38] estimate 32–33k by July."
+
+### assets > timeline > citation
+**Example values:**
+  1. `CLIENT1: [00:05:54-00:05:57] "Do you have a mortgage?" "No."`
+     Citation: "CLIENT1: [00:05:54-00:05:57] "Do you have a mortgage?" "No.""
+  2. `CLIENT1/2: [00:06:05-00:06:15] "There’s no mortgage on it."`
+     Citation: "CLIENT1/2: [00:06:05-00:06:15] "There’s no mortgage on it.""
+  3. `CLIENT1 & CLIENT2: [00:13:31-00:13:38] estimate 32–33k by July.`
+     Citation: "CLIENT1 & CLIENT2: [00:13:31-00:13:38] estimate 32–33k by July."
+
+### assets > timeline > type
+**Example values:**
+  1. `string`
+     Citation: "CLIENT1: [00:05:54-00:05:57] "Do you have a mortgage?" "No.""
+  2. `string`
+     Citation: "CLIENT1/2: [00:06:05-00:06:15] "There’s no mortgage on it.""
+  3. `currency`
+     Citation: "CLIENT1 & CLIENT2: [00:13:31-00:13:38] estimate 32–33k by July."
+
+### assets > timeline > value
+**Example values:**
+  1. `mortgage_free`
+     Citation: "CLIENT1: [00:05:54-00:05:57] "Do you have a mortgage?" "No.""
+  2. `mortgage_free`
+     Citation: "CLIENT1/2: [00:06:05-00:06:15] "There’s no mortgage on it.""
+  3. `{'amount': 33000, 'currency': 'USD'}`
+     Citation: "CLIENT1 & CLIENT2: [00:13:31-00:13:38] estimate 32–33k by July."
+
+
+## Few-Shot Citation Examples
+
+Below are examples of how to format citations with timestamps:
+
+1. **[00:05:02]** asset_type: `property`
+   > CLIENT: mentions “house” and mortgage; advisor refers to mortgage as good debt
+
+2. **[00:05:02]** citation: `CLIENT: mentions “house” and mortgage; advisor refers to mortgage as good debt`
+   > CLIENT: mentions “house” and mortgage; advisor refers to mortgage as good debt
+
+3. **[00:05:02]** type: `string`
+   > CLIENT: mentions “house” and mortgage; advisor refers to mortgage as good debt
+
+4. **[00:05:02]** value: `property`
+   > CLIENT: mentions “house” and mortgage; advisor refers to mortgage as good debt
+
+5. **[00:05:02]** description: `Primary residence with associated mortgage; location not explicitly stated but within commuting distance of Asheville/Mapleton/Waynesboro area.`
+   > CLIENT & ADVISOR discuss mortgage size and general living context
+
+6. **[00:05:02]** citation: `CLIENT & ADVISOR discuss mortgage size and general living context`
+   > CLIENT & ADVISOR discuss mortgage size and general living context
+
+7. **[00:05:02]** type: `string`
+   > CLIENT & ADVISOR discuss mortgage size and general living context
+
+8. **[00:05:02]** value: `Primary residence with associated mortgage; location not explicitly stated but within commuting distance of Asheville/Mapleton/Waynesboro area.`
+   > CLIENT & ADVISOR discuss mortgage size and general living context
+
+9. **[00:05:02]** timeline[]: `3000`
+   > CLIENT: “Probably about $3,000 a month. More for the mortgage.”
+
+10. **[00:05:02]** citation: `CLIENT: “Probably about $3,000 a month. More for the mortgage.”`
+   > CLIENT: “Probably about $3,000 a month. More for the mortgage.”
+
+
+## Output Requirements
+
+1. DON'T USE THE SAME LOCATIONS AND VALUES AS IN THE EXAMPLES. USE DIFFERENT VALUES AND LOCATIONS.
+1. **Format:** Natural conversational dialogue with speaker labels (ADVISOR:, CLIENT:, CLIENT1:, CLIENT2:)
+2. **Timestamps:** Include timestamps in format [HH:MM:SS] at natural conversation points
+3. **Detail:** Include specific numbers, dates, and factual information
+4. **Natural flow:** The conversation should feel realistic with natural transitions
+5. **Length:** Generate 3-5 minutes of conversation (approximately 500-1000 words)
+
+## Timeline Guidance
+
+The conversation should follow a natural progression. Here's a timeline of topics:
+
+**Around 0-5 minutes:**
+  Topics: asset type, citation, type
+
+**Around 0-5 minutes:**
+  Topics: citation, type, timeline[]

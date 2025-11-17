@@ -1,0 +1,266 @@
+# Financial Fact-Find Transcript Generation Task
+
+You are generating a realistic segment of a financial advisor's fact-find conversation with a client.
+The conversation should be natural, professional, and include specific factual information with proper timestamp citations.
+
+## Client Case: Recent Inheritance Recipient: William and Patricia Davis
+
+**Client Names:** William and Patricia Davis
+
+**Description:** An individual or couple in their 30s-50s who recently received a significant inheritance. They are employed, may have existing mortgages and investments, and need advice on managing this windfall wisely. They want to use inheritance to retire early
+
+**Profile:**
+- Age: 46 and 36
+- Marital status: married
+- Employment: employed
+- Life stage: windfall management
+
+## Focus Area: Incomes
+
+Generate a conversation segment discussing the client's incomes.
+Include natural dialogue between the advisor and client(s), with specific details and values.
+
+## Attributes to Cover
+
+Include discussion of the following attributes where relevant:
+
+### incomes > static > employer_or_payer
+**Example values:**
+  1. `Not specified`
+     Citation: "Employer not named."
+  2. `Kroger, St Peter’s store`
+     Citation: "CLIENT2: [00:56:46-00:56:54]."
+  3. `Sunrise Assisted Living`
+     Citation: "CLIENT job description"
+
+### incomes > static > employer_or_payer > citation
+**Example values:**
+  1. `Employer not named.`
+     Citation: "Employer not named."
+  2. `CLIENT2: [00:56:46-00:56:54].`
+     Citation: "CLIENT2: [00:56:46-00:56:54]."
+  3. `CLIENT job description`
+     Citation: "CLIENT job description"
+
+### incomes > static > employer_or_payer > type
+**Example values:**
+  1. `string`
+     Citation: "Employer not named."
+  2. `string`
+     Citation: "CLIENT2: [00:56:46-00:56:54]."
+  3. `string`
+     Citation: "CLIENT job description"
+
+### incomes > static > employer_or_payer > value
+**Example values:**
+  1. `Not specified`
+     Citation: "Employer not named."
+  2. `Kroger, St Peter’s store`
+     Citation: "CLIENT2: [00:56:46-00:56:54]."
+  3. `Sunrise Assisted Living`
+     Citation: "CLIENT job description"
+
+### incomes > static > income_type
+**Example values:**
+  1. `salary`
+     Citation: "Earned income from employment."
+  2. `salary`
+     Citation: "Earned part‑time wages."
+  3. `pension`
+     Citation: "Social Security is pension‑like."
+
+### incomes > static > income_type > citation
+**Example values:**
+  1. `Earned income from employment.`
+     Citation: "Earned income from employment."
+  2. `Earned part‑time wages.`
+     Citation: "Earned part‑time wages."
+  3. `Social Security is pension‑like.`
+     Citation: "Social Security is pension‑like."
+
+### incomes > static > income_type > type
+**Example values:**
+  1. `string`
+     Citation: "Earned income from employment."
+  2. `string`
+     Citation: "Earned part‑time wages."
+  3. `string`
+     Citation: "Social Security is pension‑like."
+
+### incomes > static > income_type > value
+**Example values:**
+  1. `salary`
+     Citation: "Earned income from employment."
+  2. `salary`
+     Citation: "Earned part‑time wages."
+  3. `pension`
+     Citation: "Social Security is pension‑like."
+
+### incomes > static > source_name
+**Example values:**
+  1. `Employment income – Logistics Manager`
+     Citation: "CLIENT1: [00:05:02]."
+  2. `Part‑time Customer Service Associate at Kroger (St Peter’s)`
+     Citation: "CLIENT2: [00:05:11]; [00:56:46-00:57:03]."
+  3. `Future Social Security retirement benefit for Jerome`
+     Citation: "CLIENT1/ADVISOR: [00:09:34-00:09:50]; [01:22:26-01:22:54]."
+
+### incomes > static > source_name > citation
+**Example values:**
+  1. `CLIENT1: [00:05:02].`
+     Citation: "CLIENT1: [00:05:02]."
+  2. `CLIENT2: [00:05:11]; [00:56:46-00:57:03].`
+     Citation: "CLIENT2: [00:05:11]; [00:56:46-00:57:03]."
+  3. `CLIENT1/ADVISOR: [00:09:34-00:09:50]; [01:22:26-01:22:54].`
+     Citation: "CLIENT1/ADVISOR: [00:09:34-00:09:50]; [01:22:26-01:22:54]."
+
+### incomes > static > source_name > type
+**Example values:**
+  1. `string`
+     Citation: "CLIENT1: [00:05:02]."
+  2. `string`
+     Citation: "CLIENT2: [00:05:11]; [00:56:46-00:57:03]."
+  3. `string`
+     Citation: "CLIENT1/ADVISOR: [00:09:34-00:09:50]; [01:22:26-01:22:54]."
+
+### incomes > static > source_name > value
+**Example values:**
+  1. `Employment income – Logistics Manager`
+     Citation: "CLIENT1: [00:05:02]."
+  2. `Part‑time Customer Service Associate at Kroger (St Peter’s)`
+     Citation: "CLIENT2: [00:05:11]; [00:56:46-00:57:03]."
+  3. `Future Social Security retirement benefit for Jerome`
+     Citation: "CLIENT1/ADVISOR: [00:09:34-00:09:50]; [01:22:26-01:22:54]."
+
+### incomes > static > taxable
+**Example values:**
+  1. `True`
+     Citation: "Employment salary of $43k presumed taxable."
+  2. `True`
+     Citation: "Wages are taxable though under threshold; ADVISOR [00:05:32]."
+  3. `partially_taxable`
+     Citation: "Noted as Social Security; U.S. rules imply potential partial taxation."
+
+### incomes > static > taxable > citation
+**Example values:**
+  1. `Employment salary of $43k presumed taxable.`
+     Citation: "Employment salary of $43k presumed taxable."
+  2. `Wages are taxable though under threshold; ADVISOR [00:05:32].`
+     Citation: "Wages are taxable though under threshold; ADVISOR [00:05:32]."
+  3. `Noted as Social Security; U.S. rules imply potential partial taxation.`
+     Citation: "Noted as Social Security; U.S. rules imply potential partial taxation."
+
+### incomes > static > taxable > type
+**Example values:**
+  1. `boolean`
+     Citation: "Employment salary of $43k presumed taxable."
+  2. `boolean`
+     Citation: "Wages are taxable though under threshold; ADVISOR [00:05:32]."
+  3. `string`
+     Citation: "Noted as Social Security; U.S. rules imply potential partial taxation."
+
+### incomes > static > taxable > value
+**Example values:**
+  1. `True`
+     Citation: "Employment salary of $43k presumed taxable."
+  2. `True`
+     Citation: "Wages are taxable though under threshold; ADVISOR [00:05:32]."
+  3. `partially_taxable`
+     Citation: "Noted as Social Security; U.S. rules imply potential partial taxation."
+
+### incomes > timeline
+**Example values:**
+  1. `{'amount': 43000, 'currency': 'USD'}`
+     Citation: "ADVISOR / CLIENT1: [00:05:03-00:05:09] "How much do you earn?" "43.""
+  2. `{'amount': 11000, 'currency': 'USD'}`
+     Citation: "CLIENT2/CLIENT1: [00:05:22-00:05:29] "Between 10 and 11 thousand a year"; advisor uses 11k."
+  3. `2027-07`
+     Citation: "CLIENT1: [00:09:36-00:09:40] "I can’t claim mine until July 27th.""
+
+### incomes > timeline > citation
+**Example values:**
+  1. `ADVISOR / CLIENT1: [00:05:03-00:05:09] "How much do you earn?" "43."`
+     Citation: "ADVISOR / CLIENT1: [00:05:03-00:05:09] "How much do you earn?" "43.""
+  2. `CLIENT2/CLIENT1: [00:05:22-00:05:29] "Between 10 and 11 thousand a year"; advisor uses 11k.`
+     Citation: "CLIENT2/CLIENT1: [00:05:22-00:05:29] "Between 10 and 11 thousand a year"; advisor uses 11k."
+  3. `CLIENT1: [00:09:36-00:09:40] "I can’t claim mine until July 27th."`
+     Citation: "CLIENT1: [00:09:36-00:09:40] "I can’t claim mine until July 27th.""
+
+### incomes > timeline > type
+**Example values:**
+  1. `currency`
+     Citation: "ADVISOR / CLIENT1: [00:05:03-00:05:09] "How much do you earn?" "43.""
+  2. `currency`
+     Citation: "CLIENT2/CLIENT1: [00:05:22-00:05:29] "Between 10 and 11 thousand a year"; advisor uses 11k."
+  3. `string`
+     Citation: "CLIENT1: [00:09:36-00:09:40] "I can’t claim mine until July 27th.""
+
+### incomes > timeline > value
+**Example values:**
+  1. `{'amount': 43000, 'currency': 'USD'}`
+     Citation: "ADVISOR / CLIENT1: [00:05:03-00:05:09] "How much do you earn?" "43.""
+  2. `{'amount': 11000, 'currency': 'USD'}`
+     Citation: "CLIENT2/CLIENT1: [00:05:22-00:05:29] "Between 10 and 11 thousand a year"; advisor uses 11k."
+  3. `2027-07`
+     Citation: "CLIENT1: [00:09:36-00:09:40] "I can’t claim mine until July 27th.""
+
+
+## Few-Shot Citation Examples
+
+Below are examples of how to format citations with timestamps:
+
+1. **[00:00:54]** employer_or_payer: `Sunrise Assisted Living`
+   > CLIENT job description
+
+2. **[00:00:54]** employer_or_payer: `Sunrise Assisted Living`
+   > Same employment context
+
+3. **[00:00:54]** citation: `CLIENT job description`
+   > CLIENT job description
+
+4. **[00:00:54]** citation: `Same employment context`
+   > Same employment context
+
+5. **[00:00:54]** type: `string`
+   > CLIENT job description
+
+6. **[00:00:54]** type: `string`
+   > Same employment context
+
+7. **[00:00:54]** value: `Sunrise Assisted Living`
+   > CLIENT job description
+
+8. **[00:00:54]** value: `Sunrise Assisted Living`
+   > Same employment context
+
+9. **[00:02:15]** income_type: `salary`
+   > Full-time work indicated
+
+10. **[00:02:15]** citation: `Full-time work indicated`
+   > Full-time work indicated
+
+
+## Output Requirements
+
+1. DON'T USE THE SAME LOCATIONS AND VALUES AS IN THE EXAMPLES. USE DIFFERENT VALUES AND LOCATIONS.
+1. **Format:** Natural conversational dialogue with speaker labels (ADVISOR:, CLIENT:, CLIENT1:, CLIENT2:)
+2. **Timestamps:** Include timestamps in format [HH:MM:SS] at natural conversation points
+3. **Detail:** Include specific numbers, dates, and factual information
+4. **Natural flow:** The conversation should feel realistic with natural transitions
+5. **Length:** Generate 3-5 minutes of conversation (approximately 500-1000 words)
+
+## Timeline Guidance
+
+The conversation should follow a natural progression. Here's a timeline of topics:
+
+**Around 0-5 minutes:**
+  Topics: citation, employer or payer
+
+**Around 0-5 minutes:**
+  Topics: citation, type, timeline[]
+
+**Around 0-5 minutes:**
+  Topics: citation, taxable, type
+
+**Around 0-5 minutes:**
+  Topics: citation, type, employer or payer

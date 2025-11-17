@@ -1,0 +1,233 @@
+# Financial Fact-Find Transcript Generation Task
+
+You are generating a realistic segment of a financial advisor's fact-find conversation with a client.
+The conversation should be natural, professional, and include specific factual information with proper timestamp citations.
+
+## Client Case: Cohabiting Couple: Dorothy Lewis
+
+**Client Names:** Dorothy Lewis
+
+**Description:** An unmarried couple living together in their 30s. They are both employed, may have children, and need advice on financial planning without being married, including property ownership and protection. They are planning to marry in the future but need interim planning
+
+**Profile:**
+- Age: 31
+- Marital status: cohabiting
+- Employment: both employed
+- Life stage: committed relationship
+
+## Focus Area: Pensions
+
+Generate a conversation segment discussing the client's pensions.
+Include natural dialogue between the advisor and client(s), with specific details and values.
+
+## Attributes to Cover
+
+Include discussion of the following attributes where relevant:
+
+### pensions > static > provider
+**Example values:**
+  1. `Prudential`
+     Citation: "ADVISOR: [00:00:01]."
+  2. `Vanguard`
+     Citation: "ADVISOR: [00:00:01]."
+  3. `BrightPath`
+     Citation: "Scheme name"
+
+### pensions > static > provider > citation
+**Example values:**
+  1. `ADVISOR: [00:00:01].`
+     Citation: "ADVISOR: [00:00:01]."
+  2. `Scheme name`
+     Citation: "Scheme name"
+  3. `Scheme name`
+     Citation: "Scheme name"
+
+### pensions > static > provider > type
+**Example values:**
+  1. `string`
+     Citation: "ADVISOR: [00:00:01]."
+  2. `string`
+     Citation: "Scheme name"
+  3. `string`
+     Citation: "Scheme name"
+
+### pensions > static > provider > value
+**Example values:**
+  1. `Prudential`
+     Citation: "ADVISOR: [00:00:01]."
+  2. `Vanguard`
+     Citation: "ADVISOR: [00:00:01]."
+  3. `BrightPath`
+     Citation: "Scheme name"
+
+### pensions > static > scheme_name
+**Example values:**
+  1. `Prudential Annuity`
+     Citation: "ADVISOR: [00:00:01] "Prudential annuity.""
+  2. `Workplace Vanguard 401(k)`
+     Citation: "ADVISOR: [00:00:01] "workplace Vanguard four oh one kay."; CLIENT1 confirms."
+  3. `Jennifer’s company 401(k)`
+     Citation: "CLIENT1: [00:08:17-00:08:35]."
+
+### pensions > static > scheme_name > citation
+**Example values:**
+  1. `ADVISOR: [00:00:01] "Prudential annuity."`
+     Citation: "ADVISOR: [00:00:01] "Prudential annuity.""
+  2. `ADVISOR: [00:00:01] "workplace Vanguard four oh one kay."; CLIENT1 confirms.`
+     Citation: "ADVISOR: [00:00:01] "workplace Vanguard four oh one kay."; CLIENT1 confirms."
+  3. `CLIENT1: [00:08:17-00:08:35].`
+     Citation: "CLIENT1: [00:08:17-00:08:35]."
+
+### pensions > static > scheme_name > type
+**Example values:**
+  1. `string`
+     Citation: "ADVISOR: [00:00:01] "Prudential annuity.""
+  2. `string`
+     Citation: "ADVISOR: [00:00:01] "workplace Vanguard four oh one kay."; CLIENT1 confirms."
+  3. `string`
+     Citation: "CLIENT1: [00:08:17-00:08:35]."
+
+### pensions > static > scheme_name > value
+**Example values:**
+  1. `Prudential Annuity`
+     Citation: "ADVISOR: [00:00:01] "Prudential annuity.""
+  2. `Workplace Vanguard 401(k)`
+     Citation: "ADVISOR: [00:00:01] "workplace Vanguard four oh one kay."; CLIENT1 confirms."
+  3. `Jennifer’s company 401(k)`
+     Citation: "CLIENT1: [00:08:17-00:08:35]."
+
+### pensions > static > scheme_type
+**Example values:**
+  1. `individual_annuity_with_guaranteed_annuity_account`
+     Citation: "ADVISOR/CLIENT1: [00:15:15-00:15:55] discuss Prudential guaranteed annuity with bonuses, guaranteed ..."
+  2. `defined_contribution_401k`
+     Citation: "Described as workplace 401k plan."
+  3. `defined_contribution_401k`
+     Citation: "Referred to as company 401k."
+
+### pensions > static > scheme_type > citation
+**Example values:**
+  1. `ADVISOR/CLIENT1: [00:15:15-00:15:55] discuss Prudential guaranteed annuity with bonuses, guaranteed annuity rate etc.`
+     Citation: "ADVISOR/CLIENT1: [00:15:15-00:15:55] discuss Prudential guaranteed annuity with bonuses, guaranteed ..."
+  2. `Described as workplace 401k plan.`
+     Citation: "Described as workplace 401k plan."
+  3. `Referred to as company 401k.`
+     Citation: "Referred to as company 401k."
+
+### pensions > static > scheme_type > type
+**Example values:**
+  1. `string`
+     Citation: "ADVISOR/CLIENT1: [00:15:15-00:15:55] discuss Prudential guaranteed annuity with bonuses, guaranteed ..."
+  2. `string`
+     Citation: "Described as workplace 401k plan."
+  3. `string`
+     Citation: "Referred to as company 401k."
+
+### pensions > static > scheme_type > value
+**Example values:**
+  1. `individual_annuity_with_guaranteed_annuity_account`
+     Citation: "ADVISOR/CLIENT1: [00:15:15-00:15:55] discuss Prudential guaranteed annuity with bonuses, guaranteed ..."
+  2. `defined_contribution_401k`
+     Citation: "Described as workplace 401k plan."
+  3. `defined_contribution_401k`
+     Citation: "Referred to as company 401k."
+
+### pensions > timeline
+**Example values:**
+  1. `{'amount': 61000, 'currency': 'USD'}`
+     Citation: "CLIENT1: [00:42:15-00:42:15] references values 71k, 61k, now 59k; April 24 statement ~61k."
+  2. `{'amount': 59000, 'currency': 'USD'}`
+     Citation: "ADVISOR/CLIENT1: [00:27:18-00:27:26] ADVISOR: "I’m going to remove the 59 K just in case." CLIENT1 e..."
+  3. `{'amount': 3000, 'currency': 'USD'}`
+     Citation: "CLIENT1: [00:41:09-00:41:19] describes earlier quote "three grand" per year alongside 9k lump sum."
+
+### pensions > timeline > citation
+**Example values:**
+  1. `CLIENT1: [00:42:15-00:42:15] references values 71k, 61k, now 59k; April 24 statement ~61k.`
+     Citation: "CLIENT1: [00:42:15-00:42:15] references values 71k, 61k, now 59k; April 24 statement ~61k."
+  2. `ADVISOR/CLIENT1: [00:27:18-00:27:26] ADVISOR: "I’m going to remove the 59 K just in case." CLIENT1 earlier notes current 59k.`
+     Citation: "ADVISOR/CLIENT1: [00:27:18-00:27:26] ADVISOR: "I’m going to remove the 59 K just in case." CLIENT1 e..."
+  3. `CLIENT1: [00:41:09-00:41:19] describes earlier quote "three grand" per year alongside 9k lump sum.`
+     Citation: "CLIENT1: [00:41:09-00:41:19] describes earlier quote "three grand" per year alongside 9k lump sum."
+
+### pensions > timeline > type
+**Example values:**
+  1. `currency`
+     Citation: "CLIENT1: [00:42:15-00:42:15] references values 71k, 61k, now 59k; April 24 statement ~61k."
+  2. `currency`
+     Citation: "ADVISOR/CLIENT1: [00:27:18-00:27:26] ADVISOR: "I’m going to remove the 59 K just in case." CLIENT1 e..."
+  3. `currency`
+     Citation: "CLIENT1: [00:41:09-00:41:19] describes earlier quote "three grand" per year alongside 9k lump sum."
+
+### pensions > timeline > value
+**Example values:**
+  1. `{'amount': 61000, 'currency': 'USD'}`
+     Citation: "CLIENT1: [00:42:15-00:42:15] references values 71k, 61k, now 59k; April 24 statement ~61k."
+  2. `{'amount': 59000, 'currency': 'USD'}`
+     Citation: "ADVISOR/CLIENT1: [00:27:18-00:27:26] ADVISOR: "I’m going to remove the 59 K just in case." CLIENT1 e..."
+  3. `{'amount': 3000, 'currency': 'USD'}`
+     Citation: "CLIENT1: [00:41:09-00:41:19] describes earlier quote "three grand" per year alongside 9k lump sum."
+
+
+## Few-Shot Citation Examples
+
+Below are examples of how to format citations with timestamps:
+
+1. **[00:00:09]** timeline[]: `10`
+   > CLIENT1: [00:00:09] "Workplace one, which is only ten years old."
+
+2. **[00:00:09]** citation: `CLIENT1: [00:00:09] "Workplace one, which is only ten years old."`
+   > CLIENT1: [00:00:09] "Workplace one, which is only ten years old."
+
+3. **[00:00:09]** type: `number`
+   > CLIENT1: [00:00:09] "Workplace one, which is only ten years old."
+
+4. **[00:00:09]** value: `10`
+   > CLIENT1: [00:00:09] "Workplace one, which is only ten years old."
+
+5. **[00:00:17]** timeline[]: `{'amount': 33000, 'currency': 'USD'}`
+   > CLIENT1: [00:00:17-00:00:24] "valuation on that today is 33 thousand."
+
+6. **[00:00:17]** citation: `CLIENT1: [00:00:17-00:00:24] "valuation on that today is 33 thousand."`
+   > CLIENT1: [00:00:17-00:00:24] "valuation on that today is 33 thousand."
+
+7. **[00:00:17]** type: `currency`
+   > CLIENT1: [00:00:17-00:00:24] "valuation on that today is 33 thousand."
+
+8. **[00:00:17]** value: `{'amount': 33000, 'currency': 'USD'}`
+   > CLIENT1: [00:00:17-00:00:24] "valuation on that today is 33 thousand."
+
+9. **[00:03:45]** timeline[]: `3% of salary (minimum to obtain employer match).`
+   > CLIENT: “I’m probably putting the bare minimum into about 3 percent of that to obviously match the employer’s contributions.”
+
+10. **[00:03:45]** citation: `CLIENT: “I’m probably putting the bare minimum into about 3 percent of that to obviously match the employer’s contributions.”`
+   > CLIENT: “I’m probably putting the bare minimum into about 3 percent of that to obviously match the employer’s contributions.”
+
+
+## Output Requirements
+
+1. DON'T USE THE SAME LOCATIONS AND VALUES AS IN THE EXAMPLES. USE DIFFERENT VALUES AND LOCATIONS.
+1. **Format:** Natural conversational dialogue with speaker labels (ADVISOR:, CLIENT:, CLIENT1:, CLIENT2:)
+2. **Timestamps:** Include timestamps in format [HH:MM:SS] at natural conversation points
+3. **Detail:** Include specific numbers, dates, and factual information
+4. **Natural flow:** The conversation should feel realistic with natural transitions
+5. **Length:** Generate 3-5 minutes of conversation (approximately 500-1000 words)
+
+## Timeline Guidance
+
+The conversation should follow a natural progression. Here's a timeline of topics:
+
+**Around 0-5 minutes:**
+  Topics: citation, type, timeline[]
+
+**Around 0-5 minutes:**
+  Topics: citation, type, provider
+
+**Around 0-5 minutes:**
+  Topics: citation, type, timeline[]
+
+**Around 0-5 minutes:**
+  Topics: citation, type, timeline[]
+
+**Around 0-5 minutes:**
+  Topics: citation, type, timeline[]

@@ -1,0 +1,981 @@
+# Financial Fact-Find Transcript
+# Persona: Richard and Margaret Lee
+# Type: Career Transition Individual
+# Generated: 2025-11-17 18:51:51
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:02]  
+So, Richard, Margaret, thanks for taking the time this evening. Before we get into the detail, can I just check I’ve got your basic details right for the system? Full names as they appear on your passports or driving licences?
+
+CLIENT1: [00:00:12]  
+Yep. It’s Richard Andrew Lee. L‑E‑E.
+
+ADVISOR: [00:00:17]  
+Thanks, Richard. And Margaret?
+
+CLIENT2: [00:00:20]  
+It’s Margaret Helen Lee. Same Lee, double E.
+
+ADVISOR: [00:00:25]  
+Perfect. And you’re married to each other?
+
+CLIENT2: [00:00:28]  
+Yes, married.
+
+CLIENT1: [00:00:29]  
+Yeah, nearly fifteen years now.
+
+ADVISOR: [00:00:33]  
+Brilliant. I’ll grab dates of birth as well. Richard?
+
+CLIENT1: [00:00:37]  
+Seventeenth of May, nineteen eighty… two. I always have to think on the year.
+
+ADVISOR: [00:00:43]  
+No problem. And Margaret?
+
+CLIENT2: [00:00:45]  
+Ninth of November nineteen seventy‑eight.
+
+ADVISOR: [00:00:50]  
+Lovely, thank you. So that makes you forty‑three and forty‑six at the moment, give or take.
+
+CLIENT2: [00:00:54]  
+That’s right, sadly.
+
+CLIENT1: [00:00:55]  
+Yeah, feels about right.
+
+ADVISOR: [00:01:00]  
+Before we get onto money, I always ask about health because it feeds into things like insurance and retirement planning. How would you each describe your general health?
+
+CLIENT2: [00:01:08]  
+Um, I’d say pretty good. I get a bit of lower back pain if I sit too long, but nothing major. No big diagnoses.
+
+CLIENT1: [00:01:15]  
+I’m fine. Bit unfit since I stopped the building work, but no operations or anything.
+
+ADVISOR: [00:01:20]  
+Any regular medication, hospital check‑ups?
+
+CLIENT2: [00:01:24]  
+I take a mild thing for blood pressure. Low dose. I can’t remember the name… amlo… something.
+
+CLIENT1: [00:01:30]  
+Amlodipine.
+
+CLIENT2: [00:01:31]  
+Yes, that. One tablet a day. GP’s happy with it.
+
+CLIENT1: [00:01:35]  
+I don’t take anything. Just vitamins when I remember.
+
+ADVISOR: [00:01:38]  
+And smoking at all?
+
+CLIENT1: [00:01:41]  
+I used to. Stopped about five years ago now.
+
+ADVISOR: [00:01:44]  
+Roughly how much did you smoke?
+
+CLIENT1: [00:01:47]  
+Ten a day, that sort of level. Nothing since our youngest was born.
+
+CLIENT2: [00:01:52]  
+I’ve never smoked. Well, I tried at college, but that doesn’t count.
+
+ADVISOR: [00:01:56]  
+Alcohol intake? Just social, or more than that?
+
+CLIENT2: [00:02:00]  
+Bottle of wine over the weekend between us, that’s about it.
+
+CLIENT1: [00:02:03]  
+Yeah, nothing crazy.
+
+ADVISOR: [00:02:07]  
+Okay. One last bit of “life admin”: do you have wills in place?
+
+CLIENT2: [00:02:12]  
+No… we keep talking about it, but we’ve never actually done it.
+
+CLIENT1: [00:02:16]  
+We looked at one of those online ones in lockdown, but then we weren’t sure if it was proper, so we just parked it.
+
+ADVISOR: [00:02:22]  
+Understood. With two young children it’s definitely something I’d like you to sort fairly soon. We can point you in the right direction later on.
+
+CLIENT2: [00:02:29]  
+Yeah, we’d appreciate that. We just want to make sure the kids would be okay if anything happened.
+
+ADVISOR: [00:02:35]  
+We’ll circle back to it. Let’s talk briefly about the family and then we’ll get into the finances. How many children do you have, and how old are they?
+
+CLIENT2: [00:02:43]  
+Two. Our eldest, Sam, is five – he’s in Year 1 now. And Ella is three, she’s in nursery.
+
+CLIENT1: [00:02:50]  
+Yeah, Ella does four days a week at the nursery round the corner.
+
+ADVISOR: [00:02:55]  
+Okay. And home – you’re in your own place at the moment?
+
+CLIENT1: [00:03:00]  
+Yeah. We own. It’s our family house.
+
+ADVISOR: [00:03:03]  
+Whereabouts?
+
+CLIENT2: [00:03:05]  
+North side of Nottingham, sort of Arnold way. Just a normal estate.
+
+ADVISOR: [00:03:10]  
+And the property itself – semi, terrace…?
+
+CLIENT1: [00:03:13]  
+Four‑bed semi‑detached. Small garden. Nothing fancy.
+
+ADVISOR: [00:03:18]  
+Do you have a sense of what it might be worth if you put it on the market today?
+
+CLIENT2: [00:03:22]  
+We looked on Rightmove a few months ago. Similar ones were around three thirty, three fifty.
+
+CLIENT1: [00:03:29]  
+Yeah, last one on our street went for just under three forty, so we’ve been saying mid‑three hundreds.
+
+ADVISOR: [00:03:35]  
+Okay, mid‑three hundreds. And there’s a mortgage on it?
+
+CLIENT1: [00:03:39]  
+Yeah, definitely.
+
+ADVISOR: [00:03:41]  
+Roughly how much still outstanding?
+
+CLIENT2: [00:03:44]  
+I always forget the exact number… I want to say about one fifty… one fifty‑something?
+
+CLIENT1: [00:03:50]  
+I checked the app last week. It was one forty‑seven, maybe one forty‑eight thousand. Somewhere there.
+
+ADVISOR: [00:03:57]  
+So mid‑one‑forties. Fixed rate at the moment?
+
+CLIENT1: [00:04:00]  
+Yeah, two‑year fix. Runs until October next year. I think the rate’s three point… three point one nine percent.
+
+CLIENT2: [00:04:08]  
+The payment is about seven hundred and seventy a month, roughly.
+
+ADVISOR: [00:04:13]  
+That tallies. We’ll come back to the mortgage when we look at your monthly budget.  
+
+Before we do that, can you talk me through what you’re both doing work‑wise at the moment, and what’s changing? Richard, do you want to start?
+
+CLIENT1: [00:04:24]  
+Yeah. So I was a site manager with Northfield Construction in Birmingham. Full‑time. Left there end of March this year.
+
+ADVISOR: [00:04:32]  
+Okay.
+
+CLIENT1: [00:04:33]  
+I’m now on a software testing course – a twelve‑month programme with a training firm in Manchester, mainly online.
+
+ADVISOR: [00:04:40]  
+Right, so retraining into tech.
+
+CLIENT1: [00:04:42]  
+Yeah. To bring some money in, I do delivery driving a couple of days a week with CitySprint Logistics. So I’m sort of half student, half self‑employed.
+
+ADVISOR: [00:04:51]  
+Roughly how much are you earning from the delivery work at the moment? Ballpark per month.
+
+CLIENT1: [00:04:56]  
+It jumps about. Some months six hundred, some months nearer eight, nine hundred. Depends how many shifts I can do round the course and the kids.
+
+ADVISOR: [00:05:05]  
+And at Northfield, what sort of salary band were you on?
+
+CLIENT1: [00:05:08]  
+Around mid‑forties. Just under fifty with overtime.
+
+ADVISOR: [00:05:13]  
+Okay, so from a solid mid‑forties salary down to, at the moment, maybe seven or eight hundred a month on average from the driving.
+
+CLIENT1: [00:05:20]  
+Yeah. Big drop.
+
+ADVISOR: [00:05:23]  
+Any other income in your name at the moment? Tutoring, odd jobs?
+
+CLIENT1: [00:05:27]  
+No, just the driving. The course itself is full‑on, I can’t really take on more.
+
+ADVISOR: [00:05:32]  
+Makes sense. Margaret, how about you?
+
+CLIENT2: [00:05:35]  
+I’ve only gone back in the last year, really. I’m part‑time admin at Willowbrook Dental Practice in Coventry. Two days a week – sixteen hours.
+
+ADVISOR: [00:05:43]  
+And what does that bring in each month?
+
+CLIENT2: [00:05:46]  
+I bring in maybe seven to nine hundred a month before tax. Somewhere around there.
+
+ADVISOR: [00:05:52]  
+PAYE?
+
+CLIENT2: [00:05:53]  
+Yeah, I’m on their payroll.
+
+ADVISOR: [00:05:55]  
+And you mentioned you’re thinking about counselling?
+
+CLIENT2: [00:05:58]  
+Yeah, I’m starting a counselling diploma next September, hopefully. The idea is to build that up into a proper career once the course is done and the kids are a bit older.
+
+ADVISOR: [00:06:08]  
+Got it. Do Willowbrook put you into a workplace pension at the moment?
+
+CLIENT2: [00:06:11]  
+They did automatically put me in. I opted out after a couple of months.
+
+ADVISOR: [00:06:16]  
+What made you opt out?
+
+CLIENT2: [00:06:18]  
+Just cash flow. It didn’t feel like a lot of money coming in and then some of it was going straight out again. Probably a bad decision, but at the time it was like, “we need every bit”.
+
+CLIENT1: [00:06:27]  
+Yeah, we were juggling bills when I first left the job.
+
+ADVISOR: [00:06:31]  
+That’s very common in this sort of transition. Richard, you had a workplace pension with Northfield?
+
+CLIENT1: [00:06:36]  
+Yeah. Auto‑enrolment thing. I paid in about five percent, they did three. I’ve got the statements somewhere, but I couldn’t tell you the balance off the top of my head.
+
+ADVISOR: [00:06:44]  
+We’ll dig that out later. And with the CitySprint work, there’s no pension going in at all?
+
+CLIENT1: [00:06:48]  
+No, nothing. It’s just self‑employed invoices.
+
+ADVISOR: [00:06:52]  
+Tax‑wise, Margaret, with that part‑time income, are you seeing much tax deducted on your payslips?
+
+CLIENT2: [00:06:57]  
+Not really. Some months there’s a little, some months it’s zero. I don’t really understand it.
+
+ADVISOR: [00:07:01]  
+That fits – you’re both effectively at or below basic‑rate now. That can actually create some planning opportunities for pensions and ISAs when things stabilise. We’ll come back to that.  
+
+For now, when you think long‑term about stopping work or at least slowing down, what sort of age comes to mind?
+
+CLIENT2: [00:07:16]  
+I always say sixty. That’s my dream.
+
+CLIENT1: [00:07:19]  
+Yeah, sixty would be nice. I’m probably thinking a bit later, maybe sixty‑two or sixty‑three, just because I’m starting this new career late.
+
+CLIENT2: [00:07:26]  
+Yeah, that’s true.
+
+ADVISOR: [00:07:29]  
+And you’re aware State Pension age for you will be around sixty‑seven plus, so you’re thinking of having enough built up to cut hours before that?
+
+CLIENT1: [00:07:36]  
+Exactly. We don’t want to be full‑tilt until state pension kicks in.
+
+ADVISOR: [00:07:40]  
+In terms of income in retirement, you don’t need an exact figure, but what feels like “comfortable” in today’s money?
+
+CLIENT2: [00:07:46]  
+Once the mortgage is gone, I feel like if we had, I don’t know, two to two and a half thousand a month coming in after tax, we’d be okay.
+
+CLIENT1: [00:07:54]  
+Yeah, like thirty, maybe thirty‑five thousand a year between us. Enough to pay bills, have a couple of holidays, not be counting every penny.
+
+ADVISOR: [00:08:01]  
+And how do you both feel about investment risk? If you invest for that, values will go up and down on the way.
+
+CLIENT1: [00:08:07]  
+I’m okay with a bit of up and down, as long as we’re not gambling it. We’ve got twenty‑odd years.
+
+CLIENT2: [00:08:12]  
+I’m more nervous. I hate the idea of it dropping. But I also know we can’t be super safe or we’ll never catch up after the gaps.
+
+CLIENT1: [00:08:19]  
+So somewhere in the middle.
+
+ADVISOR: [00:08:21]  
+Balanced, not too cautious, not too adventurous. We’ll fine‑tune later.  
+
+I’d like to understand what has to be covered each month while you’re retraining. Can we go through your regular spending?
+
+CLIENT1: [00:08:32]  
+Yeah, that’s fine. We kind of know roughly, but it’s not all written down.
+
+CLIENT2: [00:08:36]  
+We’ve got ballparks. I might need to check a couple of bills later.
+
+ADVISOR: [00:08:40]  
+That’s normal. Let’s start with the big one – housing costs: mortgage, council tax, utilities. What’s the mortgage payment?
+
+CLIENT1: [00:08:47]  
+Mortgage is… I want to say seven seventy‑something. Call it about seven eighty a month.
+
+CLIENT2: [00:08:54]  
+Yeah, it’s just under eight hundred.
+
+ADVISOR: [00:08:56]  
+Council tax?
+
+CLIENT2: [00:08:58]  
+Just under two hundred. One eighty‑five ish.
+
+ADVISOR: [00:09:02]  
+Gas, electric, water?
+
+CLIENT2: [00:09:05]  
+Gas and electric together, on one of those combined plans – about one twenty a month now. It was more last year.
+
+CLIENT1: [00:09:12]  
+Water’s about forty‑five. It jumps a bit in summer.
+
+ADVISOR: [00:09:16]  
+Any service charge or ground rent?
+
+CLIENT1: [00:09:18]  
+No service charge. There’s a little ground rent, like fifty quid a year. We just pay it in one go.
+
+ADVISOR: [00:09:24]  
+Home insurance?
+
+CLIENT2: [00:09:26]  
+Buildings and contents is around forty a month when you break the annual payment down.
+
+CLIENT1: [00:09:31]  
+We’ve also got life cover tied to the mortgage. That’s, what, thirty‑ish for the two of us?
+
+CLIENT2: [00:09:35]  
+Yeah, thirty, thirty‑five. I can send you the policy later.
+
+ADVISOR: [00:09:40]  
+Okay. Childcare tends to be the other big one at your stage. You said Sam is five and Ella is three – what are you paying there?
+
+CLIENT2: [00:09:47]  
+Before the funded hours kicked in it was brutal, like close to nine hundred a month for Ella. Now with the thirty free hours it’s more like six twenty, six thirty.
+
+CLIENT1: [00:09:57]  
+Depends if we add an extra session or breakfast club, so it can creep up.
+
+ADVISOR: [00:10:01]  
+And for Sam – wrap‑around care?
+
+CLIENT2: [00:10:04]  
+He does after‑school club three days a week. That’s around fifty‑five a week in term time. So maybe two hundred, two twenty a month on average.
+
+CLIENT1: [00:10:12]  
+Plus holiday clubs in the summer, which are more. We kind of just brace ourselves for those.
+
+ADVISOR: [00:10:18]  
+Is childcare something you absolutely need to keep in place while you’re retraining?
+
+CLIENT2: [00:10:23]  
+Yeah, we need it. I’m only just back up in hours at work, and with Richard studying, we can’t really cut that.
+
+CLIENT1: [00:10:28]  
+If we dropped nursery days, it would mess up my course and exams. So it’s painful but high priority.
+
+ADVISOR: [00:10:35]  
+How much longer do you think you’ll have those nursery‑level costs?
+
+CLIENT2: [00:10:39]  
+She’s three now, so another year of nursery, then reception. So another eighteen months of it being really expensive, then it should ease off.
+
+CLIENT1: [00:10:47]  
+Yeah, in my head it’s “just get through the next year and a half”.
+
+ADVISOR: [00:10:52]  
+Okay. Food and household bits – what do you think you spend in a typical month?
+
+CLIENT1: [00:10:57]  
+Food’s gone up loads. I’d say between five and five‑fifty a month on supermarket stuff. Aldi plus the odd top‑up at Tesco.
+
+CLIENT2: [00:11:04]  
+That includes nappies, cleaning stuff, kids’ packed‑lunch bits. We don’t separate it; it’s just “the shop”.
+
+ADVISOR: [00:11:09]  
+Transport – you’ve got one car or two?
+
+CLIENT1: [00:11:12]  
+Just the one now. We sold the second when I left my old job.
+
+ADVISOR: [00:11:16]  
+Any finance on the car?
+
+CLIENT1: [00:11:18]  
+No, that’s all paid off now. It’s a seven‑year‑old Skoda. Worth maybe six grand on a good day.
+
+CLIENT2: [00:11:23]  
+We just have running costs now.
+
+ADVISOR: [00:11:25]  
+So fuel?
+
+CLIENT1: [00:11:27]  
+Maybe eighty to a hundred a month. More if we go to see my parents.
+
+ADVISOR: [00:11:31]  
+Car insurance, servicing?
+
+CLIENT2: [00:11:33]  
+Insurance is paid annually – just under four hundred this year. MOT and service we usually pay two hundred, two‑fifty once a year.
+
+CLIENT1: [00:11:40]  
+Those are the ones that catch us if we don’t plan.
+
+ADVISOR: [00:11:44]  
+Any train or bus costs for your course, Richard?
+
+CLIENT1: [00:11:47]  
+Yeah, I’ve got a rail pass to get into Manchester for in‑person days. That works out around sixty a month. If I end up on a placement with a firm somewhere else it might go up.
+
+ADVISOR: [00:11:57]  
+Okay. On the more flexible side – holidays, eating out, subscriptions?
+
+CLIENT2: [00:12:02]  
+We used to do a proper week abroad every year. Since Richard stopped his old job, we’ve only done one UK break – a cottage in Devon. Maybe seven or eight hundred all in, spread out.
+
+CLIENT1: [00:12:11]  
+Trips to see your sister in Leeds – they’re not “holidays” but they cost. Maybe another few hundred over the year.
+
+ADVISOR: [00:12:17]  
+If money’s tight while you’re retraining, is that an area you’d scale back or do you want to keep at least something?
+
+CLIENT2: [00:12:22]  
+We’d like to keep one small break a year, even if it’s just camping. Just for sanity.
+
+CLIENT1: [00:12:26]  
+But we can skip big foreign trips until I’m earning properly again. That’s fine.
+
+ADVISOR: [00:12:31]  
+Subscriptions?
+
+CLIENT2: [00:12:33]  
+We’ve got Netflix and Disney. Together under twenty a month. We got rid of Prime.
+
+CLIENT1: [00:12:37]  
+My gym membership I actually froze. So that’s zero for now. I just run in the park.
+
+CLIENT2: [00:12:42]  
+The kids do swimming and football. Swimming lessons are about thirty‑five a month, football’s a tenner a week term‑time.
+
+ADVISOR: [00:12:49]  
+And those kids’ activities – high priority to keep?
+
+CLIENT2: [00:12:52]  
+Yeah, I’d really rather not cut those. It’s their main exercise and social thing.
+
+CLIENT1: [00:12:56]  
+If we had to, we’d cut back on our own stuff first – takeaways, coffees.
+
+ADVISOR: [00:13:01]  
+Speaking of which, what do you spend on eating out or takeaways in a typical month now?
+
+CLIENT2: [00:13:05]  
+Since we tightened things, maybe one takeaway every couple of weeks and the odd lunch out. So forty to sixty quid. It used to be a lot more.
+
+CLIENT1: [00:13:12]  
+Yeah, we’ve gone from “just order something” to “what’s in the freezer”.
+
+ADVISOR: [00:13:17]  
+Any other regular outgoings – mobiles, broadband?
+
+CLIENT2: [00:13:20]  
+Broadband and landline are about thirty‑five a month.
+
+CLIENT1: [00:13:23]  
+Our mobiles together are around fifty. Mine’s SIM‑only now; Margaret’s still paying off the handset.
+
+CLIENT2: [00:13:29]  
+And we stopped my workplace pension contributions when nursery got really expensive. So that’s one less monthly outgoing now, but we don’t love it.
+
+ADVISOR: [00:13:36]  
+So childcare effectively replaced pension contributions for now.
+
+CLIENT1: [00:13:39]  
+Yeah, that’s exactly it. Once Ella’s nursery bill drops, we’d like to turn the pensions back on. Maybe even more than before if we can.
+
+ADVISOR: [00:13:47]  
+If you had to rank the things that absolutely must be protected while you’re retraining, what would be top of the list?
+
+CLIENT2: [00:13:53]  
+Mortgage and bills, obviously. Then childcare. Those are non‑negotiable.
+
+CLIENT1: [00:13:58]  
+Yeah, housing, then childcare, then food and transport. Holidays and takeaways can move up and down.
+
+CLIENT2: [00:14:03]  
+And the kids’ activities I’d put… not essential like the mortgage, but pretty high if we can keep them.
+
+ADVISOR: [00:14:09]  
+That’s really helpful.  
+
+Let’s go back to the assets side for a bit – what you own. We’ve talked about the house. Do you own any other property? Buy‑to‑lets, shares in anything with family?
+
+CLIENT2: [00:14:19]  
+We do have… well, sort of. My mum left me half of her little flat in Blackpool. It’s in my name and my brother’s name.
+
+ADVISOR: [00:14:26]  
+Okay, a fifty percent share in a flat in Blackpool. Is that rented out?
+
+CLIENT2: [00:14:30]  
+Yeah. One bedroom, near the front but not seafront. We get rent, but it mostly just goes straight to the managing agent and maintenance.
+
+ADVISOR: [00:14:37]  
+Any idea what the whole flat would be worth?
+
+CLIENT2: [00:14:40]  
+Estate agent said maybe ninety to a hundred thousand for the whole thing, if we sold. That was last year though.
+
+CLIENT1: [00:14:46]  
+So Margaret’s half is like forty‑five to fifty, if you split it.
+
+ADVISOR: [00:14:49]  
+Makes sense. Any mortgage on that flat?
+
+CLIENT2: [00:14:52]  
+No mortgage. Mum paid it off ages ago.
+
+ADVISOR: [00:14:55]  
+And the rent that comes in – where does it land?
+
+CLIENT2: [00:14:58]  
+Into a separate savings account in my name. We kind of treat it as long‑term money, but we did tap it a bit when Richard started the coding course.
+
+CLIENT1: [00:15:07]  
+Yeah, when I left the engineering job. We used some of that to cover a couple of months’ bills.
+
+ADVISOR: [00:15:12]  
+Got it. Have you ever thought about selling that flat, or is it more emotional?
+
+CLIENT2: [00:15:17]  
+We’ve gone back and forth. My brother keeps saying we should just sell it. I… get a bit emotional about it, because it was Mum’s.
+
+CLIENT1: [00:15:24]  
+Financially it probably doesn’t make loads of sense keeping it, but it is a paid‑off asset, and the rent might be useful once I’m back earning more.
+
+CLIENT2: [00:15:31]  
+We said we might revisit it when the current tenant leaves. That’s next summer, I think.
+
+ADVISOR: [00:15:35]  
+Okay, so there’s a natural review point when the tenancy ends.  
+
+Let’s cover cash. Ignoring day‑to‑day current account money, what do you have in savings?
+
+CLIENT1: [00:15:44]  
+In our joint savings with Nationwide, we’ve got about twelve, twelve and a half thousand. That’s kind of our emergency fund.
+
+CLIENT2: [00:15:50]  
+Yeah, that’s the “don’t touch unless the boiler dies” pot. Though we did dip into it a bit when he left his job.
+
+ADVISOR: [00:15:56]  
+Are you managing to add anything to that regularly, or is it more in‑and‑out at the moment?
+
+CLIENT1: [00:16:00]  
+We try to put five hundred a month in, but with me on the course, some months it’s more like two hundred, or nothing.
+
+CLIENT2: [00:16:05]  
+If a big thing hits – car, school uniform – we pull from there.
+
+ADVISOR: [00:16:09]  
+Any other cash savings?
+
+CLIENT2: [00:16:11]  
+I’ve got a separate cash ISA from the inheritance. That’s around eight thousand.
+
+ADVISOR: [00:16:15]  
+Is that fixed or instant access?
+
+CLIENT2: [00:16:18]  
+Fixed. Three‑year thing at four‑something percent. It matures next March… twenty‑twenty‑seven.
+
+ADVISOR: [00:16:24]  
+So not one you want to be dipping into.
+
+CLIENT2: [00:16:26]  
+Exactly, yeah. Feels like future money – maybe for when the girls go to uni. I’d rather not touch it.
+
+ADVISOR: [00:16:31]  
+And the Blackpool rent account – how much roughly sits in there at the moment?
+
+CLIENT2: [00:16:35]  
+Um, about three, three and a half thousand? I use that more for car stuff and Christmas.
+
+ADVISOR: [00:16:41]  
+Richard, anything in your own name?
+
+CLIENT1: [00:16:43]  
+I’ve got a Monzo savings pot with, like, two and a half grand. That’s basically for the bootcamp fees and travel while I’m retraining. It’s going down, not up, to be honest.
+
+ADVISOR: [00:16:52]  
+And any premium bonds?
+
+CLIENT2: [00:16:54]  
+Yeah, my gran bought some when I was a kid. About three thousand in premium bonds. I never win anything.
+
+ADVISOR: [00:17:00]  
+Okay. Outside of cash and property, investments – shares, funds, ISAs?
+
+CLIENT1: [00:17:05]  
+I had a stocks and shares ISA with Vanguard. I think there’s around five, maybe six thousand in there. I stopped putting money in when I left my job.
+
+ADVISOR: [00:17:12]  
+In your name only?
+
+CLIENT1: [00:17:14]  
+Yeah, just me. It’s one of those global balanced funds – sixty percent shares, forty percent bonds.
+
+ADVISOR: [00:17:20]  
+Margaret, anything similar?
+
+CLIENT2: [00:17:22]  
+No, I’ve never really done investments. Just the pensions from old jobs.
+
+ADVISOR: [00:17:26]  
+We’ll treat those pensions as assets too. Rough ballpark – what do you each have in pensions at the moment?
+
+CLIENT2: [00:17:32]  
+Mine’s tiny. Two different pots. One’s around eleven thousand, the other might be seven. I’d need to check.
+
+CLIENT1: [00:17:39]  
+I think I’ve got about thirty‑odd in my main one from the engineering firm, and then a little one with three or four grand from an older job.
+
+ADVISOR: [00:17:47]  
+Okay. I’ll get exact figures from statements later.  
+
+You mentioned earlier you’d like to keep about six months of bills in cash. Roughly how much is six months for you now?
+
+CLIENT1: [00:17:56]  
+Including the mortgage, probably around two thousand a month? Maybe just under. So twelve grand-ish.
+
+ADVISOR: [00:18:02]  
+So the joint savings are roughly at that six‑month level.
+
+CLIENT2: [00:18:05]  
+Yeah, which is why I panic if it drops under.
+
+ADVISOR: [00:18:09]  
+On the debt side, apart from the mortgage, do you have any loans or credit cards still outstanding?
+
+CLIENT1: [00:18:14]  
+No credit cards now. We cleared those when I left my old job. No loans apart from the mortgage. Just my old student loan, but that comes out through PAYE when I’m employed properly.
+
+CLIENT2: [00:18:23]  
+I don’t have any student loan. No store cards either.
+
+ADVISOR: [00:18:26]  
+Alright. Let’s dig into the mortgage a little more: you said about one forty‑seven left, payment around seven eighty, fix to next October. Do you know how long is left on the term?
+
+CLIENT1: [00:18:36]  
+I think it’s about eighteen years? We started on twenty‑five when we first bought, knocked a couple off when I had a big bonus, then stopped overpaying when I started retraining.
+
+CLIENT2: [00:18:45]  
+Yeah, the last letter said eighteen‑something.
+
+ADVISOR: [00:18:49]  
+Have you ever missed a payment or taken a payment holiday, say during Covid?
+
+CLIENT1: [00:18:53]  
+We did do that three‑month payment holiday during Covid. But that was a few years back now.
+
+CLIENT2: [00:18:58]  
+They offered it to everyone. We haven’t paused anything since then, even when Richard started the course.
+
+ADVISOR: [00:19:04]  
+When the fixed rate ends next year, have you thought at all about what you’ll do? Stay with the same lender, remortgage, adjust the term…?
+
+CLIENT1: [00:19:10]  
+We’ve not really thought that far. I guess we’d just roll onto whatever they offer if I’m still training. We were worried a new lender might not like the career change.
+
+CLIENT2: [00:19:18]  
+Yeah, we weren’t sure how it works when one person’s income is all over the place and I’m part‑time. That’s one of the things we want help with.
+
+ADVISOR: [00:19:24]  
+Okay. One option, depending on income at the time, can be to extend the term slightly to bring payments down while things are tight, then shorten again or overpay when you’re both back on stronger incomes. I’m not saying that’s what you *should* do – just that we’ve got levers to pull.
+
+CLIENT1: [00:19:37]  
+Right, so kind of ease off now and then push harder later when I’m properly back in work.
+
+ADVISOR: [00:19:41]  
+Exactly. And that ties into pensions as well – because you’ve had gaps in contributions.  
+
+Before we go to pensions in detail, is there anything else on the spending side you think I should know? Any big one‑offs coming up?
+
+CLIENT2: [00:19:52]  
+We need a new boiler at some point. Ours is ancient. And Sam will start more clubs next year, but that’s small compared to nursery.
+
+CLIENT1: [00:19:59]  
+There’s my exam fees for the course – but that’s what my Monzo pot is for.
+
+ADVISOR: [00:20:03]  
+Okay. Let’s look properly at pensions and retirement accounts now. Starting with you, Richard: you mentioned a main pension from Northfield and a little one from an older job. Can you tell me a bit more?
+
+CLIENT1: [00:20:13]  
+Yeah. So Northfield’s one is a standard defined contribution scheme – just a pot of money with investments. I paid five percent, they paid three. I left it where it was when I left.
+
+ADVISOR: [00:20:22]  
+Do you remember who runs that scheme? The provider’s name?
+
+CLIENT1: [00:20:26]  
+I think it’s with Fidelity. The login’s on one of those apps.
+
+ADVISOR: [00:20:29]  
+Okay, Fidelity workplace pension from Northfield. And the small one?
+
+CLIENT1: [00:20:33]  
+That’s from an even older job, before I moved into site management. It’s only three or four grand. I can’t even remember the provider off the top of my head.
+
+ADVISOR: [00:20:39]  
+No problem, we’ll track it down. Any personal pensions or SIPPs in your name?
+
+CLIENT1: [00:20:44]  
+No, just the work ones, and then the Vanguard ISA which I think of more as long‑term.
+
+ADVISOR: [00:20:49]  
+And currently, nothing going into pensions while you’re on the course and doing delivery work?
+
+CLIENT1: [00:20:53]  
+No, nothing at all going in at the moment.
+
+ADVISOR: [00:20:56]  
+Margaret, you’ve got the two pots you mentioned – around eleven and seven thousand. Do you remember where those came from?
+
+CLIENT2: [00:21:01]  
+One’s from when I worked at Meadowview Dental – that’s the bigger one. The other’s from an admin job before that, tiny little scheme they started just before I left.
+
+ADVISOR: [00:21:09]  
+Do you know who the providers are?
+
+CLIENT2: [00:21:12]  
+I want to say Aviva for the dental one. The older one I’d have to look up.
+
+ADVISOR: [00:21:16]  
+That’s fine. No active pension contributions at the moment because you opted out at Willowbrook to help cash flow?
+
+CLIENT2: [00:21:21]  
+Yeah. They automatically put me in, and I lasted about two months then panicked and opted out.
+
+ADVISOR: [00:21:26]  
+Have they been nudging you to opt back in?
+
+CLIENT2: [00:21:28]  
+They send letters. I keep thinking “once nursery’s cheaper”.
+
+ADVISOR: [00:21:32]  
+When you think about those gaps – time out with the kids for you, Richard’s current study period – how worried are you about “catching up” on retirement?
+
+CLIENT2: [00:21:40]  
+Quite worried, if I’m honest. Feels like we lost nearly a decade between us.
+
+CLIENT1: [00:21:44]  
+Yeah. I was doing okay at Northfield before I quit – I was putting in six percent and they matched four or something. Then it just stopped.
+
+ADVISOR: [00:21:51]  
+How comfortable are you with how those pensions and your Vanguard ISA are invested at the moment? Do you have any idea of the risk level?
+
+CLIENT1: [00:21:58]  
+The Northfield one is in one of those “default” funds. I think it’s medium risk. Vanguard is sixty percent shares, forty bonds – that felt sensible when I set it up.
+
+CLIENT2: [00:22:07]  
+With mine I just ticked the default. I’m the nervous one – if it was just me, everything would be in cash, which I know isn’t ideal.
+
+ADVISOR: [00:22:14]  
+The reason I’m asking is that, given you’ve had periods with no contributions, we may need those existing pots to work reasonably hard, but within a level of ups and downs you can live with.  
+
+On the other side of the coin, you’ve got the house, the Blackpool flat, the cash savings. When you think about *all* of that together – what feels most important to protect while you’re in this transition?
+
+CLIENT2: [00:22:33]  
+The house, definitely. I don’t ever want to be in a position where we can’t pay the mortgage.
+
+CLIENT1: [00:22:37]  
+And keeping that emergency fund around the twelve‑grand mark. If that disappears, I think we’d both lose sleep.
+
+ADVISOR: [00:22:43]  
+So: roof over your heads, and the buffer. Pensions and investments are important, but a bit more flexible short‑term.
+
+CLIENT1: [00:22:49]  
+Yeah, that’s fair.
+
+ADVISOR: [00:22:52]  
+Do you get any other income at the moment apart from your wages and the rent from the flat? Child Benefit, anything like that?
+
+CLIENT2: [00:22:57]  
+We get the standard child benefit for the two kids. That’s every four weeks, about one‑eighty‑something. I don’t remember the exact figure.
+
+CLIENT1: [00:23:04]  
+That just goes straight on food and shoes.
+
+ADVISOR: [00:23:07]  
+And no other benefits, maintenance payments, anything like that?
+
+CLIENT2: [00:23:10]  
+No, just that.
+
+ADVISOR: [00:23:13]  
+Okay. Looking ahead a bit: when you picture “life after the career change”, what do you see in terms of your work and income? Richard, with the software testing, what kind of salary are you hoping for?
+
+CLIENT1: [00:23:24]  
+If it all goes to plan, I’d hope for something in the low thirties to start with? Maybe thirty‑two, thirty‑five thousand once I get a junior role. That’s what the bootcamp people talk about.
+
+ADVISOR: [00:23:33]  
+And timescale – is that realistically a year or two away?
+
+CLIENT1: [00:23:37]  
+The course finishes next summer. Then they help with placements. So hopefully by the following spring I’d be in a proper job. That’s the dream anyway.
+
+ADVISOR: [00:23:45]  
+Margaret, with the counselling diploma, what’s the plan there? When do you see that translating into income?
+
+CLIENT2: [00:23:51]  
+It’s a few years off. It’s part‑time over three years. So I’d probably keep doing admin hours while I study, maybe add some volunteer counselling work once I’m allowed, and then build up paid clients later if I go down that route.
+
+ADVISOR: [00:24:03]  
+So in the medium term, once Richard’s in a tech role, the main jump in income will be on his side, and your part‑time admin might grow a bit, but counselling income is a later phase.
+
+CLIENT2: [00:24:11]  
+Yeah, that’s how we see it.
+
+ADVISOR: [00:24:14]  
+Given that, when you imagine restarting pension contributions, what feels realistic? Do you see yourselves going back to the five or six percent each through work, or trying to do more?
+
+CLIENT1: [00:24:22]  
+I’d like to get back to at least what we were doing before. Maybe start there and then increase once we’re used to the new income.
+
+CLIENT2: [00:24:28]  
+Yeah. My instinct is to build the cash back up a bit first, because I’m the panicker, and then switch the Willowbrook pension back on.
+
+ADVISOR: [00:24:35]  
+That’s a sensible sequence – emergency fund first, then pension.  
+
+Coming back to the Blackpool flat briefly: from a planning point of view, it’s a nice option to have. Emotionally, is that something you’re comfortable even *considering* selling at some point, or is it firmly “Mum’s flat, we keep it”?
+
+CLIENT2: [00:24:50]  
+I don’t know. Part of me thinks we should sell it when the tenant leaves next time and just be done with the hassle. Part of me can’t bear it.
+
+CLIENT1: [00:24:57]  
+We did say we’d at least get an up‑to‑date valuation next summer when the tenancy’s up, just to know.
+
+ADVISOR: [00:25:02]  
+That’s exactly what I’d suggest. We don’t have to decide today – I just need to know how “sacred” various pots of money are.  
+
+On a slightly different note – you mentioned life cover with the mortgage. Do either of you have any other protection in place? Income protection, critical illness cover through old employers…?
+
+CLIENT1: [00:25:18]  
+No, just the mortgage life cover. I had some cover through Northfield but that stopped when I left.
+
+CLIENT2: [00:25:23]  
+I don’t have anything, I don’t think. Just the basic sick pay at work.
+
+ADVISOR: [00:25:27]  
+If either of you couldn’t work for, say, six months because of illness, how would that hit you? Would the emergency fund and the Blackpool rent see you through, or would it be very tight?
+
+CLIENT2: [00:25:36]  
+Very tight. We’d burn through the savings quickly.
+
+CLIENT1: [00:25:39]  
+Yeah, we’d manage for a bit, but not forever. That’s another thing on the “we should sort this” list.
+
+ADVISOR: [00:25:45]  
+Okay, I’ll factor that in when I look at priorities with you.  
+
+Back to the pensions, one more angle: you’ve got four or five small pots between you at different providers. Have you ever thought about combining any of them, or have you just left them where they are?
+
+CLIENT1: [00:25:56]  
+I’ve thought about moving the little one into the main one, just to have fewer bits. But then I get scared about doing something wrong and I just leave it.
+
+CLIENT2: [00:26:03]  
+Same. I keep thinking it’d be easier to have one statement, but then I get a letter and shove it in a drawer.
+
+ADVISOR: [00:26:09]  
+That’s very common. Consolidation can make life easier, but there are times when it’s better to leave things where they are. We’ll look at that properly once we’ve got all the scheme details.  
+
+You also mentioned you’re both a bit nervous about investing. If your Vanguard ISA dropped, say, ten percent in a bad year – how would that feel?
+
+CLIENT1: [00:26:24]  
+I wouldn’t love it, but I think I’d cope. I know it’s for the long term.
+
+CLIENT2: [00:26:27]  
+I’d look at it and panic. But I also know if we never take any risk, we’ll be working forever.
+
+ADVISOR: [00:26:33]  
+That’s the tension we’re managing. We’ll use a proper risk questionnaire later, but from what you’ve said I’d probably steer you towards middle‑of‑the‑road funds, not extreme either way.  
+
+Coming back to day‑to‑day cash for a second: you’ve got about twelve‑and‑a‑half in joint savings, eight in the fixed ISA, roughly three‑and‑a‑half in the Blackpool rent account, two‑and‑a‑half in Monzo. When you look at that, does it feel like “enough cushion” while you’re on the lower incomes, or still too thin?
+
+CLIENT2: [00:26:56]  
+Right on the edge of enough. If it went much lower I’d be really anxious.
+
+CLIENT1: [00:27:00]  
+Yeah, if we can keep it around six months’ expenses, we sleep okay.
+
+ADVISOR: [00:27:05]  
+So for now, priority one is maintaining that buffer. Priority two is keeping the mortgage and childcare going. Priority three is, once Ella’s out of nursery and you’re back to steadier incomes, turning pensions back on and maybe topping up the Vanguard ISA. Does that sound roughly in the right order?
+
+CLIENT1: [00:27:20]  
+Yeah, that’s how we see it.
+
+CLIENT2: [00:27:22]  
+Yeah.
+
+ADVISOR: [00:27:25]  
+In terms of the house itself, you said you’d like the mortgage gone before you retire. If you were both, say, sixty‑two and still had ten years left on it, would that be a problem, or would you be okay carrying some of it into retirement if everything else looked healthy?
+
+CLIENT1: [00:27:38]  
+I’d really rather it was gone. I don’t want to be nearly seventy and still paying a big mortgage.
+
+CLIENT2: [00:27:43]  
+My dad’s still got a small mortgage and he’s nearly seventy, and it stresses him out. So yeah, cleared before we stop work would be the dream.
+
+ADVISOR: [00:27:51]  
+That’s helpful. Once we know what your post‑retraining incomes look like, we can see whether overpaying the mortgage versus throwing more into pensions makes more sense for hitting that goal. They’re both ways of buying security; we just need the right balance.  
+
+Is there anything we haven’t touched on yet that you were hoping to cover today?
+
+CLIENT1: [00:28:06]  
+I guess the main thing is just knowing we’re not completely wrecking our retirement by me doing this course. Like, are we being stupid?
+
+CLIENT2: [00:28:13]  
+Yeah, and how to juggle the mortgage, the kids, and pensions without feeling like we’re failing at all of them.
+
+ADVISOR: [00:28:19]  
+The fact you’ve kept a six‑month buffer, stayed on top of the mortgage, and at least built up some pension pots already puts you ahead of a lot of people in similar transitions. What we’ll do from here is take all these numbers away, get exact pension balances and scheme details, and then we can come back with some concrete “if you do X, Y and Z, this is roughly where you’ll end up” projections.  
+
+In the meantime, just on a practical level, if you had – say – an extra hundred pounds a month spare over the next year, where do you instinctively want that to go? Savings, mortgage, pensions?
+
+CLIENT2: [00:28:49]  
+Savings, for me. Just until Ella’s in school and we know what your job looks like.
+
+CLIENT1: [00:28:54]  
+I’d probably split it – maybe fifty into savings, fifty into a pension or the ISA. But that’s me being optimistic.
+
+ADVISOR: [00:29:02]  
+That difference in instinct is useful for me to know. We can model both versions and see the trade‑offs.  
+
+Unless you’ve got any last questions, that’s everything I need from a fact‑find point of view today.
+
+CLIENT1: [00:29:14]  
+No, I think that covers it for now.
+
+CLIENT2: [00:29:17]  
+Yeah, my brain’s full. But this has been really helpful.
+
+ADVISOR: [00:29:21]  
+Alright, I’ll leave it there for today and we’ll pick up once I’ve crunched the numbers and seen the pension paperwork.

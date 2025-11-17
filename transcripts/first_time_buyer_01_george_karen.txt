@@ -1,0 +1,662 @@
+# Financial Fact-Find Transcript
+# Persona: George and Karen Thomas
+# Type: First-Time Homebuyer
+# Generated: 2025-11-17 19:32:47
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:02] So George, Karen, thanks for taking the time today. The idea is I’ll get a really clear picture of where you are now—income, outgoings, savings, pensions—and what you’re looking for with the first home. Then I can work out what’s realistic and which lenders might fit. Does that sound alright?  
+
+CLIENT1: [00:00:15] Yeah, that’s good, thanks.  
+
+CLIENT2: [00:00:18] Yeah, sounds fine.  
+
+ADVISOR: [00:00:21] Brilliant. I’ll start with a few basics, just for the records. Could I take your full names as they’d appear on the mortgage?  
+
+CLIENT1: [00:00:27] It’s George Michael Thomas.  
+
+ADVISOR: [00:00:30] Thank you.  
+
+CLIENT2: [00:00:32] And I’m Karen Louise Thomas.  
+
+ADVISOR: [00:00:36] Great. And you’re married to each other?  
+
+CLIENT2: [00:00:38] Yeah.  
+
+CLIENT1: [00:00:39] Just over three years now, since 2021.  
+
+ADVISOR: [00:00:43] Lovely. Dates of birth—exact is ideal if you know them.  
+
+CLIENT1: [00:00:47] Mine’s 14th of September 1989.  
+
+ADVISOR: [00:00:51] 14/09/89.  
+
+CLIENT2: [00:00:53] And I’m 3rd of March 1990.  
+
+ADVISOR: [00:00:57] 03/03/90. And you both go by George and Karen, no nicknames?  
+
+CLIENT1: [00:01:01] George is fine.  
+
+CLIENT2: [00:01:02] Yeah, just Karen.  
+
+ADVISOR: [00:01:06] Perfect. Any children or other people financially dependent on you at the moment?  
+
+CLIENT2: [00:01:12] Yeah, we’ve got a little girl, Ella. She’s three.  
+
+CLIENT1: [00:01:16] Yeah, three going on thirteen.  
+
+ADVISOR: [00:01:20] [laughs] That’s a fun age. Anyone else, or just Ella?  
+
+CLIENT2: [00:01:25] Just her.  
+
+ADVISOR: [00:01:28] And where are you living now—renting I think you said on the form?  
+
+CLIENT1: [00:01:32] Yeah, we rent a two‑bed flat in Wakefield.  
+
+CLIENT2: [00:01:36] It’s… fine, but we’re very ready to have our own place now.  
+
+ADVISOR: [00:01:41] I hear that a lot. Just to tick a box: neither of you currently owns, or has ever owned, any property in the UK or abroad? Even a small inherited share?  
+
+CLIENT2: [00:01:50] No, nothing.  
+
+CLIENT1: [00:01:52] Always rented. I’ve never had my name on a deed or anything.  
+
+ADVISOR: [00:01:57] Good, that keeps your first‑time buyer status nice and clean for lenders and for schemes like Lifetime ISAs.  
+
+
+### Health & Wills
+
+ADVISOR: [00:02:06] I’m going to ask a couple of health questions because it affects what protection we might look at alongside the mortgage. George, how would you describe your general health?  
+
+CLIENT1: [00:02:15] Pretty good, I’d say. I run a couple of times a week when Ella lets us sleep. No big issues. I had mild asthma as a kid but it doesn’t really bother me now.  
+
+ADVISOR: [00:02:25] No regular inhalers, hospital stays, anything like that these days?  
+
+CLIENT1: [00:02:29] No, none.  
+
+ADVISOR: [00:02:32] And do you smoke or vape at all?  
+
+CLIENT1: [00:02:35] No, never smoked. Tried a vape once on a night out, hated it.  
+
+ADVISOR: [00:02:40] Okay, non‑smoker. Karen, how about you?  
+
+CLIENT2: [00:02:44] Generally fine. I get the odd migraine if I’m stressed, but nothing major. No surgeries or anything.  
+
+ADVISOR: [00:02:51] Any regular medication?  
+
+CLIENT2: [00:02:53] Just over‑the‑counter painkillers when the migraines come. That’s it.  
+
+ADVISOR: [00:02:58] And no smoking or vaping for you?  
+
+CLIENT2: [00:03:00] No. My dad smoked and it put me off for life.  
+
+ADVISOR: [00:03:05] Understood. Last one in this area—do either of you have a will in place yet?  
+
+CLIENT1: [00:03:10] No, we talked about it after we got married but never did anything.  
+
+CLIENT2: [00:03:14] Yeah, we sort of thought, “We don’t really have anything yet,” and then just didn’t.  
+
+ADVISOR: [00:03:20] Totally normal. Once you’ve got a property and a mortgage it becomes more important, especially with Ella. I can’t write a will for you, but after we’ve sorted the mortgage I can point you at a couple of low‑cost services if you’d like.  
+
+CLIENT2: [00:03:31] Yeah, that’d be helpful.  
+
+CLIENT1: [00:03:33] Yeah, we probably need a kick to actually do it.  
+
+
+### Jobs, Income & Future Plans
+
+ADVISOR: [00:03:39] Let’s talk about work and income because that drives how much you can borrow. George, what do you do at the moment?  
+
+CLIENT1: [00:03:45] I’m a Senior Data Analyst.  
+
+ADVISOR: [00:03:48] And who’s that with?  
+
+CLIENT1: [00:03:49] A company called Northbridge Digital, in the city centre.  
+
+ADVISOR: [00:03:54] Northbridge Digital. Full‑time PAYE employee?  
+
+CLIENT1: [00:03:58] Yeah, full‑time.  
+
+ADVISOR: [00:04:01] Roughly what’s your salary before tax? Ballpark is fine.  
+
+CLIENT1: [00:04:05] It’s just under sixty at the moment. High fifties.  
+
+ADVISOR: [00:04:10] Okay. Any regular bonus or overtime?  
+
+CLIENT1: [00:04:13] There’s usually a bonus most years. Last one was around five grand, but it varies.  
+
+ADVISOR: [00:04:19] I’ll treat that as variable rather than guaranteed. Are you in the workplace pension there?  
+
+CLIENT1: [00:04:24] Yeah, the auto‑enrolment one. I put in about five percent, they do four.  
+
+ADVISOR: [00:04:30] And do you know roughly what lands in your bank each month after tax, National Insurance and pension?  
+
+CLIENT1: [00:04:36] Uh, I think it’s about two‑eight, maybe two‑nine. If I get a decent bonus it bumps up that month.  
+
+ADVISOR: [00:04:44] That’s fine. Karen, what about you—what’s your role?  
+
+CLIENT2: [00:04:47] I’m a primary school teacher.  
+
+ADVISOR: [00:04:49] Which school?  
+
+CLIENT2: [00:04:51] Riverside Park Primary. It’s on the east side, near the ring road.  
+
+ADVISOR: [00:04:56] Full‑time classroom teacher?  
+
+CLIENT2: [00:04:58] Yeah, Year 4 at the moment.  
+
+ADVISOR: [00:05:01] And your salary range roughly?  
+
+CLIENT2: [00:05:03] Around the mid‑thirties. I think it’s about thirty‑seven now, but I’d have to check the exact figure.  
+
+ADVISOR: [00:05:09] Any bonuses or is it just straight salary?  
+
+CLIENT2: [00:05:11] Just salary. No bonuses in teaching.  
+
+ADVISOR: [00:05:15] And you’re in the Teachers’ Pension Scheme, contributions taken automatically?  
+
+CLIENT2: [00:05:18] Yeah, they just take it straight out. I think I’m paying just under nine percent now.  
+
+ADVISOR: [00:05:23] And do you know roughly what you take home each month after tax and that pension?  
+
+CLIENT2: [00:05:27] It’s just under two thousand, I think. Around one‑nine something usually.  
+
+ADVISOR: [00:05:33] Okay, so between you, somewhere just over four and a half thousand a month net, once everything’s deducted. Does that feel about right?  
+
+CLIENT1: [00:05:40] Yeah, that sounds about right.  
+
+CLIENT2: [00:05:42] Yeah.  
+
+ADVISOR: [00:05:45] How long have you been with your current employers? Lenders like to see a bit of stability.  
+
+CLIENT1: [00:05:49] I’ve been at Northbridge… three years now? Just before Ella was born.  
+
+CLIENT2: [00:05:55] And I’ve been at Riverside Park just over three years too. Before that I was at a different school, but no big gaps.  
+
+ADVISOR: [00:06:02] Perfect. Any other sources of income—freelance work, benefits, that sort of thing?  
+
+CLIENT1: [00:06:07] No, nothing regular.  
+
+CLIENT2: [00:06:09] I do a tiny bit of freelance social media for a friend’s café. Like, a couple of evenings a month if he’s doing an event.  
+
+ADVISOR: [00:06:16] Roughly what does that bring in?  
+
+CLIENT2: [00:06:18] Maybe forty, fifty quid a time. Some months nothing. He just bank‑transfers me a bit and gives me coffee.  
+
+ADVISOR: [00:06:25] Okay, nice little extra but not something we’d rely on for the mortgage. Do you receive any benefits—child benefit, universal credit?  
+
+CLIENT1: [00:06:32] We get child benefit for Ella, yeah.  
+
+CLIENT2: [00:06:34] Nothing else, just our wages and that.  
+
+ADVISOR: [00:06:38] Got it.  
+
+
+### Retirement Thoughts & Pensions (light touch, interwoven)
+
+ADVISOR: [00:06:40] You mentioned the Teachers’ Pension and your work scheme, George. Have you two ever talked about when you’d like to slow down or retire?  
+
+CLIENT1: [00:06:47] Not properly.  
+
+CLIENT2: [00:06:48] We kind of joke about “late sixties”.  
+
+CLIENT1: [00:06:51] Yeah, I was thinking maybe sixty‑eight or so for me. In tech I could probably do some consultancy part‑time.  
+
+CLIENT2: [00:06:57] I’d like to be done teaching before seventy though. If we can make mid‑sixties work, that’d be ideal.  
+
+ADVISOR: [00:07:04] That helps when we look at how long to run the mortgage—ideally the loan finishes before you stop working. Apart from your current schemes, do either of you have any old workplace pensions sitting from previous jobs?  
+
+CLIENT2: [00:07:15] I’ve got a tiny one with NEST from when I worked at Sainsbury’s at uni. It was about two thousand last time I looked. And I think there’s one with The People’s Pension from a temp job—maybe around a thousand, but I’ve lost the login.  
+
+CLIENT1: [00:07:28] I’ve got a small one from an old job too. I think it’s with The People’s Pension as well, a few thousand in it. I just leave it where it is.  
+
+ADVISOR: [00:07:36] That’s fine. From the mortgage point of view it’s just nice to know you’ve got some pension building up for later, but we don’t need every detail today.  
+
+CLIENT1: [00:07:43] Okay.  
+
+
+### Current Outgoings & Budget
+
+ADVISOR: [00:07:47] Let’s flip to what’s going out each month now, so we can sanity‑check what sort of mortgage payment would feel comfortable. If we start with the basics—what do you pay in rent at the moment?  
+
+CLIENT1: [00:07:57] Rent is eleven‑fifty a month. One‑one‑five‑zero.  
+
+ADVISOR: [00:08:02] And household bills—council tax, gas, electric, water, broadband? Rough numbers are fine.  
+
+CLIENT1: [00:08:09] Council tax is about one‑thirty. Gas and electric just under a hundred combined. Water’s, like, thirty‑odd. Broadband, twenty‑something.  
+
+CLIENT2: [00:08:18] And TV licence, about fourteen a month the way we pay it.  
+
+CLIENT1: [00:08:22] Contents insurance is around fifteen, sixteen pounds a month.  
+
+ADVISOR: [00:08:27] So all‑in on the home side—rent plus council tax, utilities, broadband, licence, contents—what would you say, roughly?  
+
+CLIENT1: [00:08:35] Twelve, thirteen hundred once you add it up.  
+
+CLIENT2: [00:08:38] Yeah, it feels like as soon as we get paid it just vanishes on the flat and bills.  
+
+ADVISOR: [00:08:43] That sounds about right. When you do buy, you’ll swap rent for a mortgage and then add your own buildings insurance, but the pattern is similar. Outside of housing, the next big one is usually food. What do you think you spend on groceries and bits?  
+
+CLIENT2: [00:08:56] Supermarket shop is about eighty to ninety a week, so three‑fifty, four hundred a month. Then there’s always top‑ups—milk, fruit, snacks for Ella. I’d say closer to four‑fifty if I’m honest.  
+
+CLIENT1: [00:09:08] Yeah, plus cleaning stuff and all the boring bits. We don’t track it properly, we just tap the card and hope for the best.  
+
+ADVISOR: [00:09:14] [laughs] You’re not alone. You mentioned Ella—do you have nursery or childcare costs at the moment?  
+
+CLIENT2: [00:09:20] Yeah. She does three days a week at nursery.  
+
+CLIENT1: [00:09:24] We get the free hours now she’s three, so it used to be worse. At the moment we’re paying around four hundred to maybe four‑fifty a month after the government bit.  
+
+CLIENT2: [00:09:33] That’s the one we really feel. After rent, that’s the next big chunk that just has to go.  
+
+ADVISOR: [00:09:39] And you expect that to carry on at that sort of level until she starts school?  
+
+CLIENT2: [00:09:43] Yeah, another year or so like this, then hopefully it drops once she’s in school and maybe just breakfast club or after‑school club.  
+
+CLIENT1: [00:09:50] There’ll always be something, but it should be less than nursery.  
+
+ADVISOR: [00:09:54] Okay. Transport next—cars, trains, that sort of thing. What does that look like for you?  
+
+CLIENT1: [00:10:00] We’ve got one car. It’s on PCP, about one‑eighty a month. Insurance is forty‑odd, say forty‑five. Fuel probably one‑twenty, one‑thirty depending how many nursery runs I do.  
+
+CLIENT2: [00:10:11] And you get the train into town twice a week.  
+
+CLIENT1: [00:10:13] Yeah, a return’s like eighteen quid, so maybe one‑fifty a month on trains.  
+
+ADVISOR: [00:10:19] Would you class the car as essential—for nursery, work—rather than something you could easily drop?  
+
+CLIENT2: [00:10:24] Definitely essential. Nursery isn’t walkable and my hours can be awkward, so we need it.  
+
+ADVISOR: [00:10:30] Got it. Any other regular commitments—loans, credit cards, store finance?  
+
+CLIENT1: [00:10:35] Just the car. No other loans. We clear the credit card each month.  
+
+CLIENT2: [00:10:39] Yeah, we use it for points and then pay it off.  
+
+ADVISOR: [00:10:43] Phones, subscriptions, gym, that kind of thing?  
+
+CLIENT2: [00:10:47] Phones—two contracts. Mine’s about thirty‑two, George’s is twenty‑eight, so sixty between us.  
+
+CLIENT1: [00:10:53] Then Netflix, Disney, Spotify—around twenty‑five a month all together.  
+
+CLIENT2: [00:10:58] I’ve got a gym membership that’s thirty‑odd. I, um, don’t really go.  
+
+CLIENT1: [00:11:03] We probably spend about a hundred a month on takeaways and going out, maybe a bit more if it’s someone’s birthday.  
+
+CLIENT2: [00:11:09] That’s the bit we see as “nice to have”. If we had to cut something, it’d be the gym and a couple of takeaways.  
+
+ADVISOR: [00:11:15] And holidays—do you have a regular budget, or more ad‑hoc?  
+
+CLIENT1: [00:11:19] Since Ella arrived we’ve just done one week in the UK, like Cornwall or the Lakes. That’s maybe seven to eight hundred all‑in.  
+
+CLIENT2: [00:11:26] And maybe a long weekend somewhere once a year. That’s a couple of hundred. We don’t have a fixed budget; it’s “if there’s money left”.  
+
+ADVISOR: [00:11:34] That all helps. If you imagine three pots—essentials, savings for the house, and lifestyle—how would you rank them?  
+
+CLIENT1: [00:11:42] Essentials first: rent, bills, nursery, food. That has to be covered. Second is the deposit, because we really want to get out of renting. Then lifestyle—meals out, holidays—that we can trim if we need to.  
+
+CLIENT2: [00:11:53] Yeah, same. We wouldn’t touch nursery. That’s basically locked in. But I’d happily drop the gym and a streaming service and rein in Deliveroo if it made the mortgage more comfortable.  
+
+ADVISOR: [00:12:03] That’s really helpful. And just to look slightly ahead—have you talked about a second child at all, and what that might mean for childcare and income?  
+
+CLIENT2: [00:12:11] Yeah, we have. We’d like another in maybe two or three years.  
+
+CLIENT1: [00:12:15] Which is a bit scary when you’ve seen one nursery bill. Two at once would be brutal.  
+
+CLIENT2: [00:12:20] If we did go for a second, one of us might drop hours or go part‑time rather than paying full fees for both. We haven’t done proper sums yet though.  
+
+ADVISOR: [00:12:28] That’s fine, it just gives me context.  
+
+
+### Existing Savings & Deposit
+
+ADVISOR: [00:12:32] Let’s talk about what you’ve already got in place that might go towards the first home. Roughly how much would you say you’ve got earmarked as “house money” at the moment, and where is it?  
+
+CLIENT1: [00:12:41] I’d say mid‑thirties between us? Thirty‑something.  
+
+CLIENT2: [00:12:45] Yeah, I checked this morning and it was just over thirty‑five, but it moves with payday and nursery and stuff.  
+
+ADVISOR: [00:12:52] And that’s split across which accounts?  
+
+CLIENT2: [00:12:55] I’ve got a cash Lifetime ISA with Coventry Building Society. That’s the main one for me. Then we’ve got a joint savings account with Starling that’s easy‑access.  
+
+CLIENT1: [00:13:05] And I’ve got a Lifetime ISA as well, but mine’s a stocks and shares one with AJ Bell.  
+
+ADVISOR: [00:13:11] Okay, so Karen, cash Lifetime ISA with Coventry; George, stocks and shares Lifetime ISA with AJ Bell; plus a joint Starling savings pot. Rough balances in each, roughly?  
+
+CLIENT2: [00:13:21] Mine was about eighteen thousand last time I logged in. Might be eighteen and a bit by now.  
+
+CLIENT1: [00:13:27] Mine’s around ten or eleven, depending what the markets have done this week.  
+
+ADVISOR: [00:13:33] And the joint Starling savings?  
+
+CLIENT2: [00:13:35] Just under eight, I think. It’s for fees and things that aren’t in the ISAs.  
+
+CLIENT1: [00:13:40] Yeah, surveys, solicitor, that sort of thing.  
+
+ADVISOR: [00:13:44] Perfect. How long have you had the Lifetime ISAs?  
+
+CLIENT2: [00:13:48] Mine’s older. I opened it early 2020, just before lockdown.  
+
+CLIENT1: [00:13:53] I opened mine in summer 2021.  
+
+ADVISOR: [00:13:57] And are you both still paying into them regularly?  
+
+CLIENT2: [00:14:00] Yeah, I do £250 a month by direct debit.  
+
+CLIENT1: [00:14:04] Mine’s set to two hundred a month. I turned it down once when the car went kaput, but roughly that.  
+
+ADVISOR: [00:14:11] Great. Outside of those, do you have any other savings—Premium Bonds, emergency funds, investment apps—that aren’t day‑to‑day money?  
+
+CLIENT2: [00:14:18] I’ve got an emergency fund, about three grand, in my NatWest saver. I try to ignore it unless something breaks. And I’ve got some Premium Bonds from my gran—about two thousand.  
+
+CLIENT1: [00:14:28] I try to keep about a thousand sitting in my Halifax current account as a buffer. And I’ve got one of those Moneybox ISAs that rounds up spare change into investments. There’s maybe two, two and a half grand in that.  
+
+ADVISOR: [00:14:40] Are the Premium Bonds, your emergency funds, and the Moneybox ISA earmarked for the deposit, or would you prefer to keep those back?  
+
+CLIENT2: [00:14:47] I’d rather keep the three grand emergency pot and the Premium Bonds as a safety net.  
+
+CLIENT1: [00:14:52] Yeah, and I think of the Moneybox ISA as “future‑future” money, not for the house.  
+
+ADVISOR: [00:14:58] That’s sensible. So for deposit we’re mainly looking at: both Lifetime ISAs plus the joint Starling savings—that’s your core house pot—and then you’ve got separate rainy‑day cash and some investments on the side.  
+
+CLIENT1: [00:15:09] Yeah, that’s right.  
+
+CLIENT2: [00:15:11] Yeah.  
+
+ADVISOR: [00:15:13] With your Lifetime ISAs, you’re both aware of the rules around using them for a first home—price cap, first‑time buyer status, and the withdrawal penalty if it’s not for a qualifying purchase?  
+
+CLIENT2: [00:15:21] Yeah, we checked the price cap. The places we’re looking at are under it.  
+
+CLIENT1: [00:15:25] And the penalty’s the bit that worries me. We didn’t want to mess it up by taking it out wrong.  
+
+ADVISOR: [00:15:31] Absolutely—we’d structure the mortgage so the solicitor requests the funds correctly, so you get the bonus and don’t trigger the penalty. On George’s Lifetime ISA and the Moneybox ISA—the invested ones—how do you feel about the ups and downs there as you get closer to buying?  
+
+CLIENT1: [00:15:43] That’s the bit that makes me a bit nervous. It’s been okay so far, but if the market dropped right when we need the money, that’d be stressful.  
+
+CLIENT2: [00:15:50] Yeah, I’ve said maybe he should move some of it to cash before we actually buy.  
+
+ADVISOR: [00:15:55] That’s something we can look at together—gradually de‑risking the Lifetime ISA as you approach your target date, so you’re not exposed to a sudden drop right before completion. We don’t need to change anything today; just good to flag it.  
+
+CLIENT1: [00:16:06] Yeah, that’d be good.  
+
+ADVISOR: [00:16:09] On the joint Starling account, do you have a set amount going in each month or is it more “whatever’s left”?  
+
+CLIENT2: [00:16:15] Kind of both. We aim for about six hundred a month between us, but if the car or nursery throws something unexpected at us, it might only be three or four.  
+
+CLIENT1: [00:16:23] Basically we sweep whatever’s left from our current accounts on payday into that pot.  
+
+ADVISOR: [00:16:28] And after you buy, would you like to keep some form of regular saving or investing going, once you’ve got a feel for the mortgage payment?  
+
+CLIENT2: [00:16:35] Yeah, I’d like to keep the habit, even if it’s less.  
+
+CLIENT1: [00:16:38] I’d want to switch focus—build the emergency fund back up first, then maybe set up a proper investment account once we know what the monthly outgoings look like.  
+
+ADVISOR: [00:16:47] That makes sense.  
+
+
+### Home‑Buying Plans & Property Range
+
+ADVISOR: [00:16:51] Coming back to the house itself—what’s in your heads in terms of timing? When would you ideally like to have the keys?  
+
+CLIENT1: [00:16:57] We were thinking sort of next summer.  
+
+CLIENT2: [00:16:59] Yeah, like, if we could be in by July next year, that’d be ideal.  
+
+ADVISOR: [00:17:05] So roughly twelve to fifteen months from now. By that point, where would you like the deposit to be?  
+
+CLIENT1: [00:17:10] Ideally mid‑thirties, maybe creeping towards forty if my bonus comes through.  
+
+CLIENT2: [00:17:15] Yeah, and I’m putting in the maximum I can to the LISA, so that should bump it with the government top‑up.  
+
+ADVISOR: [00:17:22] In terms of the properties you’re looking at, what sort of price range are you seeing for the kind of place you want?  
+
+CLIENT2: [00:17:28] The ones we’ve liked online are around three‑twenty, three‑thirty. One was just under three‑fifty, which felt a bit of a stretch.  
+
+CLIENT1: [00:17:36] We’re trying to stick closer to the low three hundreds if we can.  
+
+ADVISOR: [00:17:40] And that’s mainly two‑bed houses on the outskirts of Leeds, is that right?  
+
+CLIENT1: [00:17:44] Yeah, somewhere on the edge—Morley, Pudsey, that kind of area. Two‑bed terrace or semi, nothing fancy.  
+
+ADVISOR: [00:17:51] Good. Have you got anything in place yet like an agreement in principle, even an online one?  
+
+CLIENT1: [00:17:56] We did one of those online soft checks through a broker website.  
+
+CLIENT2: [00:18:00] Yeah, it said we could borrow around two‑fifty, maybe a bit more. We didn’t save the exact number though.  
+
+ADVISOR: [00:18:06] That’s fine—so nothing formal with a specific lender yet. Just to confirm, we’re talking about a standard residential mortgage, repayment, for you to live in—not buy‑to‑let?  
+
+CLIENT2: [00:18:14] Yeah, for us to live in. First home.  
+
+CLIENT1: [00:18:16] Just a normal repayment mortgage. We don’t want interest‑only.  
+
+ADVISOR: [00:18:21] Perfect. And how much deposit do you think you’ll have by the time you actually offer on a place, assuming everything goes roughly to plan?  
+
+CLIENT1: [00:18:28] We’ve got about thirty‑five saved now between the two of us. Maybe we can get it to forty, forty‑five by the end of the year.  
+
+CLIENT2: [00:18:35] Some of that is in my Lifetime ISA as well, so we’d use the bonus.  
+
+ADVISOR: [00:18:39] Great. Are either of your parents likely to help with a gift or loan on top of that?  
+
+CLIENT1: [00:18:44] My dad has said he could probably give us something, maybe five to ten thousand, but he hasn’t put a firm number on it. So we’re not really counting on it yet.  
+
+ADVISOR: [00:18:52] We’ll treat that as a possible extra rather than guaranteed. And just to be thorough: you wouldn’t be buying with anyone else, it’s just the two of you on the mortgage?  
+
+CLIENT2: [00:18:59] Just us.  
+
+
+### Mortgage Structure: Term, Rate, Comfort Level
+
+ADVISOR: [00:19:03] Let’s talk about how you might want the mortgage itself to look. Have you thought about how long you’d like to run it over—twenty‑five years, thirty, thirty‑five?  
+
+CLIENT2: [00:19:10] We were thinking longer, like thirty‑five, to keep the payments down.  
+
+CLIENT1: [00:19:14] Yeah, but then my dad was like, “You don’t want to still be paying it when you’re seventy.”  
+
+ADVISOR: [00:19:19] Sure. You’re mid‑thirties now, so a thirty‑five‑year term would push it into your seventies. A lot of lenders cap terms based on your expected retirement age—so your Teachers’ Pension, for example, has a normal age of around sixty‑seven.  
+
+CLIENT2: [00:19:31] Yeah, I think my statement said sixty‑seven.  
+
+CLIENT1: [00:19:34] Mine said sixty‑five or sixty‑seven, I can’t remember.  
+
+ADVISOR: [00:19:38] If we assume you’d like to finish the mortgage before mid‑sixties, something like a thirty‑year term might be a good starting point—that’d take you to about sixty‑four or sixty‑five.  
+
+CLIENT2: [00:19:46] That sounds more reasonable actually.  
+
+CLIENT1: [00:19:48] Yeah, let’s say thirty.  
+
+ADVISOR: [00:19:51] Have you thought about fixed versus variable rates?  
+
+CLIENT2: [00:19:54] We originally said tracker because we thought rates might come down again.  
+
+CLIENT1: [00:19:57] But with all the news, I’m leaning more towards fixed now—just to know what it is.  
+
+CLIENT2: [00:20:02] Yeah, I changed my mind too. Fixed sounds less scary.  
+
+ADVISOR: [00:20:06] Many first‑time buyers go for a fixed rate for the first couple of years—two or five years is common—so you’ve got certainty while you get used to being homeowners. Any instinct between two and five years?  
+
+CLIENT1: [00:20:16] Probably five, so we don’t have to think about it again straight away.  
+
+CLIENT2: [00:20:19] Yeah, I’d go five.  
+
+ADVISOR: [00:20:22] Okay. To get a rough feel: if you’re buying around the low three hundreds, say £320,000, putting in about £40,000 deposit and taking a mortgage in the mid‑two hundreds over thirty years on a fixed rate… You’re probably looking at something very roughly in the region of eleven to thirteen hundred a month for the main mortgage, depending on the actual rate. Does that sound in the right ballpark?  
+
+CLIENT2: [00:20:42] Okay.  
+
+CLIENT1: [00:20:43] Yeah, that’s kind of what we’d been expecting.  
+
+ADVISOR: [00:20:47] If you used any sort of equity‑loan style scheme on a new build—where there’s a second loan sitting alongside the main mortgage—once the interest kicks in on that second loan, your total housing cost might be more like fifteen to sixteen hundred a month. That’s mortgage plus the equity‑loan payment.  
+
+CLIENT1: [00:21:00] Including the bit to the government thing?  
+
+ADVISOR: [00:21:02] Exactly.  
+
+CLIENT2: [00:21:04] Right. I think we were expecting maybe sixteen, seventeen hundred all‑in with bills, but not just the mortgage.  
+
+CLIENT1: [00:21:10] Yeah, I’d say we’d be okay somewhere between, I dunno, fourteen and eighteen hundred for the mortgage side, as long as we’re not on beans on toast every night.  
+
+ADVISOR: [00:21:19] And you’d still like to keep pension contributions going and hopefully a bit of saving, even once you’ve moved?  
+
+CLIENT2: [00:21:24] Yeah, I don’t want to stop mine because school matches some of it.  
+
+CLIENT1: [00:21:27] Same here. I’d rather keep mine where it is if we can.  
+
+ADVISOR: [00:21:31] So if rates ended up higher than we’d like and the payment crept up towards seventeen or eighteen hundred just for the mortgage, is that starting to feel tight or still manageable?  
+
+CLIENT2: [00:21:39] That’s probably the top end.  
+
+CLIENT1: [00:21:41] Yeah, once it’s over eighteen we’d start to worry, because we still want some spare to decorate and maybe still have the odd holiday.  
+
+ADVISOR: [00:21:48] That gives me a clear ceiling to work with.  
+
+
+### Risk Attitude & Investment Preferences (interwoven with mortgage)
+
+ADVISOR: [00:21:52] One of the other things I need to get a feel for is how you both feel about risk—not just for investments but also in terms of mortgage choices. George, with your pensions and the AJ Bell and Moneybox ISAs, would you say you’re fairly comfortable with some ups and downs as long as it’s long‑term?  
+
+CLIENT1: [00:22:04] Yeah. For pension stuff I’m okay with a bit of risk. I think mine’s in one of the “balanced growth” type funds. I just don’t want the house money in anything that might drop.  
+
+ADVISOR: [00:22:13] And Karen, would you say you’re similar or more cautious?  
+
+CLIENT2: [00:22:16] Probably more cautious. I hate the idea of things going down, even if it’s just on paper. I get that pensions need some risk, but I definitely don’t want the deposit anywhere risky.  
+
+ADVISOR: [00:22:25] That’s a sensible distinction: deposit money safe, long‑term money can work a bit harder. I’ll email you both a short risk questionnaire after this, just so we’ve got a formal record. Which is the best mobile/email to send that to?  
+
+CLIENT1: [00:22:36] Probably mine. I check emails more than Karen does.  
+
+CLIENT2: [00:22:39] Yeah, send it to George and he’ll chase me.  
+
+ADVISOR: [00:22:42] [laughs] Okay. I’ve got an 07… ending in 4‑3‑2 on the system—still right?  
+
+CLIENT1: [00:22:47] Yeah, that’s me.  
+
+ADVISOR: [00:22:49] Perfect.  
+
+
+### A Bit More on Pensions & Future Changes
+
+ADVISOR: [00:22:52] We touched briefly on pensions earlier. Just so I’ve got it straight: George, you’re paying about five percent into your Northbridge pension and they’re putting in around four?  
+
+CLIENT1: [00:22:59] Yeah, that’s right.  
+
+ADVISOR: [00:23:01] And Karen, you’re in the Teachers’ Pension Scheme, just under nine percent going out of your salary.  
+
+CLIENT2: [00:23:06] Yeah.  
+
+ADVISOR: [00:23:08] Have either of you changed contributions recently to free up more for the deposit?  
+
+CLIENT1: [00:23:12] I thought about dropping mine but didn’t in the end. I feel like we started late already.  
+
+CLIENT2: [00:23:16] I moaned about mine going up, but I’ve left it as is. We’ve cut back elsewhere instead.  
+
+ADVISOR: [00:23:21] Once Ella’s nursery costs drop, what would you ideally like to do—overpay the mortgage, increase pensions, build up investments?  
+
+CLIENT1: [00:23:28] I’d quite like to bump up my pension or maybe overpay the mortgage a bit once nursery isn’t four hundred a month.  
+
+CLIENT2: [00:23:33] Yeah, same. Right now nursery is squeezing everything else.  
+
+ADVISOR: [00:23:37] Okay, that gives me a feel for your longer‑term priorities.  
+
+
+### Clarifying Protection Needs (briefly, not full recommendation)
+
+ADVISOR: [00:23:41] Because you’ll be taking on quite a large debt and you’ve got Ella, we will at some point want to look at what protection you’ve already got—life cover, income protection—either through work or personally. Do either of you have anything like that already, aside from the death‑in‑service you get with your jobs?  
+
+CLIENT1: [00:23:53] I don’t have anything separate, no.  
+
+CLIENT2: [00:23:55] Same. Just whatever the school provides.  
+
+ADVISOR: [00:23:59] That’s fine. We don’t need to go into full detail on that today; I just wanted to flag it while we’re talking about the mortgage repayment and Ella’s nursery being such a big fixed cost. We can book a separate chat to go through that properly.  
+
+CLIENT2: [00:24:08] Yeah, that’s probably sensible.  
+
+
+### Double‑Checking Day‑to‑Day Finances & Savings Rate
+
+ADVISOR: [00:24:12] Coming back to your monthly position now—after rent, bills, nursery, car, food, phones, and so on, roughly how much are you managing to put aside for the house each month at the moment?  
+
+CLIENT2: [00:24:22] On a good month, about six to seven hundred into savings.  
+
+CLIENT1: [00:24:26] Some of that goes into the Lifetime ISAs—two hundred each when we can—and the rest into the Starling pot. But if the car needs tyres or nursery send a surprise invoice, that’s the first thing that gets raided.  
+
+ADVISOR: [00:24:35] Understandable. From what you’ve said, essentials—rent, bills, nursery—are non‑negotiable, you want to keep pensions going if possible, and then the flexible stuff—takeaways, holidays, gym—is what moves up and down depending on how the month’s gone.  
+
+CLIENT1: [00:24:47] Yeah, that’s about it.  
+
+CLIENT2: [00:24:49] Yeah.  
+
+
+### Clarifying Property Use & Lender Preferences
+
+ADVISOR: [00:24:52] When you buy, you’re planning to live there as your main home from day one—not renting out a room straight away or anything like that?  
+
+CLIENT2: [00:24:58] No, we just want it to be our home, at least for the first few years.  
+
+CLIENT1: [00:25:02] Maybe later we’d think about a lodger once we’ve settled, but not at the start.  
+
+ADVISOR: [00:25:06] That’s fine. The mortgage will be assessed as a standard residential loan. If you ever do take a lodger, we’d just check it still fits the lender’s rules. Any particular bank or building society you prefer, or are you open as long as the deal’s good?  
+
+CLIENT2: [00:25:17] We don’t really mind. We use app‑based banks for our current accounts, but for the mortgage we’re not bothered who it’s with.  
+
+CLIENT1: [00:25:22] Yeah, no specific lender in mind.  
+
+ADVISOR: [00:25:26] That gives me flexibility to search across the market for you.  
+
+
+### Brief Check on Property Schemes
+
+ADVISOR: [00:25:29] You mentioned on the form you’d had a look at first‑time buyer schemes—things like First Homes or developer equity loans. Have you got any particular scheme in mind, or are you just aware they exist?  
+
+CLIENT2: [00:25:38] We were looking at that First Homes style thing—discounted new builds for first‑time buyers who live locally. We’re not 100% set on new build though.  
+
+CLIENT1: [00:25:45] Yeah, we also looked at the old Help to Buy stuff but I think that’s gone now, and then we got a bit confused.  
+
+ADVISOR: [00:25:51] The old Help to Buy equity loan has ended, but some developers still offer equity‑loan type deals and there are council‑run schemes in some areas. If you did go down an equity‑loan route, that’s basically a second loan secured on the same property as the main mortgage. It can help with deposit, but it complicates things a little and affects what happens when you sell.  
+
+CLIENT1: [00:26:06] So it’d be like having two loans on the same house.  
+
+ADVISOR: [00:26:09] Exactly. We can weigh up pros and cons when you’ve narrowed down the type of property—new build versus older.  
+
+CLIENT2: [00:26:14] Okay.  
+
+
+### Quick Recap on Ownership & Assets (no full summary)
+
+ADVISOR: [00:26:17] Just to tick off one last thing on the assets side: aside from your savings and pensions, do you own any other big assets—cars we’ve covered, but no other property, no shares in a family business, anything like that?  
+
+CLIENT1: [00:26:27] No, nothing like that.  
+
+CLIENT2: [00:26:29] Just the car on finance and our stuff.  
+
+ADVISOR: [00:26:32] Alright.  
+
+
+### Admin & Next Steps (without full recap)
+
+ADVISOR: [00:26:35] To move things forward from here, the next practical bits I’ll need are: payslips, so I can see the exact income and pension deductions; a couple of recent bank statements for your main accounts; and a snapshot of your Lifetime ISA balances. I don’t need account numbers on email, just screenshots that show your names and balances. Is that okay?  
+
+CLIENT1: [00:26:50] Yeah, we can get those.  
+
+CLIENT2: [00:26:52] I can grab the LISA screenshots tonight.  
+
+ADVISOR: [00:26:55] Great. I’ll also send over that risk questionnaire and a basic budget template—you’ve already got a good feel for your figures, but sometimes seeing it on one page helps when we’re thinking about that £1,400–£1,800 comfort range for the mortgage.  
+
+CLIENT1: [00:27:05] Yeah, that’d be useful actually.  
+
+CLIENT2: [00:27:07] Yeah, then we can see what happens when nursery drops off and all that.  
+
+ADVISOR: [00:27:11] Exactly. And once I’ve got your documents and you’ve had a chance to play with the budget, we can have another call to look at some specific mortgage options—different terms, fixed periods, and the impact of using or not using any schemes.  
+
+CLIENT2: [00:27:21] Okay, sounds good.  
+
+CLIENT1: [00:27:23] Yeah, that works for us.  
+
+ADVISOR: [00:27:26] Brilliant. I’ll fire those emails over this afternoon. If you remember any other old pensions or savings pots we haven’t talked about—sometimes people suddenly remember a random ISA from years ago—just drop me a note and we’ll add it in.  
+
+CLIENT2: [00:27:35] Will do.  
+
+CLIENT1: [00:27:37] Yeah, if something pops up in a drawer we’ll let you know.  
+
+ADVISOR: [00:27:40] Perfect. That’s everything I needed from my side for today.

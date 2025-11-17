@@ -1,0 +1,160 @@
+# Financial Fact-Find Transcript Generation Task
+
+You are generating a realistic segment of a financial advisor's fact-find conversation with a client.
+The conversation should be natural, professional, and include specific factual information with proper timestamp citations.
+
+## Client Case: Self-Employed Business Owner: Kevin and Ashley Martinez
+
+**Client Names:** Kevin and Ashley Martinez
+
+**Description:** A self-employed individual in their 40s who owns a small business. They have irregular income, business assets, personal investments, and need advice on tax efficiency and retirement planning. They own a retail business and are considering expansion
+
+**Profile:**
+- Age: 44 and 43
+- Marital status: married
+- Employment: self-employed
+- Life stage: mid-career
+
+## Focus Area: Loans And Mortgages
+
+Generate a conversation segment discussing the client's loans and mortgages.
+Include natural dialogue between the advisor and client(s), with specific details and values.
+
+## Attributes to Cover
+
+Include discussion of the following attributes where relevant:
+
+### loans_and_mortgages > static > lender
+**Example values:**
+  1. `not_discussed`
+     Citation: "Lender not specified in transcript"
+
+### loans_and_mortgages > static > lender > citation
+**Example values:**
+  1. `Lender not specified in transcript`
+     Citation: "Lender not specified in transcript"
+
+### loans_and_mortgages > static > lender > type
+**Example values:**
+  1. `string`
+     Citation: "Lender not specified in transcript"
+
+### loans_and_mortgages > static > lender > value
+**Example values:**
+  1. `not_discussed`
+     Citation: "Lender not specified in transcript"
+
+### loans_and_mortgages > static > loan_type
+**Example values:**
+  1. `mortgage`
+     Citation: "ADVISOR: “Mortgage? … that’s a good debt to have.”"
+
+### loans_and_mortgages > static > loan_type > citation
+**Example values:**
+  1. `ADVISOR: “Mortgage? … that’s a good debt to have.”`
+     Citation: "ADVISOR: “Mortgage? … that’s a good debt to have.”"
+
+### loans_and_mortgages > static > loan_type > type
+**Example values:**
+  1. `string`
+     Citation: "ADVISOR: “Mortgage? … that’s a good debt to have.”"
+
+### loans_and_mortgages > static > loan_type > value
+**Example values:**
+  1. `mortgage`
+     Citation: "ADVISOR: “Mortgage? … that’s a good debt to have.”"
+
+### loans_and_mortgages > static > secured_against_asset_id
+**Example values:**
+  1. `asset_home_mortgage_property`
+     Citation: "Mortgage linked to primary residence asset"
+
+### loans_and_mortgages > static > secured_against_asset_id > citation
+**Example values:**
+  1. `Mortgage linked to primary residence asset`
+     Citation: "Mortgage linked to primary residence asset"
+
+### loans_and_mortgages > static > secured_against_asset_id > type
+**Example values:**
+  1. `string`
+     Citation: "Mortgage linked to primary residence asset"
+
+### loans_and_mortgages > static > secured_against_asset_id > value
+**Example values:**
+  1. `asset_home_mortgage_property`
+     Citation: "Mortgage linked to primary residence asset"
+
+### loans_and_mortgages > timeline
+**Example values:**
+  1. `3000`
+     Citation: "CLIENT: “Probably about $3,000 a month. More for the mortgage.”"
+
+### loans_and_mortgages > timeline > citation
+**Example values:**
+  1. `CLIENT: “Probably about $3,000 a month. More for the mortgage.”`
+     Citation: "CLIENT: “Probably about $3,000 a month. More for the mortgage.”"
+
+### loans_and_mortgages > timeline > type
+**Example values:**
+  1. `currency`
+     Citation: "CLIENT: “Probably about $3,000 a month. More for the mortgage.”"
+
+### loans_and_mortgages > timeline > value
+**Example values:**
+  1. `3000`
+     Citation: "CLIENT: “Probably about $3,000 a month. More for the mortgage.”"
+
+
+## Few-Shot Citation Examples
+
+Below are examples of how to format citations with timestamps:
+
+1. **[00:00:00]** lender: `not_discussed`
+   > Lender not specified in transcript
+
+2. **[00:00:00]** citation: `Lender not specified in transcript`
+   > Lender not specified in transcript
+
+3. **[00:00:00]** type: `string`
+   > Lender not specified in transcript
+
+4. **[00:00:00]** value: `not_discussed`
+   > Lender not specified in transcript
+
+5. **[00:05:02]** secured_against_asset_id: `asset_home_mortgage_property`
+   > Mortgage linked to primary residence asset
+
+6. **[00:05:02]** citation: `Mortgage linked to primary residence asset`
+   > Mortgage linked to primary residence asset
+
+7. **[00:05:02]** type: `string`
+   > Mortgage linked to primary residence asset
+
+8. **[00:05:02]** value: `asset_home_mortgage_property`
+   > Mortgage linked to primary residence asset
+
+9. **[00:05:02]** timeline[]: `3000`
+   > CLIENT: “Probably about $3,000 a month. More for the mortgage.”
+
+10. **[00:05:02]** citation: `CLIENT: “Probably about $3,000 a month. More for the mortgage.”`
+   > CLIENT: “Probably about $3,000 a month. More for the mortgage.”
+
+
+## Output Requirements
+
+1. DON'T USE THE SAME LOCATIONS AND VALUES AS IN THE EXAMPLES. USE DIFFERENT VALUES AND LOCATIONS.
+1. **Format:** Natural conversational dialogue with speaker labels (ADVISOR:, CLIENT:, CLIENT1:, CLIENT2:)
+2. **Timestamps:** Include timestamps in format [HH:MM:SS] at natural conversation points
+3. **Detail:** Include specific numbers, dates, and factual information
+4. **Natural flow:** The conversation should feel realistic with natural transitions
+5. **Length:** Generate 3-5 minutes of conversation (approximately 500-1000 words)
+
+## Timeline Guidance
+
+The conversation should follow a natural progression. Here's a timeline of topics:
+
+**Around 0-5 minutes:**
+  Topics: lender, citation, type
+
+**Around 0-5 minutes:**
+  Topics: citation, secured against asset id, type

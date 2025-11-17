@@ -1,0 +1,670 @@
+# Financial Fact-Find Transcript
+# Persona: Daniel Thompson
+# Type: Divorced Single Parent
+# Generated: 2025-11-17 19:11:33
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:01]  
+Hi Daniel, can you hear me okay?
+
+CLIENT: [00:00:04]  
+Yeah, I’ve got you. And, uh, please call me Dan. Only my mom says “Daniel” when I’m in trouble.
+
+ADVISOR: [00:00:10]  
+Alright, Dan it is. Before we get into the details, I just need to confirm a few basics for my notes.  
+Can I check your full legal name, as it appears on your ID?
+
+CLIENT: [00:00:19]  
+Sure. It’s Daniel James Thompson.
+
+ADVISOR: [00:00:23]  
+Thanks. And your date of birth?
+
+CLIENT: [00:00:26]  
+Fourteenth of April, nineteen seventy‑nine.
+
+ADVISOR: [00:00:31]  
+Got it, 04/14/79. So you’re forty‑six now.
+
+CLIENT: [00:00:35]  
+Yeah. Forty‑six going on eighty some mornings.
+
+ADVISOR: [00:00:40]  
+I hear that a lot.  
+Marital status next—are you currently single, married, divorced?
+
+CLIENT: [00:00:46]  
+Divorced. The decree came through last October.
+
+ADVISOR: [00:00:51]  
+Okay, divorced since last October.  
+And you’ve got children as well?
+
+CLIENT: [00:00:56]  
+Yeah, two. Both teenagers.
+
+ADVISOR: [00:00:59]  
+Can you remind me of their names and ages, and who they mainly live with?
+
+CLIENT: [00:01:04]  
+Sure. My daughter, Mia, she’s fifteen. My son, Oliver, he’s thirteen.  
+We do week‑on, week‑off, so they’re half the time with me in Beaverton and half with my ex, Laura.
+
+ADVISOR: [00:01:16]  
+Okay, shared custody, half‑and‑half. That’s really helpful—it affects how we think about college, housing, all of that.  
+
+Just staying on you for a minute—how would you describe your general health? Any major conditions I should know about?
+
+CLIENT: [00:01:28]  
+Generally pretty good.  
+Bit of a dodgy lower back from too much sitting at a desk, but no heart stuff, no diabetes, nothing like that.
+
+ADVISOR: [00:01:38]  
+Any regular prescribed medications?
+
+CLIENT: [00:01:41]  
+No. Just ibuprofen if my back flares up and the odd antihistamine in the summer. Nothing long‑term.
+
+ADVISOR: [00:01:48]  
+Alright. I also have to ask about smoking or vaping because it impacts insurance costs—do you smoke at all?
+
+CLIENT: [00:01:55]  
+No. I used to, ages ago. I quit when Mia was born, so about fifteen years ago.  
+Haven’t touched one since. No vaping either.
+
+ADVISOR: [00:02:05]  
+Perfect—so ex‑smoker, but nothing for well over a decade.  
+
+Given the divorce and the kids, I do want to ask about your will. Do you have an up‑to‑date will in your own name now?
+
+CLIENT: [00:02:15]  
+Short answer, no.  
+We had one as a couple, like, forever ago, but that was pre‑divorce, different house, everything. I’m guessing it’s basically useless now.
+
+ADVISOR: [00:02:27]  
+It probably doesn’t reflect what you’d want today. Is sorting a new will something you’ve started on, or still on the to‑do list?
+
+CLIENT: [00:02:34]  
+Still on the list. Been on the list since… well, since everything kicked off.  
+I know I should sort it. If anything happened to me right now it’d be a bit of a mess, I think.
+
+ADVISOR: [00:02:44]  
+Especially with two teenagers and shared custody. In a new will, if something happened to you, who would you want in charge of money for Mia and Oliver?  
+Day‑to‑day care might be Laura, but for actual money decisions?
+
+CLIENT: [00:02:56]  
+Yeah, day‑to‑day it would be Laura—they’re already with her half the time.  
+But for the money side, I’d want my sister Emma involved. She’s pretty sensible. Laura and I don’t always, uh, see eye to eye on spending.
+
+ADVISOR: [00:03:10]  
+Okay, so likely Laura for care, Emma as the one managing money for the kids. We can build that into the plan later and get you pointed to an attorney to draft something that actually matches that.
+
+CLIENT: [00:03:19]  
+Yeah, that would be good. I have no idea where to start with wills and trusts and all that.
+
+ADVISOR: [00:03:25]  
+No problem, we’ll keep it in plain English.  
+
+Let’s switch to work so I understand what’s coming in.  
+What’s your current job title?
+
+CLIENT: [00:03:33]  
+I’m a senior project manager in IT—mostly software rollout projects.
+
+ADVISOR: [00:03:39]  
+And who do you work for?
+
+CLIENT: [00:03:41]  
+It’s a software company downtown in Portland, called Northbridge Technologies. I mostly work from home in Beaverton and go into the office a couple times a week.
+
+ADVISOR: [00:03:51]  
+Northbridge Technologies. Full‑time permanent role?
+
+CLIENT: [00:03:54]  
+Yeah, full‑time. I’ve been there about seven years now.
+
+ADVISOR: [00:03:58]  
+So nice and stable.  
+In terms of earnings, roughly what does Northbridge pay you in a year? Ballpark is fine.
+
+CLIENT: [00:04:05]  
+Base is just under ninety‑five grand. Then there’s usually a bonus, anywhere between five and ten percent depending how the projects go.
+
+ADVISOR: [00:04:15]  
+So mid‑nineties base plus a smallish bonus most years.  
+And that’s W‑2 income with federal and state taxes taken out on payroll?
+
+CLIENT: [00:04:21]  
+Yeah, they take federal, state, Social Security, Medicare, the whole lot.  
+Definitely in the “ouch” tax bracket—don’t know the exact percentage, just that it stings.
+
+ADVISOR: [00:04:31]  
+Understood. Do you usually get a refund at tax time or end up owing?
+
+CLIENT: [00:04:35]  
+Last couple of years it’s been a small refund, like a few hundred bucks. Nothing big either way.
+
+ADVISOR: [00:04:42]  
+Okay, so withholding’s roughly on target.  
+
+Any concerns about job security or big changes coming? Promotion, possible redundancy, planned career break?
+
+CLIENT: [00:04:51]  
+Job feels pretty secure, touch wood. They’ve talked about maybe a lead role opening up in the next year or two that’d bump my base a bit.  
+On the flip side, once Mia goes off to college I might want to cut my hours back a little, but that’s, what, three years away.
+
+ADVISOR: [00:05:05]  
+Good to know. That potential cut in hours ties into when you might want more flexibility, so we’ll keep that in mind.  
+
+While we’re on your job, let’s talk about what you’ve got for retirement through Northbridge. What type of plan do they offer?
+
+CLIENT: [00:05:17]  
+I’ve got a 401(k) through Fidelity. That’s the main one.
+
+ADVISOR: [00:05:21]  
+Any idea of the balance at the moment?
+
+CLIENT: [00:05:24]  
+Last time I looked it was in the high eighties—like, eighty‑something thousand. I’d have to log in to get the exact number.
+
+ADVISOR: [00:05:31]  
+And are you contributing from each paycheck right now?
+
+CLIENT: [00:05:34]  
+Yeah. I’m doing eight percent of my salary, and they match up to four percent. I bumped it up this year once things settled with child support.
+
+ADVISOR: [00:05:43]  
+Okay, eight from you, four from them. That’s a solid total going in.  
+Is that pre‑tax, or are you using the Roth option inside the 401(k)?
+
+CLIENT: [00:05:51]  
+Mostly pre‑tax. I think there’s a Roth box somewhere but I haven’t messed with it.
+
+ADVISOR: [00:05:56]  
+Got it. We’ll look later at whether a bit of Roth starts to make sense.  
+
+Do you have any old 401(k)s or pensions from previous jobs?
+
+CLIENT: [00:06:04]  
+Yeah, from my old job in Eugene, at a manufacturing plant. That 401(k) I rolled into an IRA at Vanguard. The IRA’s maybe around sixty grand. Again, I’d need to check.  
+And that company has a tiny pension that starts at sixty‑five. The letter said something like two hundred a month if I leave it alone.
+
+ADVISOR: [00:06:22]  
+So a small defined‑benefit pension of about $200 a month at sixty‑five. Do you remember if your ex got a share of anything in the divorce, or did you manage to keep that one intact?
+
+CLIENT: [00:06:31]  
+She got a slice of one of my old 401(k)s in the settlement—we did the QDRO thing—but the little pension itself stayed with me. The IRA at Vanguard is what’s left after that split.
+
+ADVISOR: [00:06:42]  
+Okay, that makes sense. Any Roth IRAs or regular taxable investment accounts in your name?
+
+CLIENT: [00:06:48]  
+Yeah, I opened a Roth years back at Vanguard. I haven’t been super consistent, but I think there’s, I don’t know, twenty to twenty‑five thousand in it.  
+Oh, and I forgot—there’s a small brokerage account at Stonebridge Investments. I used to mess around with individual stocks. I’ve mostly switched it into a couple of index funds now. Balance is maybe eight or nine grand. I’m not adding to it regularly at the moment.
+
+ADVISOR: [00:07:10]  
+Okay, Roth IRA around the low‑twenties, small taxable account eight to nine thousand.  
+Anything like a Health Savings Account through work?
+
+CLIENT: [00:07:18]  
+Yeah, my current employer offers an HSA. That has maybe four grand in it. I mostly just let it grow and pay medical out of pocket when I can.
+
+ADVISOR: [00:07:27]  
+Great. And any company stock plans—ESPP or restricted stock?
+
+CLIENT: [00:07:32]  
+Yeah, there’s the stock thing where they take money from your paycheck and you buy at a discount—ESPP. I started last year. Balance is small, around four grand worth of shares.
+
+ADVISOR: [00:07:42]  
+Do you usually hold those shares or sell them as they become available?
+
+CLIENT: [00:07:46]  
+So far I’ve just held them. I know, I know, “don’t put all your eggs where your paycheck comes from,” but it was easier to let it sit until I talked to someone like you.
+
+ADVISOR: [00:07:55]  
+No worries, that’s very common. We’ll set a simple rule for those later so you’re not overexposed.  
+
+Before we dig further into assets, I want to understand where you’re trying to get to.  
+You’re forty‑six now—when, in an ideal world, would you like to be able to choose to stop full‑time work?
+
+CLIENT: [00:08:10]  
+In a dream world, fifty‑five.  
+Realistically… I used to think sixty‑five. Since the divorce, I don’t know. Maybe somewhere around sixty‑two? Early sixties, anyway.
+
+ADVISOR: [00:08:22]  
+Okay, so early sixties, say sixty‑two, is the target. Not pushing all the way into late sixties if we can help it.  
+When you picture life then, what does it look like?
+
+CLIENT: [00:08:30]  
+I don’t see myself just sitting around. I’d probably still do some contract work, maybe two or three days a week.  
+I’d like to be free enough to go to the kids’ stuff, maybe help them if they’ve got kids of their own by then. A few trips a year, nothing crazy.
+
+ADVISOR: [00:08:42]  
+And to fund that, ignoring the part‑time work for a second, how much after‑tax money landing in your checking each month would feel comfortable?
+
+CLIENT: [00:08:50]  
+Um… I’ve not done the math properly.  
+If I had, say, between three and a half and four grand a month after tax, that’d cover the basics and a bit of fun, I think. So, what, forty‑something thousand a year?
+
+ADVISOR: [00:09:04]  
+Around three‑and‑a‑half to four thousand net per month. That gives us a really clear target.  
+
+You mentioned in the questionnaire you were “middle of the road” with risk. Has that changed at all after the divorce and the market swings the last few years?
+
+CLIENT: [00:09:15]  
+I used to be more gung‑ho, all‑in on equities.  
+After the split and watching the markets bounce around, I’m more cautious. I don’t want to lose half of it overnight, but I know it needs to grow.
+
+ADVISOR: [00:09:26]  
+So comfortable with some ups and downs, but nothing too extreme—more of a medium‑risk, steady‑growth approach?
+
+CLIENT: [00:09:32]  
+Yeah, that sounds about right. Not super safe, but not casino either.
+
+ADVISOR: [00:09:36]  
+Perfect. I’ll send you a short risk questionnaire after this call just to nail that down.  
+Is the mobile number ending in 3‑9‑0‑4 still the best one?
+
+CLIENT: [00:09:44]  
+Yeah, that’s my cell. I’ve always got it on me.
+
+ADVISOR: [00:09:48]  
+Great, I’ll use that.  
+
+Let’s talk about what’s going out each month so we can see what’s realistic for saving. Roughly, in a typical month, what do you think you spend all‑in?
+
+CLIENT: [00:09:59]  
+Uh… I’d say total somewhere between four and five grand?  
+I haven’t added it up line by line in a while, but yeah, around there.
+
+ADVISOR: [00:10:08]  
+That’s fine, ballpark is a good start. We’ll break it down.  
+Housing first—tell me about where you’re living now. Own or rent?
+
+CLIENT: [00:10:16]  
+I own. It’s a townhouse out in Beaverton, just outside Portland. Three‑bed, Maple Ridge neighborhood. That’s where the kids and I are on my weeks.
+
+ADVISOR: [00:10:26]  
+Nice. Is that your main home—any other properties?
+
+CLIENT: [00:10:29]  
+Yeah, that’s my main place.  
+I do have a small share—like ten percent—of my parents’ cabin up in northern Idaho, near Sandpoint, on a little lake. They put my name on the title a while back.
+
+ADVISOR: [00:10:42]  
+Family cabin sounds great. Any mortgage on that, or is it paid off?
+
+CLIENT: [00:10:46]  
+That one’s paid off. They built it years ago. My brother kind of runs it. He pays the property tax and stuff, and I just show up, help with repairs, chop wood.
+
+ADVISOR: [00:10:55]  
+Do you have a ballpark of what the cabin’s worth overall?
+
+CLIENT: [00:10:59]  
+Last time my brother looked on Zillow it was low four hundreds, maybe four‑twenty, four‑thirty. So my slice would be like forty‑ish grand? Total guess, but in that neighborhood.
+
+ADVISOR: [00:11:10]  
+That’s helpful. Any rental income from it, or purely family use?
+
+CLIENT: [00:11:13]  
+Just family. No Airbnb, nothing like that. We talked about it but never actually did it.
+
+ADVISOR: [00:11:20]  
+Okay, purely recreational for now.  
+
+Back to the townhouse—any rough idea what that’s worth these days?
+
+CLIENT: [00:11:26]  
+I bought it about two years ago, after the divorce. We paid around the low five hundreds. My realtor friend keeps saying the market bumped up, so maybe it’s in the mid‑five hundreds now, maybe a bit more.
+
+ADVISOR: [00:11:38]  
+And there’s a mortgage on it?
+
+CLIENT: [00:11:40]  
+Oh yeah. Thirty‑year fixed, started in 2022. I think I owe, like, mid‑three hundreds. Payment’s about twenty‑four hundred a month; that’s with property taxes rolled in. Home insurance is separate.
+
+ADVISOR: [00:11:53]  
+How many years roughly left on that loan if you just pay the minimum?
+
+CLIENT: [00:11:57]  
+Uh, twenty‑seven? Twenty‑eight? Basically I’ll be around seventy if I just pay the minimum and don’t do anything fancy.
+
+ADVISOR: [00:12:06]  
+Do you ever pay extra, or have plans to?
+
+CLIENT: [00:12:09]  
+I’d love to pay it off quicker. Some months I’ll round it up a bit—like throw an extra hundred or two at it—but honestly braces and sports and everything eat that up. It’s not a consistent overpayment.
+
+ADVISOR: [00:12:21]  
+And for utilities and other housing costs—what does that look like monthly?
+
+CLIENT: [00:12:25]  
+So, utilities… gas and electric together are maybe one‑fifty in summer and like two‑twenty in winter.  
+Water and trash is around seventy every other month. Internet is seventy‑five.  
+Home insurance is, I think, sixty‑something a month. So if you average it out, maybe three hundred, three‑fifty a month for utilities and insurance.
+
+ADVISOR: [00:12:45]  
+Okay, so between the mortgage and those basics you’re somewhere around twenty‑seven, twenty‑eight hundred a month to keep the roof over your head and the lights on.
+
+CLIENT: [00:12:53]  
+Yeah, that sounds about right. That’s stuff I can’t really mess with. Kids need a stable place.
+
+ADVISOR: [00:13:00]  
+Definitely in the “must pay” bucket.  
+
+Let’s look at costs tied to the kids—after‑school stuff, sports, activities, that kind of thing.
+
+CLIENT: [00:13:08]  
+Yeah, so… No daycare anymore, thank God. When they were little it was brutal.  
+Now it’s more like my son, he’s fifteen, he’s pretty independent. My daughter’s thirteen, and on the weeks I have them she goes to an after‑school program two days a week because I can’t get out of work by three. That’s, I think, about one‑twenty a month? Maybe one‑thirty.
+
+ADVISOR: [00:13:27]  
+Okay, modest after‑school cost for Mia a couple of days a week. Clubs and sports?
+
+CLIENT: [00:13:32]  
+Oh yeah, that’s where it adds up. My son plays club soccer. That’s around nine hundred a season, three times a year if he does all of them. They spread it out in payments though.  
+My daughter’s in dance and theater. Dance is like ninety a month for classes, plus costumes and stuff, which is another few hundred when recital season hits.  
+My ex and I split most of those fifty‑fifty, so I’m paying roughly half those numbers.
+
+ADVISOR: [00:13:58]  
+So if we smooth that out across the year, what do you think your share averages per month?
+
+CLIENT: [00:14:03]  
+Uh… If I spread it all out, including the busy months, I’d guess somewhere between six and eight hundred a month? Some months it’s lower, and then when we have tournament fees and costumes, it spikes.
+
+ADVISOR: [00:14:17]  
+And these are things you’d rather protect if we’re looking for money to free up?
+
+CLIENT: [00:14:21]  
+Yeah. I’d rather not cut their activities. They’ve had enough change with the divorce. I’d put those pretty high priority, at least for the next few years.
+
+ADVISOR: [00:14:31]  
+Got it—kids’ activities are high priority. Any school‑related costs? Lunches, supplies, field trips?
+
+CLIENT: [00:14:37]  
+School lunches when they’re with me—I load money on their accounts. That’s probably like sixty to eighty a month.  
+Supplies… back‑to‑school hits hard in August. Maybe three, four hundred for clothes and notebooks and all that. If you smooth that out, call it maybe thirty bucks a month.
+
+ADVISOR: [00:14:53]  
+Okay. Let’s talk about other day‑to‑day stuff—groceries, transportation.
+
+CLIENT: [00:14:58]  
+Groceries, when it’s just me, it’s not bad. But when I’ve got the kids it jumps. Over a full month I’d say six to seven hundred on groceries and household stuff. If they’re in a growth spurt, more.  
+We try not to eat out a ton, but we’ll do pizza or Chipotle once a week on my weeks. That’s maybe a hundred, hundred‑fifty a month on takeout.
+
+ADVISOR: [00:15:18]  
+So food and basics probably in the eight‑hundred range.
+
+CLIENT: [00:15:21]  
+Yeah, that sounds about right.
+
+ADVISOR: [00:15:24]  
+What do you drive, and what are the costs there?
+
+CLIENT: [00:15:27]  
+I’ve got a 2019 Subaru Outback. Probably worth around twenty grand, give or take.  
+I still owe about three on it. Payment’s about three hundred a month, and it’ll be paid off next April. Insurance for me is, uh, ninety‑something. Gas with commuting and shuttling them to practices, maybe one‑twenty, sometimes one‑fifty if we’re driving to away games.
+
+ADVISOR: [00:15:50]  
+So car plus gas plus insurance, maybe five hundred or so a month. Another essential, really.
+
+CLIENT: [00:15:56]  
+Yeah, I need the car to get them around.
+
+ADVISOR: [00:16:00]  
+Beyond the essentials, what would you say are your “nice‑to‑have” expenses? Things you’d cut first if money got tight—travel, subscriptions, hobbies?
+
+CLIENT: [00:16:08]  
+Travel for sure is the big one there. We try to do one decent trip a year. Last year I took them to D.C. for a week. Flights, Airbnb, museums, all that… I think that ended up around three grand total.  
+I kind of just save up in my checking for that, or use my bonus from work. I don’t have, like, a set vacation budget every month.
+
+ADVISOR: [00:16:27]  
+So it’s more ad‑hoc—if there’s room, you go; if not, you scale back.
+
+CLIENT: [00:16:31]  
+Exactly. If I had to, I could skip a big trip for a year. The kids would be bummed, but we could do local stuff instead.
+
+ADVISOR: [00:16:38]  
+Any streaming, gym, that sort of thing?
+
+CLIENT: [00:16:41]  
+Yeah, I’ve got Netflix, Disney+, Spotify… all together, maybe forty, fifty bucks a month.  
+Gym is thirty‑nine. My cell phone plan for me and the kids is about one‑forty.  
+Those are like medium priority. I could cut a streaming service or two if I had to. Phone plan I kind of need, but I could probably switch to a cheaper one if money got really tight.
+
+ADVISOR: [00:17:01]  
+Okay, that gives me a good sense of what’s flexible and what’s not.  
+
+You mentioned earlier that child support was coming out of your paycheck. How much is that each month?
+
+CLIENT: [00:17:10]  
+It’s a little over a thousand a month that goes to Laura. Kids are with me half the time, but on paper she has them a bit more, so that’s how the court set it.
+
+ADVISOR: [00:17:19]  
+And you don’t receive any support payments yourself, just paying out?
+
+CLIENT: [00:17:22]  
+Right, it’s a one‑way thing.
+
+ADVISOR: [00:17:25]  
+Got it.  
+
+Historically, with all these expenses, how have you felt about your retirement contributions? Comfortable, or tempted to dial them back?
+
+CLIENT: [00:17:33]  
+I mean, sometimes around August when school stuff hits and then December with Christmas, I feel the squeeze. I’m putting in eight percent right now.  
+I’ve thought about dropping it a bit, but I also feel like I’m behind because of the divorce. So I’ve been trying to leave it alone and instead cut back on trips or eating out.
+
+ADVISOR: [00:17:50]  
+So your instinct is to treat retirement saving as important and adjust discretionary stuff like vacations first.
+
+CLIENT: [00:17:56]  
+Yeah. Housing, kids, car, those are non‑negotiable. After‑school stuff is non‑negotiable at least until they’re out of high school. Vacations and extras, that’s where I flex.
+
+ADVISOR: [00:18:06]  
+Makes sense.  
+
+Let’s pivot back to your balance sheet for a second—cash savings. What do you usually keep in checking and savings?
+
+CLIENT: [00:18:13]  
+Checking is at OnPoint Credit Union. I try to keep around five thousand in there. It floats, though. Right before payday it might dip to two or three.
+
+ADVISOR: [00:18:22]  
+And savings? Do you keep an emergency fund somewhere?
+
+CLIENT: [00:18:25]  
+Yeah, I opened one of those online high‑yield accounts with Ally. Right now it’s just over twenty, maybe twenty‑two thousand. That’s my “don’t touch unless someone breaks an arm” money.
+
+ADVISOR: [00:18:36]  
+Any other cash buckets? Money from the divorce settlement or anything like that?
+
+CLIENT: [00:18:41]  
+Yeah. When we sold the old house in Salem I ended up with, I think, around one‑ten from my share. Some of that went to paying off a credit card, most of the rest became the down payment on the townhouse. I’ve still got about thirty sitting in a money market at the credit union.
+
+ADVISOR: [00:18:57]  
+Is that thirty earmarked for anything specific, or just “future Dan” money?
+
+CLIENT: [00:19:01]  
+Kind of both. In my head it’s “future me” money. Part of me wants to put ten into a Roth IRA, and then use some for college for the kids. I just got stuck on which accounts to open, so it’s been parked there.
+
+ADVISOR: [00:19:14]  
+We can definitely give that a job later. Any CDs or other locked accounts?
+
+CLIENT: [00:19:18]  
+I do have one CD. Twelve‑month, at U.S. Bank. I put fifteen thousand into it. It comes due in November, mid‑November this year. Rate’s like four‑something percent.
+
+ADVISOR: [00:19:30]  
+When that matures, do you want that money available for new goals, or were you thinking of rolling it again?
+
+CLIENT: [00:19:35]  
+I set it up after the divorce so I wouldn’t blow the money. At this point I’m okay using it for a plan. So, yeah, I’d say “available,” unless you tell me it’s smarter to keep it locked.
+
+ADVISOR: [00:19:47]  
+Okay, we’ll treat it as available for planning.  
+
+Any savings specifically for the kids—529 plans?
+
+CLIENT: [00:19:53]  
+Yeah, I started 529s last year through the Oregon plan. One for each kid. They’re tiny right now. Maybe five thousand in my son’s and four in my daughter’s.  
+I was thinking that thirty in the money market would beef those up, but maybe that CD in November is better once it frees up. Not sure.
+
+ADVISOR: [00:20:09]  
+For today we’ll just note the balances. We’ll talk strategy later.  
+
+Let me check on the debt side beyond the mortgage and car. Do you have any other loans or credit cards with balances?
+
+CLIENT: [00:20:18]  
+Yeah, there’s a small personal loan I took out for legal fees—attorney, mediator, all that. I didn’t want to run up the credit cards.  
+It’s about eight thousand, and I’m paying around three hundred a month on that.
+
+ADVISOR: [00:20:30]  
+Do you know how long is left on that loan?
+
+CLIENT: [00:20:33]  
+It was three years total. I’ve got just over two years left now.
+
+ADVISOR: [00:20:38]  
+And that’s unsecured—just a personal loan?
+
+CLIENT: [00:20:41]  
+Yeah, not tied to the house or anything.
+
+ADVISOR: [00:20:44]  
+Emotionally, which feels heavier—the mortgage or that personal loan?
+
+CLIENT: [00:20:48]  
+Honestly? The personal loan bugs me more.  
+The mortgage feels like “normal” debt. The other one feels like I’m still paying for the divorce.
+
+ADVISOR: [00:20:56]  
+I hear that a lot. If we freed up some money, would you rather throw it at that loan, the mortgage, or increase retirement/college savings?
+
+CLIENT: [00:21:04]  
+A few weeks ago I’d have said smash the loan.  
+But talking about retirement, I’m thinking maybe split it?  
+Half to clear the loan quicker, half to either the mortgage or pension, depending what you recommend.
+
+ADVISOR: [00:21:16]  
+Okay, so you’re open to a mix rather than just one focus.
+
+CLIENT: [00:21:19]  
+Yeah. Kids, retirement, house… it’s all kind of competing.
+
+ADVISOR: [00:21:25]  
+That’s exactly what we’ll help you juggle.  
+
+Just circling back to retirement for a moment—outside of the 401(k), IRA, and that small pension, have you looked at your Social Security statement?
+
+CLIENT: [00:21:34]  
+Yeah, I logged in a few months back. If I wait till sixty‑seven it showed around twenty‑six hundred a month. At sixty‑two it was down closer to like eighteen hundred. I don’t remember the exact numbers but in that range.
+
+ADVISOR: [00:21:46]  
+Perfect. So between Social Security, that small defined‑benefit pension, and your 401(k)/IRA balances, you’ve already got some building blocks for that three‑and‑a‑half to four thousand a month target. We’ll run the projections properly.  
+
+On the college side, what are you hoping to cover for Mia and Oliver? Full tuition, a portion, or “we’ll see”?
+
+CLIENT: [00:22:00]  
+Ideally I’d cover at least a good chunk of in‑state tuition and some living costs. I don’t think I can realistically do everything if they want private schools.  
+Laura and I kind of agreed we’d each aim to cover a third and they’d handle the rest with loans or work, but that was before the divorce, so… we’ll see.
+
+ADVISOR: [00:22:16]  
+Okay, rough target of contributing meaningfully but not necessarily 100% of costs.  
+
+Let’s touch on protection briefly. You mentioned some life cover through work. What do you have in place now?
+
+CLIENT: [00:22:25]  
+Through work I’ve got basic life—two times salary, I think. So, like, around one‑eighty, one‑ninety grand if I died.  
+We used to have a separate policy tied to the old joint mortgage, but we cancelled that when we split everything. I don’t think there’s anything that’s specifically “this pays off the mortgage” now.
+
+ADVISOR: [00:22:41]  
+Any disability or income protection?
+
+CLIENT: [00:22:44]  
+There’s whatever the company provides—short‑term disability for a few months, and a long‑term disability option I think at sixty percent of salary. I didn’t buy extra on my own.
+
+ADVISOR: [00:22:54]  
+Okay. We’ll circle back to whether that’s enough given the kids rely on you and the house.  
+
+Are your beneficiary designations on the 401(k), IRA, and life insurance up to date, or do they still list Laura?
+
+CLIENT: [00:23:05]  
+I changed the work life insurance to name the kids in trust—well, that’s what HR told me. I think Emma is listed as the trustee.  
+The 401(k) still has Laura on there, I’m pretty sure. And the IRAs… honestly, I don’t remember. They might still be joint‑era.
+
+ADVISOR: [00:23:19]  
+Alright, we’ll add “update beneficiaries” to the to‑do list along with the will. That way if something happens, things flow the way you actually want.  
+
+Any other big‑ticket assets I haven’t asked about? Boats, business interests, collections?
+
+CLIENT: [00:23:32]  
+No boats, no business. Just too many guitars in the basement. They’re more sentimental than investment grade, though.
+
+ADVISOR: [00:23:39]  
+Got it—no vintage Fender hidden in there worth a fortune?
+
+CLIENT: [00:23:42]  
+I wish. They’re mostly mid‑range. I pretend they’re investments, but they’re not.
+
+ADVISOR: [00:23:48]  
+Fair enough.  
+
+Let me just check we haven’t missed any day‑to‑day borrowing. Any credit card balances you carry month to month?
+
+CLIENT: [00:23:55]  
+I’ve got two cards. One I pay off in full every month—that’s groceries, gas, points, that sort of thing.  
+The other has a small leftover balance from the divorce time, like eighteen hundred bucks, on a promo rate. I’m chipping away at it, around a hundred‑fifty a month.
+
+ADVISOR: [00:24:10]  
+Okay, so nothing huge there. Combined with the personal loan and car, that’s manageable but still something we’ll factor in.  
+
+Taking a step back—anything about your situation that you feel we haven’t touched on yet? For example, helping your parents, or a potential inheritance?
+
+CLIENT: [00:24:23]  
+My parents are pretty self‑sufficient. The cabin is kind of their “gift” to us; they’ll probably leave that to me and my brother formally at some point.  
+Only other thing is my mom’s health isn’t perfect, so I might need to travel more to Idaho now and then, but not like full‑time care or anything.
+
+ADVISOR: [00:24:38]  
+Okay, so maybe some future travel costs, but not an ongoing financial responsibility right now.  
+
+Just to clarify your priorities for me—if we had, say, an extra five hundred a month we could direct somewhere, what order matters most to you: paying off that divorce loan, building college funds, boosting retirement, or paying the mortgage down faster?
+
+CLIENT: [00:24:55]  
+Hm.  
+First instinct: clear that damn loan, just for the mental space. So, like, half there.  
+Then maybe a quarter to retirement and a quarter to the 529s. I don’t feel a huge rush to overpay the mortgage while rates are low, but I also hate the idea of still having it in my seventies.
+
+ADVISOR: [00:25:14]  
+That’s really helpful. Preferences can change as we go, but it gives us a starting point.  
+
+Before we wrap, there are a couple of practical things I’ll need so we can do the detailed work: recent statements for your 401(k), IRA, Roth, HSA, the 529s, and your mortgage. Do you get those by email?
+
+CLIENT: [00:25:29]  
+Yeah, everything’s gone paperless. I can dig them out of my inbox. The mortgage lender sends an annual statement, and I can download a balance screen too.
+
+ADVISOR: [00:25:37]  
+Perfect. I’ll send you a secure link after this call where you can upload whatever you find. No rush, just over the next week or so.  
+
+Anything you’re particularly worried about that you want to make sure we address when we start modeling things—apart from the obvious “am I on track”?
+
+CLIENT: [00:25:51]  
+Yeah, I mean, that’s the big one—am I completely behind?  
+Also, college. I don’t know if I’m doing the right thing with the 529s versus just throwing money at the mortgage or the IRA. And the will stuff scares me a bit—if I get hit by a bus, I don’t want Laura and Emma stuck in some legal nightmare.
+
+ADVISOR: [00:26:08]  
+Totally understandable. We’ll tackle those in a structured way once I’ve crunched the numbers—college versus mortgage versus retirement, plus the estate planning basics.  
+
+For now, I think I have what I need on the fact‑finding side. I’ll get that risk questionnaire and upload link out to you this afternoon. Then once you’ve sent through the statements, we’ll schedule our next session and start turning all of this into a concrete plan.
+
+CLIENT: [00:26:28]  
+Alright. Sounds, uh… actually sounds kind of reassuring to have it all in one place. I’ll dig through my inbox tonight.
+
+ADVISOR: [00:26:35]  
+Great. And if you think of anything you forgot to mention—an old account, a policy, whatever—just jot it down and we’ll pick it up next time.
+
+CLIENT: [00:26:42]  
+Will do. Thanks.
+
+ADVISOR: [00:26:45]  
+You’re welcome, Dan. I’ll talk to you soon.

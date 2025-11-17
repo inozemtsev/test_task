@@ -1,0 +1,428 @@
+# Financial Fact-Find Transcript
+# Persona: James and Elizabeth Williams
+# Type: Blended Family
+# Generated: 2025-11-16 22:02:38
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:03] Hi James, hi Elizabeth — thanks for making time today. Before we get into the weeds, can I confirm a couple of basics for the file? Full names, what you prefer to be called, dates of birth, and marital status.
+
+CLIENT1: [00:00:12] Sure. I’m James Andrew Williams — I go by James. Date of birth is April 12, 1977.
+
+CLIENT2: [00:00:23] I’m Elizabeth Marie Williams — everyone calls me Liz. My DOB is September 3, 1985.
+
+ADVISOR: [00:00:33] Perfect. And you’re married?
+
+CLIENT2: [00:00:36] Married, yes — since 2018. Blended family — his son is with us three nights a week, and my daughter is with us alternating weeks.
+
+CLIENT1: [00:00:45] Lots of calendars and hand‑offs.
+
+ADVISOR: [00:00:49] Got it. Quick health check for the retirement modeling — how’s health, any ongoing issues?
+
+CLIENT1: [00:00:57] Good, touch wood. I run a bit, gym twice a week.
+
+CLIENT2: [00:01:01] Same here — good overall, and we don’t smoke.
+
+ADVISOR: [00:01:08] Great. Let’s warm up on income because it threads into most of our decisions. James, employer and role? And are you full time?
+
+CLIENT1: [00:01:16] Full time. I’m an Operations Manager with Piedmont Logistics in Charlotte. Base salary is $96,000 with a 10% target bonus. I put 8% into the 401(k), and they match 4%.
+
+ADVISOR: [00:01:31] Thanks. Liz?
+
+CLIENT2: [00:01:33] I’m a registered nurse — Senior Staff Nurse — with Atrium Health, Carolinas Medical Center. I’m at 0.8 FTE, so part‑time but steady. About $42,000 at that FTE. I contribute 5% to the 403(b) and there’s a 2% match.
+
+ADVISOR: [00:01:49] Perfect. For taxes, what’s your understanding of your bracket right now?
+
+CLIENT1: [00:01:54] We file jointly. I think we’re in the 22% federal bracket. North Carolina’s around 4.75% state. Effective was ~14% last year.
+
+CLIENT2: [00:02:04] That matches my memory.
+
+ADVISOR: [00:02:07] Helpful. Since it’s a blended household — James, are you paying maintenance or child support? And Liz, are you receiving any support?
+
+CLIENT1: [00:02:15] I pay $700 a month in child support for my son. Order updated in 2020 — runs through June 2029.
+
+CLIENT2: [00:02:23] I receive $300 a month for my daughter. It’s reviewed annually but unchanged for a while.
+
+ADVISOR: [00:02:30] I’ll capture $700 outflow and $300 inflow in the cash‑flow model. That helps. While we’re here — retirement timing goals?
+
+CLIENT1: [00:02:39] I was thinking 60, but realistically 61 for healthcare. If we can bridge, maybe earlier.
+
+CLIENT2: [00:02:47] I had 58 in my head, but I’d shift to 59 so we’re close together.
+
+ADVISOR: [00:02:53] Okay — we’ll model 61 for James and 59 for Liz, and we can test 60/59 as a second scenario. And risk tolerance — on a scale 1 cautious to 5 adventurous?
+
+CLIENT1: [00:03:04] I’m a three. Balanced.
+
+CLIENT2: [00:03:07] Two‑and‑a‑half? I’m okay with balanced if we keep six months’ expenses in cash.
+
+ADVISOR: [00:03:13] That’s exactly how we’ll set it up. I’ll send a quick risk questionnaire by text after this, with a PIN to authenticate.
+
+CLIENT2: [00:03:20] Text is best.
+
+ADVISOR: [00:03:22] Great. Let’s thread housing in next, then loop back to savings and the kids’ expenses. For your primary residence — what’s the current mortgage setup?
+
+CLIENT1: [00:03:31] We’ve got a 30‑year fixed with Wells Fargo, opened July 2019.
+
+CLIENT2: [00:03:36] The mortgage is in James’s name right now. Title is joint — joint tenants with rights of survivorship.
+
+ADVISOR: [00:03:44] Got it — loan in James’s name, title JTWROS. Balance and rate?
+
+CLIENT1: [00:03:50] Balance is about $412,000. Rate is 3.875% fixed. No prepayment penalty.
+
+CLIENT2: [00:03:57] The payment breaks down to roughly $1,930 P&I. Escrow adds about $915 — property taxes are around $9,360 a year and insurance is like $1,380. All-in, it’s about $2,845 monthly; we usually round up and put an extra $200 to principal.
+
+ADVISOR: [00:04:15] Perfect. Estimated home value?
+
+CLIENT2: [00:04:18] Somewhere $720–$750k, per our realtor friend.
+
+ADVISOR: [00:04:22] Healthy equity. Any other home‑secured borrowing?
+
+CLIENT1: [00:04:25] HELOC with First Community Credit Union. Limit $35,000; balance about $12,800. Rate is prime plus 0.5%, so around 8.75%. Minimum is interest‑only like $90‑ish, but we pay $300 a month.
+
+ADVISOR: [00:04:39] Thanks. We’ll talk payoff strategy once we’ve seen the rest of the cash flow. Quick pivot while we’re on property — any other real estate?
+
+CLIENT1: [00:04:47] I have a 50% share in a vacation condo in Sarasota — Gulf Gate area. My sister owns the other half. No mortgage.
+
+ADVISOR: [00:04:55] Tenants‑in‑common 50/50?
+
+CLIENT1: [00:04:57] Yep, tenants‑in‑common. HOA is $420 a month. We rent it on Airbnb around 8–10 weeks a year, and use it one week in spring with the kids.
+
+ADVISOR: [00:05:07] Do you have a sense of current value and carrying costs?
+
+CLIENT1: [00:05:11] Last comps had it around $410,000. My half is roughly $205,000. Property taxes are about $3,900 a year; my share of insurance runs about $1,150 annually. Net after HOA/cleaning comes out close to $14k a year, give or take with storms.
+
+ADVISOR: [00:05:26] Noted — and we’ll reflect the 70% rental / 30% personal use when we look at taxes. Liz, you’d mentioned a second place from before?
+
+CLIENT2: [00:05:34] Yes, my old condo — now a rental. Chase is the lender. It’s interest‑only, adjustable. Rate reset last September; it’s at 6.1%. Balance is about $190,000. Payment is around $965 a month, interest‑only. HOA is $320. Insurance is about $60 a month. Rent is $1,650 when occupied.
+
+ADVISOR: [00:05:54] Good. So it covers itself when it’s occupied, but margin’s not huge and there’s vacancy risk.
+
+CLIENT1: [00:05:59] We had a month vacant in February. It ate into savings a bit.
+
+ADVISOR: [00:06:03] Understood. We’ll budget for a vacancy and a repair reserve. What’s your plan with that loan when the interest‑only period ends?
+
+CLIENT2: [00:06:10] It’s interest‑only for another seven years, then switches to amortizing. We’ll likely refinance if rates and equity cooperate.
+
+ADVISOR: [00:06:18] Sounds like the right approach. Okay, let’s talk household expenses — just the unavoidable ones to start: utilities, taxes, etc. Ballpark?
+
+CLIENT2: [00:06:28] Electricity and gas average around $185 a month. Water/sewer plus trash is about $95. Internet is $70.
+
+CLIENT1: [00:06:37] Phones are $135 a month. Car insurance is $142. Groceries average $1,100 — it spikes when both kids are with us.
+
+ADVISOR: [00:06:47] And childcare?
+
+CLIENT2: [00:06:49] Our three‑year‑old is in full‑day daycare. After the state pre‑K hours, we still pay about $1,450 a month. The seven‑year‑old does after‑school club most days — that’s about $550 a month. So roughly $2,000 total monthly.
+
+CLIENT1: [00:07:03] We max the dependent care FSA at $5,000 a year, which helps the taxes, but the cash still goes out.
+
+ADVISOR: [00:07:09] Right — I’ll mark childcare as high‑priority, unavoidable for about two and a half more years. Streaming, gym — the “could cut if needed” stuff?
+
+CLIENT2: [00:07:18] Netflix $19.99, Spotify Family $15.99, Disney+ $9.99. Gym is $49 each — we could cancel one if needed.
+
+ADVISOR: [00:07:26] Great — I’ll tag those as discretionary. Any big annuals?
+
+CLIENT1: [00:07:30] Amazon Prime — $139 annually. Term life: mine $42 a month, Liz’s $31.
+
+CLIENT2: [00:07:36] School supplies maybe $250 at the start of the year.
+
+ADVISOR: [00:07:40] Perfect. While we’re in cash‑flow mode, let’s weave in retirement contributions so we can see how the pieces interact. You’re at 8% on your 401(k), James, with 4% match, and Liz you’re 5% on the 403(b) with 2% match — did I hear that right?
+
+CLIENT1: [00:07:54] Yes.
+
+CLIENT2: [00:07:55] Yes — I could bump to 6% or 7% but daycare makes it tight.
+
+ADVISOR: [00:08:00] Let’s hold 8% and 5% through the heavy childcare phase. Once daycare drops, we can increase to, say, 12% each and redirect freed‑up cash. That keeps compounding on track without stressing the monthlys.
+
+CLIENT1: [00:08:12] Makes sense.
+
+CLIENT2: [00:08:13] Agreed.
+
+ADVISOR: [00:08:15] Okay, hop back to assets and liquidity. What’s in checking and high‑yield savings currently?
+
+CLIENT2: [00:08:21] Joint checking averages around $18,000 — fluctuates with custody weeks and James’s support payments. We’ve got a high‑yield savings with about $24,000 for emergencies.
+
+CLIENT1: [00:08:30] With the kids’ schedules and fees, we keep more cash than we used to.
+
+ADVISOR: [00:08:34] Any CDs or other cash buckets?
+
+CLIENT2: [00:08:36] I have an inheritance in a 12‑month fixed CD I can’t touch until July 12, 2025. It’s at 4.8% APY. Should be about $32–33k by maturity.
+
+ADVISOR: [00:08:48] And the plan after maturity?
+
+CLIENT2: [00:08:50] Split it — max my Roth IRA for 2025, and move the rest to our HYSA. Liquidity matters for us. If there’s room, maybe top up early for 2026, but we don’t want it all locked up.
+
+ADVISOR: [00:09:00] Good plan. We’ll check Roth eligibility given your income. Any other investment assets we should note?
+
+CLIENT1: [00:09:08] I get a small ESPP discount at work — about $4,600 market value right now.
+
+ADVISOR: [00:09:13] Noted. Vehicles for completeness?
+
+CLIENT1: [00:09:16] 2019 Subaru Outback — maybe $14,000 resale. No loan.
+
+CLIENT2: [00:09:20] 2021 Toyota Sienna — Carvana quoted $19,000 last month. Also no loan.
+
+ADVISOR: [00:09:25] Great. College savings — 529s?
+
+CLIENT2: [00:09:28] Two 529s. One for James’s son — balance around $18,000. One for my daughter — about $6,000. We contribute sporadically.
+
+ADVISOR: [00:09:36] That works. Now retirement accounts — ballpark values so I see the picture. James?
+
+CLIENT1: [00:09:42] My 401(k) is about $220,000. And I’ve got a small frozen pension from my state job — I think it’s like $500 a month at 65. I need to find the statement.
+
+ADVISOR: [00:09:51] We’ll mark it as estimated defined benefit. Liz?
+
+CLIENT2: [00:09:55] My 403(b) is about $95,000. Roth IRA has about $17,000. HSA is $4,200 invested.
+
+ADVISOR: [00:10:03] Perfect. And just to close the real estate loop — any intent to pull a HELOC against the rental or the vacation condo for backup liquidity?
+
+CLIENT1: [00:10:11] We considered it, but the rates feel high — and with vacancies, it worries us.
+
+ADVISOR: [00:10:15] I’m with you — given the rental is already interest‑only, more leverage could tighten cash flow. We’ll keep the main HELOC as the safety valve and prioritize paying it down.
+
+CLIENT2: [00:10:23] That’s our thinking too.
+
+ADVISOR: [00:10:25] Okay. Let’s pause for a quick recap of where we are, then we’ll dive into a few planning items — estate docs, risk alignment, and travel goals. Here’s what I’ve captured so far: married since 2018, blended household, good health. James at Piedmont Logistics, $96k base plus 10% target bonus, 8% to 401(k) with 4% match. Liz at Atrium Health, 0.8 FTE, ~$42k, 5% to 403(b) with 2% match. Federal 22% bracket; NC around 4.75%. Child support: James pays $700/month to 2029; Liz receives $300/month. Primary home: Wells Fargo 30‑year fixed at 3.875%, balance ~$412k, PITI ~$2,845, adding $200 principal. HELOC at 8.75%, balance ~$12.8k, paying $300. Rental condo: Chase interest‑only at 6.1%, ~$190k balance, $965 monthly; rent $1,650; HOA $320; insurance ~$60. Sarasota condo: James 50% TIC, no mortgage, HOA $420, taxes ~$3,900, insurance share ~$1,150, net rent roughly $14k/year after costs. Cash: checking ~$18k, HYSA ~$24k, and Liz’s inheritance CD maturing July 12, 2025 at 4.8% (~$32–33k). Vehicles: Outback ~$14k, Sienna ~$19k. 529s at ~$18k and ~$6k. Retirement: James 401(k) ~$220k plus a small pension; Liz 403(b) ~$95k, Roth ~$17k, HSA ~$4.2k. ESPP ~$4.6k. Did I miss or mangle anything?
+
+CLIENT1: [00:11:19] That sounds right.
+
+CLIENT2: [00:11:21] Yep. Oh — homeowner’s insurance on the house might bump escrow by about $20 next renewal.
+
+ADVISOR: [00:11:27] Good flag — I’ll add a small bump in the model. Let’s talk estate planning — wills and a simple trust. Do you have documents in place?
+
+CLIENT2: [00:11:35] No, not yet. We’ve been meaning to.
+
+CLIENT1: [00:11:38] We want things very clear for guardianship and distributions.
+
+ADVISOR: [00:11:42] With a blended family and two properties, I’d recommend mirror wills and a revocable trust with children’s sub‑trusts — we can structure distributions in stages, say 1/3 at 21, 1/3 at 25, balance at 30, with education carve‑outs. I’ll introduce you to a local estate attorney.
+
+CLIENT2: [00:11:56] Please do — that’s a priority.
+
+ADVISOR: [00:11:59] Great. While we’re on “who gets what,” quick note on beneficiary designations on your retirement accounts and the ESPP — have those been updated since you married?
+
+CLIENT1: [00:12:07] 401(k) is updated with Elizabeth as primary and the kids as contingent 50/50. I need to confirm the small pension paperwork.
+
+CLIENT2: [00:12:14] Mine are up to date — James primary, kids 50/50 contingent on the Roth and 403(b).
+
+ADVISOR: [00:12:19] Excellent. Let’s spend a few minutes on lifestyle goals so the model reflects what you actually want to do. Travel habits?
+
+CLIENT2: [00:12:26] We like to see my sister in Sarasota — once, sometimes twice a year. Flights, car rental, food — anywhere from $2,500 to $4,000 total depending on whether we go once or twice.
+
+CLIENT1: [00:12:38] We do road trips to my folks in Ohio — gas and a motel, a few hundred bucks. Travel is discretionary; if cash is tight, we skip Florida.
+
+ADVISOR: [00:12:46] Perfect — we’ll keep one Florida trip in the plan for now, with the second as the “nice to have” after daycare winds down. Speaking of which, let’s set a deliberate timeline: childcare likely remains ~$2,000/month for about 2.5 more years. Once that drops, we’ll redirect to (1) the HELOC payoff, and (2) increased retirement contributions. How does that order of operations sound?
+
+CLIENT2: [00:13:05] I’d like to hit the HELOC first because of the rate.
+
+CLIENT1: [00:13:08] I agree — then boost 401(k)/403(b).
+
+ADVISOR: [00:13:11] Great. If we lift the HELOC payment to, say, $400–$450/month after childcare drops, you’d clear it in roughly three years. Then we can increase mortgage prepayments or retirement contributions — we’ll run both scenarios.
+
+CLIENT2: [00:13:23] That works.
+
+ADVISOR: [00:13:25] Quick insurance check — do you both have term life and adequate disability through work?
+
+CLIENT1: [00:13:30] Term life, yes. Disability is basic through work — we haven’t added supplemental.
+
+CLIENT2: [00:13:35] Same.
+
+ADVISOR: [00:13:37] Okay — with kids and a mortgage, I’ll review whether adding supplemental disability makes sense, especially for Liz given the physicality of nursing. We’ll price it and you can decide.
+
+CLIENT2: [00:13:46] Please do.
+
+ADVISOR: [00:13:48] Back to investments for a minute. James, your 401(k) — what’s your allocation? Target date or custom mix?
+
+CLIENT1: [00:13:55] Mostly target‑date through the plan. The ESPP is just the discount shares — small.
+
+ADVISOR: [00:14:01] And Liz?
+
+CLIENT2: [00:14:03] 403(b) is in a broadly diversified target‑date fund too. My Roth has a total market index and an international index.
+
+ADVISOR: [00:14:10] Great — that fits a 3/2.5 risk profile with six months’ cash. Speaking of cash, your HYSA at ~$24k is good, but with the rental and two kids, your stated comfort was six months’ base expenses. What number feels right to you?
+
+CLIENT2: [00:14:24] Around $43k would feel better. We’re at $24k now.
+
+CLIENT1: [00:14:28] We could prioritize building the HYSA to that target before the Roth contribution from the CD in 2025.
+
+ADVISOR: [00:14:34] Sensible. Since the CD matures July 12, 2025, we can split: top up HYSA to the comfort level, then do Liz’s Roth for 2025. If income pushes you over the Roth limits that year, we can pivot to a backdoor Roth. We’ll check your MAGI in spring before you pull the trigger.
+
+CLIENT2: [00:14:49] That’s perfect.
+
+ADVISOR: [00:14:51] On the rental condo, do you set aside a repair reserve?
+
+CLIENT1: [00:14:54] We try to set $100 a month aside. The water heater last fall wiped that out.
+
+ADVISOR: [00:14:59] I’ll bump that to $150/month in the plan for realism, and include a one‑month vacancy assumption annually. That way it doesn’t surprise us.
+
+CLIENT2: [00:15:07] Good idea.
+
+ADVISOR: [00:15:10] Before we jump to estate attorney referrals, I want to check if we need to tweak anything on the primary mortgage. You mentioned adding Liz to the mortgage note — still something you’re considering?
+
+CLIENT2: [00:15:19] We thought about it for fairness, but it sounds like it would require a full refinance.
+
+CLIENT1: [00:15:23] With 3.875%, we got cold feet.
+
+ADVISOR: [00:15:26] Totally fair — I’d avoid refinancing that rate. You can always add Liz to title (which you’ve done) and use the will/trust plus life insurance to balance responsibilities. That keeps the great first‑mortgage rate intact.
+
+CLIENT2: [00:15:37] Makes sense.
+
+ADVISOR: [00:15:39] Small housekeeping item — I’ll send each of you a text with a 5‑minute risk questionnaire. It helps me corroborate the “balanced” stance with the right glide path in your 401(k)/403(b) target‑date funds.
+
+CLIENT1: [00:15:49] Sounds good.
+
+CLIENT2: [00:15:51] Yep.
+
+ADVISOR: [00:15:53] Let’s take a five‑minute stretch here. When we come back, we’ll walk through the expense summary I typed as we spoke and finalize the contribution step‑ups and HELOC payoff timeline. Back in five?
+
+CLIENT2: [00:16:02] Works for me — I’ll grab my spreadsheet.
+
+CLIENT1: [00:16:04] I’ll refill coffee.
+
+— five‑minute break —
+
+ADVISOR: [00:21:09] Thanks for sticking with me. I’ve summarized your base monthly essentials, then the discretionary layer. Let me read back the essentials the way I’ve grouped them: PITI on the primary ~$2,845 plus $200 extra principal; HELOC $300 (we’ll plan to increase later); rental condo fixed costs — interest‑only $965, HOA $320, insurance ~$60, and a $150/month repair reserve; utilities $350ish (electric/gas/water/internet); phones $135; car insurance $142; childcare $2,000; groceries $1,100; gas $180; life insurance $73 combined; child support net outflow $400 (that’s $700 paid minus $300 received). Does that feel about right?
+
+CLIENT1: [00:21:47] Yeah, that captures it.
+
+CLIENT2: [00:21:49] Mm‑hmm.
+
+ADVISOR: [00:21:51] Discretionary: streaming $46, gym $98, Amazon Prime $139/year, one Florida trip per year (we’ll baseline $3,000), and “nice to have” second trip if cash is comfortable after childcare winds down. Sound fair?
+
+CLIENT2: [00:22:04] Yes.
+
+CLIENT1: [00:22:05] That matches how we think about it.
+
+ADVISOR: [00:22:08] Great. With that context, a couple of levers we could pull immediately: (1) redirect Schwab/other taxable investments for the next 12 months toward topping up the HYSA to your $43k comfort target, then resume; and (2) consider nudging the HELOC payment up by $50–$100 now, even before daycare ends. Thoughts?
+
+CLIENT1: [00:22:26] We can do $50 more to the HELOC.
+
+CLIENT2: [00:22:28] Agreed — and we’ll pause extra investing until savings is topped up.
+
+ADVISOR: [00:22:33] Done. On college savings, given your son is seven and your daughter is three, keeping the 529s modest and flexible is reasonable. If grandparents contribute later, great — otherwise, we’ll prioritize your retirement and keep travel modest until childcare lifts.
+
+CLIENT2: [00:22:47] That’s exactly our thinking.
+
+ADVISOR: [00:22:50] Two quick check‑ins: (1) Any business interests, stock options, or RSUs we haven’t covered?
+
+CLIENT1: [00:22:56] No business ownership. Just the ESPP.
+
+ADVISOR: [00:22:58] And (2) any big expenses coming in the next 12 months we should pre‑fund? Roof, braces, car replacement?
+
+CLIENT1: [00:23:04] Braces — we used some HELOC for my son already. No car replacements planned.
+
+CLIENT2: [00:23:09] Home insurance might tick up like I said, but otherwise nothing big.
+
+ADVISOR: [00:23:13] Okay. We’ll keep the sinking fund in mind for the rental — that $150/month should rebuild quickly. Now, estate plan — I’ll send an intro to a local attorney for mirror wills and a revocable trust with children’s sub‑trusts. We’ll include guardianship instructions and your staged distribution preferences.
+
+CLIENT1: [00:23:29] Please do.
+
+CLIENT2: [00:23:31] Thanks.
+
+ADVISOR: [00:23:33] While we’re doing paperwork, I’ll also send a beneficiary audit checklist for your 401(k), 403(b), Roth, HSA, and ESPP — it’s a one‑pager so you can confirm everything matches what you want.
+
+CLIENT2: [00:23:43] That’ll help a lot.
+
+ADVISOR: [00:23:46] Let’s circle back to retirement income for a moment. James, you mentioned a small pension — estimated $500/month at 65. That plus Social Security at full retirement age (we’ll model claiming at 67) will complement your 401(k). For Liz, Social Security at 67 plus 403(b)/Roth should be solid if we hit the step‑ups. You were thinking $80,000 gross per year in retirement — does that still resonate?
+
+CLIENT1: [00:24:07] Yes, $80k gross, net around $5,500 a month would feel comfortable.
+
+CLIENT2: [00:24:12] Agree — travel could go up or down, but that baseline works.
+
+ADVISOR: [00:24:16] Perfect. We’ll design a glidepath where you spend from pre‑tax first in your early 60s to bridge to Social Security, then balance Roth withdrawals later as taxes dictate. We’ll also address Roth conversions in the gap years if brackets are favorable.
+
+CLIENT1: [00:24:29] Good idea.
+
+ADVISOR: [00:24:31] Quick sanity check on the Sarasota condo — you use it one week in spring and rent 8–10 weeks, correct?
+
+CLIENT1: [00:24:37] Correct — roughly 70% rental use, 30% personal.
+
+ADVISOR: [00:24:41] We’ll reflect that split and your net in the plan. And you’re comfortable continuing as is — no plans to sell?
+
+CLIENT1: [00:24:47] We’re keeping it. The kids love it, and it mostly pays for itself.
+
+ADVISOR: [00:24:51] Great. On the rental condo, do you plan to keep it through retirement?
+
+CLIENT2: [00:24:55] For now, yes. We’ll reassess before the interest‑only ends.
+
+ADVISOR: [00:24:59] Good. If rates are still elevated at that point, we might target paying the balance down a bit before refinance to de‑risk the payment jump.
+
+CLIENT2: [00:25:06] Okay.
+
+ADVISOR: [00:25:08] Let’s lock a few action items, then I’ll give you space to ask anything I haven’t covered. Here’s my list so far:
+- Send risk questionnaire by text with PIN.
+- Email estate attorney introduction for mirror wills and revocable trust with sub‑trusts; include guardianship and staged distributions.
+- Beneficiary audit checklist for all accounts.
+- HELOC payoff plan: increase from $300 to $350 now; target a further increase after childcare ends to clear within ~36 months.
+- Emergency fund: pause taxable investing to top HYSA to ~$43k; maintain a $150/month rental repair reserve.
+- CD maturity 7/12/2025: confirm Roth eligibility in spring; on maturity, split proceeds — first ensure HYSA at target, then max Liz’s Roth for 2025; consider backdoor if needed.
+- Retirement contributions: hold at 8% (James) and 5% (Liz) during heavy childcare; step up to 12% each as daycare costs drop.
+- Insurance: price supplemental disability for both (especially Liz); confirm term life coverage levels align with mortgage/guardianship needs.
+
+CLIENT1: [00:25:58] That’s a good list.
+
+CLIENT2: [00:26:00] Agreed.
+
+ADVISOR: [00:26:02] Anything on your minds we haven’t addressed?
+
+CLIENT2: [00:26:05] I have a small question — would it ever make sense to take a HELOC draw to max the Roth early in the year, then pay it down as we go?
+
+ADVISOR: [00:26:14] Great question. Mathematically, borrowing at 8.75% to invest in the Roth isn’t ideal unless we had a very short, certain payback window and a very high confidence in returns. Given your child‑care phase and the vacancy risk on the rental, I’d avoid using the HELOC for that. Let’s fund the Roth from the CD and cash flow instead.
+
+CLIENT2: [00:26:31] That makes sense.
+
+CLIENT1: [00:26:33] I was thinking the same.
+
+ADVISOR: [00:26:35] Another one I often get — should you add more to the mortgage principal vs. the HELOC? Given the first‑mortgage rate is 3.875% and the HELOC is 8.75%, math says focus on the HELOC first. You’re already rounding up the first‑mortgage payment; keep that modest and direct extra to the HELOC until it’s gone.
+
+CLIENT1: [00:26:54] We’ll stick to that.
+
+ADVISOR: [00:26:56] Travel miles question — do either of you have travel cards that could offset Florida trips?
+
+CLIENT2: [00:27:01] We have a basic cash‑back card. We haven’t looked at travel cards much.
+
+ADVISOR: [00:27:05] I’ll send a quick side note with two or three low‑maintenance travel cards that play well with families — nothing fancy, just ones that can defray a flight or two a year without annual‑fee gymnastics.
+
+CLIENT2: [00:27:14] Nice, thank you.
+
+ADVISOR: [00:27:16] Before we wind down, let me reconfirm the key numbers for the data sheet — just reading back quickly and stop me if anything sounds off:
+- James: Piedmont Logistics, base $96k, 10% target bonus, 8% 401(k), 4% match; risk score ~3; retirement age target 61; 401(k) balance ~$220k; small pension ~$500/month at 65.
+- Liz: Atrium Health CMC, 0.8 FTE ~$42k, 5% 403(b), 2% match; risk ~2.5; retirement age target 59; 403(b) ~$95k; Roth ~$17k; HSA ~$4.2k invested.
+- Filing jointly; 22% federal, ~4.75% NC.
+- Child support: $700 out; $300 in.
+- Primary home: value ~$720–$750k; Wells Fargo 30‑yr fixed 3.875%; balance ~$412k; PITI ~$2,845; +$200 extra principal; title JTWROS; note in James’s name.
+- HELOC: First Community CU; limit $35k; balance ~$12.8k; ~8.75%; paying $300, moving to $350.
+- Rental condo: Chase interest‑only ARM 6.1%; balance ~$190k; $965 monthly; HOA $320; insurance ~$60; rent $1,650; plan to reassess before interest‑only ends in ~7 years.
+- Sarasota condo: James 50% TIC; value ~$410k; HOA $420; taxes ~$3,900; insurance share ~$1,150; 8–10 weeks Airbnb; one week personal; net ~ $14k/year after costs; usage 70% rental / 30% personal.
+- Cash: checking ~$18k; HYSA ~$24k (target ~$43k); inheritance CD 4.8% to 7/12/2025 (~$32–33k).
+- ESPP ~$4.6k.
+- 529s: ~$18k (James’s son) and ~$6k (Liz’s daughter).
+- Utilities: electric/gas ~$185; water/sewer/trash ~$95; internet ~$70; phones $135; groceries $1,100; gas $180; streaming $46; gym $98; Amazon $139/year; life insurance $73.
+- Travel: one Sarasota trip baseline at ~$3,000; second trip discretionary post‑childcare.
+
+CLIENT1: [00:28:36] That’s all accurate.
+
+CLIENT2: [00:28:38] Yes — looks right to me.
+
+ADVISOR: [00:28:41] Great. Here’s how I’ll proceed:
+- I’ll send the risk link by text right after we hang up.
+- I’ll email a summary of today’s notes, the expense breakdown (essentials vs. discretionary), and a proposed contribution/HELOC schedule through the childcare phase.
+- I’ll include the estate attorney intro and the beneficiary checklist.
+- And I’ll attach a quick “what‑if” on the rental — vacancy months and a refinance case before the interest‑only ends — plus two or three travel card options to consider.
+
+CLIENT2: [00:29:06] Perfect.
+
+CLIENT1: [00:29:08] Sounds good. This was really helpful.
+
+ADVISOR: [00:29:11] You’re welcome. Any last questions before we wrap?
+
+CLIENT2: [00:29:15] One last thing — do we need to do anything special with the Sarasota condo titling or insurance given the Airbnb piece?
+
+ADVISOR: [00:29:21] Good call — I’ll add an action to confirm the master policy and wind coverage are adequate for short‑term rentals and that the tenants‑in‑common titling is reflected properly in the policy. If needed, we can layer a short‑term rental rider or a landlord umbrella policy. I’ll review that with your insurance agent and include recommendations in the summary.
+
+CLIENT2: [00:29:36] Thank you.
+
+ADVISOR: [00:29:38] Great. I’ll get everything out today. Once you complete the risk link and glance through the summary, we’ll schedule a follow‑up to finalize the HELOC payoff path and the contribution step‑ups. Appreciate your time — talk soon.
+
+CLIENT1: [00:29:50] Thanks again.
+
+CLIENT2: [00:29:52] Thank you.

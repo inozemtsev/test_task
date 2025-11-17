@@ -1,0 +1,589 @@
+# Financial Fact-Find Transcript
+# Persona: David Taylor
+# Type: Cohabiting Couple
+# Generated: 2025-11-17 18:48:50
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:01] Hi, is that David and Chloe?  
+
+CLIENT1: [00:00:05] Yeah, hi, this is Dave.  
+
+CLIENT2: [00:00:09] And Chloe, yeah.  
+
+ADVISOR: [00:00:14] Great. I’ll just check I’ve got your names right for my notes. David Taylor and Chloe Harris?  
+
+CLIENT1: [00:00:21] That’s right, yeah.  
+
+CLIENT2: [00:00:24] Yeah, Harris with two R’s.  
+
+ADVISOR: [00:00:29] Perfect. And what do you prefer to be called day to day?  
+
+CLIENT1: [00:00:33] Dave’s good. “David” is usually if I’m in trouble.  
+
+CLIENT2: [00:00:38] Just Chloe for me.  
+
+ADVISOR: [00:00:43] Brilliant. Before we get into the detail, can I ask what prompted you to reach out now? What’s on your mind financially?  
+
+CLIENT1: [00:00:52] Um, bit of everything really. We’ve got the kids now, we’re not married yet, the flat’s in my name, and we’ve got, like, pensions and ISAs all over the place. We just thought, we should probably actually get a plan.  
+
+CLIENT2: [00:01:05] And I keep worrying that if something happened to Dave, I’m here with the kids but the mortgage isn’t even in my name. We’ve talked about wills and life insurance for, like, three years and done nothing.  
+
+ADVISOR: [00:01:18] You’re definitely not the only ones in that boat. Let’s get some basics down and then we can dig into those worries properly.  
+
+ADVISOR: [00:01:27] Dave, can I grab your date of birth first?  
+
+CLIENT1: [00:01:31] Yeah, it’s 14th of May, 1984.  
+
+ADVISOR: [00:01:37] Thanks. And Chloe?  
+
+CLIENT2: [00:01:40] Second of November, 1986.  
+
+ADVISOR: [00:01:46] So roughly forty and thirty‑eight?  
+
+CLIENT1: [00:01:49] Yeah, I hit the big four‑oh last month.  
+
+CLIENT2: [00:01:53] And I’m thirty‑eight.  
+
+ADVISOR: [00:01:59] Okay. And relationship‑wise, you’re living together but not married at the moment, is that right?  
+
+CLIENT1: [00:02:05] Yeah. Together about eight years, living together seven.  
+
+CLIENT2: [00:02:09] We keep saying, “We’ll sort the wedding,” but then kids and boilers and everything else happen.  
+
+ADVISOR: [00:02:19] Understood. That cohabiting piece is important for how we set things up, so it’s good you’ve flagged it.  
+
+ADVISOR: [00:02:26] You mentioned kids — how many, and what ages?  
+
+CLIENT2: [00:02:30] Two. Isla is six, she’s in Year One, and Leo is three, in nursery.  
+
+CLIENT1: [00:02:37] They keep us busy, put it that way.  
+
+ADVISOR: [00:02:43] I bet. I’m going to ask a couple of health questions as well, because that affects insurance and retirement planning. Dave, how’s your health generally?  
+
+CLIENT1: [00:02:52] Pretty good. I play five‑a‑side on Tuesdays, do a bit of running. No regular meds or anything.  
+
+ADVISOR: [00:03:00] Any smoking or vaping?  
+
+CLIENT1: [00:03:03] No, never smoked.  
+
+ADVISOR: [00:03:08] Chloe, what about you?  
+
+CLIENT2: [00:03:11] Mostly fine. I’ve got mild asthma — just an inhaler now and again, maybe once a week. I used to smoke in my twenties, but I quit when Isla was born, so… about seven years.  
+
+ADVISOR: [00:03:25] Great, thanks. That helps when we come back to life and illness cover.  
+
+ADVISOR: [00:03:32] In terms of the bigger picture, have either of you made a will yet?  
+
+CLIENT1: [00:03:37] No. We looked at one of those online templates and then sort of chickened out.  
+
+CLIENT2: [00:03:43] Yeah, it felt a bit real, so we parked it.  
+
+ADVISOR: [00:03:50] Totally normal reaction. Without getting into legal advice, with young children and you not being married, a proper will is really important. If something happened to one of you, who would you *want* things to go to?  
+
+CLIENT1: [00:04:02] I’d want everything to go to Chloe and the kids. I wouldn’t want distant relatives suddenly having a say.  
+
+CLIENT2: [00:04:09] Same here. I’d want Dave to be able to stay in the flat with the kids, not risk it getting complicated.  
+
+ADVISOR: [00:04:18] Okay, that gives me a good steer. We’ll loop back to wills and maybe a basic trust for the children.  
+
+ADVISOR: [00:04:27] Let’s talk about where you live now so I know what we’re protecting. Are you renting or do you own?  
+
+CLIENT1: [00:04:32] We bought. Well, I bought technically. It’s a flat and there’s a mortgage on it.  
+
+ADVISOR: [00:04:40] Okay. So you own the flat, mortgage secured on it, and you’re living there as a family. How long have you been there?  
+
+CLIENT1: [00:04:47] Just over four years.  
+
+ADVISOR: [00:04:52] Is the mortgage in joint names or just yours?  
+
+CLIENT1: [00:04:55] Just me — mortgage and the deeds. When we bought, my income was the one they used.  
+
+CLIENT2: [00:05:02] I still pay half, though. I just don’t actually exist on the paperwork.  
+
+ADVISOR: [00:05:09] Got it. Roughly how much is the flat worth now, if you stuck it on the market tomorrow?  
+
+CLIENT1: [00:05:16] Um, last time I looked on Rightmove and that, places in our block were going for about two‑sixty, two‑seventy.  
+
+ADVISOR: [00:05:26] And the mortgage balance, ballpark?  
+
+CLIENT1: [00:05:30] I checked the app the other day — it was around one‑ninety‑something. Just under two hundred.  
+
+ADVISOR: [00:05:39] Repayment mortgage over, what, twenty‑five years originally?  
+
+CLIENT1: [00:05:43] Yeah, twenty‑five. So about twenty‑one left.  
+
+ADVISOR: [00:05:49] And what’s the monthly payment at the moment?  
+
+CLIENT1: [00:05:53] Just under eleven hundred — like one‑one‑two‑something once you add the service charge.  
+
+ADVISOR: [00:06:03] Fixed rate or variable?  
+
+CLIENT1: [00:06:06] Fixed. Two‑year fix we did last year when rates went a bit mad. It ends next March.  
+
+ADVISOR: [00:06:15] Okay. When that ends, the payment may jump if you don’t get a new deal. Does that worry you given childcare and everything else?  
+
+CLIENT1: [00:06:22] A bit, yeah. We’re alright at the current level, but there isn’t loads of slack.  
+
+CLIENT2: [00:06:28] If it shot up a few hundred, we’d really have to juggle.  
+
+ADVISOR: [00:06:35] And how are you actually paying it? Do you both put money into a joint account or does Chloe transfer you her share?  
+
+CLIENT1: [00:06:42] We’ve got a joint account for bills. We each chuck a bit over two grand in, and that covers mortgage, bills, food, that sort of thing.  
+
+CLIENT2: [00:06:52] Then if there’s anything left, it kind of becomes savings — in theory.  
+
+ADVISOR: [00:07:00] In theory, yes.  
+
+ADVISOR: [00:07:04] Before we dive deeper into spending, can we run through your jobs and incomes so I know what’s coming in? Dave, what do you do at the moment?  
+
+CLIENT1: [00:07:11] I’m a senior mechanical engineer, for a company called Orion Dynamics, in Sunderland.  
+
+ADVISOR: [00:07:19] Employed, PAYE, full‑time?  
+
+CLIENT1: [00:07:22] Yeah, full‑time, permanent.  
+
+ADVISOR: [00:07:26] And roughly what’s your salary before tax — basic plus typical bonus?  
+
+CLIENT1: [00:07:32] Base is about sixty‑two, and there’s a bonus that varies. So I’d say sixty to sixty‑five with bonus.  
+
+ADVISOR: [00:07:42] Do you know what actually hits your bank each month after tax, pension, everything?  
+
+CLIENT1: [00:07:48] Take‑home’s around three grand, three‑one, something like that. More if the bonus month lands.  
+
+ADVISOR: [00:07:57] Any overtime or side income?  
+
+CLIENT1: [00:08:00] No overtime as such. I do a bit of side work for a mate’s online shop — some web bits. Last year it was maybe two grand in total.  
+
+ADVISOR: [00:08:11] Self‑employed, you invoice him?  
+
+CLIENT1: [00:08:14] Yeah, I invoice and stick it on my tax return. Learned that the hard way.  
+
+ADVISOR: [00:08:22] Good. Chloe, what about you?  
+
+CLIENT2: [00:08:25] I’m communications manager for a youth charity — Northside Youth Trust, in town.  
+
+ADVISOR: [00:08:31] Also employed PAYE?  
+
+CLIENT2: [00:08:34] Yeah. Four days a week but compressed hours, so basically full‑time over four days.  
+
+ADVISOR: [00:08:41] Roughly what’s your salary?  
+
+CLIENT2: [00:08:44] About thirty‑two thousand a year. Take‑home is around, I think, eighteen hundred a month.  
+
+ADVISOR: [00:08:52] And any other income — child benefit, side work?  
+
+CLIENT2: [00:08:56] Child benefit goes into my account — I think it’s about one‑eighty a month for the two of them. No tutoring or anything, I barely have time to sleep.  
+
+ADVISOR: [00:09:07] Fair enough. So main inflows are your two salaries, a bit of freelance from Dave, and child benefit.  
+
+CLIENT1: [00:09:13] Yeah, that’s it. No rental stuff or anything fancy.  
+
+ADVISOR: [00:09:21] Okay. Let’s get a feel for what’s going out each month. You’ve already mentioned the mortgage and service charge around eleven hundred. On top of that, what do you see going out on council tax, utilities, broadband, that kind of thing?  
+
+CLIENT1: [00:09:33] Council tax is about one‑eighty a month. Gas and electric, it’s jumped — maybe one‑twenty to one‑fifty depending on the month. Water around thirty‑odd. Broadband and TV about fifty‑five. Home insurance, buildings and contents, maybe twenty a month.  
+
+ADVISOR: [00:09:52] So mortgage and all the household bills are the non‑negotiables.  
+
+CLIENT2: [00:09:56] Yeah, that’s the boring stuff we have to cover.  
+
+ADVISOR: [00:10:02] Childcare is usually a big line for families. How does that look for you at the moment?  
+
+CLIENT2: [00:10:08] Painful. Isla’s in school, so we just pay for breakfast club and after‑school club a few days a week — I think that’s around two hundred a month.  
+
+CLIENT1: [00:10:18] And Leo’s three and in nursery pretty much full‑time. That bill’s the killer — about nine hundred something a month after the funded hours.  
+
+CLIENT2: [00:10:28] All in, with the clubs and nursery, it’s around thirteen, fourteen hundred just on childcare, even after the fifteen free hours and tax‑free childcare.  
+
+ADVISOR: [00:10:39] And how long do you expect childcare at that level to continue?  
+
+CLIENT1: [00:10:44] Leo’s got at least another year full‑time, then it should ease when he gets more free hours. Once they’re both in school full‑time, in theory we get a big chunk back.  
+
+CLIENT2: [00:10:54] That’s our mantra when we pay the nursery bill — “It won’t be forever.”  
+
+ADVISOR: [00:11:02] At the moment, are either of you holding back on pension contributions because of those nursery costs?  
+
+CLIENT1: [00:11:07] Yeah, a bit. I’m just on the default with work — five percent from me, eight from them. We’ve talked about bumping it, but with nursery what it is, we’ve left it.  
+
+CLIENT2: [00:11:16] I’m on the minimum at my work pension, I think five percent from me. I dropped it after maternity leave and never put it back up.  
+
+ADVISOR: [00:11:26] Okay. We’ll come back to whether we increase those when childcare drops.  
+
+ADVISOR: [00:11:33] Roughly what are you spending on food and day‑to‑day stuff — supermarket shops, nappies, cleaning bits?  
+
+CLIENT1: [00:11:39] Groceries are probably five to six hundred a month. One big shop and loads of top‑ups.  
+
+CLIENT2: [00:11:47] Some months it’s nearer seven hundred if we’ve got birthday parties and all that.  
+
+ADVISOR: [00:11:54] Transport — you’ve got one car, is that right?  
+
+CLIENT1: [00:11:58] Yeah, small hatchback on PCP. That’s two‑fifty a month. Fuel’s about a hundred, hundred‑twenty if we do a big trip. Insurance maybe forty‑five.  
+
+CLIENT2: [00:12:09] Dave gets the train three days a week — that pass is about one‑thirty a month. I cycle to work most days, just the odd bus or taxi if it’s pouring.  
+
+ADVISOR: [00:12:21] Any other regular debt — loans, credit cards?  
+
+CLIENT1: [00:12:25] We’ve got a small personal loan we used to do up the kitchen. We borrowed eight grand; there’s, I think, three or four left. About one‑fifty a month.  
+
+CLIENT2: [00:12:36] No big credit cards. We use one for points but pay it off.  
+
+ADVISOR: [00:12:43] So between mortgage, the car, and the kitchen loan you’re roughly around fifteen hundred a month on debt payments.  
+
+CLIENT1: [00:12:50] Yeah, that sounds about right.  
+
+ADVISOR: [00:12:55] Then childcare, food, travel, utilities on top. If you add all the essentials together — mortgage, bills, food, transport, childcare — do you have a rough idea of the total?  
+
+CLIENT1: [00:13:04] Um… eleven hundred mortgage, say four hundred on bills, six hundred on food, two hundred on travel, then thirteen, fourteen hundred childcare. So three and a half to four grand on stuff we *have* to pay.  
+
+CLIENT2: [00:13:21] Yeah, that feels about right.  
+
+ADVISOR: [00:13:27] Outside of that, what do you two tend to spend on “nice‑to‑haves” — holidays, meals out, kids’ activities?  
+
+CLIENT2: [00:13:35] We try to do one proper holiday a year. Last year was Portugal, about two and a half, three grand all‑in.  
+
+CLIENT1: [00:13:42] Then some long weekends here and there. Month to month, we aim for maybe four or five hundred on takeaways, meals out, soft play, swimming, birthday presents. Sometimes it creeps up.  
+
+ADVISOR: [00:13:57] If one of you was off work for a while, which things would you cut first?  
+
+CLIENT1: [00:14:02] Definitely holidays and eating out. Mortgage and childcare we can’t really touch.  
+
+CLIENT2: [00:14:07] We’d try to keep at least one club each for the kids but could pause the rest if we had to.  
+
+ADVISOR: [00:14:16] That gives me a sense of what you see as essential versus flexible.  
+
+ADVISOR: [00:14:22] Let’s switch gears to what you *have* in place. Savings first. What cash have you got between you outside of current accounts?  
+
+CLIENT1: [00:14:30] We’ve got a joint savings with Halifax — Online Saver. That’s our emergency pot.  
+
+ADVISOR: [00:14:36] Roughly how much is in that at the moment?  
+
+CLIENT1: [00:14:40] Around ten grand. It was nearer twelve but the boiler died.  
+
+ADVISOR: [00:14:47] And that’s in both your names?  
+
+CLIENT2: [00:14:50] Yeah, that one’s properly joint.  
+
+ADVISOR: [00:14:54] Any personal savings, Dave?  
+
+CLIENT1: [00:14:57] I’ve got a Marcus online account, just in my name. There’s about six grand in there at the moment.  
+
+ADVISOR: [00:15:05] Do you pay into that regularly?  
+
+CLIENT1: [00:15:09] I try to. There’s a two‑hundred standing order, but we cancel it some months if things are tight.  
+
+ADVISOR: [00:15:17] And Chloe, anything separate in just your name?  
+
+CLIENT2: [00:15:21] Not in cash, no. Mine’s more in the ISA.  
+
+ADVISOR: [00:15:27] Okay, we’ll come to that. Just on the cash side, do you have a target in your heads for the emergency fund?  
+
+CLIENT1: [00:15:34] We said six months of bills. So with our outgoings, somewhere around twelve to fifteen grand.  
+
+CLIENT2: [00:15:41] At the moment it’s kind of emergency *and* wedding pot, which I know isn’t ideal.  
+
+ADVISOR: [00:15:49] Understood. We’ll look at how to separate those over time. Any other cash, like fixed‑term accounts or Premium Bonds?  
+
+CLIENT1: [00:15:57] I’ve got a fixed‑term thing from some inheritance.  
+
+ADVISOR: [00:16:00] Okay, tell me about that.  
+
+CLIENT1: [00:16:03] My grandad left me some money. We used part of it for the deposit on the flat, and I stuck the rest in a two‑year fixed savings account. It’s with, I think, Nationwide. There’s about twenty‑five, twenty‑six grand in there.  
+
+ADVISOR: [00:16:19] When does that mature?  
+
+CLIENT1: [00:16:22] Next March as well, funnily enough. Same time as the mortgage fix.  
+
+ADVISOR: [00:16:28] Have you decided what you want to do with it when it comes out?  
+
+CLIENT1: [00:16:32] Not really. We’ve talked about maybe using some towards wedding costs and keeping some as proper long‑term savings, maybe moving it into investments or a pension.  
+
+CLIENT2: [00:16:41] I’d like a bit more of a safety net, especially with the kids.  
+
+ADVISOR: [00:16:49] Okay, good to know. Let’s look at the investments next. Dave, you mentioned an ISA?  
+
+CLIENT1: [00:16:55] Yeah, I’ve got a Stocks and Shares ISA with Vanguard.  
+
+ADVISOR: [00:16:59] When did you open that roughly?  
+
+CLIENT1: [00:17:02] Around 2019, just before Covid.  
+
+ADVISOR: [00:17:06] And roughly what’s the value now?  
+
+CLIENT1: [00:17:09] Last time I checked it was about twenty‑two grand. Goes up and down, obviously.  
+
+ADVISOR: [00:17:16] Do you contribute regularly?  
+
+CLIENT1: [00:17:19] Yeah, three hundred a month by direct debit.  
+
+ADVISOR: [00:17:23] Do you know which fund you’re in?  
+
+CLIENT1: [00:17:26] One of their LifeStrategy ones — the eighty percent equity. I just picked it from a blog and left it.  
+
+ADVISOR: [00:17:34] And you’re broadly comfortable with that level of ups and downs, or has the volatility bothered you?  
+
+CLIENT1: [00:17:40] It makes me twitchy when it drops, but I keep telling myself it’s for twenty‑plus years.  
+
+ADVISOR: [00:17:48] Anything else in your name — General Investment Account, trading apps?  
+
+CLIENT1: [00:17:52] I’ve got a Freetrade account. That’s more messing‑about money. Maybe two, two and a half grand in random tech shares and ETFs. I’m not really adding to it now we’re focused on the wedding.  
+
+ADVISOR: [00:18:06] Chloe, you mentioned an ISA as well?  
+
+CLIENT2: [00:18:09] Yeah, mine’s with… I always mix them up. I think it’s Nutmeg, one of those app ones.  
+
+ADVISOR: [00:18:16] Roughly how much is in there?  
+
+CLIENT2: [00:18:19] Somewhere between ten and fifteen thousand. I put in about one‑fifty a month.  
+
+ADVISOR: [00:18:26] And is that invested fairly cautiously or similar to Dave’s?  
+
+CLIENT2: [00:18:30] I picked whatever they called “medium” when I set it up. I’m definitely more risk‑averse than him.  
+
+ADVISOR: [00:18:39] Do you both see those ISAs as long‑term — broadly retirement and future‑you money — rather than, say, wedding or next‑house money?  
+
+CLIENT1: [00:18:47] Yeah, that’s the idea. We’d only raid them if things got really bad.  
+
+CLIENT2: [00:18:53] Wedding and house stuff we’re trying to keep to cash.  
+
+ADVISOR: [00:19:01] Okay. When you think ahead to actually stopping work or at least slowing down, what sort of age comes to mind for each of you?  
+
+CLIENT1: [00:19:09] In an ideal world? Sixty would be nice. Realistically, I keep thinking more like mid‑sixties, sixty‑five.  
+
+CLIENT2: [00:19:17] I’d love to scale back late fifties if we can swing it. Maybe part‑time at fifty‑seven, fifty‑eight.  
+
+ADVISOR: [00:19:25] And what sort of income would you want in retirement compared to now?  
+
+CLIENT1: [00:19:30] We’ve not nailed it down. I guess we’d want enough not to feel like we’re scraping by. Maybe around forty thousand a year between us after tax? No idea if that’s realistic.  
+
+CLIENT2: [00:19:40] Enough to still have a holiday and see friends, not just pay heating and food.  
+
+ADVISOR: [00:19:49] That’s helpful. Let’s look at the pensions that will underpin that. Dave, how many pension pots do you know you’ve got?  
+
+CLIENT1: [00:19:56] I know I’ve got the one with my current job. That’s with Scottish Widows. And I’ve got an older one from a previous employer that I think is Aviva.  
+
+ADVISOR: [00:20:05] Both defined contribution — you see a pot value and funds rather than a guaranteed yearly pension?  
+
+CLIENT1: [00:20:11] Yeah, it’s all about funds, graphs, that kind of thing. No one’s ever said “you’ll get X per year.”  
+
+ADVISOR: [00:20:18] How long have you been paying into the Scottish Widows one?  
+
+CLIENT1: [00:20:22] Since I joined Orion, so just over five years.  
+
+ADVISOR: [00:20:27] Contribution‑wise, what’s going in each month from you and from the employer?  
+
+CLIENT1: [00:20:32] I’m putting in about five percent. Employer does four or maybe a bit more — I’d have to check, but I think it’s four. In money terms it’s around two hundred from me and similar from them.  
+
+ADVISOR: [00:20:43] And what’s the pot value roughly?  
+
+CLIENT1: [00:20:46] Last time I logged in it was low forties — forty‑two, forty‑four thousand, something like that.  
+
+ADVISOR: [00:20:54] Good. On the older Aviva one, what job was that from and how long did you pay in?  
+
+CLIENT1: [00:21:00] That was from my old job in Birmingham, before I retrained. I was there around six, seven years; in the pension maybe five. I left about eight years ago and just left the pot where it was.  
+
+ADVISOR: [00:21:12] Do you recall the value from the last statement?  
+
+CLIENT1: [00:21:15] Around eighteen or nineteen thousand. Under twenty, anyway.  
+
+ADVISOR: [00:21:21] You’ve not considered combining it with Scottish Widows yet?  
+
+CLIENT1: [00:21:25] I got a letter about consolidating and didn’t really understand it, so I ignored it. Part of me thinks it’s easier in one place; part of me thinks I’ll mess something up.  
+
+ADVISOR: [00:21:36] Very common. We’d check charges and any guarantees before moving anything; if it’s a straightforward DC pot, consolidation can make sense.  
+
+CLIENT1: [00:21:44] Okay.  
+
+ADVISOR: [00:21:47] Chloe, what’s in place for you pension‑wise?  
+
+CLIENT2: [00:21:50] Just my workplace one with the charity. I think it’s Nest. I’ve been in it about seven years, give or take.  
+
+ADVISOR: [00:21:58] Any idea of a ballpark value?  
+
+CLIENT2: [00:22:01] Not really. I’m terrible — I get the statements and put them in a drawer. I *think* last one was around fifty grand? Dave, does that ring a bell?  
+
+CLIENT1: [00:22:09] I remember you saying “about fifty,” yeah.  
+
+ADVISOR: [00:22:15] Okay, we’ll firm that up later. Roughly what percentage are you paying in?  
+
+CLIENT2: [00:22:20] Five percent from me and whatever they match. I can check the exact numbers.  
+
+ADVISOR: [00:22:26] On both of your pensions, have you filled in nomination or “expression of wish” forms saying who you’d want the pot to go to if you died?  
+
+CLIENT1: [00:22:34] I don’t think I have. I vaguely remember clicking past that bit.  
+
+CLIENT2: [00:22:39] I definitely haven’t. Mine still has my mum on some things from before Dave and the kids.  
+
+ADVISOR: [00:22:46] That’s an important one, especially as you’re not married. The trustees normally look at financial dependants, but it’s smoother if you’ve clearly named one another and/or the children. We’ll make sure those are updated.  
+
+CLIENT1: [00:22:57] Yeah, I’d want it to go to Chloe and the kids, not, like, my dad arguing over it.  
+
+ADVISOR: [00:23:05] If money allowed, would you be open to increasing your pension contributions over the next few years?  
+
+CLIENT1: [00:23:10] Not right now — feels too tight with nursery. But once Leo’s in school and that thousand‑odd a month drops, I’d be happy to bump it, maybe to seven percent.  
+
+CLIENT2: [00:23:19] Same. I know I should be doing more. It’s just hard to see past the bills at the moment.  
+
+ADVISOR: [00:23:27] That’s very normal. It will be useful to map out what happens to spare cash as childcare rolls off — some into pensions, some maybe into overpaying the mortgage.  
+
+CLIENT1: [00:23:36] We’ve talked about that, yeah.  
+
+ADVISOR: [00:23:41] Let’s circle back to the flat and the “what if” scenarios you mentioned. Because the mortgage and deeds are only in Dave’s name, if something happened to you, Dave, technically the property would be part of your estate. Do you have any sense of what would happen right now, legally?  
+
+CLIENT1: [00:23:57] Honestly, no. That’s what worries me. I don’t want Chloe and the kids stuck in a legal mess.  
+
+CLIENT2: [00:24:04] Yeah, I keep thinking, would I even be allowed to stay? Or would it end up with his parents or something?  
+
+ADVISOR: [00:24:12] Exactly. At the moment it would go according to intestacy rules rather than automatically to Chloe, because you’re not married. A will that leaves the flat to Chloe, or potentially into a simple trust for her and the kids, would give a lot more certainty. And some life cover to clear the mortgage would protect the roof over their heads.  
+
+CLIENT1: [00:24:29] We definitely need to do that.  
+
+ADVISOR: [00:24:34] On the flip side, if something happened to Chloe, Dave, would you be able to cover childcare and everything on just your income?  
+
+CLIENT1: [00:24:40] Not comfortably. Not with nursery still going.  
+
+CLIENT2: [00:24:45] And I’d want to know they’re okay financially if anything happened to me, not just if something happened to him.  
+
+ADVISOR: [00:24:52] Makes sense. Do either of you have any life insurance outside of what you might get through work?  
+
+CLIENT1: [00:24:58] Just whatever’s with our jobs. I think I get, like, three times salary death‑in‑service.  
+
+CLIENT2: [00:25:04] Same, mine’s a few times salary. We haven’t taken anything private.  
+
+ADVISOR: [00:25:11] Okay, we’ll look at topping that up so, for example, if either of you died, the mortgage could be cleared and the survivor would have funds to cover childcare and school costs.  
+
+CLIENT1: [00:25:21] Yeah, that’s exactly the sort of thing we’re after.  
+
+ADVISOR: [00:25:27] While we’re on risks, how do you both feel generally about investing? Quite cautious, quite adventurous, or somewhere in the middle?  
+
+CLIENT1: [00:25:34] I’d say middle‑ish. I know you need some risk for growth, but I don’t want to gamble.  
+
+CLIENT2: [00:25:40] I’m more cautious. When Dave’s Vanguard dropped during Covid, I was like, “Can we just put it in cash?”  
+
+CLIENT1: [00:25:47] Yeah, she’s definitely more nervous than me.  
+
+ADVISOR: [00:25:52] That’s helpful. I’ll send you both a short risk questionnaire after this, and we’ll use that to check that your pensions and ISAs are invested in line with your comfort levels.  
+
+CLIENT2: [00:26:01] Okay.  
+
+ADVISOR: [00:26:06] Coming back to short‑ and medium‑term goals for a second, you mentioned the wedding and maybe a bigger place down the line. Roughly when are you thinking for the wedding?  
+
+CLIENT2: [00:26:15] We keep saying “in the next couple of years.” Maybe in two years’ time, once Leo’s at school and we’re not bleeding childcare.  
+
+CLIENT1: [00:26:22] Yeah, that’s loosely the plan — nothing booked.  
+
+ADVISOR: [00:26:29] And in terms of a bigger place, is that, say, five years away, ten years, or just “one day”?  
+
+CLIENT1: [00:26:35] Probably five‑ish years. Once the kids are bigger we’d like a house with a bit of a garden.  
+
+CLIENT2: [00:26:41] And a second toilet. That’s my main goal in life.  
+
+ADVISOR: [00:26:46] [laughs] Very practical goal. Would you be looking to use the current flat as a rental then, or sell and move everything into the new place?  
+
+CLIENT1: [00:26:54] We’ve gone back and forth. At the moment, we’re leaning towards sell and roll the equity into the new place. Being landlords sounds like hassle.  
+
+ADVISOR: [00:27:03] Okay, good to know.  
+
+ADVISOR: [00:27:08] Thinking about that future, when childcare drops away and maybe you’ve moved, you mentioned possibly overpaying the mortgage. Have you checked whether your current lender allows overpayments without penalty?  
+
+CLIENT1: [00:27:17] I think we can do up to ten percent a year without fees, but I’d have to double‑check.  
+
+ADVISOR: [00:27:23] Okay. Once that kitchen loan finishes and nursery costs ease, we can look at a split — some extra into pensions, some into ISA, some into mortgage overpayments.  
+
+CLIENT2: [00:27:34] That’s the bit we really want help with — like, what’s the best use of, say, an extra three hundred a month.  
+
+ADVISOR: [00:27:42] Exactly. We can model what difference that makes at retirement if it goes into pensions versus paying the mortgage off earlier.  
+
+CLIENT1: [00:27:49] I’m rubbish with that kind of projection, so that’d be really helpful.  
+
+ADVISOR: [00:27:56] On the topic of planning ahead, you said you’ve not done wills yet. Have you talked about guardians for Isla and Leo if something happened to both of you?  
+
+CLIENT2: [00:28:04] Briefly. Probably my sister — she lives nearby and the kids know her well.  
+
+CLIENT1: [00:28:10] Yeah, we’re aligned on that, we just haven’t put it on paper.  
+
+ADVISOR: [00:28:17] That’s something a solicitor can build into the will quite straightforwardly. And in terms of who actually gets your money and the flat, are you both comfortable with it going to the survivor first, then to the kids when they’re older?  
+
+CLIENT1: [00:28:29] Yeah, that’s what we want.  
+
+CLIENT2: [00:28:32] With some guardrails so they don’t get everything at eighteen and blow it on cars.  
+
+ADVISOR: [00:28:38] Very sensible.  
+
+ADVISOR: [00:28:42] Coming back to your current cash and investments, if we fast‑forward to, say, next March when that fixed‑term inheritance account matures and assuming you haven’t emptied the savings for a boiler or anything else, do you have a sense of what total cash reserves you might have?  
+
+CLIENT1: [00:28:55] Um, if we manage not to raid it, maybe low forties? So the twenty‑five, twenty‑six in the fixed, plus the joint ten and my six in Marcus — around forty to forty‑five.  
+
+CLIENT2: [00:29:08] Depending what the kids break between now and then.  
+
+ADVISOR: [00:29:13] [laughs] Of course. Having that sort of buffer gives you options. For example, you *could* use some to kick‑start extra pension contributions, or keep it as a chunky emergency fund, especially if one of you wanted to change job or reduce hours.  
+
+CLIENT1: [00:29:26] Yeah, we’ve talked about maybe Chloe cutting back slightly if we can afford it once Leo’s in school.  
+
+CLIENT2: [00:29:32] Or me going up to full‑time if it looks like we need the income. It kind of depends what the maths says.  
+
+ADVISOR: [00:29:40] Exactly.  
+
+ADVISOR: [00:29:44] On work benefits, Dave, you mentioned death‑in‑service. Do you have any income protection through work — something that pays a percentage of salary if you’re off long‑term sick?  
+
+CLIENT1: [00:29:52] I don’t think so. There’s statutory sick pay and maybe a few months at full pay, but nothing long‑term.  
+
+ADVISOR: [00:29:59] And Chloe, anything similar for you?  
+
+CLIENT2: [00:30:02] No, just whatever the charity does, which is, like, three months full pay then it drops.  
+
+ADVISOR: [00:30:09] Okay. We’ll look at income protection or critical illness cover for at least one of you, because from what you’ve described, losing one income for a year or more would put a real strain on the budget even before we talk about death.  
+
+CLIENT1: [00:30:20] Yeah, if I was off long‑term and we still had nursery and the mortgage, it’d be rough.  
+
+CLIENT2: [00:30:26] We’d be slashing everything nice, and probably still dipping into savings fast.  
+
+ADVISOR: [00:30:34] The idea would be: have enough cover so you can keep the essentials — mortgage, bills, food, core childcare — going without burning through all your long‑term savings.  
+
+CLIENT1: [00:30:43] Makes sense.  
+
+ADVISOR: [00:30:48] One last area for today: when you *do* get married, have you thought about whether you’ll change anything with the ownership of the flat and the accounts? For example, adding Chloe to the deeds, or opening joint investment accounts?  
+
+CLIENT1: [00:30:59] We’ve talked about making the mortgage joint once we remortgage, so it feels more “ours”.  
+
+CLIENT2: [00:31:04] I’d definitely like to be on the deeds once we’re married. At the moment it feels like I’m renting off him, even though we both pay.  
+
+ADVISOR: [00:31:13] There’ll be some legal and lender fees to add you on, but often you can do that at the same time as a remortgage, so we can plan the timing.  
+
+CLIENT1: [00:31:21] Doing it when the fix ends and we’re changing deal anyway sounds sensible.  
+
+ADVISOR: [00:31:27] On the investments side, from a tax point of view, keeping ISAs in individual names is usually best, but you plan them together — which is pretty much what you’re doing. A joint investment account can make sense later if you’re maxing ISAs, but you’re not there yet.  
+
+CLIENT2: [00:31:41] No, definitely not maxing anything yet.  
+
+ADVISOR: [00:31:46] Okay. I think I’ve got the main pieces: incomes, key outgoings, the flat and mortgage, your savings and ISAs, pensions, the fact you’re cohabiting with two young children and no wills yet.  
+
+CLIENT1: [00:31:58] Sounds about right.  
+
+ADVISOR: [00:32:03] The next steps from my side will be: I’ll send you a short risk questionnaire each, and a secure link so you can upload or screenshot your latest pension and investment statements — Scottish Widows, Aviva, Chloe’s Nest, the ISAs, that sort of thing. Then we can put some numbers together to see:  
+
+- Are you broadly on track for the kind of retirement income you mentioned?  
+- How best to use spare cash as childcare and debts drop away.  
+- What level of life and illness cover would give you peace of mind around the mortgage and the kids.  
+
+CLIENT2: [00:32:30] Okay, that sounds good.  
+
+CLIENT1: [00:32:34] Yeah, it’ll be nice to actually see it all in one place instead of just random apps.  
+
+ADVISOR: [00:32:40] Exactly. And in parallel, I’d encourage you to start thinking about two things: who you want as guardians in the wills, which you’ve already got a good idea on, and how you’d feel about directing some of that inheritance pot into pensions versus keeping it in cash. We’ll talk through the pros and cons next time.  
+
+CLIENT2: [00:32:55] We’ll have a chat about it.  
+
+CLIENT1: [00:32:58] Yeah, we’ll try not to spend it all on a fancy honeymoon.  
+
+ADVISOR: [00:33:03] [laughs] A balance between future Dave and Chloe and current Dave and Chloe. We’ll try to keep both of them happy.  
+
+CLIENT2: [00:33:10] That’s the dream.  
+
+ADVISOR: [00:33:14] I’ll get that email over to you this afternoon. If you can get the statements back to me over the next week or so, we can book in a follow‑up to go through some numbers and options in detail.  
+
+CLIENT1: [00:33:23] Sounds good. Thanks for your help.  
+
+CLIENT2: [00:33:26] Yeah, thanks — this has been really useful.  
+
+ADVISOR: [00:33:30] You’re very welcome. Speak soon.

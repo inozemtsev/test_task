@@ -1,0 +1,471 @@
+# Financial Fact-Find Transcript
+# Persona: James and Elizabeth Williams
+# Type: Blended Family
+# Generated: 2025-11-16 23:02:05
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+[00:00:01] ADVISOR: Good to see you both. I’ve got James and Elizabeth Williams—Williams with double L, one S, right?
+
+[00:00:05] CLIENT1: Yep, that’s us. James here.
+
+[00:00:07] CLIENT2: And Elizabeth—Liz is fine.
+
+[00:00:10] ADVISOR: Perfect. Same mobiles as before? I’ll text you a couple links during the call.
+
+[00:00:14] CLIENT2: Same numbers.
+
+[00:00:16] CLIENT1: Mine ends in nine‑eight. All good.
+
+[00:00:19] ADVISOR: Quick wellness check—everyone healthy right now? Any smoking, major conditions?
+
+[00:00:23] CLIENT2: Healthy. Knock on wood. Just colds with the kids.
+
+[00:00:26] CLIENT1: Pretty good. My knee was cranky last year from, uh, football dad. Settled now. We don’t smoke.
+
+[00:00:31] ADVISOR: Great. Let’s start with work and cash flow since that tends to anchor everything. James, who’s paying you at the moment?
+
+[00:00:37] CLIENT1: Midwest Freight Logistics—MFL. O’Fallon yard. Logistics manager, night shift mostly. Salary W‑2, base is low eighties, like eighty‑two. Ten percent bonus target; last year paid around eight.
+
+[00:00:51] ADVISOR: Any other stipends, OT, or allowances?
+
+[00:00:54] CLIENT1: Phone stipend fifty a month. No OT—comp time sometimes. I DoorDash here and there when the kids are with their exes. Two to three grand a year; gas eats it. I track some mileage. Not perfectly. [laughs]
+
+[00:01:06] ADVISOR: Pre‑tax deductions through MFL?
+
+[00:01:08] CLIENT1: Family health plan pre‑tax, about four hundred a month. 401(k) at six percent pre‑tax, and HSA around a hundred a paycheck—so about two hundred a month.
+
+[00:01:17] ADVISOR: Got it. Liz?
+
+[00:01:19] CLIENT2: St. Peter’s Hospital—unit secretary on med‑surg, nights. Part‑time, roughly twenty hours a week. W‑2 there; then I do per diem unit clerk shifts for Maple Grove Assisted Living—1099‑NEC. Maple Grove’s like six to eight thousand a year if they call me in. St. Peter’s is twenty to twenty‑four grand before taxes.
+
+[00:01:37] ADVISOR: Biweekly at the hospital?
+
+[00:01:39] CLIENT2: Yep. Maple Grove is monthly-ish; hits around the 20th—sometimes late.
+
+[00:01:44] ADVISOR: Any retirement contributions from your paycheck?
+
+[00:01:47] CLIENT2: I contribute about six percent to the hospital plan to get the match. Think the part‑time match is like one and a half or two percent. Pre‑tax. No Roth at work yet.
+
+[00:01:56] ADVISOR: Social Security estimates—ballpark?
+
+[00:01:59] CLIENT2: I remember about fifteen hundred at full retirement age from the SSA site. I need to reset my login.
+
+[00:02:04] CLIENT1: Mine was ~two grand at sixty‑seven. Not exact, but close.
+
+[00:02:08] ADVISOR: Helpful. While we’re here, any support or maintenance that affects monthly cash?
+
+[00:02:13] CLIENT1: I pay child support for my son—nine hundred a month. Ends when he finishes high school. About two years left. We split extras fifty‑fifty, so a hundred here, two hundred there.
+
+[00:02:23] CLIENT2: I receive three‑fifty for my daughter. It hits mid‑month. Not taxable, right?
+
+[00:02:27] ADVISOR: Child support isn’t taxable to you, and James’s won’t be deductible. Just so we set expectations. Okay—big‑picture retirement ages you’re picturing?
+
+[00:02:35] CLIENT1: Early sixties—sixty‑two or sixty‑three. Not later than sixty‑five ideally.
+
+[00:02:38] CLIENT2: I said sixty to sixty‑one if the plan’s solid for the kids. I’m flexible.
+
+[00:02:43] ADVISOR: I’m texting a quick risk link to both phones now—five minutes, short questions. It’ll help me dial in the portfolio mix later.
+
+[00:02:49] CLIENT2: Got it—just buzzed.
+
+[00:02:51] CLIENT1: Same here.
+
+[00:02:53] ADVISOR: While that’s fresh, when markets wobble are you app‑checkers or sleep‑through‑it folks?
+
+[00:02:57] CLIENT2: I check. I prefer steady.
+
+[00:02:59] CLIENT1: I’m okay with some ups and downs. Balanced, not casino.
+
+[00:03:03] ADVISOR: Makes sense. Let’s weave in housing since it ties to cash flow. Where are you both currently?
+
+[00:03:08] CLIENT1: Westerville. Near St. Peter’s—the church—and the Kroger by the roundabout. You know the one? [laughs]
+
+[00:03:12] CLIENT2: That one. Taxes there are… kind of high. Seven to eight grand a year, give or take.
+
+[00:03:17] ADVISOR: Rough value and mortgage?
+
+[00:03:19] CLIENT1: Value’s around five‑ten, five‑twenty. We owe like two‑sixty, two‑seventy. Rate’s 2.875 fixed—thirty‑year. Escrowed.
+
+[00:03:27] CLIENT2: Monthly with escrow lands around nineteen hundred—moves with reassessments.
+
+[00:03:31] ADVISOR: Lender/servicer?
+
+[00:03:33] CLIENT1: Rocket services it.
+
+[00:03:35] ADVISOR: Any second liens?
+
+[00:03:37] CLIENT2: Small HELOC for the kitchen last year. Bank of America. Balance about twenty grand. Rate is variable—prime plus one, I think.
+
+[00:03:44] CLIENT1: We pay interest‑only—was like one‑forty, now around two‑forty after hikes. We just round to two‑fifty.
+
+[00:03:49] ADVISOR: Insurance on the home included in escrow?
+
+[00:03:52] CLIENT1: Yep. Homeowner’s is about eleven hundred a year. Escrow handles it.
+
+[00:03:55] ADVISOR: Utilities while we’re on housing?
+
+[00:03:57] CLIENT2: Electric in summer can be two‑fifty. Gas flips in winter. Water/sewer/trash runs one‑twenty to one‑forty. Internet ~seventy‑five.
+
+[00:04:06] ADVISOR: Kids with you part‑time?
+
+[00:04:08] CLIENT2: Alternate weeks. Tuesdays and Thursdays are swap days; I avoid late shifts then.
+
+[00:04:12] CLIENT1: I cover pickups on my weeks. Most of my overtime options are weekends anyway.
+
+[00:04:16] ADVISOR: Okay. Any plans to move soon?
+
+[00:04:18] CLIENT2: Not soon. Maybe when the older one starts college—in three, four years.
+
+[00:04:23] CLIENT1: If the roof becomes urgent, we’d consider tapping the HELOC a bit more. But we like the low first‑mortgage rate too much to touch it.
+
+[00:04:29] ADVISOR: Fair. Switching lanes—real estate beyond the home?
+
+[00:04:32] CLIENT2: I have a condo share in Sarasota, Gulf Gate area. Fifty percent with my sister. No mortgage. It’s titled just to me—pre‑marriage asset.
+
+[00:04:40] ADVISOR: HOA and taxes there?
+
+[00:04:42] CLIENT2: HOA’s about four‑sixty a month. Taxes around three thousand a year. Wind insurance is through the association. No flood policy; it’s not in a flood zone per the map. My sister tracks that—I can confirm.
+
+[00:04:52] CLIENT1: They did a special assessment last fall—about two grand. Hopefully one‑time.
+
+[00:04:56] ADVISOR: Do you rent it when you’re not using it?
+
+[00:04:59] CLIENT2: A few weeks a year. Family uses it half the year. We Airbnb some weeks—my sister handles bookings. After cleaners and HOA, net is like seven to nine grand a year total; then we split the rest, fifty‑fifty.
+
+[00:05:12] CLIENT1: We go down two or three times—part vacation, part “investment.” [laughs]
+
+[00:05:16] ADVISOR: Keep it long‑term?
+
+[00:05:18] CLIENT2: I don’t know. Kids love it. If insurance keeps climbing, we might rethink. We floated selling in two years; then the kids asked about spring break… so we punted.
+
+[00:05:27] ADVISOR: Title is in your name only, Liz—pre‑marriage. Understood. Any other property?
+
+[00:05:31] CLIENT1: I’ve got a slice of a duplex in Dayton with my brother—LLC. I own a third. There’s a small mortgage left on the whole thing—under ninety. Rents bring in around twenty‑two hundred monthly total. My take after expenses is a few hundred a month. The LLC keeps like five grand as operating cash.
+
+[00:05:47] ADVISOR: Are K‑1s straightforward each year?
+
+[00:05:49] CLIENT1: Pretty much. I’ll send what we have.
+
+[00:05:52] ADVISOR: Switching over to everyday cash. Where do you keep your emergency funds?
+
+[00:05:56] CLIENT2: Ally Bank HYSA—joint. About forty‑five grand. We use buckets—emergency, “kid fund,” and a small rental reserve.
+
+[00:06:03] CLIENT1: Joint checking floats eight to twelve grand; swings with kid weeks. I’ve got a separate checking at Fifth Third for support—keeps it clean—balance around three to four grand.
+
+[00:06:12] CLIENT2: I’ve got a tiny credit union savings—about two grand. I forget it exists until my car needs something.
+
+[00:06:17] ADVISOR: Any CDs?
+
+[00:06:19] CLIENT2: Inherited CD from my aunt. Matures in July. Should be like thirty‑two, thirty‑three thousand by then. Plan is top up my Roth, then back to HYSA. We debated home projects, but probably not this year.
+
+[00:06:30] CLIENT1: Maybe the basement later. Not urgent.
+
+[00:06:32] ADVISOR: Good. On transportation—are there car loans?
+
+[00:06:35] CLIENT1: Both paid off. I’ve got a Honda Pilot—maybe sixteen grand if we sold it.
+
+[00:06:39] CLIENT2: Subaru Crosstrek—eleven, twelve. Auto insurance is about two‑fifty a month. Gas one‑fifty to two hundred, depending on soccer runs. Parking at work a few days—thirty bucks when I go in.
+
+[00:06:49] ADVISOR: Any life insurance premiums to capture?
+
+[00:06:51] CLIENT1: Term—thirty‑year. About sixty‑something a month. I also have a tiny whole life my parents started—cash value like eighteen hundred. Sentimental.
+
+[00:06:58] CLIENT2: Mine’s twenty‑year term. About forty a month. Employer also has basic death‑in‑service—small.
+
+[00:07:04] ADVISOR: Do you both have wills set up?
+
+[00:07:06] CLIENT1: We keep meaning to. We don’t.
+
+[00:07:08] CLIENT2: Same. Guardianship has been a back‑burner talk. We’d like a referral.
+
+[00:07:12] ADVISOR: I’ll introduce a local estate attorney—simple wills with trust provisions are typically best for blended families.
+
+[00:07:17] CLIENT2: Please. That’s been on my list.
+
+[00:07:20] ADVISOR: Let’s layer in retirement accounts. James—your current workplace plan?
+
+[00:07:24] CLIENT1: 401(k) at Vanguard. Been there eight years. Balance is in the low two hundreds—two‑thirty, two‑forty. I’m contributing six percent. Employer matches four if I do five.
+
+[00:07:34] ADVISOR: Old IRA?
+
+[00:07:36] CLIENT1: Rollover IRA at Fidelity—old 401(k). Around fifty‑five to sixty. 70/30 mix—Fidelity 500, some international, thirty percent bonds. I auto in three hundred a month when cash allows.
+
+[00:07:47] ADVISOR: Any legacy pensions?
+
+[00:07:49] CLIENT1: Old job had a cash balance plan. I got a letter—lump sum if I leave it till sixty‑five or an annuity option. Present value was low twenties last I saw. And I’ve got a Prudential annuity from my twenties—individual contract. Mid‑sixties value, I think. There’s some guaranteed minimum rate if I annuitize at sixty‑five.
+
+[00:08:05] CLIENT2: He’s not great with the envelopes. [laughs]
+
+[00:08:07] ADVISOR: [laughs] We’ll take photos of whatever you’ve got. Elizabeth—your plans?
+
+[00:08:11] CLIENT2: Current 403(b) at the hospital, balance in the nineties—like ninety to a hundred. I also have an old 401(k) from BrightPath—non‑profit I left in 2019. That one was seventy‑one at one point; I saw about sixty‑one last April, dipped to fifty‑nine last month. Target‑date 2045.
+
+[00:08:27] ADVISOR: Any QDRO accounts from prior marriage?
+
+[00:08:29] CLIENT2: I received a small piece from my ex’s plan—rolled to a Vanguard IRA. Low five figures. I barely look at it.
+
+[00:08:34] ADVISOR: Beneficiaries on all of those updated after you two married?
+
+[00:08:37] CLIENT1: Vanguard’s updated. Fidelity IRA—pretty sure Elizabeth is primary, kids as contingents. I should double‑check.
+
+[00:08:42] CLIENT2: My workplace plan lists James. BrightPath still says my sister. I need to change that.
+
+[00:08:47] ADVISOR: No account numbers today—please don’t read those out on the call. Photos or PDFs later are fine.
+
+[00:08:51] CLIENT2: Good—thanks.
+
+[00:08:53] ADVISOR: College savings while we’re on beneficiaries?
+
+[00:08:55] CLIENT1: I’ve got a 529 for my son—eighteen, nineteen grand. My ex has one too, but I don’t see those statements.
+
+[00:09:01] CLIENT2: I have two 529s—small—five or six grand each for my daughter and nephew. My ex’s parents set another up for her but I don’t control it.
+
+[00:09:10] ADVISOR: Childcare costs during the school year?
+
+[00:09:12] CLIENT2: Our eight‑year‑old does after‑care three days—four to five hundred monthly. When we both travel, we add a sitter—maybe three hundred on those months.
+
+[00:09:21] CLIENT1: Summer is the killer—camps run about two grand a month for a couple months. The twelve‑year‑old mostly doesn’t need care now, but sports clinics add up.
+
+[00:09:29] ADVISOR: How do you approach 401(k) and HSA contributions during those expensive months?
+
+[00:09:33] CLIENT2: I’d drop mine from six percent to four June–August, then back to six in September. I’d rather not cut more than that.
+
+[00:09:40] CLIENT1: I can pause the HSA bump in July, then resume. We agreed to cut one Sarasota week—keep spring break, skip fall.
+
+[00:09:47] CLIENT2: Yep, keep spring. That’s our blended time.
+
+[00:09:50] ADVISOR: On groceries and dining—ballpark?
+
+[00:09:52] CLIENT2: Groceries eleven to thirteen hundred a month. Costco months hit the top. Dining three to four hundred unless it’s birthday season.
+
+[00:09:59] ADVISOR: Subscriptions and small stuff?
+
+[00:10:01] CLIENT1: Phones one‑twenty a month. Streaming—too many—sixty to eighty total. Gym forty‑nine for me.
+
+[00:10:06] CLIENT2: I buy Pilates packs. Averages sixty a month—some months zero, some months a lot.
+
+[00:10:10] ADVISOR: Pet insurance?
+
+[00:10:12] CLIENT2: Twenty‑nine a month. Vet bills—unpredictable.
+
+[00:10:15] ADVISOR: School items?
+
+[00:10:17] CLIENT1: Lunches—ten to fifteen a week depending on who forgets their lunch. [crosstalk]
+
+[00:10:20] CLIENT2: [laughs] He forgets more than she does.
+
+[00:10:22] ADVISOR: Quick detour back to the Sarasota place—utilities beyond HOA?
+
+[00:10:25] CLIENT1: Power is fifty to eighty when empty; one‑fifty when we’re there. Water’s bundled in HOA. We pay forty‑five for Wi‑Fi so guests don’t text us. [laughs]
+
+[00:10:33] ADVISOR: And just so I’m clear, you split the Airbnb proceeds net after expenses with your sister?
+
+[00:10:37] CLIENT2: Yes. We pay HOA, taxes, cleaners, then split the rest fifty‑fifty.
+
+[00:10:41] ADVISOR: If insurance costs jump again down there, are you open to selling before the kids are out?
+
+[00:10:46] CLIENT2: If premiums get silly, yes. But for now, we’re keeping it at least another year.
+
+[00:10:50] ADVISOR: Vehicles are paid off, so that helps debt‑to‑income. Any other loans I should factor in?
+
+[00:10:55] CLIENT1: Just the HELOC and the little mortgage at the duplex LLC level—not in our names personally.
+
+[00:10:59] ADVISOR: Good. On taxes: Maple Grove 1099s and DoorDash 1099s—do you set aside for quarterlies?
+
+[00:11:04] CLIENT2: We got bit last year. We’re setting aside now.
+
+[00:11:07] CLIENT1: I’ll do better with mileage tracking this year. Promise. [laughs]
+
+[00:11:10] ADVISOR: Retirement income mix—given your risk preferences, I’m thinking James around 70/30, Liz a notch steadier. Does that feel right?
+
+[00:11:16] CLIENT2: Yes. I’m fine with target‑date funds too—smoother line is my preference.
+
+[00:11:20] CLIENT1: Totally fine. I care more about cost and taxes than trying to beat the market.
+
+[00:11:24] ADVISOR: Using the Prudential annuity later for base income—still how you’re thinking?
+
+[00:11:28] CLIENT1: Yeah. If that throws off about three grand a year at sixty‑five, plus a bit from the duplex and Social Security, that covers some basics, then we can pull from 401(k)s as needed.
+
+[00:11:37] ADVISOR: On that cash balance pension letter—can you send a photo when you find it?
+
+[00:11:40] CLIENT1: I’ll dig in the garage boxes tonight.
+
+[00:11:42] CLIENT2: I’ll email the BrightPath PDFs too—the April one around sixty‑one and the newer one at fifty‑nine. I’ll update the beneficiary there.
+
+[00:11:48] ADVISOR: Perfect. While we’re toggling accounts, any taxable brokerage?
+
+[00:11:51] CLIENT1: Tiny Robinhood—four to six grand. Few dividend stocks and one tech name that’s red. It’s play money. Not adding much.
+
+[00:11:58] ADVISOR: Any ESPP or RSUs at either employer?
+
+[00:12:00] CLIENT2: Not at the hospital or Maple Grove.
+
+[00:12:02] CLIENT1: None at MFL—just bonus and 401(k) match.
+
+[00:12:05] ADVISOR: Health accounts—HSA balances?
+
+[00:12:07] CLIENT1: HealthEquity—five to six grand. Half in cash, half in a broad index. I can dial contributions down for July if camps spike.
+
+[00:12:13] CLIENT2: I’m on his plan, so no separate HSA for me.
+
+[00:12:16] ADVISOR: For the kids’ timeline—how many summers of higher childcare costs left?
+
+[00:12:20] CLIENT2: Two, maybe three more for the eight‑year‑old. Then she’ll be more independent.
+
+[00:12:23] CLIENT1: Support for my son ends in two years—frees nine hundred a month. We’ve talked about bumping 401(k) or 529s after that.
+
+[00:12:30] ADVISOR: Good time to revisit contributions when that drops off. Groceries and travel—do you want to keep travel steady?
+
+[00:12:35] CLIENT2: Keep spring Sarasota. Skip fall. Maybe one bigger family trip every other year; road trips otherwise.
+
+[00:12:41] CLIENT1: If camps blow up, we’ll trim travel before cutting retirement too much.
+
+[00:12:45] ADVISOR: Life insurance through work—James, four times salary?
+
+[00:12:48] CLIENT1: Yeah, four times. I haven’t updated the beneficiary since before we married. Need to fix that.
+
+[00:12:52] ADVISOR: And Liz’s employer basic coverage is in place?
+
+[00:12:55] CLIENT2: Yes—small. I’ll check the portal for the details.
+
+[00:12:58] ADVISOR: Quick asset items—any crypto, metals, collectibles?
+
+[00:13:01] CLIENT2: No crypto. I have a little gold coin from my granddad—just keepsake.
+
+[00:13:04] CLIENT1: Baseball cards—more dust than dollars. [laughs] And a garage full of tools we won’t count.
+
+[00:13:08] ADVISOR: House is titled joint?
+
+[00:13:10] CLIENT1: Joint, yep.
+
+[00:13:11] CLIENT2: Condo is just me; we’ve got that in writing.
+
+[00:13:13] ADVISOR: Any expected inflows besides the July CD—bonus in shares, inheritance, settlement?
+
+[00:13:18] CLIENT2: No inheritances—knock on wood. Bonus is cash.
+
+[00:13:21] CLIENT1: My bonus is small and goes straight to life. [laughs]
+
+[00:13:24] ADVISOR: Thinking ahead to retirement—target monthly needs when you first step back?
+
+[00:13:28] CLIENT2: The basics—mortgage, food, childcare, support—come to around two to two‑and‑a‑half net. Once support ends and childcare drops, lower.
+
+[00:13:36] CLIENT1: We can be frugal. Not ramen‑noodles frugal. [laughs] But sensible.
+
+[00:13:39] ADVISOR: Okay. For documentation, can you both send: latest Vanguard workplace statements, Fidelity IRA statement, Prudential annuity page showing the guaranteed rate, BrightPath statements, the cash balance pension letter, and the HELOC/mortgage PDFs?
+
+[00:13:50] CLIENT2: Yep. I’ll email what I have. Might need until tomorrow to find the condo HOA docs and the CD.
+
+[00:13:55] CLIENT1: I’ll pull the Rocket and BoA statements and the LLC K‑1s.
+
+[00:13:59] ADVISOR: Great. Let’s circle back to monthly essentials—anything I’ve missed?
+
+[00:14:03] CLIENT2: We put aside two hundred a month for home repairs. The condenser went last year—that blew the budget. For the condo, we try to hold five to six grand in its account for special assessments.
+
+[00:14:13] CLIENT1: School stuff—yearbooks, field trips—small but constant.
+
+[00:14:17] ADVISOR: On the kids’ schedules—does that affect your ability to pick up extra shifts, Liz?
+
+[00:14:21] CLIENT2: Tuesdays and Thursdays I can’t do late shifts. Winter I pick more nights; kids are with their dads more then.
+
+[00:14:26] ADVISOR: Right. Any changes to pay expected this year?
+
+[00:14:29] CLIENT1: Merit bump in April—two to three percent. Maybe a title bump if they open another bay.
+
+[00:14:33] CLIENT2: I might go point‑six FTE in July if school schedules line up.
+
+[00:14:36] ADVISOR: Good to know. For your Roth, Liz—will you seed it from the July CD and then set a small monthly?
+
+[00:14:41] CLIENT2: That’s the plan—two to three grand this summer, then two hundred a month after camps. I’m leaning Vanguard for the Roth target‑date fund, but James likes Fidelity for consolidation.
+
+[00:14:50] CLIENT1: I’m team “fewer logins.” But either is fine.
+
+[00:14:53] ADVISOR: We can look at fees and keep it simple. For the allied buckets: how much do you put into emergency vs. rental reserve in a normal month?
+
+[00:14:59] CLIENT2: Three hundred to emergency, one‑fifty to rental—unless kid stuff pops, then we skip.
+
+[00:15:03] CLIENT1: Property tax months, we slow down too.
+
+[00:15:06] ADVISOR: Back to the duplex—any appetite to sell before that mortgage there is gone, or do you want to keep the diversification?
+
+[00:15:11] CLIENT1: We like the diversification. If expenses spike the same year as college and a roof, we’d reassess. But for now, keep.
+
+[00:15:18] CLIENT2: If the payment doubled at the LLC level, I’d want to look hard at the net. But we’re not there.
+
+[00:15:23] ADVISOR: Last few things: Have you updated beneficiaries on life insurance, 401(k)s, IRAs, and that tiny whole life?
+
+[00:15:28] CLIENT1: Life insurance at work still lists my ex. I know. I’ll fix it.
+
+[00:15:31] CLIENT2: BrightPath lists my sister. I’ll change it tonight.
+
+[00:15:34] ADVISOR: I’ll send a secure form for those updates. And again—no account numbers on any email; use the portal.
+
+[00:15:39] CLIENT2: Got it.
+
+[00:15:41] ADVISOR: Quick sanity check on vehicles—maintenance budget?
+
+[00:15:44] CLIENT1: We set aside fifty to a hundred a month. Tires this fall will spike it.
+
+[00:15:47] ADVISOR: And travel—flights or drive to Sarasota?
+
+[00:15:50] CLIENT2: We mix. When we fly, tickets are three to five hundred each if we watch prices. Sometimes we just drive.
+
+[00:15:55] ADVISOR: Do you carry separate wind and flood for the condo beyond what the HOA covers?
+
+[00:15:59] CLIENT2: Wind is through the association. No flood—map says we’re not in the zone. My sister keeps tabs. I’ll confirm.
+
+[00:16:05] ADVISOR: On education—any tutoring or extras?
+
+[00:16:08] CLIENT2: Finals tutoring—hundred a session, maybe three sessions a term.
+
+[00:16:11] CLIENT1: Sports clinics for the twelve‑year‑old. Not childcare—just… necessary. [laughs]
+
+[00:16:16] ADVISOR: All right. I’m going to text one more link now—the secure doc upload. You’ll see it after the risk link.
+
+[00:16:21] CLIENT2: Just came through.
+
+[00:16:23] CLIENT1: Same here.
+
+[00:16:25] ADVISOR: Any health plans beyond basic? Cash plans, dental/vision?
+
+[00:16:28] CLIENT1: We’ve got a cash plan that pays a bit for dental, glasses—small stuff.
+
+[00:16:31] CLIENT2: Braces are probably coming for my daughter. We’ll likely use HSA funds when we hit that.
+
+[00:16:36] ADVISOR: Good use of the HSA. For your Roth vs. pre‑tax mix at work—keeping yours pre‑tax for now, James?
+
+[00:16:41] CLIENT1: Mostly pre‑tax. I flipped a tiny slice to Roth last year, but with support and camps, pre‑tax helps the paycheck.
+
+[00:16:47] ADVISOR: Liz, you mentioned no Roth at work but Roth IRA outside. That’s a nice balance.
+
+[00:16:51] CLIENT2: Exactly. Emotionally easier later, tax‑wise.
+
+[00:16:54] ADVISOR: On the Sarasota condo—if you two decide to sell, any preference on timing tax‑wise?
+
+[00:16:59] CLIENT2: We’ve not thought that far. Probably after the next reassessment if premiums jump. But we’re not there yet.
+
+[00:17:05] ADVISOR: Okay. Anything else on must‑pays monthly?
+
+[00:17:08] CLIENT2: I think we covered it.
+
+[00:17:10] CLIENT1: Same here.
+
+[00:17:12] ADVISOR: Great. I’ll send the estate attorney intro, and once you finish the risk link, I’ll shape the portfolios accordingly—balanced for James, steadier for Liz. We’ll also look at dialing Liz to four percent for summer and back to six, pausing James’s HSA in July, and skipping the fall Sarasota week—so you keep contributions on track without losing family time.
+
+[00:17:28] CLIENT2: That works for us.
+
+[00:17:30] CLIENT1: Yep. Thanks.
+
+[00:17:32] ADVISOR: And when you find the Prudential annuity paperwork and the cash balance letter, snap a photo and drop it in the portal. Same for the mortgage, HELOC, BrightPath, and the condo HOA page. That’ll let me thread the income pieces together with Social Security and model the childcare and support dropping off.
+
+[00:17:44] CLIENT2: We’ll corral the paperwork after the kids’ soccer tonight. If not tonight, tomorrow morning.
+
+[00:17:48] CLIENT1: We’ll get it in. Appreciate it.
+
+[00:17:51] ADVISOR: Perfect. I’ll keep an eye out for the uploads and we’ll take it from there.
+
+[00:17:54] CLIENT2: Thanks.
+
+[00:17:55] CLIENT1: Thanks.

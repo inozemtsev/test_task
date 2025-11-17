@@ -1,0 +1,743 @@
+# Financial Fact-Find Transcript
+# Persona: James and Elizabeth Williams
+# Type: Blended Family
+# Generated: 2025-11-16 22:35:50
+# Temperature: 1.0
+# Chunks combined: 7
+================================================================================
+
+ADVISOR: [00:00:02] Good to see you both. Before we dive in, can I confirm full names and dates of birth for the record?
+
+CLIENT1: [00:00:07] Sure. James Michael Williams. 1977-09-10.
+
+CLIENT2: [00:00:12] And I’m Elizabeth Anne Williams. 1985-03-22.
+
+ADVISOR: [00:00:16] Thanks. Married—how long now?
+
+CLIENT2: [00:00:19] Two years.
+
+CLIENT1: [00:00:21] Blended family—two kids between us, part-time with us.
+
+ADVISOR: [00:00:25] Health-wise—anything I should know? Meds, conditions?
+
+CLIENT1: [00:00:28] I’m good. Borderline blood pressure sometimes, but no meds.
+
+CLIENT2: [00:00:33] I’m good too. I run. No tobacco either of us.
+
+ADVISOR: [00:00:37] Perfect. Let’s anchor on goals. Gut feel for retirement ages?
+
+CLIENT1: [00:00:41] I’m thinking 65. Maybe 64 if things go well.
+
+CLIENT2: [00:00:45] I keep saying 62, then I hedge to 61–63. Let’s say 62.
+
+ADVISOR: [00:00:50] Income in retirement—what would feel comfortable in today’s dollars?
+
+CLIENT1: [00:00:54] Sixty to seventy before tax.
+
+CLIENT2: [00:00:57] Low seventies gives me breathing room.
+
+ADVISOR: [00:01:00] Okay. Quick risk gut check?
+
+CLIENT1: [00:01:03] Balanced. I can ride out dips if there’s a plan.
+
+CLIENT2: [00:01:07] I flinch a bit. Not super cautious, but not aggressive.
+
+ADVISOR: [00:01:12] Got it. I’ll send a short risk link after this—text okay?
+
+CLIENT2: [00:01:16] Text is best. I’m terrible with email.
+
+CLIENT1: [00:01:18] Same—text me and I’ll jump on it.
+
+ADVISOR: [00:01:21] Let’s talk housing. Where’s home, how’s it titled?
+
+CLIENT1: [00:01:25] Westerville, just north of Columbus. Four-bed, built 2003. We bought in 2021.
+
+CLIENT2: [00:01:32] Title is both of us—joint with rights of survivorship.
+
+ADVISOR: [00:01:36] Value today?
+
+CLIENT1: [00:01:38] Zillow bounces, but mid-$500s. Five forty to five sixty.
+
+ADVISOR: [00:01:43] Property taxes and insurance?
+
+CLIENT2: [00:01:45] Taxes just under $7k a year. Homeowners is around $1,400–$1,500. No HOA.
+
+ADVISOR: [00:01:51] Mortgage—balance, rate, payment?
+
+CLIENT1: [00:01:54] About $290k left at 2.875%. P&I is about $1.7k; escrow puts it around $2.3k.
+
+ADVISOR: [00:02:02] Any second liens—HELOC?
+
+CLIENT1: [00:02:04] Small HELOC. $50k limit, opened last June. Balance zero—emergency only.
+
+CLIENT2: [00:02:10] We keep it unused. Just comfort.
+
+ADVISOR: [00:02:13] Utilities—ballparks?
+
+CLIENT1: [00:02:16] Electric $120–$190 depending on season. Gas $40–$80. Water/sewer $70–$90. Internet around $70.
+
+CLIENT2: [00:02:25] Security system $25/month. Streaming—we trimmed—maybe $40–$60 total.
+
+ADVISOR: [00:02:31] Kids—ages and schedule?
+
+CLIENT2: [00:02:33] My daughter’s 12, half the week with us. James’s son is 16—two midweek nights and every other weekend.
+
+CLIENT1: [00:02:41] Activities spike—soccer, clarinet, all the gear.
+
+ADVISOR: [00:02:45] Any ongoing support payments?
+
+CLIENT1: [00:02:47] I pay child support—about six hundred and change monthly. That winds down in roughly two years when he turns 18.
+
+CLIENT2: [00:02:54] I receive $300 for my daughter. It offsets some activities.
+
+ADVISOR: [00:02:59] Okay. Employment—who’s covering health?
+
+CLIENT2: [00:03:02] Mine. Good PPO, HSA-eligible.
+
+CLIENT1: [00:03:05] I’m on her plan. We put in two to three hundred a month to the HSA when we can.
+
+ADVISOR: [00:03:09] Rough household W-2 income band?
+
+CLIENT1: [00:03:11] Mid–one hundreds together. Bonuses move it a bit.
+
+CLIENT2: [00:03:14] Rental nets a few hundred most months, which helps.
+
+ADVISOR: [00:03:18] We’ll circle income again when we get to the ESPP. While we’re on housing, anything you’d change about the mortgage given the 2.875%?
+
+CLIENT1: [00:03:24] No rush to prepay with that rate.
+
+CLIENT2: [00:03:26] I used to be Team Paydown, but the math says not with 2.875%.
+
+ADVISOR: [00:03:30] Makes sense. Other real estate?
+
+CLIENT1: [00:03:33] Rental townhome in Hilliard. Two-bed, 1.5 bath. Bought in 2012.
+
+CLIENT2: [00:03:38] HOA is $245 a month. We have to remind ourselves that number every time. [laughs]
+
+ADVISOR: [00:03:43] Mortgage and taxes on the rental?
+
+CLIENT1: [00:03:45] Mortgage around $120–$125k. Fixed 30-year at 4.125%. Taxes about $3k.
+
+ADVISOR: [00:03:51] Rent?
+
+CLIENT1: [00:03:52] $1,650/month. One vacancy month last fall. Net four to six hundred after HOA, management, taxes—depends on repairs.
+
+CLIENT2: [00:04:01] We use a property manager—8% fee.
+
+ADVISOR: [00:04:04] Lease status?
+
+CLIENT1: [00:04:06] Tenant’s lease is up in August. Market rent might be $1,700–$1,750 if we renew.
+
+ADVISOR: [00:04:12] Are you leaning to keep or sell?
+
+CLIENT2: [00:04:14] We go back and forth. If it stays positive, keep. If headaches return, sell next spring.
+
+CLIENT1: [00:04:20] The cash flow buffers my support, so we’re cautious about selling.
+
+ADVISOR: [00:04:24] If you sold, what happens to the equity?
+
+CLIENT1: [00:04:26] Net maybe $80–$90k after fees. We’d park in cash short-term, then dollar-cost average to retirement accounts via higher payroll contributions and maybe a taxable brokerage. Also top up 529s.
+
+CLIENT2: [00:04:37] Not touching the primary mortgage with that low rate.
+
+ADVISOR: [00:04:40] While we’re on properties, any family places?
+
+CLIENT2: [00:04:42] I have a 25% share of a lake cabin in Indiana—Tippecanoe Lake. In a family LLC with my brother and cousin.
+
+CLIENT1: [00:04:49] No mortgage there.
+
+CLIENT2: [00:04:51] We do annual cash calls—usually $1.5–$2k for taxes and repairs. County taxes are around $2.2k total for the whole place. We get two weeks a year.
+
+ADVISOR: [00:05:01] Ballpark value?
+
+CLIENT2: [00:05:03] Whole place maybe $400–$450k. So my share just over $100k. Not liquid—the LLC agreement is restrictive.
+
+ADVISOR: [00:05:10] Do cabin trips factor into your travel budget?
+
+CLIENT1: [00:05:13] Gas and groceries mostly. No flights. We do one road trip to see my parents—couple hotel nights, $500–$800 all in.
+
+CLIENT2: [00:05:21] Travel’s our big discretionary lever. We cut if we need to.
+
+ADVISOR: [00:05:25] Let’s hit cash. Where do you keep reserves?
+
+CLIENT1: [00:05:28] Ally HYSA joint—about $45k right now.
+
+CLIENT2: [00:05:31] We aim for six months of expenses. With the kids’ schedules, it yoyo’s.
+
+ADVISOR: [00:05:35] Checking balances?
+
+CLIENT2: [00:05:37] I keep $6–$8k. James keeps $8–$10k.
+
+ADVISOR: [00:05:41] Any CDs or cash-like beyond Ally?
+
+CLIENT2: [00:05:43] I have a 12-month CD, 4.9%, matures July 15th. Around $18–$20k.
+
+ADVISOR: [00:05:49] And you’ve got an inheritance coming?
+
+CLIENT2: [00:05:51] From my grandma. About $30k to me. Probate should close early July; funds late July-ish.
+
+CLIENT1: [00:05:57] Plan was half to Roth IRAs, half to HYSA. Maybe a little to the kids’ 529s.
+
+ADVISOR: [00:06:02] Would you consider a small taxable brokerage with a rules-based DCA to reduce timing stress?
+
+CLIENT2: [00:06:07] That’s the part that freaks me out—timing. A plan would help me actually do it.
+
+CLIENT1: [00:06:12] We’ve said we’ll start one after the inheritance. Then we chicken out. [laughs]
+
+ADVISOR: [00:06:16] We’ll sketch a DCA cadence. Shifting to retirement—James, current balances?
+
+CLIENT1: [00:06:21] 401(k) with Nationwide—low $300s, like $300–$320k. Aggressive mix. Old Roth IRA at Fidelity—$60–$70k. Rollover IRA from a past 401(k)—around $140k. HSA about $5–$6k.
+
+ADVISOR: [00:06:34] Elizabeth?
+
+CLIENT2: [00:06:36] 403(b) at the hospital—$100–$110k. Roth IRA—small—$15–$18k. HSA $1–$2k. I started late after the divorce.
+
+ADVISOR: [00:06:45] Contribution levels?
+
+CLIENT1: [00:06:47] I put in about 10%, sometimes 12. Company matches 5%. Bonus in March; we usually push some to HYSA.
+
+CLIENT2: [00:06:54] I’m at 6%. 4% match. I might bump it after the inheritance settles.
+
+ADVISOR: [00:07:00] Any company stock or ESPP?
+
+CLIENT1: [00:07:02] ESPP with a 15% discount. Current lot maybe $9k. Purchase window closes end of June. I sell right away.
+
+CLIENT2: [00:07:10] I don’t have stock through work.
+
+ADVISOR: [00:07:13] Pensions—any defined benefit plans?
+
+CLIENT1: [00:07:15] Tiny frozen pension from Honda from early in my career. Statement says roughly $300–$400 a month at 65, or a lump around fifty-ish. I need to pull the exact number.
+
+CLIENT2: [00:07:25] Nothing for me—just the 403(b).
+
+ADVISOR: [00:07:28] Social Security—thinking FRA or otherwise?
+
+CLIENT1: [00:07:31] I prefer full retirement age. Could delay if the 401(k)s bridge it.
+
+CLIENT2: [00:07:35] I might do 62, but I know it’s reduced. Depends how college costs look.
+
+ADVISOR: [00:07:40] On investments—how are the accounts allocated now?
+
+CLIENT1: [00:07:43] 401(k) is mostly target-date plus an S&P 500 slice. The rollover IRA’s similar. Roth’s a bit more aggressive.
+
+CLIENT2: [00:07:50] Target-date in the 403(b). I set it and barely look.
+
+ADVISOR: [00:07:54] Any backdoor Roth activity?
+
+CLIENT1: [00:07:56] Some years we do it, not every year. Cash flow with support makes it hit-or-miss.
+
+CLIENT2: [00:08:02] This year probably not until after probate distributes.
+
+ADVISOR: [00:08:06] Beneficiaries—given blended family—how are those set?
+
+CLIENT1: [00:08:09] Primary is Elizabeth; then my son as contingent. I need to fix my HSA—I think it still lists my ex.
+
+CLIENT2: [00:08:16] Mine list James, then my daughter. I updated those last fall.
+
+ADVISOR: [00:08:20] Great. We’ll flag the HSA update. Quick detour to monthly budget texture—childcare or sitter costs?
+
+CLIENT2: [00:08:26] No daycare. Sometimes a sitter if James travels—$50–$80 a night, two or three times a month, but not every month.
+
+CLIENT1: [00:08:33] Summer camps for her a bit—nothing huge. The 16-year-old’s sports and school fees are the bigger swings.
+
+ADVISOR: [00:08:38] What do sports and activities run?
+
+CLIENT1: [00:08:40] Soccer is $250 a season. Clarinet and school trip—maybe $600–$800 in spring. Gear is an ongoing bleed.
+
+CLIENT2: [00:08:47] Dance for her—$50/month plus costumes in spring.
+
+ADVISOR: [00:08:51] Dining out—you mentioned trimming?
+
+CLIENT1: [00:08:53] We try to keep it to one night a week—$60–$90 for all of us.
+
+CLIENT2: [00:08:57] It creeps. We’re trying. [laughs]
+
+ADVISOR: [00:09:01] Insurance beyond home and auto?
+
+CLIENT2: [00:09:03] Health through me—our share about $400/month. HSA contributions when we can. Auto insurance is ~$150 for the two cars.
+
+CLIENT1: [00:09:10] Family phone plan $90–$110. Pet insurance $29 for the dog. My work phone’s covered.
+
+ADVISOR: [00:09:16] Vehicles—loans?
+
+CLIENT1: [00:09:18] 2019 Camry—paid off.
+
+CLIENT2: [00:09:20] 2021 Subaru Outback—also paid off.
+
+ADVISOR: [00:09:24] Education savings—529 balances and monthly adds?
+
+CLIENT1: [00:09:27] My son’s Vanguard 529 is $22–$24k. I do $150/month. His mom has a separate one too.
+
+CLIENT2: [00:09:33] My daughter’s is $12–$13k. We put in $100/month. We might bump it when the inheritance hits.
+
+ADVISOR: [00:09:40] Any taxable brokerage currently?
+
+CLIENT1: [00:09:42] Just a small Vanguard index fund—$3–$4k—leftover. We haven’t been adding.
+
+CLIENT2: [00:09:47] We’ll likely start one after probate—slow and steady.
+
+ADVISOR: [00:09:51] Noted. On wills—where are those?
+
+CLIENT2: [00:09:54] Mine is outdated—2012. Names my ex as guardian. Not good.
+
+CLIENT1: [00:09:59] I don’t have a valid one.
+
+ADVISOR: [00:10:02] Okay, I’ll connect you with an estate attorney for new wills and a children’s trust. Titling sounds fine on the home; we’ll sync that with beneficiary designations.
+
+CLIENT2: [00:10:10] Please—thank you.
+
+ADVISOR: [00:10:13] Coming back to the rental for a minute—capital needs in the next 1–2 years?
+
+CLIENT1: [00:10:17] Appliances, maybe. Roof’s covered by the HOA. We set aside $200/month for repairs.
+
+CLIENT2: [00:10:22] Vacancy is the bigger swing. We try to keep one month of all-in costs saved ahead—about $1,600–$2,000.
+
+ADVISOR: [00:10:29] If you raise rent at renewal to $1,725, does that keep the tenant?
+
+CLIENT1: [00:10:33] We’ll test the waters. They’ve been decent. One late last year; they made it right.
+
+CLIENT2: [00:10:38] If they balk, we may list it. Depends on rates and our patience. [smiles]
+
+ADVISOR: [00:10:42] If a sale happens, you’re aware of depreciation recapture and capital gains on a rental, yes?
+
+CLIENT1: [00:10:47] High level, yeah. We’d need help on the numbers.
+
+ADVISOR: [00:10:50] We can model it when you get me basis and depreciation taken. 1031 is an option if you wanted to roll, but if you’re exiting landlord life, we’d just plan for the tax.
+
+CLIENT2: [00:10:59] We lean to exit, not swap.
+
+ADVISOR: [00:11:02] Got it. On the ESPP—since you sell right away, do you typically drop proceeds into HYSA?
+
+CLIENT1: [00:11:07] Yep. HYSA first. Then we top off 529s or catch a bigger expense.
+
+CLIENT2: [00:11:11] It’s our little pressure valve.
+
+ADVISOR: [00:11:14] Any upcoming one-offs besides braces and the school trip?
+
+CLIENT2: [00:11:17] Braces next year—maybe $2–$3k out-of-pocket. We’ll plan that. Otherwise, kitchen refresh—phase one only.
+
+CLIENT1: [00:11:23] We’ll do the kitchen in chunks so we don’t sink the emergency fund.
+
+ADVISOR: [00:11:27] And your emergency fund is six to seven months today?
+
+CLIENT1: [00:11:30] Right. Between Ally and the CD and the inheritance, we’ll be closer to eight if we don’t deploy.
+
+CLIENT2: [00:11:35] We’ll deploy some. [laughs] But we’ll try to keep it healthy.
+
+ADVISOR: [00:11:39] On retirement timing—James at 65 is 2042; Elizabeth at 62 is 2047. That sound right?
+
+CLIENT1: [00:11:44] That tracks.
+
+CLIENT2: [00:11:46] Yes.
+
+ADVISOR: [00:11:49] Any life insurance outside work?
+
+CLIENT1: [00:11:51] Tiny whole life my parents started—cash value around $4k. Otherwise we carry term.
+
+CLIENT2: [00:11:56] Term only for me. Work has 2x salary.
+
+ADVISOR: [00:12:00] And James, what’s your work coverage?
+
+CLIENT1: [00:12:02] One times salary basic. There’s optional 2x I haven’t added.
+
+ADVISOR: [00:12:06] Okay. We’ll look at coverage levels once we see the new wills framework for guardianship and the rental decision.
+
+CLIENT2: [00:12:12] Makes sense.
+
+ADVISOR: [00:12:14] Let’s touch taxes. You’re in the mid-20s federal and around 5% state, fair?
+
+CLIENT1: [00:12:18] That’s fair.
+
+CLIENT2: [00:12:20] Yes.
+
+ADVISOR: [00:12:22] Any HSA invest vs cash preferences?
+
+CLIENT1: [00:12:25] Small invest sleeve; most sits in cash—we spend a portion each year.
+
+CLIENT2: [00:12:29] We try to pay cash and let the HSA grow, but braces might break that rule.
+
+ADVISOR: [00:12:33] If we can, we’ll stack receipts and reimburse later. We’ll see how cash flow shakes out post-inheritance.
+
+CLIENT2: [00:12:38] Okay.
+
+ADVISOR: [00:12:41] On that inheritance—your thought was Roths first, then HYSA, then maybe 529s?
+
+CLIENT2: [00:12:45] Yes. I was thinking $6–$8k to a Roth for me in late summer, then top-off the rest.
+
+CLIENT1: [00:12:50] I’d like to get both Roths funded if we can—backdoor if needed.
+
+ADVISOR: [00:12:54] We’ll check MAGI and backdoor mechanics. We’ll also set a DCA for any leftover into taxable so there’s no “should we buy today?” stress.
+
+CLIENT2: [00:13:01] Please. The rules keep me honest. [laughs]
+
+ADVISOR: [00:13:04] Children’s 529s—do you want to tie increases to the ESPP sales?
+
+CLIENT1: [00:13:08] That’s worked for us before.
+
+CLIENT2: [00:13:10] Yes—when the window hits, bump contributions for that month.
+
+ADVISOR: [00:13:14] Quick admin—beneficiary check beyond retirement accounts. Any TODs on brokerage?
+
+CLIENT1: [00:13:18] The little Vanguard fund? I don’t think we set TOD. We can.
+
+CLIENT2: [00:13:22] Add it to the list with the HSA fix.
+
+ADVISOR: [00:13:25] Will do. For the rental—who’s on title and mortgage?
+
+CLIENT1: [00:13:28] Just me. Pre-marriage. We did that on purpose.
+
+CLIENT2: [00:13:31] The cabin share is in my name via the LLC. Also pre-marriage. Our primary and HYSA are joint.
+
+ADVISOR: [00:13:37] Good clarity. With blended families, we’ll coordinate titling with the estate attorney so your wishes actually happen.
+
+CLIENT1: [00:13:44] We’ve talked about that a lot. Appreciate the help.
+
+ADVISOR: [00:13:47] On payroll timing and cash flow—any months feel tight?
+
+CLIENT1: [00:13:50] Back-to-school and December. Gifts, travel, heating.
+
+CLIENT2: [00:13:53] Summer too—camps and extra groceries.
+
+ADVISOR: [00:13:56] Do you throttle 401(k) contributions seasonally or keep steady?
+
+CLIENT1: [00:13:59] I try to keep steady at 10%. If something spikes, I pause the Roths first.
+
+CLIENT2: [00:14:04] Same—won’t touch the match.
+
+ADVISOR: [00:14:07] Quick check on vehicles and insurance again—teen driver soon?
+
+CLIENT1: [00:14:10] He’s close. Insurance will jump. We’re bracing.
+
+CLIENT2: [00:14:13] We’ll shop it when he gets his full license.
+
+ADVISOR: [00:14:16] Got it. Circling back to Social Security—do you have recent statements handy?
+
+CLIENT1: [00:14:20] I can pull them. Last I checked, mine was around the mid-twos at FRA.
+
+CLIENT2: [00:14:24] Mine was lower—makes sense given I started late.
+
+ADVISOR: [00:14:28] We’ll import those and model claiming alongside the Honda pension at 65.
+
+CLIENT1: [00:14:32] I’ll dig that Honda statement up.
+
+ADVISOR: [00:14:35] For the CD on July 15th—plan to roll to HYSA unless we push Roths right away?
+
+CLIENT2: [00:14:40] Yes. If probate funds are slow, I’ll still move the CD into HYSA and wait to do Roths until the inheritance lands.
+
+CLIENT1: [00:14:46] Timing-wise, the ESPP window end of June will also add a little cash.
+
+ADVISOR: [00:14:50] Good. On the HELOC—any urge to lift the limit?
+
+CLIENT1: [00:14:53] Only if the bank offers it easily. We’re not using it.
+
+CLIENT2: [00:14:56] Purely for emergencies.
+
+ADVISOR: [00:14:58] Great. Let’s talk allocations briefly. James—how aggressive do you want the 401(k) and rollover to be, given the low-rate mortgage gives you room?
+
+CLIENT1: [00:15:05] I’m okay staying aggressive in tax-deferred. The Roth I’d keep aggressive too.
+
+CLIENT2: [00:15:10] I’m more comfortable easing in—especially if it’s my Roth funded from the inheritance.
+
+ADVISOR: [00:15:15] We can start your Roth half in cash/short-term and phase it in monthly over, say, six months.
+
+CLIENT2: [00:15:20] That feels better.
+
+ADVISOR: [00:15:22] Any crypto or alternatives I should note?
+
+CLIENT1: [00:15:24] None.
+
+CLIENT2: [00:15:25] Tiny Coinbase—like $200 that I forget exists. [laughs]
+
+ADVISOR: [00:15:29] Noted. On documents—can you upload recent statements for Nationwide 401(k), Fidelity IRAs, Ally, the CD, and the rental mortgage?
+
+CLIENT2: [00:15:36] Yes, I’ll send PDFs tonight.
+
+CLIENT1: [00:15:39] I’ve got Q2 statements ready to go.
+
+ADVISOR: [00:15:42] While we’re in admin, beneficiaries on life insurance?
+
+CLIENT1: [00:15:45] Work policy—Elizabeth primary. Term the same.
+
+CLIENT2: [00:15:48] Same—James primary on mine.
+
+ADVISOR: [00:15:51] Great. Any other assets—collectibles, safe deposit box?
+
+CLIENT1: [00:15:54] Just a ring her grandma left—sentimental, maybe $2–$3k. No gold bars. [laughs]
+
+CLIENT2: [00:15:59] No safe deposit box.
+
+ADVISOR: [00:16:02] On taxes—are you comfortable with the idea of bunching charitable giving or using a donor-advised fund if you sell the rental?
+
+CLIENT1: [00:16:07] Interesting. We haven’t done that.
+
+CLIENT2: [00:16:10] We give, but not that structured.
+
+ADVISOR: [00:16:12] If you do sell in a higher-income year, we can talk about bunching to maximize deductions.
+
+CLIENT1: [00:16:17] Okay.
+
+ADVISOR: [00:16:19] Back to the rental for a second—are you depreciating properly through your tax preparer?
+
+CLIENT1: [00:16:23] Yes, CPA handles Schedule E and depreciation.
+
+ADVISOR: [00:16:26] Perfect. If we head to market next spring, I’ll coordinate estimated gains with them.
+
+CLIENT2: [00:16:30] Please—no surprises at closing.
+
+ADVISOR: [00:16:33] College funding—do you have a target coverage level? Full tuition or a percentage?
+
+CLIENT1: [00:16:37] A percentage. Split with ex for my son. We’ll aim to cover basics.
+
+CLIENT2: [00:16:41] Same for my daughter—cover a chunk, not full ride.
+
+ADVISOR: [00:16:45] Then the current monthly contributions plus periodic boosts from ESPP and inheritance should be close to that.
+
+CLIENT2: [00:16:50] Good.
+
+ADVISOR: [00:16:52] On the estate plan—any preferences on guardianship or trustee roles we should signal to the attorney?
+
+CLIENT1: [00:16:57] We have a couple people in mind. We’ll talk through it and send you names.
+
+CLIENT2: [00:17:01] We want the kids provided for but keep separate property lines clear.
+
+ADVISOR: [00:17:05] The attorney will likely propose a family trust that respects separate property (rental, cabin) and joint assets. We’ll align beneficiary designations to that.
+
+CLIENT2: [00:17:12] That’s exactly what we want.
+
+ADVISOR: [00:17:15] Any open enrollment changes anticipated this fall?
+
+CLIENT2: [00:17:18] Maybe bump HSA. Otherwise same plan.
+
+CLIENT1: [00:17:21] If braces hit, we may adjust FSA/HSA amounts.
+
+ADVISOR: [00:17:24] Okay. We can plan for orthodontics out-of-pocket maximums.
+
+CLIENT2: [00:17:28] Good idea.
+
+ADVISOR: [00:17:30] Mortgage prepay—do you ever toss extra principal at the primary?
+
+CLIENT1: [00:17:33] Occasionally a small extra, but not a focus.
+
+CLIENT2: [00:17:36] If the townhouse sells, I’d rather build liquid reserves and Roths.
+
+ADVISOR: [00:17:40] I agree with prioritizing Roth space and liquidity given the 2.875% note.
+
+CLIENT1: [00:17:44] That’s where we landed.
+
+ADVISOR: [00:17:47] Insurance check—any disability through work?
+
+CLIENT1: [00:17:50] Long-term through work, 60% I think.
+
+CLIENT2: [00:17:53] I have basic long-term. We didn’t buy supplemental.
+
+ADVISOR: [00:17:56] We’ll review those. With the mortgage and support obligations, coverage can be important.
+
+CLIENT2: [00:18:00] Understood.
+
+ADVISOR: [00:18:02] Quick thought—auto-escalation on 401(k) contributions. On or off?
+
+CLIENT1: [00:18:06] I can turn on 1% per year. I haven’t set it yet.
+
+CLIENT2: [00:18:09] Mine’s off. I forget to change it.
+
+ADVISOR: [00:18:12] We can align that with support ending—when your payment drops off in about two years, we’ll bump contributions.
+
+CLIENT1: [00:18:17] Yep, that’s the plan.
+
+ADVISOR: [00:18:19] Any questions on the Honda pension—options at 65, survivor benefits?
+
+CLIENT1: [00:18:23] Not yet. I’ll send the statement so we see the choices.
+
+ADVISOR: [00:18:26] Perfect. If there’s a lump vs annuity decision, we’ll compare against expected returns and taxes.
+
+CLIENT2: [00:18:30] Good.
+
+ADVISOR: [00:18:33] How do you want to handle the HSA beneficiary update? I can send the form checklist.
+
+CLIENT1: [00:18:37] Yes—send it. I’ll fix it this week.
+
+ADVISOR: [00:18:40] Great. On rental insurance—do you pay annually direct?
+
+CLIENT1: [00:18:43] Yes. Taxes escrowed, insurance direct once a year.
+
+ADVISOR: [00:18:47] Property manager—8% fee—is maintenance handled through them?
+
+CLIENT1: [00:18:50] Yep. They get approvals over $300—$400. Last year was a water heater, around $700–$750.
+
+CLIENT2: [00:18:56] We keep a separate rental reserve bucket in Ally.
+
+ADVISOR: [00:18:59] I like that. Keep 3–4 months of mortgage/HOA there.
+
+CLIENT1: [00:19:02] We’re close—6–8 grand.
+
+ADVISOR: [00:19:05] Perfect. On travel—do you plan one big trip and one cabin trip per year?
+
+CLIENT2: [00:19:09] We do two cabin weeks, then maybe one road trip to see family. Flights only if there’s a deal.
+
+CLIENT1: [00:19:14] We call travel discretionary. We cut if money’s tight.
+
+ADVISOR: [00:19:18] Timelines—tenant renewal in August, CD July 15th, ESPP end of June, inheritance late July. Anything else this summer?
+
+CLIENT2: [00:19:24] That’s the lineup. Back-to-school shopping in August, of course.
+
+CLIENT1: [00:19:28] And soccer fees.
+
+ADVISOR: [00:19:31] Are either of you expecting a raise this year?
+
+CLIENT1: [00:19:34] Merit bump early next year. Two to three percent usually.
+
+CLIENT2: [00:19:37] Mine is minimal. Shift differentials add a little.
+
+ADVISOR: [00:19:41] Okay. I’ll text the risk questionnaire and a secure upload link right after we hang up. You’ll get a PIN by text.
+
+CLIENT2: [00:19:46] Sounds good.
+
+CLIENT1: [00:19:48] We’ll upload tonight.
+
+ADVISOR: [00:19:50] While we have a minute—what’s your comfort with the taxable account being all index funds vs a 70/30 mix?
+
+CLIENT1: [00:19:55] I’d go 70/30 there.
+
+CLIENT2: [00:19:57] I want some bonds. If we stick to a schedule, I’ll be calmer.
+
+ADVISOR: [00:20:01] 70/30 DCA it is. We’ll tie it to the CD maturity and the inheritance dates.
+
+CLIENT2: [00:20:05] Great.
+
+ADVISOR: [00:20:07] Anything else on your mind I haven’t asked about?
+
+CLIENT1: [00:20:10] Teen driver—budgeting for insurance. That’s the biggie coming.
+
+CLIENT2: [00:20:13] And the braces. [laughs] We’ll send estimates once we get them.
+
+ADVISOR: [00:20:16] Please do. We’ll fold those into cash flow.
+
+CLIENT1: [00:20:19] Oh—one more. ESPP sale proceeds—any tax gotchas if I sell immediately?
+
+ADVISOR: [00:20:23] With a qualified ESPP, selling immediately usually triggers compensation income on the discount and potential short-term capital gain/loss beyond that. It’s minor if you sell right away—your approach is sound for de-risking.
+
+CLIENT1: [00:20:32] Perfect.
+
+ADVISOR: [00:20:34] Great. I’m going to send the links now so they’re waiting for you.
+
+CLIENT2: [00:20:38] Got them—text just came through.
+
+CLIENT1: [00:20:40] Same here.
+
+ADVISOR: [00:20:43] Excellent. Since we’ve got time, let me double-check a couple small items. Do you carry an umbrella liability policy?
+
+CLIENT1: [00:20:49] Not yet.
+
+CLIENT2: [00:20:51] We’ve talked about it since the rental and teen driver. We should get one.
+
+ADVISOR: [00:20:54] I’ll ask your P&C agent for a $1–$2 million quote. It’s usually inexpensive, especially if bundled.
+
+CLIENT2: [00:21:00] Please do.
+
+ADVISOR: [00:21:02] For the tiny whole life—any thoughts on keeping vs. surrendering?
+
+CLIENT1: [00:21:05] We’ve just let it ride. It’s sentimental. It’s small.
+
+ADVISOR: [00:21:09] That’s fine. We’ll leave it.
+
+CLIENT2: [00:21:11] Works for me.
+
+ADVISOR: [00:21:13] On the Roths—do you prefer Fidelity for both to keep logins simple?
+
+CLIENT2: [00:21:17] Yes. One app.
+
+CLIENT1: [00:21:19] Fidelity’s fine.
+
+ADVISOR: [00:21:21] Okay, I’ll prep the Fidelity Roth for you, Elizabeth, so it’s ready before the funds arrive. We can fund in two tranches if probate timing is choppy.
+
+CLIENT2: [00:21:28] Perfect.
+
+ADVISOR: [00:21:31] For the Vanguard 529s—do you want to raise monthly contributions now or wait until the ESPP sale?
+
+CLIENT1: [00:21:36] Let’s wait for the ESPP sale.
+
+CLIENT2: [00:21:38] Agreed.
+
+ADVISOR: [00:21:40] With your tax bracket, pre-tax contributions are helping. We can look at a Roth split later if AGI drops after support ends.
+
+CLIENT1: [00:21:47] That’s the idea—switch some to Roth later.
+
+CLIENT2: [00:21:50] I’d like that.
+
+ADVISOR: [00:21:52] Anything unusual in the rental HOA? Special assessments?
+
+CLIENT1: [00:21:56] Nothing pending that we’ve heard. It’s been steady.
+
+CLIENT2: [00:21:59] If that changes, we’ll flag it.
+
+ADVISOR: [00:22:02] Great. One last thing—are beneficiaries on 529s set the way you want?
+
+CLIENT1: [00:22:06] Yes—each to the respective child.
+
+CLIENT2: [00:22:08] Correct.
+
+ADVISOR: [00:22:10] Alright. I think we’ve got the details I need. I’ll watch for your uploads tonight and we’ll keep things moving.
+
+CLIENT2: [00:22:15] Thanks.
+
+CLIENT1: [00:22:16] Thanks.
+
+ADVISOR: [00:23:41] Hey, one quick follow-up I forgot as I’m reviewing notes—are any assets intentionally kept separate for blended family planning?
+
+CLIENT1: [00:23:47] Yes. The rental’s in my name only—pre-marriage.
+
+CLIENT2: [00:23:50] The cabin share is in my name through the LLC. Pre-marriage too.
+
+ADVISOR: [00:23:54] Perfect—you had mentioned that earlier. Aligns with the estate plan we’ll set up.
+
+CLIENT2: [00:23:58] Great.
+
+ADVISOR: [00:26:12] Since we’re still on, how many months of expenses does the HYSA cover if we include the CD and inheritance?
+
+CLIENT1: [00:26:17] Closer to eight months if we don’t deploy it.
+
+CLIENT2: [00:26:20] Realistically, we’ll deploy some for Roths and braces, but keep six-plus.
+
+ADVISOR: [00:26:24] That’s a strong cushion. Okay, I’ll let you both go—thanks for the thorough detail. I’ll text if I need a quick clarification as I build out the plan.
+
+CLIENT2: [00:26:30] Sounds good.
+
+CLIENT1: [00:26:31] Appreciate it.
+
+ADVISOR: [00:42:05] Hi again—quick clarification while you’re near your files. James, on the ESPP, what’s the cadence—quarterly or semiannual?
+
+CLIENT1: [00:42:10] Semiannual—this window ends end of June; next one wraps end of December.
+
+ADVISOR: [00:42:14] Perfect. And the property manager fee is 8% of collected rent, not flat?
+
+CLIENT1: [00:42:18] Correct—8% of what they collect.
+
+ADVISOR: [00:42:20] Thanks. Elizabeth, do you know your 403(b) match vesting schedule?
+
+CLIENT2: [00:42:24] I think it’s three years for full vesting. I’m a little over two.
+
+ADVISOR: [00:42:27] Great—that helps for timing any job changes. And both cars are titled jointly?
+
+CLIENT2: [00:42:31] Yes.
+
+ADVISOR: [00:42:33] Thanks—done with my nitpicks.
+
+CLIENT2: [00:42:35] All good.
+
+ADVISOR: [00:55:12] One more item as I’m modeling cash flow—how do you want to handle the August rent decision? If the tenant renews at $1,725, are you comfortable keeping the unit through next spring?
+
+CLIENT1: [00:55:20] Yes—renew if they’ll do $1,725 with a 12-month lease.
+
+CLIENT2: [00:55:24] If they won’t, we list it. We’re not doing a short-term renewal.
+
+ADVISOR: [00:55:27] Got it. I’ll build both scenarios.
+
+CLIENT2: [00:55:29] Perfect.
+
+ADVISOR: [01:04:46] Last thing from me today—HSA beneficiary form is in your portal, and I included a one-pager on umbrella policies. Let me know if the forms make sense.
+
+CLIENT1: [01:04:52] Got them—looks straightforward.
+
+CLIENT2: [01:04:54] We’ll review tonight.
+
+ADVISOR: [01:04:56] Great. Talk soon.

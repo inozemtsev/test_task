@@ -1,0 +1,227 @@
+# Financial Fact-Find Transcript Generation Task
+
+You are generating a realistic segment of a financial advisor's fact-find conversation with a client.
+The conversation should be natural, professional, and include specific factual information with proper timestamp citations.
+
+## Client Case: Young Professional Couple: Daniel and Barbara Williams
+
+**Client Names:** Daniel and Barbara Williams
+
+**Description:** A married couple in their early 30s, both employed full-time, with young children. They own their first home with a mortgage, have some savings, and are starting to think about retirement planning. They have three children under 10 and managing childcare costs
+
+**Profile:**
+- Age: 32 and 35
+- Marital status: married
+- Employment: both employed
+- Life stage: young family
+
+## Focus Area: Expenses
+
+Generate a conversation segment discussing the client's expenses.
+Include natural dialogue between the advisor and client(s), with specific details and values.
+
+## Attributes to Cover
+
+Include discussion of the following attributes where relevant:
+
+### expenses > static > category
+**Example values:**
+  1. `housing`
+     Citation: "Covers property taxes, utilities, etc."
+  2. `other`
+     Citation: "Discretionary travel."
+  3. `childcare`
+     Citation: "CLIENT: childcare fees discussion"
+
+### expenses > static > category > citation
+**Example values:**
+  1. `Covers property taxes, utilities, etc.`
+     Citation: "Covers property taxes, utilities, etc."
+  2. `Discretionary travel.`
+     Citation: "Discretionary travel."
+  3. `CLIENT: childcare fees discussion`
+     Citation: "CLIENT: childcare fees discussion"
+
+### expenses > static > category > type
+**Example values:**
+  1. `string`
+     Citation: "Covers property taxes, utilities, etc."
+  2. `string`
+     Citation: "Discretionary travel."
+  3. `string`
+     Citation: "CLIENT: childcare fees discussion"
+
+### expenses > static > category > value
+**Example values:**
+  1. `housing`
+     Citation: "Covers property taxes, utilities, etc."
+  2. `other`
+     Citation: "Discretionary travel."
+  3. `childcare`
+     Citation: "CLIENT: childcare fees discussion"
+
+### expenses > static > description
+**Example values:**
+  1. `Unavoidable household bills – property taxes, water & sewer, electricity, insurance, utilities`
+     Citation: "CLIENT1: [00:07:24-00:07:40]."
+  2. `Vacations including frequent trips to Sarasota condo, road trips and other travel`
+     Citation: "Multiple segments: [00:06:05-00:06:15], [00:11:43-00:12:46], [00:58:34-00:59:36]."
+  3. `Day-care / childcare costs for two young children including after government support.`
+     Citation: "CLIENT & ADVISOR refer to daycare and childcare fees, government help, free hours"
+
+### expenses > static > description > citation
+**Example values:**
+  1. `CLIENT1: [00:07:24-00:07:40].`
+     Citation: "CLIENT1: [00:07:24-00:07:40]."
+  2. `Multiple segments: [00:06:05-00:06:15], [00:11:43-00:12:46], [00:58:34-00:59:36].`
+     Citation: "Multiple segments: [00:06:05-00:06:15], [00:11:43-00:12:46], [00:58:34-00:59:36]."
+  3. `CLIENT & ADVISOR refer to daycare and childcare fees, government help, free hours`
+     Citation: "CLIENT & ADVISOR refer to daycare and childcare fees, government help, free hours"
+
+### expenses > static > description > type
+**Example values:**
+  1. `string`
+     Citation: "CLIENT1: [00:07:24-00:07:40]."
+  2. `string`
+     Citation: "Multiple segments: [00:06:05-00:06:15], [00:11:43-00:12:46], [00:58:34-00:59:36]."
+  3. `string`
+     Citation: "CLIENT & ADVISOR refer to daycare and childcare fees, government help, free hours"
+
+### expenses > static > description > value
+**Example values:**
+  1. `Unavoidable household bills – property taxes, water & sewer, electricity, insurance, utilities`
+     Citation: "CLIENT1: [00:07:24-00:07:40]."
+  2. `Vacations including frequent trips to Sarasota condo, road trips and other travel`
+     Citation: "Multiple segments: [00:06:05-00:06:15], [00:11:43-00:12:46], [00:58:34-00:59:36]."
+  3. `Day-care / childcare costs for two young children including after government support.`
+     Citation: "CLIENT & ADVISOR refer to daycare and childcare fees, government help, free hours"
+
+### expenses > static > priority
+**Example values:**
+  1. `essential`
+     Citation: "Described as expenses that "I can’t avoid" [00:07:24-00:07:31]."
+  2. `discretionary`
+     Citation: "ADVISOR frames retirement as time to travel; not part of unavoidable 8k expenses."
+  3. `high priority, unavoidable in short term (approx. 2.5 more years) until children enter school.`
+     Citation: "ADVISOR: estimates remaining years of day-care; positions 401(k) contributions vs childcare costs"
+
+### expenses > static > priority > citation
+**Example values:**
+  1. `Described as expenses that "I can’t avoid" [00:07:24-00:07:31].`
+     Citation: "Described as expenses that "I can’t avoid" [00:07:24-00:07:31]."
+  2. `ADVISOR frames retirement as time to travel; not part of unavoidable 8k expenses.`
+     Citation: "ADVISOR frames retirement as time to travel; not part of unavoidable 8k expenses."
+  3. `ADVISOR: estimates remaining years of day-care; positions 401(k) contributions vs childcare costs`
+     Citation: "ADVISOR: estimates remaining years of day-care; positions 401(k) contributions vs childcare costs"
+
+### expenses > static > priority > type
+**Example values:**
+  1. `string`
+     Citation: "Described as expenses that "I can’t avoid" [00:07:24-00:07:31]."
+  2. `string`
+     Citation: "ADVISOR frames retirement as time to travel; not part of unavoidable 8k expenses."
+  3. `string`
+     Citation: "ADVISOR: estimates remaining years of day-care; positions 401(k) contributions vs childcare costs"
+
+### expenses > static > priority > value
+**Example values:**
+  1. `essential`
+     Citation: "Described as expenses that "I can’t avoid" [00:07:24-00:07:31]."
+  2. `discretionary`
+     Citation: "ADVISOR frames retirement as time to travel; not part of unavoidable 8k expenses."
+  3. `high priority, unavoidable in short term (approx. 2.5 more years) until children enter school.`
+     Citation: "ADVISOR: estimates remaining years of day-care; positions 401(k) contributions vs childcare costs"
+
+### expenses > timeline
+**Example values:**
+  1. `{'amount': 8000, 'currency': 'USD'}`
+     Citation: "CLIENT1/ADVISOR: [00:06:54-00:07:08] household expenses about 8,000 per year."
+  2. `not_specified`
+     Citation: "Travel discussed qualitatively but no fixed annual budget stated."
+  3. `2000`
+     Citation: "CLIENT: “Kids childcare is about $2,000 a month.”"
+
+### expenses > timeline > citation
+**Example values:**
+  1. `CLIENT1/ADVISOR: [00:06:54-00:07:08] household expenses about 8,000 per year.`
+     Citation: "CLIENT1/ADVISOR: [00:06:54-00:07:08] household expenses about 8,000 per year."
+  2. `Travel discussed qualitatively but no fixed annual budget stated.`
+     Citation: "Travel discussed qualitatively but no fixed annual budget stated."
+  3. `CLIENT: “Kids childcare is about $2,000 a month.”`
+     Citation: "CLIENT: “Kids childcare is about $2,000 a month.”"
+
+### expenses > timeline > type
+**Example values:**
+  1. `currency`
+     Citation: "CLIENT1/ADVISOR: [00:06:54-00:07:08] household expenses about 8,000 per year."
+  2. `string`
+     Citation: "Travel discussed qualitatively but no fixed annual budget stated."
+  3. `currency`
+     Citation: "CLIENT: “Kids childcare is about $2,000 a month.”"
+
+### expenses > timeline > value
+**Example values:**
+  1. `{'amount': 8000, 'currency': 'USD'}`
+     Citation: "CLIENT1/ADVISOR: [00:06:54-00:07:08] household expenses about 8,000 per year."
+  2. `not_specified`
+     Citation: "Travel discussed qualitatively but no fixed annual budget stated."
+  3. `2000`
+     Citation: "CLIENT: “Kids childcare is about $2,000 a month.”"
+
+
+## Few-Shot Citation Examples
+
+Below are examples of how to format citations with timestamps:
+
+1. **[00:03:07]** category: `childcare`
+   > CLIENT: childcare fees discussion
+
+2. **[00:03:07]** citation: `CLIENT: childcare fees discussion`
+   > CLIENT: childcare fees discussion
+
+3. **[00:03:07]** type: `string`
+   > CLIENT: childcare fees discussion
+
+4. **[00:03:07]** value: `childcare`
+   > CLIENT: childcare fees discussion
+
+5. **[00:03:07]** description: `Day-care / childcare costs for two young children including after government support.`
+   > CLIENT & ADVISOR refer to daycare and childcare fees, government help, free hours
+
+6. **[00:03:07]** citation: `CLIENT & ADVISOR refer to daycare and childcare fees, government help, free hours`
+   > CLIENT & ADVISOR refer to daycare and childcare fees, government help, free hours
+
+7. **[00:03:07]** type: `string`
+   > CLIENT & ADVISOR refer to daycare and childcare fees, government help, free hours
+
+8. **[00:03:07]** value: `Day-care / childcare costs for two young children including after government support.`
+   > CLIENT & ADVISOR refer to daycare and childcare fees, government help, free hours
+
+9. **[00:05:02]** category: `housing`
+   > CLIENT mentions total expenses including house and mortgage
+
+10. **[00:05:02]** citation: `CLIENT mentions total expenses including house and mortgage`
+   > CLIENT mentions total expenses including house and mortgage
+
+
+## Output Requirements
+
+1. DON'T USE THE SAME LOCATIONS AND VALUES AS IN THE EXAMPLES. USE DIFFERENT VALUES AND LOCATIONS.
+1. **Format:** Natural conversational dialogue with speaker labels (ADVISOR:, CLIENT:, CLIENT1:, CLIENT2:)
+2. **Timestamps:** Include timestamps in format [HH:MM:SS] at natural conversation points
+3. **Detail:** Include specific numbers, dates, and factual information
+4. **Natural flow:** The conversation should feel realistic with natural transitions
+5. **Length:** Generate 3-5 minutes of conversation (approximately 500-1000 words)
+
+## Timeline Guidance
+
+The conversation should follow a natural progression. Here's a timeline of topics:
+
+**Around 0-5 minutes:**
+  Topics: category, citation, type
+
+**Around 0-5 minutes:**
+  Topics: category, citation, type
+
+**Around 0-5 minutes:**
+  Topics: priority, citation, type
