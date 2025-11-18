@@ -6,8 +6,8 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from sqlalchemy.orm import selectinload
 from database import get_db
-from models import Evaluation, EvaluationResult, CharacteristicVote, Characteristic
-from schemas import EvaluationRunRequest, EvaluationResponse, CharacteristicVoteResponse, EvaluationResultResponse
+from models import Evaluation, EvaluationResult
+from schemas import EvaluationRunRequest, EvaluationResponse, EvaluationResultResponse
 from services.evaluation_service import run_evaluation, progress_tracker
 
 router = APIRouter(prefix="/api/evaluations", tags=["evaluations"])
@@ -31,10 +31,7 @@ async def start_evaluation(
     # Re-fetch with relationships loaded
     result = await db.execute(
         select(Evaluation)
-        .options(
-            selectinload(Evaluation.results)
-            .selectinload(EvaluationResult.characteristic_votes)
-        )
+        .options(selectinload(Evaluation.results))
         .where(Evaluation.id == evaluation.id)
     )
     evaluation = result.scalar_one()
@@ -54,10 +51,7 @@ async def get_evaluation(evaluation_id: int, db: AsyncSession = Depends(get_db))
         select(Evaluation)
         .options(
             selectinload(Evaluation.results)
-            .selectinload(EvaluationResult.transcript),
-            selectinload(Evaluation.results)
-            .selectinload(EvaluationResult.characteristic_votes)
-            .selectinload(CharacteristicVote.characteristic)
+            .selectinload(EvaluationResult.transcript)
         )
         .where(Evaluation.id == evaluation_id)
     )
@@ -66,7 +60,7 @@ async def get_evaluation(evaluation_id: int, db: AsyncSession = Depends(get_db))
     if not evaluation:
         raise HTTPException(status_code=404, detail="Evaluation not found")
 
-    # Transform results to include transcript names and characteristic names
+    # Transform results to include transcript names
     evaluation_response = EvaluationResponse(
         id=evaluation.id,
         experiment_id=evaluation.experiment_id,
@@ -79,21 +73,6 @@ async def get_evaluation(evaluation_id: int, db: AsyncSession = Depends(get_db))
     )
 
     for result in evaluation.results:
-        # Transform characteristic votes
-        vote_responses = []
-        for vote in result.characteristic_votes:
-            vote_responses.append(
-                CharacteristicVoteResponse(
-                    id=vote.id,
-                    characteristic_id=vote.characteristic_id,
-                    characteristic_name=vote.characteristic.name,
-                    vote=vote.vote,
-                    reasoning=vote.reasoning,
-                    metrics=vote.metrics,
-                    result_data=vote.result_data,
-                )
-            )
-
         eval_result_response = EvaluationResultResponse(
             id=result.id,
             transcript_id=result.transcript_id,
@@ -102,9 +81,9 @@ async def get_evaluation(evaluation_id: int, db: AsyncSession = Depends(get_db))
             initial_extraction=result.initial_extraction,
             review_data=result.review_data,
             final_extraction=result.final_extraction,
+            judge_result=result.judge_result,
             schema_overlap_data=result.schema_overlap_data,
             final_score=result.final_score,
-            characteristic_votes=vote_responses,
         )
         evaluation_response.results.append(eval_result_response)
 

@@ -10,7 +10,6 @@ interface Judge {
   id: number;
   name: string;
   model: string;
-  characteristics: any[];
   created_at: string;
 }
 
@@ -65,9 +64,6 @@ export default function JudgeList({
               <div className="flex items-center gap-2 mt-1 flex-wrap">
                 <Badge variant="secondary" className="text-xs">
                   {judge.model}
-                </Badge>
-                <Badge variant="outline" className="text-xs">
-                  {judge.characteristics?.length || 0} characteristics
                 </Badge>
               </div>
             </div>

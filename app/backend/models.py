@@ -23,25 +23,11 @@ class Judge(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String(255), nullable=False)
     model = Column(String(100), nullable=False)
+    judge_config = Column(JSON, nullable=True)  # UI-driven configuration for judge behavior
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
-    characteristics = relationship("Characteristic", back_populates="judge", cascade="all, delete-orphan")
     evaluations = relationship("Evaluation", back_populates="judge")
-
-
-class Characteristic(Base):
-    __tablename__ = "characteristics"
-
-    id = Column(Integer, primary_key=True, index=True)
-    judge_id = Column(Integer, ForeignKey("judges.id", ondelete="CASCADE"), nullable=False)
-    name = Column(String(255), nullable=False)
-    prompt = Column(Text, nullable=False)
-    schema_json = Column(Text, nullable=True)  # Optional structured output schema
-    created_at = Column(DateTime, default=datetime.utcnow)
-
-    judge = relationship("Judge", back_populates="characteristics")
-    votes = relationship("CharacteristicVote", back_populates="characteristic", cascade="all, delete-orphan")
 
 
 class Experiment(Base):
@@ -85,6 +71,7 @@ class EvaluationResult(Base):
     initial_extraction = Column(JSON, nullable=True)  # First pass extraction (two-pass mode)
     review_data = Column(JSON, nullable=True)  # Review findings (two-pass mode)
     final_extraction = Column(JSON, nullable=True)  # Second pass extraction (two-pass mode)
+    judge_result = Column(JSON, nullable=True)  # Labeled facts with TP/FP/FN status from judge
     final_score = Column(Float, nullable=True)
     schema_overlap_percentage = Column(Float, nullable=True)
     schema_overlap_data = Column(JSON, nullable=True)  # Jaccard, missing fields, extra fields analysis
@@ -92,20 +79,3 @@ class EvaluationResult(Base):
 
     evaluation = relationship("Evaluation", back_populates="results")
     transcript = relationship("Transcript", back_populates="evaluation_results")
-    characteristic_votes = relationship("CharacteristicVote", back_populates="result", cascade="all, delete-orphan")
-
-
-class CharacteristicVote(Base):
-    __tablename__ = "characteristic_votes"
-
-    id = Column(Integer, primary_key=True, index=True)
-    evaluation_result_id = Column(Integer, ForeignKey("evaluation_results.id", ondelete="CASCADE"), nullable=False)
-    characteristic_id = Column(Integer, ForeignKey("characteristics.id", ondelete="CASCADE"), nullable=False)
-    vote = Column(Boolean, nullable=False)
-    reasoning = Column(Text, nullable=True)
-    metrics = Column(JSON, nullable=True)
-    result_data = Column(JSON, nullable=True)  # Full LLM response with all fields
-    created_at = Column(DateTime, default=datetime.utcnow)
-
-    result = relationship("EvaluationResult", back_populates="characteristic_votes")
-    characteristic = relationship("Characteristic", back_populates="votes")

@@ -105,7 +105,8 @@ async def extract_structured_data(
                         "parameters": schema
                     }
                 }
-            ]
+            ],
+            temperature=0
         )
 
         # Extract from function call (same as run.py)
@@ -222,7 +223,8 @@ Be thorough and precise. Cite specific evidence from the transcript."""
                         "parameters": review_schema
                     }
                 }
-            ]
+            ],
+            temperature=0
         )
 
         # Extract from function call
@@ -294,7 +296,8 @@ Produce the FINAL, CORRECTED extraction."""
                         "parameters": schema
                     }
                 }
-            ]
+            ],
+            temperature=0
         )
 
         # Extract from function call
@@ -314,160 +317,176 @@ Produce the FINAL, CORRECTED extraction."""
         raise Exception(f"Second-pass extraction failed: {str(e)}")
 
 
-async def evaluate_characteristic(
-    characteristic_prompt: str,
+async def run_judge(
     transcript: str,
-    extracted_data: dict,
+    predicted_facts: dict,
+    judge_config: dict,
     model: str,
-    schema_json: str = None,
-) -> tuple[bool, str, dict[str, float], dict]:
-    """Evaluate a single characteristic using the judge's model"""
+    gold_facts: dict = None
+) -> dict:
+    """
+    Run the LLM judge to label facts as TP/FP/FN.
+
+    This is the ONLY judge call per evaluation. The LLM:
+    1. Derives expected financialfacts (gold_facts) from the transcript
+    2. Compares them with predicted facts from the extraction
+    3. Labels each fact as TP (matched), FP (hallucinated), or FN (missing)
+    4. Returns structured results with match links
+
+    Metrics (precision, recall, F1) are computed in CODE from these labels,
+    NOT by the LLM.
+
+    Args:
+        transcript: Original conversation text
+        predicted_facts: Facts extracted by the model being evaluated
+        judge_config: UI-driven configuration (entity_types, tolerances, etc.)
+        model: LLM model to use for judging
+        gold_facts: Optional reference facts (if None, judge derives from transcript)
+
+    Returns:
+        JudgeResult dict with gold_facts and predicted_facts arrays, each containing
+        labeled facts with TP/FP/FN status and match links
+    """
     try:
-        evaluation_prompt = f"""{characteristic_prompt}
+        # Build system prompt
+        system_prompt = """You are an expert financial fact extraction evaluator.
+
+Your job is to:
+1. Read the transcript and identify all expected financial facts (gold standard)
+2. Compare expected financial facts with predicted financial facts from the model
+3. Label each fact as:
+   - TP (true positive): Predicted fact correctly matches an expected fact
+   - FP (false positive): Predicted fact has no match in expected facts (hallucination)
+   - FN (false negative): Expected fact has no match in predicted facts (missed)
+
+You must output ONLY a JSON object matching the specified schema. Do NOT compute precision, recall, or other metrics - just label the facts."""
+
+        # Build user prompt with configuration
+        entity_types_str = ", ".join(judge_config.get("entity_types", [])) or "all types"
+        profile = judge_config.get("profile_name", "custom")
+
+        matching_rules = []
+        if judge_config.get("numeric_tolerance_percent", 0) > 0:
+            matching_rules.append(f"- Numeric values within ±{judge_config['numeric_tolerance_percent']}% are considered matching")
+        if judge_config.get("date_granularity"):
+            matching_rules.append(f"- Dates matched at {judge_config['date_granularity']} granularity")
+        if judge_config.get("case_insensitive_strings"):
+            matching_rules.append("- String comparisons are case-insensitive")
+        if judge_config.get("ignore_minor_wording_diffs"):
+            matching_rules.append("- Minor wording differences are ignored (focus on meaning)")
+        if judge_config.get("require_all_fields_match"):
+            matching_rules.append("- ALL fields must match for a TP (strict mode)")
+        if judge_config.get("required_key_fields"):
+            fields_str = ", ".join(judge_config["required_key_fields"])
+            matching_rules.append(f"- These key fields must match: {fields_str}")
+        if not judge_config.get("allow_partial_matches", True):
+            matching_rules.append("- Partial matches do NOT count as TP")
+
+        matching_rules_str = "\n".join(matching_rules) if matching_rules else "- Use standard exact matching"
+
+        extra_instructions = judge_config.get("extra_instructions", "")
+        extra_str = f"\n\nAdditional Instructions:\n{extra_instructions}" if extra_instructions else ""
+
+        user_prompt = f"""Configuration:
+- Profile: {profile}
+- Entity types in scope: {entity_types_str}
+
+Matching Rules:
+{matching_rules_str}{extra_str}
 
 Original Transcript:
 {transcript}
 
-Extracted Data:
-{json.dumps(extracted_data, indent=2)}
+Predicted Facts (from model):
+{json.dumps(predicted_facts, indent=2)}
 
-Based on the above, evaluate whether this test case passes."""
+Task:
+1. Identify all expected facts from the transcript for entity types: {entity_types_str}
+2. Compare each expected fact with predicted facts using the matching rules above
+3. Label each fact:
+   - gold_facts: status = "TP" if matched, "FN" if not found in predictions
+   - predicted_facts: status = "TP" if matched, "FP" if not found in expected
+4. Include match links (matched_ids) between related facts
+5. Mark in_scope = true for entity types in scope, false otherwise
 
-        # Use function calling with schema if provided, otherwise use default schema
-        use_custom_schema = False
-        if schema_json and schema_json.strip():
-            try:
-                schema = json.loads(schema_json)
+Return the structured result."""
 
-                # Validate it's a valid schema object
-                if isinstance(schema, dict) and "type" in schema:
-                    use_custom_schema = True
-            except (json.JSONDecodeError, ValueError):
-                pass
-
-        if use_custom_schema:
-            response = await client.chat.completions.create(
-                model=model,
-                messages=[
-                    {"role": "system", "content": """
-                     Compare the extracted JSON data with the raw transript and evaluate if the test case passes.
-                    """},
-                    {"role": "user", "content": evaluation_prompt},
-                ],
-                response_format={"type": "json_object"},
-                tool_choice="auto",
-                tools=[
-                    {
-                        "type": "function",
-                        "function": {
-                            "name": "evaluation_result",
-                            "description": "Return evaluation result with pass/fail, reasoning and metrics",
-                            "parameters": schema
-                        }
-                    }
-                ],
-            )
-
-            # Extract from function call (same as run.py)
-            result = response.choices[0]
-            print(result.message.tool_calls)
-            if hasattr(result, "message") and hasattr(result.message, "tool_calls"):
-                for tool in result.message.tool_calls:
-                    if tool.function.name == "evaluation_result":
-                        parsed = json.loads(tool.function.arguments)
-                        print('METRICS',parsed.get("metrics", {}))
-                        return (
-                            parsed.get("passes", False),
-                            parsed.get("reasoning", ""),
-                            parsed.get("metrics", {}),
-                            parsed  # Full response
-                        )
-
-            # Fallback: try direct JSON in message content
-            try:
-                parsed = json.loads(result.message.content)
-                print('METRICS',parsed.get("metrics", {}))
-                return (
-                    parsed.get("passes", False),
-                    parsed.get("reasoning", ""),
-                    parsed.get("metrics", {}),
-                    parsed  # Full response
-                )
-            except Exception:
-                raise Exception("Failed to parse evaluation response")
-        else:
-            # Default to simple JSON object format (no schema provided)
-            default_schema = {
-                "type": "object",
-                "properties": {
-                    "passes": {"type": "boolean"},
-                    "reasoning": {"type": "string"},
-                    "numerator": {
-                        "type": "number",
-                        "description": "Number of items that passed or were found"
-                    },
-                    "denominator": {
-                        "type": "number",
-                        "description": "Total number of items evaluated"
-                    },
-                    "metrics": {
+        # Define the output schema
+        judge_schema = {
+            "type": "object",
+            "properties": {
+                "gold_facts": {
+                    "type": "array",
+                    "items": {
                         "type": "object",
-                        "additionalProperties": {"type": "number"},
-                        "description": "Optional detailed metrics (0.0-1.0)"
+                        "properties": {
+                            "id": {"type": "string"},
+                            "fact_type": {"type": "string"},
+                            "fields": {"type": "object"},
+                            "in_scope": {"type": "boolean"},
+                            "matched_ids": {"type": "array", "items": {"type": "string"}},
+                            "status": {"type": "string", "enum": ["TP", "FN"]}
+                        },
+                        "required": ["id", "fact_type", "fields", "in_scope", "matched_ids", "status"]
                     }
                 },
-                "required": ["passes", "reasoning"],
-                "additionalProperties": False
-            }
-
-            response = await client.chat.completions.create(
-                model=model,
-                messages=[
-                    {"role": "system", "content": "You are an expert evaluator."},
-                    {"role": "user", "content": evaluation_prompt},
-                ],
-                response_format={"type": "json_object"},
-                tool_choice="auto",
-                tools=[
-                    {
-                        "type": "function",
-                        "function": {
-                            "name": "evaluation_result",
-                            "description": "Return evaluation result with pass/fail and reasoning",
-                            "parameters": default_schema
-                        }
+                "predicted_facts": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {"type": "string"},
+                            "fact_type": {"type": "string"},
+                            "fields": {"type": "object"},
+                            "in_scope": {"type": "boolean"},
+                            "matched_ids": {"type": "array", "items": {"type": "string"}},
+                            "status": {"type": "string", "enum": ["TP", "FP"]}
+                        },
+                        "required": ["id", "fact_type", "fields", "in_scope", "matched_ids", "status"]
                     }
-                ]
-            )
+                },
+                "notes": {"type": "string"}
+            },
+            "required": ["gold_facts", "predicted_facts"],
+            "additionalProperties": False
+        }
 
-            # Extract from function call (same as run.py)
-            result = response.choices[0]
-            if hasattr(result, "message") and hasattr(result.message, "tool_calls"):
-                for tool in result.message.tool_calls:
-                    if tool.function.name == "evaluation_result":
-                        parsed = json.loads(tool.function.arguments)
-                        return (
-                            parsed.get("passes", False),
-                            parsed.get("reasoning", ""),
-                            parsed.get("metrics", {}),
-                            parsed  # Full response
-                        )
+        response = await client.chat.completions.create(
+            model=model,
+            temperature=0.0,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            response_format={"type": "json_object"},
+            tool_choice="auto",
+            tools=[
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "judge_result",
+                        "description": "Return judge evaluation with labeled facts",
+                        "parameters": judge_schema
+                    }
+                }
+            ]
+        )
 
-            # Fallback: try direct JSON in message content
-            try:
-                parsed = json.loads(result.message.content)
-                print('METRICS',parsed.get("metrics", {}))
-                return (
-                    parsed.get("passes", False),
-                    parsed.get("reasoning", ""),
-                    parsed.get("metrics", {}),
-                    parsed  # Full response
-                )
-            except Exception:
-                raise Exception("Failed to parse evaluation response")
+        # Extract from function call
+        result = response.choices[0]
+        if hasattr(result, "message") and hasattr(result.message, "tool_calls"):
+            for tool in result.message.tool_calls:
+                if tool.function.name == "judge_result":
+                    return json.loads(tool.function.arguments)
+
+        # Fallback: try direct JSON in message content
+        try:
+            return json.loads(result.message.content)
+        except Exception:
+            raise Exception("Failed to parse judge result")
 
     except Exception as e:
-        raise Exception(f"Evaluation failed: {str(e)}")
+        raise Exception(f"Judge evaluation failed: {str(e)}")
 
 
 async def get_ai_assistance(

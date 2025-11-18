@@ -23,30 +23,26 @@ class TranscriptResponse(TranscriptBase):
         from_attributes = True
 
 
-# Characteristic Schemas
-class CharacteristicBase(BaseModel):
-    name: str
-    prompt: str
-    schema_json: Optional[str] = None
-
-
-class CharacteristicCreate(CharacteristicBase):
-    pass
-
-
-class CharacteristicResponse(CharacteristicBase):
-    id: int
-    judge_id: int
-    created_at: datetime
-
-    class Config:
-        from_attributes = True
+# Judge Config Schema
+class JudgeConfig(BaseModel):
+    """Configuration for judge behavior - UI-driven settings"""
+    entity_types: list[str] = []  # Fact types in scope: ["assets", "debts", "income", etc.]
+    profile_name: str = "custom"  # "strict", "lenient", or "custom"
+    numeric_tolerance_percent: float = 0.0  # ±X% tolerance for numeric comparisons
+    date_granularity: str = "day"  # "day", "month", or "year"
+    case_insensitive_strings: bool = False  # Case-insensitive string matching
+    ignore_minor_wording_diffs: bool = False  # Ignore minor wording differences
+    require_all_fields_match: bool = False  # All fields must match exactly
+    required_key_fields: list[str] = []  # Fields that must match
+    allow_partial_matches: bool = True  # Allow partial matches to count as correct
+    extra_instructions: Optional[str] = None  # Optional advanced notes
 
 
 # Judge Schemas
 class JudgeBase(BaseModel):
     name: str
     model: str
+    judge_config: Optional[JudgeConfig] = None
 
 
 class JudgeCreate(JudgeBase):
@@ -56,13 +52,13 @@ class JudgeCreate(JudgeBase):
 class JudgeUpdate(BaseModel):
     name: Optional[str] = None
     model: Optional[str] = None
+    judge_config: Optional[JudgeConfig] = None
 
 
 class JudgeResponse(JudgeBase):
     id: int
     created_at: datetime
     updated_at: datetime
-    characteristics: list[CharacteristicResponse] = []
 
     class Config:
         from_attributes = True
@@ -111,19 +107,6 @@ class EvaluationRunRequest(BaseModel):
     transcript_ids: Optional[list[int]] = None  # If None, run on all transcripts
 
 
-class CharacteristicVoteResponse(BaseModel):
-    id: int
-    characteristic_id: int
-    characteristic_name: str
-    vote: bool
-    reasoning: Optional[str]
-    metrics: Optional[dict[str, Any]] = None  # Can be float or {numerator, denominator}
-    result_data: Optional[dict[str, Any]] = None  # Full LLM response with all fields
-
-    class Config:
-        from_attributes = True
-
-
 class EvaluationResultResponse(BaseModel):
     id: int
     transcript_id: int
@@ -132,9 +115,9 @@ class EvaluationResultResponse(BaseModel):
     initial_extraction: Optional[Any] = None  # First pass (two-pass mode)
     review_data: Optional[dict[str, Any]] = None  # Review findings (two-pass mode)
     final_extraction: Optional[Any] = None  # Second pass (two-pass mode)
+    judge_result: Optional[dict[str, Any]] = None  # Labeled facts with TP/FP/FN status
     final_score: Optional[float]
     schema_overlap_data: Optional[dict[str, Any]] = None  # Jaccard similarity and field analysis
-    characteristic_votes: list[CharacteristicVoteResponse] = []
 
     class Config:
         from_attributes = True
@@ -162,8 +145,6 @@ class LeaderboardEntry(BaseModel):
     evaluation_id: int
     completed_at: datetime
     schema_stability: Optional[float] = None  # Field consistency across transcripts
-    avg_metrics: Optional[dict[str, Any]] = None  # Can be float or {numerator, denominator}
-    characteristic_results: Optional[dict[str, Any]] = None  # Per-characteristic aggregated results
 
 
 class SchemaValidationRequest(BaseModel):
@@ -176,3 +157,33 @@ class SchemaValidationRequest(BaseModel):
 class SchemaValidationResponse(BaseModel):
     valid: bool
     error: Optional[str] = None
+
+
+# Judge Result Schemas
+class LabeledFact(BaseModel):
+    """Individual fact with TP/FP/FN label from judge"""
+    id: str  # Unique identifier for this fact
+    fact_type: str  # Type of fact: "asset", "debt", "income", etc.
+    fields: dict[str, Any]  # Fact data fields
+    in_scope: bool  # Whether this fact type is in scope for evaluation
+    matched_ids: list[str] = []  # IDs of matching facts from the other set
+    status: str  # "TP" (true positive), "FP" (false positive), or "FN" (false negative)
+
+
+class JudgeResult(BaseModel):
+    """Complete judge output with labeled facts"""
+    gold_facts: list[LabeledFact]  # Facts derived from transcript (expected)
+    predicted_facts: list[LabeledFact]  # Facts extracted by the model
+    notes: Optional[str] = None  # Optional notes from judge
+
+
+class ComputedMetrics(BaseModel):
+    """Metrics computed in code from JudgeResult (not by LLM)"""
+    precision: float  # TP / (TP + FP)
+    recall: float  # TP / (TP + FN)
+    f1: float  # 2 * (precision * recall) / (precision + recall)
+    tp_count: int  # True positives
+    fp_count: int  # False positives
+    fn_count: int  # False negatives
+    hallucination_rate: float  # 1 - precision
+    coverage: float  # Same as recall

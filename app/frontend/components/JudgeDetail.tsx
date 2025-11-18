@@ -7,10 +7,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Plus, Trash2, CheckCircle2, XCircle, Trophy } from "lucide-react";
-import CharacteristicForm from "@/components/CharacteristicForm";
+import { Trophy, Settings } from "lucide-react";
 import Leaderboard from "@/components/Leaderboard";
+import { JudgeConfigEditor, JudgeConfig } from "@/components/JudgeConfigEditor";
 
 interface JudgeDetailProps {
   judgeId: number;
@@ -22,7 +21,8 @@ export default function JudgeDetail({
   availableModels,
 }: JudgeDetailProps) {
   const queryClient = useQueryClient();
-  const [showAddCharacteristic, setShowAddCharacteristic] = useState(false);
+  const [configChanged, setConfigChanged] = useState(false);
+  const [tempConfig, setTempConfig] = useState<JudgeConfig | null>(null);
 
   const { data: judge, isLoading } = useQuery({
     queryKey: ["judge", judgeId],
@@ -37,26 +37,31 @@ export default function JudgeDetail({
     refetchInterval: 5000, // Refresh every 5 seconds
   });
 
-  const deleteCharacteristicMutation = useMutation({
-    mutationFn: judgesAPI.deleteCharacteristic,
+  const updateJudgeMutation = useMutation({
+    mutationFn: (config: JudgeConfig) =>
+      judgesAPI.update(judgeId, { judge_config: config }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["judge", judgeId] });
       queryClient.invalidateQueries({ queryKey: ["judges"] });
+      setConfigChanged(false);
+      setTempConfig(null);
     },
   });
 
-  const handleDeleteCharacteristic = (characteristicId: number) => {
-    if (
-      confirm("Are you sure you want to delete this characteristic?")
-    ) {
-      deleteCharacteristicMutation.mutate(characteristicId);
+  const handleConfigChange = (config: JudgeConfig) => {
+    setTempConfig(config);
+    setConfigChanged(true);
+  };
+
+  const handleSaveConfig = () => {
+    if (tempConfig) {
+      updateJudgeMutation.mutate(tempConfig);
     }
   };
 
-  const handleAddSuccess = () => {
-    setShowAddCharacteristic(false);
-    queryClient.invalidateQueries({ queryKey: ["judge", judgeId] });
-    queryClient.invalidateQueries({ queryKey: ["judges"] });
+  const handleCancelConfig = () => {
+    setTempConfig(null);
+    setConfigChanged(false);
   };
 
   if (isLoading) {
@@ -95,18 +100,16 @@ export default function JudgeDetail({
               <CardTitle>{judge.name}</CardTitle>
               <div className="flex items-center gap-2 mt-2">
                 <Badge variant="secondary">{judge.model}</Badge>
-                <Badge variant="outline">
-                  {judge.characteristics?.length || 0} characteristics
-                </Badge>
               </div>
             </div>
           </div>
         </CardHeader>
         <CardContent>
-          <Tabs defaultValue="characteristics">
+          <Tabs defaultValue="config">
             <TabsList>
-              <TabsTrigger value="characteristics">
-                Characteristics ({judge.characteristics?.length || 0})
+              <TabsTrigger value="config">
+                <Settings className="h-4 w-4 mr-1" />
+                Configuration
               </TabsTrigger>
               <TabsTrigger value="leaderboard">
                 <Trophy className="h-4 w-4 mr-1" />
@@ -114,66 +117,26 @@ export default function JudgeDetail({
               </TabsTrigger>
             </TabsList>
 
-            <TabsContent value="characteristics" className="space-y-4 mt-4">
-              <div className="flex items-center justify-between">
-                <h3 className="text-sm font-medium">Evaluation Criteria</h3>
-                <Button
-                  size="sm"
-                  variant={showAddCharacteristic ? "secondary" : "default"}
-                  onClick={() => setShowAddCharacteristic(!showAddCharacteristic)}
-                >
-                  <Plus className="h-4 w-4 mr-1" />
-                  {showAddCharacteristic ? "Cancel" : "Add"}
-                </Button>
-              </div>
-
-              {showAddCharacteristic && (
-                <div className="p-4 border rounded-lg bg-muted/50">
-                  <CharacteristicForm
-                    judgeId={judgeId}
-                    onSuccess={handleAddSuccess}
-                  />
-                </div>
-              )}
-
-              {judge.characteristics && judge.characteristics.length > 0 ? (
-                <ScrollArea className="h-[400px]">
-                  <div className="space-y-3 pr-4">
-                    {judge.characteristics.map((char: any) => (
-                      <div
-                        key={char.id}
-                        className="border rounded-lg p-4 hover:bg-accent/50 transition-colors"
-                      >
-                        <div className="flex items-start justify-between mb-2">
-                          <div className="flex items-center gap-2">
-                            <CheckCircle2 className="h-4 w-4 text-green-500" />
-                            <h4 className="font-medium">{char.name}</h4>
-                          </div>
-                          <Button
-                            variant="ghost"
-                            size="icon"
-                            onClick={() => handleDeleteCharacteristic(char.id)}
-                            className="h-8 w-8 text-destructive hover:text-destructive hover:bg-destructive/10"
-                          >
-                            <Trash2 className="h-4 w-4" />
-                          </Button>
-                        </div>
-                        <p className="text-sm text-muted-foreground whitespace-pre-wrap">
-                          {char.prompt}
-                        </p>
-                      </div>
-                    ))}
+            <TabsContent value="config" className="mt-4">
+              <div className="space-y-4">
+                <JudgeConfigEditor
+                  config={tempConfig || judge.judge_config}
+                  onChange={handleConfigChange}
+                />
+                {configChanged && (
+                  <div className="flex items-center justify-end gap-2 p-4 border-t bg-muted/50">
+                    <Button variant="outline" onClick={handleCancelConfig}>
+                      Cancel
+                    </Button>
+                    <Button
+                      onClick={handleSaveConfig}
+                      disabled={updateJudgeMutation.isPending}
+                    >
+                      {updateJudgeMutation.isPending ? "Saving..." : "Save Configuration"}
+                    </Button>
                   </div>
-                </ScrollArea>
-              ) : (
-                <div className="text-center py-8 text-muted-foreground border rounded-lg">
-                  <XCircle className="mx-auto h-8 w-8 mb-2 opacity-50" />
-                  <p className="text-sm">No characteristics defined</p>
-                  <p className="text-xs mt-1">
-                    Add characteristics to define evaluation criteria
-                  </p>
-                </div>
-              )}
+                )}
+              </div>
             </TabsContent>
 
             <TabsContent value="leaderboard" className="mt-4">

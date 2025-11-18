@@ -4,13 +4,12 @@ from database import AsyncSessionLocal
 from models import (
     Evaluation,
     EvaluationResult,
-    CharacteristicVote,
     Transcript,
     Experiment,
     Judge,
-    Characteristic,
 )
-from services.llm_service import extract_structured_data, evaluate_characteristic, calculate_schema_stability, review_extraction, extract_with_review
+from services.llm_service import extract_structured_data, calculate_schema_stability, review_extraction, extract_with_review, run_judge
+from services.metrics_service import compute_metrics
 from datetime import datetime
 import asyncio
 from concurrent.futures import ProcessPoolExecutor
@@ -39,12 +38,17 @@ async def _async_process_transcript(
     experiment_model: str,
     enable_two_pass: bool,
     judge_model: str,
-    characteristics: list[dict],  # [{id, prompt, schema_json}, ...]
+    judge_config: dict,  # UI-driven judge configuration
 ):
-    """Process a single transcript: extraction and characteristic evaluations
+    """Process a single transcript: extraction and judge evaluation
 
     This function does NOT write to the database - it only processes data
     and returns results for the main process to write.
+
+    New flow:
+    1. Extract facts from transcript
+    2. Run judge ONCE to label facts as TP/FP/FN
+    3. Compute metrics in code from labeled facts
     """
     try:
         # Step 1: Extract structured data (first pass)
@@ -85,30 +89,37 @@ async def _async_process_transcript(
         from services.schema_utils import calculate_field_overlap
         schema_overlap_data = calculate_field_overlap(extracted_data, experiment_schema)
 
-        # Step 2: Evaluate each characteristic
-        votes = []
-        characteristic_votes = []
+        # Step 2: NEW JUDGE FLOW - One LLM call to label facts
+        # Default judge_config if not provided
+        if not judge_config:
+            judge_config = {
+                "entity_types": [],
+                "profile_name": "custom",
+                "numeric_tolerance_percent": 0.0,
+                "date_granularity": "day",
+                "case_insensitive_strings": False,
+                "ignore_minor_wording_diffs": False,
+                "require_all_fields_match": False,
+                "required_key_fields": [],
+                "allow_partial_matches": True,
+                "extra_instructions": None
+            }
 
-        for char in characteristics:
-            vote, reasoning, metrics, result_data = await evaluate_characteristic(
-                char['prompt'],
-                transcript_content,
-                extracted_data,
-                judge_model,
-                char['schema_json'],
-            )
+        # Run judge to label facts (ONE LLM call)
+        judge_result = await run_judge(
+            transcript=transcript_content,
+            predicted_facts=extracted_data,
+            judge_config=judge_config,
+            model=judge_model
+        )
 
-            characteristic_votes.append({
-                'characteristic_id': char['id'],
-                'vote': vote,
-                'reasoning': reasoning,
-                'metrics': metrics,
-                'result_data': result_data,
-            })
-            votes.append(vote)
+        # Step 3: Compute metrics in code (NO LLM)
+        from schemas import JudgeResult
+        judge_result_obj = JudgeResult(**judge_result)
+        computed_metrics = compute_metrics(judge_result_obj)
 
-        # Calculate final score
-        final_score = sum(votes) / len(votes) if votes else 0.0
+        # Use F1 score as overall metric
+        final_score = computed_metrics.f1
 
         return {
             'transcript_id': transcript_id,
@@ -118,7 +129,8 @@ async def _async_process_transcript(
             'review_data': review_data,
             'final_extraction': final_extraction,
             'schema_overlap_data': schema_overlap_data,
-            'characteristic_votes': characteristic_votes,
+            'judge_result': judge_result,
+            'computed_metrics': computed_metrics.dict(),
             'final_score': final_score,
             'success': True,
             'error': None,
@@ -143,7 +155,7 @@ def process_transcript_worker(
     experiment_model: str,
     enable_two_pass: bool,
     judge_model: str,
-    characteristics: list[dict],
+    judge_config: dict,
 ):
     """Sync wrapper that runs async processing in a new event loop
 
@@ -164,7 +176,7 @@ def process_transcript_worker(
                 experiment_model,
                 enable_two_pass,
                 judge_model,
-                characteristics,
+                judge_config,
             )
         )
         return result
@@ -195,19 +207,16 @@ async def run_evaluation(evaluation_id: int, transcript_ids: list[int] = None):
             )
             experiment = result.scalar_one()
 
-            # Get judge with characteristics
+            # Get judge with configuration
             result = await db.execute(
                 select(Judge).where(Judge.id == evaluation.judge_id)
             )
             judge = result.scalar_one()
 
-            result = await db.execute(
-                select(Characteristic).where(Characteristic.judge_id == judge.id)
-            )
-            characteristics = result.scalars().all()
-
-            if not characteristics:
-                raise Exception("Judge has no characteristics defined")
+            # Get judge_config
+            judge_config = judge.judge_config if judge.judge_config else None
+            if not judge_config:
+                raise Exception("Judge has no judge_config defined")
 
             # Get transcripts (all or filtered by IDs)
             if transcript_ids:
@@ -224,16 +233,6 @@ async def run_evaluation(evaluation_id: int, transcript_ids: list[int] = None):
             # Update evaluation status
             evaluation.status = "running"
             await db.commit()
-
-            # Serialize characteristics for workers
-            characteristics_data = [
-                {
-                    'id': char.id,
-                    'prompt': char.prompt,
-                    'schema_json': char.schema_json,
-                }
-                for char in characteristics
-            ]
 
             # Process transcripts in parallel using ProcessPoolExecutor
             max_workers = min(os.cpu_count() or 1, len(transcripts))
@@ -257,7 +256,7 @@ async def run_evaluation(evaluation_id: int, transcript_ids: list[int] = None):
                         experiment.model,
                         experiment.enable_two_pass,
                         judge.model,
-                        characteristics_data,
+                        judge_config,
                     )
                     futures.append(future)
 
@@ -285,7 +284,7 @@ async def run_evaluation(evaluation_id: int, transcript_ids: list[int] = None):
                     # Collect extracted data for stability calculation
                     all_extracted_data.append(result['extracted_data'])
 
-                    # Create evaluation result with two-pass artifacts
+                    # Create evaluation result with judge results and artifacts
                     eval_result = EvaluationResult(
                         evaluation_id=evaluation_id,
                         transcript_id=result['transcript_id'],
@@ -293,24 +292,11 @@ async def run_evaluation(evaluation_id: int, transcript_ids: list[int] = None):
                         initial_extraction=result['initial_extraction'],
                         review_data=result['review_data'],
                         final_extraction=result['final_extraction'],
+                        judge_result=result.get('judge_result'),
                         schema_overlap_data=result.get('schema_overlap_data'),
                         final_score=result['final_score'],
                     )
                     db.add(eval_result)
-                    await db.flush()
-
-                    # Add characteristic votes
-                    for vote_data in result['characteristic_votes']:
-                        char_vote = CharacteristicVote(
-                            evaluation_result_id=eval_result.id,
-                            characteristic_id=vote_data['characteristic_id'],
-                            vote=vote_data['vote'],
-                            reasoning=vote_data['reasoning'],
-                            metrics=vote_data['metrics'],
-                            result_data=vote_data['result_data'],
-                        )
-                        db.add(char_vote)
-
                     await db.commit()
 
                 except Exception as e:

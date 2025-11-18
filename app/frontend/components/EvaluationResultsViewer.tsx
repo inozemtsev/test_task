@@ -101,6 +101,172 @@ export default function EvaluationResultsViewer({
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="space-y-4 pt-2">
+                    {/* Judge Results - TP/FP/FN Facts */}
+                    {result.judge_result && (
+                      <Card className="bg-green-50/50 dark:bg-green-950/20 border-green-200 dark:border-green-800">
+                        <CardHeader className="pb-3">
+                          <CardTitle className="text-sm flex items-center gap-2">
+                            <Brain className="h-4 w-4" />
+                            Judge Evaluation Results
+                          </CardTitle>
+                        </CardHeader>
+                        <CardContent className="space-y-4">
+                          {/* Summary Stats */}
+                          <div className="grid grid-cols-3 gap-4">
+                            <div className="text-center p-3 bg-green-100 dark:bg-green-900/30 rounded-lg">
+                              <div className="text-2xl font-bold text-green-700 dark:text-green-400">
+                                {result.judge_result.predicted_facts?.filter((f: any) => f.status === "TP" && f.in_scope).length || 0}
+                              </div>
+                              <div className="text-xs text-muted-foreground">True Positives</div>
+                            </div>
+                            <div className="text-center p-3 bg-red-100 dark:bg-red-900/30 rounded-lg">
+                              <div className="text-2xl font-bold text-red-700 dark:text-red-400">
+                                {result.judge_result.predicted_facts?.filter((f: any) => f.status === "FP" && f.in_scope).length || 0}
+                              </div>
+                              <div className="text-xs text-muted-foreground">False Positives</div>
+                            </div>
+                            <div className="text-center p-3 bg-amber-100 dark:bg-amber-900/30 rounded-lg">
+                              <div className="text-2xl font-bold text-amber-700 dark:text-amber-400">
+                                {result.judge_result.gold_facts?.filter((f: any) => f.status === "FN" && f.in_scope).length || 0}
+                              </div>
+                              <div className="text-xs text-muted-foreground">False Negatives</div>
+                            </div>
+                          </div>
+
+                          {/* Computed Metrics */}
+                          {(() => {
+                            const tp = result.judge_result.predicted_facts?.filter((f: any) => f.status === "TP" && f.in_scope).length || 0;
+                            const fp = result.judge_result.predicted_facts?.filter((f: any) => f.status === "FP" && f.in_scope).length || 0;
+                            const fn = result.judge_result.gold_facts?.filter((f: any) => f.status === "FN" && f.in_scope).length || 0;
+                            const precision = (tp + fp) > 0 ? tp / (tp + fp) : 0;
+                            const recall = (tp + fn) > 0 ? tp / (tp + fn) : 0;
+                            const f1 = (precision + recall) > 0 ? 2 * (precision * recall) / (precision + recall) : 0;
+
+                            return (
+                              <div className="grid grid-cols-3 gap-4 pt-4 border-t">
+                                <div>
+                                  <div className="text-xs text-muted-foreground mb-1">Precision</div>
+                                  <div className="flex items-center gap-2">
+                                    <Progress value={precision * 100} className="h-2 flex-1" />
+                                    <span className="text-sm font-medium">{(precision * 100).toFixed(1)}%</span>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div className="text-xs text-muted-foreground mb-1">Recall</div>
+                                  <div className="flex items-center gap-2">
+                                    <Progress value={recall * 100} className="h-2 flex-1" />
+                                    <span className="text-sm font-medium">{(recall * 100).toFixed(1)}%</span>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div className="text-xs text-muted-foreground mb-1">F1 Score</div>
+                                  <div className="flex items-center gap-2">
+                                    <Progress value={f1 * 100} className="h-2 flex-1" />
+                                    <span className="text-sm font-medium">{(f1 * 100).toFixed(1)}%</span>
+                                  </div>
+                                </div>
+                              </div>
+                            );
+                          })()}
+
+                          {/* Detailed Facts */}
+                          <Collapsible className="pt-2 border-t">
+                            <CollapsibleTrigger className="flex items-center gap-2 text-sm font-medium hover:underline">
+                              <Info className="h-4 w-4" />
+                              View Labeled Facts
+                            </CollapsibleTrigger>
+                            <CollapsibleContent className="space-y-4 pt-4">
+                              {/* False Positives (Hallucinations) */}
+                              {result.judge_result.predicted_facts?.filter((f: any) => f.status === "FP" && f.in_scope).length > 0 && (
+                                <div>
+                                  <h5 className="text-xs font-medium text-red-600 mb-2 flex items-center gap-1">
+                                    <XCircle className="h-3 w-3" />
+                                    False Positives - Hallucinated Facts
+                                  </h5>
+                                  <div className="space-y-2">
+                                    {result.judge_result.predicted_facts
+                                      .filter((f: any) => f.status === "FP" && f.in_scope)
+                                      .map((fact: any, idx: number) => (
+                                        <div key={idx} className="text-xs p-2 bg-red-50 dark:bg-red-950/20 border border-red-200 dark:border-red-800 rounded">
+                                          <div className="font-medium text-red-700 dark:text-red-400 mb-1">
+                                            {fact.fact_type} #{fact.id}
+                                          </div>
+                                          <pre className="text-xs overflow-auto">
+                                            {JSON.stringify(fact.fields, null, 2)}
+                                          </pre>
+                                        </div>
+                                      ))}
+                                  </div>
+                                </div>
+                              )}
+
+                              {/* False Negatives (Missed Facts) */}
+                              {result.judge_result.gold_facts?.filter((f: any) => f.status === "FN" && f.in_scope).length > 0 && (
+                                <div>
+                                  <h5 className="text-xs font-medium text-amber-600 mb-2 flex items-center gap-1">
+                                    <AlertTriangle className="h-3 w-3" />
+                                    False Negatives - Missed Facts
+                                  </h5>
+                                  <div className="space-y-2">
+                                    {result.judge_result.gold_facts
+                                      .filter((f: any) => f.status === "FN" && f.in_scope)
+                                      .map((fact: any, idx: number) => (
+                                        <div key={idx} className="text-xs p-2 bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800 rounded">
+                                          <div className="font-medium text-amber-700 dark:text-amber-400 mb-1">
+                                            {fact.fact_type} #{fact.id}
+                                          </div>
+                                          <pre className="text-xs overflow-auto">
+                                            {JSON.stringify(fact.fields, null, 2)}
+                                          </pre>
+                                        </div>
+                                      ))}
+                                  </div>
+                                </div>
+                              )}
+
+                              {/* True Positives */}
+                              {result.judge_result.predicted_facts?.filter((f: any) => f.status === "TP" && f.in_scope).length > 0 && (
+                                <div>
+                                  <h5 className="text-xs font-medium text-green-600 mb-2 flex items-center gap-1">
+                                    <CheckCircle2 className="h-3 w-3" />
+                                    True Positives - Correctly Extracted Facts
+                                  </h5>
+                                  <div className="space-y-2">
+                                    {result.judge_result.predicted_facts
+                                      .filter((f: any) => f.status === "TP" && f.in_scope)
+                                      .slice(0, 3)
+                                      .map((fact: any, idx: number) => (
+                                        <div key={idx} className="text-xs p-2 bg-green-50 dark:bg-green-950/20 border border-green-200 dark:border-green-800 rounded">
+                                          <div className="font-medium text-green-700 dark:text-green-400 mb-1">
+                                            {fact.fact_type} #{fact.id}
+                                          </div>
+                                          <pre className="text-xs overflow-auto">
+                                            {JSON.stringify(fact.fields, null, 2)}
+                                          </pre>
+                                        </div>
+                                      ))}
+                                    {result.judge_result.predicted_facts.filter((f: any) => f.status === "TP" && f.in_scope).length > 3 && (
+                                      <p className="text-xs text-muted-foreground italic">
+                                        ... and {result.judge_result.predicted_facts.filter((f: any) => f.status === "TP" && f.in_scope).length - 3} more
+                                      </p>
+                                    )}
+                                  </div>
+                                </div>
+                              )}
+                            </CollapsibleContent>
+                          </Collapsible>
+
+                          {/* Judge Notes */}
+                          {result.judge_result.notes && (
+                            <div className="pt-2 border-t">
+                              <h5 className="text-xs font-medium text-muted-foreground mb-2">Judge Notes:</h5>
+                              <p className="text-xs italic">{result.judge_result.notes}</p>
+                            </div>
+                          )}
+                        </CardContent>
+                      </Card>
+                    )}
+
                     {/* Metrics Overview Card */}
                     {result.schema_overlap_data && (
                       <Card className="bg-muted/30">
@@ -313,199 +479,6 @@ export default function EvaluationResultsViewer({
                         </div>
                       </div>
                     )}
-
-                    {/* Characteristic Votes Section */}
-                    <div>
-                      <h4 className="text-sm font-medium mb-2">
-                        Characteristic Evaluations
-                      </h4>
-                      <div className="space-y-2">
-                        {result.characteristic_votes?.map((vote: any) => (
-                          <Card key={vote.id} className="p-3">
-                            <div className="flex items-start gap-3">
-                              <div className="mt-0.5">
-                                {vote.vote ? (
-                                  <CheckCircle2 className="h-5 w-5 text-green-600" />
-                                ) : (
-                                  <XCircle className="h-5 w-5 text-red-600" />
-                                )}
-                              </div>
-                              <div className="flex-1 space-y-1">
-                                <div className="flex items-center justify-between">
-                                  <p className="font-medium text-sm">
-                                    {vote.characteristic_name}
-                                  </p>
-                                  <Badge variant={vote.vote ? "default" : "destructive"}>
-                                    {vote.vote ? "Pass" : "Fail"}
-                                  </Badge>
-                                </div>
-
-                                {/* Display all fields from result_data (if available, otherwise fall back to individual fields) */}
-                                {vote.result_data && Object.keys(vote.result_data).length > 0 ? (
-                                  <div className="space-y-2 mt-2">
-                                    {/* Handle top-level numerator/denominator first */}
-                                    {vote.result_data.numerator !== undefined && vote.result_data.denominator !== undefined && (
-                                      <div className="text-sm">
-                                        <span className="text-muted-foreground font-medium">Score:</span>
-                                        <span className="ml-2 font-medium">
-                                          {vote.result_data.numerator}/{vote.result_data.denominator}
-                                          {vote.result_data.denominator > 0 && (
-                                            <span className="text-muted-foreground ml-1">
-                                              ({((vote.result_data.numerator / vote.result_data.denominator) * 100).toFixed(1)}%)
-                                            </span>
-                                          )}
-                                        </span>
-                                      </div>
-                                    )}
-
-                                    {Object.entries(vote.result_data).map(([key, value]: [string, any]) => {
-                                      // Skip passes (already shown as badge)
-                                      if (key === 'passes') return null;
-
-                                      // Skip numerator/denominator (already shown above)
-                                      if (key === 'numerator' || key === 'denominator') return null;
-
-                                      // Handle reasoning specially (multiline text)
-                                      if (key === 'reasoning' && typeof value === 'string') {
-                                        return (
-                                          <div key={key}>
-                                            <span className="text-xs font-medium text-muted-foreground">Reasoning:</span>
-                                            <p className="text-sm text-muted-foreground whitespace-pre-wrap mt-1">
-                                              {value}
-                                            </p>
-                                          </div>
-                                        );
-                                      }
-
-                                      // Handle metrics object specially
-                                      if (key === 'metrics' && typeof value === 'object' && value !== null) {
-                                        return (
-                                          <div key={key} className="space-y-1">
-                                            <span className="text-xs font-medium text-muted-foreground">Metrics:</span>
-                                            <div className="flex flex-wrap gap-2">
-                                              {Object.entries(value).map(([metricKey, metricValue]: [string, any]) => {
-                                                if (typeof metricValue === 'object' && metricValue.numerator !== undefined && metricValue.denominator !== undefined) {
-                                                  const percentage = metricValue.denominator > 0
-                                                    ? (metricValue.numerator / metricValue.denominator * 100).toFixed(1)
-                                                    : '0.0';
-                                                  return (
-                                                    <div key={metricKey} className="text-xs">
-                                                      <span className="text-muted-foreground">{metricKey}:</span>
-                                                      <span className="font-medium ml-1">
-                                                        {metricValue.numerator}/{metricValue.denominator} ({percentage}%)
-                                                      </span>
-                                                    </div>
-                                                  );
-                                                } else if (typeof metricValue === 'number') {
-                                                  return (
-                                                    <div key={metricKey} className="text-xs">
-                                                      <span className="text-muted-foreground">{metricKey}:</span>
-                                                      <span className="font-medium ml-1">
-                                                        {(metricValue * 100).toFixed(0)}%
-                                                      </span>
-                                                    </div>
-                                                  );
-                                                }
-                                                return null;
-                                              })}
-                                            </div>
-                                          </div>
-                                        );
-                                      }
-
-                                      // Handle arrays
-                                      if (Array.isArray(value)) {
-                                        return (
-                                          <div key={key} className="text-xs">
-                                            <span className="text-muted-foreground font-medium">{key}:</span>
-                                            <ul className="list-disc list-inside ml-2 mt-1">
-                                              {value.map((item, idx) => (
-                                                <li key={idx} className="text-muted-foreground">
-                                                  {typeof item === 'object' ? JSON.stringify(item) : String(item)}
-                                                </li>
-                                              ))}
-                                            </ul>
-                                          </div>
-                                        );
-                                      }
-
-                                      // Handle objects (non-metrics)
-                                      if (typeof value === 'object' && value !== null) {
-                                        return (
-                                          <div key={key} className="text-xs">
-                                            <span className="text-muted-foreground font-medium">{key}:</span>
-                                            <pre className="text-xs bg-muted p-2 rounded mt-1 whitespace-pre-wrap">
-                                              {JSON.stringify(value, null, 2)}
-                                            </pre>
-                                          </div>
-                                        );
-                                      }
-
-                                      // Handle primitives (string, number, boolean)
-                                      return (
-                                        <div key={key} className="text-xs">
-                                          <span className="text-muted-foreground font-medium">{key}:</span>
-                                          <span className="ml-1">
-                                            {String(value)}
-                                          </span>
-                                        </div>
-                                      );
-                                    })}
-                                  </div>
-                                ) : (
-                                  /* Fallback to individual fields for old evaluations */
-                                  <div className="space-y-2 mt-2">
-                                    {/* Reasoning */}
-                                    {vote.reasoning && (
-                                      <div>
-                                        <span className="text-xs font-medium text-muted-foreground">Reasoning:</span>
-                                        <p className="text-sm text-muted-foreground whitespace-pre-wrap mt-1">
-                                          {vote.reasoning}
-                                        </p>
-                                      </div>
-                                    )}
-
-                                    {/* Metrics */}
-                                    {vote.metrics && Object.keys(vote.metrics).length > 0 && (
-                                      <div className="space-y-1">
-                                        <span className="text-xs font-medium text-muted-foreground">Metrics:</span>
-                                        <div className="flex flex-wrap gap-2">
-                                          {Object.entries(vote.metrics).map(([key, value]: [string, any]) => {
-                                            if (typeof value === 'object' && value.numerator !== undefined && value.denominator !== undefined) {
-                                              const percentage = value.denominator > 0
-                                                ? (value.numerator / value.denominator * 100).toFixed(1)
-                                                : '0.0';
-                                              return (
-                                                <div key={key} className="text-xs">
-                                                  <span className="text-muted-foreground">{key}:</span>
-                                                  <span className="font-medium ml-1">
-                                                    {value.numerator}/{value.denominator} ({percentage}%)
-                                                  </span>
-                                                </div>
-                                              );
-                                            } else if (typeof value === 'number') {
-                                              return (
-                                                <div key={key} className="text-xs">
-                                                  <span className="text-muted-foreground">{key}:</span>
-                                                  <span className="font-medium ml-1">
-                                                    {(value * 100).toFixed(0)}%
-                                                  </span>
-                                                </div>
-                                              );
-                                            }
-                                            return null;
-                                          })}
-                                        </div>
-                                      </div>
-                                    )}
-                                  </div>
-                                )}
-                              </div>
-                            </div>
-                          </Card>
-                        ))}
-                      </div>
-                    </div>
                   </div>
                 </AccordionContent>
               </AccordionItem>
