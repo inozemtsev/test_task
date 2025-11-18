@@ -74,6 +74,7 @@ async def get_evaluation(evaluation_id: int, db: AsyncSession = Depends(get_db))
         status=evaluation.status,
         started_at=evaluation.started_at,
         completed_at=evaluation.completed_at,
+        schema_stability=evaluation.schema_stability,
         results=[],
     )
 
@@ -88,6 +89,8 @@ async def get_evaluation(evaluation_id: int, db: AsyncSession = Depends(get_db))
                     characteristic_name=vote.characteristic.name,
                     vote=vote.vote,
                     reasoning=vote.reasoning,
+                    metrics=vote.metrics,
+                    result_data=vote.result_data,
                 )
             )
 
@@ -96,6 +99,10 @@ async def get_evaluation(evaluation_id: int, db: AsyncSession = Depends(get_db))
             transcript_id=result.transcript_id,
             transcript_name=result.transcript.name,
             extracted_data=result.extracted_data,
+            initial_extraction=result.initial_extraction,
+            review_data=result.review_data,
+            final_extraction=result.final_extraction,
+            schema_overlap_data=result.schema_overlap_data,
             final_score=result.final_score,
             characteristic_votes=vote_responses,
         )

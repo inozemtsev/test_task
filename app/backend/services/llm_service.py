@@ -1,6 +1,7 @@
 import json
 from openai import AsyncOpenAI
 from config import settings
+from services.schema_utils import flatten_dict_keys, get_schema_fields, calculate_field_overlap
 
 client = AsyncOpenAI(api_key=settings.openai_api_key)
 
@@ -27,46 +28,6 @@ async def get_available_models():
             "gpt-4-turbo",
             "gpt-3.5-turbo",
         ]
-
-
-def flatten_dict_keys(d: dict | list, parent_key: str = '', sep: str = '.') -> set:
-    """
-    Recursively flatten a nested dictionary (and lists) and return all key paths.
-
-    Lists are marked by [] in the path, so all list items at the same level share the same path.
-
-    Example:
-        {"a": {"b": 1, "c": {"d": 2}, "e": [ {"x":5}, {"x":6} ]}} 
-        -> {"a.b", "a.c.d", "a.e[].x"}
-    """
-    keys = set()
-    if isinstance(d, dict):
-        for k, v in d.items():
-            new_key = f"{parent_key}{sep}{k}" if parent_key else k
-            if isinstance(v, dict) and v:
-                keys.update(flatten_dict_keys(v, new_key, sep=sep))
-            elif isinstance(v, list):
-                list_key = f"{new_key}[]"
-                # Always add the list path
-                if not v:
-                    # Empty list: only mark the list itself
-                    keys.add(list_key)
-                else:
-                    for item in v:
-                        # For each item, pass the list_key as parent
-                        keys.update(flatten_dict_keys(item, list_key, sep=sep))
-            else:
-                # Only add the path if it's a leaf (not a non-empty dict or list)
-                keys.add(new_key)
-    elif isinstance(d, list):
-        # Top-level list, rare: treat each item as root
-        for item in d:
-            keys.update(flatten_dict_keys(item, parent_key + '[]' if parent_key else '[]', sep=sep))
-    else:
-        # Base case: leaf value, just parent_key
-        if parent_key:
-            keys.add(parent_key)
-    return keys
 
 
 def calculate_schema_stability(all_extracted_data: list[dict]) -> float:

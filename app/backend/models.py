@@ -87,6 +87,7 @@ class EvaluationResult(Base):
     final_extraction = Column(JSON, nullable=True)  # Second pass extraction (two-pass mode)
     final_score = Column(Float, nullable=True)
     schema_overlap_percentage = Column(Float, nullable=True)
+    schema_overlap_data = Column(JSON, nullable=True)  # Jaccard, missing fields, extra fields analysis
     created_at = Column(DateTime, default=datetime.utcnow)
 
     evaluation = relationship("Evaluation", back_populates="results")

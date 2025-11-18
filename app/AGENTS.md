@@ -862,3 +862,477 @@ Standardized review schema improves consistency:
 - Two-pass doubles LLM API costs
 - Schema stability requires at least 2 transcripts to be meaningful
 - Review findings quality depends on LLM model capability
+
+---
+
+# Session 4: Schema Overlap Analysis & Code Organization
+
+## Features Implemented
+
+### 1. Comprehensive Schema Overlap Analysis with Jaccard Similarity
+**Description:** Implemented proper JSON Schema field extraction and comparison to measure how well extractions match their expected schemas, showing both completeness and hallucination.
+
+**Conceptual Foundation:**
+- **Two-way comparison**: Fields in schema but not extracted (missing) AND fields extracted but not in schema (extra/hallucinated)
+- **Jaccard similarity**: `|intersection| / |union|` = percentage of field alignment
+- **Leaf-only comparison**: Only terminal fields compared (not container objects/arrays)
+- **JSON Schema compliance**: Handles `$ref`, `allOf`, `anyOf`, nested objects, and arrays
+
+**Backend Changes:**
+- **`services/schema_utils.py`** (NEW FILE):
+  - `flatten_dict_keys()` - Recursively flattens nested data into leaf field paths
+    - Handles nested dictionaries
+    - Arrays marked with `[]` notation (e.g., `clients[].client_id`)
+    - Merges paths for all items in array
+  - `get_schema_fields()` - Extracts all leaf field paths from JSON Schema
+    - **$ref resolution**: Resolves references like `#/definitions/Client`
+    - **allOf handling**: Merges all schemas and extracts combined fields
+    - **anyOf handling**:
+      - Complex types: Unions all alternatives
+      - Simple types: Treats as single leaf field
+    - **Nested structures**: Recursively processes objects and arrays
+    - **Circular reference protection**: Tracks visited objects
+  - `calculate_field_overlap()` - Computes comprehensive overlap analysis
+    - Returns: `jaccard`, `missing_fields`, `extra_fields`, `intersection_count`, `union_count`
+    - Missing fields: In schema, not in extraction (incomplete)
+    - Extra fields: In extraction, not in schema (hallucination)
+
+- **`models.py`**:
+  - Added `schema_overlap_data` (JSON) column to `EvaluationResult`
+  - Stores complete overlap analysis per transcript
+
+- **`schemas.py`**:
+  - Added `schema_overlap_data: Optional[dict[str, Any]]` to `EvaluationResultResponse`
+  - Schema includes: `jaccard`, `missing_fields`, `extra_fields`, `intersection_count`, `union_count`
+
+- **`services/llm_service.py`**:
+  - Removed schema functions (moved to `schema_utils.py`)
+  - Added import: `from services.schema_utils import ...`
+  - Kept only LLM interaction functions
+
+- **`services/evaluation_service.py`**:
+  - Integrated overlap calculation after extraction:
+    ```python
+    from services.schema_utils import calculate_field_overlap
+    schema_overlap_data = calculate_field_overlap(extracted_data, experiment_schema)
+    ```
+  - Stores `schema_overlap_data` in `EvaluationResult`
+
+- **`routers/evaluations.py`**:
+  - Fixed missing fields in `get_evaluation()` response:
+    - Added `schema_overlap_data` to `EvaluationResultResponse` construction
+    - Added `initial_extraction`, `review_data`, `final_extraction` (two-pass fields)
+    - Added `metrics` and `result_data` to `CharacteristicVoteResponse`
+    - Added `schema_stability` to `EvaluationResponse`
+
+**Frontend Changes:**
+- **`components/EvaluationResultsViewer.tsx`**:
+  - Added Metrics Overview Card at top of each transcript accordion:
+    - **Jaccard similarity badge** with percentage (e.g., "41.0%")
+    - **Progress bar** showing similarity visually
+    - **Field counts**: "16 / 39 matching fields" (intersection / union)
+    - **Top-level numerator/denominator** display if present
+  - Added collapsible **Field Analysis** section:
+    - **Missing Fields** (amber styling with `TrendingDown` icon)
+      - Shows fields defined in schema but not found in extraction
+      - Indicates incomplete extraction
+    - **Extra Fields** (blue styling with `TrendingUp` icon)
+      - Shows fields extracted but not in schema
+      - Indicates potential hallucination or over-extraction
+    - **Perfect match message** when no issues
+  - Added imports: `Collapsible`, `TrendingUp`, `TrendingDown` icons
+
+**Example Output:**
+```
+Schema Similarity (Jaccard): 41.0%
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+16 / 39 matching fields
+
+Field Analysis (22 missing, 1 extra)
+├─ Missing Fields (22)
+│  ├─ assets[].static.account_number.call_time
+│  ├─ assets[].static.account_number.citation
+│  └─ ... (fields in schema, not extracted)
+│
+└─ Extra Fields (1)
+   └─ assets[].static.account_number
+      (extracted as string, schema expects object)
+```
+
+**Database Migration:**
+```sql
+ALTER TABLE evaluation_results ADD COLUMN schema_overlap_data TEXT;
+```
+
+### 2. Code Organization - Schema Utilities Separation
+**Description:** Extracted schema-related functions into dedicated module to reduce `llm_service.py` size and improve maintainability.
+
+**Changes:**
+- **Created**: `/home/igor/test_task/app/backend/services/schema_utils.py` (330 lines)
+  - Focused module for JSON Schema processing
+  - Comprehensive docstrings
+  - Self-contained schema analysis logic
+
+- **Modified**: `/home/igor/test_task/app/backend/services/llm_service.py`
+  - Removed 254 lines of schema code
+  - Added import: `from services.schema_utils import flatten_dict_keys, get_schema_fields, calculate_field_overlap`
+  - Now focused only on LLM API interactions
+
+- **Updated imports in**:
+  - `services/evaluation_service.py` (line 85)
+
+**Benefits:**
+- Better separation of concerns (schema parsing vs LLM calls)
+- Easier to test schema functions independently
+- Improved code readability
+- Clearer module boundaries
+
+## Bugs Fixed
+
+### 1. Incorrect Schema Field Extraction
+**Problem:** Schema overlap showing 0.0% Jaccard similarity with incorrect missing/extra fields.
+
+**Issues Identified:**
+1. **Not comparing leaf fields**: Extracting container fields like `assets` and `clients` instead of terminal fields like `assets[].asset_id`
+2. **Not resolving $ref**: JSON Schema `$ref` references to definitions not being resolved
+3. **Not handling allOf**: Schema inheritance via `allOf` not being merged properly
+4. **Not handling anyOf with simple types**: Fields like `{"anyOf": [{"type": "string"}, {"type": "null"}]}` not extracted as leaves
+
+**Root Cause:**
+Original `get_schema_fields()` implementation:
+- Only traversed `properties` directly
+- Didn't resolve `$ref` pointers
+- Processed `allOf` items individually instead of merging first
+- Recursed on `anyOf` simple types without adding them as leaves
+
+**Fix:**
+Rewrote `get_schema_fields()` with comprehensive JSON Schema support:
+
+**$ref Resolution:**
+```python
+def resolve_ref(ref_path: str, root_schema: dict) -> dict:
+    """Resolve '#/definitions/Client' to actual schema"""
+    parts = ref_path[2:].split("/")  # ['definitions', 'Client']
+    current = root_schema
+    for part in parts:
+        current = current[part]
+    return current
+```
+
+**allOf Handling:**
+```python
+# BEFORE: Process each item separately (incomplete)
+for item in obj["allOf"]:
+    fields.update(extract_fields(item, parent_key))
+
+# AFTER: Merge all items first, then process once
+resolved_items = []
+for item in obj["allOf"]:
+    if "$ref" in item:
+        resolved_items.append(resolve_ref(item["$ref"], schema))
+    else:
+        resolved_items.append(item)
+
+merged = merge_schemas(resolved_items)  # Combine all properties
+fields.update(extract_fields(merged, parent_key))
+```
+
+**anyOf with Simple Types:**
+```python
+# Detect if anyOf contains only simple types (no nested structures)
+has_complex = any(
+    "properties" in item or "allOf" in item or "$ref" in item
+    for item in obj["anyOf"]
+    if item.get("type") != "null"
+)
+
+if has_complex:
+    # Process each alternative
+    for item in obj["anyOf"]:
+        fields.update(extract_fields(item, parent_key))
+else:
+    # Simple types - treat parent_key as leaf
+    if parent_key:
+        fields.add(parent_key)
+```
+
+**Result:**
+- **Before**: 18 fields extracted, 0.0% similarity
+- **After**: 38 fields extracted, 41.03% similarity
+- All FactValue metadata fields now correctly extracted (call_time, recorded_at, is_estimate, unit, value_as_of_date)
+
+### 2. Missing Response Fields in Evaluation API
+**Problem:** Frontend not receiving `schema_overlap_data`, two-pass fields, or metrics data despite being in database.
+
+**Root Cause:**
+`/api/evaluations/{evaluation_id}` endpoint manually constructing response objects but omitting new fields:
+```python
+# BEFORE: Missing many fields
+eval_result_response = EvaluationResultResponse(
+    id=result.id,
+    transcript_id=result.transcript_id,
+    transcript_name=result.transcript.name,
+    extracted_data=result.extracted_data,
+    final_score=result.final_score,
+    characteristic_votes=vote_responses,
+)
+```
+
+**Fix:**
+Added all missing fields from response schemas:
+```python
+# AFTER: Complete field mapping
+eval_result_response = EvaluationResultResponse(
+    id=result.id,
+    transcript_id=result.transcript_id,
+    transcript_name=result.transcript.name,
+    extracted_data=result.extracted_data,
+    initial_extraction=result.initial_extraction,        # Added
+    review_data=result.review_data,                      # Added
+    final_extraction=result.final_extraction,            # Added
+    schema_overlap_data=result.schema_overlap_data,      # Added
+    final_score=result.final_score,
+    characteristic_votes=vote_responses,
+)
+
+# Also fixed votes
+vote_responses.append(
+    CharacteristicVoteResponse(
+        id=vote.id,
+        characteristic_id=vote.characteristic_id,
+        characteristic_name=vote.characteristic.name,
+        vote=vote.vote,
+        reasoning=vote.reasoning,
+        metrics=vote.metrics,              # Added
+        result_data=vote.result_data,      # Added
+    )
+)
+
+# And evaluation-level fields
+evaluation_response = EvaluationResponse(
+    id=evaluation.id,
+    experiment_id=evaluation.experiment_id,
+    judge_id=evaluation.judge_id,
+    status=evaluation.status,
+    started_at=evaluation.started_at,
+    completed_at=evaluation.completed_at,
+    schema_stability=evaluation.schema_stability,  # Added
+    results=[],
+)
+```
+
+**Impact:**
+- Metrics Overview Card now displays (was invisible before)
+- Two-pass review data now shows (was stored but not returned)
+- Characteristic metrics now visible (was NULL in API response)
+
+## API Changes
+
+### Modified Endpoints
+- `GET /api/evaluations/{evaluation_id}` - Now returns complete response with all fields:
+  - `schema_overlap_data` in results
+  - `initial_extraction`, `review_data`, `final_extraction` in results
+  - `metrics`, `result_data` in characteristic votes
+  - `schema_stability` at evaluation level
+
+### Response Schema Changes
+All changes are additions (backwards compatible):
+- `EvaluationResultResponse`: Added `schema_overlap_data`
+- `CharacteristicVoteResponse`: Now includes `metrics` and `result_data`
+- `EvaluationResponse`: Now includes `schema_stability`
+
+## Database Schema Changes
+
+### New Columns
+- `evaluation_results.schema_overlap_data` (TEXT/JSON, nullable) - Stores Jaccard analysis
+
+### Data Format
+```json
+{
+  "jaccard": 0.4103,
+  "missing_fields": [
+    "assets[].static.account_number.call_time",
+    "assets[].static.account_number.citation",
+    ...
+  ],
+  "extra_fields": [
+    "assets[].static.account_number"
+  ],
+  "intersection_count": 16,
+  "union_count": 39
+}
+```
+
+## Key Patterns Established
+
+### 1. JSON Schema Leaf Extraction
+Only compare terminal fields (leaves), not containers:
+```python
+# CORRECT: Leaf fields
+'clients[].client_id'
+'clients[].role_in_case'
+'assets[].static.asset_type.value'
+
+# WRONG: Container fields
+'clients'
+'assets'
+'assets[].static'
+```
+
+### 2. JSON Schema $ref Resolution
+Always resolve references before processing:
+```python
+if "$ref" in schema:
+    referenced_schema = resolve_ref(schema["$ref"], root)
+    return extract_fields(referenced_schema, parent_key)
+```
+
+### 3. allOf Merging Strategy
+Merge all schemas first, then extract once:
+```python
+# Merge all properties from all allOf items
+merged = {}
+for item in allOf_items:
+    if "$ref" in item:
+        item = resolve_ref(item["$ref"], root)
+    merged["properties"].update(item.get("properties", {}))
+
+# Process merged schema
+extract_fields(merged, parent_key)
+```
+
+### 4. anyOf Simple vs Complex Detection
+Check for nested structures to decide processing strategy:
+```python
+has_complex = any(
+    "properties" in item or "allOf" in item or "$ref" in item
+    for item in anyOf_items
+)
+
+if has_complex:
+    # Union all alternatives
+    for item in anyOf_items:
+        fields.update(extract_fields(item, parent_key))
+else:
+    # Simple type, treat as leaf
+    fields.add(parent_key)
+```
+
+### 5. Jaccard Similarity Calculation
+Standard set-based similarity metric:
+```python
+intersection = extracted_fields & schema_fields
+union = extracted_fields | schema_fields
+jaccard = len(intersection) / len(union) if union else 0.0
+
+missing = schema_fields - extracted_fields  # Incompleteness
+extra = extracted_fields - schema_fields     # Hallucination
+```
+
+### 6. Code Organization
+Separate concerns into focused modules:
+- **schema_utils.py**: JSON Schema processing, field extraction, comparison
+- **llm_service.py**: LLM API calls, prompt management, response parsing
+- **evaluation_service.py**: Orchestration, multiprocessing, database writes
+
+## Frontend Dependencies
+- Existing shadcn/ui components used: `Collapsible`, `CollapsibleContent`, `CollapsibleTrigger`, `Progress`, `Badge`
+- New icons: `TrendingUp`, `TrendingDown`, `Info` from lucide-react
+
+## Testing Recommendations
+
+### Schema Field Extraction
+1. **Test $ref resolution**:
+   - Create schema with `#/definitions/` references
+   - Verify all referenced fields extracted
+   - Test nested references (ref pointing to schema with refs)
+
+2. **Test allOf merging**:
+   - Create schema with `SnapshotValue` extending `FactValue`
+   - Verify all parent + child properties extracted
+   - Test multiple inheritance levels
+
+3. **Test anyOf handling**:
+   - Simple types: `{"anyOf": [{"type": "string"}, {"type": "null"}]}`
+   - Complex types: `{"anyOf": [{"$ref": "#/def/A"}, {"$ref": "#/def/B"}]}`
+   - Verify correct leaf identification
+
+4. **Test array handling**:
+   - Arrays of primitives: `items: {type: "string"}`
+   - Arrays of objects: `items: {$ref: "#/definitions/Item"}`
+   - Nested arrays: `items: {type: "array", items: {...}}`
+
+### Schema Overlap Analysis
+1. **Test Jaccard calculation**:
+   - Perfect match (100%): All schema fields extracted, no extras
+   - Partial match (50%): Half fields missing or extra
+   - No match (0%): Completely different field sets
+
+2. **Test missing fields detection**:
+   - Schema requires `call_time`, extraction doesn't have it
+   - Verify shown in "Missing Fields" section
+   - Check amber styling applied
+
+3. **Test extra fields detection**:
+   - Extraction has `custom_field` not in schema
+   - Verify shown in "Extra Fields" section
+   - Check blue styling applied
+
+4. **Test nested structures**:
+   - Deeply nested objects (3+ levels)
+   - Arrays of objects with nested properties
+   - Verify correct path notation (e.g., `a.b[].c.d`)
+
+### API Response Completeness
+1. Run evaluation, then call `GET /api/evaluations/{id}`
+2. Verify response includes:
+   - `schema_overlap_data` with all 5 keys
+   - `initial_extraction`, `review_data`, `final_extraction` (if two-pass)
+   - `metrics` and `result_data` in characteristic votes
+   - `schema_stability` at evaluation level
+3. Check frontend displays all data correctly
+
+### Code Organization
+1. Import test: `from services.schema_utils import calculate_field_overlap`
+2. Verify no circular imports
+3. Check all existing imports still work
+4. Run full evaluation to test integration
+
+## Migration Notes
+- **Database migration required**: Add `schema_overlap_data` column
+- **Deployment order**: Deploy backend first, then restart
+- **Existing evaluations**: Will have NULL `schema_overlap_data` (need re-run to populate)
+- **No breaking changes**: All additions are optional fields
+
+## Performance Considerations
+- Schema field extraction is CPU-bound (parsing and traversal)
+- Cached at extraction time (not recomputed on display)
+- Negligible overhead compared to LLM API calls
+- Set operations (intersection/union) are O(n) where n = field count
+
+## Known Issues & Limitations
+
+### Schema Extraction
+- **No conditional logic**: `if/then/else` schemas not supported
+- **No patternProperties**: Dynamic property names not extracted
+- **No recursive schemas**: Self-referencing schemas may cause issues (has circular ref protection)
+- **No validation**: Doesn't verify data types, only field presence
+
+### Overlap Analysis
+- **Field presence only**: Doesn't validate field values or types
+- **No semantic understanding**: `account_number` (string) vs `account_number.value` (object property) treated as different
+- **No fuzzy matching**: Exact path match required
+- **Array structure**: All array items collapsed to single path (e.g., `items[].id` for all items)
+
+### UI Display
+- **No pagination**: Long field lists may be unwieldy
+- **No search/filter**: Can't search for specific fields in analysis
+- **No comparison view**: Can't compare overlap across multiple experiments
+- **Static after calculation**: Overlap not recalculated if schema updated
+
+## Next Steps / Recommendations
+1. **Schema validation endpoint**: Add `/api/schemas/validate` to check schema before saving
+2. **Overlap recalculation**: Add button to recalculate overlap for existing evaluations
+3. **Field-level extraction quality**: Track which specific fields LLM struggles with
+4. **Schema diff view**: Show what changed between schema versions
+5. **Overlap trends**: Chart showing overlap improvement over experiments

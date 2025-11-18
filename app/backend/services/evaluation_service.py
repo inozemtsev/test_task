@@ -81,6 +81,10 @@ async def _async_process_transcript(
 
             extracted_data = final_extraction
 
+        # Calculate schema overlap analysis
+        from services.schema_utils import calculate_field_overlap
+        schema_overlap_data = calculate_field_overlap(extracted_data, experiment_schema)
+
         # Step 2: Evaluate each characteristic
         votes = []
         characteristic_votes = []
@@ -113,6 +117,7 @@ async def _async_process_transcript(
             'initial_extraction': initial_extraction,
             'review_data': review_data,
             'final_extraction': final_extraction,
+            'schema_overlap_data': schema_overlap_data,
             'characteristic_votes': characteristic_votes,
             'final_score': final_score,
             'success': True,
@@ -288,6 +293,7 @@ async def run_evaluation(evaluation_id: int, transcript_ids: list[int] = None):
                         initial_extraction=result['initial_extraction'],
                         review_data=result['review_data'],
                         final_extraction=result['final_extraction'],
+                        schema_overlap_data=result.get('schema_overlap_data'),
                         final_score=result['final_score'],
                     )
                     db.add(eval_result)

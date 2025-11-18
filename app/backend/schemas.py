@@ -133,6 +133,7 @@ class EvaluationResultResponse(BaseModel):
     review_data: Optional[dict[str, Any]] = None  # Review findings (two-pass mode)
     final_extraction: Optional[Any] = None  # Second pass (two-pass mode)
     final_score: Optional[float]
+    schema_overlap_data: Optional[dict[str, Any]] = None  # Jaccard similarity and field analysis
     characteristic_votes: list[CharacteristicVoteResponse] = []
 
     class Config:

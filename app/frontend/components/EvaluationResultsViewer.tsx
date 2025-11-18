@@ -12,7 +12,12 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { CheckCircle2, XCircle, FileText, Brain, AlertTriangle, Info } from "lucide-react";
+import { CheckCircle2, XCircle, FileText, Brain, AlertTriangle, Info, TrendingUp, TrendingDown } from "lucide-react";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
 
 interface EvaluationResultsViewerProps {
   evaluationId: number;
@@ -96,6 +101,105 @@ export default function EvaluationResultsViewer({
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="space-y-4 pt-2">
+                    {/* Metrics Overview Card */}
+                    {result.schema_overlap_data && (
+                      <Card className="bg-muted/30">
+                        <CardContent className="pt-4">
+                          <div className="space-y-3">
+                            {/* Jaccard Similarity */}
+                            <div>
+                              <div className="flex items-center justify-between mb-2">
+                                <span className="text-sm font-medium">Schema Similarity (Jaccard)</span>
+                                <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200 dark:bg-blue-950/20 dark:text-blue-400 dark:border-blue-800">
+                                  {(result.schema_overlap_data.jaccard * 100).toFixed(1)}%
+                                </Badge>
+                              </div>
+                              <Progress value={result.schema_overlap_data.jaccard * 100} className="h-2" />
+                              <p className="text-xs text-muted-foreground mt-1">
+                                {result.schema_overlap_data.intersection_count} / {result.schema_overlap_data.union_count} matching fields
+                              </p>
+                            </div>
+
+                            {/* Top-level Metrics (if present) */}
+                            {result.extracted_data?.numerator !== undefined && result.extracted_data?.denominator !== undefined && (
+                              <div className="pt-2 border-t">
+                                <span className="text-sm font-medium text-muted-foreground">Extraction Metrics: </span>
+                                <span className="text-sm font-semibold">
+                                  {result.extracted_data.numerator} / {result.extracted_data.denominator}
+                                  {result.extracted_data.denominator > 0 && (
+                                    <span className="text-muted-foreground ml-1">
+                                      ({((result.extracted_data.numerator / result.extracted_data.denominator) * 100).toFixed(1)}%)
+                                    </span>
+                                  )}
+                                </span>
+                              </div>
+                            )}
+
+                            {/* Field Analysis Collapsible */}
+                            <Collapsible className="pt-2 border-t">
+                              <CollapsibleTrigger className="flex items-center gap-2 text-sm font-medium hover:underline">
+                                <Info className="h-4 w-4" />
+                                Field Analysis
+                                <span className="text-xs text-muted-foreground">
+                                  ({result.schema_overlap_data.missing_fields?.length || 0} missing, {result.schema_overlap_data.extra_fields?.length || 0} extra)
+                                </span>
+                              </CollapsibleTrigger>
+                              <CollapsibleContent className="space-y-3 pt-3">
+                                {/* Missing Fields */}
+                                {result.schema_overlap_data.missing_fields && result.schema_overlap_data.missing_fields.length > 0 && (
+                                  <div>
+                                    <h5 className="text-xs font-medium text-amber-600 mb-2 flex items-center gap-1">
+                                      <TrendingDown className="h-3 w-3" />
+                                      Missing Fields ({result.schema_overlap_data.missing_fields.length})
+                                    </h5>
+                                    <div className="text-xs space-y-1">
+                                      {result.schema_overlap_data.missing_fields.map((field: string, idx: number) => (
+                                        <div key={idx} className="font-mono bg-amber-50 dark:bg-amber-950/20 px-2 py-1 rounded border border-amber-200 dark:border-amber-800 text-amber-700 dark:text-amber-400">
+                                          {field}
+                                        </div>
+                                      ))}
+                                    </div>
+                                    <p className="text-xs text-muted-foreground mt-1 italic">
+                                      Fields defined in schema but not found in extraction
+                                    </p>
+                                  </div>
+                                )}
+
+                                {/* Extra Fields */}
+                                {result.schema_overlap_data.extra_fields && result.schema_overlap_data.extra_fields.length > 0 && (
+                                  <div>
+                                    <h5 className="text-xs font-medium text-blue-600 mb-2 flex items-center gap-1">
+                                      <TrendingUp className="h-3 w-3" />
+                                      Extra Fields ({result.schema_overlap_data.extra_fields.length})
+                                    </h5>
+                                    <div className="text-xs space-y-1">
+                                      {result.schema_overlap_data.extra_fields.map((field: string, idx: number) => (
+                                        <div key={idx} className="font-mono bg-blue-50 dark:bg-blue-950/20 px-2 py-1 rounded border border-blue-200 dark:border-blue-800 text-blue-700 dark:text-blue-400">
+                                          {field}
+                                        </div>
+                                      ))}
+                                    </div>
+                                    <p className="text-xs text-muted-foreground mt-1 italic">
+                                      Fields found in extraction but not in schema
+                                    </p>
+                                  </div>
+                                )}
+
+                                {/* No issues */}
+                                {(!result.schema_overlap_data.missing_fields || result.schema_overlap_data.missing_fields.length === 0) &&
+                                 (!result.schema_overlap_data.extra_fields || result.schema_overlap_data.extra_fields.length === 0) && (
+                                  <div className="text-sm text-muted-foreground flex items-center gap-2">
+                                    <CheckCircle2 className="h-4 w-4 text-green-600" />
+                                    Perfect field match - all schema fields extracted, no extra fields
+                                  </div>
+                                )}
+                              </CollapsibleContent>
+                            </Collapsible>
+                          </div>
+                        </CardContent>
+                      </Card>
+                    )}
+
                     {/* Extracted Data Section */}
                     <div>
                       <h4 className="text-sm font-medium mb-2 flex items-center gap-2">
