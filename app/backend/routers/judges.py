@@ -96,41 +96,80 @@ async def delete_judge(judge_id: int, db: AsyncSession = Depends(get_db)):
 
 @router.get("/{judge_id}/leaderboard", response_model=list[LeaderboardEntry])
 async def get_judge_leaderboard(judge_id: int, db: AsyncSession = Depends(get_db)):
-    """Get leaderboard for a judge (experiments ranked by score)"""
-    # Query to get average scores for each experiment evaluated by this judge
+    """Get leaderboard for a judge (experiments ranked by score) with global metrics"""
+    # Get all completed evaluations for this judge
     query = (
-        select(
-            Evaluation.id.label("evaluation_id"),
-            Evaluation.judge_id,
-            Evaluation.experiment_id,
-            Experiment.name.label("experiment_name"),
-            Evaluation.completed_at,
-            Evaluation.schema_stability,
-            func.avg(EvaluationResult.final_score).label("avg_score"),
-            func.count(EvaluationResult.id).label("num_transcripts"),
-        )
-        .join(Experiment, Evaluation.experiment_id == Experiment.id)
-        .join(EvaluationResult, Evaluation.id == EvaluationResult.evaluation_id)
+        select(Evaluation)
         .where(Evaluation.judge_id == judge_id)
         .where(Evaluation.status == "completed")
-        .group_by(Evaluation.id)
-        .order_by(func.avg(EvaluationResult.final_score).desc())
     )
-
     result = await db.execute(query)
-    rows = result.all()
+    evaluations = result.scalars().all()
 
     leaderboard = []
-    for row in rows:
+    for evaluation in evaluations:
+        # Get experiment name
+        exp_result = await db.execute(
+            select(Experiment).where(Experiment.id == evaluation.experiment_id)
+        )
+        experiment = exp_result.scalar_one()
+
+        # Get all results for this evaluation
+        results_query = await db.execute(
+            select(EvaluationResult)
+            .where(EvaluationResult.evaluation_id == evaluation.id)
+        )
+        results = results_query.scalars().all()
+
+        if not results:
+            continue
+
+        # Calculate global metrics by aggregating TP/FP/FN across all transcripts
+        total_tp = 0
+        total_fp = 0
+        total_fn = 0
+        avg_scores = []
+
+        for result in results:
+            if result.judge_result:
+                # Count TP/FP/FN from in-scope facts only
+                tp = len([f for f in result.judge_result.get('predicted_facts', [])
+                         if f.get('status') == 'TP' and f.get('in_scope', True)])
+                fp = len([f for f in result.judge_result.get('predicted_facts', [])
+                         if f.get('status') == 'FP' and f.get('in_scope', True)])
+                fn = len([f for f in result.judge_result.get('gold_facts', [])
+                         if f.get('status') == 'FN' and f.get('in_scope', True)])
+
+                total_tp += tp
+                total_fp += fp
+                total_fn += fn
+
+            if result.final_score is not None:
+                avg_scores.append(result.final_score)
+
+        # Calculate global metrics
+        global_precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0.0
+        global_recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0.0
+        global_f1 = (2 * global_precision * global_recall) / (global_precision + global_recall) if (global_precision + global_recall) > 0 else 0.0
+
         entry = LeaderboardEntry(
-            experiment_id=row.experiment_id,
-            experiment_name=row.experiment_name,
-            avg_score=float(row.avg_score) if row.avg_score else 0.0,
-            num_transcripts=row.num_transcripts,
-            evaluation_id=row.evaluation_id,
-            completed_at=row.completed_at,
-            schema_stability=row.schema_stability,
+            experiment_id=evaluation.experiment_id,
+            experiment_name=experiment.name,
+            avg_score=sum(avg_scores) / len(avg_scores) if avg_scores else 0.0,
+            num_transcripts=len(results),
+            evaluation_id=evaluation.id,
+            completed_at=evaluation.completed_at,
+            schema_stability=evaluation.schema_stability,
+            global_precision=global_precision,
+            global_recall=global_recall,
+            global_f1=global_f1,
+            total_tp=total_tp,
+            total_fp=total_fp,
+            total_fn=total_fn,
         )
         leaderboard.append(entry)
+
+    # Sort by global F1 (descending)
+    leaderboard.sort(key=lambda x: x.global_f1, reverse=True)
 
     return leaderboard

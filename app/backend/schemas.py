@@ -145,6 +145,13 @@ class LeaderboardEntry(BaseModel):
     evaluation_id: int
     completed_at: datetime
     schema_stability: Optional[float] = None  # Field consistency across transcripts
+    # Global metrics (aggregated across all transcripts)
+    global_precision: Optional[float] = None
+    global_recall: Optional[float] = None
+    global_f1: Optional[float] = None
+    total_tp: Optional[int] = None
+    total_fp: Optional[int] = None
+    total_fn: Optional[int] = None
 
 
 class SchemaValidationRequest(BaseModel):
