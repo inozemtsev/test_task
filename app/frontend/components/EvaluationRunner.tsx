@@ -136,8 +136,7 @@ export default function EvaluationRunner({
           <SelectContent>
             {judges.map((judge) => (
               <SelectItem key={judge.id} value={judge.id.toString()}>
-                {judge.name} ({judge.characteristics?.length || 0}{" "}
-                characteristics)
+                {judge.name}
               </SelectItem>
             ))}
           </SelectContent>

@@ -22,7 +22,6 @@ interface LeaderboardEntry {
   completed_at: string;
   schema_stability?: number;
   avg_metrics?: Record<string, any>;
-  characteristic_results?: Record<string, any>;
 }
 
 interface LeaderboardProps {
@@ -116,46 +115,6 @@ export default function Leaderboard({
                       {(entry.schema_stability * 100).toFixed(1)}%
                     </div>
                     <div className="text-xs text-muted-foreground">schema stability</div>
-                  </div>
-                )}
-
-                {/* Characteristic Results */}
-                {entry.characteristic_results && Object.keys(entry.characteristic_results).length > 0 && (
-                  <div className="flex flex-wrap gap-2 max-w-md">
-                    {Object.entries(entry.characteristic_results).map(([charName, charData]: [string, any]) => (
-                      <div key={charName} className="flex flex-col gap-1">
-                        <div className="text-xs font-medium text-muted-foreground">{charName}</div>
-                        <div className="flex flex-wrap gap-1">
-                          {/* Show pass/fail if no metrics */}
-                          {(!charData.metrics || Object.keys(charData.metrics).length === 0) && (
-                            <Badge variant={charData.passes > charData.fails ? "default" : "destructive"} className="text-xs">
-                              {charData.passes}/{charData.total}
-                            </Badge>
-                          )}
-
-                          {/* Show metrics */}
-                          {charData.metrics && Object.entries(charData.metrics).map(([metricKey, metricValue]: [string, any]) => {
-                            if (typeof metricValue === 'object' && metricValue.numerator !== undefined && metricValue.denominator !== undefined) {
-                              const percentage = metricValue.denominator > 0
-                                ? (metricValue.numerator / metricValue.denominator * 100).toFixed(1)
-                                : '0.0';
-                              return (
-                                <Badge key={metricKey} variant="outline" className="text-xs">
-                                  {metricKey}: {metricValue.numerator}/{metricValue.denominator} ({percentage}%)
-                                </Badge>
-                              );
-                            } else if (typeof metricValue === 'number') {
-                              return (
-                                <Badge key={metricKey} variant="outline" className="text-xs">
-                                  {metricKey}: {(metricValue * 100).toFixed(0)}%
-                                </Badge>
-                              );
-                            }
-                            return null;
-                          })}
-                        </div>
-                      </div>
-                    ))}
                   </div>
                 )}
 

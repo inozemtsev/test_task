@@ -409,6 +409,33 @@ Task:
 4. Include match links (matched_ids) between related facts
 5. Mark in_scope = true for entity types in scope, false otherwise
 
+IMPORTANT: Each fact must have a "fields" object containing all the fact's data.
+
+Example output format:
+{{
+  "gold_facts": [
+    {{
+      "id": "g1",
+      "fact_type": "asset",
+      "fields": {{"type": "home", "value": 425000, "address": "123 Main St"}},
+      "in_scope": true,
+      "matched_ids": ["p1"],
+      "status": "TP"
+    }}
+  ],
+  "predicted_facts": [
+    {{
+      "id": "p1",
+      "fact_type": "asset",
+      "fields": {{"type": "home", "value": 425000, "address": "123 Main St"}},
+      "in_scope": true,
+      "matched_ids": ["g1"],
+      "status": "TP"
+    }}
+  ],
+  "notes": "Optional evaluation notes"
+}}
+
 Return the structured result."""
 
         # Define the output schema
@@ -417,35 +444,37 @@ Return the structured result."""
             "properties": {
                 "gold_facts": {
                     "type": "array",
+                    "description": "Expected facts derived from the transcript (gold standard)",
                     "items": {
                         "type": "object",
                         "properties": {
-                            "id": {"type": "string"},
-                            "fact_type": {"type": "string"},
-                            "fields": {"type": "object"},
-                            "in_scope": {"type": "boolean"},
-                            "matched_ids": {"type": "array", "items": {"type": "string"}},
-                            "status": {"type": "string", "enum": ["TP", "FN"]}
+                            "id": {"type": "string", "description": "Unique identifier for this gold fact (e.g., 'g1', 'g2')"},
+                            "fact_type": {"type": "string", "description": "Type of fact (e.g., 'asset', 'debt', 'income', 'client')"},
+                            "fields": {"type": "object", "description": "Object containing all the fact's data fields (e.g., {\"type\": \"home\", \"value\": 425000})"},
+                            "in_scope": {"type": "boolean", "description": "Whether this fact type is in scope for evaluation"},
+                            "matched_ids": {"type": "array", "items": {"type": "string"}, "description": "IDs of predicted facts that match this gold fact"},
+                            "status": {"type": "string", "enum": ["TP", "FN"], "description": "TP if matched with a predicted fact, FN if missed"}
                         },
                         "required": ["id", "fact_type", "fields", "in_scope", "matched_ids", "status"]
                     }
                 },
                 "predicted_facts": {
                     "type": "array",
+                    "description": "Facts extracted by the model being evaluated",
                     "items": {
                         "type": "object",
                         "properties": {
-                            "id": {"type": "string"},
-                            "fact_type": {"type": "string"},
-                            "fields": {"type": "object"},
-                            "in_scope": {"type": "boolean"},
-                            "matched_ids": {"type": "array", "items": {"type": "string"}},
-                            "status": {"type": "string", "enum": ["TP", "FP"]}
+                            "id": {"type": "string", "description": "Unique identifier for this predicted fact (e.g., 'p1', 'p2')"},
+                            "fact_type": {"type": "string", "description": "Type of fact (e.g., 'asset', 'debt', 'income', 'client')"},
+                            "fields": {"type": "object", "description": "Object containing all the fact's data fields (e.g., {\"type\": \"home\", \"value\": 425000})"},
+                            "in_scope": {"type": "boolean", "description": "Whether this fact type is in scope for evaluation"},
+                            "matched_ids": {"type": "array", "items": {"type": "string"}, "description": "IDs of gold facts that match this predicted fact"},
+                            "status": {"type": "string", "enum": ["TP", "FP"], "description": "TP if matched with a gold fact, FP if hallucinated"}
                         },
                         "required": ["id", "fact_type", "fields", "in_scope", "matched_ids", "status"]
                     }
                 },
-                "notes": {"type": "string"}
+                "notes": {"type": "string", "description": "Optional evaluation notes or observations"}
             },
             "required": ["gold_facts", "predicted_facts"],
             "additionalProperties": False

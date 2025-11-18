@@ -85,10 +85,6 @@ export default function JudgeForm({
           Error: {(createMutation.error as Error).message}
         </p>
       )}
-
-      <div className="text-sm text-muted-foreground mt-4">
-        <p>After creating the judge, you can add characteristics to define evaluation criteria.</p>
-      </div>
     </form>
   );
 }
