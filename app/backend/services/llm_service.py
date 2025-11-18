@@ -29,75 +29,44 @@ async def get_available_models():
         ]
 
 
-def flatten_dict_keys(d: dict, parent_key: str = '', sep: str = '.') -> set:
+def flatten_dict_keys(d: dict | list, parent_key: str = '', sep: str = '.') -> set:
     """
-    Recursively flatten a nested dictionary and return all key paths.
+    Recursively flatten a nested dictionary (and lists) and return all key paths.
+
+    Lists are marked by [] in the path, so all list items at the same level share the same path.
 
     Example:
-        {"a": {"b": 1, "c": {"d": 2}}} -> {"a.b", "a.c.d"}
+        {"a": {"b": 1, "c": {"d": 2}, "e": [ {"x":5}, {"x":6} ]}} 
+        -> {"a.b", "a.c.d", "a.e[].x"}
     """
     keys = set()
-    for k, v in d.items():
-        new_key = f"{parent_key}{sep}{k}" if parent_key else k
-        keys.add(new_key)
-        if isinstance(v, dict):
-            keys.update(flatten_dict_keys(v, new_key, sep=sep))
+    if isinstance(d, dict):
+        for k, v in d.items():
+            new_key = f"{parent_key}{sep}{k}" if parent_key else k
+            if isinstance(v, dict) and v:
+                keys.update(flatten_dict_keys(v, new_key, sep=sep))
+            elif isinstance(v, list):
+                list_key = f"{new_key}[]"
+                # Always add the list path
+                if not v:
+                    # Empty list: only mark the list itself
+                    keys.add(list_key)
+                else:
+                    for item in v:
+                        # For each item, pass the list_key as parent
+                        keys.update(flatten_dict_keys(item, list_key, sep=sep))
+            else:
+                # Only add the path if it's a leaf (not a non-empty dict or list)
+                keys.add(new_key)
+    elif isinstance(d, list):
+        # Top-level list, rare: treat each item as root
+        for item in d:
+            keys.update(flatten_dict_keys(item, parent_key + '[]' if parent_key else '[]', sep=sep))
+    else:
+        # Base case: leaf value, just parent_key
+        if parent_key:
+            keys.add(parent_key)
     return keys
-
-
-def get_schema_fields(schema: dict, parent_key: str = '', sep: str = '.') -> set:
-    """
-    Extract all field paths from a JSON schema.
-    Handles nested properties, arrays, etc.
-    """
-    fields = set()
-
-    if "properties" in schema:
-        for prop_name, prop_schema in schema["properties"].items():
-            new_key = f"{parent_key}{sep}{prop_name}" if parent_key else prop_name
-            fields.add(new_key)
-
-            # Recursively handle nested objects
-            if isinstance(prop_schema, dict):
-                if prop_schema.get("type") == "object" and "properties" in prop_schema:
-                    fields.update(get_schema_fields(prop_schema, new_key, sep=sep))
-                elif prop_schema.get("type") == "array" and "items" in prop_schema:
-                    items = prop_schema["items"]
-                    if isinstance(items, dict) and items.get("type") == "object":
-                        fields.update(get_schema_fields(items, new_key, sep=sep))
-
-    return fields
-
-
-def calculate_schema_overlap(extracted_data: dict, schema_json: str) -> float:
-    """
-    Calculate schema stability - the percentage of schema fields present in extracted data.
-
-    Returns:
-        float: Percentage between 0.0 and 1.0
-    """
-    try:
-        schema = json.loads(schema_json)
-
-        # Get all fields defined in schema
-        schema_fields = get_schema_fields(schema)
-
-        if not schema_fields:
-            # If schema has no fields, return 1.0 (100%)
-            return 1.0
-
-        # Get all fields present in extracted data
-        extracted_fields = flatten_dict_keys(extracted_data)
-
-        # Calculate overlap
-        present_fields = schema_fields.intersection(extracted_fields)
-        overlap_percentage = len(present_fields) / len(schema_fields)
-
-        return overlap_percentage
-
-    except Exception as e:
-        print(f"Error calculating schema stability: {e}")
-        return 0.0
 
 
 def calculate_schema_stability(all_extracted_data: list[dict]) -> float:

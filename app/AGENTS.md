@@ -474,3 +474,391 @@ await db.commit()
 - Leaderboard aggregation can be slow with many transcripts
 - No UI for configuring which metrics to display on leaderboard
 - Numerator/denominator assumes all values in a metric are the same type (all objects or all floats)
+
+---
+
+# Session 3: Performance Optimization & Two-Pass Extraction
+
+## Features Implemented
+
+### 1. Parallel Transcript Processing with Multiprocessing
+**Description:** Implemented multiprocessing to parallelize transcript evaluation, enabling ~N× speedup where N = CPU cores.
+
+**Architecture:**
+- **Worker processes**: Each transcript is processed completely (extraction + characteristic evaluations) on a dedicated CPU core
+- **Result collection**: Workers return serialized results to main process
+- **Database writes**: Main process handles all SQLite writes sequentially (avoids concurrent write issues)
+
+**Backend Changes:**
+- **`services/evaluation_service.py`**:
+  - Added `_async_process_transcript()` - Async function that processes one transcript without DB operations
+    - Performs extraction (with optional two-pass)
+    - Evaluates all characteristics
+    - Returns complete results as serializable dict
+  - Added `process_transcript_worker()` - Sync wrapper that creates event loop for worker process
+  - Modified `run_evaluation()` to use `ProcessPoolExecutor`:
+    - Worker pool size: `min(cpu_count, num_transcripts)`
+    - Submits all transcript jobs in parallel
+    - Collects results using `asyncio.as_completed()`
+    - Writes all results to DB sequentially after executor closes
+    - Real-time progress tracking as results complete
+
+**Key Implementation Details:**
+```python
+# Process transcripts in parallel
+max_workers = min(os.cpu_count() or 1, len(transcripts))
+with ProcessPoolExecutor(max_workers=max_workers) as executor:
+    futures = [
+        loop.run_in_executor(executor, process_transcript_worker, ...)
+        for transcript in transcripts
+    ]
+    # Collect results as they complete
+    for future in asyncio.as_completed(futures):
+        result = await future
+        all_results.append(result)
+
+# Write to DB after executor closed
+for result in all_results:
+    # Create EvaluationResult and CharacteristicVote records
+```
+
+**Benefits:**
+- ~N× speedup (parallelizes slow LLM API calls)
+- SQLite-safe (sequential database writes)
+- Better error isolation (worker crash doesn't affect others)
+- Real-time progress updates
+
+### 2. Two-Pass Extraction with Review Step
+**Description:** Optional feature that adds a review step between initial extraction and final output, improving extraction quality.
+
+**Extraction Flow:**
+1. **First Pass**: Standard structured data extraction
+2. **Review**: LLM analyzes transcript + extraction, identifies missing or hallucinated items
+3. **Second Pass**: Re-extracts with review feedback to produce refined output
+
+**Backend Changes:**
+- **`models.py`**:
+  - Added `enable_two_pass` (BOOLEAN) to `Experiment` model
+  - Added three new columns to `EvaluationResult`:
+    - `initial_extraction` (TEXT/JSON) - first pass output
+    - `review_data` (TEXT/JSON) - review findings
+    - `final_extraction` (TEXT/JSON) - second pass output
+
+- **`schemas.py`**:
+  - Added `enable_two_pass: bool = False` to `ExperimentBase`
+  - Added `enable_two_pass: Optional[bool] = None` to `ExperimentUpdate`
+
+- **`services/llm_service.py`**:
+  - Implemented `review_extraction()`:
+    - Takes transcript, initial extraction, and schema
+    - Returns standardized review with: `missing_items`, `hallucinated_items`, `other_issues`
+    - Uses fixed default review prompt for consistency
+  - Implemented `extract_with_review()`:
+    - Takes all parameters from first pass + review data
+    - Re-extracts with review context
+    - Returns refined extraction
+
+- **`services/evaluation_service.py`**:
+  - Integrated two-pass logic in `_async_process_transcript()`:
+    - Checks `experiment.enable_two_pass` flag
+    - Stores all three artifacts (initial, review, final)
+    - Uses final extraction for characteristic evaluation
+
+- **`routers/experiments.py`**:
+  - Added `enable_two_pass` field handling in create and update endpoints
+
+**Frontend Changes:**
+- **`lib/api.ts`**: Added `enable_two_pass?: boolean` to experiment types
+- **`components/ExperimentForm.tsx`**: Added two-pass toggle with explanation
+- **`components/ExperimentEditForm.tsx`**: Added two-pass toggle
+- **`components/ExperimentDetail.tsx`**: Shows badge when two-pass enabled
+- **`components/EvaluationResultsViewer.tsx`**: Added comprehensive review findings display:
+  - Summary section
+  - Missing items (amber styling)
+  - Hallucinated items (red styling)
+  - Other issues (blue styling)
+
+**Database Migration:**
+```sql
+ALTER TABLE experiments ADD COLUMN enable_two_pass INTEGER DEFAULT 0;
+ALTER TABLE evaluation_results ADD COLUMN initial_extraction TEXT;
+ALTER TABLE evaluation_results ADD COLUMN review_data TEXT;
+ALTER TABLE evaluation_results ADD COLUMN final_extraction TEXT;
+```
+
+### 3. Schema Stability Metric (Renamed from Schema Coverage)
+**Description:** Changed per-transcript schema coverage to per-evaluation schema stability, measuring consistency of extracted fields across all transcripts.
+
+**Conceptual Change:**
+- **OLD**: Per-transcript metric = (fields in extraction / schema fields), averaged
+- **NEW**: Per-evaluation metric = (common fields in ALL transcripts / total unique fields across ALL transcripts)
+
+**Example:**
+```
+Transcript 1: {name, age, city}
+Transcript 2: {name, age, country}
+Transcript 3: {name, age, city}
+
+Common fields: {name, age} = 2
+Total unique: {name, age, city, country} = 4
+Stability: 2/4 = 50%
+```
+
+**Backend Changes:**
+- **`models.py`**:
+  - Removed `schema_overlap_percentage` from `EvaluationResult` (per-transcript)
+  - Added `schema_stability` (FLOAT) to `Evaluation` model (per-evaluation)
+
+- **`schemas.py`**:
+  - Removed `schema_overlap_percentage` from `EvaluationResultResponse`
+  - Added `schema_stability: Optional[float]` to `EvaluationResponse`
+  - Updated `LeaderboardEntry.avg_schema_overlap` → `schema_stability`
+
+- **`services/llm_service.py`**:
+  - `calculate_schema_stability()` now works correctly:
+    - Flattens extracted data from all transcripts
+    - Calculates intersection (common fields) and union (total unique fields)
+    - Returns stability ratio
+  - `flatten_dict_keys()` properly handles:
+    - Nested dictionaries
+    - Arrays (marked with `[]` notation)
+    - Primitive values in arrays
+  - Removed unused `calculate_schema_overlap()` and `get_schema_fields()` functions
+  - Removed debug print statements
+
+- **`services/evaluation_service.py`**:
+  - Collects `all_extracted_data` from all transcripts
+  - Calculates `schema_stability` once after all processing complete
+  - Stores on `evaluation` object
+
+- **`routers/judges.py` & `routers/experiments.py`**:
+  - Updated leaderboard queries to include `Evaluation.schema_stability`
+  - Direct value access (no longer averaging per-transcript values)
+
+**Frontend Changes:**
+- **`components/Leaderboard.tsx`**: Changed display from `avg_schema_overlap` to `schema_stability`
+- **`components/EvaluationResultsViewer.tsx`**: Removed per-result stability, added overall stability badge
+
+**Database Migration:**
+```sql
+ALTER TABLE evaluations ADD COLUMN schema_stability REAL;
+```
+
+### 4. Default Schema Enhancement
+**Description:** Moved numerator/denominator fields to top level of default evaluation schema alongside passes and reasoning.
+
+**Schema Structure:**
+```json
+{
+  "type": "object",
+  "properties": {
+    "passes": {"type": "boolean"},
+    "numerator": {"type": "number"},
+    "denominator": {"type": "number"},
+    "reasoning": {"type": "string"},
+    "metrics": {"type": "object"}
+  },
+  "required": ["passes", "reasoning"]
+}
+```
+
+**Backend Changes:**
+- **`services/llm_service.py`**: Updated default schema in `evaluate_characteristic()`
+
+**Frontend Changes:**
+- **`components/EvaluationResultsViewer.tsx`**: Added display for top-level numerator/denominator
+
+## Bugs Fixed
+
+### 1. SQLAlchemy Transaction State Error (Background Task + DB Session)
+**Problem:** `IllegalStateChangeError: Method 'close()' can't be called here; method '_connection_for_bind()' is already in progress`
+
+**Root Cause:**
+- `run_evaluation()` called as background task via `asyncio.create_task()`
+- Received database session from request's dependency injection
+- When request returned, `get_db()` tried to close session
+- But background task still using session → transaction state conflict
+
+**Fix:**
+- **`services/evaluation_service.py`**:
+  - Removed `db: AsyncSession` parameter from `run_evaluation()`
+  - Added `from database import AsyncSessionLocal`
+  - Wrapped function body in `async with AsyncSessionLocal() as db:`
+  - Background task now creates its own independent session
+
+- **`routers/evaluations.py`**:
+  - Changed: `asyncio.create_task(run_evaluation(evaluation.id, db, ...))`
+  - To: `asyncio.create_task(run_evaluation(evaluation.id, ...))`
+  - No longer passes request's session to background task
+
+**Result:** Clean separation of session lifecycles - no conflicts
+
+### 2. ProcessPoolExecutor Transaction Conflicts
+**Problem:** Same `IllegalStateChangeError` even after implementing multiprocessing
+
+**Root Cause:**
+- Database commits happening inside `ProcessPoolExecutor` context
+- While `asyncio.as_completed()` awaiting futures
+- Created conflicting transaction states
+
+**Fix:**
+- **`services/evaluation_service.py`**:
+  - Separated result collection from database writes:
+    1. Collect all results into memory (inside executor context)
+    2. Exit executor context cleanly
+    3. Write all results to database sequentially (outside executor context)
+  - Added progress message: "Writing results to database..."
+
+**Result:** Clean separation of parallel processing and database operations
+
+### 3. Missing Two-Pass Toggle in Edit Form
+**Problem:** Two-pass toggle not visible when editing experiments
+
+**Fix:** Added identical toggle UI to `ExperimentEditForm.tsx`
+
+### 4. enable_two_pass Not Persisting on Update
+**Problem:** Two-pass setting not saved when clicking "Save Changes"
+
+**Fix:**
+- **`routers/experiments.py`**: Added field handling in `update_experiment()`:
+```python
+if experiment_data.enable_two_pass is not None:
+    experiment.enable_two_pass = experiment_data.enable_two_pass
+```
+
+## API Changes
+
+### Modified Endpoints
+- `POST /api/evaluations/run` - No longer requires `db` parameter (handled internally)
+- `PUT /api/experiments/{id}` - Now handles `enable_two_pass` field
+- `GET /api/judges/{judge_id}/leaderboard` - Returns `schema_stability` instead of `avg_schema_overlap`
+- `GET /api/experiments/{experiment_id}/leaderboard` - Returns `schema_stability` instead of `avg_schema_overlap`
+
+### Response Schema Changes
+- `EvaluationResponse`: Added `schema_stability: Optional[float]`
+- `LeaderboardEntry`: Changed `avg_schema_overlap` → `schema_stability`
+- `EvaluationResultResponse`: Removed `schema_overlap_percentage`
+
+## Database Schema Changes
+
+### New Columns
+1. `experiments.enable_two_pass` (INTEGER/BOOLEAN, default 0)
+2. `evaluations.schema_stability` (REAL, nullable)
+3. `evaluation_results.initial_extraction` (TEXT/JSON, nullable)
+4. `evaluation_results.review_data` (TEXT/JSON, nullable)
+5. `evaluation_results.final_extraction` (TEXT/JSON, nullable)
+
+### Removed Columns
+- `evaluation_results.schema_overlap_percentage` (replaced with evaluation-level stability)
+
+## Key Patterns Established
+
+### 1. Background Task Session Management
+Background tasks must create their own database sessions:
+```python
+async def background_task(task_id: int):
+    async with AsyncSessionLocal() as db:
+        # Do work with db
+        await db.commit()
+
+# In endpoint
+asyncio.create_task(background_task(id))  # Don't pass request's db session!
+```
+
+### 2. Multiprocessing with AsyncIO
+Pattern for parallel processing with async operations:
+```python
+def worker(args):
+    """Sync entry point for ProcessPoolExecutor"""
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    try:
+        return loop.run_until_complete(async_worker(args))
+    finally:
+        loop.close()
+
+async def async_worker(args):
+    """Actual async work"""
+    return await do_async_stuff(args)
+```
+
+### 3. SQLite-Safe Parallel Processing
+When using multiprocessing with SQLite:
+1. Workers do computation (no DB access)
+2. Workers return serialized results
+3. Main process writes all results sequentially
+4. Avoids concurrent write issues entirely
+
+### 4. Schema Stability Calculation
+Measure field consistency across extractions:
+```python
+field_sets = [flatten_dict_keys(data) for data in all_extracted_data]
+common = set.intersection(*field_sets)
+total_unique = set.union(*field_sets)
+stability = len(common) / len(total_unique)
+```
+
+### 5. Two-Pass Extraction Pattern
+Standardized review schema improves consistency:
+```python
+{
+  "missing_items": ["list of items not found"],
+  "hallucinated_items": ["list of items incorrectly added"],
+  "other_issues": ["list of other problems"]
+}
+```
+
+## Performance Improvements
+- **~N× speedup** for evaluations where N = CPU cores
+- Parallelizes slow LLM API calls (the bottleneck)
+- Database writes remain sequential (fast, not the bottleneck)
+- Example: 8-core machine can process 8 transcripts simultaneously
+
+## Testing Recommendations
+
+### Multiprocessing
+1. Run evaluation with 10+ transcripts
+2. Verify all transcripts processed successfully
+3. Check progress updates in real-time
+4. Confirm no database locking errors
+5. Verify schema stability calculated correctly
+
+### Two-Pass Extraction
+1. Enable two-pass on experiment
+2. Run evaluation and check results viewer
+3. Verify review findings displayed (missing, hallucinated, issues)
+4. Compare initial vs final extraction quality
+5. Test with experiment that has poor initial extraction
+
+### Schema Stability
+1. Create transcripts with varying field coverage
+2. Run evaluation
+3. Verify stability metric makes sense (common/total ratio)
+4. Check leaderboard displays stability correctly
+5. Test with deeply nested schemas and arrays
+
+### Background Task Sessions
+1. Start multiple evaluations in quick succession
+2. Verify no transaction state errors
+3. Check each evaluation has its own session
+4. Confirm evaluations complete successfully
+
+## Migration Notes
+- **Database migrations required** before deploying
+- Run all ALTER TABLE commands in sequence
+- Restart backend after migration
+- Old evaluations will have NULL for new fields (handled gracefully)
+- Two-pass disabled by default (opt-in feature)
+
+## Performance Considerations
+- CPU-bound: Speedup scales with available cores
+- Memory usage increases with worker count (limit pool size if needed)
+- SQLite sequential writes not a bottleneck (LLM calls are)
+- Progress tracking works in real-time across processes
+
+## Known Limitations
+- Worker pool size limited by CPU count
+- No persistent worker pool (created per evaluation)
+- Two-pass doubles LLM API costs
+- Schema stability requires at least 2 transcripts to be meaningful
+- Review findings quality depends on LLM model capability

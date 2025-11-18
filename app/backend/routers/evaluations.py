@@ -40,7 +40,7 @@ async def start_evaluation(
     evaluation = result.scalar_one()
 
     # Run evaluation in background with optional transcript filter
-    asyncio.create_task(run_evaluation(evaluation.id, db, request.transcript_ids))
+    asyncio.create_task(run_evaluation(evaluation.id, request.transcript_ids))
 
     return evaluation
 
