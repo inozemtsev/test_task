@@ -24,23 +24,23 @@ interface ExperimentFormProps {
 }
 
 const DEFAULT_SCHEMA = `{
-  "name": "ExampleSchema",
-  "strict": true,
-  "schema": {
-    "type": "object",
-    "properties": {
-      "field1": {
-        "type": "string",
-        "description": "Description of field1"
-      },
-      "field2": {
-        "type": "number",
-        "description": "Description of field2"
-      }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "name": "Example Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "field1": {
+      "type": "string",
+      "description": "Description of field1"
     },
-    "required": ["field1", "field2"],
-    "additionalProperties": false
-  }
+    "field2": {
+      "type": "number",
+      "description": "Description of field2"
+    }
+  },
+  "required": ["field1", "field2"],
+  "definitions": {},
+  "strict": true
 }`;
 
 export default function ExperimentForm({

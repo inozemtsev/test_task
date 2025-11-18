@@ -106,7 +106,8 @@ async def extract_structured_data(
                     }
                 }
             ],
-            temperature=0
+            temperature=0,
+            seed=42
         )
 
         # Extract from function call (same as run.py)
@@ -224,7 +225,8 @@ Be thorough and precise. Cite specific evidence from the transcript."""
                     }
                 }
             ],
-            temperature=0
+            temperature=0,
+            seed=42
         )
 
         # Extract from function call
@@ -297,7 +299,8 @@ Produce the FINAL, CORRECTED extraction."""
                     }
                 }
             ],
-            temperature=0
+            temperature=0,
+            seed=42
         )
 
         # Extract from function call
@@ -498,7 +501,8 @@ Return the structured result."""
                         "parameters": judge_schema
                     }
                 }
-            ]
+            ],
+            seed=42
         )
 
         # Extract from function call
@@ -565,7 +569,8 @@ Don't place it between ```json and ```."""
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
-            ]
+            ],
+            temperature=1
         )
 
         return response.choices[0].message.content.strip()

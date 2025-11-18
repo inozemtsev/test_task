@@ -18,6 +18,7 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
+import Editor from "@monaco-editor/react";
 
 interface EvaluationResultsViewerProps {
   evaluationId: number;
@@ -367,17 +368,31 @@ export default function EvaluationResultsViewer({
                     )}
 
                     {/* Extracted Data Section */}
-                    <div>
-                      <h4 className="text-sm font-medium mb-2 flex items-center gap-2">
+                    <Collapsible>
+                      <CollapsibleTrigger className="flex items-center gap-2 text-sm font-medium hover:underline">
                         <Brain className="h-4 w-4" />
                         Extracted Data
-                      </h4>
-                      <ScrollArea className="h-[200px] w-full rounded-md border p-4">
-                        <pre className="text-xs whitespace-pre-wrap font-mono">
-                          {JSON.stringify(result.extracted_data, null, 2)}
-                        </pre>
-                      </ScrollArea>
-                    </div>
+                      </CollapsibleTrigger>
+                      <CollapsibleContent className="pt-3">
+                        <div className="border rounded-lg overflow-hidden">
+                          <Editor
+                            height="400px"
+                            defaultLanguage="json"
+                            value={JSON.stringify(result.extracted_data, null, 2)}
+                            theme="vs-dark"
+                            options={{
+                              readOnly: true,
+                              minimap: { enabled: false },
+                              fontSize: 13,
+                              lineNumbers: "on",
+                              scrollBeyondLastLine: false,
+                              automaticLayout: true,
+                              tabSize: 2,
+                            }}
+                          />
+                        </div>
+                      </CollapsibleContent>
+                    </Collapsible>
 
                     {/* Review Findings Section (Two-Pass Mode) */}
                     {result.review_data && (

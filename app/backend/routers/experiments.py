@@ -49,20 +49,11 @@ async def create_experiment(
     try:
         schema = json.loads(experiment_data.schema_json)
 
-        # Validate schema structure for OpenAI structured outputs
+        # Validate schema is a valid JSON object
         if not isinstance(schema, dict):
             raise HTTPException(status_code=400, detail="Schema must be a JSON object")
 
-        if "name" not in schema:
-            raise HTTPException(status_code=400, detail="Schema must have a 'name' field")
-
-        if "schema" not in schema:
-            raise HTTPException(
-                status_code=400,
-                detail="Schema must have a 'schema' field containing the JSON schema definition"
-            )
-
-        # Ensure strict mode is set
+        # Ensure strict mode is set if not present
         if "strict" not in schema:
             schema["strict"] = True
             experiment_data.schema_json = json.dumps(schema)
@@ -105,20 +96,11 @@ async def update_experiment(
         try:
             schema = json.loads(experiment_data.schema_json)
 
-            # Validate schema structure for OpenAI structured outputs
+            # Validate schema is a valid JSON object
             if not isinstance(schema, dict):
                 raise HTTPException(status_code=400, detail="Schema must be a JSON object")
 
-            if "name" not in schema:
-                raise HTTPException(status_code=400, detail="Schema must have a 'name' field")
-
-            if "schema" not in schema:
-                raise HTTPException(
-                    status_code=400,
-                    detail="Schema must have a 'schema' field containing the JSON schema definition"
-                )
-
-            # Ensure strict mode is set
+            # Ensure strict mode is set if not present
             if "strict" not in schema:
                 schema["strict"] = True
                 experiment_data.schema_json = json.dumps(schema)

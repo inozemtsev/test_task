@@ -213,10 +213,8 @@ async def run_evaluation(evaluation_id: int, transcript_ids: list[int] = None):
             )
             judge = result.scalar_one()
 
-            # Get judge_config
+            # Get judge_config (will use default if None)
             judge_config = judge.judge_config if judge.judge_config else None
-            if not judge_config:
-                raise Exception("Judge has no judge_config defined")
 
             # Get transcripts (all or filtered by IDs)
             if transcript_ids:
