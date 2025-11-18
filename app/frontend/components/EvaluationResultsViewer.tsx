@@ -1,18 +1,26 @@
 "use client";
 
+import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { evaluationsAPI } from "@/lib/api";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Progress } from "@/components/ui/progress";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { CheckCircle2, XCircle, FileText, Brain, AlertTriangle, Info, TrendingUp, TrendingDown } from "lucide-react";
+import { CheckCircle2, XCircle, FileText, Brain, AlertTriangle, Info, TrendingUp, TrendingDown, Eye } from "lucide-react";
 import {
   Collapsible,
   CollapsibleContent,
@@ -27,6 +35,8 @@ interface EvaluationResultsViewerProps {
 export default function EvaluationResultsViewer({
   evaluationId,
 }: EvaluationResultsViewerProps) {
+  const [openDataDialogId, setOpenDataDialogId] = useState<number | null>(null);
+
   const { data: evaluation, isLoading } = useQuery({
     queryKey: ["evaluation", evaluationId],
     queryFn: () => evaluationsAPI.get(evaluationId),
@@ -368,15 +378,38 @@ export default function EvaluationResultsViewer({
                     )}
 
                     {/* Extracted Data Section */}
-                    <Collapsible>
-                      <CollapsibleTrigger className="flex items-center gap-2 text-sm font-medium hover:underline">
-                        <Brain className="h-4 w-4" />
-                        Extracted Data
-                      </CollapsibleTrigger>
-                      <CollapsibleContent className="pt-3">
-                        <div className="border rounded-lg overflow-hidden">
+                    <div>
+                      <div className="flex items-center justify-between mb-2">
+                        <h4 className="text-sm font-medium flex items-center gap-2">
+                          <Brain className="h-4 w-4" />
+                          Extracted Data
+                        </h4>
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          onClick={() => setOpenDataDialogId(result.id)}
+                          className="gap-2"
+                        >
+                          <Eye className="h-4 w-4" />
+                          View Full
+                        </Button>
+                      </div>
+                      <ScrollArea className="h-[120px] w-full rounded-md border p-3 bg-muted/30">
+                        <pre className="text-xs whitespace-pre font-mono">
+                          {JSON.stringify(result.extracted_data, null, 2)}
+                        </pre>
+                      </ScrollArea>
+                    </div>
+
+                    {/* Full Data Dialog */}
+                    <Dialog open={openDataDialogId === result.id} onOpenChange={(open) => !open && setOpenDataDialogId(null)}>
+                      <DialogContent className="max-w-6xl h-[85vh] flex flex-col">
+                        <DialogHeader>
+                          <DialogTitle>Extracted Data - {result.transcript_name}</DialogTitle>
+                        </DialogHeader>
+                        <div className="flex-1 border rounded-lg overflow-hidden">
                           <Editor
-                            height="400px"
+                            height="100%"
                             defaultLanguage="json"
                             value={JSON.stringify(result.extracted_data, null, 2)}
                             theme="vs-dark"
@@ -391,8 +424,8 @@ export default function EvaluationResultsViewer({
                             }}
                           />
                         </div>
-                      </CollapsibleContent>
-                    </Collapsible>
+                      </DialogContent>
+                    </Dialog>
 
                     {/* Review Findings Section (Two-Pass Mode) */}
                     {result.review_data && (
