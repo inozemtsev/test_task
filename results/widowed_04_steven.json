@@ -1,0 +1,534 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Primary residence: three-bedroom, two-bath ranch house on the west side of Albuquerque",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "West side of Albuquerque, NM",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 425000,
+        "citation": "CLIENT: [00:05:46] I look at Zillow sometimes. It says low four hundreds. Four‑twenty, four‑thirty, somewhere in there.",
+        "call_time": "00:05:46",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT: [00:05:30] No, that’s paid off. We finished it… I wanna say ten, maybe twelve years ago. No loan on it now.",
+        "call_time": "00:05:30",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": null,
+        "citation": null,
+        "call_time": null,
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": null,
+        "unit": null
+      }
+    ],
+    "id": "asset_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Primary residence: three-bedroom, two-bath ranch house on the west side of Albuquerque\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"West side of Albuquerque, NM\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 425000, \"citation\": \"CLIENT: [00:05:46] I look at Zillow sometimes. It says low four hundreds. Four‑twenty, four‑thirty, somewhere in there.\", \"call_time\": \"00:05:46\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT: [00:05:30] No, that’s paid off. We finished it… I wanna say ten, maybe twelve years ago. No loan on it now.\", \"call_time\": \"00:05:30\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"current_balance\", \"type\": \"number\", \"value\": null, \"citation\": null, \"call_time\": null, \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": null, \"unit\": null}], \"id\": \"asset_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_2",
+    "owner_ids": [
+      "client_1",
+      "other_family"
+    ],
+    "static": {
+      "description": "One-third share of family cabin near Pagosa Springs, Colorado",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Pagosa Springs, Colorado",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 83000,
+        "citation": "CLIENT: [00:32:57] I kind of did a back‑of‑the‑envelope once. House, say four‑twenty. My third of the cabin, maybe eighty.",
+        "call_time": "00:32:57",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 33.33,
+        "citation": "CLIENT: [00:07:57] Yes, third each. We never changed that after my dad passed.",
+        "call_time": "00:07:57",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT: [00:08:05] No, that’s free and clear. Taxes are low up there. We just split them three ways.",
+        "call_time": "00:08:05",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_2",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_2\", \"owner_ids\": [\"client_1\", \"other_family\"], \"static\": {\"description\": \"One-third share of family cabin near Pagosa Springs, Colorado\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Pagosa Springs, Colorado\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 83000, \"citation\": \"CLIENT: [00:32:57] I kind of did a back‑of‑the‑envelope once. House, say four‑twenty. My third of the cabin, maybe eighty.\", \"call_time\": \"00:32:57\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 33.33, \"citation\": \"CLIENT: [00:07:57] Yes, third each. We never changed that after my dad passed.\", \"call_time\": \"00:07:57\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT: [00:08:05] No, that’s free and clear. Taxes are low up there. We just split them three ways.\", \"call_time\": \"00:08:05\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_2\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_3",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Checking account at Rio Grande Credit Union",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Rio Grande Credit Union, Albuquerque, NM",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 7000,
+        "citation": "CLIENT: [00:17:49] Usually six to eight thousand. I don’t like it going under five. That gives me a buffer for the odd big bill.",
+        "call_time": "00:17:49",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_3",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_3\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Checking account at Rio Grande Credit Union\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Rio Grande Credit Union, Albuquerque, NM\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 7000, \"citation\": \"CLIENT: [00:17:49] Usually six to eight thousand. I don’t like it going under five. That gives me a buffer for the odd big bill.\", \"call_time\": \"00:17:49\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_3\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_4",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Savings account at Rio Grande Credit Union",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Rio Grande Credit Union, Albuquerque, NM",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 32000,
+        "citation": "CLIENT: [00:18:00] Yeah, I’ve got a savings there too. Last time I looked it was around thirty‑two thousand. That’s my “if the roof leaks” money.",
+        "call_time": "00:18:00",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_4",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_4\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Savings account at Rio Grande Credit Union\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Rio Grande Credit Union, Albuquerque, NM\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 32000, \"citation\": \"CLIENT: [00:18:00] Yeah, I’ve got a savings there too. Last time I looked it was around thirty‑two thousand. That’s my “if the roof leaks” money.\", \"call_time\": \"00:18:00\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_4\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_5",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "High-yield savings account at Ally Bank (inherited funds)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Ally Bank (online)",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 110000,
+        "citation": "CLIENT: [00:18:32] Pretty close. I took a bit out when I bought the new car and for some home stuff, so maybe it’s a hundred and ten now.",
+        "call_time": "00:18:32",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_5",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_5\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"High-yield savings account at Ally Bank (inherited funds)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Ally Bank (online)\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 110000, \"citation\": \"CLIENT: [00:18:32] Pretty close. I took a bit out when I bought the new car and for some home stuff, so maybe it’s a hundred and ten now.\", \"call_time\": \"00:18:32\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_5\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_6",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "12-month CD at Ally Bank",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Ally Bank (online)",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 10000,
+        "citation": "CLIENT: [00:18:44] I did one CD—twelve‑month, ten thousand, started in April. At about five percent.",
+        "call_time": "00:18:44",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "interest_rate",
+        "type": "number",
+        "value": 5,
+        "citation": "CLIENT: [00:18:44] I did one CD—twelve‑month, ten thousand, started in April. At about five percent.",
+        "call_time": "00:18:44",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_6",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_6\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"12-month CD at Ally Bank\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Ally Bank (online)\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 10000, \"citation\": \"CLIENT: [00:18:44] I did one CD—twelve‑month, ten thousand, started in April. At about five percent.\", \"call_time\": \"00:18:44\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"interest_rate\", \"type\": \"number\", \"value\": 5, \"citation\": \"CLIENT: [00:18:44] I did one CD—twelve‑month, ten thousand, started in April. At about five percent.\", \"call_time\": \"00:18:44\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"asset_6\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_7",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Two CDs at Rio Grande Credit Union (inherited from sister)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Rio Grande Credit Union, Albuquerque, NM",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 30000,
+        "citation": "CLIENT: [00:19:23] I do have a couple CDs at Rio Grande from when my sister died and left me a bit. Nothing huge—together maybe thirty thousand.",
+        "call_time": "00:19:23",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_7",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_7\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Two CDs at Rio Grande Credit Union (inherited from sister)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Rio Grande Credit Union, Albuquerque, NM\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 30000, \"citation\": \"CLIENT: [00:19:23] I do have a couple CDs at Rio Grande from when my sister died and left me a bit. Nothing huge—together maybe thirty thousand.\", \"call_time\": \"00:19:23\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_7\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_8",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Traditional IRA at Vanguard (consolidated from Fidelity, rollover from 403(b) and 401(k))",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 485000,
+        "citation": "CLIENT: [00:20:31] Last time I looked, it was high four hundreds. About four hundred eighty‑something thousand. It moves around with the market.",
+        "call_time": "00:20:31",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": false,
+        "citation": "CLIENT: [00:20:56] Just the required stuff. Before I retired, I was putting in a couple hundred a month. That stopped when the paychecks stopped.",
+        "call_time": "00:20:56",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "asset_8",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_8\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Traditional IRA at Vanguard (consolidated from Fidelity, rollover from 403(b) and 401(k))\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 485000, \"citation\": \"CLIENT: [00:20:31] Last time I looked, it was high four hundreds. About four hundred eighty‑something thousand. It moves around with the market.\", \"call_time\": \"00:20:31\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": false, \"citation\": \"CLIENT: [00:20:56] Just the required stuff. Before I retired, I was putting in a couple hundred a month. That stopped when the paychecks stopped.\", \"call_time\": \"00:20:56\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"asset_8\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_9",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Inherited IRA from Maria (Vanguard, rolled over from her 401(k))",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 92500,
+        "citation": "CLIENT: [00:21:33] Yes. Her old 401(k) from the hospital she worked at years ago—we rolled that into an inherited IRA at Vanguard when she died. It’s smaller, maybe ninety, ninety‑five thousand.",
+        "call_time": "00:21:33",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_9",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_9\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Inherited IRA from Maria (Vanguard, rolled over from her 401(k))\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 92500, \"citation\": \"CLIENT: [00:21:33] Yes. Her old 401(k) from the hospital she worked at years ago—we rolled that into an inherited IRA at Vanguard when she died. It’s smaller, maybe ninety, ninety‑five thousand.\", \"call_time\": \"00:21:33\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_9\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_10",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Supplemental 403(b) at TIAA (Maria's, not annuitized)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "TIAA",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 42500,
+        "citation": "CLIENT: [00:22:23] And that one’s still invested in funds, not paying a monthly income? ... Last time I looked it was in the low forties—forty‑two, forty‑three thousand.",
+        "call_time": "00:22:23",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_10",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_10\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Supplemental 403(b) at TIAA (Maria's, not annuitized)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"TIAA\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 42500, \"citation\": \"CLIENT: [00:22:23] And that one’s still invested in funds, not paying a monthly income? ... Last time I looked it was in the low forties—forty‑two, forty‑three thousand.\", \"call_time\": \"00:22:23\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_10\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_11",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Edward Jones brokerage account (utility stock, inherited from uncle)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Edward Jones",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 32500,
+        "citation": "CLIENT: [00:23:31] It came from my uncle. A bunch of utility stock—Public Service Company of New Mexico. They just send dividends. Last time I checked, it was maybe thirty, thirty‑five thousand.",
+        "call_time": "00:23:31",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_11",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_11\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Edward Jones brokerage account (utility stock, inherited from uncle)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Edward Jones\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 32500, \"citation\": \"CLIENT: [00:23:31] It came from my uncle. A bunch of utility stock—Public Service Company of New Mexico. They just send dividends. Last time I checked, it was maybe thirty, thirty‑five thousand.\", \"call_time\": \"00:23:31\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_11\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_12",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Paper US savings bonds (face value, 1980s)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Physical (shoebox at home)",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 1500,
+        "citation": "CLIENT: [00:24:09] Most say fifty dollars, a few say a hundred. Maybe twenty or thirty of them total. They’re pretty old—from the eighties.",
+        "call_time": "00:24:09",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_12",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_12\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Paper US savings bonds (face value, 1980s)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Physical (shoebox at home)\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 1500, \"citation\": \"CLIENT: [00:24:09] Most say fifty dollars, a few say a hundred. Maybe twenty or thirty of them total. They’re pretty old—from the eighties.\", \"call_time\": \"00:24:09\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_12\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_13",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "State life insurance policy (for burial expenses)",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 10000,
+        "citation": "CLIENT: [00:24:25] Just a small one from the state. Ten thousand. That’s just to cover burial so the kids don’t have to worry.",
+        "call_time": "00:24:25",
+        "recorded_at": "2025-11-17T20:55:31Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_13",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_13\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"State life insurance policy (for burial expenses)\", \"asset_type\": {\"value\": \"other\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 10000, \"citation\": \"CLIENT: [00:24:25] Just a small one from the state. Ten thousand. That’s just to cover burial so the kids don’t have to worry.\", \"call_time\": \"00:24:25\", \"recorded_at\": \"2025-11-17T20:55:31Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_13\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  }
+]

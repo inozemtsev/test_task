@@ -1,0 +1,333 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_1",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Cash Lifetime ISA with Coventry Building Society",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Coventry Building Society",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 18000,
+        "citation": "CLIENT2: [00:13:21] Mine was about eighteen thousand last time I logged in.",
+        "call_time": "2025-11-17T19:32:47",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": true,
+        "citation": "CLIENT2: [00:14:00] Yeah, I do £250 a month by direct debit.",
+        "call_time": "2025-11-17T19:32:47",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 250,
+        "citation": "CLIENT2: [00:14:00] Yeah, I do £250 a month by direct debit.",
+        "call_time": "2025-11-17T19:32:47",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_1\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Cash Lifetime ISA with Coventry Building Society\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Coventry Building Society\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 18000, \"citation\": \"CLIENT2: [00:13:21] Mine was about eighteen thousand last time I logged in.\", \"call_time\": \"2025-11-17T19:32:47\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": true, \"citation\": \"CLIENT2: [00:14:00] Yeah, I do £250 a month by direct debit.\", \"call_time\": \"2025-11-17T19:32:47\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 250, \"citation\": \"CLIENT2: [00:14:00] Yeah, I do £250 a month by direct debit.\", \"call_time\": \"2025-11-17T19:32:47\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"GBP\"}], \"id\": \"asset_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_2",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Stocks and Shares Lifetime ISA with AJ Bell",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "AJ Bell",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 11000,
+        "citation": "CLIENT1: [00:13:27] Mine’s around ten or eleven, depending what the markets have done this week.",
+        "call_time": "2025-11-17T19:32:47",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": true,
+        "citation": "CLIENT1: [00:14:04] Mine’s set to two hundred a month. I turned it down once when the car went kaput, but roughly that.",
+        "call_time": "2025-11-17T19:32:47",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 200,
+        "citation": "CLIENT1: [00:14:04] Mine’s set to two hundred a month. I turned it down once when the car went kaput, but roughly that.",
+        "call_time": "2025-11-17T19:32:47",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_2",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_2\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Stocks and Shares Lifetime ISA with AJ Bell\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"AJ Bell\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 11000, \"citation\": \"CLIENT1: [00:13:27] Mine’s around ten or eleven, depending what the markets have done this week.\", \"call_time\": \"2025-11-17T19:32:47\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": true, \"citation\": \"CLIENT1: [00:14:04] Mine’s set to two hundred a month. I turned it down once when the car went kaput, but roughly that.\", \"call_time\": \"2025-11-17T19:32:47\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 200, \"citation\": \"CLIENT1: [00:14:04] Mine’s set to two hundred a month. I turned it down once when the car went kaput, but roughly that.\", \"call_time\": \"2025-11-17T19:32:47\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_2\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_3",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Joint easy-access savings account with Starling",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Starling Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 8000,
+        "citation": "CLIENT2: [00:13:35] Just under eight, I think. It’s for fees and things that aren’t in the ISAs.",
+        "call_time": "2025-11-17T19:32:47",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": true,
+        "citation": "CLIENT2: [00:16:15] Kind of both. We aim for about six hundred a month between us, but if the car or nursery throws something unexpected at us, it might only be three or four.",
+        "call_time": "2025-11-17T19:32:47",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 600,
+        "citation": "CLIENT2: [00:16:15] Kind of both. We aim for about six hundred a month between us, but if the car or nursery throws something unexpected at us, it might only be three or four.",
+        "call_time": "2025-11-17T19:32:47",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_3",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_3\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Joint easy-access savings account with Starling\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Starling Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 8000, \"citation\": \"CLIENT2: [00:13:35] Just under eight, I think. It’s for fees and things that aren’t in the ISAs.\", \"call_time\": \"2025-11-17T19:32:47\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": true, \"citation\": \"CLIENT2: [00:16:15] Kind of both. We aim for about six hundred a month between us, but if the car or nursery throws something unexpected at us, it might only be three or four.\", \"call_time\": \"2025-11-17T19:32:47\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 600, \"citation\": \"CLIENT2: [00:16:15] Kind of both. We aim for about six hundred a month between us, but if the car or nursery throws something unexpected at us, it might only be three or four.\", \"call_time\": \"2025-11-17T19:32:47\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_3\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_4",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Emergency fund in NatWest saver",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "NatWest",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 3000,
+        "citation": "CLIENT2: [00:14:18] I’ve got an emergency fund, about three grand, in my NatWest saver.",
+        "call_time": "2025-11-17T19:32:47",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_4",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_4\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Emergency fund in NatWest saver\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"NatWest\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 3000, \"citation\": \"CLIENT2: [00:14:18] I’ve got an emergency fund, about three grand, in my NatWest saver.\", \"call_time\": \"2025-11-17T19:32:47\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_4\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_5",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Premium Bonds from grandmother",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 2000,
+        "citation": "CLIENT2: [00:14:18] And I’ve got some Premium Bonds from my gran—about two thousand.",
+        "call_time": "2025-11-17T19:32:47",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_5",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_5\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Premium Bonds from grandmother\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 2000, \"citation\": \"CLIENT2: [00:14:18] And I’ve got some Premium Bonds from my gran—about two thousand.\", \"call_time\": \"2025-11-17T19:32:47\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_5\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_6",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Buffer in Halifax current account",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Halifax",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 1000,
+        "citation": "CLIENT1: [00:14:28] I try to keep about a thousand sitting in my Halifax current account as a buffer.",
+        "call_time": "2025-11-17T19:32:47",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_6",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_6\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Buffer in Halifax current account\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Halifax\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 1000, \"citation\": \"CLIENT1: [00:14:28] I try to keep about a thousand sitting in my Halifax current account as a buffer.\", \"call_time\": \"2025-11-17T19:32:47\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_6\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_7",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Moneybox ISA (investment app)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Moneybox",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 2500,
+        "citation": "CLIENT1: [00:14:28] And I’ve got one of those Moneybox ISAs that rounds up spare change into investments. There’s maybe two, two and a half grand in that.",
+        "call_time": "2025-11-17T19:32:47",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_7",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_7\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Moneybox ISA (investment app)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Moneybox\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 2500, \"citation\": \"CLIENT1: [00:14:28] And I’ve got one of those Moneybox ISAs that rounds up spare change into investments. There’s maybe two, two and a half grand in that.\", \"call_time\": \"2025-11-17T19:32:47\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_7\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  }
+]

@@ -1,0 +1,645 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Primary residence: 3-bed townhouse in Maple Ridge, Beaverton, OR",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Beaverton, OR",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 550000,
+        "citation": "CLIENT: [00:11:26] Back to the townhouse—any rough idea what that’s worth these days? ... maybe it’s in the mid‑five hundreds now, maybe a bit more.",
+        "call_time": "00:11:26",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "purchase_price",
+        "type": "number",
+        "value": 500000,
+        "citation": "CLIENT: [00:11:26] I bought it about two years ago, after the divorce. We paid around the low five hundreds.",
+        "call_time": "00:11:26",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 350000,
+        "citation": "CLIENT: [00:11:40] I think I owe, like, mid‑three hundreds.",
+        "call_time": "00:11:40",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 2400,
+        "citation": "CLIENT: [00:11:40] Payment’s about twenty‑four hundred a month; that’s with property taxes rolled in.",
+        "call_time": "00:11:40",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_type",
+        "type": "string",
+        "value": "30-year fixed",
+        "citation": "CLIENT: [00:11:40] Thirty‑year fixed, started in 2022.",
+        "call_time": "00:11:40",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "asset_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Primary residence: 3-bed townhouse in Maple Ridge, Beaverton, OR\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Beaverton, OR\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 550000, \"citation\": \"CLIENT: [00:11:26] Back to the townhouse—any rough idea what that’s worth these days? ... maybe it’s in the mid‑five hundreds now, maybe a bit more.\", \"call_time\": \"00:11:26\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"purchase_price\", \"type\": \"number\", \"value\": 500000, \"citation\": \"CLIENT: [00:11:26] I bought it about two years ago, after the divorce. We paid around the low five hundreds.\", \"call_time\": \"00:11:26\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 350000, \"citation\": \"CLIENT: [00:11:40] I think I owe, like, mid‑three hundreds.\", \"call_time\": \"00:11:40\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 2400, \"citation\": \"CLIENT: [00:11:40] Payment’s about twenty‑four hundred a month; that’s with property taxes rolled in.\", \"call_time\": \"00:11:40\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"mortgage_type\", \"type\": \"string\", \"value\": \"30-year fixed\", \"citation\": \"CLIENT: [00:11:40] Thirty‑year fixed, started in 2022.\", \"call_time\": \"00:11:40\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"asset_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_2",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "10% share of family cabin on lake near Sandpoint, Idaho",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Sandpoint, Idaho",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 10,
+        "citation": "CLIENT: [00:10:29] I do have a small share—like ten percent—of my parents’ cabin up in northern Idaho...",
+        "call_time": "00:10:29",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 420000,
+        "citation": "CLIENT: [00:10:59] Last time my brother looked on Zillow it was low four hundreds, maybe four‑twenty, four‑thirty.",
+        "call_time": "00:10:59",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "estimated_value_of_share",
+        "type": "number",
+        "value": 42000,
+        "citation": "CLIENT: [00:10:59] So my slice would be like forty‑ish grand? Total guess, but in that neighborhood.",
+        "call_time": "00:10:59",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_2",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_2\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"10% share of family cabin on lake near Sandpoint, Idaho\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Sandpoint, Idaho\", \"account_number\": null}, \"timeline\": [{\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 10, \"citation\": \"CLIENT: [00:10:29] I do have a small share—like ten percent—of my parents’ cabin up in northern Idaho...\", \"call_time\": \"00:10:29\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"current_value\", \"type\": \"number\", \"value\": 420000, \"citation\": \"CLIENT: [00:10:59] Last time my brother looked on Zillow it was low four hundreds, maybe four‑twenty, four‑thirty.\", \"call_time\": \"00:10:59\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"estimated_value_of_share\", \"type\": \"number\", \"value\": 42000, \"citation\": \"CLIENT: [00:10:59] So my slice would be like forty‑ish grand? Total guess, but in that neighborhood.\", \"call_time\": \"00:10:59\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_2\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_3",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Fidelity 401(k) through Northbridge Technologies",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 85000,
+        "citation": "CLIENT: [00:05:24] Last time I looked it was in the high eighties—like, eighty‑something thousand.",
+        "call_time": "00:05:24",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "employee_contribution_rate",
+        "type": "number",
+        "value": 8,
+        "citation": "CLIENT: [00:05:34] I’m doing eight percent of my salary, and they match up to four percent.",
+        "call_time": "00:05:34",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 4,
+        "citation": "CLIENT: [00:05:34] I’m doing eight percent of my salary, and they match up to four percent.",
+        "call_time": "00:05:34",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": true,
+        "citation": "CLIENT: [00:05:34] And are you contributing from each paycheck right now? Yeah. I’m doing eight percent of my salary...",
+        "call_time": "00:05:34",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "asset_3",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_3\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Fidelity 401(k) through Northbridge Technologies\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 85000, \"citation\": \"CLIENT: [00:05:24] Last time I looked it was in the high eighties—like, eighty‑something thousand.\", \"call_time\": \"00:05:24\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"employee_contribution_rate\", \"type\": \"number\", \"value\": 8, \"citation\": \"CLIENT: [00:05:34] I’m doing eight percent of my salary, and they match up to four percent.\", \"call_time\": \"00:05:34\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 4, \"citation\": \"CLIENT: [00:05:34] I’m doing eight percent of my salary, and they match up to four percent.\", \"call_time\": \"00:05:34\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": true, \"citation\": \"CLIENT: [00:05:34] And are you contributing from each paycheck right now? Yeah. I’m doing eight percent of my salary...\", \"call_time\": \"00:05:34\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"asset_3\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_4",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Vanguard IRA (rollover from previous employer)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 60000,
+        "citation": "CLIENT: [00:06:04] That 401(k) I rolled into an IRA at Vanguard. The IRA’s maybe around sixty grand.",
+        "call_time": "00:06:04",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_4",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_4\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Vanguard IRA (rollover from previous employer)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 60000, \"citation\": \"CLIENT: [00:06:04] That 401(k) I rolled into an IRA at Vanguard. The IRA’s maybe around sixty grand.\", \"call_time\": \"00:06:04\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_4\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_5",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Defined benefit pension from former manufacturing employer (Eugene)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 200,
+        "citation": "CLIENT: [00:06:22] That company has a tiny pension that starts at sixty‑five. The letter said something like two hundred a month if I leave it alone.",
+        "call_time": "00:06:22",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD/month"
+      }
+    ],
+    "id": "asset_5",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_5\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Defined benefit pension from former manufacturing employer (Eugene)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 200, \"citation\": \"CLIENT: [00:06:22] That company has a tiny pension that starts at sixty‑five. The letter said something like two hundred a month if I leave it alone.\", \"call_time\": \"00:06:22\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD/month\"}], \"id\": \"asset_5\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_6",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Vanguard Roth IRA",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 22500,
+        "citation": "CLIENT: [00:06:48] I opened a Roth years back at Vanguard. I haven’t been super consistent, but I think there’s, I don’t know, twenty to twenty‑five thousand in it.",
+        "call_time": "00:06:48",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_6",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_6\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Vanguard Roth IRA\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 22500, \"citation\": \"CLIENT: [00:06:48] I opened a Roth years back at Vanguard. I haven’t been super consistent, but I think there’s, I don’t know, twenty to twenty‑five thousand in it.\", \"call_time\": \"00:06:48\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_6\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_7",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Stonebridge Investments taxable brokerage account",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 8500,
+        "citation": "CLIENT: [00:07:10] Oh, and I forgot—there’s a small brokerage account at Stonebridge Investments... Balance is maybe eight or nine grand.",
+        "call_time": "00:07:10",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_7",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_7\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Stonebridge Investments taxable brokerage account\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 8500, \"citation\": \"CLIENT: [00:07:10] Oh, and I forgot—there’s a small brokerage account at Stonebridge Investments... Balance is maybe eight or nine grand.\", \"call_time\": \"00:07:10\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_7\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_8",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Health Savings Account (HSA) through current employer",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 4000,
+        "citation": "CLIENT: [00:07:18] Yeah, my current employer offers an HSA. That has maybe four grand in it.",
+        "call_time": "00:07:18",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_8",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_8\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Health Savings Account (HSA) through current employer\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 4000, \"citation\": \"CLIENT: [00:07:18] Yeah, my current employer offers an HSA. That has maybe four grand in it.\", \"call_time\": \"00:07:18\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_8\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_9",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Northbridge Technologies Employee Stock Purchase Plan (ESPP)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 4000,
+        "citation": "CLIENT: [00:07:32] Yeah, there’s the stock thing where they take money from your paycheck and you buy at a discount—ESPP. I started last year. Balance is small, around four grand worth of shares.",
+        "call_time": "00:07:32",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_9",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_9\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Northbridge Technologies Employee Stock Purchase Plan (ESPP)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 4000, \"citation\": \"CLIENT: [00:07:32] Yeah, there’s the stock thing where they take money from your paycheck and you buy at a discount—ESPP. I started last year. Balance is small, around four grand worth of shares.\", \"call_time\": \"00:07:32\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_9\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_10",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "OnPoint Credit Union checking account",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 5000,
+        "citation": "CLIENT: [00:18:13] Checking is at OnPoint Credit Union. I try to keep around five thousand in there.",
+        "call_time": "00:18:13",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_10",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_10\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"OnPoint Credit Union checking account\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 5000, \"citation\": \"CLIENT: [00:18:13] Checking is at OnPoint Credit Union. I try to keep around five thousand in there.\", \"call_time\": \"00:18:13\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_10\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_11",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Ally Bank online high-yield savings account (emergency fund)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 22000,
+        "citation": "CLIENT: [00:18:25] Right now it’s just over twenty, maybe twenty‑two thousand. That’s my “don’t touch unless someone breaks an arm” money.",
+        "call_time": "00:18:25",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_11",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_11\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Ally Bank online high-yield savings account (emergency fund)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 22000, \"citation\": \"CLIENT: [00:18:25] Right now it’s just over twenty, maybe twenty‑two thousand. That’s my “don’t touch unless someone breaks an arm” money.\", \"call_time\": \"00:18:25\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_11\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_12",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Money market account at OnPoint Credit Union",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 30000,
+        "citation": "CLIENT: [00:18:41] I’ve still got about thirty sitting in a money market at the credit union.",
+        "call_time": "00:18:41",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_12",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_12\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Money market account at OnPoint Credit Union\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 30000, \"citation\": \"CLIENT: [00:18:41] I’ve still got about thirty sitting in a money market at the credit union.\", \"call_time\": \"00:18:41\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_12\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_13",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "12-month CD at U.S. Bank",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 15000,
+        "citation": "CLIENT: [00:19:18] I do have one CD. Twelve‑month, at U.S. Bank. I put fifteen thousand into it.",
+        "call_time": "00:19:18",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "interest_rate",
+        "type": "number",
+        "value": 4.0,
+        "citation": "CLIENT: [00:19:18] Rate’s like four‑something percent.",
+        "call_time": "00:19:18",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_13",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_13\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"12-month CD at U.S. Bank\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 15000, \"citation\": \"CLIENT: [00:19:18] I do have one CD. Twelve‑month, at U.S. Bank. I put fifteen thousand into it.\", \"call_time\": \"00:19:18\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"interest_rate\", \"type\": \"number\", \"value\": 4.0, \"citation\": \"CLIENT: [00:19:18] Rate’s like four‑something percent.\", \"call_time\": \"00:19:18\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"asset_13\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_14",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Oregon 529 plan for son (Oliver)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 5000,
+        "citation": "CLIENT: [00:19:53] Yeah, I started 529s last year through the Oregon plan. One for each kid. They’re tiny right now. Maybe five thousand in my son’s...",
+        "call_time": "00:19:53",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_14",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_14\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Oregon 529 plan for son (Oliver)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 5000, \"citation\": \"CLIENT: [00:19:53] Yeah, I started 529s last year through the Oregon plan. One for each kid. They’re tiny right now. Maybe five thousand in my son’s...\", \"call_time\": \"00:19:53\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_14\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_15",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Oregon 529 plan for daughter (Mia)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 4000,
+        "citation": "CLIENT: [00:19:53] ...and four in my daughter’s.",
+        "call_time": "00:19:53",
+        "recorded_at": "2025-11-17T19:11:33",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_15",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_15\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Oregon 529 plan for daughter (Mia)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 4000, \"citation\": \"CLIENT: [00:19:53] ...and four in my daughter’s.\", \"call_time\": \"00:19:53\", \"recorded_at\": \"2025-11-17T19:11:33\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_15\", \"fact_type\": \"asset\"}\n\nDedup note: Predicted fact asset_15 marked FP because gold g14 already matched another prediction.",
+    "in_scope": true,
+    "matched_ids": [],
+    "status": "FP"
+  }
+]

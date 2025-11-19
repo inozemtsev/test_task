@@ -1,0 +1,1011 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "home_1",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Primary residence in Westerville near St. Peter’s and Kroger roundabout",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Westerville, OH",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 515000,
+        "citation": "[00:03:19] CLIENT1: Value’s around five‑ten, five‑twenty.",
+        "call_time": "00:03:19",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 265000,
+        "citation": "[00:03:19] CLIENT1: We owe like two‑sixty, two‑seventy.",
+        "call_time": "00:03:19",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_interest_rate",
+        "type": "number",
+        "value": 2.875,
+        "citation": "[00:03:19] CLIENT1: Rate’s 2.875 fixed—thirty‑year.",
+        "call_time": "00:03:19",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "mortgage_lender",
+        "type": "string",
+        "value": "Rocket",
+        "citation": "[00:03:33] CLIENT1: Rocket services it.",
+        "call_time": "00:03:33",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 1900,
+        "citation": "[00:03:27] CLIENT2: Monthly with escrow lands around nineteen hundred—moves with reassessments.",
+        "call_time": "00:03:27",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "home_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"home_1\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Primary residence in Westerville near St. Peter’s and Kroger roundabout\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Westerville, OH\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 515000, \"citation\": \"[00:03:19] CLIENT1: Value’s around five‑ten, five‑twenty.\", \"call_time\": \"00:03:19\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 265000, \"citation\": \"[00:03:19] CLIENT1: We owe like two‑sixty, two‑seventy.\", \"call_time\": \"00:03:19\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_interest_rate\", \"type\": \"number\", \"value\": 2.875, \"citation\": \"[00:03:19] CLIENT1: Rate’s 2.875 fixed—thirty‑year.\", \"call_time\": \"00:03:19\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"mortgage_lender\", \"type\": \"string\", \"value\": \"Rocket\", \"citation\": \"[00:03:33] CLIENT1: Rocket services it.\", \"call_time\": \"00:03:33\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 1900, \"citation\": \"[00:03:27] CLIENT2: Monthly with escrow lands around nineteen hundred—moves with reassessments.\", \"call_time\": \"00:03:27\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"home_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1",
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "heloc_1",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "HELOC for kitchen renovation on primary residence",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Westerville, OH",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 20000,
+        "citation": "[00:03:37] CLIENT2: Small HELOC for the kitchen last year. Bank of America. Balance about twenty grand.",
+        "call_time": "00:03:37",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "interest_rate",
+        "type": "string",
+        "value": "Prime + 1%",
+        "citation": "[00:03:37] CLIENT2: Rate is variable—prime plus one, I think.",
+        "call_time": "00:03:37",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": null
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 250,
+        "citation": "[00:03:44] CLIENT1: We pay interest‑only—was like one‑forty, now around two‑forty after hikes. We just round to two‑fifty.",
+        "call_time": "00:03:44",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_lender",
+        "type": "string",
+        "value": "Bank of America",
+        "citation": "[00:03:37] CLIENT2: Small HELOC for the kitchen last year. Bank of America.",
+        "call_time": "00:03:37",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "heloc_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"heloc_1\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"HELOC for kitchen renovation on primary residence\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Westerville, OH\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 20000, \"citation\": \"[00:03:37] CLIENT2: Small HELOC for the kitchen last year. Bank of America. Balance about twenty grand.\", \"call_time\": \"00:03:37\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"interest_rate\", \"type\": \"string\", \"value\": \"Prime + 1%\", \"citation\": \"[00:03:37] CLIENT2: Rate is variable—prime plus one, I think.\", \"call_time\": \"00:03:37\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": null}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 250, \"citation\": \"[00:03:44] CLIENT1: We pay interest‑only—was like one‑forty, now around two‑forty after hikes. We just round to two‑fifty.\", \"call_time\": \"00:03:44\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_lender\", \"type\": \"string\", \"value\": \"Bank of America\", \"citation\": \"[00:03:37] CLIENT2: Small HELOC for the kitchen last year. Bank of America.\", \"call_time\": \"00:03:37\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"heloc_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "condo_sarasota",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "50% share of condo in Sarasota, Gulf Gate area, titled to Elizabeth pre-marriage",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Sarasota, FL (Gulf Gate area)",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 50,
+        "citation": "[00:04:32] CLIENT2: I have a condo share in Sarasota, Gulf Gate area. Fifty percent with my sister.",
+        "call_time": "00:04:32",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "[00:04:32] CLIENT2: No mortgage. It’s titled just to me—pre‑marriage asset.",
+        "call_time": "00:04:32",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 4000,
+        "citation": "[00:04:59] CLIENT2: After cleaners and HOA, net is like seven to nine grand a year total; then we split the rest, fifty‑fifty.",
+        "call_time": "00:04:59",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "condo_sarasota",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"condo_sarasota\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"50% share of condo in Sarasota, Gulf Gate area, titled to Elizabeth pre-marriage\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Sarasota, FL (Gulf Gate area)\", \"account_number\": null}, \"timeline\": [{\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 50, \"citation\": \"[00:04:32] CLIENT2: I have a condo share in Sarasota, Gulf Gate area. Fifty percent with my sister.\", \"call_time\": \"00:04:32\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"[00:04:32] CLIENT2: No mortgage. It’s titled just to me—pre‑marriage asset.\", \"call_time\": \"00:04:32\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 4000, \"citation\": \"[00:04:59] CLIENT2: After cleaners and HOA, net is like seven to nine grand a year total; then we split the rest, fifty‑fifty.\", \"call_time\": \"00:04:59\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"condo_sarasota\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "duplex_dayton",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "1/3 ownership in Dayton duplex via LLC with brother",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Dayton, OH",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 33.33,
+        "citation": "[00:05:31] CLIENT1: I own a third.",
+        "call_time": "00:05:31",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 90000,
+        "citation": "[00:05:31] CLIENT1: There’s a small mortgage left on the whole thing—under ninety.",
+        "call_time": "00:05:31",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 3600,
+        "citation": "[00:05:31] CLIENT1: My take after expenses is a few hundred a month.",
+        "call_time": "00:05:31",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "duplex_dayton",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"duplex_dayton\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"1/3 ownership in Dayton duplex via LLC with brother\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Dayton, OH\", \"account_number\": null}, \"timeline\": [{\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 33.33, \"citation\": \"[00:05:31] CLIENT1: I own a third.\", \"call_time\": \"00:05:31\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 90000, \"citation\": \"[00:05:31] CLIENT1: There’s a small mortgage left on the whole thing—under ninety.\", \"call_time\": \"00:05:31\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 3600, \"citation\": \"[00:05:31] CLIENT1: My take after expenses is a few hundred a month.\", \"call_time\": \"00:05:31\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"duplex_dayton\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "ally_hysa",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Ally Bank high-yield savings account (HYSA), joint, used for emergency, kid fund, rental reserve",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 45000,
+        "citation": "[00:05:56] CLIENT2: Ally Bank HYSA—joint. About forty‑five grand.",
+        "call_time": "00:05:56",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "ally_hysa",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"ally_hysa\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Ally Bank high-yield savings account (HYSA), joint, used for emergency, kid fund, rental reserve\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 45000, \"citation\": \"[00:05:56] CLIENT2: Ally Bank HYSA—joint. About forty‑five grand.\", \"call_time\": \"00:05:56\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"ally_hysa\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "joint_checking",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Joint checking account for household cash flow",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 10000,
+        "citation": "[00:06:03] CLIENT1: Joint checking floats eight to twelve grand; swings with kid weeks.",
+        "call_time": "00:06:03",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "joint_checking",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"joint_checking\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Joint checking account for household cash flow\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 10000, \"citation\": \"[00:06:03] CLIENT1: Joint checking floats eight to twelve grand; swings with kid weeks.\", \"call_time\": \"00:06:03\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"joint_checking\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "fifth_third_checking",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Fifth Third checking account for child support payments",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 3500,
+        "citation": "[00:06:06] CLIENT1: I’ve got a separate checking at Fifth Third for support—keeps it clean—balance around three to four grand.",
+        "call_time": "00:06:06",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "fifth_third_checking",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"fifth_third_checking\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Fifth Third checking account for child support payments\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 3500, \"citation\": \"[00:06:06] CLIENT1: I’ve got a separate checking at Fifth Third for support—keeps it clean—balance around three to four grand.\", \"call_time\": \"00:06:06\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"fifth_third_checking\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "credit_union_savings",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Credit union savings account, small, for emergencies/car repairs",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 2000,
+        "citation": "[00:06:12] CLIENT2: I’ve got a tiny credit union savings—about two grand.",
+        "call_time": "00:06:12",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "credit_union_savings",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"credit_union_savings\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Credit union savings account, small, for emergencies/car repairs\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 2000, \"citation\": \"[00:06:12] CLIENT2: I’ve got a tiny credit union savings—about two grand.\", \"call_time\": \"00:06:12\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"credit_union_savings\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "inherited_cd",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Inherited CD from aunt, matures July",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 32500,
+        "citation": "[00:06:19] CLIENT2: Inherited CD from my aunt. Matures in July. Should be like thirty‑two, thirty‑three thousand by then.",
+        "call_time": "00:06:19",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "inherited_cd",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"inherited_cd\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Inherited CD from aunt, matures July\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 32500, \"citation\": \"[00:06:19] CLIENT2: Inherited CD from my aunt. Matures in July. Should be like thirty‑two, thirty‑three thousand by then.\", \"call_time\": \"00:06:19\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"inherited_cd\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "honda_pilot",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Honda Pilot, paid off",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 16000,
+        "citation": "[00:06:35] CLIENT1: I’ve got a Honda Pilot—maybe sixteen grand if we sold it.",
+        "call_time": "00:06:35",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "honda_pilot",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"honda_pilot\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Honda Pilot, paid off\", \"asset_type\": {\"value\": \"other\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 16000, \"citation\": \"[00:06:35] CLIENT1: I’ve got a Honda Pilot—maybe sixteen grand if we sold it.\", \"call_time\": \"00:06:35\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"honda_pilot\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "subaru_crosstrek",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Subaru Crosstrek, paid off",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 11500,
+        "citation": "[00:06:39] CLIENT2: Subaru Crosstrek—eleven, twelve.",
+        "call_time": "00:06:39",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "subaru_crosstrek",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"subaru_crosstrek\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Subaru Crosstrek, paid off\", \"asset_type\": {\"value\": \"other\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 11500, \"citation\": \"[00:06:39] CLIENT2: Subaru Crosstrek—eleven, twelve.\", \"call_time\": \"00:06:39\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"subaru_crosstrek\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "vanguard_401k",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Current 401(k) at Vanguard, James’s workplace plan",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 235000,
+        "citation": "[00:07:24] CLIENT1: 401(k) at Vanguard. Been there eight years. Balance is in the low two hundreds—two‑thirty, two‑forty.",
+        "call_time": "00:07:24",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 6,
+        "citation": "[00:07:24] CLIENT1: I’m contributing six percent.",
+        "call_time": "00:07:24",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 4,
+        "citation": "[00:07:24] CLIENT1: Employer matches four if I do five.",
+        "call_time": "00:07:24",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "vanguard_401k",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"vanguard_401k\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Current 401(k) at Vanguard, James’s workplace plan\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 235000, \"citation\": \"[00:07:24] CLIENT1: 401(k) at Vanguard. Been there eight years. Balance is in the low two hundreds—two‑thirty, two‑forty.\", \"call_time\": \"00:07:24\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 6, \"citation\": \"[00:07:24] CLIENT1: I’m contributing six percent.\", \"call_time\": \"00:07:24\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 4, \"citation\": \"[00:07:24] CLIENT1: Employer matches four if I do five.\", \"call_time\": \"00:07:24\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"vanguard_401k\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "fidelity_ira",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Rollover IRA at Fidelity (old 401k)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 57500,
+        "citation": "[00:07:36] CLIENT1: Rollover IRA at Fidelity—old 401(k). Around fifty‑five to sixty.",
+        "call_time": "00:07:36",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 300,
+        "citation": "[00:07:36] CLIENT1: I auto in three hundred a month when cash allows.",
+        "call_time": "00:07:36",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "fidelity_ira",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"fidelity_ira\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Rollover IRA at Fidelity (old 401k)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 57500, \"citation\": \"[00:07:36] CLIENT1: Rollover IRA at Fidelity—old 401(k). Around fifty‑five to sixty.\", \"call_time\": \"00:07:36\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 300, \"citation\": \"[00:07:36] CLIENT1: I auto in three hundred a month when cash allows.\", \"call_time\": \"00:07:36\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"fidelity_ira\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "cash_balance_pension",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Old job cash balance pension plan (lump sum or annuity at 65)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 21000,
+        "citation": "[00:07:49] CLIENT1: Present value was low twenties last I saw.",
+        "call_time": "00:07:49",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "cash_balance_pension",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"cash_balance_pension\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Old job cash balance pension plan (lump sum or annuity at 65)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 21000, \"citation\": \"[00:07:49] CLIENT1: Present value was low twenties last I saw.\", \"call_time\": \"00:07:49\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"cash_balance_pension\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g15"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "prudential_annuity",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Prudential annuity from twenties, individual contract",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 65000,
+        "citation": "[00:07:49] CLIENT1: And I’ve got a Prudential annuity from my twenties—individual contract. Mid‑sixties value, I think.",
+        "call_time": "00:07:49",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "prudential_annuity",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"prudential_annuity\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Prudential annuity from twenties, individual contract\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 65000, \"citation\": \"[00:07:49] CLIENT1: And I’ve got a Prudential annuity from my twenties—individual contract. Mid‑sixties value, I think.\", \"call_time\": \"00:07:49\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"prudential_annuity\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g16"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "hospital_403b",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Current 403(b) at St. Peter’s Hospital",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 95000,
+        "citation": "[00:08:11] CLIENT2: Current 403(b) at the hospital, balance in the nineties—like ninety to a hundred.",
+        "call_time": "00:08:11",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 6,
+        "citation": "[00:01:47] CLIENT2: I contribute about six percent to the hospital plan to get the match.",
+        "call_time": "00:01:47",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 1.5,
+        "citation": "[00:01:47] CLIENT2: Think the part‑time match is like one and a half or two percent.",
+        "call_time": "00:01:47",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "hospital_403b",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"hospital_403b\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Current 403(b) at St. Peter’s Hospital\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 95000, \"citation\": \"[00:08:11] CLIENT2: Current 403(b) at the hospital, balance in the nineties—like ninety to a hundred.\", \"call_time\": \"00:08:11\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 6, \"citation\": \"[00:01:47] CLIENT2: I contribute about six percent to the hospital plan to get the match.\", \"call_time\": \"00:01:47\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 1.5, \"citation\": \"[00:01:47] CLIENT2: Think the part‑time match is like one and a half or two percent.\", \"call_time\": \"00:01:47\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"hospital_403b\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g17"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "brightpath_401k",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Old 401(k) from BrightPath (non-profit, left in 2019)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 59000,
+        "citation": "[00:08:11] CLIENT2: That one was seventy‑one at one point; I saw about sixty‑one last April, dipped to fifty‑nine last month.",
+        "call_time": "00:08:11",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "brightpath_401k",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"brightpath_401k\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Old 401(k) from BrightPath (non-profit, left in 2019)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 59000, \"citation\": \"[00:08:11] CLIENT2: That one was seventy‑one at one point; I saw about sixty‑one last April, dipped to fifty‑nine last month.\", \"call_time\": \"00:08:11\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"brightpath_401k\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g18"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "vanguard_ira_qdro",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Vanguard IRA (QDRO from ex’s plan)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 15000,
+        "citation": "[00:08:29] CLIENT2: I received a small piece from my ex’s plan—rolled to a Vanguard IRA. Low five figures.",
+        "call_time": "00:08:29",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "vanguard_ira_qdro",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"vanguard_ira_qdro\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Vanguard IRA (QDRO from ex’s plan)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 15000, \"citation\": \"[00:08:29] CLIENT2: I received a small piece from my ex’s plan—rolled to a Vanguard IRA. Low five figures.\", \"call_time\": \"00:08:29\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"vanguard_ira_qdro\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g19"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "529_james_son",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "529 plan for James’s son",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 18500,
+        "citation": "[00:08:55] CLIENT1: I’ve got a 529 for my son—eighteen, nineteen grand.",
+        "call_time": "00:08:55",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "529_james_son",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"529_james_son\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"529 plan for James’s son\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 18500, \"citation\": \"[00:08:55] CLIENT1: I’ve got a 529 for my son—eighteen, nineteen grand.\", \"call_time\": \"00:08:55\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"529_james_son\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g20"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "529_liz_daughter",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "529 plan for Elizabeth’s daughter",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 5500,
+        "citation": "[00:09:01] CLIENT2: I have two 529s—small—five or six grand each for my daughter and nephew.",
+        "call_time": "00:09:01",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "529_liz_daughter",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"529_liz_daughter\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"529 plan for Elizabeth’s daughter\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 5500, \"citation\": \"[00:09:01] CLIENT2: I have two 529s—small—five or six grand each for my daughter and nephew.\", \"call_time\": \"00:09:01\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"529_liz_daughter\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g21"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "529_liz_nephew",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "529 plan for Elizabeth’s nephew",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 5500,
+        "citation": "[00:09:01] CLIENT2: I have two 529s—small—five or six grand each for my daughter and nephew.",
+        "call_time": "00:09:01",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "529_liz_nephew",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"529_liz_nephew\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"529 plan for Elizabeth’s nephew\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 5500, \"citation\": \"[00:09:01] CLIENT2: I have two 529s—small—five or six grand each for my daughter and nephew.\", \"call_time\": \"00:09:01\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"529_liz_nephew\", \"fact_type\": \"asset\"}\n\nDedup note: Predicted fact 529_liz_nephew marked FP because gold g21 already matched another prediction.",
+    "in_scope": true,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "robinhood_taxable",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Robinhood taxable brokerage account, small, for play money",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 5000,
+        "citation": "[00:11:51] CLIENT1: Tiny Robinhood—four to six grand.",
+        "call_time": "00:11:51",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "robinhood_taxable",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"robinhood_taxable\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Robinhood taxable brokerage account, small, for play money\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 5000, \"citation\": \"[00:11:51] CLIENT1: Tiny Robinhood—four to six grand.\", \"call_time\": \"00:11:51\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"robinhood_taxable\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g23"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "hsa_james",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "HealthEquity HSA, James, half in cash, half in index",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 5500,
+        "citation": "[00:12:05] CLIENT1: HealthEquity—five to six grand. Half in cash, half in a broad index.",
+        "call_time": "00:12:05",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 200,
+        "citation": "[00:01:08] CLIENT1: HSA around a hundred a paycheck—so about two hundred a month.",
+        "call_time": "00:01:08",
+        "recorded_at": "2025-11-16T23:02:05",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "hsa_james",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"hsa_james\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"HealthEquity HSA, James, half in cash, half in index\", \"asset_type\": {\"value\": \"other\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 5500, \"citation\": \"[00:12:05] CLIENT1: HealthEquity—five to six grand. Half in cash, half in a broad index.\", \"call_time\": \"00:12:05\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 200, \"citation\": \"[00:01:08] CLIENT1: HSA around a hundred a paycheck—so about two hundred a month.\", \"call_time\": \"00:01:08\", \"recorded_at\": \"2025-11-16T23:02:05\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"hsa_james\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g24"
+    ],
+    "status": "TP"
+  }
+]

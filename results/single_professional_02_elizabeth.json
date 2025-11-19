@@ -1,0 +1,602 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "property_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "One-bedroom condo in downtown Denver",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Downtown Denver, CO",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "purchase_price",
+        "type": "number",
+        "value": 385000,
+        "citation": "CLIENT: [00:04:37] It was three eighty‑something. The contract price was three eighty‑five, plus closing costs and all that fun stuff.",
+        "call_time": "00:04:37",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 395000,
+        "citation": "CLIENT: [00:05:18] Oh, constantly. It usually shows high three hundreds—three ninety‑something. Sometimes it pops just over four hundred. So I’d say just under four hundred is realistic.",
+        "call_time": "00:05:18",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 311000,
+        "citation": "CLIENT: [00:05:02] Last statement was around three ten, three twelve. I put about seventy thousand down—mostly savings and then a small gift from my parents.",
+        "call_time": "00:05:02",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_interest_rate",
+        "type": "number",
+        "value": 5.6,
+        "citation": "CLIENT: [00:04:50] Yeah. Thirty‑year fixed, about five and a half percent. I want to say 5.6, but it’s in that range.",
+        "call_time": "00:04:50",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      },
+      {
+        "property": "monthly_mortgage_payment_pi",
+        "type": "number",
+        "value": 1700,
+        "citation": "CLIENT: [00:05:38] The mortgage part is about seventeen‑something. When you add HOA, taxes, insurance—it’s escrowed—it’s closer to twenty‑two, twenty‑three hundred a month.",
+        "call_time": "00:05:38",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_housing_cost_all_in",
+        "type": "number",
+        "value": 2250,
+        "citation": "CLIENT: [00:05:38] The mortgage part is about seventeen‑something. When you add HOA, taxes, insurance—it’s escrowed—it’s closer to twenty‑two, twenty‑three hundred a month.",
+        "call_time": "00:05:38",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "property_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"property_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"One-bedroom condo in downtown Denver\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Downtown Denver, CO\", \"account_number\": null}, \"timeline\": [{\"property\": \"purchase_price\", \"type\": \"number\", \"value\": 385000, \"citation\": \"CLIENT: [00:04:37] It was three eighty‑something. The contract price was three eighty‑five, plus closing costs and all that fun stuff.\", \"call_time\": \"00:04:37\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"current_value\", \"type\": \"number\", \"value\": 395000, \"citation\": \"CLIENT: [00:05:18] Oh, constantly. It usually shows high three hundreds—three ninety‑something. Sometimes it pops just over four hundred. So I’d say just under four hundred is realistic.\", \"call_time\": \"00:05:18\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 311000, \"citation\": \"CLIENT: [00:05:02] Last statement was around three ten, three twelve. I put about seventy thousand down—mostly savings and then a small gift from my parents.\", \"call_time\": \"00:05:02\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_interest_rate\", \"type\": \"number\", \"value\": 5.6, \"citation\": \"CLIENT: [00:04:50] Yeah. Thirty‑year fixed, about five and a half percent. I want to say 5.6, but it’s in that range.\", \"call_time\": \"00:04:50\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}, {\"property\": \"monthly_mortgage_payment_pi\", \"type\": \"number\", \"value\": 1700, \"citation\": \"CLIENT: [00:05:38] The mortgage part is about seventeen‑something. When you add HOA, taxes, insurance—it’s escrowed—it’s closer to twenty‑two, twenty‑three hundred a month.\", \"call_time\": \"00:05:38\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"monthly_housing_cost_all_in\", \"type\": \"number\", \"value\": 2250, \"citation\": \"CLIENT: [00:05:38] The mortgage part is about seventeen‑something. When you add HOA, taxes, insurance—it’s escrowed—it’s closer to twenty‑two, twenty‑three hundred a month.\", \"call_time\": \"00:05:38\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"property_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1",
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "cash_checking_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "FirstBank checking account",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "FirstBank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 2500,
+        "citation": "CLIENT: [00:06:19] I keep around two to three thousand in my checking at FirstBank. It floats depending on when the mortgage and card payments hit.",
+        "call_time": "00:06:19",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "cash_checking_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"cash_checking_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"FirstBank checking account\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"FirstBank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 2500, \"citation\": \"CLIENT: [00:06:19] I keep around two to three thousand in my checking at FirstBank. It floats depending on when the mortgage and card payments hit.\", \"call_time\": \"00:06:19\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"cash_checking_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "cash_savings_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Ally high-yield savings account",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Ally Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 15000,
+        "citation": "CLIENT: [00:06:29] Then I have a high‑yield savings at Ally. That’s around fifteen thousand.",
+        "call_time": "00:06:29",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "cash_savings_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"cash_savings_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Ally high-yield savings account\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Ally Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 15000, \"citation\": \"CLIENT: [00:06:29] Then I have a high‑yield savings at Ally. That’s around fifteen thousand.\", \"call_time\": \"00:06:29\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"cash_savings_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "cash_credit_union_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Credit union savings account (Fort Collins)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Credit union, Fort Collins",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 2000,
+        "citation": "CLIENT: [00:06:58] I’ve got about two grand sitting in a credit union account up in Fort Collins from college.",
+        "call_time": "00:06:58",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "cash_credit_union_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"cash_credit_union_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Credit union savings account (Fort Collins)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Credit union, Fort Collins\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 2000, \"citation\": \"CLIENT: [00:06:58] I’ve got about two grand sitting in a credit union account up in Fort Collins from college.\", \"call_time\": \"00:06:58\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"cash_credit_union_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "cash_cd_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Ally one-year CD",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Ally Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 5000,
+        "citation": "CLIENT: [00:06:58] And I opened a one‑year CD at Ally—five thousand at like four and a half percent. That matures next March.",
+        "call_time": "00:06:58",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "interest_rate",
+        "type": "number",
+        "value": 4.5,
+        "citation": "CLIENT: [00:06:58] And I opened a one‑year CD at Ally—five thousand at like four and a half percent. That matures next March.",
+        "call_time": "00:06:58",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "cash_cd_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"cash_cd_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Ally one-year CD\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Ally Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 5000, \"citation\": \"CLIENT: [00:06:58] And I opened a one‑year CD at Ally—five thousand at like four and a half percent. That matures next March.\", \"call_time\": \"00:06:58\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"interest_rate\", \"type\": \"number\", \"value\": 4.5, \"citation\": \"CLIENT: [00:06:58] And I opened a one‑year CD at Ally—five thousand at like four and a half percent. That matures next March.\", \"call_time\": \"00:06:58\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"cash_cd_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "investment_401k_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "BluePeak Analytics 401(k)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "BluePeak Analytics",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 45000,
+        "citation": "CLIENT: [00:07:34] Last time I logged in—maybe two weeks ago—it was mid‑forties. Like forty‑four, forty‑five thousand.",
+        "call_time": "00:07:34",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 0.08,
+        "citation": "CLIENT: [00:07:44] Eight percent of my salary. They match four if I do at least that, so I just set it to eight.",
+        "call_time": "00:07:44",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "fraction"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 0.04,
+        "citation": "CLIENT: [00:07:44] Eight percent of my salary. They match four if I do at least that, so I just set it to eight.",
+        "call_time": "00:07:44",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "fraction"
+      }
+    ],
+    "id": "investment_401k_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"investment_401k_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"BluePeak Analytics 401(k)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"BluePeak Analytics\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 45000, \"citation\": \"CLIENT: [00:07:34] Last time I logged in—maybe two weeks ago—it was mid‑forties. Like forty‑four, forty‑five thousand.\", \"call_time\": \"00:07:34\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 0.08, \"citation\": \"CLIENT: [00:07:44] Eight percent of my salary. They match four if I do at least that, so I just set it to eight.\", \"call_time\": \"00:07:44\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"fraction\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 0.04, \"citation\": \"CLIENT: [00:07:44] Eight percent of my salary. They match four if I do at least that, so I just set it to eight.\", \"call_time\": \"00:07:44\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"fraction\"}], \"id\": \"investment_401k_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "investment_403b_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Nonprofit 403(b) from first job",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Nonprofit, Boulder",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 8500,
+        "citation": "CLIENT: [00:08:09] Yeah. My first job was at a nonprofit in Boulder. They had a 403(b). That one’s small—like eight or nine thousand.",
+        "call_time": "00:08:09",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "investment_403b_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"investment_403b_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Nonprofit 403(b) from first job\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Nonprofit, Boulder\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 8500, \"citation\": \"CLIENT: [00:08:09] Yeah. My first job was at a nonprofit in Boulder. They had a 403(b). That one’s small—like eight or nine thousand.\", \"call_time\": \"00:08:09\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"investment_403b_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "investment_ira_rollover_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Vanguard rollover IRA (from Northbridge 401k)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 12500,
+        "citation": "CLIENT: [00:08:25] I had a 401(k) at my last company before BluePeak—Northbridge Digital Media in Chicago. When I left, I rolled that into a rollover IRA at Vanguard. That’s around, I think, twelve or thirteen thousand now.",
+        "call_time": "00:08:25",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "investment_ira_rollover_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"investment_ira_rollover_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Vanguard rollover IRA (from Northbridge 401k)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 12500, \"citation\": \"CLIENT: [00:08:25] I had a 401(k) at my last company before BluePeak—Northbridge Digital Media in Chicago. When I left, I rolled that into a rollover IRA at Vanguard. That’s around, I think, twelve or thirteen thousand now.\", \"call_time\": \"00:08:25\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"investment_ira_rollover_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "investment_roth_ira_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Vanguard Roth IRA",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 9000,
+        "citation": "CLIENT: [00:08:50] Yeah, I opened a Roth IRA at Vanguard a couple years ago. I’ve been putting in like three to four grand a year when I can. I think it’s around nine thousand.",
+        "call_time": "00:08:50",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 200,
+        "citation": "CLIENT: [00:09:10] I set up a two hundred‑dollar monthly transfer this year. Before that it was more random—whenever I had extra.",
+        "call_time": "00:09:10",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "investment_roth_ira_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"investment_roth_ira_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Vanguard Roth IRA\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 9000, \"citation\": \"CLIENT: [00:08:50] Yeah, I opened a Roth IRA at Vanguard a couple years ago. I’ve been putting in like three to four grand a year when I can. I think it’s around nine thousand.\", \"call_time\": \"00:08:50\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 200, \"citation\": \"CLIENT: [00:09:10] I set up a two hundred‑dollar monthly transfer this year. Before that it was more random—whenever I had extra.\", \"call_time\": \"00:09:10\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"investment_roth_ira_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "investment_brokerage_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Robinhood brokerage account",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Robinhood",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 6000,
+        "citation": "CLIENT: [00:09:23] Yeah, I have a Robinhood account. That’s my “fun money” investing. About six thousand in there—six and a half on a good day.",
+        "call_time": "00:09:23",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "investment_brokerage_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"investment_brokerage_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Robinhood brokerage account\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Robinhood\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 6000, \"citation\": \"CLIENT: [00:09:23] Yeah, I have a Robinhood account. That’s my “fun money” investing. About six thousand in there—six and a half on a good day.\", \"call_time\": \"00:09:23\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"investment_brokerage_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "investment_crypto_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Cryptocurrency holdings (Ethereum and Bitcoin)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 1000,
+        "citation": "CLIENT: [00:09:38] [laughs] A tiny bit. One Ethereum and some random bits of Bitcoin. Maybe a thousand bucks total now.",
+        "call_time": "00:09:38",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "investment_crypto_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"investment_crypto_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Cryptocurrency holdings (Ethereum and Bitcoin)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 1000, \"citation\": \"CLIENT: [00:09:38] [laughs] A tiny bit. One Ethereum and some random bits of Bitcoin. Maybe a thousand bucks total now.\", \"call_time\": \"00:09:38\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"investment_crypto_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "hsa_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Fidelity HSA",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Fidelity",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 2000,
+        "citation": "CLIENT: [00:09:54] Yeah, I’m on a high‑deductible plan through work, so I have an HSA with Fidelity. There’s about two thousand in it.",
+        "call_time": "00:09:54",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "hsa_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"hsa_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Fidelity HSA\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Fidelity\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 2000, \"citation\": \"CLIENT: [00:09:54] Yeah, I’m on a high‑deductible plan through work, so I have an HSA with Fidelity. There’s about two thousand in it.\", \"call_time\": \"00:09:54\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"hsa_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "vehicle_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "2016 Toyota Corolla, paid off",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 10500,
+        "citation": "CLIENT: [00:10:14] I have a 2016 Toyota Corolla, paid off. I think it’s worth maybe ten or eleven thousand.",
+        "call_time": "00:10:14",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "vehicle_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"vehicle_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"2016 Toyota Corolla, paid off\", \"asset_type\": {\"value\": \"other\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 10500, \"citation\": \"CLIENT: [00:10:14] I have a 2016 Toyota Corolla, paid off. I think it’s worth maybe ten or eleven thousand.\", \"call_time\": \"00:10:14\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"vehicle_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "rsu_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "BluePeak Analytics RSUs (vested and unvested)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "BluePeak Analytics",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 5000,
+        "citation": "CLIENT: [00:10:28] Yeah. When I got promoted to senior PM, they gave me a grant that was like twenty‑something thousand at the time. It vests over four years. One chunk vested in September, so I think I have around five grand of actual shares that are mine; the rest is still unvested.",
+        "call_time": "00:10:28",
+        "recorded_at": "2025-11-17T20:45:15Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "rsu_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"rsu_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"BluePeak Analytics RSUs (vested and unvested)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"BluePeak Analytics\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 5000, \"citation\": \"CLIENT: [00:10:28] Yeah. When I got promoted to senior PM, they gave me a grant that was like twenty‑something thousand at the time. It vests over four years. One chunk vested in September, so I think I have around five grand of actual shares that are mine; the rest is still unvested.\", \"call_time\": \"00:10:28\", \"recorded_at\": \"2025-11-17T20:45:15Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"rsu_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g15"
+    ],
+    "status": "TP"
+  }
+]

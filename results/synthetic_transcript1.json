@@ -1,0 +1,355 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "prudential_annuity",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Prudential annuity",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": "6921200"
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 59000,
+        "citation": "CLIENT1: [00:41:55] And now and now it’s 59,000 and not 61 and not 71.",
+        "call_time": "00:41:55",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 61000,
+        "citation": "CLIENT1: [00:41:55] And now and now it’s 59,000 and not 61 and not 71.",
+        "call_time": "00:41:55",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 71000,
+        "citation": "CLIENT1: [00:41:55] And now and now it’s 59,000 and not 61 and not 71.",
+        "call_time": "00:41:55",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 8000,
+        "citation": "CLIENT1: [00:41:09] In January 23. So that’s two years ago. This was going to give me 8000 lump sum and 2007. No.",
+        "call_time": "00:41:09",
+        "recorded_at": null,
+        "value_as_of_date": "2023-01-01",
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 9000,
+        "citation": "CLIENT1: [00:41:12] So 9000 plus. Three grand? Three grand.",
+        "call_time": "00:41:12",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 1400,
+        "citation": "CLIENT1: [00:15:02] Well, that that one is the one that’s concerning me most, because I know it’s gone from a forecast of 2400 a year to 1400, and then it’s gone. Back up, back down, back up, back down.",
+        "call_time": "00:15:02",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 2400,
+        "citation": "CLIENT1: [00:15:02] Well, that that one is the one that’s concerning me most, because I know it’s gone from a forecast of 2400 a year to 1400, and then it’s gone. Back up, back down, back up, back down.",
+        "call_time": "00:15:02",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "prudential_annuity",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"prudential_annuity\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Prudential annuity\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": \"6921200\"}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 59000, \"citation\": \"CLIENT1: [00:41:55] And now and now it’s 59,000 and not 61 and not 71.\", \"call_time\": \"00:41:55\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"current_value\", \"type\": \"number\", \"value\": 61000, \"citation\": \"CLIENT1: [00:41:55] And now and now it’s 59,000 and not 61 and not 71.\", \"call_time\": \"00:41:55\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"current_value\", \"type\": \"number\", \"value\": 71000, \"citation\": \"CLIENT1: [00:41:55] And now and now it’s 59,000 and not 61 and not 71.\", \"call_time\": \"00:41:55\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"current_value\", \"type\": \"number\", \"value\": 8000, \"citation\": \"CLIENT1: [00:41:09] In January 23. So that’s two years ago. This was going to give me 8000 lump sum and 2007. No.\", \"call_time\": \"00:41:09\", \"recorded_at\": null, \"value_as_of_date\": \"2023-01-01\", \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"current_value\", \"type\": \"number\", \"value\": 9000, \"citation\": \"CLIENT1: [00:41:12] So 9000 plus. Three grand? Three grand.\", \"call_time\": \"00:41:12\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 1400, \"citation\": \"CLIENT1: [00:15:02] Well, that that one is the one that’s concerning me most, because I know it’s gone from a forecast of 2400 a year to 1400, and then it’s gone. Back up, back down, back up, back down.\", \"call_time\": \"00:15:02\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 2400, \"citation\": \"CLIENT1: [00:15:02] Well, that that one is the one that’s concerning me most, because I know it’s gone from a forecast of 2400 a year to 1400, and then it’s gone. Back up, back down, back up, back down.\", \"call_time\": \"00:15:02\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"prudential_annuity\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "vanguard_401k",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Workplace Vanguard 401(k)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 33000,
+        "citation": "CLIENT1: [00:00:17] And that the valuation on that today is 33 thousand.",
+        "call_time": "00:00:17",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 0.05,
+        "citation": "CLIENT1: [00:18:09] Okay. But I still pay 5% and my employer pays three.",
+        "call_time": "00:18:09",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "fraction"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 0.03,
+        "citation": "CLIENT1: [00:18:09] Okay. But I still pay 5% and my employer pays three.",
+        "call_time": "00:18:09",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "fraction"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 28.5,
+        "citation": "CLIENT1: [00:00:31] If you want to know about payments in this one I pay $28.50.",
+        "call_time": "00:00:31",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "vanguard_401k",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"vanguard_401k\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Workplace Vanguard 401(k)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 33000, \"citation\": \"CLIENT1: [00:00:17] And that the valuation on that today is 33 thousand.\", \"call_time\": \"00:00:17\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 0.05, \"citation\": \"CLIENT1: [00:18:09] Okay. But I still pay 5% and my employer pays three.\", \"call_time\": \"00:18:09\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"fraction\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 0.03, \"citation\": \"CLIENT1: [00:18:09] Okay. But I still pay 5% and my employer pays three.\", \"call_time\": \"00:18:09\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"fraction\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 28.5, \"citation\": \"CLIENT1: [00:00:31] If you want to know about payments in this one I pay $28.50.\", \"call_time\": \"00:00:31\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"vanguard_401k\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "fidelity_ira",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Fidelity IRA (rollover from Summit and Oak Financial, old 401k)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": true,
+        "citation": "CLIENT1: [00:18:10] Into that. And the Fidelity IRA one. I pay $300 a month into.",
+        "call_time": "00:18:10",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 300,
+        "citation": "CLIENT1: [00:18:10] Into that. And the Fidelity IRA one. I pay $300 a month into.",
+        "call_time": "00:18:10",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "fidelity_ira",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"fidelity_ira\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Fidelity IRA (rollover from Summit and Oak Financial, old 401k)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": true, \"citation\": \"CLIENT1: [00:18:10] Into that. And the Fidelity IRA one. I pay $300 a month into.\", \"call_time\": \"00:18:10\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 300, \"citation\": \"CLIENT1: [00:18:10] Into that. And the Fidelity IRA one. I pay $300 a month into.\", \"call_time\": \"00:18:10\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"fidelity_ira\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "jennifer_401k",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Jennifer's company 401(k)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 10000,
+        "citation": "CLIENT1: [00:08:17] No. So Jennifer’s account. She she hasn’t basically got a retirement account. She’s got. Well, she will have $10000 in a company four oh one kay, which we we intend just to take and pay the tax on in the first.",
+        "call_time": "00:08:17",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "jennifer_401k",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"jennifer_401k\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Jennifer's company 401(k)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 10000, \"citation\": \"CLIENT1: [00:08:17] No. So Jennifer’s account. She she hasn’t basically got a retirement account. She’s got. Well, she will have $10000 in a company four oh one kay, which we we intend just to take and pay the tax on in the first.\", \"call_time\": \"00:08:17\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"jennifer_401k\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "jennifer_inheritance",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Jennifer's inheritance (locked until July, to be used for Roth IRA and high-yield savings)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 33000,
+        "citation": "CLIENT2: [00:13:33] It’ll be about 33 by the time July.",
+        "call_time": "00:13:33",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "jennifer_inheritance",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"jennifer_inheritance\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Jennifer's inheritance (locked until July, to be used for Roth IRA and high-yield savings)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 33000, \"citation\": \"CLIENT2: [00:13:33] It’ll be about 33 by the time July.\", \"call_time\": \"00:13:33\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"jennifer_inheritance\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5",
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "sarasota_condo",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "50% share in vacation condo in Sarasota, Florida",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Sarasota, Florida",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 50,
+        "citation": "CLIENT1: [00:05:57] We also have 50% share in a vacation condo in Sarasota, Florida.",
+        "call_time": "00:05:57",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT1: [00:06:12] Yeah. Yeah. There’s no mortgage on it. It’s just.",
+        "call_time": "00:06:12",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "sarasota_condo",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"sarasota_condo\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"50% share in vacation condo in Sarasota, Florida\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Sarasota, Florida\", \"account_number\": null}, \"timeline\": [{\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 50, \"citation\": \"CLIENT1: [00:05:57] We also have 50% share in a vacation condo in Sarasota, Florida.\", \"call_time\": \"00:05:57\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT1: [00:06:12] Yeah. Yeah. There’s no mortgage on it. It’s just.\", \"call_time\": \"00:06:12\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"sarasota_condo\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  }
+]

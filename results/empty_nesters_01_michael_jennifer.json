@@ -1,0 +1,783 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "home_spokane",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Three-bedroom ranch just outside Spokane, owned for 22 years.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Just outside Spokane, WA",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 460000,
+        "citation": "CLIENT2: [00:06:36] Our neighbor’s house—very similar to ours—sold in May for about four eighty. Ours needs a little love, so I’d guess maybe four fifty to four seventy.",
+        "call_time": "00:06:36",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 23500,
+        "citation": "CLIENT1: [00:06:17] Last time I looked it was in the low twenties. Maybe twenty‑three, twenty‑four thousand left.",
+        "call_time": "00:06:17",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 900,
+        "citation": "CLIENT2: [00:06:05] The payment is about nine hundred a month, and that includes taxes and insurance in the escrow.",
+        "call_time": "00:06:05",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_housing_cost_all_in",
+        "type": "number",
+        "value": 1600,
+        "citation": "CLIENT1: [00:07:13] So all the non‑negotiable house stuff, we’re probably at fifteen hundred, maybe sixteen, seventeen in a cold month.",
+        "call_time": "00:07:13",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "purchase_price",
+        "type": null,
+        "value": null,
+        "citation": null,
+        "call_time": null,
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": null,
+        "unit": null
+      }
+    ],
+    "id": "home_spokane",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"home_spokane\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Three-bedroom ranch just outside Spokane, owned for 22 years.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Just outside Spokane, WA\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 460000, \"citation\": \"CLIENT2: [00:06:36] Our neighbor’s house—very similar to ours—sold in May for about four eighty. Ours needs a little love, so I’d guess maybe four fifty to four seventy.\", \"call_time\": \"00:06:36\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 23500, \"citation\": \"CLIENT1: [00:06:17] Last time I looked it was in the low twenties. Maybe twenty‑three, twenty‑four thousand left.\", \"call_time\": \"00:06:17\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 900, \"citation\": \"CLIENT2: [00:06:05] The payment is about nine hundred a month, and that includes taxes and insurance in the escrow.\", \"call_time\": \"00:06:05\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"monthly_housing_cost_all_in\", \"type\": \"number\", \"value\": 1600, \"citation\": \"CLIENT1: [00:07:13] So all the non‑negotiable house stuff, we’re probably at fifteen hundred, maybe sixteen, seventeen in a cold month.\", \"call_time\": \"00:07:13\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"purchase_price\", \"type\": null, \"value\": null, \"citation\": null, \"call_time\": null, \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": null, \"unit\": null}], \"id\": \"home_spokane\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "cabin_mccall",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "A-frame cabin near McCall, Idaho, co-owned with brother and sister (inherited from parents).",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Near McCall, Idaho",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 225000,
+        "citation": "CLIENT1: [00:11:03] A realtor friend up there said maybe two twenty, two thirty total.",
+        "call_time": "00:11:03",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 33.33,
+        "citation": "CLIENT2: [00:10:40] I own it with my brother and sister.",
+        "call_time": "00:10:40",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      },
+      {
+        "property": "estimated_value_of_share",
+        "type": "number",
+        "value": 75000,
+        "citation": "CLIENT1: [00:11:03] So our share, after costs, maybe around seventy‑five thousand.",
+        "call_time": "00:11:03",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 3500,
+        "citation": "CLIENT2: [00:11:15] It probably brings in three to four thousand a year after cleaning. That mostly covers taxes and utilities.",
+        "call_time": "00:11:15",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "cabin_mccall",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"cabin_mccall\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"A-frame cabin near McCall, Idaho, co-owned with brother and sister (inherited from parents).\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Near McCall, Idaho\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 225000, \"citation\": \"CLIENT1: [00:11:03] A realtor friend up there said maybe two twenty, two thirty total.\", \"call_time\": \"00:11:03\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 33.33, \"citation\": \"CLIENT2: [00:10:40] I own it with my brother and sister.\", \"call_time\": \"00:10:40\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}, {\"property\": \"estimated_value_of_share\", \"type\": \"number\", \"value\": 75000, \"citation\": \"CLIENT1: [00:11:03] So our share, after costs, maybe around seventy‑five thousand.\", \"call_time\": \"00:11:03\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 3500, \"citation\": \"CLIENT2: [00:11:15] It probably brings in three to four thousand a year after cleaning. That mostly covers taxes and utilities.\", \"call_time\": \"00:11:15\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"cabin_mccall\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "checking_columbia",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Main checking account at Columbia Bank.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Columbia Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 5500,
+        "citation": "CLIENT1: [00:11:30] Our main checking at Columbia Bank usually sits around five to six thousand.",
+        "call_time": "00:11:30",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "checking_columbia",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"checking_columbia\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Main checking account at Columbia Bank.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Columbia Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 5500, \"citation\": \"CLIENT1: [00:11:30] Our main checking at Columbia Bank usually sits around five to six thousand.\", \"call_time\": \"00:11:30\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"checking_columbia\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "savings_columbia",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Savings account at Columbia Bank.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Columbia Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 10000,
+        "citation": "CLIENT2: [00:11:34] Then a savings there with about ten.",
+        "call_time": "00:11:34",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "savings_columbia",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"savings_columbia\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Savings account at Columbia Bank.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Columbia Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 10000, \"citation\": \"CLIENT2: [00:11:34] Then a savings there with about ten.\", \"call_time\": \"00:11:34\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"savings_columbia\", \"fact_type\": \"asset\"}\n\nDedup note: Predicted fact savings_columbia marked FP because gold g3 already matched another prediction.",
+    "in_scope": true,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "savings_ally",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Online high-yield savings account at Ally.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Ally Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 11000,
+        "citation": "CLIENT1: [00:11:37] And we’ve got an online high‑yield account at Ally with maybe another ten to twelve.",
+        "call_time": "00:11:37",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "savings_ally",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"savings_ally\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Online high-yield savings account at Ally.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Ally Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 11000, \"citation\": \"CLIENT1: [00:11:37] And we’ve got an online high‑yield account at Ally with maybe another ten to twelve.\", \"call_time\": \"00:11:37\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"savings_ally\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4",
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "cd_stcu",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "CD at Spokane Teachers Credit Union, inherited from aunt, matures March 2026.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Spokane Teachers Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 36000,
+        "citation": "CLIENT2: [00:11:52] ...there’s about thirty‑six left in a CD at Spokane Teachers Credit Union. It’s locked until March 2026.",
+        "call_time": "00:11:52",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "cd_stcu",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"cd_stcu\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"CD at Spokane Teachers Credit Union, inherited from aunt, matures March 2026.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Spokane Teachers Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 36000, \"citation\": \"CLIENT2: [00:11:52] ...there’s about thirty‑six left in a CD at Spokane Teachers Credit Union. It’s locked until March 2026.\", \"call_time\": \"00:11:52\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"cd_stcu\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "401k_fidelity",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "401(k) through GreenLine Packaging, held at Fidelity, invested in Fidelity 2030 target-date fund.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Fidelity",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 355000,
+        "citation": "CLIENT1: [00:12:30] My 401(k) through GreenLine. It’s with Fidelity. Last I checked it was around three fifty, three sixty thousand.",
+        "call_time": "00:12:30",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 8,
+        "citation": "CLIENT1: [00:12:41] I bumped it up last year—I’m at 8% now.",
+        "call_time": "00:12:41",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 4,
+        "citation": "CLIENT1: [00:12:41] The company matches half of that, up to 4%.",
+        "call_time": "00:12:41",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "401k_fidelity",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"401k_fidelity\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"401(k) through GreenLine Packaging, held at Fidelity, invested in Fidelity 2030 target-date fund.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Fidelity\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 355000, \"citation\": \"CLIENT1: [00:12:30] My 401(k) through GreenLine. It’s with Fidelity. Last I checked it was around three fifty, three sixty thousand.\", \"call_time\": \"00:12:30\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 8, \"citation\": \"CLIENT1: [00:12:41] I bumped it up last year—I’m at 8% now.\", \"call_time\": \"00:12:41\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 4, \"citation\": \"CLIENT1: [00:12:41] The company matches half of that, up to 4%.\", \"call_time\": \"00:12:41\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"401k_fidelity\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "403b_trowe",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "403(b) from St. Mary’s Hospital, held at T. Rowe Price.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "T. Rowe Price",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 212500,
+        "citation": "CLIENT2: [00:13:23] Low twos—maybe two ten, two fifteen.",
+        "call_time": "00:13:23",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "403b_trowe",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"403b_trowe\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"403(b) from St. Mary’s Hospital, held at T. Rowe Price.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"T. Rowe Price\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 212500, \"citation\": \"CLIENT2: [00:13:23] Low twos—maybe two ten, two fifteen.\", \"call_time\": \"00:13:23\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"403b_trowe\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "403b_school",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "403(b) at Lakeside Middle School, small balance, started recently.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Lakeside Middle School",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 6,
+        "citation": "CLIENT2: [00:13:45] Six percent of my pay. I was thinking of going to nine this fall now that tuition bills are gone.",
+        "call_time": "00:13:45",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "403b_school",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"403b_school\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"403(b) at Lakeside Middle School, small balance, started recently.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Lakeside Middle School\", \"account_number\": null}, \"timeline\": [{\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 6, \"citation\": \"CLIENT2: [00:13:45] Six percent of my pay. I was thinking of going to nine this fall now that tuition bills are gone.\", \"call_time\": \"00:13:45\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"403b_school\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "state_pension_school",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "State pension from school job (Lakeside Middle School).",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Washington State",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 1500,
+        "citation": "CLIENT2: [00:13:59] The last estimate I saw, if I went back to full‑time for a few more years, was around fifteen hundred a month at sixty‑five.",
+        "call_time": "00:13:59",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD/month"
+      }
+    ],
+    "id": "state_pension_school",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"state_pension_school\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"State pension from school job (Lakeside Middle School).\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Washington State\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 1500, \"citation\": \"CLIENT2: [00:13:59] The last estimate I saw, if I went back to full‑time for a few more years, was around fifteen hundred a month at sixty‑five.\", \"call_time\": \"00:13:59\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD/month\"}], \"id\": \"state_pension_school\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "roth_vanguard_jennifer",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Roth IRA at Vanguard.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 40000,
+        "citation": "CLIENT2: [00:14:38] Mine’s about forty thousand.",
+        "call_time": "00:14:38",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 400,
+        "citation": "CLIENT2: [00:14:47] In January I bumped mine to four hundred a month.",
+        "call_time": "00:14:47",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "roth_vanguard_jennifer",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"roth_vanguard_jennifer\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Roth IRA at Vanguard.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 40000, \"citation\": \"CLIENT2: [00:14:38] Mine’s about forty thousand.\", \"call_time\": \"00:14:38\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 400, \"citation\": \"CLIENT2: [00:14:47] In January I bumped mine to four hundred a month.\", \"call_time\": \"00:14:47\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"roth_vanguard_jennifer\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "roth_vanguard_michael",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Roth IRA at Vanguard.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 35000,
+        "citation": "CLIENT1: [00:14:41] Mine’s around thirty‑five.",
+        "call_time": "00:14:41",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "roth_vanguard_michael",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"roth_vanguard_michael\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Roth IRA at Vanguard.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 35000, \"citation\": \"CLIENT1: [00:14:41] Mine’s around thirty‑five.\", \"call_time\": \"00:14:41\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"roth_vanguard_michael\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "ira_schwab_jennifer",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Traditional IRA at Schwab, rolled over from old 401(k).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Schwab",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 37500,
+        "citation": "CLIENT2: [00:15:42] It’s thirty‑five, maybe forty thousand.",
+        "call_time": "00:15:42",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "ira_schwab_jennifer",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"ira_schwab_jennifer\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Traditional IRA at Schwab, rolled over from old 401(k).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Schwab\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 37500, \"citation\": \"CLIENT2: [00:15:42] It’s thirty‑five, maybe forty thousand.\", \"call_time\": \"00:15:42\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"ira_schwab_jennifer\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "ira_cd_wellsfargo",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "IRA CD at Wells Fargo.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Wells Fargo",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 20000,
+        "citation": "CLIENT2: [00:16:20] There’s a small IRA CD at Wells Fargo, about twenty thousand.",
+        "call_time": "00:16:20",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "ira_cd_wellsfargo",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"ira_cd_wellsfargo\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"IRA CD at Wells Fargo.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Wells Fargo\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 20000, \"citation\": \"CLIENT2: [00:16:20] There’s a small IRA CD at Wells Fargo, about twenty thousand.\", \"call_time\": \"00:16:20\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"ira_cd_wellsfargo\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g16"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "joint_schwab_brokerage",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Joint investment/brokerage account at Schwab (formerly TD Ameritrade).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Schwab",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 85000,
+        "citation": "CLIENT1: [00:16:42] Eighty to ninety thousand. It bounces around.",
+        "call_time": "00:16:42",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "joint_schwab_brokerage",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"joint_schwab_brokerage\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Joint investment/brokerage account at Schwab (formerly TD Ameritrade).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Schwab\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 85000, \"citation\": \"CLIENT1: [00:16:42] Eighty to ninety thousand. It bounces around.\", \"call_time\": \"00:16:42\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"joint_schwab_brokerage\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g17"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "espp_greenline",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Employee stock purchase plan (ESPP) at GreenLine Packaging, held at Morgan Stanley/E*TRADE.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Morgan Stanley/E*TRADE",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 15000,
+        "citation": "CLIENT1: [00:17:10] It’s maybe fifteen thousand total now.",
+        "call_time": "00:17:10",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 3,
+        "citation": "CLIENT1: [00:17:10] three percent of my paycheck goes to company stock at a discount.",
+        "call_time": "00:17:10",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "espp_greenline",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"espp_greenline\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Employee stock purchase plan (ESPP) at GreenLine Packaging, held at Morgan Stanley/E*TRADE.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Morgan Stanley/E*TRADE\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 15000, \"citation\": \"CLIENT1: [00:17:10] It’s maybe fifteen thousand total now.\", \"call_time\": \"00:17:10\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 3, \"citation\": \"CLIENT1: [00:17:10] three percent of my paycheck goes to company stock at a discount.\", \"call_time\": \"00:17:10\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"espp_greenline\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g18"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "hsa_school",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Health Savings Account (HSA) through school district, invested in index fund.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "School district",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 8500,
+        "citation": "CLIENT2: [00:17:31] I have an HSA through the school district. It’s invested in an index fund—about eight or nine thousand in there.",
+        "call_time": "00:17:31",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "hsa_school",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"hsa_school\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Health Savings Account (HSA) through school district, invested in index fund.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"School district\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 8500, \"citation\": \"CLIENT2: [00:17:31] I have an HSA through the school district. It’s invested in an index fund—about eight or nine thousand in there.\", \"call_time\": \"00:17:31\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"hsa_school\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g19"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "pension_midstate",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Traditional pension from MidState Telecom job in the 1990s.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "MidState Telecom",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 450,
+        "citation": "CLIENT1: [00:15:17] Around four fifty a month at sixty‑five.",
+        "call_time": "00:15:17",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD/month"
+      },
+      {
+        "property": "estimated_value_of_share",
+        "type": "number",
+        "value": 75000,
+        "citation": "CLIENT1: [00:15:17] There was also an option for a lump sum—somewhere in the seventy to eighty thousand range if I took it early.",
+        "call_time": "00:15:17",
+        "recorded_at": "2025-11-17T19:29:59",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "pension_midstate",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"pension_midstate\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Traditional pension from MidState Telecom job in the 1990s.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"MidState Telecom\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 450, \"citation\": \"CLIENT1: [00:15:17] Around four fifty a month at sixty‑five.\", \"call_time\": \"00:15:17\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD/month\"}, {\"property\": \"estimated_value_of_share\", \"type\": \"number\", \"value\": 75000, \"citation\": \"CLIENT1: [00:15:17] There was also an option for a lump sum—somewhere in the seventy to eighty thousand range if I took it early.\", \"call_time\": \"00:15:17\", \"recorded_at\": \"2025-11-17T19:29:59\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"pension_midstate\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  }
+]

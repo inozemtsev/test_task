@@ -1,0 +1,400 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "home_las_cruces",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Primary residence: small one-story, three-bedroom stucco house in Las Cruces, NM, east side near the old high school.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Las Cruces, New Mexico, east side near the old high school",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 325000,
+        "citation": "CLIENT: [00:04:49] I looked on Zillow. It said maybe three hundred to three‑fifty, something like that.",
+        "call_time": "00:04:49",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "purchase_price",
+        "type": "number",
+        "value": null,
+        "citation": null,
+        "call_time": null,
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": null,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT: [00:04:35] No mortgage. My husband and I paid it off around 2008. It’s been free and clear for a while.",
+        "call_time": "00:04:35",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "home_las_cruces",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"home_las_cruces\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Primary residence: small one-story, three-bedroom stucco house in Las Cruces, NM, east side near the old high school.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Las Cruces, New Mexico, east side near the old high school\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 325000, \"citation\": \"CLIENT: [00:04:49] I looked on Zillow. It said maybe three hundred to three‑fifty, something like that.\", \"call_time\": \"00:04:49\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"purchase_price\", \"type\": \"number\", \"value\": null, \"citation\": null, \"call_time\": null, \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": null, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT: [00:04:35] No mortgage. My husband and I paid it off around 2008. It’s been free and clear for a while.\", \"call_time\": \"00:04:35\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"home_las_cruces\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "flagstaff_condo",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "50% ownership of a two-bedroom condo near the university in Flagstaff, AZ, inherited from sister. Niece owns the other half.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Flagstaff, Arizona, near the university",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 50,
+        "citation": "CLIENT: [00:05:41] Half a condo in Flagstaff—who owns the other half? CLIENT: [00:05:45] My niece.",
+        "call_time": "00:05:41",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 210000,
+        "citation": "CLIENT: [00:06:08] The realtor said maybe two hundred, two‑twenty.",
+        "call_time": "00:06:08",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "estimated_value_of_share",
+        "type": "number",
+        "value": 105000,
+        "citation": "CLIENT: [00:06:08] The realtor said maybe two hundred, two‑twenty. So my half would be around a hundred or so.",
+        "call_time": "00:06:08",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT: [00:05:56] It’s paid off. My sister was very proud of that.",
+        "call_time": "00:05:56",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 3600,
+        "citation": "CLIENT: [00:06:20] Total rent is six or seven hundred a month, so I see about three hundred‑ish.",
+        "call_time": "00:06:20",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "flagstaff_condo",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"flagstaff_condo\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"50% ownership of a two-bedroom condo near the university in Flagstaff, AZ, inherited from sister. Niece owns the other half.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Flagstaff, Arizona, near the university\", \"account_number\": null}, \"timeline\": [{\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 50, \"citation\": \"CLIENT: [00:05:41] Half a condo in Flagstaff—who owns the other half? CLIENT: [00:05:45] My niece.\", \"call_time\": \"00:05:41\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"current_value\", \"type\": \"number\", \"value\": 210000, \"citation\": \"CLIENT: [00:06:08] The realtor said maybe two hundred, two‑twenty.\", \"call_time\": \"00:06:08\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"estimated_value_of_share\", \"type\": \"number\", \"value\": 105000, \"citation\": \"CLIENT: [00:06:08] The realtor said maybe two hundred, two‑twenty. So my half would be around a hundred or so.\", \"call_time\": \"00:06:08\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT: [00:05:56] It’s paid off. My sister was very proud of that.\", \"call_time\": \"00:05:56\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 3600, \"citation\": \"CLIENT: [00:06:20] Total rent is six or seven hundred a month, so I see about three hundred‑ish.\", \"call_time\": \"00:06:20\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"flagstaff_condo\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "us_bank_accounts",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "U.S. Bank checking and savings accounts in Las Cruces, NM.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Las Cruces, New Mexico",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 27000,
+        "citation": "CLIENT: [00:12:12] Checking is just for bills, maybe one or two thousand, depending on when the pension hits. Savings is… I think around twenty‑five thousand, somewhere in the twenties.",
+        "call_time": "00:12:12",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "currency",
+        "type": "string",
+        "value": "USD",
+        "citation": "CLIENT: [00:12:12] Checking is just for bills, maybe one or two thousand, depending on when the pension hits. Savings is… I think around twenty‑five thousand, somewhere in the twenties.",
+        "call_time": "00:12:12",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "us_bank_accounts",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"us_bank_accounts\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"U.S. Bank checking and savings accounts in Las Cruces, NM.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Las Cruces, New Mexico\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 27000, \"citation\": \"CLIENT: [00:12:12] Checking is just for bills, maybe one or two thousand, depending on when the pension hits. Savings is… I think around twenty‑five thousand, somewhere in the twenties.\", \"call_time\": \"00:12:12\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"currency\", \"type\": \"string\", \"value\": \"USD\", \"citation\": \"CLIENT: [00:12:12] Checking is just for bills, maybe one or two thousand, depending on when the pension hits. Savings is… I think around twenty‑five thousand, somewhere in the twenties.\", \"call_time\": \"00:12:12\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"us_bank_accounts\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "credit_union_accounts",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Credit union money market and 12-month CD, holding most of inheritance from sister.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 95000,
+        "citation": "CLIENT: [00:12:25] That’s where most of my sister’s inheritance is. It’s around ninety to a hundred thousand.",
+        "call_time": "00:12:25",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 45000,
+        "citation": "CLIENT: [00:12:25] Part of that is in a twelve‑month CD—about forty, forty‑five thousand—that doesn’t mature until March of 2026.",
+        "call_time": "00:12:25",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "currency",
+        "type": "string",
+        "value": "USD",
+        "citation": "CLIENT: [00:12:25] That’s where most of my sister’s inheritance is. It’s around ninety to a hundred thousand.",
+        "call_time": "00:12:25",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "credit_union_accounts",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"credit_union_accounts\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Credit union money market and 12-month CD, holding most of inheritance from sister.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 95000, \"citation\": \"CLIENT: [00:12:25] That’s where most of my sister’s inheritance is. It’s around ninety to a hundred thousand.\", \"call_time\": \"00:12:25\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"current_value\", \"type\": \"number\", \"value\": 45000, \"citation\": \"CLIENT: [00:12:25] Part of that is in a twelve‑month CD—about forty, forty‑five thousand—that doesn’t mature until March of 2026.\", \"call_time\": \"00:12:25\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"currency\", \"type\": \"string\", \"value\": \"USD\", \"citation\": \"CLIENT: [00:12:25] That’s where most of my sister’s inheritance is. It’s around ninety to a hundred thousand.\", \"call_time\": \"00:12:25\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"credit_union_accounts\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "fidelity_ira",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Inherited IRA from Miguel's old job at Fidelity. Monthly RMDs set up.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 690,
+        "citation": "CLIENT: [00:09:30] Last year it was around six hundred. This year it’s closer to, I think, six‑eighty, six‑ninety a month.",
+        "call_time": "00:09:30",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": false,
+        "citation": "CLIENT: [00:09:19] Yes. They told me I had to start taking a “required” amount. The RMD. We set it up as a monthly payment.",
+        "call_time": "00:09:19",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "fidelity_ira",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"fidelity_ira\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Inherited IRA from Miguel's old job at Fidelity. Monthly RMDs set up.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 690, \"citation\": \"CLIENT: [00:09:30] Last year it was around six hundred. This year it’s closer to, I think, six‑eighty, six‑ninety a month.\", \"call_time\": \"00:09:30\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": false, \"citation\": \"CLIENT: [00:09:19] Yes. They told me I had to start taking a “required” amount. The RMD. We set it up as a monthly payment.\", \"call_time\": \"00:09:19\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"fidelity_ira\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "harborpoint_ira",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "HarborPoint Rollover IRA – Balanced Portfolio. Rolled over from old 401(k) and TIAA.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 84500,
+        "citation": "CLIENT: [00:10:24] Last time I looked—it was late last year—it was around eighty‑something thousand. Maybe eighty‑four, eighty‑five.",
+        "call_time": "00:10:24",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": null,
+        "citation": "CLIENT: [00:10:35] Yes, just the RMD. They took about four thousand‑something last year. Once a year, they send it to my checking. I don’t touch the rest.",
+        "call_time": "00:10:35",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": null,
+        "unit": "USD"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": false,
+        "citation": "CLIENT: [00:10:35] Yes, just the RMD. They took about four thousand‑something last year. Once a year, they send it to my checking. I don’t touch the rest.",
+        "call_time": "00:10:35",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "harborpoint_ira",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"harborpoint_ira\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"HarborPoint Rollover IRA – Balanced Portfolio. Rolled over from old 401(k) and TIAA.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 84500, \"citation\": \"CLIENT: [00:10:24] Last time I looked—it was late last year—it was around eighty‑something thousand. Maybe eighty‑four, eighty‑five.\", \"call_time\": \"00:10:24\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": null, \"citation\": \"CLIENT: [00:10:35] Yes, just the RMD. They took about four thousand‑something last year. Once a year, they send it to my checking. I don’t touch the rest.\", \"call_time\": \"00:10:35\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": null, \"unit\": \"USD\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": false, \"citation\": \"CLIENT: [00:10:35] Yes, just the RMD. They took about four thousand‑something last year. Once a year, they send it to my checking. I don’t touch the rest.\", \"call_time\": \"00:10:35\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"harborpoint_ira\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "edward_jones_account",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Edward Jones non-retirement investment account, utility stocks, in Karen's name only.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 42500,
+        "citation": "CLIENT: [00:13:20] There is a small one at Edward Jones. My husband bought some utility stocks ages ago. I think it’s maybe forty, forty‑five thousand now.",
+        "call_time": "00:13:20",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": false,
+        "citation": "CLIENT: [00:30:17] Reinvested. I don’t spend that money.",
+        "call_time": "00:30:17",
+        "recorded_at": "2025-11-17T20:54:46",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "edward_jones_account",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"edward_jones_account\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Edward Jones non-retirement investment account, utility stocks, in Karen's name only.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 42500, \"citation\": \"CLIENT: [00:13:20] There is a small one at Edward Jones. My husband bought some utility stocks ages ago. I think it’s maybe forty, forty‑five thousand now.\", \"call_time\": \"00:13:20\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": false, \"citation\": \"CLIENT: [00:30:17] Reinvested. I don’t spend that money.\", \"call_time\": \"00:30:17\", \"recorded_at\": \"2025-11-17T20:54:46\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"edward_jones_account\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  }
+]

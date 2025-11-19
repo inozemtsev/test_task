@@ -1,0 +1,719 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "primary_home",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Primary residence, four-bedroom house in Fort Collins",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Fort Collins, Colorado",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 525000,
+        "citation": "CLIENT2: [00:07:17] Zillow says, like, mid‑five hundreds? It’s kind of all over. Somewhere around five‑twenty, five‑thirty maybe.",
+        "call_time": "00:07:17",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 255000,
+        "citation": "CLIENT1: [00:07:24] We owe mid‑two hundreds. Two‑fifty, two‑sixty range. I’d have to pull the exact number.",
+        "call_time": "00:07:24",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_interest_rate",
+        "type": "number",
+        "value": 4.8,
+        "citation": "CLIENT1: [00:07:35] It’s just under five. Like four‑point‑eightish.",
+        "call_time": "00:07:35",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 1900,
+        "citation": "CLIENT1: [00:06:49] The payment that comes out is just under two thousand—like one‑nine something. It’s escrowed, so taxes and insurance are in there.",
+        "call_time": "00:06:49",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_housing_cost_all_in",
+        "type": "number",
+        "value": 2500,
+        "citation": "ADVISOR: [00:08:32] If we lump mortgage plus those core utilities, we’re talking maybe twenty‑five hundred a month for housing and essentials?",
+        "call_time": "00:08:32",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "primary_home",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"primary_home\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Primary residence, four-bedroom house in Fort Collins\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Fort Collins, Colorado\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 525000, \"citation\": \"CLIENT2: [00:07:17] Zillow says, like, mid‑five hundreds? It’s kind of all over. Somewhere around five‑twenty, five‑thirty maybe.\", \"call_time\": \"00:07:17\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 255000, \"citation\": \"CLIENT1: [00:07:24] We owe mid‑two hundreds. Two‑fifty, two‑sixty range. I’d have to pull the exact number.\", \"call_time\": \"00:07:24\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_interest_rate\", \"type\": \"number\", \"value\": 4.8, \"citation\": \"CLIENT1: [00:07:35] It’s just under five. Like four‑point‑eightish.\", \"call_time\": \"00:07:35\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 1900, \"citation\": \"CLIENT1: [00:06:49] The payment that comes out is just under two thousand—like one‑nine something. It’s escrowed, so taxes and insurance are in there.\", \"call_time\": \"00:06:49\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"monthly_housing_cost_all_in\", \"type\": \"number\", \"value\": 2500, \"citation\": \"ADVISOR: [00:08:32] If we lump mortgage plus those core utilities, we’re talking maybe twenty‑five hundred a month for housing and essentials?\", \"call_time\": \"00:08:32\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"primary_home\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "lubbock_condo",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Condo near Texas Tech campus, Lubbock, TX (owned 50/50 with Emily's brother)",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Lubbock, Texas",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 215000,
+        "citation": "CLIENT1: [00:04:57] Condos in that complex are going in the low two hundreds. Ours is probably around two‑ten, two‑twenty.",
+        "call_time": "00:04:57",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 80000,
+        "citation": "CLIENT1: [00:04:57] We still owe around eighty on the loan total.",
+        "call_time": "00:04:57",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 50,
+        "citation": "CLIENT1: [00:04:39] We own it fifty‑fifty with Emily’s brother.",
+        "call_time": "00:04:39",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 3500,
+        "citation": "CLIENT2: [00:04:12] In the summer we might make five, six hundred a month. The rest of the year it’s a couple hundred or zero. Over a year maybe three to four thousand before cleaning costs.",
+        "call_time": "00:04:12",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "lubbock_condo",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"lubbock_condo\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Condo near Texas Tech campus, Lubbock, TX (owned 50/50 with Emily's brother)\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Lubbock, Texas\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 215000, \"citation\": \"CLIENT1: [00:04:57] Condos in that complex are going in the low two hundreds. Ours is probably around two‑ten, two‑twenty.\", \"call_time\": \"00:04:57\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 80000, \"citation\": \"CLIENT1: [00:04:57] We still owe around eighty on the loan total.\", \"call_time\": \"00:04:57\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 50, \"citation\": \"CLIENT1: [00:04:39] We own it fifty‑fifty with Emily’s brother.\", \"call_time\": \"00:04:39\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 3500, \"citation\": \"CLIENT2: [00:04:12] In the summer we might make five, six hundred a month. The rest of the year it’s a couple hundred or zero. Over a year maybe three to four thousand before cleaning costs.\", \"call_time\": \"00:04:12\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"lubbock_condo\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "joint_checking",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint checking account (day-to-day bills)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 6000,
+        "citation": "CLIENT1: [00:12:27] Our joint checking usually floats around five to seven grand. That’s just bills and day‑to‑day.",
+        "call_time": "00:12:27",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "joint_checking",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"joint_checking\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint checking account (day-to-day bills)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 6000, \"citation\": \"CLIENT1: [00:12:27] Our joint checking usually floats around five to seven grand. That’s just bills and day‑to‑day.\", \"call_time\": \"00:12:27\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"joint_checking\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "marcus_emergency",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Emergency fund at Marcus (online bank)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 25000,
+        "citation": "CLIENT2: [00:12:33] Then we’ve got an emergency fund at Marcus, the online bank. That’s around… twenty‑five? Maybe a bit more now.",
+        "call_time": "00:12:33",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "marcus_emergency",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"marcus_emergency\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Emergency fund at Marcus (online bank)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 25000, \"citation\": \"CLIENT2: [00:12:33] Then we’ve got an emergency fund at Marcus, the online bank. That’s around… twenty‑five? Maybe a bit more now.\", \"call_time\": \"00:12:33\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"marcus_emergency\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "river_valley_savings",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Savings at River Valley Credit Union (car repair / random stuff)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 8500,
+        "citation": "CLIENT2: [00:12:41] We also have a little savings at River Valley Credit Union. That’s kind of the “car repair / random stuff” pot. There’s eight or nine thousand in there.",
+        "call_time": "00:12:41",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "river_valley_savings",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"river_valley_savings\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Savings at River Valley Credit Union (car repair / random stuff)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 8500, \"citation\": \"CLIENT2: [00:12:41] We also have a little savings at River Valley Credit Union. That’s kind of the “car repair / random stuff” pot. There’s eight or nine thousand in there.\", \"call_time\": \"00:12:41\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"river_valley_savings\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "credit_union_money_market",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Money market at credit union (inheritance, partially spent)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 22500,
+        "citation": "CLIENT2: [00:13:14] I want to say twenty‑two or twenty‑three thousand. We keep talking about splitting it—some into a Roth IRA for me and some staying liquid for college stuff.",
+        "call_time": "00:13:14",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "credit_union_money_market",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"credit_union_money_market\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Money market at credit union (inheritance, partially spent)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 22500, \"citation\": \"CLIENT2: [00:13:14] I want to say twenty‑two or twenty‑three thousand. We keep talking about splitting it—some into a Roth IRA for me and some staying liquid for college stuff.\", \"call_time\": \"00:13:14\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"credit_union_money_market\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "schwab_joint",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Charles Schwab joint investment account (Intelligent Portfolios, moderate risk)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 32000,
+        "citation": "CLIENT1: [00:14:07] I think we’re around thirty to thirty‑five thousand. Last time I logged in it was around thirty‑two.",
+        "call_time": "00:14:07",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 250,
+        "citation": "CLIENT2: [00:14:14] We set up an automatic transfer when the mortgage payment dropped. It’s two hundred fifty a month.",
+        "call_time": "00:14:14",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "schwab_joint",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"schwab_joint\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Charles Schwab joint investment account (Intelligent Portfolios, moderate risk)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 32000, \"citation\": \"CLIENT1: [00:14:07] I think we’re around thirty to thirty‑five thousand. Last time I logged in it was around thirty‑two.\", \"call_time\": \"00:14:07\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 250, \"citation\": \"CLIENT2: [00:14:14] We set up an automatic transfer when the mortgage payment dropped. It’s two hundred fifty a month.\", \"call_time\": \"00:14:14\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"schwab_joint\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "ed_401k",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Edward's 401(k) at Vanguard (Mountain Ridge Engineering)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 205000,
+        "citation": "CLIENT1: [00:14:44] Somewhere around two hundred, maybe two‑ten. It’s bounced around with the markets.",
+        "call_time": "00:14:44",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 10,
+        "citation": "CLIENT1: [00:14:52] I’m at ten percent of my salary. The company matches four.",
+        "call_time": "00:14:52",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 4,
+        "citation": "CLIENT1: [00:14:52] I’m at ten percent of my salary. The company matches four.",
+        "call_time": "00:14:52",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "ed_401k",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"ed_401k\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Edward's 401(k) at Vanguard (Mountain Ridge Engineering)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 205000, \"citation\": \"CLIENT1: [00:14:44] Somewhere around two hundred, maybe two‑ten. It’s bounced around with the markets.\", \"call_time\": \"00:14:44\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 10, \"citation\": \"CLIENT1: [00:14:52] I’m at ten percent of my salary. The company matches four.\", \"call_time\": \"00:14:52\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 4, \"citation\": \"CLIENT1: [00:14:52] I’m at ten percent of my salary. The company matches four.\", \"call_time\": \"00:14:52\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"ed_401k\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "ed_ira",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Edward's rollover IRA at Charles Schwab (from previous job)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 42500,
+        "citation": "CLIENT1: [00:15:19] Yeah, a rollover IRA at Charles Schwab from an old 401(k). It’s around forty, forty‑five thousand.",
+        "call_time": "00:15:19",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "ed_ira",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"ed_ira\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Edward's rollover IRA at Charles Schwab (from previous job)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 42500, \"citation\": \"CLIENT1: [00:15:19] Yeah, a rollover IRA at Charles Schwab from an old 401(k). It’s around forty, forty‑five thousand.\", \"call_time\": \"00:15:19\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"ed_ira\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "ed_hsa",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Edward's HSA through work (invested in index fund)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 6000,
+        "citation": "CLIENT1: [00:17:31] I have a small HSA through work. There’s about six thousand in it.",
+        "call_time": "00:17:31",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "ed_hsa",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"ed_hsa\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Edward's HSA through work (invested in index fund)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 6000, \"citation\": \"CLIENT1: [00:17:31] I have a small HSA through work. There’s about six thousand in it.\", \"call_time\": \"00:17:31\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"ed_hsa\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "ed_robinhood",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Edward's Robinhood account (individual stocks, fun money)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 3000,
+        "citation": "CLIENT1: [00:17:42] Yeah, it’s like three grand. I buy a few individual stocks. Nothing we’re counting on for retirement.",
+        "call_time": "00:17:42",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "ed_robinhood",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"ed_robinhood\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Edward's Robinhood account (individual stocks, fun money)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 3000, \"citation\": \"CLIENT1: [00:17:42] Yeah, it’s like three grand. I buy a few individual stocks. Nothing we’re counting on for retirement.\", \"call_time\": \"00:17:42\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"ed_robinhood\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "emily_403b",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Emily's 403(b) with TIAA (Maple Ridge School District)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 120000,
+        "citation": "CLIENT2: [00:16:08] I checked a couple months ago, it was around one‑twenty. Could be a bit higher now.",
+        "call_time": "00:16:08",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 8,
+        "citation": "CLIENT2: [00:16:14] I used to do five percent. After the refi I bumped it up to eight.",
+        "call_time": "00:16:14",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 3,
+        "citation": "CLIENT2: [00:16:21] The district matches three percent if I do at least that much.",
+        "call_time": "00:16:21",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "emily_403b",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"emily_403b\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Emily's 403(b) with TIAA (Maple Ridge School District)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 120000, \"citation\": \"CLIENT2: [00:16:08] I checked a couple months ago, it was around one‑twenty. Could be a bit higher now.\", \"call_time\": \"00:16:08\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 8, \"citation\": \"CLIENT2: [00:16:14] I used to do five percent. After the refi I bumped it up to eight.\", \"call_time\": \"00:16:14\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 3, \"citation\": \"CLIENT2: [00:16:21] The district matches three percent if I do at least that much.\", \"call_time\": \"00:16:21\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"emily_403b\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "emily_roth_ira",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Emily's Roth IRA at GreenLeaf Funds",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 30000,
+        "citation": "CLIENT2: [00:16:34] I’ve got a Roth IRA from when I was in residency and then my first job at a county clinic. It’s with a company called GreenLeaf Funds. There’s, I think, around thirty thousand in there now.",
+        "call_time": "00:16:34",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 100,
+        "citation": "CLIENT2: [00:16:46] We paused for a couple of years when daycare was insane. Then after the refi we started again, but just a hundred a month.",
+        "call_time": "00:16:46",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "emily_roth_ira",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"emily_roth_ira\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Emily's Roth IRA at GreenLeaf Funds\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 30000, \"citation\": \"CLIENT2: [00:16:34] I’ve got a Roth IRA from when I was in residency and then my first job at a county clinic. It’s with a company called GreenLeaf Funds. There’s, I think, around thirty thousand in there now.\", \"call_time\": \"00:16:34\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 100, \"citation\": \"CLIENT2: [00:16:46] We paused for a couple of years when daycare was insane. Then after the refi we started again, but just a hundred a month.\", \"call_time\": \"00:16:46\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"emily_roth_ira\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "sofia_529",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "529 plan for Sofia (Colorado CollegeInvest)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 16000,
+        "citation": "CLIENT2: [00:17:53] We have 529 plans for both kids with the Colorado CollegeInvest plan. Our daughter’s is maybe sixteen thousand.",
+        "call_time": "00:17:53",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 200,
+        "citation": "CLIENT1: [00:18:01] We put two hundred a month into each one.",
+        "call_time": "00:18:01",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "sofia_529",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"sofia_529\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"529 plan for Sofia (Colorado CollegeInvest)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 16000, \"citation\": \"CLIENT2: [00:17:53] We have 529 plans for both kids with the Colorado CollegeInvest plan. Our daughter’s is maybe sixteen thousand.\", \"call_time\": \"00:17:53\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 200, \"citation\": \"CLIENT1: [00:18:01] We put two hundred a month into each one.\", \"call_time\": \"00:18:01\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"sofia_529\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "mateo_529",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "529 plan for Mateo (Colorado CollegeInvest)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 14000,
+        "citation": "CLIENT2: [00:17:53] Our son’s around fourteen.",
+        "call_time": "00:17:53",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 200,
+        "citation": "CLIENT1: [00:18:01] We put two hundred a month into each one.",
+        "call_time": "00:18:01",
+        "recorded_at": "2025-11-17T20:01:13",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "mateo_529",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"mateo_529\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"529 plan for Mateo (Colorado CollegeInvest)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 14000, \"citation\": \"CLIENT2: [00:17:53] Our son’s around fourteen.\", \"call_time\": \"00:17:53\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 200, \"citation\": \"CLIENT1: [00:18:01] We put two hundred a month into each one.\", \"call_time\": \"00:18:01\", \"recorded_at\": \"2025-11-17T20:01:13\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"mateo_529\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g15"
+    ],
+    "status": "TP"
+  }
+]

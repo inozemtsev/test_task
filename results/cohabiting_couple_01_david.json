@@ -1,0 +1,483 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "property_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Family flat, main residence",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Not specified",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 265000,
+        "citation": "CLIENT1: [00:05:16] Um, last time I looked on Rightmove and that, places in our block were going for about two‑sixty, two‑seventy.",
+        "call_time": "00:05:16",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 195000,
+        "citation": "CLIENT1: [00:05:30] I checked the app the other day — it was around one‑ninety‑something. Just under two hundred.",
+        "call_time": "00:05:30",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 1120,
+        "citation": "CLIENT1: [00:05:53] Just under eleven hundred — like one‑one‑two‑something once you add the service charge.",
+        "call_time": "00:05:53",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "mortgage_interest_rate",
+        "type": "null",
+        "value": null,
+        "citation": "CLIENT1: [00:06:06] Fixed. Two‑year fix we did last year when rates went a bit mad. It ends next March.",
+        "call_time": "00:06:06",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": null,
+        "unit": null
+      },
+      {
+        "property": "mortgage_type",
+        "type": "string",
+        "value": "repayment",
+        "citation": "CLIENT1: [00:05:43] Yeah, twenty‑five. So about twenty‑one left.",
+        "call_time": "00:05:43",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": null
+      }
+    ],
+    "id": "property_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"property_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Family flat, main residence\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Not specified\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 265000, \"citation\": \"CLIENT1: [00:05:16] Um, last time I looked on Rightmove and that, places in our block were going for about two‑sixty, two‑seventy.\", \"call_time\": \"00:05:16\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 195000, \"citation\": \"CLIENT1: [00:05:30] I checked the app the other day — it was around one‑ninety‑something. Just under two hundred.\", \"call_time\": \"00:05:30\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 1120, \"citation\": \"CLIENT1: [00:05:53] Just under eleven hundred — like one‑one‑two‑something once you add the service charge.\", \"call_time\": \"00:05:53\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"mortgage_interest_rate\", \"type\": \"null\", \"value\": null, \"citation\": \"CLIENT1: [00:06:06] Fixed. Two‑year fix we did last year when rates went a bit mad. It ends next March.\", \"call_time\": \"00:06:06\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": null, \"unit\": null}, {\"property\": \"mortgage_type\", \"type\": \"string\", \"value\": \"repayment\", \"citation\": \"CLIENT1: [00:05:43] Yeah, twenty‑five. So about twenty‑one left.\", \"call_time\": \"00:05:43\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": null}], \"id\": \"property_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1",
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "cash_joint_savings_1",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Halifax Online Saver joint emergency fund",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 10000,
+        "citation": "CLIENT1: [00:14:40] Around ten grand. It was nearer twelve but the boiler died.",
+        "call_time": "00:14:40",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "GBP"
+      }
+    ],
+    "id": "cash_joint_savings_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"cash_joint_savings_1\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Halifax Online Saver joint emergency fund\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 10000, \"citation\": \"CLIENT1: [00:14:40] Around ten grand. It was nearer twelve but the boiler died.\", \"call_time\": \"00:14:40\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"GBP\"}], \"id\": \"cash_joint_savings_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "cash_marcus_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Marcus online savings account",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 6000,
+        "citation": "CLIENT1: [00:14:57] I’ve got a Marcus online account, just in my name. There’s about six grand in there at the moment.",
+        "call_time": "00:14:57",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "GBP"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 200,
+        "citation": "CLIENT1: [00:15:09] I try to. There’s a two‑hundred standing order, but we cancel it some months if things are tight.",
+        "call_time": "00:15:09",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "cash_marcus_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"cash_marcus_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Marcus online savings account\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 6000, \"citation\": \"CLIENT1: [00:14:57] I’ve got a Marcus online account, just in my name. There’s about six grand in there at the moment.\", \"call_time\": \"00:14:57\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"GBP\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 200, \"citation\": \"CLIENT1: [00:15:09] I try to. There’s a two‑hundred standing order, but we cancel it some months if things are tight.\", \"call_time\": \"00:15:09\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"cash_marcus_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "cash_fixed_term_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Nationwide two-year fixed savings (inheritance)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 25500,
+        "citation": "CLIENT1: [00:16:03] My grandad left me some money. We used part of it for the deposit on the flat, and I stuck the rest in a two‑year fixed savings account. It’s with, I think, Nationwide. There’s about twenty‑five, twenty‑six grand in there.",
+        "call_time": "00:16:03",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "cash_fixed_term_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"cash_fixed_term_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Nationwide two-year fixed savings (inheritance)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 25500, \"citation\": \"CLIENT1: [00:16:03] My grandad left me some money. We used part of it for the deposit on the flat, and I stuck the rest in a two‑year fixed savings account. It’s with, I think, Nationwide. There’s about twenty‑five, twenty‑six grand in there.\", \"call_time\": \"00:16:03\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"cash_fixed_term_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "isa_vanguard_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Vanguard Stocks and Shares ISA (LifeStrategy 80% Equity)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 22000,
+        "citation": "CLIENT1: [00:17:09] Last time I checked it was about twenty‑two grand. Goes up and down, obviously.",
+        "call_time": "00:17:09",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "GBP"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 300,
+        "citation": "CLIENT1: [00:17:19] Yeah, three hundred a month by direct debit.",
+        "call_time": "00:17:19",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "GBP"
+      }
+    ],
+    "id": "isa_vanguard_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"isa_vanguard_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Vanguard Stocks and Shares ISA (LifeStrategy 80% Equity)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 22000, \"citation\": \"CLIENT1: [00:17:09] Last time I checked it was about twenty‑two grand. Goes up and down, obviously.\", \"call_time\": \"00:17:09\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"GBP\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 300, \"citation\": \"CLIENT1: [00:17:19] Yeah, three hundred a month by direct debit.\", \"call_time\": \"00:17:19\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"GBP\"}], \"id\": \"isa_vanguard_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "freetrade_gia_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Freetrade General Investment Account (GIA)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 2250,
+        "citation": "CLIENT1: [00:17:52] I’ve got a Freetrade account. That’s more messing‑about money. Maybe two, two and a half grand in random tech shares and ETFs.",
+        "call_time": "00:17:52",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "freetrade_gia_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"freetrade_gia_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Freetrade General Investment Account (GIA)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 2250, \"citation\": \"CLIENT1: [00:17:52] I’ve got a Freetrade account. That’s more messing‑about money. Maybe two, two and a half grand in random tech shares and ETFs.\", \"call_time\": \"00:17:52\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"freetrade_gia_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "isa_nutmeg_1",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Nutmeg Stocks and Shares ISA (medium risk)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 12500,
+        "citation": "CLIENT2: [00:18:19] Somewhere between ten and fifteen thousand. I put in about one‑fifty a month.",
+        "call_time": "00:18:19",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 150,
+        "citation": "CLIENT2: [00:18:19] Somewhere between ten and fifteen thousand. I put in about one‑fifty a month.",
+        "call_time": "00:18:19",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "GBP"
+      }
+    ],
+    "id": "isa_nutmeg_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"isa_nutmeg_1\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Nutmeg Stocks and Shares ISA (medium risk)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 12500, \"citation\": \"CLIENT2: [00:18:19] Somewhere between ten and fifteen thousand. I put in about one‑fifty a month.\", \"call_time\": \"00:18:19\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 150, \"citation\": \"CLIENT2: [00:18:19] Somewhere between ten and fifteen thousand. I put in about one‑fifty a month.\", \"call_time\": \"00:18:19\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"GBP\"}], \"id\": \"isa_nutmeg_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "pension_scottish_widows_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Scottish Widows workplace pension (current employer, Orion Dynamics)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 43000,
+        "citation": "CLIENT1: [00:20:46] Last time I logged in it was low forties — forty‑two, forty‑four thousand, something like that.",
+        "call_time": "00:20:46",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "employee_contribution_rate",
+        "type": "number",
+        "value": 5,
+        "citation": "CLIENT1: [00:20:32] I’m putting in about five percent.",
+        "call_time": "00:20:32",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 4,
+        "citation": "CLIENT1: [00:20:32] Employer does four or maybe a bit more — I’d have to check, but I think it’s four.",
+        "call_time": "00:20:32",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "pension_scottish_widows_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"pension_scottish_widows_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Scottish Widows workplace pension (current employer, Orion Dynamics)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 43000, \"citation\": \"CLIENT1: [00:20:46] Last time I logged in it was low forties — forty‑two, forty‑four thousand, something like that.\", \"call_time\": \"00:20:46\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"employee_contribution_rate\", \"type\": \"number\", \"value\": 5, \"citation\": \"CLIENT1: [00:20:32] I’m putting in about five percent.\", \"call_time\": \"00:20:32\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 4, \"citation\": \"CLIENT1: [00:20:32] Employer does four or maybe a bit more — I’d have to check, but I think it’s four.\", \"call_time\": \"00:20:32\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"pension_scottish_widows_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "pension_aviva_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Aviva workplace pension (previous employer, Birmingham)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 18500,
+        "citation": "CLIENT1: [00:21:15] Around eighteen or nineteen thousand. Under twenty, anyway.",
+        "call_time": "00:21:15",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "pension_aviva_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"pension_aviva_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Aviva workplace pension (previous employer, Birmingham)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 18500, \"citation\": \"CLIENT1: [00:21:15] Around eighteen or nineteen thousand. Under twenty, anyway.\", \"call_time\": \"00:21:15\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"pension_aviva_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "pension_nest_1",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Nest workplace pension (Northside Youth Trust)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 50000,
+        "citation": "CLIENT2: [00:22:01] Not really. I’m terrible — I get the statements and put them in a drawer. I *think* last one was around fifty grand? Dave, does that ring a bell?",
+        "call_time": "00:22:01",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "employee_contribution_rate",
+        "type": "number",
+        "value": 5,
+        "citation": "CLIENT2: [00:22:20] Five percent from me and whatever they match. I can check the exact numbers.",
+        "call_time": "00:22:20",
+        "recorded_at": "2025-11-17T18:48:50",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "pension_nest_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"pension_nest_1\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Nest workplace pension (Northside Youth Trust)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 50000, \"citation\": \"CLIENT2: [00:22:01] Not really. I’m terrible — I get the statements and put them in a drawer. I *think* last one was around fifty grand? Dave, does that ring a bell?\", \"call_time\": \"00:22:01\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"employee_contribution_rate\", \"type\": \"number\", \"value\": 5, \"citation\": \"CLIENT2: [00:22:20] Five percent from me and whatever they match. I can check the exact numbers.\", \"call_time\": \"00:22:20\", \"recorded_at\": \"2025-11-17T18:48:50\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"pension_nest_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  }
+]

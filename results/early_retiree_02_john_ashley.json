@@ -1,0 +1,809 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_1",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Primary residence, four-bedroom house in Westminster, just north of Denver, Colorado. Suburbs, cul-de-sac, family neighborhood.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Westminster, Colorado",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 760000,
+        "citation": "[00:06:21] CLIENT1: Zillow bounces around, but I’d say maybe seven‑fifty, seven‑eighty, somewhere in that range. [00:06:26] CLIENT2: Yeah, high seven hundreds last time I looked. Like seven‑sixty‑something.",
+        "call_time": "00:06:21",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 200000,
+        "citation": "[00:06:34] CLIENT2: We refinanced in 2020. Fixed rate. We owe around two hundred? Two ten? [00:06:40] CLIENT1: Yeah, about two hundred.",
+        "call_time": "00:06:34",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_interest_rate",
+        "type": "number",
+        "value": 2.4,
+        "citation": "[00:07:05] CLIENT2: It’s fixed at two point something—I want to say two point four percent—on a fifteen‑year.",
+        "call_time": "00:07:05",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 1850,
+        "citation": "[00:06:51] CLIENT2: The scheduled payment is about eighteen‑fifty a month. We round it up to two thousand most months.",
+        "call_time": "00:06:51",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_mortgage_payment_pi",
+        "type": "number",
+        "value": 2000,
+        "citation": "[00:06:51] CLIENT2: The scheduled payment is about eighteen‑fifty a month. We round it up to two thousand most months.",
+        "call_time": "00:06:51",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_1\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Primary residence, four-bedroom house in Westminster, just north of Denver, Colorado. Suburbs, cul-de-sac, family neighborhood.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Westminster, Colorado\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 760000, \"citation\": \"[00:06:21] CLIENT1: Zillow bounces around, but I’d say maybe seven‑fifty, seven‑eighty, somewhere in that range. [00:06:26] CLIENT2: Yeah, high seven hundreds last time I looked. Like seven‑sixty‑something.\", \"call_time\": \"00:06:21\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 200000, \"citation\": \"[00:06:34] CLIENT2: We refinanced in 2020. Fixed rate. We owe around two hundred? Two ten? [00:06:40] CLIENT1: Yeah, about two hundred.\", \"call_time\": \"00:06:34\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_interest_rate\", \"type\": \"number\", \"value\": 2.4, \"citation\": \"[00:07:05] CLIENT2: It’s fixed at two point something—I want to say two point four percent—on a fifteen‑year.\", \"call_time\": \"00:07:05\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 1850, \"citation\": \"[00:06:51] CLIENT2: The scheduled payment is about eighteen‑fifty a month. We round it up to two thousand most months.\", \"call_time\": \"00:06:51\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"monthly_mortgage_payment_pi\", \"type\": \"number\", \"value\": 2000, \"citation\": \"[00:06:51] CLIENT2: The scheduled payment is about eighteen‑fifty a month. We round it up to two thousand most months.\", \"call_time\": \"00:06:51\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1",
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_2",
+    "owner_ids": [
+      "client_2",
+      "other"
+    ],
+    "static": {
+      "description": "Two-bedroom condo in Albuquerque, near the university. Owned 50/50 with Ashley's sister. Older brick building, about 20 units.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Albuquerque, New Mexico",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 290000,
+        "citation": "[00:09:38] CLIENT2: I think the whole place is probably two eighty, maybe three hundred? [00:09:41] CLIENT1: Yeah, last time we checked comps it was mid‑twos, but the market there’s been moving up. So call it high twos.",
+        "call_time": "00:09:38",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 50,
+        "citation": "[00:09:13] ADVISOR: So you own it fifty‑fifty with your sister? [00:09:16] CLIENT2: Yeah, exactly. We each have half.",
+        "call_time": "00:09:13",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "[00:09:25] CLIENT2: No mortgage. We finished that a couple of years ago.",
+        "call_time": "00:09:25",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 6000,
+        "citation": "[00:09:52] CLIENT2: Pretty much. Rent’s about a thousand a month. HOA and little things are maybe six hundred, so we clear a bit.",
+        "call_time": "00:09:52",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_2",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_2\", \"owner_ids\": [\"client_2\", \"other\"], \"static\": {\"description\": \"Two-bedroom condo in Albuquerque, near the university. Owned 50/50 with Ashley's sister. Older brick building, about 20 units.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Albuquerque, New Mexico\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 290000, \"citation\": \"[00:09:38] CLIENT2: I think the whole place is probably two eighty, maybe three hundred? [00:09:41] CLIENT1: Yeah, last time we checked comps it was mid‑twos, but the market there’s been moving up. So call it high twos.\", \"call_time\": \"00:09:38\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 50, \"citation\": \"[00:09:13] ADVISOR: So you own it fifty‑fifty with your sister? [00:09:16] CLIENT2: Yeah, exactly. We each have half.\", \"call_time\": \"00:09:13\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"[00:09:25] CLIENT2: No mortgage. We finished that a couple of years ago.\", \"call_time\": \"00:09:25\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 6000, \"citation\": \"[00:09:52] CLIENT2: Pretty much. Rent’s about a thousand a month. HOA and little things are maybe six hundred, so we clear a bit.\", \"call_time\": \"00:09:52\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_2\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_3",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Joint checking accounts, used for monthly cash flow.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 11000,
+        "citation": "[00:13:28] CLIENT1: We keep around ten to twelve thousand in checking between the two of us. It floats with the month.",
+        "call_time": "00:13:28",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_3",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_3\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Joint checking accounts, used for monthly cash flow.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 11000, \"citation\": \"[00:13:28] CLIENT1: We keep around ten to twelve thousand in checking between the two of us. It floats with the month.\", \"call_time\": \"00:13:28\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_3\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_4",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Emergency fund in online savings account with Marcus.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 62500,
+        "citation": "[00:13:41] CLIENT2: Around sixty thousand. Maybe sixty‑five after his bonus hit. [00:13:46] CLIENT1: We topped it up; it’s about six months of expenses, maybe closer to seven.",
+        "call_time": "00:13:41",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_4",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_4\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Emergency fund in online savings account with Marcus.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 62500, \"citation\": \"[00:13:41] CLIENT2: Around sixty thousand. Maybe sixty‑five after his bonus hit. [00:13:46] CLIENT1: We topped it up; it’s about six months of expenses, maybe closer to seven.\", \"call_time\": \"00:13:41\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_4\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_5",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "2-year CD at Foothills Credit Union, matures May 2026.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 22000,
+        "citation": "[00:13:54] CLIENT1: I’ve got a CD at our credit union—Foothills Credit Union. Two‑year CD, comes due next May. About twenty‑two thousand in it.",
+        "call_time": "00:13:54",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_5",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_5\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"2-year CD at Foothills Credit Union, matures May 2026.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 22000, \"citation\": \"[00:13:54] CLIENT1: I’ve got a CD at our credit union—Foothills Credit Union. Two‑year CD, comes due next May. About twenty‑two thousand in it.\", \"call_time\": \"00:13:54\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_5\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_6",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Joint brokerage account at Vanguard, used as early-retirement fund. Mostly index funds.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 210000,
+        "citation": "[00:14:23] CLIENT1: Last I checked, around two hundred and ten thousand. It moves, obviously, but around two hundred, two‑ten.",
+        "call_time": "00:14:23",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 1500,
+        "citation": "[00:14:37] CLIENT1: Yeah, roughly fifteen hundred a month, unless we’ve booked a big trip.",
+        "call_time": "00:14:37",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_6",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_6\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Joint brokerage account at Vanguard, used as early-retirement fund. Mostly index funds.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 210000, \"citation\": \"[00:14:23] CLIENT1: Last I checked, around two hundred and ten thousand. It moves, obviously, but around two hundred, two‑ten.\", \"call_time\": \"00:14:23\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 1500, \"citation\": \"[00:14:37] CLIENT1: Yeah, roughly fifteen hundred a month, unless we’ve booked a big trip.\", \"call_time\": \"00:14:37\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_6\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_7",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Robinhood taxable brokerage account, used for small speculative investments.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 3000,
+        "citation": "[00:14:44] CLIENT1: I have a tiny Robinhood account I play with. It’s like three grand. That’s my “fun money.”",
+        "call_time": "00:14:44",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_7",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_7\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Robinhood taxable brokerage account, used for small speculative investments.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 3000, \"citation\": \"[00:14:44] CLIENT1: I have a tiny Robinhood account I play with. It’s like three grand. That’s my “fun money.”\", \"call_time\": \"00:14:44\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_7\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_8",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "401(k) through Empower at Brightline Software.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 680000,
+        "citation": "[00:15:06] CLIENT1: Last time I looked it was somewhere between six‑fifty and seven hundred. I think the last statement said six‑eighty something.",
+        "call_time": "00:15:06",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 15,
+        "citation": "[00:15:16] CLIENT1: Fifteen percent of my salary. And I maxed it last year with the catch‑up since I turned fifty. The company matches four or five percent.",
+        "call_time": "00:15:16",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 4.5,
+        "citation": "[00:15:16] CLIENT1: The company matches four or five percent.",
+        "call_time": "00:15:16",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_8",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_8\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"401(k) through Empower at Brightline Software.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 680000, \"citation\": \"[00:15:06] CLIENT1: Last time I looked it was somewhere between six‑fifty and seven hundred. I think the last statement said six‑eighty something.\", \"call_time\": \"00:15:06\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 15, \"citation\": \"[00:15:16] CLIENT1: Fifteen percent of my salary. And I maxed it last year with the catch‑up since I turned fifty. The company matches four or five percent.\", \"call_time\": \"00:15:16\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 4.5, \"citation\": \"[00:15:16] CLIENT1: The company matches four or five percent.\", \"call_time\": \"00:15:16\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"asset_8\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_9",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "403(b) with TIAA at Cedar Grove Medical Center.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 490000,
+        "citation": "[00:15:47] CLIENT2: [pause, tapping] Okay, it says four eighty‑something. So call it just under five hundred thousand.",
+        "call_time": "00:15:47",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 10,
+        "citation": "[00:15:55] CLIENT2: I do ten percent. The hospital puts in three percent automatically and matches another two if I put at least five. So, I guess around fifteen percent total going in.",
+        "call_time": "00:15:55",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 5,
+        "citation": "[00:15:55] CLIENT2: The hospital puts in three percent automatically and matches another two if I put at least five.",
+        "call_time": "00:15:55",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_9",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_9\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"403(b) with TIAA at Cedar Grove Medical Center.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 490000, \"citation\": \"[00:15:47] CLIENT2: [pause, tapping] Okay, it says four eighty‑something. So call it just under five hundred thousand.\", \"call_time\": \"00:15:47\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 10, \"citation\": \"[00:15:55] CLIENT2: I do ten percent. The hospital puts in three percent automatically and matches another two if I put at least five. So, I guess around fifteen percent total going in.\", \"call_time\": \"00:15:55\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 5, \"citation\": \"[00:15:55] CLIENT2: The hospital puts in three percent automatically and matches another two if I put at least five.\", \"call_time\": \"00:15:55\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"asset_9\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_10",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Rollover IRA at Vanguard from previous employer (MetroTech Systems).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 185000,
+        "citation": "[00:16:33] CLIENT1: Around one eighty or one ninety. Something like that.",
+        "call_time": "00:16:33",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 500,
+        "citation": "[00:16:38] CLIENT1: We do a small automatic transfer—about five hundred a month—since I hit fifty.",
+        "call_time": "00:16:38",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_10",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_10\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Rollover IRA at Vanguard from previous employer (MetroTech Systems).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 185000, \"citation\": \"[00:16:33] CLIENT1: Around one eighty or one ninety. Something like that.\", \"call_time\": \"00:16:33\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 500, \"citation\": \"[00:16:38] CLIENT1: We do a small automatic transfer—about five hundred a month—since I hit fifty.\", \"call_time\": \"00:16:38\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_10\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_11",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Cash-balance pension from MetroTech, administered by Granite Life.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 90000,
+        "citation": "[00:17:03] CLIENT1: The letter from Granite Life—last summer—said the lump sum was just under ninety thousand. If I start it at sixty‑five it’d pay about nine hundred a month. If I take it earlier, like fifty‑five, the lump sum is more like sixty‑something.",
+        "call_time": "00:17:03",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_11",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_11\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Cash-balance pension from MetroTech, administered by Granite Life.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 90000, \"citation\": \"[00:17:03] CLIENT1: The letter from Granite Life—last summer—said the lump sum was just under ninety thousand. If I start it at sixty‑five it’d pay about nine hundred a month. If I take it earlier, like fifty‑five, the lump sum is more like sixty‑something.\", \"call_time\": \"00:17:03\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_11\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_12",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Defined-benefit pension from City of Maple Grove, through Midwest Public Employees Retirement System (MPERS).",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": null,
+        "citation": "[00:17:36] CLIENT2: Normal is sixty‑five. The last statement said about two hundred fifty a month at sixty‑five. At sixty it drops to around one eighty. I was only there five years.",
+        "call_time": "00:17:36",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_12",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_12\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Defined-benefit pension from City of Maple Grove, through Midwest Public Employees Retirement System (MPERS).\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": null, \"citation\": \"[00:17:36] CLIENT2: Normal is sixty‑five. The last statement said about two hundred fifty a month at sixty‑five. At sixty it drops to around one eighty. I was only there five years.\", \"call_time\": \"00:17:36\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_12\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_13",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "BlueHarbor Secure Income Annuity, set up by Ashley's father.",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 35000,
+        "citation": "[00:18:03] CLIENT2: Last letter, September twenty‑twenty‑three, said the account value was around thirty‑five thousand. If I start it at sixty, it would pay about two‑twenty a month, with a guaranteed minimum of, I think, one‑eighty even if markets are bad.",
+        "call_time": "00:18:03",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": "2023-09-01",
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_13",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_13\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"BlueHarbor Secure Income Annuity, set up by Ashley's father.\", \"asset_type\": {\"value\": \"other\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 35000, \"citation\": \"[00:18:03] CLIENT2: Last letter, September twenty‑twenty‑three, said the account value was around thirty‑five thousand. If I start it at sixty, it would pay about two‑twenty a month, with a guaranteed minimum of, I think, one‑eighty even if markets are bad.\", \"call_time\": \"00:18:03\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": \"2023-09-01\", \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_13\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_14",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Roth IRA at Vanguard.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 50000,
+        "citation": "[00:18:20] CLIENT1: Yeah, with Vanguard. Balance is around fifty thousand. We haven’t maxed it every year, but we’ve put chunks in when we could.",
+        "call_time": "00:18:20",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_14",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_14\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Roth IRA at Vanguard.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 50000, \"citation\": \"[00:18:20] CLIENT1: Yeah, with Vanguard. Balance is around fifty thousand. We haven’t maxed it every year, but we’ve put chunks in when we could.\", \"call_time\": \"00:18:20\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_14\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g15"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_15",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Roth IRA at Betterment, in default 'moderate risk' portfolio.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 42500,
+        "citation": "[00:18:30] CLIENT2: Right. I opened that years ago. It’s around forty to forty‑five thousand now. It’s in their default “moderate risk” portfolio—mix of stock and bond ETFs.",
+        "call_time": "00:18:30",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_15",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_15\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Roth IRA at Betterment, in default 'moderate risk' portfolio.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 42500, \"citation\": \"[00:18:30] CLIENT2: Right. I opened that years ago. It’s around forty to forty‑five thousand now. It’s in their default “moderate risk” portfolio—mix of stock and bond ETFs.\", \"call_time\": \"00:18:30\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_15\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g16"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_16",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Traditional IRA at T. Rowe Price, rolled from old 403(b).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 90000,
+        "citation": "[00:18:41] CLIENT2: Yeah, we rolled an old 403(b) into a traditional IRA at T. Rowe Price. I think it’s around ninety thousand.",
+        "call_time": "00:18:41",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_16",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_16\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Traditional IRA at T. Rowe Price, rolled from old 403(b).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 90000, \"citation\": \"[00:18:41] CLIENT2: Yeah, we rolled an old 403(b) into a traditional IRA at T. Rowe Price. I think it’s around ninety thousand.\", \"call_time\": \"00:18:41\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_16\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g17"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_17",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Health Savings Account (HSA) through Optum, invested in broad stock mutual fund.",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 12500,
+        "citation": "[00:18:56] CLIENT1: I do. HSA through Optum. Around twelve or thirteen thousand in there.",
+        "call_time": "00:18:56",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 150,
+        "citation": "[00:18:56] CLIENT1: I put about a hundred fifty a month in, plus whatever my employer tosses in at the start of the year.",
+        "call_time": "00:18:56",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_17",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_17\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Health Savings Account (HSA) through Optum, invested in broad stock mutual fund.\", \"asset_type\": {\"value\": \"other\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 12500, \"citation\": \"[00:18:56] CLIENT1: I do. HSA through Optum. Around twelve or thirteen thousand in there.\", \"call_time\": \"00:18:56\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 150, \"citation\": \"[00:18:56] CLIENT1: I put about a hundred fifty a month in, plus whatever my employer tosses in at the start of the year.\", \"call_time\": \"00:18:56\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_17\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g18"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_18",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Small IRA at American Funds from first job.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 12500,
+        "citation": "[00:19:28] CLIENT1: I have a really small IRA at American Funds from my first job. It’s like ten or fifteen grand. We honestly forget about it.",
+        "call_time": "00:19:28",
+        "recorded_at": "2025-11-17T19:15:25",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_18",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_18\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Small IRA at American Funds from first job.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 12500, \"citation\": \"[00:19:28] CLIENT1: I have a really small IRA at American Funds from my first job. It’s like ten or fifteen grand. We honestly forget about it.\", \"call_time\": \"00:19:28\", \"recorded_at\": \"2025-11-17T19:15:25\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_18\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g19"
+    ],
+    "status": "TP"
+  }
+]

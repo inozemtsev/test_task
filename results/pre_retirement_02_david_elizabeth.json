@@ -1,0 +1,578 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "property_main_home",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Main home: brick house on Willow Creek Drive, Lakewood, near Cleveland. Three bedrooms, office over garage.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Lakewood, Ohio",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 435000,
+        "citation": "CLIENT1: [00:05:48] 'mid‑four hundreds. Maybe four‑twenty to four‑fifty.' CLIENT2: [00:05:55] 'neighbor’s went for about four‑thirty.'",
+        "call_time": "00:05:48",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 82500,
+        "citation": "CLIENT2: [00:06:05] 'around eighty, eighty‑five thousand left.'",
+        "call_time": "00:06:05",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_interest_rate",
+        "type": "number",
+        "value": 2.9,
+        "citation": "CLIENT1: [00:06:13] 'Two point nine percent fixed.'",
+        "call_time": "00:06:13",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 862,
+        "citation": "CLIENT2: [00:06:42] 'Eight hundred and sixty‑two dollars. I just paid it yesterday.'",
+        "call_time": "00:06:42",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_housing_cost_all_in",
+        "type": "number",
+        "value": 2250,
+        "citation": "ADVISOR: [00:07:14] 'we’re probably in that two‑thousand to twenty‑five hundred a month range for “roof over your head” costs?' CLIENT1: [00:07:24] 'Yeah, that sounds about right.'",
+        "call_time": "00:07:14",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 100,
+        "citation": "Implied joint ownership throughout transcript.",
+        "call_time": null,
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "property_main_home",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"property_main_home\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Main home: brick house on Willow Creek Drive, Lakewood, near Cleveland. Three bedrooms, office over garage.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Lakewood, Ohio\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 435000, \"citation\": \"CLIENT1: [00:05:48] 'mid‑four hundreds. Maybe four‑twenty to four‑fifty.' CLIENT2: [00:05:55] 'neighbor’s went for about four‑thirty.'\", \"call_time\": \"00:05:48\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 82500, \"citation\": \"CLIENT2: [00:06:05] 'around eighty, eighty‑five thousand left.'\", \"call_time\": \"00:06:05\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_interest_rate\", \"type\": \"number\", \"value\": 2.9, \"citation\": \"CLIENT1: [00:06:13] 'Two point nine percent fixed.'\", \"call_time\": \"00:06:13\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 862, \"citation\": \"CLIENT2: [00:06:42] 'Eight hundred and sixty‑two dollars. I just paid it yesterday.'\", \"call_time\": \"00:06:42\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"monthly_housing_cost_all_in\", \"type\": \"number\", \"value\": 2250, \"citation\": \"ADVISOR: [00:07:14] 'we’re probably in that two‑thousand to twenty‑five hundred a month range for “roof over your head” costs?' CLIENT1: [00:07:24] 'Yeah, that sounds about right.'\", \"call_time\": \"00:07:14\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 100, \"citation\": \"Implied joint ownership throughout transcript.\", \"call_time\": null, \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"property_main_home\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1",
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "property_wilmington_condo",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Wilmington condo: two-bedroom near the water, rented out most of the year, personal use a couple of times per year.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Wilmington, North Carolina",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 265000,
+        "citation": "CLIENT1: [00:08:21] 'mid‑two hundreds. Two‑sixty, two‑seventy.'",
+        "call_time": "00:08:21",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 150000,
+        "citation": "CLIENT1: [00:08:29] 'We’ve got around one‑fifty left on it.'",
+        "call_time": "00:08:29",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 1200,
+        "citation": "CLIENT2: [00:08:33] 'Payment—including taxes and HOA—is about twelve hundred a month.'",
+        "call_time": "00:08:33",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 19200,
+        "citation": "CLIENT2: [00:08:33] 'Rent we get is sixteen hundred, so it mostly covers itself with a little left over.'",
+        "call_time": "00:08:33",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 100,
+        "citation": "Implied joint ownership throughout transcript.",
+        "call_time": null,
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "property_wilmington_condo",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"property_wilmington_condo\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Wilmington condo: two-bedroom near the water, rented out most of the year, personal use a couple of times per year.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Wilmington, North Carolina\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 265000, \"citation\": \"CLIENT1: [00:08:21] 'mid‑two hundreds. Two‑sixty, two‑seventy.'\", \"call_time\": \"00:08:21\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 150000, \"citation\": \"CLIENT1: [00:08:29] 'We’ve got around one‑fifty left on it.'\", \"call_time\": \"00:08:29\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 1200, \"citation\": \"CLIENT2: [00:08:33] 'Payment—including taxes and HOA—is about twelve hundred a month.'\", \"call_time\": \"00:08:33\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 19200, \"citation\": \"CLIENT2: [00:08:33] 'Rent we get is sixteen hundred, so it mostly covers itself with a little left over.'\", \"call_time\": \"00:08:33\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 100, \"citation\": \"Implied joint ownership throughout transcript.\", \"call_time\": null, \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"property_wilmington_condo\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3",
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "property_logan_cabin",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Cabin near Logan, Ohio: two-bed, basic, used for family weekends, occasional Airbnb rental.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Near Logan, Ohio (Hocking Hills)",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 185000,
+        "citation": "CLIENT1: [00:09:31] 'Now probably one‑eighty, one‑ninety.'",
+        "call_time": "00:09:31",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT2: [00:09:37] 'No mortgage on that one. We paid it off last year.'",
+        "call_time": "00:09:37",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 100,
+        "citation": "Implied joint ownership throughout transcript.",
+        "call_time": null,
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "property_logan_cabin",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"property_logan_cabin\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Cabin near Logan, Ohio: two-bed, basic, used for family weekends, occasional Airbnb rental.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Near Logan, Ohio (Hocking Hills)\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 185000, \"citation\": \"CLIENT1: [00:09:31] 'Now probably one‑eighty, one‑ninety.'\", \"call_time\": \"00:09:31\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT2: [00:09:37] 'No mortgage on that one. We paid it off last year.'\", \"call_time\": \"00:09:37\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 100, \"citation\": \"Implied joint ownership throughout transcript.\", \"call_time\": null, \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"property_logan_cabin\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "bank_river_valley_checking",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "River Valley Bank joint checking account for day-to-day expenses.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "River Valley Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 9000,
+        "citation": "CLIENT1: [00:16:37] 'checking is at River Valley Bank. That usually has eight to ten thousand in it for day‑to‑day.'",
+        "call_time": "00:16:37",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "bank_river_valley_checking",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"bank_river_valley_checking\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"River Valley Bank joint checking account for day-to-day expenses.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"River Valley Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 9000, \"citation\": \"CLIENT1: [00:16:37] 'checking is at River Valley Bank. That usually has eight to ten thousand in it for day‑to‑day.'\", \"call_time\": \"00:16:37\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"bank_river_valley_checking\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "bank_river_valley_savings",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "River Valley Bank joint savings account.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "River Valley Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 40000,
+        "citation": "CLIENT2: [00:16:43] 'local joint savings there, maybe forty thousand.'",
+        "call_time": "00:16:43",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "bank_river_valley_savings",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"bank_river_valley_savings\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"River Valley Bank joint savings account.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"River Valley Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 40000, \"citation\": \"CLIENT2: [00:16:43] 'local joint savings there, maybe forty thousand.'\", \"call_time\": \"00:16:43\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"bank_river_valley_savings\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g15"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "bank_marcus_savings",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Online high-yield savings at Marcus.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Marcus (online bank)",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 60000,
+        "citation": "CLIENT2: [00:16:43] 'an online high‑yield savings at Marcus—that’s around sixty thousand.'",
+        "call_time": "00:16:43",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "bank_marcus_savings",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"bank_marcus_savings\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Online high-yield savings at Marcus.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Marcus (online bank)\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 60000, \"citation\": \"CLIENT2: [00:16:43] 'an online high‑yield savings at Marcus—that’s around sixty thousand.'\", \"call_time\": \"00:16:43\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"bank_marcus_savings\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g16"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "credit_union_money_market",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Money market at credit union, inheritance from Elizabeth's mother.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Credit union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 37500,
+        "citation": "CLIENT2: [00:17:13] 'money market at the credit union with my inheritance from my mum. It’s between thirty‑five and forty thousand.'",
+        "call_time": "00:17:13",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "credit_union_money_market",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"credit_union_money_market\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Money market at credit union, inheritance from Elizabeth's mother.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Credit union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 37500, \"citation\": \"CLIENT2: [00:17:13] 'money market at the credit union with my inheritance from my mum. It’s between thirty‑five and forty thousand.'\", \"call_time\": \"00:17:13\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"credit_union_money_market\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g17"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "lakewood_cd",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "CD at Lakewood Community Bank, matures April 2026.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Lakewood Community Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 50000,
+        "citation": "CLIENT1: [00:17:21] 'CD at Lakewood Community Bank—fifty thousand.'",
+        "call_time": "00:17:21",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "interest_rate",
+        "type": "number",
+        "value": 3.0,
+        "citation": "CLIENT1: [00:17:21] 'Rate’s about three‑something percent.'",
+        "call_time": "00:17:21",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "lakewood_cd",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"lakewood_cd\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"CD at Lakewood Community Bank, matures April 2026.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Lakewood Community Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 50000, \"citation\": \"CLIENT1: [00:17:21] 'CD at Lakewood Community Bank—fifty thousand.'\", \"call_time\": \"00:17:21\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"interest_rate\", \"type\": \"number\", \"value\": 3.0, \"citation\": \"CLIENT1: [00:17:21] 'Rate’s about three‑something percent.'\", \"call_time\": \"00:17:21\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"lakewood_cd\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g18"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "schwab_joint_brokerage",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Joint brokerage account at Charles Schwab, opened around 2010, mostly index funds (US stock, international, municipal bond).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Charles Schwab",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 95000,
+        "citation": "CLIENT1: [00:18:03] 'joint brokerage at Schwab. ...ninety to a hundred thousand range now.'",
+        "call_time": "00:18:03",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "schwab_joint_brokerage",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"schwab_joint_brokerage\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Joint brokerage account at Charles Schwab, opened around 2010, mostly index funds (US stock, international, municipal bond).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Charles Schwab\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 95000, \"citation\": \"CLIENT1: [00:18:03] 'joint brokerage at Schwab. ...ninety to a hundred thousand range now.'\", \"call_time\": \"00:18:03\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"schwab_joint_brokerage\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g19"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "etrade_horizon_stock",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "E*TRADE account holding old employer stock from Horizon (employee stock purchase plan).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "E*TRADE",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 35000,
+        "citation": "CLIENT1: [00:18:25] 'there’s still maybe thirty to forty thousand in that one stock.'",
+        "call_time": "00:18:25",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "etrade_horizon_stock",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"etrade_horizon_stock\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"E*TRADE account holding old employer stock from Horizon (employee stock purchase plan).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"E*TRADE\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 35000, \"citation\": \"CLIENT1: [00:18:25] 'there’s still maybe thirty to forty thousand in that one stock.'\", \"call_time\": \"00:18:25\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"etrade_horizon_stock\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g20"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "529_vanguard_grandchild1",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Vanguard 529 plan for oldest granddaughter.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 15000,
+        "citation": "CLIENT2: [00:18:47] '529 for our oldest granddaughter at Vanguard. That’s maybe fifteen thousand.'",
+        "call_time": "00:18:47",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "529_vanguard_grandchild1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"529_vanguard_grandchild1\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Vanguard 529 plan for oldest granddaughter.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 15000, \"citation\": \"CLIENT2: [00:18:47] '529 for our oldest granddaughter at Vanguard. That’s maybe fifteen thousand.'\", \"call_time\": \"00:18:47\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"529_vanguard_grandchild1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g21"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "529_vanguard_grandchild2",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Vanguard 529 plan for younger granddaughter.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 8500,
+        "citation": "CLIENT2: [00:18:52] 'a smaller one for the younger granddaughter, eight or nine thousand.'",
+        "call_time": "00:18:52",
+        "recorded_at": "2025-11-17T20:09:21",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "529_vanguard_grandchild2",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"529_vanguard_grandchild2\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Vanguard 529 plan for younger granddaughter.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 8500, \"citation\": \"CLIENT2: [00:18:52] 'a smaller one for the younger granddaughter, eight or nine thousand.'\", \"call_time\": \"00:18:52\", \"recorded_at\": \"2025-11-17T20:09:21\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"529_vanguard_grandchild2\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g22"
+    ],
+    "status": "TP"
+  }
+]

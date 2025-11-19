@@ -1,0 +1,800 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "home_albuquerque",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Primary residence, single-family, three bed, two bath, north Albuquerque, bought in 2020",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "North Albuquerque, NM",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 350000,
+        "citation": "[00:02:43] CLIENT1: Property tax notice said mid‑three hundreds—maybe three‑forty, three‑fifty. [00:02:54] ADVISOR: Okay, I’ll note around three‑fifty.",
+        "call_time": "00:02:43",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "purchase_price",
+        "type": "number",
+        "value": 160000,
+        "citation": "[00:17:52] CLIENT1: We bought for one‑sixty about five years ago.",
+        "call_time": "00:17:52",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 195000,
+        "citation": "[00:03:05] CLIENT1: Just under two hundred thousand. One‑ninety‑something as of last month.",
+        "call_time": "00:03:05",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 1500,
+        "citation": "[00:03:16] CLIENT2: It’s right around fifteen hundred a month. Everything’s rolled in.",
+        "call_time": "00:03:16",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_interest_rate",
+        "type": "number",
+        "value": 3.1,
+        "citation": "[00:03:31] CLIENT1: Just over three, I think? Three‑point‑one or three‑point‑two. Somewhere there.",
+        "call_time": "00:03:31",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      },
+      {
+        "property": "mortgage_type",
+        "type": "string",
+        "value": "30-year fixed",
+        "citation": "[00:03:24] CLIENT1: Yeah, thirty‑year fixed. We locked it in 2020.",
+        "call_time": "00:03:24",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "home_albuquerque",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"home_albuquerque\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Primary residence, single-family, three bed, two bath, north Albuquerque, bought in 2020\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"North Albuquerque, NM\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 350000, \"citation\": \"[00:02:43] CLIENT1: Property tax notice said mid‑three hundreds—maybe three‑forty, three‑fifty. [00:02:54] ADVISOR: Okay, I’ll note around three‑fifty.\", \"call_time\": \"00:02:43\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"purchase_price\", \"type\": \"number\", \"value\": 160000, \"citation\": \"[00:17:52] CLIENT1: We bought for one‑sixty about five years ago.\", \"call_time\": \"00:17:52\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 195000, \"citation\": \"[00:03:05] CLIENT1: Just under two hundred thousand. One‑ninety‑something as of last month.\", \"call_time\": \"00:03:05\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 1500, \"citation\": \"[00:03:16] CLIENT2: It’s right around fifteen hundred a month. Everything’s rolled in.\", \"call_time\": \"00:03:16\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_interest_rate\", \"type\": \"number\", \"value\": 3.1, \"citation\": \"[00:03:31] CLIENT1: Just over three, I think? Three‑point‑one or three‑point‑two. Somewhere there.\", \"call_time\": \"00:03:31\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}, {\"property\": \"mortgage_type\", \"type\": \"string\", \"value\": \"30-year fixed\", \"citation\": \"[00:03:24] CLIENT1: Yeah, thirty‑year fixed. We locked it in 2020.\", \"call_time\": \"00:03:24\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"home_albuquerque\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1",
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "cabin_pagosa",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "A-frame cabin near Pagosa Springs, CO, co-owned with brother, used for vacation and Airbnb rental",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Near Pagosa Springs, CO",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 225000,
+        "citation": "[00:17:52] CLIENT1: Brother says agents told him maybe around two‑twenty, two‑thirty now.",
+        "call_time": "00:17:52",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 50,
+        "citation": "[00:17:45] CLIENT2: John owns half. His name and his brother’s are on the deed.",
+        "call_time": "00:17:45",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "estimated_value_of_share",
+        "type": "number",
+        "value": 112500,
+        "citation": "[00:17:52] CLIENT1: Brother says agents told him maybe around two‑twenty, two‑thirty now. [00:17:45] CLIENT2: John owns half.",
+        "call_time": "00:17:52",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "purchase_price",
+        "type": "number",
+        "value": 160000,
+        "citation": "[00:17:52] CLIENT1: We bought for one‑sixty about five years ago.",
+        "call_time": "00:17:52",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 80000,
+        "citation": "[00:18:06] CLIENT1: Yeah, small mortgage. Balance is maybe eighty thousand total. So my share is like forty.",
+        "call_time": "00:18:06",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "cabin_pagosa",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"cabin_pagosa\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"A-frame cabin near Pagosa Springs, CO, co-owned with brother, used for vacation and Airbnb rental\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Near Pagosa Springs, CO\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 225000, \"citation\": \"[00:17:52] CLIENT1: Brother says agents told him maybe around two‑twenty, two‑thirty now.\", \"call_time\": \"00:17:52\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 50, \"citation\": \"[00:17:45] CLIENT2: John owns half. His name and his brother’s are on the deed.\", \"call_time\": \"00:17:45\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"estimated_value_of_share\", \"type\": \"number\", \"value\": 112500, \"citation\": \"[00:17:52] CLIENT1: Brother says agents told him maybe around two‑twenty, two‑thirty now. [00:17:45] CLIENT2: John owns half.\", \"call_time\": \"00:17:52\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"purchase_price\", \"type\": \"number\", \"value\": 160000, \"citation\": \"[00:17:52] CLIENT1: We bought for one‑sixty about five years ago.\", \"call_time\": \"00:17:52\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 80000, \"citation\": \"[00:18:06] CLIENT1: Yeah, small mortgage. Balance is maybe eighty thousand total. So my share is like forty.\", \"call_time\": \"00:18:06\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"cabin_pagosa\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2",
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "checking_sandia",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Main checking account at Sandia Credit Union",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Sandia Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 2500,
+        "citation": "[00:15:40] CLIENT2: Our main checking is with Sandia Credit Union. It usually sits around two to three thousand.",
+        "call_time": "00:15:40",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "checking_sandia",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"checking_sandia\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Main checking account at Sandia Credit Union\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Sandia Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 2500, \"citation\": \"[00:15:40] CLIENT2: Our main checking is with Sandia Credit Union. It usually sits around two to three thousand.\", \"call_time\": \"00:15:40\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"checking_sandia\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "savings_marcus",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Online savings account with Marcus by Goldman Sachs",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Marcus by Goldman Sachs",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 12500,
+        "citation": "[00:15:51] CLIENT1: We’ve got an online savings with Marcus—Marcus by Goldman. That has around twelve or thirteen grand.",
+        "call_time": "00:15:51",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "savings_marcus",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"savings_marcus\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Online savings account with Marcus by Goldman Sachs\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Marcus by Goldman Sachs\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 12500, \"citation\": \"[00:15:51] CLIENT1: We’ve got an online savings with Marcus—Marcus by Goldman. That has around twelve or thirteen grand.\", \"call_time\": \"00:15:51\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"savings_marcus\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "cd_riogrande",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "CD inherited from grandmother, at Rio Grande Bank, matures April 2026",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Rio Grande Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 22500,
+        "citation": "[00:16:18] CLIENT1: It started at twenty. I think it’s, I don’t know, twenty‑two, twenty‑three by now.",
+        "call_time": "00:16:18",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "cd_riogrande",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"cd_riogrande\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"CD inherited from grandmother, at Rio Grande Bank, matures April 2026\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Rio Grande Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 22500, \"citation\": \"[00:16:18] CLIENT1: It started at twenty. I think it’s, I don’t know, twenty‑two, twenty‑three by now.\", \"call_time\": \"00:16:18\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"cd_riogrande\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "hsa_patricia",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Patricia's Health Savings Account (HSA)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 4000,
+        "citation": "[00:17:12] CLIENT2: I think around four thousand. Some of it’s in a mutual fund, not just cash.",
+        "call_time": "00:17:12",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "hsa_patricia",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"hsa_patricia\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Patricia's Health Savings Account (HSA)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 4000, \"citation\": \"[00:17:12] CLIENT2: I think around four thousand. Some of it’s in a mutual fund, not just cash.\", \"call_time\": \"00:17:12\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"hsa_patricia\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "401k_john_fidelity",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "John's 401(k) at Fidelity, current employer Horizon Data Labs",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Fidelity",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 33000,
+        "citation": "[00:07:14] CLIENT1: I checked a couple weeks ago. It was like thirty‑two, thirty‑three thousand.",
+        "call_time": "00:07:14",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 6,
+        "citation": "[00:07:23] CLIENT1: Six percent. Company matches four.",
+        "call_time": "00:07:23",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 4,
+        "citation": "[00:07:23] CLIENT1: Six percent. Company matches four.",
+        "call_time": "00:07:23",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": true,
+        "citation": "[00:07:23] CLIENT1: Six percent. Company matches four.",
+        "call_time": "00:07:23",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "401k_john_fidelity",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"401k_john_fidelity\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"John's 401(k) at Fidelity, current employer Horizon Data Labs\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Fidelity\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 33000, \"citation\": \"[00:07:14] CLIENT1: I checked a couple weeks ago. It was like thirty‑two, thirty‑three thousand.\", \"call_time\": \"00:07:14\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 6, \"citation\": \"[00:07:23] CLIENT1: Six percent. Company matches four.\", \"call_time\": \"00:07:23\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 4, \"citation\": \"[00:07:23] CLIENT1: Six percent. Company matches four.\", \"call_time\": \"00:07:23\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": true, \"citation\": \"[00:07:23] CLIENT1: Six percent. Company matches four.\", \"call_time\": \"00:07:23\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"401k_john_fidelity\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "403b_patricia_tiaa",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Patricia's 403(b) at TIAA, employer Lakeside Children’s Clinic",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "TIAA",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 20000,
+        "citation": "[00:07:34] CLIENT2: Yeah, a 403(b) with TIAA. Balance is around twenty thousand, I think.",
+        "call_time": "00:07:34",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 5,
+        "citation": "[00:07:45] CLIENT2: Five percent right now. They match three.",
+        "call_time": "00:07:45",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 3,
+        "citation": "[00:07:45] CLIENT2: Five percent right now. They match three.",
+        "call_time": "00:07:45",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": true,
+        "citation": "[00:07:45] CLIENT2: Five percent right now. They match three.",
+        "call_time": "00:07:45",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "403b_patricia_tiaa",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"403b_patricia_tiaa\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Patricia's 403(b) at TIAA, employer Lakeside Children’s Clinic\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"TIAA\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 20000, \"citation\": \"[00:07:34] CLIENT2: Yeah, a 403(b) with TIAA. Balance is around twenty thousand, I think.\", \"call_time\": \"00:07:34\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 5, \"citation\": \"[00:07:45] CLIENT2: Five percent right now. They match three.\", \"call_time\": \"00:07:45\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 3, \"citation\": \"[00:07:45] CLIENT2: Five percent right now. They match three.\", \"call_time\": \"00:07:45\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": true, \"citation\": \"[00:07:45] CLIENT2: Five percent right now. They match three.\", \"call_time\": \"00:07:45\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"403b_patricia_tiaa\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "roth_john_vanguard",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "John's Roth IRA at Vanguard",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 7500,
+        "citation": "[00:08:09] CLIENT1: I’ve got a Roth IRA with Vanguard. Not huge—maybe seven or eight thousand.",
+        "call_time": "00:08:09",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "roth_john_vanguard",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"roth_john_vanguard\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"John's Roth IRA at Vanguard\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 7500, \"citation\": \"[00:08:09] CLIENT1: I’ve got a Roth IRA with Vanguard. Not huge—maybe seven or eight thousand.\", \"call_time\": \"00:08:09\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"roth_john_vanguard\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "roth_patricia_schwab",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Patricia's Roth IRA at Schwab, started 2025, robo portfolio",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Charles Schwab",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 1000,
+        "citation": "[00:08:18] CLIENT2: I opened a Roth IRA at Schwab this year. Through their robo thing. It’s only got about a thousand in it so far.",
+        "call_time": "00:08:18",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 100,
+        "citation": "[00:08:18] CLIENT2: We started at a hundred a month from our checking, but we turned that off in August when school stuff hit.",
+        "call_time": "00:08:18",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": false,
+        "citation": "[00:08:18] CLIENT2: We started at a hundred a month from our checking, but we turned that off in August when school stuff hit.",
+        "call_time": "00:08:18",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "roth_patricia_schwab",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"roth_patricia_schwab\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Patricia's Roth IRA at Schwab, started 2025, robo portfolio\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Charles Schwab\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 1000, \"citation\": \"[00:08:18] CLIENT2: I opened a Roth IRA at Schwab this year. Through their robo thing. It’s only got about a thousand in it so far.\", \"call_time\": \"00:08:18\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 100, \"citation\": \"[00:08:18] CLIENT2: We started at a hundred a month from our checking, but we turned that off in August when school stuff hit.\", \"call_time\": \"00:08:18\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": false, \"citation\": \"[00:08:18] CLIENT2: We started at a hundred a month from our checking, but we turned that off in August when school stuff hit.\", \"call_time\": \"00:08:18\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"roth_patricia_schwab\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "rollover_john_vanguard",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "John's Rollover IRA at Vanguard (old 401k rolled over)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 26500,
+        "citation": "[00:08:36] CLIENT1: I rolled my old 401(k) into a Vanguard rollover IRA last summer when I changed roles internally. That one has, I think, twenty‑six or twenty‑seven thousand.",
+        "call_time": "00:08:36",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "rollover_john_vanguard",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"rollover_john_vanguard\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"John's Rollover IRA at Vanguard (old 401k rolled over)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 26500, \"citation\": \"[00:08:36] CLIENT1: I rolled my old 401(k) into a Vanguard rollover IRA last summer when I changed roles internally. That one has, I think, twenty‑six or twenty‑seven thousand.\", \"call_time\": \"00:08:36\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"rollover_john_vanguard\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "old401k_patricia_principal",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Patricia's old 401(k) from first job, at Principal",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Principal",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 2000,
+        "citation": "[00:08:45] CLIENT2: I have a tiny 401(k) from my first job at a clinic. I think it’s with Principal. Maybe two thousand dollars?",
+        "call_time": "00:08:45",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "old401k_patricia_principal",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"old401k_patricia_principal\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Patricia's old 401(k) from first job, at Principal\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Principal\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 2000, \"citation\": \"[00:08:45] CLIENT2: I have a tiny 401(k) from my first job at a clinic. I think it’s with Principal. Maybe two thousand dollars?\", \"call_time\": \"00:08:45\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"old401k_patricia_principal\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "529_mateo",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "529 college savings plan for Mateo (oldest child), New Mexico plan",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "New Mexico 529 Plan",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 5000,
+        "citation": "[00:19:37] CLIENT2: Oldest has around five thousand.",
+        "call_time": "00:19:37",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 50,
+        "citation": "[00:19:44] CLIENT1: We do fifty bucks a month into each right now.",
+        "call_time": "00:19:44",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "529_mateo",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"529_mateo\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"529 college savings plan for Mateo (oldest child), New Mexico plan\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"New Mexico 529 Plan\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 5000, \"citation\": \"[00:19:37] CLIENT2: Oldest has around five thousand.\", \"call_time\": \"00:19:37\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 50, \"citation\": \"[00:19:44] CLIENT1: We do fifty bucks a month into each right now.\", \"call_time\": \"00:19:44\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"529_mateo\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g16"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "529_lucia",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "529 college savings plan for Lucia (middle child), New Mexico plan",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "New Mexico 529 Plan",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 3000,
+        "citation": "[00:19:37] CLIENT2: Middle one maybe three‑ish.",
+        "call_time": "00:19:37",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 50,
+        "citation": "[00:19:44] CLIENT1: We do fifty bucks a month into each right now.",
+        "call_time": "00:19:44",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "529_lucia",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"529_lucia\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"529 college savings plan for Lucia (middle child), New Mexico plan\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"New Mexico 529 Plan\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 3000, \"citation\": \"[00:19:37] CLIENT2: Middle one maybe three‑ish.\", \"call_time\": \"00:19:37\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 50, \"citation\": \"[00:19:44] CLIENT1: We do fifty bucks a month into each right now.\", \"call_time\": \"00:19:44\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"529_lucia\", \"fact_type\": \"asset\"}\n\nDedup note: Predicted fact 529_lucia marked FP because gold g16 already matched another prediction.",
+    "in_scope": true,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "529_sofi",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "529 college savings plan for Sofi (youngest child), New Mexico plan",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "New Mexico 529 Plan",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 500,
+        "citation": "[00:19:37] CLIENT2: And the baby just has what my parents put in—like five hundred.",
+        "call_time": "00:19:37",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 50,
+        "citation": "[00:19:44] CLIENT1: We do fifty bucks a month into each right now.",
+        "call_time": "00:19:44",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "529_sofi",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"529_sofi\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"529 college savings plan for Sofi (youngest child), New Mexico plan\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"New Mexico 529 Plan\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 500, \"citation\": \"[00:19:37] CLIENT2: And the baby just has what my parents put in—like five hundred.\", \"call_time\": \"00:19:37\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 50, \"citation\": \"[00:19:44] CLIENT1: We do fifty bucks a month into each right now.\", \"call_time\": \"00:19:44\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"529_sofi\", \"fact_type\": \"asset\"}\n\nDedup note: Predicted fact 529_sofi marked FP because gold g16 already matched another prediction.",
+    "in_scope": true,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "robinhood_john",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "John's Robinhood taxable brokerage account",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Robinhood",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 800,
+        "citation": "[00:20:20] CLIENT1: Maybe eight hundred bucks. Depends on how my “great” stock picks are doing.",
+        "call_time": "00:20:20",
+        "recorded_at": "2025-11-17T20:58:45",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "robinhood_john",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"robinhood_john\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"John's Robinhood taxable brokerage account\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Robinhood\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 800, \"citation\": \"[00:20:20] CLIENT1: Maybe eight hundred bucks. Depends on how my “great” stock picks are doing.\", \"call_time\": \"00:20:20\", \"recorded_at\": \"2025-11-17T20:58:45\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"robinhood_john\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g15"
+    ],
+    "status": "TP"
+  }
+]

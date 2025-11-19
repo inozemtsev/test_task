@@ -1,0 +1,593 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "main_home",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Four-bed detached house in a cul-de-sac just outside Reading. Main home.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Just outside Reading",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 600000,
+        "citation": "[00:03:54] CLIENT2: The last one on our street went for about five‑eighty. Ours is a bit nicer—we’ve done the kitchen—so somewhere high five hundreds, maybe six hundred.",
+        "call_time": "00:03:54",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 325000,
+        "citation": "[00:04:07] CLIENT1: Around three‑twenty, three‑thirty. We’ve not made a massive dent yet.",
+        "call_time": "00:04:07",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "mortgage_type",
+        "type": "string",
+        "value": "repayment",
+        "citation": "[00:04:14] CLIENT2: Yeah. We wanted it actually going down, not interest‑only.",
+        "call_time": "00:04:14",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 1600,
+        "citation": "[00:04:20] CLIENT1: Contractual’s about fifteen‑hundred and something, and we’ve set a little overpayment so it ends up just under sixteen hundred.",
+        "call_time": "00:04:20",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "mortgage_interest_rate",
+        "type": "number",
+        "value": 3.4,
+        "citation": "[00:04:34] CLIENT1: Yeah, five‑year fix we did spring 2022. It’s three‑point‑something. Three‑point‑four, I think.",
+        "call_time": "00:04:34",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "main_home",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"main_home\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Four-bed detached house in a cul-de-sac just outside Reading. Main home.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Just outside Reading\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 600000, \"citation\": \"[00:03:54] CLIENT2: The last one on our street went for about five‑eighty. Ours is a bit nicer—we’ve done the kitchen—so somewhere high five hundreds, maybe six hundred.\", \"call_time\": \"00:03:54\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 325000, \"citation\": \"[00:04:07] CLIENT1: Around three‑twenty, three‑thirty. We’ve not made a massive dent yet.\", \"call_time\": \"00:04:07\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"mortgage_type\", \"type\": \"string\", \"value\": \"repayment\", \"citation\": \"[00:04:14] CLIENT2: Yeah. We wanted it actually going down, not interest‑only.\", \"call_time\": \"00:04:14\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 1600, \"citation\": \"[00:04:20] CLIENT1: Contractual’s about fifteen‑hundred and something, and we’ve set a little overpayment so it ends up just under sixteen hundred.\", \"call_time\": \"00:04:20\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"mortgage_interest_rate\", \"type\": \"number\", \"value\": 3.4, \"citation\": \"[00:04:34] CLIENT1: Yeah, five‑year fix we did spring 2022. It’s three‑point‑something. Three‑point‑four, I think.\", \"call_time\": \"00:04:34\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"main_home\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1",
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "croydon_flat",
+    "owner_ids": [
+      "client_1",
+      "other"
+    ],
+    "static": {
+      "description": "Two-bed flat in Croydon, jointly owned by James and his ex-wife. Buy-to-let.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Croydon",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 175000,
+        "citation": "[00:05:58] CLIENT1: Yeah. That one’s on an interest‑only buy‑to‑let deal. Outstanding is around one‑seventy, one‑eighty.",
+        "call_time": "00:05:58",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "mortgage_type",
+        "type": "string",
+        "value": "interest-only buy-to-let",
+        "citation": "[00:05:58] CLIENT1: Yeah. That one’s on an interest‑only buy‑to‑let deal.",
+        "call_time": "00:05:58",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 615,
+        "citation": "[00:06:08] CLIENT1: About six hundred and something. Six‑ten, six‑twenty once the bits they bundle in are added.",
+        "call_time": "00:06:08",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 10200,
+        "citation": "[00:06:14] CLIENT2: We get about eight‑fifty a month rent. By the time you’ve taken letting fees and bits there’s not loads left.",
+        "call_time": "00:06:14",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 45,
+        "citation": "[00:06:34] CLIENT1: Decree says my ex has fifty‑five percent and I’ve got forty‑five.",
+        "call_time": "00:06:34",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "croydon_flat",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"croydon_flat\", \"owner_ids\": [\"client_1\", \"other\"], \"static\": {\"description\": \"Two-bed flat in Croydon, jointly owned by James and his ex-wife. Buy-to-let.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Croydon\", \"account_number\": null}, \"timeline\": [{\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 175000, \"citation\": \"[00:05:58] CLIENT1: Yeah. That one’s on an interest‑only buy‑to‑let deal. Outstanding is around one‑seventy, one‑eighty.\", \"call_time\": \"00:05:58\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"mortgage_type\", \"type\": \"string\", \"value\": \"interest-only buy-to-let\", \"citation\": \"[00:05:58] CLIENT1: Yeah. That one’s on an interest‑only buy‑to‑let deal.\", \"call_time\": \"00:05:58\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 615, \"citation\": \"[00:06:08] CLIENT1: About six hundred and something. Six‑ten, six‑twenty once the bits they bundle in are added.\", \"call_time\": \"00:06:08\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 10200, \"citation\": \"[00:06:14] CLIENT2: We get about eight‑fifty a month rent. By the time you’ve taken letting fees and bits there’s not loads left.\", \"call_time\": \"00:06:14\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 45, \"citation\": \"[00:06:34] CLIENT1: Decree says my ex has fifty‑five percent and I’ve got forty‑five.\", \"call_time\": \"00:06:34\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"croydon_flat\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "manchester_house_share",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Share of former family house in north Manchester, owned by Karen's ex-husband and Karen (equity only).",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "North side of Manchester",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 30,
+        "citation": "[00:07:18] CLIENT2: Thirty percent, I think. The agreement is, either when he sells or when our younger one turns twenty‑two, he has to buy me out based on an appraisal then.",
+        "call_time": "00:07:18",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      },
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 320000,
+        "citation": "[00:07:31] CLIENT2: Probably three ten, three twenty. The mortgage is tiny now, forty or fifty thousand.",
+        "call_time": "00:07:31",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 45000,
+        "citation": "[00:07:31] CLIENT2: The mortgage is tiny now, forty or fifty thousand.",
+        "call_time": "00:07:31",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "manchester_house_share",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"manchester_house_share\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Share of former family house in north Manchester, owned by Karen's ex-husband and Karen (equity only).\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"North side of Manchester\", \"account_number\": null}, \"timeline\": [{\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 30, \"citation\": \"[00:07:18] CLIENT2: Thirty percent, I think. The agreement is, either when he sells or when our younger one turns twenty‑two, he has to buy me out based on an appraisal then.\", \"call_time\": \"00:07:18\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}, {\"property\": \"current_value\", \"type\": \"number\", \"value\": 320000, \"citation\": \"[00:07:31] CLIENT2: Probably three ten, three twenty. The mortgage is tiny now, forty or fifty thousand.\", \"call_time\": \"00:07:31\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 45000, \"citation\": \"[00:07:31] CLIENT2: The mortgage is tiny now, forty or fifty thousand.\", \"call_time\": \"00:07:31\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"manchester_house_share\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "lake_district_cabin",
+    "owner_ids": [
+      "client_2",
+      "other"
+    ],
+    "static": {
+      "description": "Family cabin in the Lake District. Owned 60% by parents, 20% by Karen, 20% by her brother.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Lake District",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 20,
+        "citation": "[00:07:52] CLIENT2: They did a deed transfer a couple of years ago—kept sixty percent themselves, and my brother and I each have twenty.",
+        "call_time": "00:07:52",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 200000,
+        "citation": "[00:07:55] CLIENT2: Whole thing’s maybe one eighty, two hundred thousand. No mortgage, it’s been paid off forever.",
+        "call_time": "00:07:55",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "[00:07:55] CLIENT2: No mortgage, it’s been paid off forever.",
+        "call_time": "00:07:55",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "GBP"
+      }
+    ],
+    "id": "lake_district_cabin",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"lake_district_cabin\", \"owner_ids\": [\"client_2\", \"other\"], \"static\": {\"description\": \"Family cabin in the Lake District. Owned 60% by parents, 20% by Karen, 20% by her brother.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Lake District\", \"account_number\": null}, \"timeline\": [{\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 20, \"citation\": \"[00:07:52] CLIENT2: They did a deed transfer a couple of years ago—kept sixty percent themselves, and my brother and I each have twenty.\", \"call_time\": \"00:07:52\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"current_value\", \"type\": \"number\", \"value\": 200000, \"citation\": \"[00:07:55] CLIENT2: Whole thing’s maybe one eighty, two hundred thousand. No mortgage, it’s been paid off forever.\", \"call_time\": \"00:07:55\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"[00:07:55] CLIENT2: No mortgage, it’s been paid off forever.\", \"call_time\": \"00:07:55\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"GBP\"}], \"id\": \"lake_district_cabin\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "joint_current_account",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint current account for household bills.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 4500,
+        "citation": "[00:14:12] CLIENT1: Joint current account usually sits around four to five grand, depending on bills.",
+        "call_time": "00:14:12",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "joint_current_account",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"joint_current_account\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint current account for household bills.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 4500, \"citation\": \"[00:14:12] CLIENT1: Joint current account usually sits around four to five grand, depending on bills.\", \"call_time\": \"00:14:12\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"joint_current_account\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "marcus_savings",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint online savings account with Marcus (emergency fund).",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 18000,
+        "citation": "[00:14:16] CLIENT2: And we’ve got an online savings together with Marcus—our main emergency fund. That’s around eighteen thousand at the moment.",
+        "call_time": "00:14:16",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "marcus_savings",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"marcus_savings\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint online savings account with Marcus (emergency fund).\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 18000, \"citation\": \"[00:14:16] CLIENT2: And we’ve got an online savings together with Marcus—our main emergency fund. That’s around eighteen thousand at the moment.\", \"call_time\": \"00:14:16\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"marcus_savings\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "james_credit_union",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "James's credit union savings account.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 6500,
+        "citation": "[00:14:27] CLIENT1: I’ve got a little credit union savings in my name only, about six, six and a half.",
+        "call_time": "00:14:27",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "james_credit_union",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"james_credit_union\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"James's credit union savings account.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 6500, \"citation\": \"[00:14:27] CLIENT1: I’ve got a little credit union savings in my name only, about six, six and a half.\", \"call_time\": \"00:14:27\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"james_credit_union\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "robo_investing_joint",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint robo-investing account, started last year.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 7000,
+        "citation": "[00:14:38] CLIENT1: We started one of those robo‑investing accounts last year, in both our names. We put in about three‑fifty a month when we can. Balance is around seven grand now.",
+        "call_time": "00:14:38",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 350,
+        "citation": "[00:14:38] CLIENT1: We put in about three‑fifty a month when we can.",
+        "call_time": "00:14:38",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "robo_investing_joint",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"robo_investing_joint\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint robo-investing account, started last year.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 7000, \"citation\": \"[00:14:38] CLIENT1: We started one of those robo‑investing accounts last year, in both our names. We put in about three‑fifty a month when we can. Balance is around seven grand now.\", \"call_time\": \"00:14:38\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 350, \"citation\": \"[00:14:38] CLIENT1: We put in about three‑fifty a month when we can.\", \"call_time\": \"00:14:38\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"robo_investing_joint\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "karen_girls_savings",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Karen's separate savings account for her daughters.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 11000,
+        "citation": "[00:14:46] CLIENT2: I’ve also got a separate savings for my girls, at a different bank. Last time I checked there was ten to twelve thousand in there.",
+        "call_time": "00:14:46",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "karen_girls_savings",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"karen_girls_savings\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Karen's separate savings account for her daughters.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 11000, \"citation\": \"[00:14:46] CLIENT2: I’ve also got a separate savings for my girls, at a different bank. Last time I checked there was ten to twelve thousand in there.\", \"call_time\": \"00:14:46\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"karen_girls_savings\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "karen_inheritance_account",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Karen's money-market account holding inheritance from her grandmother.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 22000,
+        "citation": "[00:14:56] CLIENT2: And my grandma passed two years ago. I got just under twenty‑two thousand from her. That’s in a money‑market account in my name.",
+        "call_time": "00:14:56",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "karen_inheritance_account",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"karen_inheritance_account\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Karen's money-market account holding inheritance from her grandmother.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 22000, \"citation\": \"[00:14:56] CLIENT2: And my grandma passed two years ago. I got just under twenty‑two thousand from her. That’s in a money‑market account in my name.\", \"call_time\": \"00:14:56\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"karen_inheritance_account\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "schwab_joint_gia",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "General investment account with Charles Schwab, joint names.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 22500,
+        "citation": "[00:15:22] CLIENT1: Low twenties. Maybe twenty to twenty‑five thousand.",
+        "call_time": "00:15:22",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "schwab_joint_gia",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"schwab_joint_gia\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"General investment account with Charles Schwab, joint names.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 22500, \"citation\": \"[00:15:22] CLIENT1: Low twenties. Maybe twenty to twenty‑five thousand.\", \"call_time\": \"00:15:22\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"schwab_joint_gia\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "karen_rsus",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Karen's company RSUs (restricted stock units), some vested, more vesting over next 3 years.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 15000,
+        "citation": "[00:15:54] CLIENT2: Yeah, RSUs—restricted stock units. Some have already vested, maybe fifteen thousand pounds’ worth at the current price.",
+        "call_time": "00:15:54",
+        "recorded_at": "2025-11-17T15:05:00Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "karen_rsus",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"karen_rsus\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Karen's company RSUs (restricted stock units), some vested, more vesting over next 3 years.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 15000, \"citation\": \"[00:15:54] CLIENT2: Yeah, RSUs—restricted stock units. Some have already vested, maybe fifteen thousand pounds’ worth at the current price.\", \"call_time\": \"00:15:54\", \"recorded_at\": \"2025-11-17T15:05:00Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"karen_rsus\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g15"
+    ],
+    "status": "TP"
+  }
+]

@@ -1,0 +1,597 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_1",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Family home, four-bed semi-detached with small garden, located on the north side of Nottingham (Arnold area).",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "North side of Nottingham, Arnold area",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 340000,
+        "citation": "CLIENT2: [00:03:22] We looked on Rightmove a few months ago. Similar ones were around three thirty, three fifty. CLIENT1: [00:03:29] Yeah, last one on our street went for just under three forty, so we’ve been saying mid‑three hundreds.",
+        "call_time": "00:03:22",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 147000,
+        "citation": "CLIENT1: [00:03:50] I checked the app last week. It was one forty‑seven, maybe one forty‑eight thousand. Somewhere there.",
+        "call_time": "00:03:50",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "mortgage_interest_rate",
+        "type": "number",
+        "value": 3.19,
+        "citation": "CLIENT1: [00:04:00] Yeah, two‑year fix. Runs until October next year. I think the rate’s three point… three point one nine percent.",
+        "call_time": "00:04:00",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 780,
+        "citation": "CLIENT1: [00:08:47] Mortgage is… I want to say seven seventy‑something. Call it about seven eighty a month. CLIENT2: [00:08:54] Yeah, it’s just under eight hundred.",
+        "call_time": "00:08:47",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_1\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Family home, four-bed semi-detached with small garden, located on the north side of Nottingham (Arnold area).\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"North side of Nottingham, Arnold area\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 340000, \"citation\": \"CLIENT2: [00:03:22] We looked on Rightmove a few months ago. Similar ones were around three thirty, three fifty. CLIENT1: [00:03:29] Yeah, last one on our street went for just under three forty, so we’ve been saying mid‑three hundreds.\", \"call_time\": \"00:03:22\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 147000, \"citation\": \"CLIENT1: [00:03:50] I checked the app last week. It was one forty‑seven, maybe one forty‑eight thousand. Somewhere there.\", \"call_time\": \"00:03:50\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"mortgage_interest_rate\", \"type\": \"number\", \"value\": 3.19, \"citation\": \"CLIENT1: [00:04:00] Yeah, two‑year fix. Runs until October next year. I think the rate’s three point… three point one nine percent.\", \"call_time\": \"00:04:00\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 780, \"citation\": \"CLIENT1: [00:08:47] Mortgage is… I want to say seven seventy‑something. Call it about seven eighty a month. CLIENT2: [00:08:54] Yeah, it’s just under eight hundred.\", \"call_time\": \"00:08:47\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_2",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "50% share in a one-bedroom flat in Blackpool, inherited from mother, jointly owned with brother.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Blackpool",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 95000,
+        "citation": "CLIENT2: [00:14:40] Estate agent said maybe ninety to a hundred thousand for the whole thing, if we sold. That was last year though.",
+        "call_time": "00:14:40",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 50,
+        "citation": "CLIENT2: [00:14:26] My mum left me half of her little flat in Blackpool. It’s in my name and my brother’s name.",
+        "call_time": "00:14:26",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "estimated_value_of_share",
+        "type": "number",
+        "value": 47500,
+        "citation": "CLIENT1: [00:14:46] So Margaret’s half is like forty‑five to fifty, if you split it.",
+        "call_time": "00:14:46",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT2: [00:14:52] No mortgage. Mum paid it off ages ago.",
+        "call_time": "00:14:52",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "GBP"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": null,
+        "citation": "CLIENT2: [00:14:30] We get rent, but it mostly just goes straight to the managing agent and maintenance.",
+        "call_time": "00:14:30",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_2",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_2\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"50% share in a one-bedroom flat in Blackpool, inherited from mother, jointly owned with brother.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Blackpool\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 95000, \"citation\": \"CLIENT2: [00:14:40] Estate agent said maybe ninety to a hundred thousand for the whole thing, if we sold. That was last year though.\", \"call_time\": \"00:14:40\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 50, \"citation\": \"CLIENT2: [00:14:26] My mum left me half of her little flat in Blackpool. It’s in my name and my brother’s name.\", \"call_time\": \"00:14:26\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"estimated_value_of_share\", \"type\": \"number\", \"value\": 47500, \"citation\": \"CLIENT1: [00:14:46] So Margaret’s half is like forty‑five to fifty, if you split it.\", \"call_time\": \"00:14:46\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT2: [00:14:52] No mortgage. Mum paid it off ages ago.\", \"call_time\": \"00:14:52\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"GBP\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": null, \"citation\": \"CLIENT2: [00:14:30] We get rent, but it mostly just goes straight to the managing agent and maintenance.\", \"call_time\": \"00:14:30\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_2\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_3",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Joint savings account with Nationwide, used as emergency fund.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 12500,
+        "citation": "CLIENT1: [00:15:44] In our joint savings with Nationwide, we’ve got about twelve, twelve and a half thousand. That’s kind of our emergency fund.",
+        "call_time": "00:15:44",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_3",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_3\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Joint savings account with Nationwide, used as emergency fund.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 12500, \"citation\": \"CLIENT1: [00:15:44] In our joint savings with Nationwide, we’ve got about twelve, twelve and a half thousand. That’s kind of our emergency fund.\", \"call_time\": \"00:15:44\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_3\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_4",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Cash ISA from inheritance, fixed for three years at over 4%, matures March 2027.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 8000,
+        "citation": "CLIENT2: [00:16:11] I’ve got a separate cash ISA from the inheritance. That’s around eight thousand.",
+        "call_time": "00:16:11",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "interest_rate",
+        "type": "number",
+        "value": 4,
+        "citation": "CLIENT2: [00:16:18] Fixed. Three‑year thing at four‑something percent. It matures next March… twenty‑twenty‑seven.",
+        "call_time": "00:16:18",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_4",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_4\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Cash ISA from inheritance, fixed for three years at over 4%, matures March 2027.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 8000, \"citation\": \"CLIENT2: [00:16:11] I’ve got a separate cash ISA from the inheritance. That’s around eight thousand.\", \"call_time\": \"00:16:11\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"interest_rate\", \"type\": \"number\", \"value\": 4, \"citation\": \"CLIENT2: [00:16:18] Fixed. Three‑year thing at four‑something percent. It matures next March… twenty‑twenty‑seven.\", \"call_time\": \"00:16:18\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"asset_4\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_5",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Savings account for Blackpool flat rent, used for car expenses and Christmas.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 3500,
+        "citation": "CLIENT2: [00:16:35] Um, about three, three and a half thousand? I use that more for car stuff and Christmas.",
+        "call_time": "00:16:35",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_5",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_5\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Savings account for Blackpool flat rent, used for car expenses and Christmas.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 3500, \"citation\": \"CLIENT2: [00:16:35] Um, about three, three and a half thousand? I use that more for car stuff and Christmas.\", \"call_time\": \"00:16:35\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_5\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_6",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Monzo savings pot for bootcamp fees and travel while retraining.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 2500,
+        "citation": "CLIENT1: [00:16:43] I’ve got a Monzo savings pot with, like, two and a half grand. That’s basically for the bootcamp fees and travel while I’m retraining.",
+        "call_time": "00:16:43",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_6",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_6\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Monzo savings pot for bootcamp fees and travel while retraining.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 2500, \"citation\": \"CLIENT1: [00:16:43] I’ve got a Monzo savings pot with, like, two and a half grand. That’s basically for the bootcamp fees and travel while I’m retraining.\", \"call_time\": \"00:16:43\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_6\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_7",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Premium Bonds, bought by grandmother in childhood.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 3000,
+        "citation": "CLIENT2: [00:16:54] Yeah, my gran bought some when I was a kid. About three thousand in premium bonds. I never win anything.",
+        "call_time": "00:16:54",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_7",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_7\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Premium Bonds, bought by grandmother in childhood.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 3000, \"citation\": \"CLIENT2: [00:16:54] Yeah, my gran bought some when I was a kid. About three thousand in premium bonds. I never win anything.\", \"call_time\": \"00:16:54\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_7\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_8",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Stocks and Shares ISA with Vanguard, global balanced fund (60% shares, 40% bonds).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 5500,
+        "citation": "CLIENT1: [00:17:05] I had a stocks and shares ISA with Vanguard. I think there’s around five, maybe six thousand in there. I stopped putting money in when I left my job.",
+        "call_time": "00:17:05",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_8",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_8\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Stocks and Shares ISA with Vanguard, global balanced fund (60% shares, 40% bonds).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 5500, \"citation\": \"CLIENT1: [00:17:05] I had a stocks and shares ISA with Vanguard. I think there’s around five, maybe six thousand in there. I stopped putting money in when I left my job.\", \"call_time\": \"00:17:05\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_8\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_9",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Fidelity workplace pension from Northfield Construction (main pension).",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 30000,
+        "citation": "CLIENT1: [00:17:39] I think I’ve got about thirty‑odd in my main one from the engineering firm, and then a little one with three or four grand from an older job.",
+        "call_time": "00:17:39",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 5,
+        "citation": "CLIENT1: [00:06:36] Yeah. Auto‑enrolment thing. I paid in about five percent, they did three.",
+        "call_time": "00:06:36",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 3,
+        "citation": "CLIENT1: [00:06:36] Yeah. Auto‑enrolment thing. I paid in about five percent, they did three.",
+        "call_time": "00:06:36",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": false,
+        "citation": "CLIENT1: [00:20:49] And currently, nothing going into pensions while you’re on the course and doing delivery work? CLIENT1: [00:20:53] No, nothing at all going in at the moment.",
+        "call_time": "00:20:53",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "asset_9",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_9\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Fidelity workplace pension from Northfield Construction (main pension).\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 30000, \"citation\": \"CLIENT1: [00:17:39] I think I’ve got about thirty‑odd in my main one from the engineering firm, and then a little one with three or four grand from an older job.\", \"call_time\": \"00:17:39\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 5, \"citation\": \"CLIENT1: [00:06:36] Yeah. Auto‑enrolment thing. I paid in about five percent, they did three.\", \"call_time\": \"00:06:36\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 3, \"citation\": \"CLIENT1: [00:06:36] Yeah. Auto‑enrolment thing. I paid in about five percent, they did three.\", \"call_time\": \"00:06:36\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": false, \"citation\": \"CLIENT1: [00:20:49] And currently, nothing going into pensions while you’re on the course and doing delivery work? CLIENT1: [00:20:53] No, nothing at all going in at the moment.\", \"call_time\": \"00:20:53\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"asset_9\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_10",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Small pension from an older job before Northfield Construction.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 3500,
+        "citation": "CLIENT1: [00:17:39] I think I’ve got about thirty‑odd in my main one from the engineering firm, and then a little one with three or four grand from an older job.",
+        "call_time": "00:17:39",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": false,
+        "citation": "CLIENT1: [00:20:49] And currently, nothing going into pensions while you’re on the course and doing delivery work? CLIENT1: [00:20:53] No, nothing at all going in at the moment.",
+        "call_time": "00:20:53",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "asset_10",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_10\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Small pension from an older job before Northfield Construction.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 3500, \"citation\": \"CLIENT1: [00:17:39] I think I’ve got about thirty‑odd in my main one from the engineering firm, and then a little one with three or four grand from an older job.\", \"call_time\": \"00:17:39\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": false, \"citation\": \"CLIENT1: [00:20:49] And currently, nothing going into pensions while you’re on the course and doing delivery work? CLIENT1: [00:20:53] No, nothing at all going in at the moment.\", \"call_time\": \"00:20:53\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"asset_10\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_11",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Pension from Meadowview Dental (larger pot), likely with Aviva.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 11000,
+        "citation": "CLIENT2: [00:17:32] Mine’s tiny. Two different pots. One’s around eleven thousand, the other might be seven. I’d need to check.",
+        "call_time": "00:17:32",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": false,
+        "citation": "CLIENT2: [00:21:21] No active pension contributions at the moment because you opted out at Willowbrook to help cash flow? CLIENT2: [00:21:21] Yeah. They automatically put me in, and I lasted about two months then panicked and opted out.",
+        "call_time": "00:21:21",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "asset_11",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_11\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Pension from Meadowview Dental (larger pot), likely with Aviva.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 11000, \"citation\": \"CLIENT2: [00:17:32] Mine’s tiny. Two different pots. One’s around eleven thousand, the other might be seven. I’d need to check.\", \"call_time\": \"00:17:32\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": false, \"citation\": \"CLIENT2: [00:21:21] No active pension contributions at the moment because you opted out at Willowbrook to help cash flow? CLIENT2: [00:21:21] Yeah. They automatically put me in, and I lasted about two months then panicked and opted out.\", \"call_time\": \"00:21:21\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"asset_11\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_12",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Small pension from an admin job before Meadowview Dental.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 7000,
+        "citation": "CLIENT2: [00:17:32] Mine’s tiny. Two different pots. One’s around eleven thousand, the other might be seven. I’d need to check.",
+        "call_time": "00:17:32",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": false,
+        "citation": "CLIENT2: [00:21:21] No active pension contributions at the moment because you opted out at Willowbrook to help cash flow? CLIENT2: [00:21:21] Yeah. They automatically put me in, and I lasted about two months then panicked and opted out.",
+        "call_time": "00:21:21",
+        "recorded_at": "2025-11-17T18:51:51",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "asset_12",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_12\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Small pension from an admin job before Meadowview Dental.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 7000, \"citation\": \"CLIENT2: [00:17:32] Mine’s tiny. Two different pots. One’s around eleven thousand, the other might be seven. I’d need to check.\", \"call_time\": \"00:17:32\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": false, \"citation\": \"CLIENT2: [00:21:21] No active pension contributions at the moment because you opted out at Willowbrook to help cash flow? CLIENT2: [00:21:21] Yeah. They automatically put me in, and I lasted about two months then panicked and opted out.\", \"call_time\": \"00:21:21\", \"recorded_at\": \"2025-11-17T18:51:51\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"asset_12\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  }
+]

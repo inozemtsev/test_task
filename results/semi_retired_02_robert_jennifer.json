@@ -1,0 +1,807 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_1",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Primary residence, single-family, one-story, three bedrooms plus office, located in Rio Rancho, just outside Albuquerque.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Rio Rancho, NM",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 460000,
+        "citation": "CLIENT1: [00:13:44] Zillow was showing mid‑four hundreds last time. So maybe four‑fifty, four‑seventy. CLIENT2: [00:13:49] Houses on our street have been upper four hundreds, low fives, but ours is a little older, so we say mid‑four hundreds.",
+        "call_time": "00:13:44",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT1: [00:07:48] Yeah, we paid the mortgage off two years ago, right before I really cut back at work. CLIENT2: [00:07:53] Best feeling ever. [laughs]",
+        "call_time": "00:07:48",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_1\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Primary residence, single-family, one-story, three bedrooms plus office, located in Rio Rancho, just outside Albuquerque.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Rio Rancho, NM\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 460000, \"citation\": \"CLIENT1: [00:13:44] Zillow was showing mid‑four hundreds last time. So maybe four‑fifty, four‑seventy. CLIENT2: [00:13:49] Houses on our street have been upper four hundreds, low fives, but ours is a little older, so we say mid‑four hundreds.\", \"call_time\": \"00:13:44\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT1: [00:07:48] Yeah, we paid the mortgage off two years ago, right before I really cut back at work. CLIENT2: [00:07:53] Best feeling ever. [laughs]\", \"call_time\": \"00:07:48\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_2",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Condo in Durango, Colorado, near Purgatory ski area. Co-owned with Jennifer's brother; Robert and Jennifer own two-thirds.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Durango, CO",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 200000,
+        "citation": "CLIENT1: [00:14:26] Full condo probably around three hundred, maybe a bit more. Our two‑thirds would be low two hundreds. CLIENT2: [00:14:31] We haven’t had it appraised; that’s just from listings.",
+        "call_time": "00:14:26",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT1: [00:14:19] No, that one’s paid off too. We finished the loan last spring.",
+        "call_time": "00:14:19",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 66.67,
+        "citation": "CLIENT1: [00:14:04] Small two‑bedroom. We co‑own it with her brother. It’s one‑third each on paper, so together we have two‑thirds.",
+        "call_time": "00:14:04",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_2",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_2\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Condo in Durango, Colorado, near Purgatory ski area. Co-owned with Jennifer's brother; Robert and Jennifer own two-thirds.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Durango, CO\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 200000, \"citation\": \"CLIENT1: [00:14:26] Full condo probably around three hundred, maybe a bit more. Our two‑thirds would be low two hundreds. CLIENT2: [00:14:31] We haven’t had it appraised; that’s just from listings.\", \"call_time\": \"00:14:26\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT1: [00:14:19] No, that one’s paid off too. We finished the loan last spring.\", \"call_time\": \"00:14:19\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 66.67, \"citation\": \"CLIENT1: [00:14:04] Small two‑bedroom. We co‑own it with her brother. It’s one‑third each on paper, so together we have two‑thirds.\", \"call_time\": \"00:14:04\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"asset_2\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_3",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Home equity line of credit (HELOC) on primary residence at Sandia Credit Union.",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": "Sandia Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 8000,
+        "citation": "CLIENT2: [00:15:09] Last statement was around eight thousand and some change.",
+        "call_time": "00:15:09",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "interest_rate",
+        "type": "number",
+        "value": 5.25,
+        "citation": "CLIENT1: [00:15:14] It’s variable—about five and a quarter last time I looked.",
+        "call_time": "00:15:14",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_3",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_3\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Home equity line of credit (HELOC) on primary residence at Sandia Credit Union.\", \"asset_type\": {\"value\": \"other\"}, \"location\": \"Sandia Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 8000, \"citation\": \"CLIENT2: [00:15:09] Last statement was around eight thousand and some change.\", \"call_time\": \"00:15:09\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"interest_rate\", \"type\": \"number\", \"value\": 5.25, \"citation\": \"CLIENT1: [00:15:14] It’s variable—about five and a quarter last time I looked.\", \"call_time\": \"00:15:14\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"asset_3\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_4",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Subaru with dealer financing through Toyota Financial.",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 10500,
+        "citation": "CLIENT2: [00:15:32] Payment is three‑something a month. We bought it in 2021, so maybe two years left. Balance around ten or eleven thousand.",
+        "call_time": "00:15:32",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_4",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_4\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Subaru with dealer financing through Toyota Financial.\", \"asset_type\": {\"value\": \"other\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 10500, \"citation\": \"CLIENT2: [00:15:32] Payment is three‑something a month. We bought it in 2021, so maybe two years left. Balance around ten or eleven thousand.\", \"call_time\": \"00:15:32\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_4\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_5",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Main checking account at Sandia Credit Union.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Sandia Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 9000,
+        "citation": "CLIENT2: [00:15:56] Our main checking at Sandia Credit Union usually has eight to ten thousand—just for bills.",
+        "call_time": "00:15:56",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_5",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_5\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Main checking account at Sandia Credit Union.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Sandia Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 9000, \"citation\": \"CLIENT2: [00:15:56] Our main checking at Sandia Credit Union usually has eight to ten thousand—just for bills.\", \"call_time\": \"00:15:56\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_5\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_6",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Savings account at Sandia Credit Union.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Sandia Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 15000,
+        "citation": "CLIENT1: [00:16:02] Then there’s a savings at the same credit union, around fifteen thousand. It goes up and down when we help the kids.",
+        "call_time": "00:16:02",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_6",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_6\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Savings account at Sandia Credit Union.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Sandia Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 15000, \"citation\": \"CLIENT1: [00:16:02] Then there’s a savings at the same credit union, around fifteen thousand. It goes up and down when we help the kids.\", \"call_time\": \"00:16:02\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_6\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_7",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Business checking account for consulting at Chase.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Chase",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 3500,
+        "citation": "CLIENT1: [00:16:11] I’ve got a little business checking for my consulting at Chase—three or four thousand in there usually.",
+        "call_time": "00:16:11",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_7",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_7\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Business checking account for consulting at Chase.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Chase\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 3500, \"citation\": \"CLIENT1: [00:16:11] I’ve got a little business checking for my consulting at Chase—three or four thousand in there usually.\", \"call_time\": \"00:16:11\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_7\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_8",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Online savings account at Marcus (emergency fund).",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Marcus",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 35000,
+        "citation": "CLIENT2: [00:16:25] It fluctuates. Right now, mid‑thirties—around thirty‑five thousand.",
+        "call_time": "00:16:25",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_8",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_8\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Online savings account at Marcus (emergency fund).\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Marcus\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 35000, \"citation\": \"CLIENT2: [00:16:25] It fluctuates. Right now, mid‑thirties—around thirty‑five thousand.\", \"call_time\": \"00:16:25\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_8\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_9",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Two-year CD at Los Alamos National Bank from inheritance.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Los Alamos National Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 44000,
+        "citation": "CLIENT2: [00:16:48] It comes due next March—March of twenty‑twenty‑six. They said it should be forty‑four, forty‑five by then.",
+        "call_time": "00:16:48",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "interest_rate",
+        "type": "number",
+        "value": 4.25,
+        "citation": "CLIENT2: [00:16:35] I have one from my mom’s inheritance. When she passed in 2022, I got around forty thousand. Los Alamos National Bank talked me into a two‑year CD at four and a quarter percent.",
+        "call_time": "00:16:35",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_9",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_9\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Two-year CD at Los Alamos National Bank from inheritance.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Los Alamos National Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 44000, \"citation\": \"CLIENT2: [00:16:48] It comes due next March—March of twenty‑twenty‑six. They said it should be forty‑four, forty‑five by then.\", \"call_time\": \"00:16:48\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"interest_rate\", \"type\": \"number\", \"value\": 4.25, \"citation\": \"CLIENT2: [00:16:35] I have one from my mom’s inheritance. When she passed in 2022, I got around forty thousand. Los Alamos National Bank talked me into a two‑year CD at four and a quarter percent.\", \"call_time\": \"00:16:35\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"asset_9\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_10",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint Merrill Edge brokerage account, mostly ETFs and some cash.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Merrill Edge",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 82000,
+        "citation": "CLIENT1: [00:17:21] Maybe eighty to ninety thousand? Last statement was eighty‑two, before the market bounced a bit.",
+        "call_time": "00:17:21",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 3500,
+        "citation": "CLIENT2: [00:17:48] Our mutual funds threw off three, four thousand last year, I think. It all just shows up on the 1099.",
+        "call_time": "00:17:48",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_10",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_10\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint Merrill Edge brokerage account, mostly ETFs and some cash.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Merrill Edge\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 82000, \"citation\": \"CLIENT1: [00:17:21] Maybe eighty to ninety thousand? Last statement was eighty‑two, before the market bounced a bit.\", \"call_time\": \"00:17:21\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 3500, \"citation\": \"CLIENT2: [00:17:48] Our mutual funds threw off three, four thousand last year, I think. It all just shows up on the 1099.\", \"call_time\": \"00:17:48\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_10\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_11",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Traditional IRA at Charles Schwab (rolled over from hospital 401(k) in 2021).",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Charles Schwab",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 485000,
+        "citation": "CLIENT1: [00:18:06] Last time I looked it was high four hundreds—four‑eighty, four‑ninety, somewhere in there.",
+        "call_time": "00:18:06",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 250,
+        "citation": "CLIENT1: [00:18:28] We set up an automatic contribution—used to be three hundred a month, but we lowered it. It’s two‑fifty a month now coming from the joint checking.",
+        "call_time": "00:18:28",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_11",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_11\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Traditional IRA at Charles Schwab (rolled over from hospital 401(k) in 2021).\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Charles Schwab\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 485000, \"citation\": \"CLIENT1: [00:18:06] Last time I looked it was high four hundreds—four‑eighty, four‑ninety, somewhere in there.\", \"call_time\": \"00:18:06\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 250, \"citation\": \"CLIENT1: [00:18:28] We set up an automatic contribution—used to be three hundred a month, but we lowered it. It’s two‑fifty a month now coming from the joint checking.\", \"call_time\": \"00:18:28\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_11\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_12",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "SEP IRA for consulting at Charles Schwab.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Charles Schwab",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 65000,
+        "citation": "CLIENT1: [00:18:41] I’ve got a SEP IRA for the consulting, also at Schwab. That’s maybe sixty or seventy thousand.",
+        "call_time": "00:18:41",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_12",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_12\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"SEP IRA for consulting at Charles Schwab.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Charles Schwab\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 65000, \"citation\": \"CLIENT1: [00:18:41] I’ve got a SEP IRA for the consulting, also at Schwab. That’s maybe sixty or seventy thousand.\", \"call_time\": \"00:18:41\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_12\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_13",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "401(k) from Stonebridge Medical Systems at SummitPoint Investments.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "SummitPoint Investments",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 185000,
+        "citation": "CLIENT1: [00:18:53] One from Stonebridge Medical Systems. That’s with SummitPoint Investments. Balance is around one‑eighty, one‑ninety. We never moved it.",
+        "call_time": "00:18:53",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_13",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_13\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"401(k) from Stonebridge Medical Systems at SummitPoint Investments.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"SummitPoint Investments\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 185000, \"citation\": \"CLIENT1: [00:18:53] One from Stonebridge Medical Systems. That’s with SummitPoint Investments. Balance is around one‑eighty, one‑ninety. We never moved it.\", \"call_time\": \"00:18:53\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_13\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_14",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "EverLumen Life SecureFuture Income Annuity, fixed rate, funded in 2019 from old IRA.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "EverLumen Life",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 83000,
+        "citation": "CLIENT1: [00:19:10] Yeah, with EverLumen Life. It’s called a “SecureFuture Income Annuity.” Fixed rate. We put seventy‑five thousand into it in 2019 from an old IRA. Last statement, in January, said it was just over eighty‑three thousand.",
+        "call_time": "00:19:10",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_14",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_14\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"EverLumen Life SecureFuture Income Annuity, fixed rate, funded in 2019 from old IRA.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"EverLumen Life\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 83000, \"citation\": \"CLIENT1: [00:19:10] Yeah, with EverLumen Life. It’s called a “SecureFuture Income Annuity.” Fixed rate. We put seventy‑five thousand into it in 2019 from an old IRA. Last statement, in January, said it was just over eighty‑three thousand.\", \"call_time\": \"00:19:10\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_14\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_15",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Robinhood brokerage account, small, invested in tech stocks.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Robinhood",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 3000,
+        "citation": "CLIENT1: [00:19:32] I have a tiny Robinhood account I play with. A few thousand in tech stocks. Not part of the “real plan.” [laughs]",
+        "call_time": "00:19:32",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_15",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_15\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Robinhood brokerage account, small, invested in tech stocks.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Robinhood\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 3000, \"citation\": \"CLIENT1: [00:19:32] I have a tiny Robinhood account I play with. A few thousand in tech stocks. Not part of the “real plan.” [laughs]\", \"call_time\": \"00:19:32\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_15\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g15"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_16",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Traditional IRA at Vanguard (rollover from 403(b)s from teaching).",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 215000,
+        "citation": "CLIENT2: [00:19:51] Last I looked it was in the low twos—two‑ten, two‑twenty, somewhere in there.",
+        "call_time": "00:19:51",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_16",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_16\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Traditional IRA at Vanguard (rollover from 403(b)s from teaching).\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 215000, \"citation\": \"CLIENT2: [00:19:51] Last I looked it was in the low twos—two‑ten, two‑twenty, somewhere in there.\", \"call_time\": \"00:19:51\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_16\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g16"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_17",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Roth IRA at Vanguard, LifeStrategy Moderate Growth fund.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 150000,
+        "citation": "CLIENT2: [00:20:04] Yes, Roth IRA at Vanguard. I opened it around two‑thousand‑six. That’s around one‑fifty, maybe a little over, in their LifeStrategy Moderate Growth fund.",
+        "call_time": "00:20:04",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_17",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_17\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Roth IRA at Vanguard, LifeStrategy Moderate Growth fund.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 150000, \"citation\": \"CLIENT2: [00:20:04] Yes, Roth IRA at Vanguard. I opened it around two‑thousand‑six. That’s around one‑fifty, maybe a little over, in their LifeStrategy Moderate Growth fund.\", \"call_time\": \"00:20:04\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_17\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g17"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_18",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "401(k) from Bayview Charter Academy at HarborPoint Retirement.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "HarborPoint Retirement",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 80000,
+        "citation": "CLIENT2: [00:20:26] I have a 401(k) from Bayview Charter Academy through HarborPoint Retirement—about eighty‑something thousand last time I checked.",
+        "call_time": "00:20:26",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_18",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_18\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"401(k) from Bayview Charter Academy at HarborPoint Retirement.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"HarborPoint Retirement\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 80000, \"citation\": \"CLIENT2: [00:20:26] I have a 401(k) from Bayview Charter Academy through HarborPoint Retirement—about eighty‑something thousand last time I checked.\", \"call_time\": \"00:20:26\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_18\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g18"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_19",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "403(b) with EduVest from community college employment.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "EduVest",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 35000,
+        "citation": "CLIENT2: [00:20:26] And a small 403(b) with EduVest from when I worked at a community college—maybe thirty‑five thousand.",
+        "call_time": "00:20:26",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_19",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_19\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"403(b) with EduVest from community college employment.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"EduVest\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 35000, \"citation\": \"CLIENT2: [00:20:26] And a small 403(b) with EduVest from when I worked at a community college—maybe thirty‑five thousand.\", \"call_time\": \"00:20:26\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_19\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g19"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_20",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Small whole-life insurance policy with cash value from Northwestern Mutual.",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": "Northwestern Mutual",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": null,
+        "citation": "CLIENT1: [00:20:54] I think I still have a small whole‑life from my twenties, through Northwestern Mutual. No idea what the cash value is.",
+        "call_time": "00:20:54",
+        "recorded_at": "2025-11-17T20:40:49",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_20",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_20\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Small whole-life insurance policy with cash value from Northwestern Mutual.\", \"asset_type\": {\"value\": \"other\"}, \"location\": \"Northwestern Mutual\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": null, \"citation\": \"CLIENT1: [00:20:54] I think I still have a small whole‑life from my twenties, through Northwestern Mutual. No idea what the cash value is.\", \"call_time\": \"00:20:54\", \"recorded_at\": \"2025-11-17T20:40:49\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_20\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g20"
+    ],
+    "status": "TP"
+  }
+]

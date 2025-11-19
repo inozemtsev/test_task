@@ -1,0 +1,465 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Two-bed flat in Bishopston, Bristol, just off Gloucester Road. Solely owned by Dorothy Lewis. Main residence for Dorothy, Ryan, and Noah.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Bishopston, Bristol, UK",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 270000,
+        "citation": "CLIENT: [00:03:23] We checked on Zoopla a couple of months ago. It said between like 260 and 280, so I usually say around 270.",
+        "call_time": "00:03:23",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 170000,
+        "citation": "CLIENT: [00:03:39] Uh, not exactly. I think about 170, 170‑something. It was 185 when we fixed it, and we’ve paid it down a bit.",
+        "call_time": "00:03:39",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "mortgage_lender",
+        "type": "string",
+        "value": "Santander",
+        "citation": "CLIENT: [00:03:53] Yeah, repayment. It’s with Santander, on a five‑year fix.",
+        "call_time": "00:03:53",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      },
+      {
+        "property": "mortgage_type",
+        "type": "string",
+        "value": "repayment",
+        "citation": "CLIENT: [00:03:53] Yeah, repayment. It’s with Santander, on a five‑year fix.",
+        "call_time": "00:03:53",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 1050,
+        "citation": "CLIENT: [00:04:04] It’s about… I think it was £1,050 on the last statement. Just over a thousand, anyway.",
+        "call_time": "00:04:04",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 100,
+        "citation": "CLIENT: [00:03:10] Yeah, that’s where we all live. My name’s on the mortgage and the deeds, but Ryan pays half the mortgage every month.",
+        "call_time": "00:03:10",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Two-bed flat in Bishopston, Bristol, just off Gloucester Road. Solely owned by Dorothy Lewis. Main residence for Dorothy, Ryan, and Noah.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Bishopston, Bristol, UK\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 270000, \"citation\": \"CLIENT: [00:03:23] We checked on Zoopla a couple of months ago. It said between like 260 and 280, so I usually say around 270.\", \"call_time\": \"00:03:23\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 170000, \"citation\": \"CLIENT: [00:03:39] Uh, not exactly. I think about 170, 170‑something. It was 185 when we fixed it, and we’ve paid it down a bit.\", \"call_time\": \"00:03:39\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"mortgage_lender\", \"type\": \"string\", \"value\": \"Santander\", \"citation\": \"CLIENT: [00:03:53] Yeah, repayment. It’s with Santander, on a five‑year fix.\", \"call_time\": \"00:03:53\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}, {\"property\": \"mortgage_type\", \"type\": \"string\", \"value\": \"repayment\", \"citation\": \"CLIENT: [00:03:53] Yeah, repayment. It’s with Santander, on a five‑year fix.\", \"call_time\": \"00:03:53\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 1050, \"citation\": \"CLIENT: [00:04:04] It’s about… I think it was £1,050 on the last statement. Just over a thousand, anyway.\", \"call_time\": \"00:04:04\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 100, \"citation\": \"CLIENT: [00:03:10] Yeah, that’s where we all live. My name’s on the mortgage and the deeds, but Ryan pays half the mortgage every month.\", \"call_time\": \"00:03:10\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"asset_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1",
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_2",
+    "owner_ids": [
+      "client_1",
+      "other_sister_1",
+      "other_sister_2"
+    ],
+    "static": {
+      "description": "One-third share in parents’ old cottage in Llithfaen, near Pwllheli, North Wales. Owned equally by Dorothy and her two sisters. Mortgage-free.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Llithfaen, near Pwllheli, North Wales, UK",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 250000,
+        "citation": "CLIENT: [00:08:13] An estate agent said maybe £240 to £260 if we sold it.",
+        "call_time": "00:08:13",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 33.33,
+        "citation": "CLIENT: [00:08:02] One‑third each. Mum and Dad paid it off years ago and then signed it over to us, so it’s mortgage‑free.",
+        "call_time": "00:08:02",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "estimated_value_of_share",
+        "type": "number",
+        "value": 80000,
+        "citation": "CLIENT: [00:08:13] So my share would be, I guess, around £80k-ish.",
+        "call_time": "00:08:13",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 600,
+        "citation": "CLIENT: [00:08:26] A bit. We Airbnb it sometimes. Most of the money just covers cleaning, council tax, that sort of thing. Last year I think I got around £600 out of it.",
+        "call_time": "00:08:26",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_2",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_2\", \"owner_ids\": [\"client_1\", \"other_sister_1\", \"other_sister_2\"], \"static\": {\"description\": \"One-third share in parents’ old cottage in Llithfaen, near Pwllheli, North Wales. Owned equally by Dorothy and her two sisters. Mortgage-free.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Llithfaen, near Pwllheli, North Wales, UK\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 250000, \"citation\": \"CLIENT: [00:08:13] An estate agent said maybe £240 to £260 if we sold it.\", \"call_time\": \"00:08:13\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 33.33, \"citation\": \"CLIENT: [00:08:02] One‑third each. Mum and Dad paid it off years ago and then signed it over to us, so it’s mortgage‑free.\", \"call_time\": \"00:08:02\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"estimated_value_of_share\", \"type\": \"number\", \"value\": 80000, \"citation\": \"CLIENT: [00:08:13] So my share would be, I guess, around £80k-ish.\", \"call_time\": \"00:08:13\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 600, \"citation\": \"CLIENT: [00:08:26] A bit. We Airbnb it sometimes. Most of the money just covers cleaning, council tax, that sort of thing. Last year I think I got around £600 out of it.\", \"call_time\": \"00:08:26\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_2\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3",
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_3",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Inheritance from Dorothy's nan. £10k in a one-year fixed saver with Yorkshire Building Society (locked until next April), £8–9k in a Chase high-interest online saver.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 18500,
+        "citation": "CLIENT: [00:09:49] It’s split. About £10k is in a one‑year fixed saver with Yorkshire Building Society, locked until next April. The rest, like £8–9k, is in a high‑interest online saver—the Chase app one.",
+        "call_time": "00:09:49",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 200,
+        "citation": "CLIENT: [00:10:05] We try to add £200 a month, but some months it’s less.",
+        "call_time": "00:10:05",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_3",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_3\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Inheritance from Dorothy's nan. £10k in a one-year fixed saver with Yorkshire Building Society (locked until next April), £8–9k in a Chase high-interest online saver.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 18500, \"citation\": \"CLIENT: [00:09:49] It’s split. About £10k is in a one‑year fixed saver with Yorkshire Building Society, locked until next April. The rest, like £8–9k, is in a high‑interest online saver—the Chase app one.\", \"call_time\": \"00:09:49\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 200, \"citation\": \"CLIENT: [00:10:05] We try to add £200 a month, but some months it’s less.\", \"call_time\": \"00:10:05\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_3\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5",
+      "g6",
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_4",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint account with Nationwide. Used as emergency buffer. Balance fluctuates.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 4500,
+        "citation": "CLIENT: [00:10:18] We’ve got a joint account with Nationwide. We keep about £4–5k in there as a buffer.",
+        "call_time": "00:10:18",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_4",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_4\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint account with Nationwide. Used as emergency buffer. Balance fluctuates.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 4500, \"citation\": \"CLIENT: [00:10:18] We’ve got a joint account with Nationwide. We keep about £4–5k in there as a buffer.\", \"call_time\": \"00:10:18\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_4\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_5",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Cash ISA with Halifax. Opened years ago, not much in it now.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 2000,
+        "citation": "CLIENT: [00:10:40] I’ve got a Cash ISA I opened years ago with Halifax. There’s not much in it now, maybe £2,000.",
+        "call_time": "00:10:40",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_5",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_5\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Cash ISA with Halifax. Opened years ago, not much in it now.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 2000, \"citation\": \"CLIENT: [00:10:40] I’ve got a Cash ISA I opened years ago with Halifax. There’s not much in it now, maybe £2,000.\", \"call_time\": \"00:10:40\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_5\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_6",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Moneybox round-up app ISA. Small balance.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 600,
+        "citation": "CLIENT: [00:10:56] Oh, yeah, I do have, like, a tiny Moneybox thing. It rounds up change into an ISA, I think. There’s only, like, £600 in it.",
+        "call_time": "00:10:56",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_6",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_6\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Moneybox round-up app ISA. Small balance.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 600, \"citation\": \"CLIENT: [00:10:56] Oh, yeah, I do have, like, a tiny Moneybox thing. It rounds up change into an ISA, I think. There’s only, like, £600 in it.\", \"call_time\": \"00:10:56\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_6\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_7",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Northpoint Systems Save-As-You-Earn share scheme. £50/month deducted from pay. Shares worth about £3–3.5k, locked in for another year and a bit.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 3250,
+        "citation": "CLIENT: [00:11:10] Yeah, a Save‑As‑You‑Earn thing. They take £50 a month from my pay. Last time I checked the shares were worth about £3 to £3.5k.",
+        "call_time": "00:11:10",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 50,
+        "citation": "CLIENT: [00:11:10] Yeah, a Save‑As‑You‑Earn thing. They take £50 a month from my pay.",
+        "call_time": "00:11:10",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_7",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_7\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Northpoint Systems Save-As-You-Earn share scheme. £50/month deducted from pay. Shares worth about £3–3.5k, locked in for another year and a bit.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 3250, \"citation\": \"CLIENT: [00:11:10] Yeah, a Save‑As‑You‑Earn thing. They take £50 a month from my pay. Last time I checked the shares were worth about £3 to £3.5k.\", \"call_time\": \"00:11:10\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 50, \"citation\": \"CLIENT: [00:11:10] Yeah, a Save‑As‑You‑Earn thing. They take £50 a month from my pay.\", \"call_time\": \"00:11:10\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"GBP\"}], \"id\": \"asset_7\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_8",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Trading 212 investment account in Ryan's name. All in individual stocks.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 10000,
+        "citation": "CLIENT: [00:11:38] He said it’s around £10k. All in individual stocks which stresses me out.",
+        "call_time": "00:11:38",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_8",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_8\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Trading 212 investment account in Ryan's name. All in individual stocks.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 10000, \"citation\": \"CLIENT: [00:11:38] He said it’s around £10k. All in individual stocks which stresses me out.\", \"call_time\": \"00:11:38\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_8\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_9",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Monzo pots. Used for wedding, car/house repairs, Christmas, birthdays. Fluctuating balance.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 1200,
+        "citation": "CLIENT: [00:23:48] Er… maybe £1,200? Around that. It goes up and down as we raid it for MOTs and birthday presents.",
+        "call_time": "00:23:48",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 300,
+        "citation": "CLIENT: [00:15:49] We’ve got Monzo “pots”. We put about £300 a month in there. Roughly £100 is meant for the wedding, £100 for car/house repairs, and the rest for Christmas and birthdays.",
+        "call_time": "00:15:49",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "GBP"
+      }
+    ],
+    "id": "asset_9",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_9\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Monzo pots. Used for wedding, car/house repairs, Christmas, birthdays. Fluctuating balance.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 1200, \"citation\": \"CLIENT: [00:23:48] Er… maybe £1,200? Around that. It goes up and down as we raid it for MOTs and birthday presents.\", \"call_time\": \"00:23:48\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 300, \"citation\": \"CLIENT: [00:15:49] We’ve got Monzo “pots”. We put about £300 a month in there. Roughly £100 is meant for the wedding, £100 for car/house repairs, and the rest for Christmas and birthdays.\", \"call_time\": \"00:15:49\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"GBP\"}], \"id\": \"asset_9\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g18"
+    ],
+    "status": "TP"
+  }
+]

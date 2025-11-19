@@ -1,0 +1,545 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_1",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Primary residence: single-level ranch house, three bedrooms, small yard, located on the south side of Eugene, Oregon, near the college.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Eugene, Oregon, south side, near the college",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 560000,
+        "citation": "CLIENT1: [00:01:44] Uh, neighbors sold last year for around six hundred. Ours is a little smaller. So maybe five‑fifty? Five‑seventy, somewhere in there.",
+        "call_time": "00:01:44",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT2: [00:01:30] No mortgage. We paid that off… what, about eight years ago, Dave?",
+        "call_time": "00:01:30",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "purchase_price",
+        "type": "number",
+        "value": null,
+        "citation": null,
+        "call_time": null,
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": null,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_1\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Primary residence: single-level ranch house, three bedrooms, small yard, located on the south side of Eugene, Oregon, near the college.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Eugene, Oregon, south side, near the college\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 560000, \"citation\": \"CLIENT1: [00:01:44] Uh, neighbors sold last year for around six hundred. Ours is a little smaller. So maybe five‑fifty? Five‑seventy, somewhere in there.\", \"call_time\": \"00:01:44\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT2: [00:01:30] No mortgage. We paid that off… what, about eight years ago, Dave?\", \"call_time\": \"00:01:30\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"purchase_price\", \"type\": \"number\", \"value\": null, \"citation\": null, \"call_time\": null, \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": null, \"unit\": \"USD\"}], \"id\": \"asset_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_2",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Quarter-share ownership in a ski condo in Breckenridge, Colorado, shared with client's siblings.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Breckenridge, Colorado",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 25,
+        "citation": "CLIENT2: [00:15:52] Yeah, my brother and I and my sister share a condo in Breckenridge, Colorado. It’s like a quarter share.",
+        "call_time": "00:15:52",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "estimated_value_of_share",
+        "type": "number",
+        "value": 77500,
+        "citation": "CLIENT1: [00:16:26] No idea exactly. The whole unit might be around three hundred? So maybe our chunk is seventy‑five, eighty? That’s a guess.",
+        "call_time": "00:16:26",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT1: [00:16:04] Mortgage on that is gone too. My brother paid the last bit off maybe three years ago and we reimbursed him our share.",
+        "call_time": "00:16:04",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 3000,
+        "citation": "CLIENT2: [00:16:36] Sometimes. We occasionally rent one of the winter weeks. My brother handles it. We get a little check once a year—few thousand maybe.",
+        "call_time": "00:16:36",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_2",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_2\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Quarter-share ownership in a ski condo in Breckenridge, Colorado, shared with client's siblings.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Breckenridge, Colorado\", \"account_number\": null}, \"timeline\": [{\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 25, \"citation\": \"CLIENT2: [00:15:52] Yeah, my brother and I and my sister share a condo in Breckenridge, Colorado. It’s like a quarter share.\", \"call_time\": \"00:15:52\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"estimated_value_of_share\", \"type\": \"number\", \"value\": 77500, \"citation\": \"CLIENT1: [00:16:26] No idea exactly. The whole unit might be around three hundred? So maybe our chunk is seventy‑five, eighty? That’s a guess.\", \"call_time\": \"00:16:26\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT1: [00:16:04] Mortgage on that is gone too. My brother paid the last bit off maybe three years ago and we reimbursed him our share.\", \"call_time\": \"00:16:04\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 3000, \"citation\": \"CLIENT2: [00:16:36] Sometimes. We occasionally rent one of the winter weeks. My brother handles it. We get a little check once a year—few thousand maybe.\", \"call_time\": \"00:16:36\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_2\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_3",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint checking account at Pacific Crest Credit Union.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Pacific Crest Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 11000,
+        "citation": "CLIENT1: [00:17:03] Checking usually runs around ten to twelve thousand. We like a cushion.",
+        "call_time": "00:17:03",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_3",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_3\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint checking account at Pacific Crest Credit Union.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Pacific Crest Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 11000, \"citation\": \"CLIENT1: [00:17:03] Checking usually runs around ten to twelve thousand. We like a cushion.\", \"call_time\": \"00:17:03\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_3\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_4",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint savings account at Pacific Crest Credit Union.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Pacific Crest Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 42500,
+        "citation": "CLIENT1: [00:17:03] Savings at the credit union, maybe forty, forty‑five. It jumps around.",
+        "call_time": "00:17:03",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_4",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_4\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint savings account at Pacific Crest Credit Union.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Pacific Crest Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 42500, \"citation\": \"CLIENT1: [00:17:03] Savings at the credit union, maybe forty, forty‑five. It jumps around.\", \"call_time\": \"00:17:03\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_4\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_5",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "High-yield savings account at Ally Bank holding inheritance from client's mother.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Ally Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 70000,
+        "citation": "CLIENT2: [00:17:19] Yes. She passed last fall. My share was about seventy thousand. That’s sitting in a high‑yield savings at Ally.",
+        "call_time": "00:17:19",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "interest_rate",
+        "type": "number",
+        "value": 0.04,
+        "citation": "CLIENT2: [00:17:19] That’s sitting in a high‑yield savings at Ally. I think the rate is four‑something right now.",
+        "call_time": "00:17:19",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "decimal"
+      }
+    ],
+    "id": "asset_5",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_5\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"High-yield savings account at Ally Bank holding inheritance from client's mother.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Ally Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 70000, \"citation\": \"CLIENT2: [00:17:19] Yes. She passed last fall. My share was about seventy thousand. That’s sitting in a high‑yield savings at Ally.\", \"call_time\": \"00:17:19\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"interest_rate\", \"type\": \"number\", \"value\": 0.04, \"citation\": \"CLIENT2: [00:17:19] That’s sitting in a high‑yield savings at Ally. I think the rate is four‑something right now.\", \"call_time\": \"00:17:19\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"decimal\"}], \"id\": \"asset_5\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_6",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Certificate of Deposit (CD) at Pacific Crest Credit Union, matures next March.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Pacific Crest Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 11000,
+        "citation": "CLIENT1: [00:17:55] Two CDs. One is ten or twelve thousand, matures next March.",
+        "call_time": "00:17:55",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "interest_rate",
+        "type": "number",
+        "value": 0.03,
+        "citation": "CLIENT1: [00:18:06] I think one’s at three percent, the newer one a little over four.",
+        "call_time": "00:18:06",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "decimal"
+      }
+    ],
+    "id": "asset_6",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_6\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Certificate of Deposit (CD) at Pacific Crest Credit Union, matures next March.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Pacific Crest Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 11000, \"citation\": \"CLIENT1: [00:17:55] Two CDs. One is ten or twelve thousand, matures next March.\", \"call_time\": \"00:17:55\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"interest_rate\", \"type\": \"number\", \"value\": 0.03, \"citation\": \"CLIENT1: [00:18:06] I think one’s at three percent, the newer one a little over four.\", \"call_time\": \"00:18:06\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"decimal\"}], \"id\": \"asset_6\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_7",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Certificate of Deposit (CD) at Pacific Crest Credit Union, matures the year after next.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Pacific Crest Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 20000,
+        "citation": "CLIENT1: [00:17:55] The other’s a bit bigger, maybe twenty, and that one’s the year after.",
+        "call_time": "00:17:55",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "interest_rate",
+        "type": "number",
+        "value": 0.04,
+        "citation": "CLIENT1: [00:18:06] I think one’s at three percent, the newer one a little over four.",
+        "call_time": "00:18:06",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "decimal"
+      }
+    ],
+    "id": "asset_7",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_7\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Certificate of Deposit (CD) at Pacific Crest Credit Union, matures the year after next.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Pacific Crest Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 20000, \"citation\": \"CLIENT1: [00:17:55] The other’s a bit bigger, maybe twenty, and that one’s the year after.\", \"call_time\": \"00:17:55\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"interest_rate\", \"type\": \"number\", \"value\": 0.04, \"citation\": \"CLIENT1: [00:18:06] I think one’s at three percent, the newer one a little over four.\", \"call_time\": \"00:18:06\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"decimal\"}], \"id\": \"asset_7\", \"fact_type\": \"asset\"}\n\nDedup note: Predicted fact asset_7 marked FP because gold g6 already matched another prediction.",
+    "in_scope": true,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_8",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Rollover IRA at Vanguard, originally from Northshore 401(k), invested mostly in index and target-date funds.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 425000,
+        "citation": "CLIENT1: [00:18:26] I’ve got a rollover IRA at Vanguard. That’s my old 401(k) from Northshore. Last I looked it was somewhere in the low four hundreds—four twenty, four thirty—market’s been bouncing.",
+        "call_time": "00:18:26",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_8",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_8\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Rollover IRA at Vanguard, originally from Northshore 401(k), invested mostly in index and target-date funds.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 425000, \"citation\": \"CLIENT1: [00:18:26] I’ve got a rollover IRA at Vanguard. That’s my old 401(k) from Northshore. Last I looked it was somewhere in the low four hundreds—four twenty, four thirty—market’s been bouncing.\", \"call_time\": \"00:18:26\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_8\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_9",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Rollover IRA at Charles Schwab, originally from a 403(b) at the hospital.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Charles Schwab",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 195000,
+        "citation": "CLIENT2: [00:18:54] Mine’s a rollover IRA too. Came from a 403(b) at the hospital I worked at before the school. It’s at Charles Schwab now. I think it’s around two hundred, maybe a little under.",
+        "call_time": "00:18:54",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 200,
+        "citation": "CLIENT2: [00:19:08] There was still a little automatic thing going in—two hundred dollars a month—from when I was working. We meant to turn it off when Dave stopped.",
+        "call_time": "00:19:08",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_9",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_9\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Rollover IRA at Charles Schwab, originally from a 403(b) at the hospital.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Charles Schwab\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 195000, \"citation\": \"CLIENT2: [00:18:54] Mine’s a rollover IRA too. Came from a 403(b) at the hospital I worked at before the school. It’s at Charles Schwab now. I think it’s around two hundred, maybe a little under.\", \"call_time\": \"00:18:54\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 200, \"citation\": \"CLIENT2: [00:19:08] There was still a little automatic thing going in—two hundred dollars a month—from when I was working. We meant to turn it off when Dave stopped.\", \"call_time\": \"00:19:08\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_9\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_10",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint taxable investment account at Vanguard, mostly index funds.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 125000,
+        "citation": "CLIENT1: [00:19:25] We do. One joint account at Vanguard. That’s maybe one‑twenty, one‑thirty. It’s mostly index funds. We pull travel money from there.",
+        "call_time": "00:19:25",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_10",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_10\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint taxable investment account at Vanguard, mostly index funds.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 125000, \"citation\": \"CLIENT1: [00:19:25] We do. One joint account at Vanguard. That’s maybe one‑twenty, one‑thirty. It’s mostly index funds. We pull travel money from there.\", \"call_time\": \"00:19:25\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_10\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_11",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Deferred annuity with Prudential from a job in client's twenties.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Prudential",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 70000,
+        "citation": "CLIENT2: [00:19:54] I have an old little annuity from a job in my twenties. The last statement said about seventy‑something thousand. It’s with Prudential, I think.",
+        "call_time": "00:19:54",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_11",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_11\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Deferred annuity with Prudential from a job in client's twenties.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Prudential\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 70000, \"citation\": \"CLIENT2: [00:19:54] I have an old little annuity from a job in my twenties. The last statement said about seventy‑something thousand. It’s with Prudential, I think.\", \"call_time\": \"00:19:54\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_11\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_12",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Whole life insurance policy with cash value, purchased by client's parents, with Northwestern Mutual.",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": "Northwestern Mutual",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 15000,
+        "citation": "CLIENT1: [00:20:32] I’ve got a small whole life policy my parents bought when I was a kid. Cash value last time I checked was maybe fifteen thousand. It’s with Northwestern Mutual.",
+        "call_time": "00:20:32",
+        "recorded_at": "2025-11-17T20:23:43",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_12",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_12\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Whole life insurance policy with cash value, purchased by client's parents, with Northwestern Mutual.\", \"asset_type\": {\"value\": \"other\"}, \"location\": \"Northwestern Mutual\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 15000, \"citation\": \"CLIENT1: [00:20:32] I’ve got a small whole life policy my parents bought when I was a kid. Cash value last time I checked was maybe fifteen thousand. It’s with Northwestern Mutual.\", \"call_time\": \"00:20:32\", \"recorded_at\": \"2025-11-17T20:23:43\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_12\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  }
+]

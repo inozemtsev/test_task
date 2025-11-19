@@ -1,0 +1,500 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_1",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Four-bed, two-story primary residence in suburb on the east side, near Kroger on Madison and St. Peter’s school.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "East side suburb, near Kroger on Madison, by St. Peter’s school",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 635000,
+        "citation": "[00:06:27] CLIENT1: Somewhere in the six-hundred range. Maybe six-twenty, six-fifty. Zillow bounces around. [00:06:33] CLIENT2: Last refi they said just under six-fifty, that was two years ago.",
+        "call_time": "00:06:27",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 405000,
+        "citation": "[00:06:41] CLIENT1: Around four hundred, four-ten-ish. I’d have to pull the statement for exact.",
+        "call_time": "00:06:41",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 2800,
+        "citation": "[00:06:46] CLIENT2: Payment’s about twenty-eight hundred a month with taxes and insurance all rolled in.",
+        "call_time": "00:06:46",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_type",
+        "type": "string",
+        "value": "fixed",
+        "citation": "[00:06:59] CLIENT2: Yep. We fixed right before rates went nuts. Five-year fix.",
+        "call_time": "00:06:59",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "asset_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_1\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Four-bed, two-story primary residence in suburb on the east side, near Kroger on Madison and St. Peter’s school.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"East side suburb, near Kroger on Madison, by St. Peter’s school\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 635000, \"citation\": \"[00:06:27] CLIENT1: Somewhere in the six-hundred range. Maybe six-twenty, six-fifty. Zillow bounces around. [00:06:33] CLIENT2: Last refi they said just under six-fifty, that was two years ago.\", \"call_time\": \"00:06:27\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 405000, \"citation\": \"[00:06:41] CLIENT1: Around four hundred, four-ten-ish. I’d have to pull the statement for exact.\", \"call_time\": \"00:06:41\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 2800, \"citation\": \"[00:06:46] CLIENT2: Payment’s about twenty-eight hundred a month with taxes and insurance all rolled in.\", \"call_time\": \"00:06:46\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"mortgage_type\", \"type\": \"string\", \"value\": \"fixed\", \"citation\": \"[00:06:59] CLIENT2: Yep. We fixed right before rates went nuts. Five-year fix.\", \"call_time\": \"00:06:59\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"asset_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_2",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Three-bed townhouse on the west side, co-owned with ex-spouse. Ex and two sons live there. Divorce decree: ex stays until youngest is 18, then buyout or sale.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "West side",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 360000,
+        "citation": "[00:07:49] CLIENT1: Maybe three-fifty, three-seventy. [00:07:51] CLIENT2: Last tax thing came in around three-sixty-something.",
+        "call_time": "00:07:49",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 150000,
+        "citation": "[00:07:57] CLIENT1: Maybe one-fifty left. I’d have to pull the statement.",
+        "call_time": "00:07:57",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_2",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_2\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Three-bed townhouse on the west side, co-owned with ex-spouse. Ex and two sons live there. Divorce decree: ex stays until youngest is 18, then buyout or sale.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"West side\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 360000, \"citation\": \"[00:07:49] CLIENT1: Maybe three-fifty, three-seventy. [00:07:51] CLIENT2: Last tax thing came in around three-sixty-something.\", \"call_time\": \"00:07:49\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 150000, \"citation\": \"[00:07:57] CLIENT1: Maybe one-fifty left. I’d have to pull the statement.\", \"call_time\": \"00:07:57\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_2\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_3",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "One-third share of family lake cabin in Michigan, co-owned with mother and brother. Two bedrooms, no heat.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Michigan, lakeside",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 50000,
+        "citation": "[00:08:31] CLIENT2: Whole place maybe one-fifty, one-seventy? So my third, fifty-ish. Total guess.",
+        "call_time": "00:08:31",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "[00:08:38] CLIENT2: No, that’s paid off. We just chip in for upkeep when something breaks.",
+        "call_time": "00:08:38",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 33.33,
+        "citation": "[00:08:20] CLIENT2: My mom, my brother and I are on the title.",
+        "call_time": "00:08:20",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_3",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_3\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"One-third share of family lake cabin in Michigan, co-owned with mother and brother. Two bedrooms, no heat.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Michigan, lakeside\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 50000, \"citation\": \"[00:08:31] CLIENT2: Whole place maybe one-fifty, one-seventy? So my third, fifty-ish. Total guess.\", \"call_time\": \"00:08:31\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"[00:08:38] CLIENT2: No, that’s paid off. We just chip in for upkeep when something breaks.\", \"call_time\": \"00:08:38\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 33.33, \"citation\": \"[00:08:20] CLIENT2: My mom, my brother and I are on the title.\", \"call_time\": \"00:08:20\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"asset_3\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_4",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Sarasota, Florida condo, no mortgage, used as family getaway.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Sarasota, Florida",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 250000,
+        "citation": "[00:08:55] CLIENT1: Maybe mid-two hundreds? We bought it before prices spiked. Haven’t had it formally valued.",
+        "call_time": "00:08:55",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "[00:08:48] CLIENT1: That one’s ours together. We don’t have a mortgage on it anymore—that’s paid off.",
+        "call_time": "00:08:48",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_housing_cost_all_in",
+        "type": "number",
+        "value": 700,
+        "citation": "[00:09:03] CLIENT2: HOA is three hundred and change a month, maybe three-fifty. Property taxes are between four and five thousand a year. Utilities are low when it’s empty.",
+        "call_time": "00:09:03",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_4",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_4\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Sarasota, Florida condo, no mortgage, used as family getaway.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Sarasota, Florida\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 250000, \"citation\": \"[00:08:55] CLIENT1: Maybe mid-two hundreds? We bought it before prices spiked. Haven’t had it formally valued.\", \"call_time\": \"00:08:55\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"[00:08:48] CLIENT1: That one’s ours together. We don’t have a mortgage on it anymore—that’s paid off.\", \"call_time\": \"00:08:48\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"monthly_housing_cost_all_in\", \"type\": \"number\", \"value\": 700, \"citation\": \"[00:09:03] CLIENT2: HOA is three hundred and change a month, maybe three-fifty. Property taxes are between four and five thousand a year. Utilities are low when it’s empty.\", \"call_time\": \"00:09:03\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_4\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_5",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint checking account at Wells Fargo for bills.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 4000,
+        "citation": "[00:14:00] CLIENT2: Joint checking—Wells Fargo—usually sits around three to five thousand. Just bills.",
+        "call_time": "00:14:00",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_5",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_5\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint checking account at Wells Fargo for bills.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 4000, \"citation\": \"[00:14:00] CLIENT2: Joint checking—Wells Fargo—usually sits around three to five thousand. Just bills.\", \"call_time\": \"00:14:00\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_5\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_6",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint high-yield savings at Ally, emergency fund.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 27500,
+        "citation": "[00:14:18] CLIENT2: Around twenty-five. Could be closer to thirty right now—we haven’t had a big thing in a while.",
+        "call_time": "00:14:18",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_6",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_6\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint high-yield savings at Ally, emergency fund.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 27500, \"citation\": \"[00:14:18] CLIENT2: Around twenty-five. Could be closer to thirty right now—we haven’t had a big thing in a while.\", \"call_time\": \"00:14:18\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_6\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_7",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Fixed account at credit union, inheritance from aunt, matures July next year.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 32000,
+        "citation": "[00:14:35] CLIENT2: When my aunt passed two years ago, I got about thirty thousand. It’s in a fixed account at our credit union—one of those “can’t touch it till it matures” things. [00:14:50] CLIENT1: Thirty-two, thirty-three, something like that.",
+        "call_time": "00:14:35",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_7",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_7\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Fixed account at credit union, inheritance from aunt, matures July next year.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 32000, \"citation\": \"[00:14:35] CLIENT2: When my aunt passed two years ago, I got about thirty thousand. It’s in a fixed account at our credit union—one of those “can’t touch it till it matures” things. [00:14:50] CLIENT1: Thirty-two, thirty-three, something like that.\", \"call_time\": \"00:14:35\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_7\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_8",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Personal 'fun money' account.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 2000,
+        "citation": "[00:15:08] CLIENT1: I’ve got a little “fun money” account. Maybe two grand in there on a good month.",
+        "call_time": "00:15:08",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_8",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_8\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Personal 'fun money' account.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 2000, \"citation\": \"[00:15:08] CLIENT1: I’ve got a little “fun money” account. Maybe two grand in there on a good month.\", \"call_time\": \"00:15:08\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_8\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_9",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Chase 'single-mom panic fund' account, kept separate from joint finances.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 11000,
+        "citation": "[00:15:11] CLIENT2: I have a “single-mom panic fund” at Chase from before we got married. I still keep it separate. Maybe ten, twelve thousand in there.",
+        "call_time": "00:15:11",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_9",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_9\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Chase 'single-mom panic fund' account, kept separate from joint finances.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 11000, \"citation\": \"[00:15:11] CLIENT2: I have a “single-mom panic fund” at Chase from before we got married. I still keep it separate. Maybe ten, twelve thousand in there.\", \"call_time\": \"00:15:11\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_9\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_10",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Credit union 'teacher-type' savings account.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 3500,
+        "citation": "[00:15:11] CLIENT2: Plus a little teacher-type savings at the credit union, three or four thousand.",
+        "call_time": "00:15:11",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_10",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_10\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Credit union 'teacher-type' savings account.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 3500, \"citation\": \"[00:15:11] CLIENT2: Plus a little teacher-type savings at the credit union, three or four thousand.\", \"call_time\": \"00:15:11\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_10\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_11",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint taxable brokerage account at Charles Schwab, mostly ETFs and some cash.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 45000,
+        "citation": "[00:15:35] CLIENT1: Somewhere in the forty to fifty thousand range. Mostly ETFs—S&P 500, a bond fund, a bit of international—and a little cash we never quite invested.",
+        "call_time": "00:15:35",
+        "recorded_at": "2025-11-17T01:09:31",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_11",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_11\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint taxable brokerage account at Charles Schwab, mostly ETFs and some cash.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 45000, \"citation\": \"[00:15:35] CLIENT1: Somewhere in the forty to fifty thousand range. Mostly ETFs—S&P 500, a bond fund, a bit of international—and a little cash we never quite invested.\", \"call_time\": \"00:15:35\", \"recorded_at\": \"2025-11-17T01:09:31\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_11\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  }
+]

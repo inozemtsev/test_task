@@ -1,0 +1,267 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_1",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "BrightPath Workplace 401(k)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 500,
+        "citation": "CLIENT: 0:07:08 So probably a $500 in BrightPath Workplace 401(k)",
+        "call_time": "0:07:08",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 500,
+        "citation": "CLIENT: 0:07:08 So probably a $500 in BrightPath Workplace 401(k)",
+        "call_time": "0:07:08",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "contribution_rate",
+        "type": "number",
+        "value": 3,
+        "citation": "CLIENT: 0:03:56 So I’m very much taking—I’m probably putting the bare minimum into about 3 percent of that to obviously match the employer’s contributions.",
+        "call_time": "0:03:56",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_1\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"BrightPath Workplace 401(k)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 500, \"citation\": \"CLIENT: 0:07:08 So probably a $500 in BrightPath Workplace 401(k)\", \"call_time\": \"0:07:08\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"current_balance\", \"type\": \"number\", \"value\": 500, \"citation\": \"CLIENT: 0:07:08 So probably a $500 in BrightPath Workplace 401(k)\", \"call_time\": \"0:07:08\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"contribution_rate\", \"type\": \"number\", \"value\": 3, \"citation\": \"CLIENT: 0:03:56 So I’m very much taking—I’m probably putting the bare minimum into about 3 percent of that to obviously match the employer’s contributions.\", \"call_time\": \"0:03:56\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"asset_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_2",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Vanguard Solo 401(k)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 61000,
+        "citation": "CLIENT: 0:14:06 So it’s $61,000 in there now actually 61.",
+        "call_time": "0:14:06",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_2",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_2\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Vanguard Solo 401(k)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 61000, \"citation\": \"CLIENT: 0:14:06 So it’s $61,000 in there now actually 61.\", \"call_time\": \"0:14:06\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_2\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_3",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "High-yield savings account at Ally Bank",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 130000,
+        "citation": "CLIENT: 0:09:06 So what I’ve got is I’ve probably got about $130,000 of it just sat in high‑yield savings accounts because at the moment it’s getting about 5%.",
+        "call_time": "0:09:06",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "interest_rate",
+        "type": "number",
+        "value": 5,
+        "citation": "CLIENT: 0:09:06 ...just sat in high‑yield savings accounts because at the moment it’s getting about 5%.",
+        "call_time": "0:09:06",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_3",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_3\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"High-yield savings account at Ally Bank\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 130000, \"citation\": \"CLIENT: 0:09:06 So what I’ve got is I’ve probably got about $130,000 of it just sat in high‑yield savings accounts because at the moment it’s getting about 5%.\", \"call_time\": \"0:09:06\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"interest_rate\", \"type\": \"number\", \"value\": 5, \"citation\": \"CLIENT: 0:09:06 ...just sat in high‑yield savings accounts because at the moment it’s getting about 5%.\", \"call_time\": \"0:09:06\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"asset_3\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_4",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Investment fund (brokerage account)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 26000,
+        "citation": "CLIENT: 0:09:16 And I’ve got I’ve just moved about $26,000 of it into just a normal investment fund.",
+        "call_time": "0:09:16",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_4",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_4\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Investment fund (brokerage account)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 26000, \"citation\": \"CLIENT: 0:09:16 And I’ve got I’ve just moved about $26,000 of it into just a normal investment fund.\", \"call_time\": \"0:09:16\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_4\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_5",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Total savings (cash and investments)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 156000,
+        "citation": "CLIENT: 0:07:32 So total savings wise I would say about $156,000 at the moment.",
+        "call_time": "0:07:32",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_5",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_5\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Total savings (cash and investments)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 156000, \"citation\": \"CLIENT: 0:07:32 So total savings wise I would say about $156,000 at the moment.\", \"call_time\": \"0:07:32\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_5\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_6",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Primary residence (mortgaged)",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 3000,
+        "citation": "CLIENT: 0:05:02 Probably about $3,000 a month. More for the mortgage.",
+        "call_time": "0:05:02",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_6",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_6\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Primary residence (mortgaged)\", \"asset_type\": {\"value\": \"property\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 3000, \"citation\": \"CLIENT: 0:05:02 Probably about $3,000 a month. More for the mortgage.\", \"call_time\": \"0:05:02\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_6\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [],
+    "status": "FP"
+  }
+]

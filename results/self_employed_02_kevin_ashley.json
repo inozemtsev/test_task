@@ -1,0 +1,864 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "home_tacoma",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Primary residence, single-family home in Tacoma, south side, near the park.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Tacoma, WA",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 525000,
+        "citation": "CLIENT2: [00:08:31] I checked Zillow about a month ago. It showed mid‑five hundreds—maybe five‑twenty, five‑thirty.",
+        "call_time": "00:08:31",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 255000,
+        "citation": "CLIENT1: [00:08:42] Around two‑fifty, two‑sixty. We refinanced when rates were low.",
+        "call_time": "00:08:42",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 2150,
+        "citation": "CLIENT2: [00:08:50] The draft is like two thousand one‑something. Around twenty‑one fifty. It wiggles a little with escrow.",
+        "call_time": "00:08:50",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_interest_rate",
+        "type": "number",
+        "value": 3.0,
+        "citation": "CLIENT1: [00:09:00] Yeah. We’re about twelve, almost thirteen years in. Rate’s good—low threes.",
+        "call_time": "00:09:00",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      },
+      {
+        "property": "mortgage_type",
+        "type": "string",
+        "value": "30-year fixed",
+        "citation": "ADVISOR: [00:08:58] Thirty‑year fixed? CLIENT1: [00:09:00] Yeah.",
+        "call_time": "00:09:00",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "home_tacoma",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"home_tacoma\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Primary residence, single-family home in Tacoma, south side, near the park.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Tacoma, WA\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 525000, \"citation\": \"CLIENT2: [00:08:31] I checked Zillow about a month ago. It showed mid‑five hundreds—maybe five‑twenty, five‑thirty.\", \"call_time\": \"00:08:31\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 255000, \"citation\": \"CLIENT1: [00:08:42] Around two‑fifty, two‑sixty. We refinanced when rates were low.\", \"call_time\": \"00:08:42\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 2150, \"citation\": \"CLIENT2: [00:08:50] The draft is like two thousand one‑something. Around twenty‑one fifty. It wiggles a little with escrow.\", \"call_time\": \"00:08:50\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_interest_rate\", \"type\": \"number\", \"value\": 3.0, \"citation\": \"CLIENT1: [00:09:00] Yeah. We’re about twelve, almost thirteen years in. Rate’s good—low threes.\", \"call_time\": \"00:09:00\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}, {\"property\": \"mortgage_type\", \"type\": \"string\", \"value\": \"30-year fixed\", \"citation\": \"ADVISOR: [00:08:58] Thirty‑year fixed? CLIENT1: [00:09:00] Yeah.\", \"call_time\": \"00:09:00\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"home_tacoma\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "warehouse_fife",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Warehouse condo used as storage unit for the business, located in Fife industrial park.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Fife, WA",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 185000,
+        "citation": "CLIENT2: [00:17:18] County assessed it at like one‑seventy. Our realtor said maybe closer to two hundred if we sold.",
+        "call_time": "00:17:18",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 90000,
+        "citation": "CLIENT1: [00:17:26] Smaller loan. We owe around ninety. Payment’s about eight‑fifty a month.",
+        "call_time": "00:17:26",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 850,
+        "citation": "CLIENT1: [00:17:26] Smaller loan. We owe around ninety. Payment’s about eight‑fifty a month.",
+        "call_time": "00:17:26",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "warehouse_fife",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"warehouse_fife\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Warehouse condo used as storage unit for the business, located in Fife industrial park.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Fife, WA\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 185000, \"citation\": \"CLIENT2: [00:17:18] County assessed it at like one‑seventy. Our realtor said maybe closer to two hundred if we sold.\", \"call_time\": \"00:17:18\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 90000, \"citation\": \"CLIENT1: [00:17:26] Smaller loan. We owe around ninety. Payment’s about eight‑fifty a month.\", \"call_time\": \"00:17:26\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 850, \"citation\": \"CLIENT1: [00:17:26] Smaller loan. We owe around ninety. Payment’s about eight‑fifty a month.\", \"call_time\": \"00:17:26\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"warehouse_fife\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "business_martinez_boutique",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Martinez Home & Gift Boutique, Inc. S-corp, home décor and gift shop in Old Town, Tacoma.",
+      "asset_type": {
+        "value": "business"
+      },
+      "location": "Old Town, Tacoma, WA",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": null,
+        "citation": null,
+        "call_time": null,
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": null,
+        "citation": null,
+        "call_time": null,
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": null,
+        "unit": "USD"
+      }
+    ],
+    "id": "business_martinez_boutique",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"business_martinez_boutique\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Martinez Home & Gift Boutique, Inc. S-corp, home décor and gift shop in Old Town, Tacoma.\", \"asset_type\": {\"value\": \"business\"}, \"location\": \"Old Town, Tacoma, WA\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": null, \"citation\": null, \"call_time\": null, \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": null, \"citation\": null, \"call_time\": null, \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": null, \"unit\": \"USD\"}], \"id\": \"business_martinez_boutique\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "business_inventory",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Inventory for Martinez Home & Gift Boutique, Inc.",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": "Old Town, Tacoma, WA",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 95000,
+        "citation": "CLIENT1: [00:17:59] Inventory’s the big one. We’re a home décor shop, so there’s always stuff on the floor and in the back. At cost, it’s usually eighty to one‑ten thousand, depending on season.",
+        "call_time": "00:17:59",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "business_inventory",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"business_inventory\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Inventory for Martinez Home & Gift Boutique, Inc.\", \"asset_type\": {\"value\": \"other\"}, \"location\": \"Old Town, Tacoma, WA\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 95000, \"citation\": \"CLIENT1: [00:17:59] Inventory’s the big one. We’re a home décor shop, so there’s always stuff on the floor and in the back. At cost, it’s usually eighty to one‑ten thousand, depending on season.\", \"call_time\": \"00:17:59\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"business_inventory\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "business_fixtures",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Fixtures and equipment for Martinez Home & Gift Boutique, Inc. (shelving, POS system, etc.)",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": "Old Town, Tacoma, WA",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 22500,
+        "citation": "CLIENT1: [00:18:17] We bought most of the fixtures. New, maybe twenty, twenty‑five thousand. Resale would be less.",
+        "call_time": "00:18:17",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "business_fixtures",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"business_fixtures\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Fixtures and equipment for Martinez Home & Gift Boutique, Inc. (shelving, POS system, etc.)\", \"asset_type\": {\"value\": \"other\"}, \"location\": \"Old Town, Tacoma, WA\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 22500, \"citation\": \"CLIENT1: [00:18:17] We bought most of the fixtures. New, maybe twenty, twenty‑five thousand. Resale would be less.\", \"call_time\": \"00:18:17\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"business_fixtures\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "business_operating_account",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Business operating account for Martinez Home & Gift Boutique, Inc.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 30000,
+        "citation": "CLIENT2: [00:18:27] One operating account. Usually thirty to fifty thousand in there. Right now closer to thirty because we just did a big order.",
+        "call_time": "00:18:27",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "business_operating_account",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"business_operating_account\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Business operating account for Martinez Home & Gift Boutique, Inc.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 30000, \"citation\": \"CLIENT2: [00:18:27] One operating account. Usually thirty to fifty thousand in there. Right now closer to thirty because we just did a big order.\", \"call_time\": \"00:18:27\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"business_operating_account\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "business_tax_account",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Business tax/holding account for Martinez Home & Gift Boutique, Inc.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 30000,
+        "citation": "CLIENT1: [00:18:34] And a small tax/holding account we try to keep padded for quarterly taxes and a bit of buffer. Around low‑thirties at the moment.",
+        "call_time": "00:18:34",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "business_tax_account",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"business_tax_account\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Business tax/holding account for Martinez Home & Gift Boutique, Inc.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 30000, \"citation\": \"CLIENT1: [00:18:34] And a small tax/holding account we try to keep padded for quarterly taxes and a bit of buffer. Around low‑thirties at the moment.\", \"call_time\": \"00:18:34\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"business_tax_account\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "personal_joint_checking",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Joint checking account at Sound Credit Union.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 6500,
+        "citation": "CLIENT2: [00:18:47] Joint checking at Sound Credit Union. It kind of floats between five and eight thousand, depending on the month.",
+        "call_time": "00:18:47",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "personal_joint_checking",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"personal_joint_checking\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Joint checking account at Sound Credit Union.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 6500, \"citation\": \"CLIENT2: [00:18:47] Joint checking at Sound Credit Union. It kind of floats between five and eight thousand, depending on the month.\", \"call_time\": \"00:18:47\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"personal_joint_checking\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "personal_emergency_savings",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Joint emergency savings in an online high-yield account.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 38000,
+        "citation": "CLIENT1: [00:18:53] Then our emergency savings is in an online high‑yield account. Last I looked, around thirty‑eight thousand.",
+        "call_time": "00:18:53",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "personal_emergency_savings",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"personal_emergency_savings\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Joint emergency savings in an online high-yield account.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 38000, \"citation\": \"CLIENT1: [00:18:53] Then our emergency savings is in an online high‑yield account. Last I looked, around thirty‑eight thousand.\", \"call_time\": \"00:18:53\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"personal_emergency_savings\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "personal_cd_usbank",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "CD at U.S. Bank, inherited from Ashley's aunt.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 18500,
+        "citation": "CLIENT2: [00:19:11] That’s from when my aunt passed away. It’s about eighteen or nineteen thousand. Comes due next March.",
+        "call_time": "00:19:11",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "interest_rate",
+        "type": "number",
+        "value": 2.0,
+        "citation": "CLIENT2: [00:19:11] Rate’s like two‑something percent.",
+        "call_time": "00:19:11",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      }
+    ],
+    "id": "personal_cd_usbank",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"personal_cd_usbank\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"CD at U.S. Bank, inherited from Ashley's aunt.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 18500, \"citation\": \"CLIENT2: [00:19:11] That’s from when my aunt passed away. It’s about eighteen or nineteen thousand. Comes due next March.\", \"call_time\": \"00:19:11\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"interest_rate\", \"type\": \"number\", \"value\": 2.0, \"citation\": \"CLIENT2: [00:19:11] Rate’s like two‑something percent.\", \"call_time\": \"00:19:11\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}], \"id\": \"personal_cd_usbank\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "kevin_schwab_ira",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Kevin's traditional IRA at Charles Schwab (rollover from old 401(k)).",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 95000,
+        "citation": "CLIENT1: [00:20:28] Last statement was mid‑nineties—around ninety‑something thousand.",
+        "call_time": "00:20:28",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 300,
+        "citation": "CLIENT1: [00:20:36] We set up about three hundred a month going in.",
+        "call_time": "00:20:36",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "kevin_schwab_ira",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"kevin_schwab_ira\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Kevin's traditional IRA at Charles Schwab (rollover from old 401(k)).\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 95000, \"citation\": \"CLIENT1: [00:20:28] Last statement was mid‑nineties—around ninety‑something thousand.\", \"call_time\": \"00:20:28\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 300, \"citation\": \"CLIENT1: [00:20:36] We set up about three hundred a month going in.\", \"call_time\": \"00:20:36\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"kevin_schwab_ira\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "kevin_vanguard_solo401k",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Kevin's Vanguard Individual 401(k) (solo 401(k)) under Martinez Home & Gift Boutique.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 17000,
+        "citation": "CLIENT1: [00:21:37] I logged in last week. About seventeen thousand and change. It’s only been open about a year.",
+        "call_time": "00:21:37",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": null,
+        "citation": "CLIENT1: [00:21:28] Around fifteen thousand, give or take. We did a couple of bigger chunks when the store had good months.",
+        "call_time": "00:21:28",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": true,
+        "citation": "CLIENT1: [00:21:28] Around fifteen thousand, give or take. We did a couple of bigger chunks when the store had good months.",
+        "call_time": "00:21:28",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "kevin_vanguard_solo401k",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"kevin_vanguard_solo401k\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Kevin's Vanguard Individual 401(k) (solo 401(k)) under Martinez Home & Gift Boutique.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 17000, \"citation\": \"CLIENT1: [00:21:37] I logged in last week. About seventeen thousand and change. It’s only been open about a year.\", \"call_time\": \"00:21:37\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": null, \"citation\": \"CLIENT1: [00:21:28] Around fifteen thousand, give or take. We did a couple of bigger chunks when the store had good months.\", \"call_time\": \"00:21:28\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": true, \"citation\": \"CLIENT1: [00:21:28] Around fifteen thousand, give or take. We did a couple of bigger chunks when the store had good months.\", \"call_time\": \"00:21:28\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"kevin_vanguard_solo401k\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "ashley_fidelity_401k",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Ashley's old 401(k) from hospital job, at Fidelity.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 62500,
+        "citation": "CLIENT2: [00:21:59] So, I’ve got an old 401(k) from my hospital job. That’s with Fidelity. Last statement I saw was around sixty, sixty‑five thousand.",
+        "call_time": "00:21:59",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": false,
+        "citation": "CLIENT2: [00:22:34] No, those stopped when I left those jobs.",
+        "call_time": "00:22:34",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "ashley_fidelity_401k",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"ashley_fidelity_401k\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Ashley's old 401(k) from hospital job, at Fidelity.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 62500, \"citation\": \"CLIENT2: [00:21:59] So, I’ve got an old 401(k) from my hospital job. That’s with Fidelity. Last statement I saw was around sixty, sixty‑five thousand.\", \"call_time\": \"00:21:59\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": false, \"citation\": \"CLIENT2: [00:22:34] No, those stopped when I left those jobs.\", \"call_time\": \"00:22:34\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"ashley_fidelity_401k\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "ashley_brightpath_simple_ira",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Ashley's SIMPLE IRA from marketing firm, at BrightPath Financial.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 42500,
+        "citation": "CLIENT2: [00:22:25] Checked a couple months ago—it was low‑forties. Forty‑two, forty‑three thousand.",
+        "call_time": "00:22:25",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": false,
+        "citation": "CLIENT2: [00:22:34] No, those stopped when I left those jobs.",
+        "call_time": "00:22:34",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "ashley_brightpath_simple_ira",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"ashley_brightpath_simple_ira\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Ashley's SIMPLE IRA from marketing firm, at BrightPath Financial.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 42500, \"citation\": \"CLIENT2: [00:22:25] Checked a couple months ago—it was low‑forties. Forty‑two, forty‑three thousand.\", \"call_time\": \"00:22:25\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": false, \"citation\": \"CLIENT2: [00:22:34] No, those stopped when I left those jobs.\", \"call_time\": \"00:22:34\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"ashley_brightpath_simple_ira\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "ashley_vanguard_roth_ira",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Ashley's Roth IRA at Vanguard.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 32500,
+        "citation": "CLIENT2: [00:22:47] I looked recently—around thirty‑two, thirty‑three thousand.",
+        "call_time": "00:22:47",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 200,
+        "citation": "CLIENT2: [00:22:56] We were putting two hundred a month in, but we paused it last year when the store was slow.",
+        "call_time": "00:22:56",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": false,
+        "citation": "CLIENT2: [00:22:56] We were putting two hundred a month in, but we paused it last year when the store was slow.",
+        "call_time": "00:22:56",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "ashley_vanguard_roth_ira",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"ashley_vanguard_roth_ira\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Ashley's Roth IRA at Vanguard.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 32500, \"citation\": \"CLIENT2: [00:22:47] I looked recently—around thirty‑two, thirty‑three thousand.\", \"call_time\": \"00:22:47\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 200, \"citation\": \"CLIENT2: [00:22:56] We were putting two hundred a month in, but we paused it last year when the store was slow.\", \"call_time\": \"00:22:56\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": false, \"citation\": \"CLIENT2: [00:22:56] We were putting two hundred a month in, but we paused it last year when the store was slow.\", \"call_time\": \"00:22:56\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"ashley_vanguard_roth_ira\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "kevin_vanguard_roth_ira",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Kevin's Roth IRA at Vanguard.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 15500,
+        "citation": "CLIENT1: [00:23:06] Yeah, also at Vanguard. Mine’s maybe fifteen, sixteen thousand.",
+        "call_time": "00:23:06",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "kevin_vanguard_roth_ira",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"kevin_vanguard_roth_ira\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Kevin's Roth IRA at Vanguard.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 15500, \"citation\": \"CLIENT1: [00:23:06] Yeah, also at Vanguard. Mine’s maybe fifteen, sixteen thousand.\", \"call_time\": \"00:23:06\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"kevin_vanguard_roth_ira\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g15"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "kevin_prudential_annuity",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Prudential Secure Retirement Annuity purchased by Kevin.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 35000,
+        "citation": "CLIENT1: [00:23:30] Last statement in January showed about thirty‑five thousand. I put in twenty as a lump sum way back.",
+        "call_time": "00:23:30",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "active_contributions",
+        "type": "boolean",
+        "value": false,
+        "citation": "CLIENT1: [00:23:37] No, just letting it sit.",
+        "call_time": "00:23:37",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      }
+    ],
+    "id": "kevin_prudential_annuity",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"kevin_prudential_annuity\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Prudential Secure Retirement Annuity purchased by Kevin.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 35000, \"citation\": \"CLIENT1: [00:23:30] Last statement in January showed about thirty‑five thousand. I put in twenty as a lump sum way back.\", \"call_time\": \"00:23:30\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"active_contributions\", \"type\": \"boolean\", \"value\": false, \"citation\": \"CLIENT1: [00:23:37] No, just letting it sit.\", \"call_time\": \"00:23:37\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}], \"id\": \"kevin_prudential_annuity\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g16"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "schwab_taxable_brokerage",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "Joint taxable brokerage account at Charles Schwab.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 42500,
+        "citation": "CLIENT1: [00:24:18] Around forty‑two, forty‑five thousand.",
+        "call_time": "00:24:18",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "schwab_taxable_brokerage",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"schwab_taxable_brokerage\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"Joint taxable brokerage account at Charles Schwab.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 42500, \"citation\": \"CLIENT1: [00:24:18] Around forty‑two, forty‑five thousand.\", \"call_time\": \"00:24:18\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"schwab_taxable_brokerage\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g17"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "529_plan_diego",
+    "owner_ids": [
+      "joint"
+    ],
+    "static": {
+      "description": "529 college savings plan for Diego, state plan (Vanguard).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 10000,
+        "citation": "CLIENT2: [00:29:10] Maybe ten thousand? We haven’t been super consistent.",
+        "call_time": "00:29:10",
+        "recorded_at": "2025-11-17T20:28:09",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "529_plan_diego",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"529_plan_diego\", \"owner_ids\": [\"joint\"], \"static\": {\"description\": \"529 college savings plan for Diego, state plan (Vanguard).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 10000, \"citation\": \"CLIENT2: [00:29:10] Maybe ten thousand? We haven’t been super consistent.\", \"call_time\": \"00:29:10\", \"recorded_at\": \"2025-11-17T20:28:09\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"529_plan_diego\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g18"
+    ],
+    "status": "TP"
+  }
+]

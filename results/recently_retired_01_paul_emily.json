@@ -1,0 +1,687 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_1",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Primary residence, three-bedroom, one and a half bath cape with finished basement and small yard in Kingston, NY.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Kingston, New York",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 500000,
+        "citation": "CLIENT1: [00:04:50] And the Realtor down the street said five to five‑twenty if we ever listed. So somewhere in that ballpark.",
+        "call_time": "00:04:50",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "purchase_price",
+        "type": "number",
+        "value": null,
+        "citation": null,
+        "call_time": null,
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": null,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT1: [00:04:30] And that place is now paid off, which is fantastic.",
+        "call_time": "00:04:30",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 1400,
+        "citation": "CLIENT1: [00:05:35] About fourteen hundred a month.",
+        "call_time": "00:05:35",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_housing_cost_all_in",
+        "type": "number",
+        "value": 800,
+        "citation": "ADVISOR: [00:16:51] So if we lump property tax, utilities, insurance, internet— does eight hundred a month feel about right? CLIENT1: [00:16:57] Yeah, eight hundred sounds right.",
+        "call_time": "00:16:51",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": null,
+        "citation": null,
+        "call_time": null,
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": null,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_1\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Primary residence, three-bedroom, one and a half bath cape with finished basement and small yard in Kingston, NY.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Kingston, New York\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 500000, \"citation\": \"CLIENT1: [00:04:50] And the Realtor down the street said five to five‑twenty if we ever listed. So somewhere in that ballpark.\", \"call_time\": \"00:04:50\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"purchase_price\", \"type\": \"number\", \"value\": null, \"citation\": null, \"call_time\": null, \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": null, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT1: [00:04:30] And that place is now paid off, which is fantastic.\", \"call_time\": \"00:04:30\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 1400, \"citation\": \"CLIENT1: [00:05:35] About fourteen hundred a month.\", \"call_time\": \"00:05:35\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"monthly_housing_cost_all_in\", \"type\": \"number\", \"value\": 800, \"citation\": \"ADVISOR: [00:16:51] So if we lump property tax, utilities, insurance, internet— does eight hundred a month feel about right? CLIENT1: [00:16:57] Yeah, eight hundred sounds right.\", \"call_time\": \"00:16:51\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"current_balance\", \"type\": \"number\", \"value\": null, \"citation\": null, \"call_time\": null, \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": null, \"unit\": \"USD\"}], \"id\": \"asset_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_2",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "50% share of a seasonal two-bedroom cottage on Seneca Lake, Dresden, NY, co-owned with brother.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Dresden, New York (Seneca Lake)",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 110000,
+        "citation": "CLIENT1: [00:06:35] So we figure the whole property’s somewhere in there, and our share is maybe around a hundred, hundred‑twenty.",
+        "call_time": "00:06:35",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 50,
+        "citation": "CLIENT1: [00:06:12] It’s a small, seasonal two‑bedroom cottage. My brother and I own it fifty‑fifty.",
+        "call_time": "00:06:12",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT1: [00:06:12] No mortgage.",
+        "call_time": "00:06:12",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT2: [00:06:45] Just family so far. We’ve talked about Airbnb to help with upkeep, but haven’t actually done it.",
+        "call_time": "00:06:45",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_2",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_2\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"50% share of a seasonal two-bedroom cottage on Seneca Lake, Dresden, NY, co-owned with brother.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Dresden, New York (Seneca Lake)\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 110000, \"citation\": \"CLIENT1: [00:06:35] So we figure the whole property’s somewhere in there, and our share is maybe around a hundred, hundred‑twenty.\", \"call_time\": \"00:06:35\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 50, \"citation\": \"CLIENT1: [00:06:12] It’s a small, seasonal two‑bedroom cottage. My brother and I own it fifty‑fifty.\", \"call_time\": \"00:06:12\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT1: [00:06:12] No mortgage.\", \"call_time\": \"00:06:12\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT2: [00:06:45] Just family so far. We’ve talked about Airbnb to help with upkeep, but haven’t actually done it.\", \"call_time\": \"00:06:45\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_2\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_3",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint checking account at Hudson Valley Credit Union.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Hudson Valley Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 12500,
+        "citation": "CLIENT1: [00:07:39] Ten to fifteen thousand. It floats with the bills.",
+        "call_time": "00:07:39",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_3",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_3\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint checking account at Hudson Valley Credit Union.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Hudson Valley Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 12500, \"citation\": \"CLIENT1: [00:07:39] Ten to fifteen thousand. It floats with the bills.\", \"call_time\": \"00:07:39\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_3\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_4",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Regular savings account at Hudson Valley Credit Union.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Hudson Valley Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 22500,
+        "citation": "CLIENT2: [00:07:42] And we’ve got a regular savings there with, what, twenty, twenty‑five? CLIENT1: [00:07:46] Yeah, about that.",
+        "call_time": "00:07:42",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_4",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_4\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Regular savings account at Hudson Valley Credit Union.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Hudson Valley Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 22500, \"citation\": \"CLIENT2: [00:07:42] And we’ve got a regular savings there with, what, twenty, twenty‑five? CLIENT1: [00:07:46] Yeah, about that.\", \"call_time\": \"00:07:42\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_4\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_5",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "High-yield online savings account at Ally Bank.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Ally Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 60000,
+        "citation": "CLIENT1: [00:07:54] That one’s around sixty thousand. We moved some of my last bonus and then never quite moved it back.",
+        "call_time": "00:07:54",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_5",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_5\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"High-yield online savings account at Ally Bank.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Ally Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 60000, \"citation\": \"CLIENT1: [00:07:54] That one’s around sixty thousand. We moved some of my last bonus and then never quite moved it back.\", \"call_time\": \"00:07:54\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_5\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_6",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "12-month CD at Hudson Valley Credit Union.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Hudson Valley Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 45000,
+        "citation": "CLIENT1: [00:08:08] One CD at the credit union. Twelve‑month, about forty‑five thousand.",
+        "call_time": "00:08:08",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_6",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_6\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"12-month CD at Hudson Valley Credit Union.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Hudson Valley Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 45000, \"citation\": \"CLIENT1: [00:08:08] One CD at the credit union. Twelve‑month, about forty‑five thousand.\", \"call_time\": \"00:08:08\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_6\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_7",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Money market account at Hudson Valley Credit Union, inheritance from Emily's aunt.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Hudson Valley Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 35000,
+        "citation": "CLIENT2: [00:08:47] There is— another thirty or forty thousand in a money market at the credit union. We parked it and kind of forgot about it.",
+        "call_time": "00:08:47",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_7",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_7\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Money market account at Hudson Valley Credit Union, inheritance from Emily's aunt.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Hudson Valley Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 35000, \"citation\": \"CLIENT2: [00:08:47] There is— another thirty or forty thousand in a money market at the credit union. We parked it and kind of forgot about it.\", \"call_time\": \"00:08:47\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_7\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_8",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Traditional IRA at Vanguard, rolled over from Great Lakes Energy 401(k).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 725000,
+        "citation": "CLIENT1: [00:09:15] Last time I checked, it was seven‑hundred‑something. Seven‑twenty, seven‑thirty, somewhere in there.",
+        "call_time": "00:09:15",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_8",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_8\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Traditional IRA at Vanguard, rolled over from Great Lakes Energy 401(k).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 725000, \"citation\": \"CLIENT1: [00:09:15] Last time I checked, it was seven‑hundred‑something. Seven‑twenty, seven‑thirty, somewhere in there.\", \"call_time\": \"00:09:15\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_8\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_9",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Traditional IRA at Fidelity, rolled over from Emily's 403(b).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Fidelity",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 370000,
+        "citation": "CLIENT2: [00:10:07] Around three‑fifty to four hundred. I think the last statement was three‑seventy‑something.",
+        "call_time": "00:10:07",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_9",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_9\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Traditional IRA at Fidelity, rolled over from Emily's 403(b).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Fidelity\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 370000, \"citation\": \"CLIENT2: [00:10:07] Around three‑fifty to four hundred. I think the last statement was three‑seventy‑something.\", \"call_time\": \"00:10:07\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_9\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_10",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Roth IRA at Vanguard, funded via backdoor contributions.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 80000,
+        "citation": "CLIENT1: [00:10:22] I’ve got a small Roth at Vanguard. I did backdoor contributions for a few years. Maybe eighty‑ish thousand.",
+        "call_time": "00:10:22",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_10",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_10\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Roth IRA at Vanguard, funded via backdoor contributions.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 80000, \"citation\": \"CLIENT1: [00:10:22] I’ve got a small Roth at Vanguard. I did backdoor contributions for a few years. Maybe eighty‑ish thousand.\", \"call_time\": \"00:10:22\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_10\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_11",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Roth IRA at Fidelity, opened by Emily.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Fidelity",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 15000,
+        "citation": "CLIENT2: [00:10:29] I’ve got a tiny Roth. Opened it ages ago. Around fifteen thousand, I think.",
+        "call_time": "00:10:29",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_11",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_11\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Roth IRA at Fidelity, opened by Emily.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Fidelity\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 15000, \"citation\": \"CLIENT2: [00:10:29] I’ve got a tiny Roth. Opened it ages ago. Around fifteen thousand, I think.\", \"call_time\": \"00:10:29\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_11\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_12",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint taxable brokerage account at Vanguard, mainly index funds.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 210000,
+        "citation": "CLIENT2: [00:10:45] That one’s probably around two hundred, two‑twenty. CLIENT1: [00:10:48] Moves with the market, but low two‑hundreds.",
+        "call_time": "00:10:45",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": -1000,
+        "citation": "CLIENT1: [00:10:56] We’ve been pulling around a thousand a month to top up what we get from Social Security and my pension.",
+        "call_time": "00:10:56",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_12",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_12\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint taxable brokerage account at Vanguard, mainly index funds.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 210000, \"citation\": \"CLIENT2: [00:10:45] That one’s probably around two hundred, two‑twenty. CLIENT1: [00:10:48] Moves with the market, but low two‑hundreds.\", \"call_time\": \"00:10:45\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": -1000, \"citation\": \"CLIENT1: [00:10:56] We’ve been pulling around a thousand a month to top up what we get from Social Security and my pension.\", \"call_time\": \"00:10:56\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_12\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_13",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Cash-balance pension from Emily's nursing home job in her twenties.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 35000,
+        "citation": "CLIENT2: [00:11:37] It’s from when I worked at a nursing home in my twenties. I think it’s a cash‑balance type plan. The last statement I saw was thirty‑something thousand.",
+        "call_time": "00:11:37",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_13",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_13\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Cash-balance pension from Emily's nursing home job in her twenties.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 35000, \"citation\": \"CLIENT2: [00:11:37] It’s from when I worked at a nursing home in my twenties. I think it’s a cash‑balance type plan. The last statement I saw was thirty‑something thousand.\", \"call_time\": \"00:11:37\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_13\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_14",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Health Savings Account (HSA) from Paul's old employer, mostly invested in a stock fund.",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 20000,
+        "citation": "CLIENT1: [00:11:59] I’ve got an HSA from my old employer. Around twenty thousand. Most of it’s invested in a stock fund.",
+        "call_time": "00:11:59",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_14",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_14\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Health Savings Account (HSA) from Paul's old employer, mostly invested in a stock fund.\", \"asset_type\": {\"value\": \"other\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 20000, \"citation\": \"CLIENT1: [00:11:59] I’ve got an HSA from my old employer. Around twenty thousand. Most of it’s invested in a stock fund.\", \"call_time\": \"00:11:59\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_14\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_15",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Inherited IRA at Edward Jones from Paul's father.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Edward Jones",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 32500,
+        "citation": "CLIENT1: [00:12:23] Mid‑thirties. Thirty, thirty‑five thousand.",
+        "call_time": "00:12:23",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_15",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_15\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Inherited IRA at Edward Jones from Paul's father.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Edward Jones\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 32500, \"citation\": \"CLIENT1: [00:12:23] Mid‑thirties. Thirty, thirty‑five thousand.\", \"call_time\": \"00:12:23\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_15\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g15"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_16",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Small annuity from Emily's old job at Fairway Pharmacy, pays annually.",
+      "asset_type": {
+        "value": "other"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 1200,
+        "citation": "CLIENT2: [00:12:37] Not from her, but I have a very small annuity from an old job at Fairway Pharmacy. Pays once a year, about twelve hundred dollars before tax.",
+        "call_time": "00:12:37",
+        "recorded_at": "2025-11-17T20:19:35Z",
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_16",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_16\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Small annuity from Emily's old job at Fairway Pharmacy, pays annually.\", \"asset_type\": {\"value\": \"other\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 1200, \"citation\": \"CLIENT2: [00:12:37] Not from her, but I have a very small annuity from an old job at Fairway Pharmacy. Pays once a year, about twelve hundred dollars before tax.\", \"call_time\": \"00:12:37\", \"recorded_at\": \"2025-11-17T20:19:35Z\", \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_16\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g16"
+    ],
+    "status": "TP"
+  }
+]

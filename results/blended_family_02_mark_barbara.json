@@ -1,0 +1,891 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "client_id": "client_2",
+    "role_in_case": "partner",
+    "id": "client_2",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_2\", \"role_in_case\": \"partner\", \"id\": \"client_2\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_1",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Primary residence, brick house in Loveland, just outside Cincinnati. Three bedrooms, finished basement.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Loveland, Ohio",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "purchase_price",
+        "type": "number",
+        "value": null,
+        "citation": "CLIENT1: [00:04:20] Bought it end of 2018.",
+        "call_time": "00:04:20",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": null,
+        "unit": "USD"
+      },
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 425000,
+        "citation": "CLIENT2: [00:04:34] Zillow keeps pinging me. It says low four hundreds, like four-twenty, four-thirty? CLIENT1: [00:04:39] Yeah, somewhere between four and four-fifty.",
+        "call_time": "00:04:34",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 285000,
+        "citation": "CLIENT1: [00:04:49] Balance is just under three hundred, I think — maybe two-eighty, two-ninety. CLIENT2: [00:04:54] Last time I looked it was two-eighty-something.",
+        "call_time": "00:04:49",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "monthly_mortgage_payment",
+        "type": "number",
+        "value": 1900,
+        "citation": "CLIENT2: [00:04:54] Payment’s around nineteen hundred a month with taxes and insurance.",
+        "call_time": "00:04:54",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_interest_rate",
+        "type": "number",
+        "value": 2.75,
+        "citation": "CLIENT2: [00:05:12] Yeah, fixed. Two-point-something. We locked it during COVID when rates were crazy low.",
+        "call_time": "00:05:12",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "percent"
+      },
+      {
+        "property": "mortgage_type",
+        "type": "string",
+        "value": "fixed",
+        "citation": "CLIENT2: [00:05:12] Yeah, fixed. Two-point-something.",
+        "call_time": "00:05:12",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": null
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 100,
+        "citation": "CLIENT2: [00:05:21] Yeah, joint.",
+        "call_time": "00:05:21",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_1",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_1\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Primary residence, brick house in Loveland, just outside Cincinnati. Three bedrooms, finished basement.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Loveland, Ohio\", \"account_number\": null}, \"timeline\": [{\"property\": \"purchase_price\", \"type\": \"number\", \"value\": null, \"citation\": \"CLIENT1: [00:04:20] Bought it end of 2018.\", \"call_time\": \"00:04:20\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": null, \"unit\": \"USD\"}, {\"property\": \"current_value\", \"type\": \"number\", \"value\": 425000, \"citation\": \"CLIENT2: [00:04:34] Zillow keeps pinging me. It says low four hundreds, like four-twenty, four-thirty? CLIENT1: [00:04:39] Yeah, somewhere between four and four-fifty.\", \"call_time\": \"00:04:34\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 285000, \"citation\": \"CLIENT1: [00:04:49] Balance is just under three hundred, I think — maybe two-eighty, two-ninety. CLIENT2: [00:04:54] Last time I looked it was two-eighty-something.\", \"call_time\": \"00:04:49\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"monthly_mortgage_payment\", \"type\": \"number\", \"value\": 1900, \"citation\": \"CLIENT2: [00:04:54] Payment’s around nineteen hundred a month with taxes and insurance.\", \"call_time\": \"00:04:54\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"mortgage_interest_rate\", \"type\": \"number\", \"value\": 2.75, \"citation\": \"CLIENT2: [00:05:12] Yeah, fixed. Two-point-something. We locked it during COVID when rates were crazy low.\", \"call_time\": \"00:05:12\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"percent\"}, {\"property\": \"mortgage_type\", \"type\": \"string\", \"value\": \"fixed\", \"citation\": \"CLIENT2: [00:05:12] Yeah, fixed. Two-point-something.\", \"call_time\": \"00:05:12\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": null}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 100, \"citation\": \"CLIENT2: [00:05:21] Yeah, joint.\", \"call_time\": \"00:05:21\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"asset_1\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_2",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Rental townhouse in Kettering, near Dayton. Acquired in first marriage.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Kettering, Ohio",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 235000,
+        "citation": "CLIENT2: [00:06:12] Realtor who helped with the tenants said between two-twenty and two-fifty.",
+        "call_time": "00:06:12",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "mortgage_balance",
+        "type": "number",
+        "value": 0,
+        "citation": "CLIENT2: [00:05:51] No mortgage anymore. I finished paying that off three years ago, right before COVID.",
+        "call_time": "00:05:51",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 16800,
+        "citation": "CLIENT2: [00:05:41] It is. I’ve got a couple in there; they’ve been there two years. Pay fourteen hundred a month.",
+        "call_time": "00:05:41",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 100,
+        "citation": "CLIENT2: [00:06:05] Yep, just my name.",
+        "call_time": "00:06:05",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_2",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_2\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Rental townhouse in Kettering, near Dayton. Acquired in first marriage.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Kettering, Ohio\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 235000, \"citation\": \"CLIENT2: [00:06:12] Realtor who helped with the tenants said between two-twenty and two-fifty.\", \"call_time\": \"00:06:12\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"mortgage_balance\", \"type\": \"number\", \"value\": 0, \"citation\": \"CLIENT2: [00:05:51] No mortgage anymore. I finished paying that off three years ago, right before COVID.\", \"call_time\": \"00:05:51\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 16800, \"citation\": \"CLIENT2: [00:05:41] It is. I’ve got a couple in there; they’ve been there two years. Pay fourteen hundred a month.\", \"call_time\": \"00:05:41\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 100, \"citation\": \"CLIENT2: [00:06:05] Yep, just my name.\", \"call_time\": \"00:06:05\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"asset_2\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_3",
+    "owner_ids": [
+      "client_1",
+      "other_brother"
+    ],
+    "static": {
+      "description": "Cabin on a lake near Angola, Indiana. Used in summer. Owned 50/50 with brother.",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Near Angola, Indiana",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 170000,
+        "citation": "CLIENT1: [00:07:01] We’ve got it insured for around one-sixty, one-seventy.",
+        "call_time": "00:07:01",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 50,
+        "citation": "CLIENT1: [00:06:53] Fifty-fifty, both of us on the deed.",
+        "call_time": "00:06:53",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_3",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_3\", \"owner_ids\": [\"client_1\", \"other_brother\"], \"static\": {\"description\": \"Cabin on a lake near Angola, Indiana. Used in summer. Owned 50/50 with brother.\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Near Angola, Indiana\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 170000, \"citation\": \"CLIENT1: [00:07:01] We’ve got it insured for around one-sixty, one-seventy.\", \"call_time\": \"00:07:01\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 50, \"citation\": \"CLIENT1: [00:06:53] Fifty-fifty, both of us on the deed.\", \"call_time\": \"00:06:53\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"asset_3\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_4",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint checking account at Fifth Third Bank.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Fifth Third Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 5500,
+        "citation": "CLIENT1: [00:12:57] Joint checking at Fifth Third usually sits around five or six grand.",
+        "call_time": "00:12:57",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_4",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_4\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint checking account at Fifth Third Bank.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Fifth Third Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 5500, \"citation\": \"CLIENT1: [00:12:57] Joint checking at Fifth Third usually sits around five or six grand.\", \"call_time\": \"00:12:57\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_4\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_5",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint savings account at Fifth Third Bank (emergency fund).",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Fifth Third Bank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 17500,
+        "citation": "CLIENT2: [00:13:02] And we’ve got a joint savings at Fifth Third. That’s our local “emergency” bucket. I think it’s around seventeen, eighteen thousand.",
+        "call_time": "00:13:02",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_5",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_5\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint savings account at Fifth Third Bank (emergency fund).\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Fifth Third Bank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 17500, \"citation\": \"CLIENT2: [00:13:02] And we’ve got a joint savings at Fifth Third. That’s our local “emergency” bucket. I think it’s around seventeen, eighteen thousand.\", \"call_time\": \"00:13:02\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_5\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_6",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint Marcus high-yield savings account.",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Marcus by Goldman Sachs",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 17500,
+        "citation": "CLIENT1: [00:13:12] Yeah, we’ve got a Marcus high-yield savings, joint. That’s where we try to park a bit more. Balance there is fifteen to twenty grand, depending on when the car breaks.",
+        "call_time": "00:13:12",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_6",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_6\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint Marcus high-yield savings account.\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Marcus by Goldman Sachs\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 17500, \"citation\": \"CLIENT1: [00:13:12] Yeah, we’ve got a Marcus high-yield savings, joint. That’s where we try to park a bit more. Balance there is fifteen to twenty grand, depending on when the car breaks.\", \"call_time\": \"00:13:12\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_6\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_7",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "CD at Dayton Teachers Credit Union (inheritance from aunt).",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Dayton Teachers Credit Union",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 30000,
+        "citation": "CLIENT2: [00:13:36] When she died, I got around thirty-five thousand. It’s at Dayton Teachers Credit Union in a CD. Balance now is high twenties, low thirties.",
+        "call_time": "00:13:36",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_7",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_7\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"CD at Dayton Teachers Credit Union (inheritance from aunt).\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Dayton Teachers Credit Union\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 30000, \"citation\": \"CLIENT2: [00:13:36] When she died, I got around thirty-five thousand. It’s at Dayton Teachers Credit Union in a CD. Balance now is high twenties, low thirties.\", \"call_time\": \"00:13:36\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_7\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_8",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Old savings account at RiverBank (earmarked for Ava).",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "RiverBank",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 15000,
+        "citation": "CLIENT2: [00:13:58] Old savings at RiverBank from when I was married before. That one’s just in my name. I think there’s around fifteen thousand.",
+        "call_time": "00:13:58",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_8",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_8\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Old savings account at RiverBank (earmarked for Ava).\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"RiverBank\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 15000, \"citation\": \"CLIENT2: [00:13:58] Old savings at RiverBank from when I was married before. That one’s just in my name. I think there’s around fifteen thousand.\", \"call_time\": \"00:13:58\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_8\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_9",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Savings account at Chase (earmarked for Liam).",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "Chase",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 6000,
+        "citation": "CLIENT1: [00:14:14] I’ve got a small savings at Chase. Maybe five to seven grand.",
+        "call_time": "00:14:14",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_9",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_9\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Savings account at Chase (earmarked for Liam).\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"Chase\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 6000, \"citation\": \"CLIENT1: [00:14:14] I’ve got a small savings at Chase. Maybe five to seven grand.\", \"call_time\": \"00:14:14\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_9\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_10",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Robinhood brokerage account (pre-marriage).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Robinhood",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 3500,
+        "citation": "CLIENT1: [00:14:25] I’ve got a little Robinhood account from before we met. Three to four thousand, depending on the day.",
+        "call_time": "00:14:25",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_10",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_10\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Robinhood brokerage account (pre-marriage).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Robinhood\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 3500, \"citation\": \"CLIENT1: [00:14:25] I’ve got a little Robinhood account from before we met. Three to four thousand, depending on the day.\", \"call_time\": \"00:14:25\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_10\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_11",
+    "owner_ids": [
+      "client_1",
+      "client_2"
+    ],
+    "static": {
+      "description": "Joint brokerage account at Schwab (house projects and early retirement).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "Charles Schwab",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 26000,
+        "citation": "CLIENT1: [00:14:43] We put in about fifteen grand to start and then tossed in some of my bonus. I think it’s around twenty-five, twenty-seven thousand now.",
+        "call_time": "00:14:43",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_11",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_11\", \"owner_ids\": [\"client_1\", \"client_2\"], \"static\": {\"description\": \"Joint brokerage account at Schwab (house projects and early retirement).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"Charles Schwab\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 26000, \"citation\": \"CLIENT1: [00:14:43] We put in about fifteen grand to start and then tossed in some of my bonus. I think it’s around twenty-five, twenty-seven thousand now.\", \"call_time\": \"00:14:43\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_11\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g11"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_12",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "529 college savings plan for Ava.",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 11500,
+        "citation": "CLIENT2: [00:15:09] I’ve got one for Ava. Opened it when she was little. I think it’s around eleven or twelve thousand.",
+        "call_time": "00:15:09",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_12",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_12\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"529 college savings plan for Ava.\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 11500, \"citation\": \"CLIENT2: [00:15:09] I’ve got one for Ava. Opened it when she was little. I think it’s around eleven or twelve thousand.\", \"call_time\": \"00:15:09\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_12\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_13",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "529 college savings plan for Liam (at ex-wife's address).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 10000,
+        "citation": "CLIENT1: [00:15:15] For my boys, the 529s are technically at my ex-wife’s address. She set them up. I know there’s money there, but I don’t know exact numbers. I’d guess maybe ten thousand for Liam and seven or eight for Ben.",
+        "call_time": "00:15:15",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_13",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_13\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"529 college savings plan for Liam (at ex-wife's address).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 10000, \"citation\": \"CLIENT1: [00:15:15] For my boys, the 529s are technically at my ex-wife’s address. She set them up. I know there’s money there, but I don’t know exact numbers. I’d guess maybe ten thousand for Liam and seven or eight for Ben.\", \"call_time\": \"00:15:15\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_13\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_14",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "529 college savings plan for Ben (at ex-wife's address).",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": null,
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 7500,
+        "citation": "CLIENT1: [00:15:15] For my boys, the 529s are technically at my ex-wife’s address. She set them up. I know there’s money there, but I don’t know exact numbers. I’d guess maybe ten thousand for Liam and seven or eight for Ben.",
+        "call_time": "00:15:15",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_14",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_14\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"529 college savings plan for Ben (at ex-wife's address).\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": null, \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 7500, \"citation\": \"CLIENT1: [00:15:15] For my boys, the 529s are technically at my ex-wife’s address. She set them up. I know there’s money there, but I don’t know exact numbers. I’d guess maybe ten thousand for Liam and seven or eight for Ben.\", \"call_time\": \"00:15:15\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_14\", \"fact_type\": \"asset\"}\n\nDedup note: Predicted fact asset_14 marked FP because gold g13 already matched another prediction.",
+    "in_scope": true,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "asset_15",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "401(k) at Northline Distribution (current employer).",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Empower",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 155000,
+        "citation": "CLIENT1: [00:16:07] Last time I checked it was around one-fifty, one-sixty thousand.",
+        "call_time": "00:16:07",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "employee_contribution_rate",
+        "type": "number",
+        "value": 8,
+        "citation": "CLIENT1: [00:16:13] Eight percent from my paycheck.",
+        "call_time": "00:16:13",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 4,
+        "citation": "CLIENT1: [00:16:13] They put in four percent.",
+        "call_time": "00:16:13",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_15",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_15\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"401(k) at Northline Distribution (current employer).\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Empower\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 155000, \"citation\": \"CLIENT1: [00:16:07] Last time I checked it was around one-fifty, one-sixty thousand.\", \"call_time\": \"00:16:07\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"employee_contribution_rate\", \"type\": \"number\", \"value\": 8, \"citation\": \"CLIENT1: [00:16:13] Eight percent from my paycheck.\", \"call_time\": \"00:16:13\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 4, \"citation\": \"CLIENT1: [00:16:13] They put in four percent.\", \"call_time\": \"00:16:13\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"asset_15\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_16",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Vanguard IRA (rolled over from previous 401(k)).",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Vanguard",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 76500,
+        "citation": "CLIENT1: [00:16:37] Balance is somewhere mid-seventies — seventy-five, seventy-eight thousand.",
+        "call_time": "00:16:37",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_16",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_16\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Vanguard IRA (rolled over from previous 401(k)).\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Vanguard\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 76500, \"citation\": \"CLIENT1: [00:16:37] Balance is somewhere mid-seventies — seventy-five, seventy-eight thousand.\", \"call_time\": \"00:16:37\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_16\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g15"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_17",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "NorthGrid final salary pension (defined benefit, previous employer).",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "NorthGrid",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 8200,
+        "citation": "CLIENT1: [00:17:02] From memory, about eight thousand two hundred a year at sixty-five.",
+        "call_time": "00:17:02",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD/year"
+      }
+    ],
+    "id": "asset_17",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_17\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"NorthGrid final salary pension (defined benefit, previous employer).\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"NorthGrid\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 8200, \"citation\": \"CLIENT1: [00:17:02] From memory, about eight thousand two hundred a year at sixty-five.\", \"call_time\": \"00:17:02\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD/year\"}], \"id\": \"asset_17\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g16"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_18",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "403(b) at TIAA (current employer).",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "TIAA",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 72500,
+        "citation": "CLIENT2: [00:17:37] The 403(b) is with TIAA. I think the balance is around seventy-ish, maybe seventy-five thousand now.",
+        "call_time": "00:17:37",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "employee_contribution_rate",
+        "type": "number",
+        "value": 3,
+        "citation": "CLIENT2: [00:17:39] I’m just doing the minimum to get the match right now — three percent from me, three from them.",
+        "call_time": "00:17:39",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 3,
+        "citation": "CLIENT2: [00:17:39] I’m just doing the minimum to get the match right now — three percent from me, three from them.",
+        "call_time": "00:17:39",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "percent"
+      }
+    ],
+    "id": "asset_18",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_18\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"403(b) at TIAA (current employer).\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"TIAA\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 72500, \"citation\": \"CLIENT2: [00:17:37] The 403(b) is with TIAA. I think the balance is around seventy-ish, maybe seventy-five thousand now.\", \"call_time\": \"00:17:37\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"employee_contribution_rate\", \"type\": \"number\", \"value\": 3, \"citation\": \"CLIENT2: [00:17:39] I’m just doing the minimum to get the match right now — three percent from me, three from them.\", \"call_time\": \"00:17:39\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 3, \"citation\": \"CLIENT2: [00:17:39] I’m just doing the minimum to get the match right now — three percent from me, three from them.\", \"call_time\": \"00:17:39\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"percent\"}], \"id\": \"asset_18\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g17"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_19",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Roth IRA at Schwab.",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Charles Schwab",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 9000,
+        "citation": "CLIENT2: [00:17:48] Yeah, opened that about two years ago. We’ve got two-fifty a month auto-drafting into it. Balance is maybe eight to ten thousand.",
+        "call_time": "00:17:48",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 250,
+        "citation": "CLIENT2: [00:17:48] We’ve got two-fifty a month auto-drafting into it.",
+        "call_time": "00:17:48",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": false,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_19",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_19\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Roth IRA at Schwab.\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Charles Schwab\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 9000, \"citation\": \"CLIENT2: [00:17:48] Yeah, opened that about two years ago. We’ve got two-fifty a month auto-drafting into it. Balance is maybe eight to ten thousand.\", \"call_time\": \"00:17:48\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 250, \"citation\": \"CLIENT2: [00:17:48] We’ve got two-fifty a month auto-drafting into it.\", \"call_time\": \"00:17:48\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": false, \"unit\": \"USD\"}], \"id\": \"asset_19\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g18"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "asset_20",
+    "owner_ids": [
+      "client_2"
+    ],
+    "static": {
+      "description": "Old 401(k) from retail job (Fidelity).",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "Fidelity",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 5000,
+        "citation": "CLIENT2: [00:18:07] I have a tiny old 401(k) from my retail days with like five grand in it. I think it’s with Fidelity.",
+        "call_time": "00:18:07",
+        "recorded_at": null,
+        "value_as_of_date": null,
+        "is_estimate": true,
+        "unit": "USD"
+      }
+    ],
+    "id": "asset_20",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"asset_20\", \"owner_ids\": [\"client_2\"], \"static\": {\"description\": \"Old 401(k) from retail job (Fidelity).\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"Fidelity\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 5000, \"citation\": \"CLIENT2: [00:18:07] I have a tiny old 401(k) from my retail days with like five grand in it. I think it’s with Fidelity.\", \"call_time\": \"00:18:07\", \"recorded_at\": null, \"value_as_of_date\": null, \"is_estimate\": true, \"unit\": \"USD\"}], \"id\": \"asset_20\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g19"
+    ],
+    "status": "TP"
+  }
+]

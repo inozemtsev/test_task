@@ -1,0 +1,500 @@
+[
+  {
+    "client_id": "client_1",
+    "role_in_case": "primary",
+    "id": "client_1",
+    "fact_type": "client",
+    "description": "{\"client_id\": \"client_1\", \"role_in_case\": \"primary\", \"id\": \"client_1\", \"fact_type\": \"client\"}",
+    "in_scope": false,
+    "matched_ids": [],
+    "status": "FP"
+  },
+  {
+    "asset_id": "current_account_metroline",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Metroline Bank current account (main salary account)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "UK",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 1500,
+        "unit": "GBP",
+        "is_estimate": true,
+        "citation": "CLIENT: [00:10:27] 'Roughly what balance do you keep in Metroline most of the time?' ... 'One to two grand. Just enough so rent and bills don’t bounce. I try not to let it go below a thousand.'",
+        "call_time": "00:10:27",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      }
+    ],
+    "id": "current_account_metroline",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"current_account_metroline\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Metroline Bank current account (main salary account)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"UK\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 1500, \"unit\": \"GBP\", \"is_estimate\": true, \"citation\": \"CLIENT: [00:10:27] 'Roughly what balance do you keep in Metroline most of the time?' ... 'One to two grand. Just enough so rent and bills don’t bounce. I try not to let it go below a thousand.'\", \"call_time\": \"00:10:27\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}], \"id\": \"current_account_metroline\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g1"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "current_account_monzo",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Monzo current account (day-to-day spending)",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "UK",
+      "account_number": null
+    },
+    "timeline": [],
+    "id": "current_account_monzo",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"current_account_monzo\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Monzo current account (day-to-day spending)\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"UK\", \"account_number\": null}, \"timeline\": [], \"id\": \"current_account_monzo\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g2"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "aurora_savings_emergency",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Aurora online high-yield savings account - Emergency pot",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "UK",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 8500,
+        "unit": "GBP",
+        "is_estimate": true,
+        "citation": "CLIENT: [00:10:54] 'What’s in the emergency pot at the moment?' ... 'Last week it was around eight and a half grand. So eight to nine‑ish.'",
+        "call_time": "00:10:54",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 125,
+        "unit": "GBP",
+        "is_estimate": true,
+        "citation": "CLIENT: [00:11:12] 'Emergency I’m doing about £100–£150 a month.'",
+        "call_time": "00:11:12",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      }
+    ],
+    "id": "aurora_savings_emergency",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"aurora_savings_emergency\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Aurora online high-yield savings account - Emergency pot\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"UK\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 8500, \"unit\": \"GBP\", \"is_estimate\": true, \"citation\": \"CLIENT: [00:10:54] 'What’s in the emergency pot at the moment?' ... 'Last week it was around eight and a half grand. So eight to nine‑ish.'\", \"call_time\": \"00:10:54\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 125, \"unit\": \"GBP\", \"is_estimate\": true, \"citation\": \"CLIENT: [00:11:12] 'Emergency I’m doing about £100–£150 a month.'\", \"call_time\": \"00:11:12\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}], \"id\": \"aurora_savings_emergency\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g3"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "aurora_savings_house",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Aurora online high-yield savings account - House deposit pot",
+      "asset_type": {
+        "value": "cash"
+      },
+      "location": "UK",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_balance",
+        "type": "number",
+        "value": 4500,
+        "unit": "GBP",
+        "is_estimate": true,
+        "citation": "CLIENT: [00:11:02] 'And the house pot?' ... 'About four and a half, I think. I’d have to log in for the exact number.'",
+        "call_time": "00:11:02",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 325,
+        "unit": "GBP",
+        "is_estimate": true,
+        "citation": "CLIENT: [00:11:12] 'The house one is £300–£350 automatically after payday. If I get any freelance money, that goes into house as well.'",
+        "call_time": "00:11:12",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      }
+    ],
+    "id": "aurora_savings_house",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"aurora_savings_house\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Aurora online high-yield savings account - House deposit pot\", \"asset_type\": {\"value\": \"cash\"}, \"location\": \"UK\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_balance\", \"type\": \"number\", \"value\": 4500, \"unit\": \"GBP\", \"is_estimate\": true, \"citation\": \"CLIENT: [00:11:02] 'And the house pot?' ... 'About four and a half, I think. I’d have to log in for the exact number.'\", \"call_time\": \"00:11:02\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 325, \"unit\": \"GBP\", \"is_estimate\": true, \"citation\": \"CLIENT: [00:11:12] 'The house one is £300–£350 automatically after payday. If I get any freelance money, that goes into house as well.'\", \"call_time\": \"00:11:12\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}], \"id\": \"aurora_savings_house\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g4",
+      "g5"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "stocks_shares_isa",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Stocks & Shares ISA (global index fund, investment app)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "UK",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 5250,
+        "unit": "GBP",
+        "is_estimate": true,
+        "citation": "CLIENT: [00:11:45] 'Roughly how much is in that ISA now?' ... 'About five to five‑and‑a‑half grand.'",
+        "call_time": "00:11:45",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      },
+      {
+        "property": "regular_monthly_contribution",
+        "type": "number",
+        "value": 250,
+        "unit": "GBP",
+        "is_estimate": true,
+        "citation": "CLIENT: [00:11:52] 'Yeah, that goes in by direct debit. I might bump it up when the house stuff is sorted, but for now it’s ticking over.'",
+        "call_time": "00:11:52",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      }
+    ],
+    "id": "stocks_shares_isa",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"stocks_shares_isa\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Stocks & Shares ISA (global index fund, investment app)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"UK\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 5250, \"unit\": \"GBP\", \"is_estimate\": true, \"citation\": \"CLIENT: [00:11:45] 'Roughly how much is in that ISA now?' ... 'About five to five‑and‑a‑half grand.'\", \"call_time\": \"00:11:45\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}, {\"property\": \"regular_monthly_contribution\", \"type\": \"number\", \"value\": 250, \"unit\": \"GBP\", \"is_estimate\": true, \"citation\": \"CLIENT: [00:11:52] 'Yeah, that goes in by direct debit. I might bump it up when the house stuff is sorted, but for now it’s ticking over.'\", \"call_time\": \"00:11:52\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}], \"id\": \"stocks_shares_isa\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g6"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "fidelity_gia",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Fidelity general investment account (total market index fund, via app)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "UK",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 1750,
+        "unit": "GBP",
+        "is_estimate": true,
+        "citation": "CLIENT: [00:12:22] 'There’s like £1,500–2,000 in there. I haven’t added to it recently.'",
+        "call_time": "00:12:22",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      }
+    ],
+    "id": "fidelity_gia",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"fidelity_gia\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Fidelity general investment account (total market index fund, via app)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"UK\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 1750, \"unit\": \"GBP\", \"is_estimate\": true, \"citation\": \"CLIENT: [00:12:22] 'There’s like £1,500–2,000 in there. I haven’t added to it recently.'\", \"call_time\": \"00:12:22\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}], \"id\": \"fidelity_gia\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g7"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "coinbase_crypto",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Coinbase crypto account (Bitcoin and Ethereum)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "UK",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 850,
+        "unit": "GBP",
+        "is_estimate": true,
+        "citation": "CLIENT: [00:12:35] 'Right now it’s worth about eight or nine hundred quid.'",
+        "call_time": "00:12:35",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      }
+    ],
+    "id": "coinbase_crypto",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"coinbase_crypto\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Coinbase crypto account (Bitcoin and Ethereum)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"UK\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 850, \"unit\": \"GBP\", \"is_estimate\": true, \"citation\": \"CLIENT: [00:12:35] 'Right now it’s worth about eight or nine hundred quid.'\", \"call_time\": \"00:12:35\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}], \"id\": \"coinbase_crypto\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g8"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "kansas_farmland",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Fractional ownership of farmland near Hutchinson, Kansas (inherited from grandparents)",
+      "asset_type": {
+        "value": "property"
+      },
+      "location": "Outside Hutchinson, Kansas, USA",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "ownership_share_percentage",
+        "type": "number",
+        "value": 12.5,
+        "unit": "percent",
+        "is_estimate": false,
+        "citation": "CLIENT: [00:13:15] 'An eighth, I think. There are loads of cousins.'",
+        "call_time": "00:13:15",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      },
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 32000,
+        "unit": "USD",
+        "is_estimate": true,
+        "citation": "CLIENT: [00:13:21] 'the whole thing was worth around two‑fifty, maybe two‑seventy thousand dollars. So my bit would be thirty‑ish, if my maths isn’t terrible.'",
+        "call_time": "00:13:21",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      },
+      {
+        "property": "annual_rental_income_to_client",
+        "type": "number",
+        "value": 400,
+        "unit": "USD",
+        "is_estimate": true,
+        "citation": "CLIENT: [00:13:38] 'We get a cheque once a year. Mine’s usually three to five hundred dollars.'",
+        "call_time": "00:13:38",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      }
+    ],
+    "id": "kansas_farmland",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"kansas_farmland\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Fractional ownership of farmland near Hutchinson, Kansas (inherited from grandparents)\", \"asset_type\": {\"value\": \"property\"}, \"location\": \"Outside Hutchinson, Kansas, USA\", \"account_number\": null}, \"timeline\": [{\"property\": \"ownership_share_percentage\", \"type\": \"number\", \"value\": 12.5, \"unit\": \"percent\", \"is_estimate\": false, \"citation\": \"CLIENT: [00:13:15] 'An eighth, I think. There are loads of cousins.'\", \"call_time\": \"00:13:15\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}, {\"property\": \"current_value\", \"type\": \"number\", \"value\": 32000, \"unit\": \"USD\", \"is_estimate\": true, \"citation\": \"CLIENT: [00:13:21] 'the whole thing was worth around two‑fifty, maybe two‑seventy thousand dollars. So my bit would be thirty‑ish, if my maths isn’t terrible.'\", \"call_time\": \"00:13:21\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}, {\"property\": \"annual_rental_income_to_client\", \"type\": \"number\", \"value\": 400, \"unit\": \"USD\", \"is_estimate\": true, \"citation\": \"CLIENT: [00:13:38] 'We get a cheque once a year. Mine’s usually three to five hundred dollars.'\", \"call_time\": \"00:13:38\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}], \"id\": \"kansas_farmland\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g9",
+      "g10"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "bluepeak_rsu",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "BluePeak Analytics RSUs (Morgan Stanley Shareworks)",
+      "asset_type": {
+        "value": "investment_account"
+      },
+      "location": "UK",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 1750,
+        "unit": "GBP",
+        "is_estimate": true,
+        "citation": "CLIENT: [00:14:14] 'The stock’s been trading around forty to fifty dollars a share, so I guess that’s like £1,500–£2,000 for the bit I actually own.'",
+        "call_time": "00:14:14",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      }
+    ],
+    "id": "bluepeak_rsu",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"bluepeak_rsu\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"BluePeak Analytics RSUs (Morgan Stanley Shareworks)\", \"asset_type\": {\"value\": \"investment_account\"}, \"location\": \"UK\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 1750, \"unit\": \"GBP\", \"is_estimate\": true, \"citation\": \"CLIENT: [00:14:14] 'The stock’s been trading around forty to fifty dollars a share, so I guess that’s like £1,500–£2,000 for the bit I actually own.'\", \"call_time\": \"00:14:14\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}], \"id\": \"bluepeak_rsu\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g12"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "aviva_pension",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Aviva Workplace Pension (BluePeak Analytics Workplace Pension Scheme)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "UK",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 14500,
+        "unit": "GBP",
+        "is_estimate": false,
+        "citation": "CLIENT: [00:15:03] 'Early May it was about £14,500.'",
+        "call_time": "00:15:03",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": "2025-05-01"
+      },
+      {
+        "property": "employee_contribution_rate",
+        "type": "number",
+        "value": 5,
+        "unit": "percent",
+        "is_estimate": false,
+        "citation": "CLIENT: [00:15:11] 'I do five percent and they match five.'",
+        "call_time": "00:15:11",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      },
+      {
+        "property": "employer_contribution_rate",
+        "type": "number",
+        "value": 5,
+        "unit": "percent",
+        "is_estimate": false,
+        "citation": "CLIENT: [00:15:11] 'I do five percent and they match five.'",
+        "call_time": "00:15:11",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      }
+    ],
+    "id": "aviva_pension",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"aviva_pension\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Aviva Workplace Pension (BluePeak Analytics Workplace Pension Scheme)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"UK\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 14500, \"unit\": \"GBP\", \"is_estimate\": false, \"citation\": \"CLIENT: [00:15:03] 'Early May it was about £14,500.'\", \"call_time\": \"00:15:03\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": \"2025-05-01\"}, {\"property\": \"employee_contribution_rate\", \"type\": \"number\", \"value\": 5, \"unit\": \"percent\", \"is_estimate\": false, \"citation\": \"CLIENT: [00:15:11] 'I do five percent and they match five.'\", \"call_time\": \"00:15:11\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}, {\"property\": \"employer_contribution_rate\", \"type\": \"number\", \"value\": 5, \"unit\": \"percent\", \"is_estimate\": false, \"citation\": \"CLIENT: [00:15:11] 'I do five percent and they match five.'\", \"call_time\": \"00:15:11\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}], \"id\": \"aviva_pension\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g13",
+      "g16"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "nest_pension",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Nest pension (Harper & Cole Marketing, previous employer)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "UK",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 4260,
+        "unit": "GBP",
+        "is_estimate": false,
+        "citation": "CLIENT: [00:15:34] 'I’ve got a statement from January — it said £4,260.'",
+        "call_time": "00:15:34",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": "2025-01-01"
+      }
+    ],
+    "id": "nest_pension",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"nest_pension\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Nest pension (Harper & Cole Marketing, previous employer)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"UK\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 4260, \"unit\": \"GBP\", \"is_estimate\": false, \"citation\": \"CLIENT: [00:15:34] 'I’ve got a statement from January — it said £4,260.'\", \"call_time\": \"00:15:34\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": \"2025-01-01\"}], \"id\": \"nest_pension\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g14"
+    ],
+    "status": "TP"
+  },
+  {
+    "asset_id": "moneybox_pension",
+    "owner_ids": [
+      "client_1"
+    ],
+    "static": {
+      "description": "Moneybox Personal Pension (administered by Gaudi)",
+      "asset_type": {
+        "value": "pension"
+      },
+      "location": "UK",
+      "account_number": null
+    },
+    "timeline": [
+      {
+        "property": "current_value",
+        "type": "number",
+        "value": 2100,
+        "unit": "GBP",
+        "is_estimate": false,
+        "citation": "CLIENT: [00:15:59] 'About £2,100 last time I looked.'",
+        "call_time": "00:15:59",
+        "recorded_at": "2025-11-17T20:36:31Z",
+        "value_as_of_date": null
+      }
+    ],
+    "id": "moneybox_pension",
+    "fact_type": "asset",
+    "description": "{\"asset_id\": \"moneybox_pension\", \"owner_ids\": [\"client_1\"], \"static\": {\"description\": \"Moneybox Personal Pension (administered by Gaudi)\", \"asset_type\": {\"value\": \"pension\"}, \"location\": \"UK\", \"account_number\": null}, \"timeline\": [{\"property\": \"current_value\", \"type\": \"number\", \"value\": 2100, \"unit\": \"GBP\", \"is_estimate\": false, \"citation\": \"CLIENT: [00:15:59] 'About £2,100 last time I looked.'\", \"call_time\": \"00:15:59\", \"recorded_at\": \"2025-11-17T20:36:31Z\", \"value_as_of_date\": null}], \"id\": \"moneybox_pension\", \"fact_type\": \"asset\"}",
+    "in_scope": true,
+    "matched_ids": [
+      "g15"
+    ],
+    "status": "TP"
+  }
+]
