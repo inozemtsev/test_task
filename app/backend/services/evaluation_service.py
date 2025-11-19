@@ -10,6 +10,7 @@ from models import (
     GroundTruth,
 )
 from services.llm_service import extract_structured_data, calculate_schema_stability, review_extraction, extract_with_review, run_judge
+from services.ground_truth_service import get_effective_judge_config, ensure_ground_truth_for_transcripts
 from services.metrics_service import compute_metrics
 from datetime import datetime
 import asyncio
@@ -92,20 +93,7 @@ async def _async_process_transcript(
         schema_overlap_data = calculate_field_overlap(extracted_data, experiment_schema)
 
         # Step 2: NEW JUDGE FLOW - One LLM call to label facts
-        # Default judge_config if not provided
-        if not judge_config:
-            judge_config = {
-                "entity_types": [],
-                "profile_name": "custom",
-                "numeric_tolerance_percent": 0.0,
-                "date_granularity": "day",
-                "case_insensitive_strings": False,
-                "ignore_minor_wording_diffs": False,
-                "require_all_fields_match": False,
-                "required_key_fields": [],
-                "allow_partial_matches": True,
-                "extra_instructions": None
-            }
+        judge_config = get_effective_judge_config(judge_config)
 
         if gold_facts is None:
             raise Exception("Ground truth not available for this transcript.")
@@ -221,7 +209,7 @@ async def run_evaluation(evaluation_id: int, transcript_ids: list[int] = None):
             judge = result.scalar_one()
 
             # Get judge_config (will use default if None)
-            judge_config = judge.judge_config if judge.judge_config else None
+            judge_config = get_effective_judge_config(judge.judge_config)
 
             # Get transcripts (all or filtered by IDs)
             if transcript_ids:
@@ -240,14 +228,8 @@ async def run_evaluation(evaluation_id: int, transcript_ids: list[int] = None):
                 gt.transcript_id: gt.data for gt in gt_result.scalars().all()
             }
 
-            # Ensure ground truth exists for selected transcripts
-            missing = [t.name for t in transcripts if t.id not in ground_truth_map]
-            if missing:
-                missing_list = ", ".join(missing)
-                raise Exception(
-                    f"Missing stored ground truth for transcripts: {missing_list}. "
-                    "Use the 'Get and store ground truth' action for this judge."
-                )
+            # Ensure ground truth exists for all transcripts (generate & store if missing)
+            await ensure_ground_truth_for_transcripts(db, judge, transcripts, ground_truth_map)
 
             progress.total_transcripts = len(transcripts)
             progress.current_status = "running"

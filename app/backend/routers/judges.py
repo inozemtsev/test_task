@@ -13,27 +13,11 @@ from schemas import (
     GroundTruthUpdateRequest,
     TranscriptResponse,
 )
-from services.llm_service import generate_gold_facts
+from services.ground_truth_service import (
+    regenerate_ground_truth_for_transcripts,
+)
 
 router = APIRouter(prefix="/api/judges", tags=["judges"])
-
-
-def _default_judge_config(config: dict | None) -> dict:
-    """Ensure we always have a usable judge configuration."""
-    if config:
-        return config
-    return {
-        "entity_types": [],
-        "profile_name": "custom",
-        "numeric_tolerance_percent": 0.0,
-        "date_granularity": "day",
-        "case_insensitive_strings": False,
-        "ignore_minor_wording_diffs": False,
-        "require_all_fields_match": False,
-        "required_key_fields": [],
-        "allow_partial_matches": True,
-        "extra_instructions": None,
-    }
 
 
 async def _get_judge_or_404(judge_id: int, db: AsyncSession) -> Judge:
@@ -157,7 +141,6 @@ async def generate_ground_truth_endpoint(
 ):
     """Generate and store ground truth for all (or selected) transcripts."""
     judge = await _get_judge_or_404(judge_id, db)
-    config = _default_judge_config(judge.judge_config)
 
     transcript_query = select(Transcript)
     if payload.transcript_ids:
@@ -169,47 +152,7 @@ async def generate_ground_truth_endpoint(
     if not transcripts:
         raise HTTPException(status_code=404, detail="No transcripts found for generation")
 
-    generated = 0
-    failures = []
-
-    for transcript in transcripts:
-        try:
-            gold_facts = await generate_gold_facts(transcript.content, config, judge.model)
-            existing_gt_result = await db.execute(
-                select(GroundTruth).where(
-                    GroundTruth.judge_id == judge_id,
-                    GroundTruth.transcript_id == transcript.id,
-                )
-            )
-            ground_truth = existing_gt_result.scalar_one_or_none()
-
-            if ground_truth:
-                ground_truth.data = gold_facts
-            else:
-                ground_truth = GroundTruth(
-                    judge_id=judge_id,
-                    transcript_id=transcript.id,
-                    data=gold_facts,
-                )
-                db.add(ground_truth)
-
-            await db.commit()
-            generated += 1
-        except Exception as e:
-            await db.rollback()
-            failures.append(
-                {
-                    "transcript_id": transcript.id,
-                    "transcript_name": transcript.name,
-                    "error": str(e),
-                }
-            )
-
-    return {
-        "generated": generated,
-        "total": len(transcripts),
-        "failures": failures,
-    }
+    return await regenerate_ground_truth_for_transcripts(db, judge, transcripts)
 
 
 @router.get(

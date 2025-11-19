@@ -1336,3 +1336,40 @@ Separate concerns into focused modules:
 3. **Field-level extraction quality**: Track which specific fields LLM struggles with
 4. **Schema diff view**: Show what changed between schema versions
 5. **Overlap trends**: Chart showing overlap improvement over experiments
+
+---
+
+# Session 5: Ground Truth Management Workflow
+
+## Features Implemented
+
+### 1. Persistent Ground Truth Storage
+**Description:** Ground truth (gold facts) is now generated and stored per judge/transcript pair, allowing reuse across evaluations.
+
+**Backend Changes:**
+- Added `GroundTruth` model/table with unique `(judge_id, transcript_id)` constraint to persist gold facts.
+- Created `services/ground_truth_service.py` to centralize default judge config handling, generation, storage, and regeneration helpers.
+- Evaluation runner loads all stored ground truths and automatically generates + saves any missing entries before processing transcripts, ensuring evaluations can run even without pre-generated data.
+
+### 2. Ground Truth Management APIs & UI
+**Backend:**
+- `/api/judges/{id}/ground-truth/generate` now uses the shared service to (re)generate gold facts for all or selected transcripts.
+- `/api/judges/{id}/ground-truth/{transcript_id}` (GET/PUT) returns transcript content alongside ground truth and accepts manual edits with validation.
+
+**Frontend:**
+- `JudgeDetail` includes a dedicated "Ground Truth Management" block beside the Configuration/Leaderboard tabs with actions to open the review modal or trigger generation.
+- Added `GroundTruthManager` modal using Monaco Editor to view transcripts vs. stored ground truth side-by-side and edit/save JSON safely.
+- API bindings (`judgesAPI`) expose generate/get/update ground truth calls.
+
+### 3. Evaluation Flow Integration
+**Description:** `run_evaluation()` now ensures ground truth exists per transcript before running judges.
+
+**Backend Changes:**
+- Evaluation workers receive normalized judge configs and stored gold facts; `run_judge()` now strictly requires `gold_facts` input.
+- If ground truth is missing, it is generated once, persisted, and reused for the rest of the run (and future runs).
+
+## Testing Recommendations
+1. Click "Get and store ground truth" for a judge, verify the modal and summary states update.
+2. Edit ground truth JSON in the modal, save, and confirm `/api/judges/{id}/ground-truth/{transcript}` reflects the change.
+3. Run an evaluation without pre-generating ground truth; confirm it succeeds and inspect DB for newly stored entries.
+4. Re-run evaluations to verify they reuse the cached ground truth (no duplicate generation calls).
