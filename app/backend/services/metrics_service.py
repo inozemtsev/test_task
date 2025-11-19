@@ -167,7 +167,9 @@ def compute_metrics_by_type(judge_result: JudgeResult) -> Dict[str, ComputedMetr
 
 def _count_status(facts: list[LabeledFact], status: str) -> int:
     """
-    Count facts with a specific status that are in scope.
+    Count facts with a specific status. For hallucination tracking we count
+    false positives even when they were out of scope so users still see
+    hallucinated predictions they didn't ask for.
 
     Args:
         facts: List of labeled facts
@@ -176,7 +178,11 @@ def _count_status(facts: list[LabeledFact], status: str) -> int:
     Returns:
         Count of facts with that status that are in scope
     """
-    return sum(1 for fact in facts if fact.status == status and fact.in_scope)
+    return sum(
+        1
+        for fact in facts
+        if fact.status == status and (fact.in_scope or status == "FP")
+    )
 
 
 def aggregate_metrics(metrics_list: list[ComputedMetrics]) -> ComputedMetrics:
