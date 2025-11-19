@@ -9,7 +9,8 @@ from models import (
     Judge,
     GroundTruth,
 )
-from services.llm_service import extract_structured_data, calculate_schema_stability, review_extraction, extract_with_review, run_judge
+from services.llm_service import extract_structured_data, calculate_schema_stability, review_extraction, extract_with_review
+from services.judge_service import run_judge
 from services.ground_truth_service import get_effective_judge_config, ensure_ground_truth_for_transcripts
 from services.metrics_service import compute_metrics
 from datetime import datetime
