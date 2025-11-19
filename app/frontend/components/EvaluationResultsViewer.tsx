@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { evaluationsAPI } from "@/lib/api";
+import type { Evaluation, EvaluationResult, LabeledFact } from "@/types";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -37,7 +38,7 @@ export default function EvaluationResultsViewer({
 }: EvaluationResultsViewerProps) {
   const [openDataDialogId, setOpenDataDialogId] = useState<number | null>(null);
 
-  const { data: evaluation, isLoading } = useQuery({
+  const { data: evaluation, isLoading } = useQuery<Evaluation>({
     queryKey: ["evaluation", evaluationId],
     queryFn: () => evaluationsAPI.get(evaluationId),
     refetchInterval: 5000, // Refresh while running
@@ -97,7 +98,7 @@ export default function EvaluationResultsViewer({
       <CardContent>
         {evaluation.results && evaluation.results.length > 0 ? (
           <Accordion type="single" collapsible className="w-full">
-            {evaluation.results.map((result: any, index: number) => (
+            {evaluation.results.map((result: EvaluationResult) => (
               <AccordionItem key={result.id} value={`result-${result.id}`}>
                 <AccordionTrigger className="hover:no-underline">
                   <div className="flex items-center justify-between w-full pr-4">
@@ -126,19 +127,19 @@ export default function EvaluationResultsViewer({
                           <div className="grid grid-cols-3 gap-4">
                             <div className="text-center p-3 bg-green-100 dark:bg-green-900/30 rounded-lg">
                               <div className="text-2xl font-bold text-green-700 dark:text-green-400">
-                                {result.judge_result.predicted_facts?.filter((f: any) => f.status === "TP" && f.in_scope).length || 0}
+                                {result.judge_result.predicted_facts?.filter((f: LabeledFact) => f.status === "TP" && f.in_scope).length || 0}
                               </div>
                               <div className="text-xs text-muted-foreground">True Positives</div>
                             </div>
                             <div className="text-center p-3 bg-red-100 dark:bg-red-900/30 rounded-lg">
                               <div className="text-2xl font-bold text-red-700 dark:text-red-400">
-                                {result.judge_result.predicted_facts?.filter((f: any) => f.status === "FP" && f.in_scope).length || 0}
+                                {result.judge_result.predicted_facts?.filter((f: LabeledFact) => f.status === "FP" && f.in_scope).length || 0}
                               </div>
                               <div className="text-xs text-muted-foreground">False Positives</div>
                             </div>
                             <div className="text-center p-3 bg-amber-100 dark:bg-amber-900/30 rounded-lg">
                               <div className="text-2xl font-bold text-amber-700 dark:text-amber-400">
-                                {result.judge_result.gold_facts?.filter((f: any) => f.status === "FN" && f.in_scope).length || 0}
+                                {result.judge_result.gold_facts?.filter((f: LabeledFact) => f.status === "FN" && f.in_scope).length || 0}
                               </div>
                               <div className="text-xs text-muted-foreground">False Negatives</div>
                             </div>
@@ -146,9 +147,9 @@ export default function EvaluationResultsViewer({
 
                           {/* Computed Metrics */}
                           {(() => {
-                            const tp = result.judge_result.predicted_facts?.filter((f: any) => f.status === "TP" && f.in_scope).length || 0;
-                            const fp = result.judge_result.predicted_facts?.filter((f: any) => f.status === "FP" && f.in_scope).length || 0;
-                            const fn = result.judge_result.gold_facts?.filter((f: any) => f.status === "FN" && f.in_scope).length || 0;
+                            const tp = result.judge_result.predicted_facts?.filter((f: LabeledFact) => f.status === "TP" && f.in_scope).length || 0;
+                            const fp = result.judge_result.predicted_facts?.filter((f: LabeledFact) => f.status === "FP" && f.in_scope).length || 0;
+                            const fn = result.judge_result.gold_facts?.filter((f: LabeledFact) => f.status === "FN" && f.in_scope).length || 0;
                             const precision = (tp + fp) > 0 ? tp / (tp + fp) : 0;
                             const recall = (tp + fn) > 0 ? tp / (tp + fn) : 0;
                             const f1 = (precision + recall) > 0 ? 2 * (precision * recall) / (precision + recall) : 0;
@@ -188,7 +189,7 @@ export default function EvaluationResultsViewer({
                             </CollapsibleTrigger>
                             <CollapsibleContent className="space-y-4 pt-4">
                               {/* False Positives (Hallucinations) */}
-                              {result.judge_result.predicted_facts?.filter((f: any) => f.status === "FP" && f.in_scope).length > 0 && (
+                              {result.judge_result.predicted_facts?.filter((f: LabeledFact) => f.status === "FP" && f.in_scope).length > 0 && (
                                 <div>
                                   <h5 className="text-xs font-medium text-red-600 mb-2 flex items-center gap-1">
                                     <XCircle className="h-3 w-3" />
@@ -196,8 +197,8 @@ export default function EvaluationResultsViewer({
                                   </h5>
                                   <div className="space-y-2">
                                     {result.judge_result.predicted_facts
-                                      .filter((f: any) => f.status === "FP" && f.in_scope)
-                                      .map((fact: any, idx: number) => (
+                                      .filter((f: LabeledFact) => f.status === "FP" && f.in_scope)
+                                      .map((fact: LabeledFact, idx: number) => (
                                         <div key={idx} className="text-xs p-2 bg-red-50 dark:bg-red-950/20 border border-red-200 dark:border-red-800 rounded">
                                           <div className="font-medium text-red-700 dark:text-red-400 mb-1">
                                             {fact.fact_type} #{fact.id}
@@ -213,7 +214,7 @@ export default function EvaluationResultsViewer({
                               )}
 
                               {/* False Negatives (Missed Facts) */}
-                              {result.judge_result.gold_facts?.filter((f: any) => f.status === "FN" && f.in_scope).length > 0 && (
+                              {result.judge_result.gold_facts?.filter((f: LabeledFact) => f.status === "FN" && f.in_scope).length > 0 && (
                                 <div>
                                   <h5 className="text-xs font-medium text-amber-600 mb-2 flex items-center gap-1">
                                     <AlertTriangle className="h-3 w-3" />
@@ -221,8 +222,8 @@ export default function EvaluationResultsViewer({
                                   </h5>
                                   <div className="space-y-2">
                                     {result.judge_result.gold_facts
-                                      .filter((f: any) => f.status === "FN" && f.in_scope)
-                                      .map((fact: any, idx: number) => (
+                                      .filter((f: LabeledFact) => f.status === "FN" && f.in_scope)
+                                      .map((fact: LabeledFact, idx: number) => (
                                         <div key={idx} className="text-xs p-2 bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800 rounded">
                                           <div className="font-medium text-amber-700 dark:text-amber-400 mb-1">
                                             {fact.fact_type} #{fact.id}
@@ -238,7 +239,7 @@ export default function EvaluationResultsViewer({
                               )}
 
                               {/* True Positives */}
-                              {result.judge_result.predicted_facts?.filter((f: any) => f.status === "TP" && f.in_scope).length > 0 && (
+                              {result.judge_result.predicted_facts?.filter((f: LabeledFact) => f.status === "TP" && f.in_scope).length > 0 && (
                                 <div>
                                   <h5 className="text-xs font-medium text-green-600 mb-2 flex items-center gap-1">
                                     <CheckCircle2 className="h-3 w-3" />
@@ -246,9 +247,9 @@ export default function EvaluationResultsViewer({
                                   </h5>
                                   <div className="space-y-2">
                                     {result.judge_result.predicted_facts
-                                      .filter((f: any) => f.status === "TP" && f.in_scope)
+                                      .filter((f: LabeledFact) => f.status === "TP" && f.in_scope)
                                       .slice(0, 3)
-                                      .map((fact: any, idx: number) => (
+                                      .map((fact: LabeledFact, idx: number) => (
                                         <div key={idx} className="text-xs p-2 bg-green-50 dark:bg-green-950/20 border border-green-200 dark:border-green-800 rounded">
                                           <div className="font-medium text-green-700 dark:text-green-400 mb-1">
                                             {fact.fact_type} #{fact.id}
@@ -259,9 +260,9 @@ export default function EvaluationResultsViewer({
                                           </pre>
                                         </div>
                                       ))}
-                                    {result.judge_result.predicted_facts.filter((f: any) => f.status === "TP" && f.in_scope).length > 3 && (
+                                    {result.judge_result.predicted_facts.filter((f: LabeledFact) => f.status === "TP" && f.in_scope).length > 3 && (
                                       <p className="text-xs text-muted-foreground italic">
-                                        ... and {result.judge_result.predicted_facts.filter((f: any) => f.status === "TP" && f.in_scope).length - 3} more
+                                        ... and {result.judge_result.predicted_facts.filter((f: LabeledFact) => f.status === "TP" && f.in_scope).length - 3} more
                                       </p>
                                     )}
                                   </div>
@@ -305,10 +306,10 @@ export default function EvaluationResultsViewer({
                               <div className="pt-2 border-t">
                                 <span className="text-sm font-medium text-muted-foreground">Extraction Metrics: </span>
                                 <span className="text-sm font-semibold">
-                                  {result.extracted_data.numerator} / {result.extracted_data.denominator}
-                                  {result.extracted_data.denominator > 0 && (
+                                  {result.extracted_data.numerator as number} / {result.extracted_data.denominator as number}
+                                  {(result.extracted_data.denominator as number) > 0 && (
                                     <span className="text-muted-foreground ml-1">
-                                      ({((result.extracted_data.numerator / result.extracted_data.denominator) * 100).toFixed(1)}%)
+                                      ({(((result.extracted_data.numerator as number) / (result.extracted_data.denominator as number)) * 100).toFixed(1)}%)
                                     </span>
                                   )}
                                 </span>
@@ -453,7 +454,7 @@ export default function EvaluationResultsViewer({
                                 Missing Items ({result.review_data.missing_items.length})
                               </h5>
                               <div className="space-y-2">
-                                {result.review_data.missing_items.map((item: any, idx: number) => (
+                                {result.review_data.missing_items.map((item, idx) => (
                                   <div key={idx} className="text-xs bg-amber-50 dark:bg-amber-950/20 p-2 rounded border border-amber-200 dark:border-amber-800">
                                     <div className="font-medium text-amber-700 dark:text-amber-400">
                                       {item.category}: {item.description}
@@ -477,12 +478,12 @@ export default function EvaluationResultsViewer({
                                 Hallucinated Items ({result.review_data.hallucinated_items.length})
                               </h5>
                               <div className="space-y-2">
-                                {result.review_data.hallucinated_items.map((item: any, idx: number) => (
+                                {result.review_data.hallucinated_items.map((item, idx) => (
                                   <div key={idx} className="text-xs bg-red-50 dark:bg-red-950/20 p-2 rounded border border-red-200 dark:border-red-800">
                                     <div className="font-medium text-red-700 dark:text-red-400">
                                       {item.field_path}
                                     </div>
-                                    {item.extracted_value && (
+                                    {item.extracted_value !== undefined && item.extracted_value !== null && (
                                       <div className="text-muted-foreground mt-1">
                                         Value: {JSON.stringify(item.extracted_value)}
                                       </div>
@@ -504,7 +505,7 @@ export default function EvaluationResultsViewer({
                                 Other Issues ({result.review_data.issues.length})
                               </h5>
                               <div className="space-y-2">
-                                {result.review_data.issues.map((issue: any, idx: number) => (
+                                {result.review_data.issues.map((issue, idx) => (
                                   <div key={idx} className="text-xs bg-blue-50 dark:bg-blue-950/20 p-2 rounded border border-blue-200 dark:border-blue-800">
                                     <div className="font-medium text-blue-700 dark:text-blue-400">
                                       {issue.type}: {issue.field_path}

@@ -331,7 +331,7 @@ export function JudgeConfigEditor({ config, onChange }: JudgeConfigEditorProps) 
         <CardHeader>
           <CardTitle>Advanced Notes (Optional)</CardTitle>
           <CardDescription>
-            Additional instructions for the judge that don't fit into the categories above
+            Additional instructions for the judge that don&apos;t fit into the categories above
           </CardDescription>
         </CardHeader>
         <CardContent>

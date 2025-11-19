@@ -102,7 +102,6 @@ export default function JudgesPage() {
           ) : selectedJudge ? (
             <JudgeDetail
               judgeId={selectedJudge}
-              availableModels={modelsData?.models || []}
             />
           ) : (
             <Card className="h-full flex items-center justify-center">

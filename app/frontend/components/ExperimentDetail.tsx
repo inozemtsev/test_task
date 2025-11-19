@@ -1,18 +1,18 @@
 "use client";
 
 import { useState } from "react";
-import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { experimentsAPI } from "@/lib/api";
+import { useQueryClient } from "@tanstack/react-query";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Edit, Play } from "lucide-react";
 import ExperimentEditForm from "@/components/ExperimentEditForm";
 import EvaluationRunner from "@/components/EvaluationRunner";
+import type { Experiment, Judge } from "@/types";
 
 interface ExperimentDetailProps {
-  experiment: any;
-  judges: any[];
+  experiment: Experiment;
+  judges: Judge[];
   availableModels: string[];
 }
 
@@ -48,9 +48,11 @@ export default function ExperimentDetail({
                     Two-Pass Extraction
                   </Badge>
                 )}
-                <span className="text-sm text-muted-foreground">
-                  Created {new Date(experiment.created_at).toLocaleDateString()}
-                </span>
+                {experiment.created_at && (
+                  <span className="text-sm text-muted-foreground">
+                    Created {new Date(experiment.created_at).toLocaleDateString()}
+                  </span>
+                )}
               </div>
             </div>
             <div className="flex gap-2">

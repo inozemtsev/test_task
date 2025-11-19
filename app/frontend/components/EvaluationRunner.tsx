@@ -17,10 +17,11 @@ import { Progress } from "@/components/ui/progress";
 import { Card } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Play, CheckCircle2, XCircle, Loader2 } from "lucide-react";
+import type { Judge, Transcript, Evaluation } from "@/types";
 
 interface EvaluationRunnerProps {
   experimentId: number;
-  judges: any[];
+  judges: Judge[];
   onComplete: () => void;
 }
 
@@ -49,7 +50,7 @@ export default function EvaluationRunner({
 
   const runMutation = useMutation({
     mutationFn: evaluationsAPI.run,
-    onSuccess: (data: any) => {
+    onSuccess: (data: Evaluation) => {
       setEvaluationId(data.id);
       setIsRunning(true);
     },
@@ -108,7 +109,7 @@ export default function EvaluationRunner({
 
   const handleSelectAll = () => {
     if (transcripts) {
-      setSelectedTranscripts(transcripts.map((t: any) => t.id));
+      setSelectedTranscripts(transcripts.map((t: Transcript) => t.id));
     }
   };
 
@@ -170,7 +171,7 @@ export default function EvaluationRunner({
         <Card className="p-4">
           <ScrollArea className="h-[200px]">
             <div className="space-y-2">
-              {transcripts?.map((transcript: any) => (
+              {transcripts?.map((transcript: Transcript) => (
                 <div
                   key={transcript.id}
                   className="flex items-center space-x-2"

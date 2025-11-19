@@ -13,12 +13,10 @@ import { JudgeConfigEditor, JudgeConfig } from "@/components/JudgeConfigEditor";
 
 interface JudgeDetailProps {
   judgeId: number;
-  availableModels: string[];
 }
 
 export default function JudgeDetail({
   judgeId,
-  availableModels,
 }: JudgeDetailProps) {
   const queryClient = useQueryClient();
   const [configChanged, setConfigChanged] = useState(false);
@@ -39,7 +37,7 @@ export default function JudgeDetail({
 
   const updateJudgeMutation = useMutation({
     mutationFn: (config: JudgeConfig) =>
-      judgesAPI.update(judgeId, { judge_config: config }),
+      judgesAPI.update(judgeId, { judge_config: config as unknown as Record<string, unknown> }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["judge", judgeId] });
       queryClient.invalidateQueries({ queryKey: ["judges"] });
@@ -141,7 +139,6 @@ export default function JudgeDetail({
 
             <TabsContent value="leaderboard" className="mt-4">
               <Leaderboard
-                experimentId={judgeId}
                 leaderboard={leaderboard || []}
               />
             </TabsContent>

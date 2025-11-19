@@ -273,7 +273,7 @@ To reset the database, simply delete `backend/app.db` and restart the backend.
 
 ### Frontend Issues
 - **Module not found**: Run `npm install`
-- **API connection errors**: Ensure backend is running on port 8000
+- **API connection errors**: Ensure backend is running on port 9000
 - **Type errors**: Check TypeScript configuration
 
 ## Future Enhancements
@@ -284,7 +284,3 @@ To reset the database, simply delete `backend/app.db` and restart the backend.
 - Comparison of multiple experiments
 - Historical trend analysis
 - Fine-tuning support
-
-## License
-
-This project is part of the TestTask transcript generation system.

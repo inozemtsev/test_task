@@ -18,7 +18,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Progress } from "@/components/ui/progress";
 import EvaluationResultsViewer from "@/components/EvaluationResultsViewer";
 
 interface LeaderboardEntry {
@@ -38,14 +37,12 @@ interface LeaderboardEntry {
 }
 
 interface LeaderboardProps {
-  experimentId: number;
   leaderboard: LeaderboardEntry[];
 }
 
 type SortField = "global_f1" | "avg_score" | "global_precision" | "global_recall" | "schema_stability";
 
 export default function Leaderboard({
-  experimentId,
   leaderboard,
 }: LeaderboardProps) {
   const [selectedEvaluationId, setSelectedEvaluationId] = useState<number | null>(null);
@@ -174,19 +171,19 @@ export default function Leaderboard({
                 {entry.global_f1 !== null && entry.global_f1 !== undefined && (
                   <div className="grid grid-cols-3 gap-2 sm:flex sm:gap-3">
                     <div className="text-center sm:text-right">
-                      <div className={`text-base sm:text-lg font-semibold ${getScoreColor(entry.schema_stability)}`}>
+                      <div className={`text-base sm:text-lg font-semibold ${getScoreColor(entry.schema_stability ?? 0)}`}>
                         {((entry.schema_stability ?? 0) * 100).toFixed(1)}%
                       </div>
                       <div className="text-xs text-muted-foreground">Scheme Stability</div>
                     </div>
                     <div className="text-center sm:text-right">
-                      <div className={`text-base sm:text-lg font-semibold ${getScoreColor(entry.global_precision)}`}>
+                      <div className={`text-base sm:text-lg font-semibold ${getScoreColor(entry.global_precision ?? 0)}`}>
                         {((entry.global_precision ?? 0) * 100).toFixed(1)}%
                       </div>
                       <div className="text-xs text-muted-foreground">Precision</div>
                     </div>
                     <div className="text-center sm:text-right">
-                      <div className={`text-base sm:text-lg font-semibold ${getScoreColor(entry.global_recall)}`}>
+                      <div className={`text-base sm:text-lg font-semibold ${getScoreColor(entry.global_recall ?? 0)}`}>
                         {((entry.global_recall ?? 0) * 100).toFixed(1)}%
                       </div>
                       <div className="text-xs text-muted-foreground">Recall</div>

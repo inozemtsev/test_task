@@ -17,9 +17,10 @@ import {
 } from "@/components/ui/select";
 import JSONSchemaEditor from "@/components/JSONSchemaEditor";
 import AIAssistButton from "@/components/AIAssistButton";
+import type { Experiment } from "@/types";
 
 interface ExperimentEditFormProps {
-  experiment: any;
+  experiment: Experiment;
   availableModels: string[];
   onSuccess: () => void;
 }
@@ -36,7 +37,8 @@ export default function ExperimentEditForm({
   const [enableTwoPass, setEnableTwoPass] = useState(experiment.enable_two_pass || false);
 
   const updateMutation = useMutation({
-    mutationFn: (data: any) => experimentsAPI.update(experiment.id, data),
+    mutationFn: (data: { name?: string; prompt?: string; schema_json?: string; model?: string; enable_two_pass?: boolean }) =>
+      experimentsAPI.update(experiment.id, data),
     onSuccess,
   });
 
