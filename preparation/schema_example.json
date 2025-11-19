@@ -1,0 +1,428 @@
+{
+    "schema": "http://json-schema.org/draft-07/schema#",
+    "name": "Advisory Fact Find Session: Assets",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "clients": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/Client"
+        }
+      },
+      "assets": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/AssetItem"
+        }
+      }
+    },
+    "required": [
+      "clients",
+      "assets"
+    ],
+    "definitions": {
+      "Client": {
+        "type": "object",
+        "description": "Client participating in the case",
+        "additionalProperties": false,
+        "properties": {
+          "client_id": {
+            "type": "string",
+            "description": "Internal ID (e.g. 'client_1')"
+          },
+          "role_in_case": {
+            "type": "string",
+            "description": "Role of this client in the case",
+            "enum": [
+              "primary",
+              "partner",
+              "joint",
+              "guarantor",
+              "other"
+            ]
+          }
+        },
+        "required": [
+          "client_id",
+          "role_in_case"
+        ]
+      },
+      "FactValue": {
+        "type": "object",
+        "description": "Typed value with citation and timing/unit metadata",
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Data type of the value",
+            "enum": [
+              "string",
+              "number",
+              "currency",
+              "date",
+              "boolean"
+            ]
+          },
+          "value": {
+            "description": "The actual value. Type depends on 'type'. May be null if not known."
+          },
+          "citation": {
+            "type": "string",
+            "description": "Where this value is supported in transcript/recording"
+          },
+          "call_time": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Position within the call, e.g. '00:05:23', or null if not known"
+          },
+          "recorded_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Absolute timestamp as a string (e.g. ISO 8601), or null if not known"
+          },
+          "value_as_of_date": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Calendar date this value applies to (e.g. '2025-11-17'), or null if not known"
+          },
+          "is_estimate": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Whether this is an estimated vs exact value (true/false), or null if not specified"
+          },
+          "unit": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "none",
+                  "percent",
+                  "percent_of_salary",
+                  "GBP",
+                  "USD",
+                  "EUR",
+                  "years",
+                  "months",
+                  "days"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Optional unit or scale for numeric values, or null if not applicable/unknown"
+          }
+        },
+        "required": [
+          "type",
+          "value",
+          "citation",
+          "call_time",
+          "recorded_at",
+          "value_as_of_date",
+          "is_estimate",
+          "unit"
+        ],
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "string"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "number"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "currency"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "date"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "boolean"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "ScalarFact": {
+        "allOf": [
+          {
+            "$ref": "#/definitions/FactValue"
+          },
+          {
+            "type": "object",
+            "additionalProperties": false
+          }
+        ]
+      },
+      "SnapshotValue": {
+        "allOf": [
+          {
+            "$ref": "#/definitions/FactValue"
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "property": {
+                "type": "string",
+                "description": "Name of the property being captured",
+                "enum": [
+                  "current_value",
+                  "current_balance",
+                  "purchase_price",
+                  "mortgage_balance",
+                  "mortgage_interest_rate",
+                  "mortgage_lender",
+                  "mortgage_type",
+                  "monthly_mortgage_payment",
+                  "monthly_mortgage_payment_pi",
+                  "monthly_housing_cost_all_in",
+                  "interest_rate",
+                  "contribution_rate",
+                  "employee_contribution_rate",
+                  "employer_contribution_rate",
+                  "regular_monthly_contribution",
+                  "annual_rental_income_to_client",
+                  "ownership_share_percentage",
+                  "estimated_value_of_share",
+                  "currency",
+                  "active_contributions"
+                ]
+              }
+            },
+            "required": [
+              "property"
+            ]
+          }
+        ]
+      },
+      "AssetItem": {
+        "type": "object",
+        "description": "Asset such as property, investment account, etc.",
+        "additionalProperties": false,
+        "properties": {
+          "asset_id": {
+            "type": "string"
+          },
+          "owner_ids": {
+            "type": "array",
+            "description": "List of client_ids or 'joint'",
+            "items": {
+              "type": "string"
+            }
+          },
+          "static": {
+            "type": "object",
+            "description": "Properties that do not typically change during the call",
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/ScalarFact"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "asset_type": {
+                "anyOf": [
+                  {
+                    "allOf": [
+                      {
+                        "$ref": "#/definitions/ScalarFact"
+                      },
+                      {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                          "value": {
+                            "type": "string",
+                            "enum": [
+                              "property",
+                              "cash",
+                              "investment_account",
+                              "pension",
+                              "business",
+                              "other"
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "location": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/ScalarFact"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "account_number": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/ScalarFact"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "description",
+              "asset_type",
+              "location",
+              "account_number"
+            ]
+          },
+          "timeline": {
+            "type": "array",
+            "description": "Time-varying or clarified properties for this asset (one fact per entry)",
+            "items": {
+              "$ref": "#/definitions/SnapshotValue"
+            }
+          }
+        },
+        "required": [
+          "asset_id",
+          "owner_ids",
+          "static",
+          "timeline"
+        ]
+      }
+    },
+    "strict": true
+  }
