@@ -66,7 +66,7 @@ In production financial systems:
 
 #### Demo App
 
-**Live:** [https://e4af10f6bf6b.ngrok-free.app/](https://e4af10f6bf6b.ngrok-free.app/)
+**Live:** url will be shared privately
 
 ⚠️ **Note:** This is a adhoc proof-of-concept deployment running on a homeserver with SQLite.
 
