@@ -50,7 +50,7 @@ The tables below show extraction results for assets using the same schema across
 |-------------------|:-:|-------------------|
 
 <details>
-<summary>+ unsuccessful ambitious attempt to cover all financial facts in one schema against a strict judge </summary>
+<summary>+ experiment that showed practical limits of a single mega-schema and motivated a more modular design </summary>
 <img src="img/all_financial_positions_leaderboard.png"/>
 
 This attempt to extract all financial positions (assets, debts, pensions, incomes, expenses, loans, savings) simultaneously in a single schema demonstrates the practical limits of comprehensive extraction. With strict evaluation criteria, even advanced models struggle to maintain both high recall and schema consistency across such a wide variety of fact types.
