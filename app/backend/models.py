@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Text, DateTime, ForeignKey, Boolean, Float, JSON
+from sqlalchemy import Column, Integer, String, Text, DateTime, ForeignKey, Boolean, Float, JSON, UniqueConstraint
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from database import Base
@@ -15,6 +15,7 @@ class Transcript(Base):
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
     evaluation_results = relationship("EvaluationResult", back_populates="transcript")
+    ground_truths = relationship("GroundTruth", back_populates="transcript", cascade="all, delete-orphan")
 
 
 class Judge(Base):
@@ -28,6 +29,7 @@ class Judge(Base):
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
     evaluations = relationship("Evaluation", back_populates="judge")
+    ground_truths = relationship("GroundTruth", back_populates="judge", cascade="all, delete-orphan")
 
 
 class Experiment(Base):
@@ -79,3 +81,20 @@ class EvaluationResult(Base):
 
     evaluation = relationship("Evaluation", back_populates="results")
     transcript = relationship("Transcript", back_populates="evaluation_results")
+
+
+class GroundTruth(Base):
+    __tablename__ = "ground_truths"
+    __table_args__ = (
+        UniqueConstraint("judge_id", "transcript_id", name="uq_ground_truth_judge_transcript"),
+    )
+
+    id = Column(Integer, primary_key=True, index=True)
+    judge_id = Column(Integer, ForeignKey("judges.id", ondelete="CASCADE"), nullable=False)
+    transcript_id = Column(Integer, ForeignKey("transcripts.id", ondelete="CASCADE"), nullable=False)
+    data = Column(JSON, nullable=False)  # Stored gold facts list
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    judge = relationship("Judge", back_populates="ground_truths")
+    transcript = relationship("Transcript", back_populates="ground_truths")

@@ -2,15 +2,74 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, func
 from database import get_db
-from models import Judge, Evaluation, EvaluationResult, Experiment
+from models import Judge, Evaluation, EvaluationResult, Experiment, GroundTruth, Transcript
 from schemas import (
     JudgeCreate,
     JudgeUpdate,
     JudgeResponse,
     LeaderboardEntry,
+    GroundTruthGenerateRequest,
+    GroundTruthDetailResponse,
+    GroundTruthUpdateRequest,
+    TranscriptResponse,
 )
+from services.llm_service import generate_gold_facts
 
 router = APIRouter(prefix="/api/judges", tags=["judges"])
+
+
+def _default_judge_config(config: dict | None) -> dict:
+    """Ensure we always have a usable judge configuration."""
+    if config:
+        return config
+    return {
+        "entity_types": [],
+        "profile_name": "custom",
+        "numeric_tolerance_percent": 0.0,
+        "date_granularity": "day",
+        "case_insensitive_strings": False,
+        "ignore_minor_wording_diffs": False,
+        "require_all_fields_match": False,
+        "required_key_fields": [],
+        "allow_partial_matches": True,
+        "extra_instructions": None,
+    }
+
+
+async def _get_judge_or_404(judge_id: int, db: AsyncSession) -> Judge:
+    result = await db.execute(select(Judge).where(Judge.id == judge_id))
+    judge = result.scalar_one_or_none()
+    if not judge:
+        raise HTTPException(status_code=404, detail="Judge not found")
+    return judge
+
+
+async def _build_ground_truth_response(
+    judge_id: int,
+    transcript_id: int,
+    db: AsyncSession,
+) -> GroundTruthDetailResponse:
+    transcript_result = await db.execute(
+        select(Transcript).where(Transcript.id == transcript_id)
+    )
+    transcript = transcript_result.scalar_one_or_none()
+    if not transcript:
+        raise HTTPException(status_code=404, detail="Transcript not found")
+
+    gt_result = await db.execute(
+        select(GroundTruth).where(
+            GroundTruth.judge_id == judge_id,
+            GroundTruth.transcript_id == transcript_id,
+        )
+    )
+    ground_truth = gt_result.scalar_one_or_none()
+
+    transcript_payload = TranscriptResponse.model_validate(transcript)
+    return GroundTruthDetailResponse(
+        transcript=transcript_payload,
+        ground_truth=ground_truth.data if ground_truth else None,
+        updated_at=ground_truth.updated_at if ground_truth else None,
+    )
 
 
 @router.get("", response_model=list[JudgeResponse])
@@ -83,15 +142,138 @@ async def update_judge(
 @router.delete("/{judge_id}")
 async def delete_judge(judge_id: int, db: AsyncSession = Depends(get_db)):
     """Delete a judge"""
-    result = await db.execute(select(Judge).where(Judge.id == judge_id))
-    judge = result.scalar_one_or_none()
-
-    if not judge:
-        raise HTTPException(status_code=404, detail="Judge not found")
+    judge = await _get_judge_or_404(judge_id, db)
 
     await db.delete(judge)
     await db.commit()
     return {"message": "Judge deleted successfully"}
+
+
+@router.post("/{judge_id}/ground-truth/generate")
+async def generate_ground_truth_endpoint(
+    judge_id: int,
+    payload: GroundTruthGenerateRequest,
+    db: AsyncSession = Depends(get_db),
+):
+    """Generate and store ground truth for all (or selected) transcripts."""
+    judge = await _get_judge_or_404(judge_id, db)
+    config = _default_judge_config(judge.judge_config)
+
+    transcript_query = select(Transcript)
+    if payload.transcript_ids:
+        transcript_query = transcript_query.where(Transcript.id.in_(payload.transcript_ids))
+
+    transcript_result = await db.execute(transcript_query)
+    transcripts = transcript_result.scalars().all()
+
+    if not transcripts:
+        raise HTTPException(status_code=404, detail="No transcripts found for generation")
+
+    generated = 0
+    failures = []
+
+    for transcript in transcripts:
+        try:
+            gold_facts = await generate_gold_facts(transcript.content, config, judge.model)
+            existing_gt_result = await db.execute(
+                select(GroundTruth).where(
+                    GroundTruth.judge_id == judge_id,
+                    GroundTruth.transcript_id == transcript.id,
+                )
+            )
+            ground_truth = existing_gt_result.scalar_one_or_none()
+
+            if ground_truth:
+                ground_truth.data = gold_facts
+            else:
+                ground_truth = GroundTruth(
+                    judge_id=judge_id,
+                    transcript_id=transcript.id,
+                    data=gold_facts,
+                )
+                db.add(ground_truth)
+
+            await db.commit()
+            generated += 1
+        except Exception as e:
+            await db.rollback()
+            failures.append(
+                {
+                    "transcript_id": transcript.id,
+                    "transcript_name": transcript.name,
+                    "error": str(e),
+                }
+            )
+
+    return {
+        "generated": generated,
+        "total": len(transcripts),
+        "failures": failures,
+    }
+
+
+@router.get(
+    "/{judge_id}/ground-truth/{transcript_id}",
+    response_model=GroundTruthDetailResponse,
+)
+async def get_ground_truth_detail(
+    judge_id: int,
+    transcript_id: int,
+    db: AsyncSession = Depends(get_db),
+):
+    """Fetch transcript + stored ground truth for inspection/editing."""
+    await _get_judge_or_404(judge_id, db)
+    return await _build_ground_truth_response(judge_id, transcript_id, db)
+
+
+@router.put(
+    "/{judge_id}/ground-truth/{transcript_id}",
+    response_model=GroundTruthDetailResponse,
+)
+async def update_ground_truth(
+    judge_id: int,
+    transcript_id: int,
+    payload: GroundTruthUpdateRequest,
+    db: AsyncSession = Depends(get_db),
+):
+    """Create or update stored ground truth for a transcript."""
+    await _get_judge_or_404(judge_id, db)
+
+    ground_truth_data = payload.ground_truth
+    if not isinstance(ground_truth_data, list):
+        raise HTTPException(
+            status_code=400,
+            detail="Ground truth must be a JSON array of fact objects.",
+        )
+
+    transcript_result = await db.execute(
+        select(Transcript).where(Transcript.id == transcript_id)
+    )
+    transcript = transcript_result.scalar_one_or_none()
+    if not transcript:
+        raise HTTPException(status_code=404, detail="Transcript not found")
+
+    gt_result = await db.execute(
+        select(GroundTruth).where(
+            GroundTruth.judge_id == judge_id,
+            GroundTruth.transcript_id == transcript_id,
+        )
+    )
+    ground_truth = gt_result.scalar_one_or_none()
+
+    if ground_truth:
+        ground_truth.data = ground_truth_data
+    else:
+        ground_truth = GroundTruth(
+            judge_id=judge_id,
+            transcript_id=transcript_id,
+            data=ground_truth_data,
+        )
+        db.add(ground_truth)
+
+    await db.commit()
+
+    return await _build_ground_truth_response(judge_id, transcript_id, db)
 
 
 @router.get("/{judge_id}/leaderboard", response_model=list[LeaderboardEntry])

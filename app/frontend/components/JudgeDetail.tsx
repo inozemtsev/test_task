@@ -10,6 +10,7 @@ import { Badge } from "@/components/ui/badge";
 import { Trophy, Settings } from "lucide-react";
 import Leaderboard from "@/components/Leaderboard";
 import { JudgeConfigEditor, JudgeConfig } from "@/components/JudgeConfigEditor";
+import GroundTruthManager from "@/components/GroundTruthManager";
 
 interface JudgeDetailProps {
   judgeId: number;
@@ -21,6 +22,11 @@ export default function JudgeDetail({
   const queryClient = useQueryClient();
   const [configChanged, setConfigChanged] = useState(false);
   const [tempConfig, setTempConfig] = useState<JudgeConfig | null>(null);
+  const [isGroundTruthModalOpen, setGroundTruthModalOpen] = useState(false);
+  const [generationSummary, setGenerationSummary] = useState<string | null>(null);
+  const [generationFailures, setGenerationFailures] = useState<
+    { transcript_name?: string; error: string }[]
+  >([]);
 
   const { data: judge, isLoading } = useQuery({
     queryKey: ["judge", judgeId],
@@ -62,6 +68,26 @@ export default function JudgeDetail({
     setConfigChanged(false);
   };
 
+  const generateGroundTruthMutation = useMutation({
+    mutationFn: () => judgesAPI.generateGroundTruth(judgeId),
+    onSuccess: (data: { generated: number; total: number; failures?: { transcript_name?: string; error: string }[] }) => {
+      setGenerationSummary(
+        `Generated ground truth for ${data.generated}/${data.total} transcripts${data.failures && data.failures.length > 0 ? " (some transcripts failed)" : "."}`,
+      );
+      setGenerationFailures(data.failures || []);
+    },
+    onError: (error: Error) => {
+      setGenerationSummary(`Failed to generate ground truth: ${error.message}`);
+      setGenerationFailures([]);
+    },
+  });
+
+  const handleGenerateGroundTruth = () => {
+    setGenerationSummary(null);
+    setGenerationFailures([]);
+    generateGroundTruthMutation.mutate();
+  };
+
   if (isLoading) {
     return (
       <Card>
@@ -90,8 +116,9 @@ export default function JudgeDetail({
   }
 
   return (
-    <div className="space-y-4">
-      <Card>
+    <>
+      <div className="space-y-4">
+        <Card>
         <CardHeader>
           <div className="flex items-start justify-between">
             <div>
@@ -104,21 +131,66 @@ export default function JudgeDetail({
         </CardHeader>
         <CardContent>
           <Tabs defaultValue="config">
-            <TabsList>
-              <TabsTrigger value="config">
-                <Settings className="h-4 w-4 mr-1" />
-                Configuration
-              </TabsTrigger>
-              <TabsTrigger value="leaderboard">
-                <Trophy className="h-4 w-4 mr-1" />
-                Leaderboard ({leaderboard?.length || 0})
-              </TabsTrigger>
-            </TabsList>
+              <TabsList>
+                <TabsTrigger value="config">
+                  <Settings className="h-4 w-4 mr-1" />
+                  Configuration
+                </TabsTrigger>
+                <TabsTrigger value="leaderboard">
+                  <Trophy className="h-4 w-4 mr-1" />
+                  Leaderboard ({leaderboard?.length || 0})
+                </TabsTrigger>
+              </TabsList>
 
-            <TabsContent value="config" className="mt-4">
-              <div className="space-y-4">
-                <JudgeConfigEditor
-                  config={tempConfig || judge.judge_config}
+              <div className="mt-4 rounded-lg border border-dashed bg-muted/30 p-4">
+                <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                  <div>
+                    <p className="font-semibold">Ground Truth Management</p>
+                    <p className="text-sm text-muted-foreground">
+                      Generate and review stored ground truth for each transcript before running evaluations.
+                    </p>
+                  </div>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <Button
+                      variant="outline"
+                      onClick={() => setGroundTruthModalOpen(true)}
+                      disabled={generateGroundTruthMutation.isPending}
+                    >
+                      Review &amp; Edit Ground Truth
+                    </Button>
+                    <Button
+                      onClick={handleGenerateGroundTruth}
+                      disabled={configChanged || generateGroundTruthMutation.isPending}
+                    >
+                      {generateGroundTruthMutation.isPending ? "Generating..." : "Get and store ground truth"}
+                    </Button>
+                  </div>
+                </div>
+                {configChanged && (
+                  <p className="mt-2 text-sm text-amber-600">
+                    Save configuration changes before regenerating ground truth.
+                  </p>
+                )}
+                {generationSummary && (
+                  <div className="mt-3 rounded border bg-background/60 p-3 text-sm">
+                    <p>{generationSummary}</p>
+                    {generationFailures.length > 0 && (
+                      <ul className="mt-2 list-disc space-y-1 pl-5 text-muted-foreground">
+                        {generationFailures.map((failure, index) => (
+                          <li key={`${failure.transcript_name}-${index}`}>
+                            {failure.transcript_name || "Transcript"}: {failure.error}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                )}
+              </div>
+
+              <TabsContent value="config" className="mt-4">
+                <div className="space-y-4">
+                  <JudgeConfigEditor
+                    config={tempConfig || judge.judge_config}
                   onChange={handleConfigChange}
                 />
                 {configChanged && (
@@ -144,7 +216,13 @@ export default function JudgeDetail({
             </TabsContent>
           </Tabs>
         </CardContent>
-      </Card>
-    </div>
+        </Card>
+      </div>
+      <GroundTruthManager
+        judgeId={judgeId}
+        open={isGroundTruthModalOpen}
+        onOpenChange={setGroundTruthModalOpen}
+      />
+    </>
   );
 }

@@ -320,49 +320,29 @@ Produce the FINAL, CORRECTED extraction."""
         raise Exception(f"Second-pass extraction failed: {str(e)}")
 
 
-async def run_judge(
+async def generate_gold_facts(
     transcript: str,
-    predicted_facts: dict,
     judge_config: dict,
     model: str,
-    gold_facts: dict = None
-) -> dict:
+) -> list[dict]:
     """
-    Run a two-stage LLM judge to label facts as TP/FP/FN.
-
-    First call: Derive all expected financial facts (gold_facts) from the transcript.
-    Second call: Label facts as TP, FP, FN, and produce match links.
-
-    The LLM does NOT compute metrics.
-
-    Args:
-        transcript: Original conversation text
-        predicted_facts: Facts extracted by the model being evaluated
-        judge_config: UI-driven configuration (entity_types, tolerances, etc.)
-        model: LLM model to use for judging
-        gold_facts: Optional reference facts (if None, judge derives from transcript)
-
-    Returns:
-        JudgeResult dict with gold_facts and predicted_facts arrays, each containing
-        labeled facts with TP/FP/FN status and match links
+    Derive gold (reference) facts from a transcript using judge configuration.
+    Returns a list of fact dicts that can be reused across evaluations.
     """
     try:
-        # ===== Stage 1: Get (or derive) gold_facts =====
-        if gold_facts is None:
-            # System Prompt for gold facts
-            system_prompt_gold = """
+        system_prompt_gold = """
 Your job is to read the transcript and extract all expected financial facts (the gold standard). 
 Identify EVERY relevant fact from the transcript for the specified entity types.
 
 You must output ONLY a JSON array of fact objects, following the output schema. 
 Do not include any matches to predictions, nor compute true/false positives/negatives.
 """
-            entity_types_str = ", ".join(judge_config.get("entity_types", [])) or "all types"
-            profile = judge_config.get("profile_name", "custom")
-            extra_instructions = judge_config.get("extra_instructions", "")
-            extra_str = f"\n\nAdditional Instructions:\n{extra_instructions}" if extra_instructions else ""
+        entity_types_str = ", ".join(judge_config.get("entity_types", [])) or "all types"
+        profile = judge_config.get("profile_name", "custom")
+        extra_instructions = judge_config.get("extra_instructions", "")
+        extra_str = f"\n\nAdditional Instructions:\n{extra_instructions}" if extra_instructions else ""
 
-            user_prompt_gold = f"""Configuration:
+        user_prompt_gold = f"""Configuration:
 - Profile: {profile}
 - Entity types in scope: {entity_types_str}
 {extra_str}
@@ -390,67 +370,96 @@ Example output format:
 Return ONLY the JSON array, no explanations.
 """
 
-            gold_schema = {
-                "type": "object",
-                "properties": {
-                    "facts": {
-                        "type": "array",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "id": {"type": "string", "description": "Unique identifier (e.g., 'g1', 'g2')"},
-                                "fact_type": {"type": "string", "description": "Fact type (asset, debt, income, client, etc.)"},
-                                "description": {"type": "string", "description": "Very detailed description of the fact's data with all attributes and values"},
-                                "in_scope": {"type": "boolean", "description": "Is fact type in evaluation scope?"}
-                            },
-                            "required": ["id", "fact_type", "description", "in_scope"],
-                            "additionalProperties": False
-                        }
+        gold_schema = {
+            "type": "object",
+            "properties": {
+                "facts": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {"type": "string", "description": "Unique identifier (e.g., 'g1', 'g2')"},
+                            "fact_type": {"type": "string", "description": "Fact type (asset, debt, income, client, etc.)"},
+                            "description": {"type": "string", "description": "Very detailed description of the fact's data with all attributes and values"},
+                            "in_scope": {"type": "boolean", "description": "Is fact type in evaluation scope?"}
+                        },
+                        "required": ["id", "fact_type", "description", "in_scope"],
+                        "additionalProperties": False
                     }
-                },
-                "required": ["facts"],
-                "additionalProperties": False
-            }
+                }
+            },
+            "required": ["facts"],
+            "additionalProperties": False
+        }
 
-            gold_response = await client.chat.completions.create(
-                model=model,
-                temperature=0.0,
-                seed=54321,
-                messages=[
-                    {"role": "system", "content": system_prompt_gold},
-                    {"role": "user", "content": user_prompt_gold},
-                ],
-                response_format={"type": "json_object"},
-                tool_choice="required",
-                tools=[
-                    {
-                        "type": "function",
-                        "function": {
-                            "strict": True,
-                            "name": "gold_facts_list",
-                            "description": "List of gold (reference) facts identified from the transcript",
-                            "parameters": gold_schema
-                        }
+        gold_response = await client.chat.completions.create(
+            model=model,
+            temperature=0.0,
+            seed=54321,
+            messages=[
+                {"role": "system", "content": system_prompt_gold},
+                {"role": "user", "content": user_prompt_gold},
+            ],
+            response_format={"type": "json_object"},
+            tool_choice="required",
+            tools=[
+                {
+                    "type": "function",
+                    "function": {
+                        "strict": True,
+                        "name": "gold_facts_list",
+                        "description": "List of gold (reference) facts identified from the transcript",
+                        "parameters": gold_schema
                     }
-                ]
-            )
-            result = gold_response.choices[0]
-            if hasattr(result, "message") and hasattr(result.message, "tool_calls"):
-                for tool in result.message.tool_calls:
-                    if tool.function.name == "gold_facts_list":
-                        gold_facts = json.loads(tool.function.arguments)["facts"]
-                        break
-                else:
-                    raise Exception("No gold_facts found in tool_calls")
-            else:
-                try:
-                    # In case LLM returns JSON directly
-                    gold_facts = json.loads(result.message.content)
-                except Exception:
-                    raise Exception("Failed to parse gold_facts")
-        # If gold_facts is provided and not a list, assume dict contains "gold_facts"
-        elif isinstance(gold_facts, dict) and "gold_facts" in gold_facts:
+                }
+            ]
+        )
+        result = gold_response.choices[0]
+        if hasattr(result, "message") and hasattr(result.message, "tool_calls"):
+            for tool in result.message.tool_calls:
+                if tool.function.name == "gold_facts_list":
+                    return json.loads(tool.function.arguments)["facts"]
+            raise Exception("No gold_facts found in tool_calls")
+
+        return json.loads(result.message.content)
+    except Exception as e:
+        raise Exception(f"Ground truth generation failed: {str(e)}")
+
+
+async def run_judge(
+    transcript: str,
+    predicted_facts: dict,
+    judge_config: dict,
+    model: str,
+    gold_facts=None
+) -> dict:
+    """
+    Run a two-stage LLM judge to label facts as TP/FP/FN.
+
+    First call: Derive all expected financial facts (gold_facts) from the transcript.
+    Second call: Label facts as TP, FP, FN, and produce match links.
+
+    The LLM does NOT compute metrics.
+
+    Args:
+        transcript: Original conversation text
+        predicted_facts: Facts extracted by the model being evaluated
+        judge_config: UI-driven configuration (entity_types, tolerances, etc.)
+        model: LLM model to use for judging
+        gold_facts: Optional reference facts (if None, judge derives from transcript)
+
+    Returns:
+        JudgeResult dict with gold_facts and predicted_facts arrays, each containing
+        labeled facts with TP/FP/FN status and match links
+    """
+    try:
+        # Use stored gold facts (derived separately)
+        if gold_facts is None:
+            raise Exception("Ground truth facts not provided. Generate and store ground truth for this judge first.")
+        if isinstance(gold_facts, dict) and "gold_facts" in gold_facts:
             gold_facts = gold_facts["gold_facts"]
+        if not isinstance(gold_facts, list):
+            raise Exception("Ground truth facts must be a list of fact objects.")
 
         # ===== Stage 2: Do Judging =====
         # System Prompt for judging

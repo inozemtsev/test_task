@@ -20,7 +20,7 @@ def compute_metrics(judge_result: JudgeResult) -> ComputedMetrics:
         ComputedMetrics with precision, recall, F1, counts, etc.
     """
     # Count TP/FP/FN from labeled facts
-    tp_count = _count_status(judge_result.predicted_facts, "TP")
+    tp_count = _count_status(judge_result.gold_facts, "TP")
     fp_count = _count_status(judge_result.predicted_facts, "FP")
     fn_count = _count_status(judge_result.gold_facts, "FN")
 

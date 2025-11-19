@@ -7,6 +7,7 @@ from models import (
     Transcript,
     Experiment,
     Judge,
+    GroundTruth,
 )
 from services.llm_service import extract_structured_data, calculate_schema_stability, review_extraction, extract_with_review, run_judge
 from services.metrics_service import compute_metrics
@@ -39,6 +40,7 @@ async def _async_process_transcript(
     enable_two_pass: bool,
     judge_model: str,
     judge_config: dict,  # UI-driven judge configuration
+    gold_facts: list,
 ):
     """Process a single transcript: extraction and judge evaluation
 
@@ -105,11 +107,15 @@ async def _async_process_transcript(
                 "extra_instructions": None
             }
 
+        if gold_facts is None:
+            raise Exception("Ground truth not available for this transcript.")
+
         judge_result = await run_judge(
             transcript=transcript_content,
             predicted_facts=extracted_data,
             judge_config=judge_config,
-            model=judge_model
+            model=judge_model,
+            gold_facts=gold_facts,
         )
 
         # Step 3: Compute metrics in code (NO LLM)
@@ -155,6 +161,7 @@ def process_transcript_worker(
     enable_two_pass: bool,
     judge_model: str,
     judge_config: dict,
+    gold_facts: list,
 ):
     """Sync wrapper that runs async processing in a new event loop
 
@@ -176,6 +183,7 @@ def process_transcript_worker(
                 enable_two_pass,
                 judge_model,
                 judge_config,
+                gold_facts,
             )
         )
         return result
@@ -224,6 +232,23 @@ async def run_evaluation(evaluation_id: int, transcript_ids: list[int] = None):
                 result = await db.execute(select(Transcript))
             transcripts = result.scalars().all()
 
+            # Fetch stored ground truth for judge
+            gt_result = await db.execute(
+                select(GroundTruth).where(GroundTruth.judge_id == judge.id)
+            )
+            ground_truth_map = {
+                gt.transcript_id: gt.data for gt in gt_result.scalars().all()
+            }
+
+            # Ensure ground truth exists for selected transcripts
+            missing = [t.name for t in transcripts if t.id not in ground_truth_map]
+            if missing:
+                missing_list = ", ".join(missing)
+                raise Exception(
+                    f"Missing stored ground truth for transcripts: {missing_list}. "
+                    "Use the 'Get and store ground truth' action for this judge."
+                )
+
             progress.total_transcripts = len(transcripts)
             progress.current_status = "running"
 
@@ -254,6 +279,7 @@ async def run_evaluation(evaluation_id: int, transcript_ids: list[int] = None):
                         experiment.enable_two_pass,
                         judge.model,
                         judge_config,
+                        ground_truth_map.get(transcript.id),
                     )
                     futures.append(future)
 

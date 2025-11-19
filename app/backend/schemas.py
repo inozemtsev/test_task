@@ -194,3 +194,17 @@ class ComputedMetrics(BaseModel):
     fn_count: int  # False negatives
     hallucination_rate: float  # 1 - precision
     coverage: float  # Same as recall
+
+
+class GroundTruthGenerateRequest(BaseModel):
+    transcript_ids: Optional[list[int]] = None
+
+
+class GroundTruthUpdateRequest(BaseModel):
+    ground_truth: Any
+
+
+class GroundTruthDetailResponse(BaseModel):
+    transcript: TranscriptResponse
+    ground_truth: Optional[Any] = None
+    updated_at: Optional[datetime] = None
