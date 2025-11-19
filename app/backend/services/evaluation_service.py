@@ -105,7 +105,6 @@ async def _async_process_transcript(
                 "extra_instructions": None
             }
 
-        # Run judge to label facts (ONE LLM call)
         judge_result = await run_judge(
             transcript=transcript_content,
             predicted_facts=extracted_data,

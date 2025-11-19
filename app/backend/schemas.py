@@ -171,7 +171,7 @@ class LabeledFact(BaseModel):
     """Individual fact with TP/FP/FN label from judge"""
     id: str  # Unique identifier for this fact
     fact_type: str  # Type of fact: "asset", "debt", "income", etc.
-    fields: dict[str, Any]  # Fact data fields
+    description: str  # Very detailed description of the fact's data with all attributes and values
     in_scope: bool  # Whether this fact type is in scope for evaluation
     matched_ids: list[str] = []  # IDs of matching facts from the other set
     status: str  # "TP" (true positive), "FP" (false positive), or "FN" (false negative)

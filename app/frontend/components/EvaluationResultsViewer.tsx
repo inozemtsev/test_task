@@ -202,8 +202,9 @@ export default function EvaluationResultsViewer({
                                           <div className="font-medium text-red-700 dark:text-red-400 mb-1">
                                             {fact.fact_type} #{fact.id}
                                           </div>
-                                          <pre className="text-xs overflow-auto">
-                                            {JSON.stringify(fact.fields, null, 2)}
+                                          {/* Ensure text wraps in the block */}
+                                          <pre className="text-xs whitespace-pre-wrap break-words overflow-x-auto">
+                                            {fact.description}
                                           </pre>
                                         </div>
                                       ))}
@@ -226,8 +227,9 @@ export default function EvaluationResultsViewer({
                                           <div className="font-medium text-amber-700 dark:text-amber-400 mb-1">
                                             {fact.fact_type} #{fact.id}
                                           </div>
-                                          <pre className="text-xs overflow-auto">
-                                            {JSON.stringify(fact.fields, null, 2)}
+                                          {/* Ensure text wraps in the block */}
+                                          <pre className="text-xs whitespace-pre-wrap break-words overflow-x-auto">
+                                            {fact.description}
                                           </pre>
                                         </div>
                                       ))}
@@ -251,8 +253,9 @@ export default function EvaluationResultsViewer({
                                           <div className="font-medium text-green-700 dark:text-green-400 mb-1">
                                             {fact.fact_type} #{fact.id}
                                           </div>
-                                          <pre className="text-xs overflow-auto">
-                                            {JSON.stringify(fact.fields, null, 2)}
+                                          {/* Ensure text wraps in the block */}
+                                          <pre className="text-xs whitespace-pre-wrap break-words overflow-x-auto">
+                                            {fact.description}
                                           </pre>
                                         </div>
                                       ))}
@@ -395,7 +398,7 @@ export default function EvaluationResultsViewer({
                         </Button>
                       </div>
                       <ScrollArea className="h-[120px] w-full rounded-md border p-3 bg-muted/30">
-                        <pre className="text-xs whitespace-pre font-mono">
+                        <pre className="text-xs whitespace-pre-wrap break-all font-mono">
                           {JSON.stringify(result.extracted_data, null, 2)}
                         </pre>
                       </ScrollArea>
@@ -403,11 +406,11 @@ export default function EvaluationResultsViewer({
 
                     {/* Full Data Dialog */}
                     <Dialog open={openDataDialogId === result.id} onOpenChange={(open) => !open && setOpenDataDialogId(null)}>
-                      <DialogContent className="max-w-6xl h-[85vh] flex flex-col">
-                        <DialogHeader>
+                      <DialogContent className="max-w-4xl p-0 gap-0 max-h-[90vh]">
+                        <DialogHeader className="px-6 py-4 border-b">
                           <DialogTitle>Extracted Data - {result.transcript_name}</DialogTitle>
                         </DialogHeader>
-                        <div className="flex-1 border rounded-lg overflow-hidden">
+                        <div className="h-[600px] overflow-hidden">
                           <Editor
                             height="100%"
                             defaultLanguage="json"

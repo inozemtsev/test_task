@@ -107,7 +107,7 @@ async def extract_structured_data(
                 }
             ],
             temperature=0,
-            seed=42
+            seed=54321
         )
 
         # Extract from function call (same as run.py)
@@ -226,7 +226,7 @@ Be thorough and precise. Cite specific evidence from the transcript."""
                 }
             ],
             temperature=0,
-            seed=42
+            seed=54321
         )
 
         # Extract from function call
@@ -300,7 +300,7 @@ Produce the FINAL, CORRECTED extraction."""
                 }
             ],
             temperature=0,
-            seed=42
+            seed=54321
         )
 
         # Extract from function call
@@ -328,16 +328,12 @@ async def run_judge(
     gold_facts: dict = None
 ) -> dict:
     """
-    Run the LLM judge to label facts as TP/FP/FN.
+    Run a two-stage LLM judge to label facts as TP/FP/FN.
 
-    This is the ONLY judge call per evaluation. The LLM:
-    1. Derives expected financialfacts (gold_facts) from the transcript
-    2. Compares them with predicted facts from the extraction
-    3. Labels each fact as TP (matched), FP (hallucinated), or FN (missing)
-    4. Returns structured results with match links
+    First call: Derive all expected financial facts (gold_facts) from the transcript.
+    Second call: Label facts as TP, FP, FN, and produce match links.
 
-    Metrics (precision, recall, F1) are computed in CODE from these labels,
-    NOT by the LLM.
+    The LLM does NOT compute metrics.
 
     Args:
         transcript: Original conversation text
@@ -351,23 +347,129 @@ async def run_judge(
         labeled facts with TP/FP/FN status and match links
     """
     try:
-        # Build system prompt
-        system_prompt = """You are an expert financial fact extraction evaluator.
+        # ===== Stage 1: Get (or derive) gold_facts =====
+        if gold_facts is None:
+            # System Prompt for gold facts
+            system_prompt_gold = """
+Your job is to read the transcript and extract all expected financial facts (the gold standard). 
+Identify EVERY relevant fact from the transcript for the specified entity types.
 
+You must output ONLY a JSON array of fact objects, following the output schema. 
+Do not include any matches to predictions, nor compute true/false positives/negatives.
+"""
+            entity_types_str = ", ".join(judge_config.get("entity_types", [])) or "all types"
+            profile = judge_config.get("profile_name", "custom")
+            extra_instructions = judge_config.get("extra_instructions", "")
+            extra_str = f"\n\nAdditional Instructions:\n{extra_instructions}" if extra_instructions else ""
+
+            user_prompt_gold = f"""Configuration:
+- Profile: {profile}
+- Entity types in scope: {entity_types_str}
+{extra_str}
+
+Transcript:
+{transcript}
+
+Task: Extract every relevant fact from the transcript appropriate for the entity types in scope.
+For each fact, provide:
+- id: Any unique identifier string (e.g., "g1", "g2" ...)
+- fact_type: Type of fact (e.g., asset, debt, income, client)
+- fields: An object containing all the fact's data (e.g., {{"type": "home", "value": 425000}})
+- in_scope: true if type is among the in-scope entity types, false otherwise
+
+Example output format:
+[
+  {{
+    "id": "g1",
+    "fact_type": "asset",
+    "fields": {{"type": "home", "value": 425000, "address": "123 Main St"}},
+    "in_scope": true
+  }}
+]
+
+Return ONLY the JSON array, no explanations.
+"""
+
+            gold_schema = {
+                "type": "object",
+                "properties": {
+                    "facts": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {"type": "string", "description": "Unique identifier (e.g., 'g1', 'g2')"},
+                                "fact_type": {"type": "string", "description": "Fact type (asset, debt, income, client, etc.)"},
+                                "description": {"type": "string", "description": "Very detailed description of the fact's data with all attributes and values"},
+                                "in_scope": {"type": "boolean", "description": "Is fact type in evaluation scope?"}
+                            },
+                            "required": ["id", "fact_type", "description", "in_scope"],
+                            "additionalProperties": False
+                        }
+                    }
+                },
+                "required": ["facts"],
+                "additionalProperties": False
+            }
+
+            gold_response = await client.chat.completions.create(
+                model=model,
+                temperature=0.0,
+                seed=54321,
+                messages=[
+                    {"role": "system", "content": system_prompt_gold},
+                    {"role": "user", "content": user_prompt_gold},
+                ],
+                response_format={"type": "json_object"},
+                tool_choice="required",
+                tools=[
+                    {
+                        "type": "function",
+                        "function": {
+                            "strict": True,
+                            "name": "gold_facts_list",
+                            "description": "List of gold (reference) facts identified from the transcript",
+                            "parameters": gold_schema
+                        }
+                    }
+                ]
+            )
+            result = gold_response.choices[0]
+            if hasattr(result, "message") and hasattr(result.message, "tool_calls"):
+                for tool in result.message.tool_calls:
+                    if tool.function.name == "gold_facts_list":
+                        gold_facts = json.loads(tool.function.arguments)["facts"]
+                        break
+                else:
+                    raise Exception("No gold_facts found in tool_calls")
+            else:
+                try:
+                    # In case LLM returns JSON directly
+                    gold_facts = json.loads(result.message.content)
+                except Exception:
+                    raise Exception("Failed to parse gold_facts")
+        # If gold_facts is provided and not a list, assume dict contains "gold_facts"
+        elif isinstance(gold_facts, dict) and "gold_facts" in gold_facts:
+            gold_facts = gold_facts["gold_facts"]
+
+        # ===== Stage 2: Do Judging =====
+        # System Prompt for judging
+        system_prompt_judge = """
 Your job is to:
-1. Read the transcript and identify all expected financial facts (gold standard)
-2. Compare expected financial facts with predicted financial facts from the model
-3. Label each fact as:
-   - TP (true positive): Predicted fact correctly matches an expected fact
-   - FP (false positive): Predicted fact has no match in expected facts (hallucination)
-   - FN (false negative): Expected fact has no match in predicted facts (missed)
+1. Compare the provided gold (expected) facts with the predicted financial facts from the model.
+2. For each fact in both lists, label as:
+   - TP (true positive): Predicted fact correctly matches a gold fact
+   - FP (false positive): Predicted fact has no match in gold facts (hallucination)
+   - FN (false negative): Gold fact has no match in predicted facts (missed)
+3. Include matched_ids on both gold and predicted facts
+4. Do NOT compute evaluation metrics.
 
-You must output ONLY a JSON object matching the specified schema. Do NOT compute precision, recall, or other metrics - just label the facts."""
+Output ONLY a JSON object matching the specified schema.
+"""
 
-        # Build user prompt with configuration
+        # Re-use matching rules, etc.
         entity_types_str = ", ".join(judge_config.get("entity_types", [])) or "all types"
         profile = judge_config.get("profile_name", "custom")
-
         matching_rules = []
         if judge_config.get("numeric_tolerance_percent", 0) > 0:
             matching_rules.append(f"- Numeric values within ±{judge_config['numeric_tolerance_percent']}% are considered matching")
@@ -390,27 +492,26 @@ You must output ONLY a JSON object matching the specified schema. Do NOT compute
         extra_instructions = judge_config.get("extra_instructions", "")
         extra_str = f"\n\nAdditional Instructions:\n{extra_instructions}" if extra_instructions else ""
 
-        user_prompt = f"""Configuration:
+        user_prompt_judge = f"""Configuration:
 - Profile: {profile}
 - Entity types in scope: {entity_types_str}
 
 Matching Rules:
 {matching_rules_str}{extra_str}
 
-Original Transcript:
-{transcript}
+GOLD (Reference) Facts:
+{json.dumps(gold_facts, indent=2)}
 
 Predicted Facts (from model):
 {json.dumps(predicted_facts, indent=2)}
 
 Task:
-1. Identify all expected facts from the transcript for entity types: {entity_types_str}
-2. Compare each expected fact with predicted facts using the matching rules above
-3. Label each fact:
+1. Compare each gold fact with predicted facts using these matching rules.
+2. Label:
    - gold_facts: status = "TP" if matched, "FN" if not found in predictions
-   - predicted_facts: status = "TP" if matched, "FP" if not found in expected
-4. Include match links (matched_ids) between related facts
-5. Mark in_scope = true for entity types in scope, false otherwise
+   - predicted_facts: status = "TP" if matched, "FP" if not found in gold
+3. Include match links (matched_ids) between related facts.
+4. Mark in_scope = true for entity types in scope, false otherwise.
 
 IMPORTANT: Each fact must have a "fields" object containing all the fact's data.
 
@@ -441,7 +542,7 @@ Example output format:
 
 Return the structured result."""
 
-        # Define the output schema
+        # Judge output schema (same as before)
         judge_schema = {
             "type": "object",
             "properties": {
@@ -453,12 +554,13 @@ Return the structured result."""
                         "properties": {
                             "id": {"type": "string", "description": "Unique identifier for this gold fact (e.g., 'g1', 'g2')"},
                             "fact_type": {"type": "string", "description": "Type of fact (e.g., 'asset', 'debt', 'income', 'client')"},
-                            "fields": {"type": "object", "description": "Object containing all the fact's data fields (e.g., {\"type\": \"home\", \"value\": 425000})"},
+                            "description": {"type": "string", "description": "Very detailed description of the fact's data with all attributes and values"},
                             "in_scope": {"type": "boolean", "description": "Whether this fact type is in scope for evaluation"},
                             "matched_ids": {"type": "array", "items": {"type": "string"}, "description": "IDs of predicted facts that match this gold fact"},
                             "status": {"type": "string", "enum": ["TP", "FN"], "description": "TP if matched with a predicted fact, FN if missed"}
                         },
-                        "required": ["id", "fact_type", "fields", "in_scope", "matched_ids", "status"]
+                        "required": ["id", "fact_type", "description", "in_scope", "matched_ids", "status"],
+                        "additionalProperties": False
                     }
                 },
                 "predicted_facts": {
@@ -469,49 +571,49 @@ Return the structured result."""
                         "properties": {
                             "id": {"type": "string", "description": "Unique identifier for this predicted fact (e.g., 'p1', 'p2')"},
                             "fact_type": {"type": "string", "description": "Type of fact (e.g., 'asset', 'debt', 'income', 'client')"},
-                            "fields": {"type": "object", "description": "Object containing all the fact's data fields (e.g., {\"type\": \"home\", \"value\": 425000})"},
+                            "description": {"type": "string", "description": "Very detailed description of the fact's data with all attributes and values"},
                             "in_scope": {"type": "boolean", "description": "Whether this fact type is in scope for evaluation"},
                             "matched_ids": {"type": "array", "items": {"type": "string"}, "description": "IDs of gold facts that match this predicted fact"},
                             "status": {"type": "string", "enum": ["TP", "FP"], "description": "TP if matched with a gold fact, FP if hallucinated"}
                         },
-                        "required": ["id", "fact_type", "fields", "in_scope", "matched_ids", "status"]
+                        "required": ["id", "fact_type", "description", "in_scope", "matched_ids", "status"],
+                        "additionalProperties": False
                     }
                 },
                 "notes": {"type": "string", "description": "Optional evaluation notes or observations"}
             },
-            "required": ["gold_facts", "predicted_facts"],
+            "required": ["gold_facts", "predicted_facts", "notes"],
             "additionalProperties": False
         }
 
         response = await client.chat.completions.create(
             model=model,
             temperature=0.0,
+            seed=54321,
             messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt},
+                {"role": "system", "content": system_prompt_judge},
+                {"role": "user", "content": user_prompt_judge},
             ],
             response_format={"type": "json_object"},
-            tool_choice="auto",
+            tool_choice="required",
             tools=[
                 {
                     "type": "function",
                     "function": {
+                        "strict": True,
                         "name": "judge_result",
                         "description": "Return judge evaluation with labeled facts",
                         "parameters": judge_schema
                     }
                 }
-            ],
-            seed=42
+            ]
         )
 
-        # Extract from function call
         result = response.choices[0]
         if hasattr(result, "message") and hasattr(result.message, "tool_calls"):
             for tool in result.message.tool_calls:
                 if tool.function.name == "judge_result":
                     return json.loads(tool.function.arguments)
-
         # Fallback: try direct JSON in message content
         try:
             return json.loads(result.message.content)

@@ -1,14 +1,23 @@
 "use client";
 
 import { useState } from "react";
-import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { experimentsAPI, judgesAPI, modelsAPI } from "@/lib/api";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
-import { Plus, FlaskConical, Trash2 } from "lucide-react";
+import { Plus, FlaskConical } from "lucide-react";
 import ExperimentForm from "@/components/ExperimentForm";
 import ExperimentDetail from "@/components/ExperimentDetail";
+
+interface Experiment {
+  id: number;
+  name: string;
+  prompt: string;
+  schema_json: string;
+  model: string;
+  enable_two_pass?: boolean;
+}
 
 export default function ExperimentsPage() {
   const queryClient = useQueryClient();
@@ -31,20 +40,6 @@ export default function ExperimentsPage() {
     queryKey: ["models"],
     queryFn: modelsAPI.list,
   });
-
-  const deleteMutation = useMutation({
-    mutationFn: experimentsAPI.delete,
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["experiments"] });
-      setSelectedExperiment(null);
-    },
-  });
-
-  const handleDelete = (id: number) => {
-    if (confirm("Are you sure you want to delete this experiment?")) {
-      deleteMutation.mutate(id);
-    }
-  };
 
   const handleCreateSuccess = () => {
     setShowCreateForm(false);
@@ -102,7 +97,7 @@ export default function ExperimentsPage() {
           onValueChange={(value) => setSelectedExperiment(parseInt(value))}
         >
           <TabsList className="w-full justify-start overflow-x-auto flex-wrap h-auto">
-            {experiments.map((exp: any) => (
+            {experiments.map((exp: Experiment) => (
               <TabsTrigger
                 key={exp.id}
                 value={exp.id.toString()}
@@ -114,7 +109,7 @@ export default function ExperimentsPage() {
             ))}
           </TabsList>
 
-          {experiments.map((exp: any) => (
+          {experiments.map((exp: Experiment) => (
             <TabsContent key={exp.id} value={exp.id.toString()}>
               <ExperimentDetail
                 experiment={exp}
