@@ -213,7 +213,13 @@ The extraction schema balances complexity (capturing detailed financial data) wi
 - **FactValue pattern** - tracks timestamps, citations, estimates, and temporal context for audit trails
 - **Advanced JSON Schema features** - uses `$ref`, `allOf`, `anyOf` for reusable, maintainable structure
 
-**Iterative development:** Test on templates → analyze coverage → remove redundancies → refine based on stability
+Iterative refinement process:
+1. Used ChatGPT to create a baseline schema (initial version was too permissive)
+2. Test extraction on 2 template transcripts with loose schema
+3. Analyze field coverage - which fields appear consistently
+4. Identify duplicate or redundant fields  
+5. Re-run on generated data and refine schema based on stability analysis
+6. Re-test until stable results achieved
 
 For complete details on schema constraints and development process, see **[approach.md#structured-schema-design](approach.md#structured-schema-design)**
 

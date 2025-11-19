@@ -83,11 +83,12 @@ These features help LLMs represent the structure better than flat schemas.
 #### Schema Development Process
 
 Iterative refinement process:
-1. Test extraction on 2 template transcripts with loose schema
-2. Analyze field coverage - which fields appear consistently
-3. Identify duplicate or redundant fields  
-4. Re-run on generated data and refine schema based on stability analysis
-5. Re-test until stable results achieved
+1. Used ChatGPT to create a baseline schema (initial version was too permissive)
+2. Test extraction on 2 template transcripts with loose schema
+3. Analyze field coverage - which fields appear consistently
+4. Identify duplicate or redundant fields  
+5. Re-run on generated data and refine schema based on stability analysis
+6. Re-test until stable results achieved
 
 ---
 
