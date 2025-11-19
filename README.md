@@ -66,9 +66,17 @@ In production financial systems:
 
 #### Demo App
 
-**Live demo:** [https://e4af10f6bf6b.ngrok-free.app/](https://e4af10f6bf6b.ngrok-free.app/)
+**Live:** [https://e4af10f6bf6b.ngrok-free.app/](https://e4af10f6bf6b.ngrok-free.app/)
 
 ⚠️ **Note:** This is a adhoc proof-of-concept deployment running on a homeserver with SQLite.
+
+Basic Workflow:
+
+1. **View Transcripts** - Browse generated conversations
+2. **Create a Judge** - Define matching rules and entity types
+3. **Create an Experiment** - Specify extraction prompt and JSON schema
+4. **Run Evaluation** - Judge evaluates experiment on all transcripts
+5. **View Results** - Leaderboard with precision/recall/F1, detailed per-transcript breakdowns
 
 #### Why I Built an Application
 
